@@ -1,5 +1,5 @@
 {
- "note": "Top news outlets per country. Headlines and links only are collected (no article text). type marks public broadcasters, state media, wires etc. so readers can weigh the source. Add an outlet: append an entry; the hourly job checks the feed.",
+ "note": "Top news outlets per country. Headlines and links only are collected (no article text). type marks public broadcasters, state media, wires etc. so readers can weigh the source. Add an outlet: append an entry; the hourly job checks the feed. readable:false = our article reader is blocked by the outlet, so it appears in headline lists only and cannot be used as a source for summaries or perspectives.",
  "countryNamesIs": {
   "GBR": "Bretland",
   "USA": "Bandaríkin",
@@ -44,7 +44,8 @@
    "domain": "bbc.com",
    "type": "public broadcaster",
    "lang": "en",
-   "feed": "https://feeds.bbci.co.uk/news/world/rss.xml"
+   "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "readable": false
   },
   {
    "id": "theguardian",
@@ -134,7 +135,8 @@
    "domain": "dw.com",
    "type": "public broadcaster",
    "lang": "en",
-   "feed": "https://rss.dw.com/rdf/rss-en-all"
+   "feed": "https://rss.dw.com/rdf/rss-en-all",
+   "readable": false
   },
   {
    "id": "spiegel",
@@ -152,7 +154,8 @@
    "domain": "france24.com",
    "type": "public broadcaster",
    "lang": "en",
-   "feed": "https://www.france24.com/en/rss"
+   "feed": "https://www.france24.com/en/rss",
+   "readable": false
   },
   {
    "id": "lemonde",
@@ -161,7 +164,8 @@
    "domain": "lemonde.fr",
    "type": "newspaper",
    "lang": "fr",
-   "feed": "https://www.lemonde.fr/rss/une.xml"
+   "feed": "https://www.lemonde.fr/rss/une.xml",
+   "readable": false
   },
   {
    "id": "lefigaro",

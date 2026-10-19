@@ -91,6 +91,8 @@ def validate_article(a, allowed, now):
             errs.append("quotation longer than 15 words")
     if len(a["titleIs"]) > 140:
         errs.append("title longer than 140 characters")
+    if a.get("basis") != "article":
+        errs.append("basis must be 'article': every item must rest on an article that was opened and read")
     if a.get("type") == "sjonarhorn":
         ps = a.get("perspectives") or []
         if len(ps) < 2 or len({p.get("country") for p in ps}) < 2:
@@ -99,8 +101,8 @@ def validate_article(a, allowed, now):
             ph = (urlparse(p.get("url", "")).hostname or "").lower()
             if not any(ph == d or ph.endswith("." + d) for d in allowed):
                 errs.append(f"perspective outlet {ph} not allowed")
-            if p.get("basis") not in ("headline", "article"):
-                errs.append("perspective basis must be headline or article")
+            if p.get("basis") != "article":
+                errs.append("perspective must rest on an article that was opened and read (basis: article), not a headline")
             f = p.get("framingIs", "")
             if not f or len(f) > 260:
                 errs.append("perspective framingIs missing or longer than 260 characters")
@@ -122,7 +124,7 @@ def section_articles(now):
         if (now - datetime.date.fromisoformat(a["published"])).days > 45:
             continue
         out.append({"id": a["id"], "section": a["section"], "kind": "sjónarhorn" if a.get("type") == "sjonarhorn" else "frétt",
-                    "perspectives": a.get("perspectives"), "date": a["published"],
+                    "perspectives": a.get("perspectives"), "paywall": bool(a.get("paywall")), "date": a["published"],
                     "titleIs": a["titleIs"], "summaryIs": a["summaryIs"],
                     "source": {"name": a["source"], "url": a["url"]},
                     "link": f"/#{a['iso3'].lower()}" if a.get("iso3") else None, "iso3": a.get("iso3")})

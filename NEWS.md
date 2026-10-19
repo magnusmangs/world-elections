@@ -6,8 +6,10 @@ and results from the last 7 days. Neutral, accurate, and always credited.
 1. `python3 scripts/build.py` then open `data/elections.json` and list countries voting within 30 days.
 2. For each (closest dates first), search recent news (last 7 days) from outlets in `data/news/sources.json`.
    Use separate searches for different parties or candidates so coverage is balanced. Skip opinion pieces.
-3. Open every article you use (WebFetch) and confirm the headline, publication date and the facts you report.
-   Do not rely on search snippets. Paywalled article: use only what is visible, or skip it.
+3. Open and read every article you use (WebFetch) and confirm the headline, publication date and the facts you report.
+   Never rely on headlines or search snippets. Set `"basis": "article"` on every item. Prefer free-to-read articles;
+   if you use a paywalled one, use only what you could read and set `"paywall": true`. Skip outlets marked
+   `readable: false` in outlets.json as sources.
 4. Add items to `data/news/articles.json` (newest first). Fields:
    `id` (iso3-date-outlet), `section` "kosningar", `iso3`, `published` (article date, YYYY-MM-DD), `added` (today),
    `titleIs` (own words, max 140 chars), `summaryIs` (own words, max 3 sentences / 420 chars),
@@ -26,8 +28,12 @@ and results from the last 7 days. Neutral, accurate, and always credited.
      `domestic` is what the country's own outlets lead with; `foreign` is coverage by outlets in other countries.
    - Pick a story covered by outlets in at least 2 (ideally 3+) different countries, including at least one domestic
      outlet where possible. Prefer outlets of different types (public broadcaster, newspaper, state media).
-   - Open each article (WebFetch). If an outlet blocks reading, you may use its headline only and must set
-     `"basis": "headline"`; never work around a block.
+   - Open and read each article (WebFetch). Every perspective must rest on the article itself: set `"basis": "article"`.
+     Headline-only perspectives are not allowed. If an outlet blocks reading (outlets.json `readable: false`) or the
+     article cannot be opened, leave that outlet out; never work around a block. If fewer than 2 readable outlets from
+     2 countries remain, do not publish the perspective.
+   - Find article URLs through WebSearch (search the headline) so they can be opened; prefer free-to-read articles and
+     set `"paywall": true` on any item or perspective whose article needs a subscription.
    - Add an item with `"type": "sjonarhorn"` and `perspectives`: [{outlet, country (ISO3), published, basis
      ("article" or "headline"), url, framingIs}]. framingIs describes, in neutral Icelandic, what that outlet
      emphasises (max 260 chars). summaryIs states the main differences without judging which outlet is right.

@@ -16,7 +16,7 @@
       const ext = !i.link;
       if (i.kind === "sjónarhorn") return perspectiveHtml(i);
       const src = i.kind === "frétt"
-        ? `Heimild: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(i.source.name)}</a>`
+        ? `Heimild: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(i.source.name)}</a>${i.paywall ? ' <span class="basis">(krefst áskriftar)</span>' : ""}`
         : i.source ? `Úr gögnum síðunnar. Frumgagn: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(i.source.name)}</a>${i.ai ? ". Unnið með gervigreind, tölur sannreyndar" : ""}` : "Úr gögnum síðunnar";
       return `<li>
         <time datetime="${esc(i.date)}">${esc(dateShort(i.date))}<br><span class="tag tag-${esc(i.section)}">${esc(TAG[i.section] || i.section)}</span></time>
@@ -28,14 +28,14 @@
     }).join("") : `<li>Engar fréttir í þessum flokki síðustu vikurnar.</li>`;
   }
   function perspectiveHtml(i) {
-    const basis = (b) => b === "article" ? "byggt á grein" : "byggt á fyrirsögn";
+    const basis = (p) => p.paywall ? "krefst áskriftar" : "";
     return `<li class="persp-item">
       <time datetime="${esc(i.date)}">${esc(dateShort(i.date))}<br><span class="tag tag-${esc(i.section)}">Sjónarhorn</span></time>
       <div>
         <h3>${esc(i.titleIs)}</h3>
         <p>${esc(i.summaryIs)}</p>
         <ul class="persp">${(i.perspectives || []).map((p) => `<li>
-          <span class="persp-src"><span class="cc">${esc(nom(p.country))}</span> <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.outlet)}</a> <span class="basis">${basis(p.basis)}</span></span>
+          <span class="persp-src"><span class="cc">${esc(nom(p.country))}</span> <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.outlet)}</a> <span class="basis">${basis(p)}</span></span>
           <span>${esc(p.framingIs)}</span></li>`).join("")}</ul>
       </div></li>`;
   }
