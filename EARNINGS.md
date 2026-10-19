@@ -14,8 +14,11 @@ Run on weekdays. Each step is required.
    - periodEnd: the quarter-end date. If the release does not state it, use the company's last quarter end in
      data/finance/companies/<TICKER>.json plus 13 weeks (or the calendar quarter end if it reports on calendar quarters).
    - highlights_is / guidance_is: correct, neutral Icelandic, no digits, no numbers in words, no opinions or advice.
-4. `python3 scripts/press_releases.py --apply` verifies every figure in code. Only verified figures are published.
+4. Sync first so you apply on the newest data (the 30-minute GitHub job also updates data/finance):
+   `git checkout -- data/finance && git pull --rebase origin main`, then run
+   `python3 scripts/press_releases.py --apply` verifies every figure in code. Only verified figures are published.
    Rejected figures are logged in data/finance/releases/<accession>.json; unverifiable releases go to data/finance/review.json.
 5. Commit `data/finance` (not data/finance/work) as `Earnings summaries <date>: <tickers>` and push to main.
-   The push triggers the Vercel deploy. Never force-push.
+   Do this immediately after step 4. If the push is rejected because main moved, repeat step 4 and 5 once
+   (the answer files in data/finance/work survive the reset). The push triggers the Vercel deploy. Never force-push.
 6. Report in a few lines: which releases were published, how many figures were rejected and why, anything in review.json.
