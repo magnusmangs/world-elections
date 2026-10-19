@@ -59,3 +59,8 @@ body.fin { background: var(--surface); }
   .feed li { grid-template-columns: 1fr; gap: 2px; }
   .kpis { grid-template-columns: 1fr; }
 }
+.ai-label { font-size: .8rem; color: var(--muted); margin: 4px 0 0; }
+.ai-label a { color: var(--muted); }
+.fresh { margin-top: 16px; padding: 12px 14px; border-left: 4px solid var(--chip-gov); background: var(--chip-gov-bg); border-radius: 0 8px 8px 0; }
+.fresh h3 { margin: 0 0 4px; font-size: 1rem; }
+.fresh p { margin: 4px 0 0; }

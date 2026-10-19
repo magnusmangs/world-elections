@@ -15,3 +15,4 @@ Updated weekly by a scheduled Claude task that researches changes, edits country
 - `data/finance/watchlist.json`: tracked companies. Add `{ "ticker": "...", "name": "..." }`.
 - `scripts/fundamentals.py`: pulls SEC EDGAR filings and XBRL figures plus the Seðlabanki USD/ISK rate, writes `data/finance/`. Figures come only from filings; Icelandic text uses fixed templates.
 - `.github/workflows/update-finance.yml`: runs every 30 minutes on weekdays, commits only when data changed, then deploys.
+- `scripts/press_releases.py`: day-one summaries of earnings releases (8-K Exhibit 99.1). Claude extracts figures with exact quotes; code verifies each quote verbatim, the number inside it, the multiplier and plausibility against the last XBRL quarter. Numeric sentences come from templates; AI prose may contain no digits. Failures go to `data/finance/review.json`. Needs the repo secret `ANTHROPIC_API_KEY` (model via `ANTHROPIC_MODEL`, default claude-sonnet-5-5).

@@ -69,6 +69,7 @@
         <div>
           <h3><button type="button" data-tk="${esc(i.ticker)}">${esc(i.headlineIs)}</button></h3>
           ${i.summaryIs ? `<p>${esc(i.summaryIs)}</p>` : ""}
+          ${i.ai && i.ai.status === "verified" ? `<p class="ai-label">${esc(i.ai.label)}</p>` : ""}
           <p class="src">${esc(i.kind)} (${esc(i.form)}${i.periodEnd ? `, tímabil til ${esc(dateShort(i.periodEnd))}` : ""}). <a href="${esc(i.url)}" target="_blank" rel="noopener">Frumgagn hjá SEC</a></p>
         </div></li>`).join("") + (items.length > state.feedShown ? `<li class="more"><button type="button" class="pill" id="more">Sýna fleiri</button></li>` : "")
       : `<li>Engin skil frá fyrirtækjum sem þú fylgist með. Veldu „Öll“ til að sjá allt.</li>`;
@@ -94,6 +95,10 @@
       <h2 id="panel-title">${esc(c.name)}</h2>
       <p class="leaders">${esc(c.ticker)} · ${esc(c.sector)}</p>
       <button type="button" class="follow" id="follow" aria-pressed="${following}">${following ? "Fylgist með" : "Fylgjast með"}</button>
+      ${(() => {
+        const r = state.feed.find((i) => i.ticker === c.ticker && i.form === "8-K" && i.ai && i.ai.status === "verified" && i.periodEnd > c.latest.periodEnd);
+        return r ? `<div class="fresh"><h3>Nýjasta afkomutilkynning (${esc(dateShort(r.filed))})</h3><p>${esc(r.summaryIs)}</p><p class="ai-label">${esc(r.ai.label)} <a href="${esc(r.ai.exhibit)}" target="_blank" rel="noopener">Frumtexti</a></p></div><h3>Síðasta formlega uppgjör</h3>` : "";
+      })()}
       <p class="summary">${esc(c.summaryIs)}</p>
       <h3>Ársfjórðungur til ${esc(dateLong(c.latest.periodEnd))}</h3>
       <dl class="kpis">

@@ -2,3 +2,4 @@
 .vercel
 .vercel-token
 node_modules
+__pycache__/

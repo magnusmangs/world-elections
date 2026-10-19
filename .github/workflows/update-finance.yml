@@ -29,6 +29,10 @@ jobs:
           node-version: 22
       - name: Fetch fundamentals from SEC EDGAR
         run: python3 scripts/fundamentals.py
+      - name: Day-one Icelandic summaries of new earnings releases (AI, verified)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/press_releases.py --max 8 --days 10
       - name: Commit if data changed
         id: commit
         run: |
