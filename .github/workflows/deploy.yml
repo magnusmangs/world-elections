@@ -1,0 +1,26 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_ORG_ID: team_kvUU3CsmbN6ecnp7qHGvXys6
+      VERCEL_PROJECT_ID: prj_6y7RdFzKDR8auGyeMe6rEhw7dQjq
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check data builds
+        run: python3 scripts/build.py --today "$(date -u +%F)"
+      - name: Deploy
+        run: npx --yes vercel@latest deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}"
