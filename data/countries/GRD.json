@@ -12,7 +12,7 @@
   }
  ],
  "leaders": "Prime Minister Dickon Mitchell (NDC)",
- "summary": "Prime Minister Mitchell called an early election, about a year before it was due. Two parties contest all 15 seats.",
+ "summary": "Prime Minister Mitchell called the vote almost a year before the October 2027 deadline. Two parties contest all 15 seats.",
  "parties": [
   {
    "name": "National Democratic Congress",
@@ -24,9 +24,9 @@
    "lastResult": "51.8%, 9 seats (2022)",
    "polling": "",
    "policies": [
-    "Seeks a second term on post-Hurricane Beryl reconstruction",
-    "Youth employment and skills programmes",
-    "Public sector and governance reform"
+    "Seeks a second term on continuity and public service",
+    "Frames the vote as moving Grenada, Carriacou and Petite Martinique forward",
+    "Detailed manifesto limited in English-language sources so far"
    ]
   },
   {
@@ -39,13 +39,13 @@
    "lastResult": "47.1%, 6 seats (2022)",
    "polling": "",
    "policies": [
-    "Cost-of-living relief",
-    "Criticises pace of hurricane recovery",
-    "Investment-led economic growth"
+    "First general election under Emmalin Pierre, the party's first woman leader",
+    "Detailed manifesto limited in English-language sources so far"
    ]
   }
  ],
  "sources": [
+  "https://jamaica-gleaner.com/index%2Ephp/article/world-news/20261006/mitchell-calls-early-election",
   "https://www.caribbeannationalweekly.com/posts/grenada-sets-nov-5-date-for-general-elections",
   "https://en.wikipedia.org/wiki/2027_Grenadian_general_election"
  ]
