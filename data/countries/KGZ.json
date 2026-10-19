@@ -1,0 +1,37 @@
+{
+ "iso3": "KGZ",
+ "isoNumeric": "417",
+ "name": "Kyrgyzstan",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-01-27",
+   "dateStatus": "tentative",
+   "type": "Presidential",
+   "note": "Five-year term, two-term limit under the 2021 constitution."
+  }
+ ],
+ "leaders": "President Sadyr Japarov",
+ "summary": "A February 2026 Constitutional Court ruling allowed Sadyr Japarov to seek a second term. International monitors report democratic backsliding and pressure on independent media since 2021.",
+ "parties": [
+  {
+   "name": "Sadyr Japarov",
+   "abbr": "IND",
+   "leader": "Sadyr Japarov",
+   "position": "",
+   "ideology": "Nationalism, populism",
+   "inGovernment": true,
+   "lastResult": "79% (2021)",
+   "polling": "",
+   "policies": [
+    "Seeks a second term",
+    "Strong presidential system",
+    "Economic development and anti-corruption campaign against old elites"
+   ]
+  }
+ ],
+ "noParties": "Opposition candidates have not been confirmed.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Kyrgyz_presidential_election"
+ ]
+}

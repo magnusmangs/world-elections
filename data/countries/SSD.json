@@ -1,0 +1,64 @@
+{
+ "iso3": "SSD",
+ "isoNumeric": "728",
+ "name": "South Sudan",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-12-22",
+   "dateStatus": "tentative",
+   "type": "General (first since independence)",
+   "note": "Presidency, National Legislative Assembly and Council of States."
+  }
+ ],
+ "leaders": "President Salva Kiir (SPLM)",
+ "summary": "South Sudan has never held a national election since independence in 2011; the vote has been postponed repeatedly since 2015. Main opposition leader Riek Machar has been under arrest and on trial since 2025.",
+ "parties": [
+  {
+   "name": "SPLM",
+   "abbr": "SPLM",
+   "leader": "Salva Kiir",
+   "position": "Centre-left",
+   "ideology": "Nationalism, big tent",
+   "inGovernment": true,
+   "lastResult": "332 of 550 Assembly seats (appointed transitional)",
+   "polling": "",
+   "policies": [
+    "Kiir is the presidential nominee",
+    "Implementation of the 2018 peace deal on its terms",
+    "Dissolved transitional government ahead of the vote"
+   ]
+  },
+  {
+   "name": "SPLM-IO",
+   "abbr": "SPLM-IO",
+   "leader": "Riek Machar (detained)",
+   "position": "Centre-left",
+   "ideology": "Federalism",
+   "inGovernment": false,
+   "lastResult": "Partner in transitional government",
+   "polling": "",
+   "policies": [
+    "Demands release of Machar",
+    "Questions conditions for a credible vote",
+    "Federal system of government"
+   ]
+  },
+  {
+   "name": "People's Liberal Party",
+   "abbr": "PLP",
+   "leader": "Peter Mayen (candidate)",
+   "position": "",
+   "ideology": "Liberalism",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Platform details limited in English-language sources"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_South_Sudanese_general_election"
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "iso3": "PNG",
+ "isoNumeric": "598",
+ "name": "Papua New Guinea",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-06-01",
+   "dateStatus": "expected",
+   "type": "General election",
+   "note": "National Parliament; exact date not yet set."
+  }
+ ],
+ "leaders": "Prime Minister James Marape (Pangu Pati)",
+ "summary": "No party won a majority in 2022, and Marape leads a coalition. The status of Bougainville, which voted for independence in 2019, is expected to be a key issue.",
+ "parties": [
+  {
+   "name": "Pangu Pati",
+   "abbr": "Pangu",
+   "leader": "James Marape",
+   "position": "Centre",
+   "ideology": "",
+   "inGovernment": true,
+   "lastResult": "39 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Take Back PNG economic nationalism",
+    "Resource project renegotiation",
+    "Bougainville settlement process"
+   ]
+  },
+  {
+   "name": "People's National Congress",
+   "abbr": "PNC",
+   "leader": "Joseph Lelang",
+   "position": "Centre-right",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Platform details limited"
+   ]
+  },
+  {
+   "name": "National Alliance Party",
+   "abbr": "NAP",
+   "leader": "Allan Bird",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Platform details limited"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Next_Papua_New_Guinean_general_election"
+ ]
+}

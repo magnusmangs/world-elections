@@ -1,0 +1,77 @@
+{
+ "iso3": "AND",
+ "isoNumeric": "020",
+ "name": "Andorra",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-04-01",
+   "dateStatus": "expected",
+   "type": "Parliamentary (General Council)",
+   "note": "28 seats. Must be held by April 2027."
+  }
+ ],
+ "leaders": "Head of Government Xavier Espot Zamora (DA), term-limited",
+ "summary": "The Democrats for Andorra–Committed Citizens coalition holds a 16-seat majority. Head of Government Xavier Espot is barred by term limits from running again.",
+ "parties": [
+  {
+   "name": "Democrats for Andorra + Committed Citizens",
+   "abbr": "DA+CC",
+   "leader": "New leader to be chosen (Espot term-limited)",
+   "position": "Centre-right",
+   "ideology": "Liberal conservatism",
+   "inGovernment": true,
+   "lastResult": "16 seats (2023)",
+   "polling": "",
+   "policies": [
+    "EU association agreement",
+    "Housing affordability measures",
+    "Fiscal stability"
+   ]
+  },
+  {
+   "name": "Concord",
+   "abbr": "Concòrdia",
+   "leader": "Cerni Escalé",
+   "position": "Centre",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "5 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Main opposition force",
+    "Housing and cost-of-living focus"
+   ]
+  },
+  {
+   "name": "Social Democratic Party",
+   "abbr": "PS",
+   "leader": "Pere Baró",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "3 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Public housing and workers' rights",
+    "Progressive taxation"
+   ]
+  },
+  {
+   "name": "Andorra Forward",
+   "abbr": "Endavant",
+   "leader": "Carine Montaner",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "3 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Platform details limited"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Andorran_parliamentary_election"
+ ]
+}

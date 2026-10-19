@@ -1,0 +1,50 @@
+{
+ "iso3": "GNB",
+ "isoNumeric": "624",
+ "name": "Guinea-Bissau",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-12-06",
+   "dateStatus": "tentative",
+   "type": "Presidential and parliamentary",
+   "note": "102-seat National People's Assembly. Set by junta decree."
+  }
+ ],
+ "leaders": "Transitional President Gen. Horta Inta-A Na Man (military)",
+ "summary": "The November 2025 elections were annulled after a military coup ousted President Umaro Sissoco Embaló. The junta set a one-year transition ending in these polls. Publishing opinion polls is banned.",
+ "parties": [
+  {
+   "name": "PAIGC",
+   "abbr": "PAIGC",
+   "leader": "Domingos Simões Pereira",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "Largest party (2023)",
+   "polling": "",
+   "policies": [
+    "Historic independence party",
+    "Demands a swift return to constitutional order",
+    "Participation conditions still unclear"
+   ]
+  },
+  {
+   "name": "Party for Social Renewal",
+   "abbr": "PRS",
+   "leader": "",
+   "position": "Centre",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Led government before the transition",
+    "Platform details limited in English-language sources"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Guinea-Bissau_general_election"
+ ]
+}

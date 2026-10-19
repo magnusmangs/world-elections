@@ -1,0 +1,82 @@
+{
+ "iso3": "SLV",
+ "isoNumeric": "222",
+ "name": "El Salvador",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-02-28",
+   "dateStatus": "confirmed",
+   "type": "Presidential, legislative and municipal",
+   "note": "Moved forward from 2029 after 2025 reforms. Presidential term now six years with no term limit."
+  }
+ ],
+ "leaders": "President Nayib Bukele (Nuevas Ideas)",
+ "summary": "In July 2025 the Legislative Assembly abolished presidential term limits and moved the election to 2027. Bukele has registered as a pre-candidate for another term.",
+ "parties": [
+  {
+   "name": "Nuevas Ideas",
+   "abbr": "NI",
+   "leader": "Nayib Bukele (candidate)",
+   "position": "Big tent",
+   "ideology": "Bukelism, populism",
+   "inGovernment": true,
+   "lastResult": "84.7% presidential; 54 of 60 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Continue the state of exception against gangs",
+    "Bukele seeks another term",
+    "Large prison and security build-out",
+    "Bitcoin and investment-led growth"
+   ]
+  },
+  {
+   "name": "ARENA",
+   "abbr": "ARENA",
+   "leader": "Carlos García Saade",
+   "position": "Right",
+   "ideology": "Conservatism",
+   "inGovernment": false,
+   "lastResult": "5.6% presidential (2024)",
+   "polling": "",
+   "policies": [
+    "Opposes removal of term limits",
+    "Restore checks and balances",
+    "Market economy"
+   ]
+  },
+  {
+   "name": "FMLN",
+   "abbr": "FMLN",
+   "leader": "Manuel Flores",
+   "position": "Left",
+   "ideology": "Democratic socialism",
+   "inGovernment": false,
+   "lastResult": "6.4% presidential (2024)",
+   "polling": "",
+   "policies": [
+    "Open to an opposition coalition, but not with ARENA",
+    "Opposes constitutional reforms",
+    "Social programmes and workers' rights"
+   ]
+  },
+  {
+   "name": "Vamos",
+   "abbr": "Vamos",
+   "leader": "Cesia Rivas",
+   "position": "Centre-right",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "No presidential candidate",
+    "Focus on legislative and municipal races",
+    "Opposes the constitutional reforms"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Salvadoran_general_election"
+ ]
+}

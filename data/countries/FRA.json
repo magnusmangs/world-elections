@@ -1,0 +1,114 @@
+{
+ "iso3": "FRA",
+ "isoNumeric": "250",
+ "name": "France",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-04-18",
+   "dateStatus": "tentative",
+   "type": "Presidential (first round)",
+   "note": "Run-off two weeks later if no majority."
+  }
+ ],
+ "leaders": "President Emmanuel Macron (term-limited)",
+ "summary": "Macron cannot run again. Marine Le Pen, whose ineligibility expired in June 2026, leads first-round polls with 35–38%, while Mélenchon and Édouard Philippe compete for second place (Harris Interactive, Aug 2026).",
+ "parties": [
+  {
+   "name": "Marine Le Pen (National Rally)",
+   "abbr": "RN",
+   "leader": "Marine Le Pen",
+   "position": "Far-right",
+   "ideology": "National populism",
+   "inGovernment": false,
+   "lastResult": "23.2% first round (2022)",
+   "polling": "35–38% (Harris, Aug 2026)",
+   "policies": [
+    "Sharp cuts to immigration and 'national priority' for French citizens",
+    "Lower retirement age for long careers",
+    "Cut VAT on energy",
+    "Sceptical of EU powers"
+   ]
+  },
+  {
+   "name": "Jean-Luc Mélenchon (La France Insoumise)",
+   "abbr": "LFI",
+   "leader": "Jean-Luc Mélenchon",
+   "position": "Left",
+   "ideology": "Left-wing populism, democratic socialism",
+   "inGovernment": false,
+   "lastResult": "22.0% first round (2022)",
+   "polling": "16–17%",
+   "policies": [
+    "Retirement at 60",
+    "Higher minimum wage and price freezes",
+    "A 'Sixth Republic' constitution",
+    "Ecological planning"
+   ]
+  },
+  {
+   "name": "Édouard Philippe (Horizons)",
+   "abbr": "HOR",
+   "leader": "Édouard Philippe",
+   "position": "Centre-right",
+   "ideology": "Liberal conservatism",
+   "inGovernment": false,
+   "lastResult": "First run",
+   "polling": "14–19%",
+   "policies": [
+    "Deep reform of public finances",
+    "Raise retirement age further",
+    "Firm on law and order and immigration"
+   ]
+  },
+  {
+   "name": "Gabriel Attal (Renaissance)",
+   "abbr": "RE",
+   "leader": "Gabriel Attal",
+   "position": "Centre",
+   "ideology": "Liberalism, pro-Europeanism",
+   "inGovernment": false,
+   "lastResult": "First run",
+   "polling": "8–15%",
+   "policies": [
+    "Continue pro-European, pro-business course",
+    "Distinguish himself from Macron's record",
+    "Education and youth focus"
+   ]
+  },
+  {
+   "name": "Bruno Retailleau (The Republicans)",
+   "abbr": "LR",
+   "leader": "Bruno Retailleau",
+   "position": "Right",
+   "ideology": "Conservatism",
+   "inGovernment": false,
+   "lastResult": "First run",
+   "polling": "",
+   "policies": [
+    "Strict immigration control",
+    "Law and order",
+    "Cut public spending"
+   ]
+  },
+  {
+   "name": "Raphaël Glucksmann (Place Publique / PS)",
+   "abbr": "PP",
+   "leader": "Raphaël Glucksmann",
+   "position": "Centre-left",
+   "ideology": "Social democracy, pro-Europeanism",
+   "inGovernment": false,
+   "lastResult": "First run",
+   "polling": "",
+   "policies": [
+    "Strong support for Ukraine and European defence",
+    "Tax on very high wealth",
+    "Ecological transition"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_French_presidential_election",
+  "https://brusselssignal.eu/2026/08/french-poll-puts-melenchon-in-2027-runoff-as-le-pen-leads/"
+ ]
+}

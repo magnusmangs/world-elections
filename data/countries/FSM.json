@@ -1,0 +1,21 @@
+{
+ "iso3": "FSM",
+ "isoNumeric": "583",
+ "name": "Micronesia",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-03-02",
+   "dateStatus": "tentative",
+   "type": "Parliamentary (Congress)",
+   "note": "14 seats. The president is then elected by Congress."
+  }
+ ],
+ "leaders": "President Wesley Simina",
+ "summary": "Micronesia has no political parties; all candidates run as independents.",
+ "parties": [],
+ "noParties": "No political parties exist. Candidates stand as independents.",
+ "sources": [
+  "https://www.electionguide.org/elections/type/upcoming/"
+ ]
+}

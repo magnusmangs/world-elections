@@ -1,0 +1,11 @@
+{
+ "note": "Countries likely to vote within ~14 months that are not yet in data/countries. The weekly update researches these first.",
+ "countries": [
+  {"name": "Nicaragua", "iso3": "NIC", "isoNumeric": "558", "why": "General election due Nov 2026 or 2027; status unclear after 2025 constitutional changes"},
+  {"name": "Lesotho", "iso3": "LSO", "isoNumeric": "426", "why": "National Assembly election due by late 2027"},
+  {"name": "Saint Kitts and Nevis", "iso3": "KNA", "isoNumeric": "659", "why": "General election due by late 2027"},
+  {"name": "Dominica", "iso3": "DMA", "isoNumeric": "212", "why": "General election due by early 2028, may be called in 2027"},
+  {"name": "Republic of the Congo", "iso3": "COG", "isoNumeric": "178", "why": "Legislative election due mid-2027"},
+  {"name": "Marshall Islands", "iso3": "MHL", "isoNumeric": "584", "why": "Parliamentary election Nov 2027"}
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "iso3": "GMB",
+ "isoNumeric": "270",
+ "name": "The Gambia",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-12-05",
+   "dateStatus": "confirmed",
+   "type": "Presidential",
+   "note": "Single round, first-past-the-post."
+  },
+  {
+   "date": "2027-04-10",
+   "dateStatus": "tentative",
+   "type": "Parliamentary (National Assembly)",
+   "note": ""
+  }
+ ],
+ "leaders": "President Adama Barrow (NPP)",
+ "summary": "Adama Barrow is seeking a third term; the current constitution has no presidential term limit. The stalled 2020 draft constitution, which would introduce one, is a central issue.",
+ "parties": [
+  {
+   "name": "Adama Barrow (National People's Party)",
+   "abbr": "NPP",
+   "leader": "Adama Barrow",
+   "position": "Centre",
+   "ideology": "Big tent",
+   "inGovernment": true,
+   "lastResult": "53.2% (2021)",
+   "polling": "32% (Gambia Participates, Aug 2026)",
+   "policies": [
+    "Seeks a third term",
+    "Infrastructure and roads programme",
+    "Says he supports constitutional reform on his terms"
+   ]
+  },
+  {
+   "name": "Ousainou Darboe (United Democratic Party)",
+   "abbr": "UDP",
+   "leader": "Ousainou Darboe",
+   "position": "Centre-right",
+   "ideology": "Liberalism",
+   "inGovernment": false,
+   "lastResult": "27.7% (2021)",
+   "polling": "25% (Aug 2026)",
+   "policies": [
+    "Revive the 2020 draft constitution with term limits",
+    "Accuses Barrow of blocking limits on presidential power",
+    "Anti-corruption"
+   ]
+  },
+  {
+   "name": "Talib Ahmed Bensouda (Unite Movement for Change)",
+   "abbr": "UMC",
+   "leader": "Talib Ahmed Bensouda",
+   "position": "Centre",
+   "ideology": "Reformism",
+   "inGovernment": false,
+   "lastResult": "First run; Mayor of Kanifing since 2018",
+   "polling": "19% (Aug 2026)",
+   "policies": [
+    "Coalition flagbearer",
+    "Campaigns on municipal track record and youth jobs",
+    "Governance reform"
+   ]
+  },
+  {
+   "name": "Mohamed Al Amin Bah (WAREF)",
+   "abbr": "WAREF",
+   "leader": "Mohamed Al Amin Bah",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Has published a 2026 manifesto",
+    "Specific positions limited in English-language sources"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election"
+ ]
+}

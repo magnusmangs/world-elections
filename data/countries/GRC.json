@@ -1,0 +1,128 @@
+{
+ "iso3": "GRC",
+ "isoNumeric": "300",
+ "name": "Greece",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-05-01",
+   "dateStatus": "expected",
+   "type": "Parliamentary",
+   "note": "300 seats; due before 25 July 2027. PM has pointed to spring 2027."
+  }
+ ],
+ "leaders": "Prime Minister Kyriakos Mitsotakis (New Democracy)",
+ "summary": "New Democracy leads polls at around 30%, far below its 2023 majority. Alexis Tsipras's new Greek Left Alliance (ELAS) is second, and Maria Karystianou's Elpida has entered the race.",
+ "parties": [
+  {
+   "name": "New Democracy",
+   "abbr": "ND",
+   "leader": "Kyriakos Mitsotakis",
+   "position": "Centre-right",
+   "ideology": "Liberal conservatism",
+   "inGovernment": true,
+   "lastResult": "40.6%, 158 seats (2023)",
+   "polling": "~30% (MARC, Jun 2026)",
+   "policies": [
+    "Tax cuts and investment-led growth",
+    "Defence modernisation",
+    "Defends record after OPEKEPE farm-subsidy scandal",
+    "Housing support for young people"
+   ]
+  },
+  {
+   "name": "Greek Left Alliance",
+   "abbr": "ELAS",
+   "leader": "Alexis Tsipras",
+   "position": "Centre-left to left",
+   "ideology": "Progressivism, social democracy",
+   "inGovernment": false,
+   "lastResult": "New party",
+   "polling": "~16.5%",
+   "policies": [
+    "Unite the fragmented centre-left",
+    "Wages, pensions and cost of living",
+    "Anti-corruption and institutional transparency"
+   ]
+  },
+  {
+   "name": "PASOK – Movement for Change",
+   "abbr": "PASOK",
+   "leader": "Nikos Androulakis",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "11.8%, 32 seats (2023)",
+   "polling": "~10.5%",
+   "policies": [
+    "Official opposition",
+    "Stronger public health system",
+    "Rule of law and anti-corruption"
+   ]
+  },
+  {
+   "name": "Elpida",
+   "abbr": "Elpida",
+   "leader": "Maria Karystianou",
+   "position": "",
+   "ideology": "Anti-establishment",
+   "inGovernment": false,
+   "lastResult": "New party",
+   "polling": "~10.5%",
+   "policies": [
+    "Justice and accountability over the 2023 Tempi rail disaster",
+    "Anti-corruption",
+    "Citizen-led politics"
+   ]
+  },
+  {
+   "name": "Greek Solution",
+   "abbr": "EL",
+   "leader": "Kyriakos Velopoulos",
+   "position": "Far-right",
+   "ideology": "National conservatism",
+   "inGovernment": false,
+   "lastResult": "4.4%, 12 seats (2023)",
+   "polling": "~7%",
+   "policies": [
+    "Strict immigration control",
+    "Orthodox Christian values",
+    "Hard line toward Turkey"
+   ]
+  },
+  {
+   "name": "Communist Party of Greece",
+   "abbr": "KKE",
+   "leader": "Dimitris Koutsoumpas",
+   "position": "Far-left",
+   "ideology": "Marxism-Leninism",
+   "inGovernment": false,
+   "lastResult": "7.7%, 21 seats (2023)",
+   "polling": "~6.5%",
+   "policies": [
+    "Workers' rights and public ownership",
+    "Exit from NATO and the EU",
+    "Opposes privatisation"
+   ]
+  },
+  {
+   "name": "Course of Freedom",
+   "abbr": "PE",
+   "leader": "Zoe Konstantopoulou",
+   "position": "Left",
+   "ideology": "Left-wing populism",
+   "inGovernment": false,
+   "lastResult": "3.2%, 8 seats (2023)",
+   "polling": "~5%",
+   "policies": [
+    "Anti-austerity",
+    "Accountability for Tempi disaster"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Next_Greek_parliamentary_election",
+  "https://en.protothema.gr/2026/06/30/new-democracy-at-30-5-tsiprass-elas-at-16-5-pasok-and-karystianou-tied-for-third-place-marc-poll-reveals/",
+  "https://www.iefimerida.gr/english/mitsotakis-rules-out-reshuffle-locks-spring-2027-election-date"
+ ]
+}

@@ -1,0 +1,280 @@
+(() => {
+  "use strict";
+
+  const state = { data: null, byNumeric: new Map(), byIso3: new Map(), active: null, lastFocus: null };
+  const DAY = 86400000;
+  const today = new Date(new Date().toISOString().slice(0, 10) + "T00:00:00Z");
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // ---------- dates ----------
+  const parseDate = (s) => new Date(s + "T00:00:00Z");
+  const daysUntil = (s) => Math.round((parseDate(s) - today) / DAY);
+  const fmt = (s, opts) => parseDate(s).toLocaleDateString("en-GB", { timeZone: "UTC", ...opts });
+  function whenText(e) {
+    if (e.dateStatus === "expected") return "Expected " + fmt(e.date, { month: "long", year: "numeric" });
+    return fmt(e.date, { day: "numeric", month: "long", year: "numeric" }) + (e.dateStatus === "tentative" ? " (tentative)" : "");
+  }
+  function countdown(e) {
+    const d = daysUntil(e.date);
+    const approx = e.dateStatus === "expected" ? "about " : "";
+    if (d <= 0) return "Voting today";
+    if (d === 1) return "Tomorrow";
+    if (d < 60) return `In ${approx}${d} days`;
+    return `In ${approx}${Math.round(d / 30.4)} months`;
+  }
+  function tier(dateStr) {
+    const d = daysUntil(dateStr);
+    if (d <= 31) return "var(--s1)";
+    if (d <= 92) return "var(--s2)";
+    if (d <= 183) return "var(--s3)";
+    return "var(--s4)";
+  }
+  const nextVote = (c) => (c.upcoming && c.upcoming[0]) || null;
+
+  // ---------- political spectrum ----------
+  const SPECTRUM = [
+    [/far[- ]left/i, 0], [/cent(re|er)[- ]left/i, 2], [/cent(re|er)[- ]right/i, 4], [/far[- ]right/i, 6],
+    [/\bleft\b/i, 1], [/\bright\b/i, 5], [/\bcent(re|er)\b/i, 3],
+  ];
+  function spectrum(position) {
+    if (!position) return null;
+    let text = position, vals = [];
+    for (const [re, v] of SPECTRUM) {
+      const g = new RegExp(re.source, "gi");
+      if (g.test(text)) { vals.push(v); text = text.replace(g, " "); }
+    }
+    if (!vals.length) return null;
+    return [Math.min(...vals), Math.max(...vals)];
+  }
+  function spectrumHtml(p) {
+    const s = spectrum(p.position);
+    if (!s) return p.position ? `<p class="spectrum-text">${esc(p.position)}</p>` : "";
+    const pct = (v) => (v / 6) * 100;
+    const span = s[0] !== s[1]
+      ? `<span class="spectrum-span" style="left:${pct(s[0])}%;width:${pct(s[1]) - pct(s[0])}%"></span>`
+      : "";
+    const mid = (s[0] + s[1]) / 2;
+    return `<div class="spectrum" role="img" aria-label="Political position: ${esc(p.position)}">
+      <p class="spectrum-text" aria-hidden="true">${esc(p.position)}</p>
+      <div class="spectrum-track">${span}<span class="spectrum-mark" style="left:${pct(mid)}%"></span></div>
+      <div class="spectrum-labels" aria-hidden="true"><span>Left</span><span>Right</span></div>
+    </div>`;
+  }
+
+  // ---------- panel ----------
+  function partyHtml(p) {
+    const stats = [];
+    if (p.lastResult) stats.push(["Last result", p.lastResult]);
+    if (p.polling) stats.push(["Polling", p.polling]);
+    const meta = [p.leader && `Led by ${p.leader}`, p.ideology].filter(Boolean).join(". ");
+    return `<li class="party">
+      <div class="party-head">
+        <p class="party-name">${esc(p.name)}${p.abbr && !p.name.includes(p.abbr) ? ` <span class="party-abbr">${esc(p.abbr)}</span>` : ""}</p>
+        ${p.inGovernment ? `<span class="chip">In government</span>` : ""}
+      </div>
+      ${meta ? `<p class="party-meta">${esc(meta)}</p>` : ""}
+      ${spectrumHtml(p)}
+      ${p.policies && p.policies.length ? `<ul class="policies">${p.policies.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      ${stats.length ? `<dl class="stats">${stats.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
+    </li>`;
+  }
+
+  function openPanel(c, nameFallback) {
+    state.lastFocus = document.activeElement;
+    const body = $("panel-body");
+    if (!c) {
+      body.innerHTML = `<h2 id="panel-title">${esc(nameFallback)}</h2>
+        <p class="summary">No national election is on the calendar for the next 12 months. Countries are added as votes are announced.</p>`;
+    } else {
+      const votes = (c.upcoming || []).map((e) => `<div class="vote" style="--c:${tier(e.date)}">
+          <div class="when">${esc(whenText(e))}</div>
+          <div class="count">${esc(countdown(e))}</div>
+          <div class="type">${esc(e.type)}</div>
+          ${e.note ? `<div class="note">${esc(e.note)}</div>` : ""}
+        </div>`).join("");
+      const hasParties = c.parties && c.parties.length;
+      const parties = `<h3>Who is running</h3>`
+        + (c.noParties ? `<p class="no-parties">${esc(c.noParties)}</p>` : "")
+        + (hasParties ? `<ul class="parties">${c.parties.map(partyHtml).join("")}</ul>`
+          : (c.noParties ? "" : `<p class="no-parties">Party information is not available yet.</p>`));
+      body.innerHTML = `<h2 id="panel-title">${esc(c.name)}</h2>
+        <p class="leaders">${esc(c.leaders)}</p>
+        ${votes}
+        <p class="summary">${esc(c.summary)}</p>
+        ${parties}
+        <h3>Sources</h3>
+        <ol class="sources">${(c.sources || []).map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, ""))}</a></li>`).join("")}</ol>
+        <p class="reviewed">Last reviewed ${esc(fmt(c.lastReviewed, { day: "numeric", month: "long", year: "numeric" }))}. Summaries are written with AI assistance from the sources above and may lag the news.</p>`;
+    }
+    $("panel").hidden = false;
+    $("scrim").hidden = false;
+    $("panel").scrollTop = 0;
+    $("panel-close").focus();
+    state.active = c ? c.isoNumeric : null;
+    highlight();
+    try { history.replaceState(null, "", c ? "#" + c.iso3.toLowerCase() : location.pathname); } catch (_) {}
+  }
+  function closePanel() {
+    $("panel").hidden = true;
+    $("scrim").hidden = true;
+    state.active = null;
+    highlight();
+    try { history.replaceState(null, "", location.pathname); } catch (_) {}
+    if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
+  }
+  $("panel-close").addEventListener("click", closePanel);
+  $("scrim").addEventListener("click", closePanel);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("panel").hidden) closePanel(); });
+
+  // ---------- calendar ----------
+  function renderCalendar(filter = "") {
+    const q = filter.trim().toLowerCase();
+    const rows = [];
+    for (const c of state.data.countries) {
+      if (q && !c.name.toLowerCase().includes(q)) continue;
+      for (const e of c.upcoming || []) rows.push({ c, e });
+    }
+    rows.sort((a, b) => a.e.date.localeCompare(b.e.date) || a.c.name.localeCompare(b.c.name));
+    const list = $("calendar-list");
+    if (!rows.length) {
+      list.innerHTML = `<p class="empty">No upcoming election matches “${esc(filter)}”. Try another country name.</p>`;
+      return;
+    }
+    const groups = new Map();
+    for (const r of rows) {
+      const key = r.e.date.slice(0, 7);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(r);
+    }
+    list.innerHTML = [...groups].map(([key, items]) => `<div class="month">
+      <h3>${esc(fmt(key + "-01", { month: "long", year: "numeric" }))}</h3>
+      <ul class="rows">${items.map(({ c, e }) => `<li class="row"><button type="button" data-iso="${c.iso3}">
+        <span class="day" style="--c:${tier(e.date)}"><i></i>${e.dateStatus === "expected" ? "~" : esc(fmt(e.date, { day: "numeric" }))}</span>
+        <span class="what"><span class="country-name">${esc(c.name)}</span> <span class="kind">${esc(e.type)}</span></span>
+        <span class="status">${e.dateStatus === "confirmed" ? esc(countdown(e)) : e.dateStatus === "tentative" ? "Date tentative" : "Date expected"}</span>
+      </button></li>`).join("")}</ul>
+    </div>`).join("");
+  }
+  $("calendar-list").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-iso]");
+    if (b) openPanel(state.byIso3.get(b.dataset.iso));
+  });
+  $("search").addEventListener("input", (e) => renderCalendar(e.target.value));
+
+  // ---------- map ----------
+  let svg, g, zoom, paths, dots;
+  function highlight() {
+    if (!paths) return;
+    paths.classed("is-active", (d) => d.id === state.active);
+  }
+  function renderMap(world) {
+    const el = $("map");
+    const w = el.clientWidth || 1000, h = el.clientHeight || 600;
+    const countries = topojson.feature(world, world.objects.countries).features.filter((f) => f.id !== "010");
+    const projection = d3.geoEqualEarth().fitExtent([[8, 8], [w - 8, h - 8]], { type: "FeatureCollection", features: countries });
+    const isNarrow = w < 720;
+    if (!isNarrow) projection.translate([projection.translate()[0] + w * 0.03, projection.translate()[1]]);
+    const path = d3.geoPath(projection);
+
+    el.innerHTML = "";
+    svg = d3.select(el).append("svg").attr("viewBox", `0 0 ${w} ${h}`).attr("preserveAspectRatio", "xMidYMid meet");
+    g = svg.append("g");
+    const tip = $("tooltip");
+
+    function showTip(event, d) {
+      const c = state.byNumeric.get(d.id);
+      const name = c ? c.name : d.properties.name;
+      const v = c && nextVote(c);
+      tip.innerHTML = v ? `<b>${esc(name)}</b><br>${esc(v.type)}<br>${esc(whenText(v))}` : `<b>${esc(name)}</b><br>No vote in the next 12 months`;
+      const r = el.getBoundingClientRect();
+      tip.style.left = event.clientX - r.left + "px";
+      tip.style.top = event.clientY - r.top + "px";
+      tip.hidden = false;
+    }
+    const hideTip = () => { tip.hidden = true; };
+    const click = (event, d) => {
+      const c = state.byNumeric.get(d.id);
+      openPanel(c, d.properties.name);
+    };
+
+    paths = g.selectAll("path.country").data(countries).join("path")
+      .attr("class", (d) => "country" + (state.byNumeric.has(d.id) && nextVote(state.byNumeric.get(d.id)) ? " has-vote" : ""))
+      .attr("d", path)
+      .style("fill", (d) => { const c = state.byNumeric.get(d.id); const v = c && nextVote(c); return v ? tier(v.date) : null; })
+      .on("pointermove", showTip).on("pointerleave", hideTip).on("click", click);
+
+    // Dots for small states that are hard to see or click.
+    const small = countries.filter((d) => {
+      const c = state.byNumeric.get(d.id);
+      if (!c || !nextVote(c)) return false;
+      const b = path.bounds(d); const area = (b[1][0] - b[0][0]) * (b[1][1] - b[0][1]);
+      return area < 220 || ["583", "242", "132"].includes(d.id);
+    });
+    const soon = (d) => daysUntil(nextVote(state.byNumeric.get(d.id)).date) <= 14;
+    const centre = (d) => projection(d3.geoCentroid(d));
+    dots = g.selectAll("g.marker").data(small).join("g").attr("class", "marker")
+      .attr("transform", (d) => `translate(${centre(d)})`);
+    dots.append("circle").attr("class", "dot").attr("r", isNarrow ? 4 : 5.5)
+      .style("fill", (d) => tier(nextVote(state.byNumeric.get(d.id)).date))
+      .on("pointermove", showTip).on("pointerleave", hideTip).on("click", click);
+    // One deliberate motion: a ring around every country voting in the next two weeks.
+    const pulseTargets = countries.filter((d) => { const c = state.byNumeric.get(d.id); return c && nextVote(c) && soon(d); });
+    g.selectAll("circle.pulse").data(pulseTargets).join("circle").attr("class", "pulse")
+      .attr("r", 6).attr("cx", (d) => centre(d)[0]).attr("cy", (d) => centre(d)[1]);
+
+    zoom = d3.zoom().scaleExtent([1, 10]).translateExtent([[-w * 0.2, -h * 0.2], [w * 1.2, h * 1.2]])
+      .on("zoom", (ev) => {
+        g.attr("transform", ev.transform);
+        g.selectAll(".dot").attr("r", 5.5 / Math.sqrt(ev.transform.k));
+        g.selectAll(".pulse").attr("r", 6 / Math.sqrt(ev.transform.k));
+      });
+    svg.call(zoom).on("dblclick.zoom", null);
+    highlight();
+  }
+  $("zoom-in").addEventListener("click", () => svg && svg.transition().duration(250).call(zoom.scaleBy, 1.6));
+  $("zoom-out").addEventListener("click", () => svg && svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.6));
+  $("zoom-reset").addEventListener("click", () => svg && svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity));
+
+  // ---------- lede ----------
+  function renderLede() {
+    const all = state.data.countries.flatMap((c) => (c.upcoming || []).map((e) => ({ c, e })))
+      .filter((x) => x.e.dateStatus !== "expected").sort((a, b) => a.e.date.localeCompare(b.e.date));
+    const total = state.data.countries.reduce((n, c) => n + (c.upcoming || []).length, 0);
+    let text = `<strong>${total} national votes</strong> in ${state.data.countries.filter((c) => (c.upcoming || []).length).length} countries over the coming year. Pick a country to see who is running and what they stand for.`;
+    if (all.length) {
+      const first = all[0].e.date;
+      const same = all.filter((x) => x.e.date === first);
+      const names = same.map((x) => `<button type="button" data-iso="${x.c.iso3}">${esc(x.c.name)}</button>`);
+      const joined = names.length > 1 ? names.slice(0, -1).join(", ") + " and " + names.at(-1) : names[0];
+      text = `Next up: ${joined}, ${esc(countdown(same[0].e).toLowerCase())}. ` + text;
+    }
+    $("lede").innerHTML = text;
+    $("lede").onclick = (e) => { const b = e.target.closest("button[data-iso]"); if (b) openPanel(state.byIso3.get(b.dataset.iso)); };
+    $("fineprint").textContent = `Data last updated ${fmt(state.data.updated, { day: "numeric", month: "long", year: "numeric" })}. Covers national presidential, parliamentary and legislative elections. Party summaries are written with AI assistance from public sources linked in each country, and are refreshed weekly.`;
+  }
+
+  // ---------- boot ----------
+  Promise.all([
+    fetch("data/elections.json", { cache: "no-cache" }).then((r) => r.json()),
+    fetch("assets/countries-50m.json").then((r) => r.json()),
+  ]).then(([data, world]) => {
+    // Recompute upcoming against the viewer's date so past votes drop off between updates.
+    for (const c of data.countries) {
+      c.upcoming = (c.elections || []).filter((e) => daysUntil(e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date));
+      state.byNumeric.set(c.isoNumeric, c);
+      state.byIso3.set(c.iso3, c);
+    }
+    state.data = data;
+    renderLede();
+    renderCalendar();
+    renderMap(world);
+    let t; window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => renderMap(world), 200); });
+    const hash = location.hash.slice(1).toUpperCase();
+    if (hash && state.byIso3.has(hash)) openPanel(state.byIso3.get(hash));
+  }).catch((err) => {
+    console.error(err);
+    $("lede").textContent = "The election data could not be loaded. Refresh the page to try again.";
+  });
+})();

@@ -1,0 +1,93 @@
+{
+ "iso3": "MNE",
+ "isoNumeric": "499",
+ "name": "Montenegro",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-06-27",
+   "dateStatus": "expected",
+   "type": "Parliamentary",
+   "note": "81 seats. Must be held before 30 June 2027."
+  }
+ ],
+ "leaders": "Prime Minister Milojko Spajić (PES)",
+ "summary": "Spajić's Europe Now! leads a coalition aiming to close EU accession talks by 2026–2027. The former ruling DPS leads some polls.",
+ "parties": [
+  {
+   "name": "Europe Now!",
+   "abbr": "PES",
+   "leader": "Milojko Spajić",
+   "position": "Centre",
+   "ideology": "Pro-Europeanism, economic liberalism",
+   "inGovernment": true,
+   "lastResult": "25.5% (2023)",
+   "polling": "~20% (Spektrum, Apr 2026)",
+   "policies": [
+    "Complete EU accession",
+    "Higher wages and pensions",
+    "Tax reform"
+   ]
+  },
+  {
+   "name": "Democratic Party of Socialists",
+   "abbr": "DPS",
+   "leader": "Danijel Živković",
+   "position": "Centre-left",
+   "ideology": "Social democracy, Montenegrin nationalism",
+   "inGovernment": false,
+   "lastResult": "23.2% (2023)",
+   "polling": "~26% (Spektrum, Apr 2026)",
+   "policies": [
+    "Pro-EU and pro-NATO",
+    "Montenegrin national identity",
+    "Main opposition"
+   ]
+  },
+  {
+   "name": "For the Future of Montenegro",
+   "abbr": "ZBCG",
+   "leader": "Andrija Mandić",
+   "position": "Right",
+   "ideology": "Serbian nationalism",
+   "inGovernment": true,
+   "lastResult": "14.8% (2023)",
+   "polling": "",
+   "policies": [
+    "Closer ties with Serbia",
+    "Serbian language and church rights"
+   ]
+  },
+  {
+   "name": "Bosniak Party",
+   "abbr": "BS",
+   "leader": "Ervin Ibrahimović",
+   "position": "Centre",
+   "ideology": "Bosniak minority interests",
+   "inGovernment": true,
+   "lastResult": "7.1% (2023)",
+   "polling": "~7%",
+   "policies": [
+    "Minority rights",
+    "Pro-EU"
+   ]
+  },
+  {
+   "name": "United Reform Action",
+   "abbr": "URA",
+   "leader": "Dritan Abazović",
+   "position": "Centre-left",
+   "ideology": "Green politics, civic",
+   "inGovernment": false,
+   "lastResult": "Within Aleksa & Dritan list (2023)",
+   "polling": "~5%",
+   "policies": [
+    "Anti-corruption and organised crime",
+    "Civic, pro-EU platform"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Next_Montenegrin_parliamentary_election"
+ ]
+}

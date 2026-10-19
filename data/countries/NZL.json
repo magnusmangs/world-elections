@@ -1,0 +1,116 @@
+{
+ "iso3": "NZL",
+ "isoNumeric": "554",
+ "name": "New Zealand",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-11-07",
+   "dateStatus": "confirmed",
+   "type": "General election",
+   "note": "120 seats, mixed-member proportional (MMP)."
+  }
+ ],
+ "leaders": "Prime Minister Christopher Luxon (National)",
+ "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. Polls show a close contest between the two blocs.",
+ "parties": [
+  {
+   "name": "National Party",
+   "abbr": "NAT",
+   "leader": "Christopher Luxon",
+   "position": "Centre-right",
+   "ideology": "Conservatism, liberal conservatism",
+   "inGovernment": true,
+   "lastResult": "38.1%, 48 seats (2023)",
+   "polling": "~38 seats (1News–Verian, Jun 2026)",
+   "policies": [
+    "Raise default KiwiSaver contributions from 3% to 6% by 2032",
+    "Make KiwiSaver compulsory and auto-enrol newborns",
+    "Low-interest loans for home solar, batteries and insulation",
+    "Scrap good-character sentencing discounts for sexual offending"
+   ]
+  },
+  {
+   "name": "Labour Party",
+   "abbr": "LAB",
+   "leader": "Chris Hipkins",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "26.9%, 34 seats (2023)",
+   "polling": "~41 seats (1News–Verian, Jun 2026)",
+   "policies": [
+    "Repeal the Regulatory Standards Act within 100 days",
+    "Cap public transport fares at $20 a week in major cities",
+    "Create a NZ Future Fund",
+    "Free cervical screening for women aged 25–69"
+   ]
+  },
+  {
+   "name": "Green Party",
+   "abbr": "GRN",
+   "leader": "Marama Davidson and Chlöe Swarbrick",
+   "position": "Left",
+   "ideology": "Green politics",
+   "inGovernment": false,
+   "lastResult": "11.6%, 15 seats (2023)",
+   "polling": "~17 seats",
+   "policies": [
+    "Wealth tax, inheritance tax and higher corporate tax",
+    "Build 40,000 social homes in five years",
+    "Revoke fast-tracked mining consents",
+    "Mass electrification and renewables"
+   ]
+  },
+  {
+   "name": "ACT New Zealand",
+   "abbr": "ACT",
+   "leader": "David Seymour",
+   "position": "Right",
+   "ideology": "Classical liberalism, libertarianism",
+   "inGovernment": true,
+   "lastResult": "8.6%, 11 seats (2023)",
+   "polling": "~8 seats",
+   "policies": [
+    "Cut government spending and merge ministries",
+    "Deport serious non-citizen offenders",
+    "Let pharmacists treat more conditions",
+    "Split-gas emissions target"
+   ]
+  },
+  {
+   "name": "New Zealand First",
+   "abbr": "NZF",
+   "leader": "Winston Peters",
+   "position": "Centre-right to right",
+   "ideology": "Nationalism, populism",
+   "inGovernment": true,
+   "lastResult": "6.1%, 8 seats (2023)",
+   "polling": "~14 seats",
+   "policies": [
+    "Break up energy companies to cut power prices",
+    "Turn supermarket duopoly into two cooperatives",
+    "Merge BNZ with Kiwibank as a Crown bank",
+    "Referendum on the Māori electorates"
+   ]
+  },
+  {
+   "name": "Te Pāti Māori",
+   "abbr": "TPM",
+   "leader": "Debbie Ngarewa-Packer and Rawiri Waititi",
+   "position": "Left",
+   "ideology": "Māori rights, tino rangatiratanga",
+   "inGovernment": false,
+   "lastResult": "3.1%, 6 seats (2023)",
+   "polling": "~4 seats",
+   "policies": [
+    "Abolish prisons by 2040 in favour of community solutions",
+    "Parliamentary Commissioner for Te Tiriti with veto powers",
+    "Contest general as well as Māori electorates"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election"
+ ]
+}

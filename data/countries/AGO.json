@@ -1,0 +1,78 @@
+{
+ "iso3": "AGO",
+ "isoNumeric": "024",
+ "name": "Angola",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-08-24",
+   "dateStatus": "expected",
+   "type": "General (National Assembly; head of list becomes president)",
+   "note": "220 seats. President Lourenço is term-limited."
+  }
+ ],
+ "leaders": "President João Lourenço (MPLA)",
+ "summary": "The MPLA has governed since independence in 1975. In 2022 it won its narrowest victory, and João Lourenço cannot seek a third term.",
+ "parties": [
+  {
+   "name": "MPLA",
+   "abbr": "MPLA",
+   "leader": "João Lourenço (successor as list head to be chosen)",
+   "position": "Centre-left",
+   "ideology": "Social democracy (formerly Marxist-Leninist)",
+   "inGovernment": true,
+   "lastResult": "51.2%, 124 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Economic diversification away from oil",
+    "Infrastructure such as the Lobito Corridor",
+    "Anti-corruption campaign targeting the dos Santos era"
+   ]
+  },
+  {
+   "name": "UNITA",
+   "abbr": "UNITA",
+   "leader": "Adalberto Costa Júnior",
+   "position": "Centre-right",
+   "ideology": "Conservatism, nationalism",
+   "inGovernment": false,
+   "lastResult": "43.9%, 90 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Electoral transparency and an independent commission",
+    "Local (autarchic) elections",
+    "Cost-of-living and fuel price relief"
+   ]
+  },
+  {
+   "name": "Social Renewal Party",
+   "abbr": "PRS",
+   "leader": "Benedito Daniel",
+   "position": "",
+   "ideology": "Federalism",
+   "inGovernment": false,
+   "lastResult": "1.1%, 2 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Federal system for Angola"
+   ]
+  },
+  {
+   "name": "Humanist Party of Angola",
+   "abbr": "PHA",
+   "leader": "Florbela Malaquias",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "1.0%, 2 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Platform details limited"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Angolan_general_election",
+  "https://en.wikipedia.org/wiki/2027_national_electoral_calendar"
+ ]
+}

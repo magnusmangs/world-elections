@@ -1,0 +1,52 @@
+{
+ "iso3": "GRD",
+ "isoNumeric": "308",
+ "name": "Grenada",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-11-05",
+   "dateStatus": "confirmed",
+   "type": "General election (snap)",
+   "note": "15 seats, first-past-the-post."
+  }
+ ],
+ "leaders": "Prime Minister Dickon Mitchell (NDC)",
+ "summary": "Prime Minister Mitchell called an early election, about a year before it was due. Two parties contest all 15 seats.",
+ "parties": [
+  {
+   "name": "National Democratic Congress",
+   "abbr": "NDC",
+   "leader": "Dickon Mitchell",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": true,
+   "lastResult": "51.8%, 9 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Seeks a second term on post-Hurricane Beryl reconstruction",
+    "Youth employment and skills programmes",
+    "Public sector and governance reform"
+   ]
+  },
+  {
+   "name": "New National Party",
+   "abbr": "NNP",
+   "leader": "Emmalin Pierre",
+   "position": "Centre-right",
+   "ideology": "Conservatism",
+   "inGovernment": false,
+   "lastResult": "47.1%, 6 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Cost-of-living relief",
+    "Criticises pace of hurricane recovery",
+    "Investment-led economic growth"
+   ]
+  }
+ ],
+ "sources": [
+  "https://www.caribbeannationalweekly.com/posts/grenada-sets-nov-5-date-for-general-elections",
+  "https://en.wikipedia.org/wiki/2027_Grenadian_general_election"
+ ]
+}

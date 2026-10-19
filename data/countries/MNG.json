@@ -1,0 +1,62 @@
+{
+ "iso3": "MNG",
+ "isoNumeric": "496",
+ "name": "Mongolia",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-06-09",
+   "dateStatus": "expected",
+   "type": "Presidential",
+   "note": "Single six-year term; incumbent ineligible."
+  }
+ ],
+ "leaders": "President Ukhnaagiin Khürelsükh (MPP)",
+ "summary": "President Khürelsükh cannot run again under the single-term rule. Parties are choosing nominees through internal processes.",
+ "parties": [
+  {
+   "name": "Mongolian People's Party",
+   "abbr": "MPP",
+   "leader": "Possible: Gombojavyn Zandanshatar",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": true,
+   "lastResult": "Won 2021 presidency",
+   "polling": "",
+   "policies": [
+    "Ruling party",
+    "Nominee not yet chosen"
+   ]
+  },
+  {
+   "name": "Democratic Party",
+   "abbr": "DP",
+   "leader": "Primary: Norovyn Altankhuyag, Luvsannyamyn Gantömör",
+   "position": "Centre-right",
+   "ideology": "Liberal conservatism",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Nominee via internal primary",
+    "Market liberalism"
+   ]
+  },
+  {
+   "name": "HUN Party",
+   "abbr": "HUN",
+   "leader": "Togmidyn Dorjkhand",
+   "position": "Centre",
+   "ideology": "",
+   "inGovernment": true,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Leader will not run for president"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Mongolian_presidential_election"
+ ]
+}

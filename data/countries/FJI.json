@@ -1,0 +1,67 @@
+{
+ "iso3": "FJI",
+ "isoNumeric": "242",
+ "name": "Fiji",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-12-24",
+   "dateStatus": "tentative",
+   "type": "General election",
+   "note": "55 seats, open-list PR. Due between June 2026 and 6 February 2027. A constitutional referendum is also planned."
+  }
+ ],
+ "leaders": "Prime Minister Sitiveni Rabuka (People's Alliance)",
+ "summary": "The 2022 election produced a hung parliament and a coalition led by Rabuka's People's Alliance. The former ruling FijiFirst party was deregistered in 2024.",
+ "parties": [
+  {
+   "name": "People's Alliance",
+   "abbr": "PA",
+   "leader": "Sitiveni Rabuka",
+   "position": "Centre-right",
+   "ideology": "Conservatism",
+   "inGovernment": true,
+   "lastResult": "21 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Leads the coalition government",
+    "Constitutional reform via referendum",
+    "Platform details limited"
+   ]
+  },
+  {
+   "name": "National Federation Party",
+   "abbr": "NFP",
+   "leader": "Biman Prasad",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": true,
+   "lastResult": "5 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Coalition partner holding finance portfolio",
+    "Cost-of-living and economic recovery",
+    "Platform details limited"
+   ]
+  },
+  {
+   "name": "SODELPA",
+   "abbr": "SODELPA",
+   "leader": "Viliame Gavoka",
+   "position": "Centre-right",
+   "ideology": "iTaukei interests, conservatism",
+   "inGovernment": true,
+   "lastResult": "3 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Coalition partner",
+    "Indigenous land and rights",
+    "Platform details limited"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Fijian_general_election",
+  "https://www.electionguide.org/elections/type/upcoming/"
+ ]
+}

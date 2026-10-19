@@ -1,0 +1,77 @@
+{
+ "iso3": "HTI",
+ "isoNumeric": "332",
+ "name": "Haiti",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-12-13",
+   "dateStatus": "tentative",
+   "type": "General (presidential and legislative)",
+   "note": "First elections since 2016. Ouest department excluded from registration due to insecurity."
+  }
+ ],
+ "leaders": "Presidency vacant; acting Prime Minister Alix Didier Fils-Aimé",
+ "summary": "Elections have been postponed repeatedly since 2019 as gangs control much of Port-au-Prince. The Transitional Presidential Council's mandate expired in February 2026, leaving the prime minister as sole executive.",
+ "parties": [
+  {
+   "name": "Fanmi Lavalas",
+   "abbr": "FL",
+   "leader": "Jean-Bertrand Aristide",
+   "position": "Left",
+   "ideology": "Social democracy, populism",
+   "inGovernment": false,
+   "lastResult": "7 Chamber seats (2015–16)",
+   "polling": "",
+   "policies": [
+    "Popular-sector and anti-poverty platform",
+    "Registered to contest 2026"
+   ]
+  },
+  {
+   "name": "Struggling People's Organization",
+   "abbr": "OPL",
+   "leader": "Edgard Leblanc Fils",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "9 Chamber seats (2015–16)",
+   "polling": "",
+   "policies": [
+    "Registered to contest 2026",
+    "Mix of social democratic and market policies"
+   ]
+  },
+  {
+   "name": "Pitit Desalin",
+   "abbr": "PPD",
+   "leader": "Jean-Charles Moïse",
+   "position": "Left",
+   "ideology": "Dessalinism, left-wing populism",
+   "inGovernment": false,
+   "lastResult": "2 Chamber seats (2015–16)",
+   "polling": "",
+   "policies": [
+    "Nationalist, anti-elite message",
+    "Registered to contest 2026"
+   ]
+  },
+  {
+   "name": "Haiti in Action",
+   "abbr": "AAA",
+   "leader": "Youri Latortue",
+   "position": "Right",
+   "ideology": "Nationalism, cultural conservatism",
+   "inGovernment": false,
+   "lastResult": "5 Chamber seats (2015–16)",
+   "polling": "",
+   "policies": [
+    "Law-and-order focus",
+    "Registered to contest 2026"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Haitian_general_election"
+ ]
+}

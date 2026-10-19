@@ -1,0 +1,111 @@
+{
+ "iso3": "EST",
+ "isoNumeric": "233",
+ "name": "Estonia",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-03-07",
+   "dateStatus": "confirmed",
+   "type": "Parliamentary (Riigikogu)",
+   "note": "101 seats, proportional representation."
+  }
+ ],
+ "leaders": "Prime Minister Kristen Michal (Reform); President Alar Karis",
+ "summary": "Reform governs with Estonia 200 after expelling the Social Democrats in March 2025. Tax rises to fund defence have hurt the coalition, while Isamaa has surged in polls.",
+ "parties": [
+  {
+   "name": "Reform Party",
+   "abbr": "RE",
+   "leader": "Kristen Michal",
+   "position": "Centre-right",
+   "ideology": "Liberalism",
+   "inGovernment": true,
+   "lastResult": "31.2%, 37 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Defence spending above 5% of GDP",
+    "Fiscal consolidation, later tax-cut pledges",
+    "Strong support for Ukraine"
+   ]
+  },
+  {
+   "name": "Isamaa",
+   "abbr": "I",
+   "leader": "Urmas Reinsalu",
+   "position": "Right",
+   "ideology": "National conservatism",
+   "inGovernment": false,
+   "lastResult": "8.2%, 8 seats (2023)",
+   "polling": "Leads many 2026 polls",
+   "policies": [
+    "Reverse tax increases",
+    "Fiscal responsibility",
+    "Firm pro-Ukraine security policy"
+   ]
+  },
+  {
+   "name": "Centre Party",
+   "abbr": "K",
+   "leader": "Mihhail Kõlvart",
+   "position": "Centre-left",
+   "ideology": "Populism, social liberalism",
+   "inGovernment": false,
+   "lastResult": "15.3%, 16 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Appeals to Russian-speaking voters",
+    "Oppose tax rises on lower incomes",
+    "Social spending"
+   ]
+  },
+  {
+   "name": "Social Democratic Party",
+   "abbr": "SDE",
+   "leader": "Lauri Läänemets",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "9.3%, 9 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Progressive taxation",
+    "Public services and wages",
+    "Expelled from government in 2025"
+   ]
+  },
+  {
+   "name": "EKRE",
+   "abbr": "EKRE",
+   "leader": "Martin Helme",
+   "position": "Far-right",
+   "ideology": "National conservatism, Euroscepticism",
+   "inGovernment": false,
+   "lastResult": "16.1%, 17 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Restrict immigration",
+    "Eurosceptic positions",
+    "Oppose tax increases"
+   ]
+  },
+  {
+   "name": "Estonia 200",
+   "abbr": "E200",
+   "leader": "Kristina Kallas",
+   "position": "Centre",
+   "ideology": "Liberalism",
+   "inGovernment": true,
+   "lastResult": "13.3%, 14 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Education reform and Estonian-language schooling",
+    "Pro-European",
+    "Coalition partner of Reform"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Next_Estonian_parliamentary_election"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "iso3": "ARG",
+ "isoNumeric": "032",
+ "name": "Argentina",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-10-24",
+   "dateStatus": "expected",
+   "type": "General (presidential and partial Congress)",
+   "note": "Run-off likely 21 November 2027. Half of Deputies, a third of the Senate."
+  }
+ ],
+ "leaders": "President Javier Milei (La Libertad Avanza)",
+ "summary": "Milei's La Libertad Avanza won the 2025 midterms, and he has signalled he will seek re-election. Buenos Aires governor Axel Kicillof is the leading Peronist figure.",
+ "parties": [
+  {
+   "name": "La Libertad Avanza",
+   "abbr": "LLA",
+   "leader": "Javier Milei",
+   "position": "Right",
+   "ideology": "Libertarianism, anarcho-capitalism",
+   "inGovernment": true,
+   "lastResult": "Won 2025 midterms (64 deputies)",
+   "polling": "38.5% (Explanans, Sep 2026)",
+   "policies": [
+    "Fiscal surplus and deep spending cuts",
+    "Deregulation and privatisation",
+    "Disinflation and currency liberalisation",
+    "Abolish mandatory primaries (PASO)"
+   ]
+  },
+  {
+   "name": "Fuerza Patria (Peronism)",
+   "abbr": "FP",
+   "leader": "Axel Kicillof (likely)",
+   "position": "Centre-left to left",
+   "ideology": "Peronism, Kirchnerism",
+   "inGovernment": false,
+   "lastResult": "47 deputies (2025)",
+   "polling": "Kicillof 24% (Explanans, Sep 2026)",
+   "policies": [
+    "Restore public spending on universities, health and pensions",
+    "Industrial policy and protection of domestic industry",
+    "Oppose privatisations"
+   ]
+  },
+  {
+   "name": "Provincias Unidas",
+   "abbr": "PU",
+   "leader": "Juan Schiaretti",
+   "position": "Centre",
+   "ideology": "Federalism, moderate Peronism",
+   "inGovernment": false,
+   "lastResult": "8 deputies (2025)",
+   "polling": "",
+   "policies": [
+    "Provincial governors' alliance",
+    "Fiscal balance with production-led growth"
+   ]
+  },
+  {
+   "name": "Left and Workers' Front – Unity",
+   "abbr": "FIT-U",
+   "leader": "Myriam Bregman",
+   "position": "Far-left",
+   "ideology": "Trotskyism",
+   "inGovernment": false,
+   "lastResult": "3 deputies (2025)",
+   "polling": "",
+   "policies": [
+    "Reject IMF agreements",
+    "Higher wages and pensions"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+ ]
+}

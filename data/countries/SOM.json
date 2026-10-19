@@ -1,0 +1,67 @@
+{
+ "iso3": "SOM",
+ "isoNumeric": "706",
+ "name": "Somalia",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-12-31",
+   "dateStatus": "tentative",
+   "type": "Presidential and House of the People",
+   "note": "Shift from clan-based indirect voting to direct elections is disputed."
+  }
+ ],
+ "leaders": "President Hassan Sheikh Mohamud (mandate disputed)",
+ "summary": "The federal government's 2024 constitutional amendments replace clan-based indirect elections with universal suffrage, but opposition groups and the Puntland and Jubaland states reject them. The opposition argues the president's term ended on 15 May 2026.",
+ "parties": [
+  {
+   "name": "Federal Government / JSP",
+   "abbr": "JSP",
+   "leader": "Hassan Sheikh Mohamud",
+   "position": "",
+   "ideology": "",
+   "inGovernment": true,
+   "lastResult": "Elected by parliament (2022)",
+   "polling": "",
+   "policies": [
+    "Direct one-person-one-vote elections",
+    "Backs the 2024 constitutional amendments",
+    "Says its mandate runs to May 2027"
+   ]
+  },
+  {
+   "name": "Somali Future Council",
+   "abbr": "SFC",
+   "leader": "Opposition coalition",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Says the president's term expired in May 2026",
+    "Proposes the Speaker as acting president",
+    "Rejects the 2024 amendments"
+   ]
+  },
+  {
+   "name": "Puntland and Jubaland",
+   "abbr": "FMS",
+   "leader": "Said Abdullahi Deni; Ahmed Madobe",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "",
+   "polling": "",
+   "policies": [
+    "Withdrew recognition of or cooperation with the federal government",
+    "Demand a constitution approved by referendum",
+    "Oppose term extensions"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Somali_presidential_election",
+  "https://www.electionguide.org/elections/type/upcoming/"
+ ]
+}

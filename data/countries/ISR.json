@@ -1,0 +1,144 @@
+{
+ "iso3": "ISR",
+ "isoNumeric": "376",
+ "name": "Israel",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-10-27",
+   "dateStatus": "confirmed",
+   "type": "Legislative (Knesset)",
+   "note": "120 seats, nationwide proportional representation, 3.25% threshold."
+  }
+ ],
+ "leaders": "Prime Minister Benjamin Netanyahu (Likud); President Isaac Herzog",
+ "summary": "The 25th Knesset completed its full term and dissolved in July 2026. Netanyahu's right-wing and religious bloc faces a reorganised opposition led by a joint Bennett–Lapid list.",
+ "parties": [
+  {
+   "name": "Likud (with New Hope)",
+   "abbr": "Likud",
+   "leader": "Benjamin Netanyahu",
+   "position": "Right",
+   "ideology": "National liberalism, conservatism",
+   "inGovernment": true,
+   "lastResult": "32 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Netanyahu seeks to remain prime minister",
+    "Hard line on security, Iran and Hamas",
+    "Supports parts of the judicial overhaul",
+    "Merged with Gideon Sa'ar's New Hope"
+   ]
+  },
+  {
+   "name": "Together (Bennett–Lapid)",
+   "abbr": "Together",
+   "leader": "Naftali Bennett",
+   "position": "Centre to centre-right",
+   "ideology": "Zionism, liberalism",
+   "inGovernment": false,
+   "lastResult": "Yesh Atid 24 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Replace the Netanyahu government",
+    "Joint list of Bennett and Yair Lapid, led by Bennett",
+    "Universal conscription including Haredim",
+    "State commission of inquiry into 7 October"
+   ]
+  },
+  {
+   "name": "Shas",
+   "abbr": "Shas",
+   "leader": "Aryeh Deri",
+   "position": "Right",
+   "ideology": "Haredi, Sephardi religious conservatism",
+   "inGovernment": true,
+   "lastResult": "11 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Military service exemptions for yeshiva students",
+    "Religious character of public life",
+    "Welfare and cost-of-living support for low-income families"
+   ]
+  },
+  {
+   "name": "Yisrael Beiteinu",
+   "abbr": "YB",
+   "leader": "Avigdor Lieberman",
+   "position": "Right",
+   "ideology": "Secular nationalism",
+   "inGovernment": false,
+   "lastResult": "6 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Universal military conscription",
+    "Separation of religion and state, civil marriage",
+    "Hawkish security policy",
+    "Will not sit with Netanyahu-led government"
+   ]
+  },
+  {
+   "name": "Religious Zionist Party",
+   "abbr": "RZP",
+   "leader": "Bezalel Smotrich",
+   "position": "Far-right",
+   "ideology": "Religious Zionism",
+   "inGovernment": true,
+   "lastResult": "7 seats (2022 joint list share)",
+   "polling": "",
+   "policies": [
+    "Settlement expansion and sovereignty in the West Bank",
+    "Opposes a Palestinian state",
+    "Judicial reform"
+   ]
+  },
+  {
+   "name": "Otzma Yehudit",
+   "abbr": "Otzma",
+   "leader": "Itamar Ben-Gvir",
+   "position": "Far-right",
+   "ideology": "Religious nationalism, Kahanism",
+   "inGovernment": true,
+   "lastResult": "6 seats (2022 joint list share)",
+   "polling": "",
+   "policies": [
+    "Harsher policing and death penalty for terrorists",
+    "Opposed Gaza ceasefire deals",
+    "Expanded gun licensing"
+   ]
+  },
+  {
+   "name": "United Torah Judaism",
+   "abbr": "UTJ",
+   "leader": "Yitzhak Goldknopf",
+   "position": "Right",
+   "ideology": "Ashkenazi Haredi",
+   "inGovernment": false,
+   "lastResult": "7 seats (2022)",
+   "polling": "",
+   "policies": [
+    "Law exempting Haredi men from military service",
+    "Left the coalition in 2025 over conscription",
+    "Funding for religious education"
+   ]
+  },
+  {
+   "name": "Blue and White",
+   "abbr": "B&W",
+   "leader": "Benny Gantz",
+   "position": "Centre",
+   "ideology": "Centrism, security-focused",
+   "inGovernment": false,
+   "lastResult": "National Unity 12 seats (2022)",
+   "polling": "Near the 3.25% threshold in some polls",
+   "policies": [
+    "Broad Zionist unity government",
+    "Security-first approach",
+    "Equal share of the burden in military service"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+ ]
+}

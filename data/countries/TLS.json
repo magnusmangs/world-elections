@@ -1,0 +1,64 @@
+{
+ "iso3": "TLS",
+ "isoNumeric": "626",
+ "name": "Timor-Leste",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-03-20",
+   "dateStatus": "expected",
+   "type": "Presidential",
+   "note": "Scheduled for March 2027; run-off in April if needed."
+  }
+ ],
+ "leaders": "President José Ramos-Horta; Prime Minister Xanana Gusmão (CNRT)",
+ "summary": "Incumbent José Ramos-Horta is considering another run, prompting debate over the constitutional limit on terms. Timor-Leste joined ASEAN in 2025.",
+ "parties": [
+  {
+   "name": "José Ramos-Horta",
+   "abbr": "CNRT-backed",
+   "leader": "José Ramos-Horta",
+   "position": "Centre",
+   "ideology": "",
+   "inGovernment": true,
+   "lastResult": "62.1% run-off (2022)",
+   "polling": "",
+   "policies": [
+    "Considering re-election",
+    "Said candidates should be loyal to PM Gusmão",
+    "Eligibility debated"
+   ]
+  },
+  {
+   "name": "Rui Maria de Araújo (Fretilin)",
+   "abbr": "FRETILIN",
+   "leader": "Rui Maria de Araújo",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "Former PM (2015–17)",
+   "polling": "",
+   "policies": [
+    "Intends to run; party nomination pending",
+    "Health and social services background"
+   ]
+  },
+  {
+   "name": "Armanda Berta dos Santos (KHUNTO)",
+   "abbr": "KHUNTO",
+   "leader": "Armanda Berta dos Santos",
+   "position": "",
+   "ideology": "",
+   "inGovernment": false,
+   "lastResult": "Former Deputy PM (2020–23)",
+   "polling": "",
+   "policies": [
+    "Announced candidacy",
+    "Women's leadership focus"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_East_Timorese_presidential_election"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "iso3": "ESP",
+ "isoNumeric": "724",
+ "name": "Spain",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-11-29",
+   "dateStatus": "confirmed",
+   "type": "General election (snap)",
+   "note": "Congress of Deputies (350) and Senate."
+  }
+ ],
+ "leaders": "Prime Minister Pedro Sánchez (PSOE); King Felipe VI",
+ "summary": "Sánchez dissolved parliament on 6 October 2026 after Junts, PP and Vox defeated his housing relief package. Housing affordability is the central campaign issue.",
+ "parties": [
+  {
+   "name": "People's Party",
+   "abbr": "PP",
+   "leader": "Alberto Núñez Feijóo",
+   "position": "Centre-right",
+   "ideology": "Conservatism, Christian democracy",
+   "inGovernment": false,
+   "lastResult": "33.1%, 137 seats (2023)",
+   "polling": "~33% (Oct 2026)",
+   "policies": [
+    "Tax cuts and fiscal discipline",
+    "Tighter immigration control",
+    "Anti-corruption focus on government scandals",
+    "Reform of postal voting safeguards"
+   ]
+  },
+  {
+   "name": "Spanish Socialist Workers' Party",
+   "abbr": "PSOE",
+   "leader": "Pedro Sánchez",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": true,
+   "lastResult": "31.7%, 121 seats (2023)",
+   "polling": "~26% (Oct 2026)",
+   "policies": [
+    "Housing relief package and rent controls",
+    "Defends the 2024 amnesty law",
+    "Recognition of Palestine",
+    "Expanded labour and social rights"
+   ]
+  },
+  {
+   "name": "Vox",
+   "abbr": "Vox",
+   "leader": "Santiago Abascal",
+   "position": "Far-right",
+   "ideology": "National conservatism, right-wing populism",
+   "inGovernment": false,
+   "lastResult": "12.4%, 33 seats (2023)",
+   "polling": "~18–19% (Oct 2026)",
+   "policies": [
+    "Strict immigration and 'national priority' rules",
+    "Oppose amnesty and Catalan independence",
+    "Recentralise powers from the regions",
+    "Oppose the 'Grandchildren Law' on nationality"
+   ]
+  },
+  {
+   "name": "Broad Front (ex-Sumar)",
+   "abbr": "FA",
+   "leader": "To be confirmed",
+   "position": "Left",
+   "ideology": "Progressivism, green politics",
+   "inGovernment": true,
+   "lastResult": "Sumar 12.3%, 31 seats (2023)",
+   "polling": "~6% (Oct 2026)",
+   "policies": [
+    "Housing as a public right",
+    "Stronger labour protections",
+    "Climate action",
+    "Unite parties to the left of PSOE"
+   ]
+  },
+  {
+   "name": "Podemos",
+   "abbr": "Podemos",
+   "leader": "Irene Montero",
+   "position": "Left",
+   "ideology": "Left-wing populism, democratic socialism",
+   "inGovernment": false,
+   "lastResult": "Within Sumar (2023)",
+   "polling": "",
+   "policies": [
+    "Left alternative to PSOE",
+    "Expanded welfare and public housing",
+    "Oppose higher defence spending"
+   ]
+  },
+  {
+   "name": "Together for Catalonia",
+   "abbr": "Junts",
+   "leader": "Carles Puigdemont (party); Míriam Nogueras (Congress)",
+   "position": "Centre-right",
+   "ideology": "Catalan independence",
+   "inGovernment": false,
+   "lastResult": "1.6%, 7 seats (2023)",
+   "polling": "",
+   "policies": [
+    "Catalan self-determination",
+    "Greater fiscal autonomy for Catalonia",
+    "Opposed the housing relief package"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Spanish_general_election"
+ ]
+}

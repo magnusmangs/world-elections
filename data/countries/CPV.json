@@ -1,0 +1,51 @@
+{
+ "iso3": "CPV",
+ "isoNumeric": "132",
+ "name": "Cabo Verde",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2026-11-15",
+   "dateStatus": "confirmed",
+   "type": "Presidential",
+   "note": "Two-round system."
+  }
+ ],
+ "leaders": "President José Maria Neves (PAICV)",
+ "summary": "Incumbent José Maria Neves, elected in 2021 with just over 51% in the first round, seeks a second term. Cabo Verde is one of Africa's most stable multiparty democracies.",
+ "parties": [
+  {
+   "name": "José Maria Neves (PAICV)",
+   "abbr": "PAICV",
+   "leader": "José Maria Neves",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": true,
+   "lastResult": "51.7% (2021)",
+   "polling": "",
+   "policies": [
+    "Seeks a second five-year term",
+    "Party platform: social democracy and expanded public services",
+    "Detailed campaign platform limited in English-language sources"
+   ]
+  },
+  {
+   "name": "Joana Rosa (MpD)",
+   "abbr": "MpD",
+   "leader": "Joana Rosa",
+   "position": "Centre-right",
+   "ideology": "Liberal conservatism",
+   "inGovernment": false,
+   "lastResult": "Former Minister of Justice (2021–2026)",
+   "polling": "",
+   "policies": [
+    "Backed by the Movement for Democracy",
+    "Party platform: market economy, private investment and tourism",
+    "Detailed campaign platform limited in English-language sources"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election"
+ ]
+}

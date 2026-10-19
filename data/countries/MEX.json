@@ -1,0 +1,107 @@
+{
+ "iso3": "MEX",
+ "isoNumeric": "484",
+ "name": "Mexico",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-06-06",
+   "dateStatus": "confirmed",
+   "type": "Legislative (Chamber of Deputies) and state elections",
+   "note": "All 500 deputies for 2027–2030."
+  }
+ ],
+ "leaders": "President Claudia Sheinbaum (Morena)",
+ "summary": "The midterm is the first test for President Sheinbaum. The Morena-led coalition won a supermajority in 2024, and the opposition PAN and PRI will run separately.",
+ "parties": [
+  {
+   "name": "Morena",
+   "abbr": "MORENA",
+   "leader": "Ariadna Montiel Reyes",
+   "position": "Left",
+   "ideology": "Left-wing populism",
+   "inGovernment": true,
+   "lastResult": "236 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Continue the 'Fourth Transformation' social programmes",
+    "Backed the 2024 judicial reform",
+    "Electoral reform reducing autonomous bodies"
+   ]
+  },
+  {
+   "name": "National Action Party",
+   "abbr": "PAN",
+   "leader": "Jorge Romero Herrera",
+   "position": "Right",
+   "ideology": "Conservatism, Christian democracy",
+   "inGovernment": false,
+   "lastResult": "72 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Runs without the PRI",
+    "Security and rule of law",
+    "Defend independent institutions"
+   ]
+  },
+  {
+   "name": "Ecologist Green Party",
+   "abbr": "PVEM",
+   "leader": "Karen Castrejón",
+   "position": "",
+   "ideology": "Green politics (nominal)",
+   "inGovernment": true,
+   "lastResult": "77 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Ruling coalition partner",
+    "Opposed the 2026 electoral reform"
+   ]
+  },
+  {
+   "name": "Labor Party",
+   "abbr": "PT",
+   "leader": "Alberto Anaya",
+   "position": "Left",
+   "ideology": "Socialism",
+   "inGovernment": true,
+   "lastResult": "51 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Ruling coalition partner",
+    "Opposed the 2026 electoral reform"
+   ]
+  },
+  {
+   "name": "Institutional Revolutionary Party",
+   "abbr": "PRI",
+   "leader": "Alejandro Moreno",
+   "position": "Centre",
+   "ideology": "Big tent",
+   "inGovernment": false,
+   "lastResult": "35 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Sought a united opposition front",
+    "Runs alone after split with PAN"
+   ]
+  },
+  {
+   "name": "Citizens' Movement",
+   "abbr": "MC",
+   "leader": "Jorge Máynez",
+   "position": "Centre-left",
+   "ideology": "Social democracy, progressivism",
+   "inGovernment": false,
+   "lastResult": "27 seats (2024)",
+   "polling": "",
+   "policies": [
+    "Rejects alliances with old parties",
+    "Progressive urban platform"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2027_Mexican_legislative_election"
+ ]
+}

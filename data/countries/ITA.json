@@ -1,0 +1,126 @@
+{
+ "iso3": "ITA",
+ "isoNumeric": "380",
+ "name": "Italy",
+ "lastReviewed": "2026-10-19",
+ "elections": [
+  {
+   "date": "2027-12-22",
+   "dateStatus": "expected",
+   "type": "General (Chamber and Senate)",
+   "note": "Latest legal date 22 December 2027. New majority-bonus electoral law adopted October 2026."
+  }
+ ],
+ "leaders": "Prime Minister Giorgia Meloni (Brothers of Italy); President Sergio Mattarella",
+ "summary": "Meloni's centre-right coalition has governed since 2022 and still leads polls. A new electoral law with a majority bonus for both houses was adopted in October 2026.",
+ "parties": [
+  {
+   "name": "Brothers of Italy",
+   "abbr": "FdI",
+   "leader": "Giorgia Meloni",
+   "position": "Right",
+   "ideology": "National conservatism",
+   "inGovernment": true,
+   "lastResult": "26.0% (2022)",
+   "polling": "~27%",
+   "policies": [
+    "Direct election of the prime minister (premierato)",
+    "Strict migration policy and offshore processing",
+    "Tax cuts for middle incomes",
+    "Justice reform separating judges and prosecutors"
+   ]
+  },
+  {
+   "name": "Democratic Party",
+   "abbr": "PD",
+   "leader": "Elly Schlein",
+   "position": "Centre-left",
+   "ideology": "Social democracy",
+   "inGovernment": false,
+   "lastResult": "19.1% (2022)",
+   "polling": "~21%",
+   "policies": [
+    "Statutory minimum wage",
+    "More public health funding",
+    "Leads centre-left coalition"
+   ]
+  },
+  {
+   "name": "Five Star Movement",
+   "abbr": "M5S",
+   "leader": "Giuseppe Conte",
+   "position": "Big tent, centre-left aligned",
+   "ideology": "Populism",
+   "inGovernment": false,
+   "lastResult": "15.4% (2022)",
+   "polling": "~13%",
+   "policies": [
+    "Citizens' income-style welfare",
+    "Opposes higher military spending",
+    "Anti-corruption"
+   ]
+  },
+  {
+   "name": "Forza Italia",
+   "abbr": "FI",
+   "leader": "Antonio Tajani",
+   "position": "Centre-right",
+   "ideology": "Liberal conservatism",
+   "inGovernment": true,
+   "lastResult": "8.1% (2022)",
+   "polling": "~7.5%",
+   "policies": [
+    "Pro-European centre-right",
+    "Lower taxes",
+    "Coalition partner"
+   ]
+  },
+  {
+   "name": "National Future",
+   "abbr": "FN",
+   "leader": "Roberto Vannacci",
+   "position": "Far-right",
+   "ideology": "National conservatism",
+   "inGovernment": false,
+   "lastResult": "New party (2026)",
+   "polling": "~7%",
+   "policies": [
+    "Split from the League",
+    "Hard line on immigration and identity"
+   ]
+  },
+  {
+   "name": "Greens and Left Alliance",
+   "abbr": "AVS",
+   "leader": "Angelo Bonelli and Nicola Fratoianni",
+   "position": "Left",
+   "ideology": "Green politics, eco-socialism",
+   "inGovernment": false,
+   "lastResult": "3.6% (2022)",
+   "polling": "~6%",
+   "policies": [
+    "Climate action",
+    "Wealth taxation",
+    "Part of centre-left coalition"
+   ]
+  },
+  {
+   "name": "League",
+   "abbr": "Lega",
+   "leader": "Matteo Salvini",
+   "position": "Right",
+   "ideology": "Right-wing populism, regionalism",
+   "inGovernment": true,
+   "lastResult": "8.8% (2022)",
+   "polling": "~6%",
+   "policies": [
+    "Regional autonomy",
+    "Strict immigration policy",
+    "Strait of Messina bridge"
+   ]
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Next_Italian_general_election"
+ ]
+}
