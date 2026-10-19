@@ -22,5 +22,7 @@ jobs:
           node-version: 22
       - name: Check data builds
         run: python3 scripts/build.py --today "$(date -u +%F)"
+      - name: Build news page data
+        run: python3 scripts/news.py
       - name: Deploy
         run: npx --yes vercel@latest deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}"

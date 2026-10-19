@@ -64,3 +64,8 @@ body.fin { background: var(--surface); }
 .fresh { margin-top: 16px; padding: 12px 14px; border-left: 4px solid var(--chip-gov); background: var(--chip-gov-bg); border-radius: 0 8px 8px 0; }
 .fresh h3 { margin: 0 0 4px; font-size: 1rem; }
 .fresh p { margin: 4px 0 0; }
+.news h3 a { color: var(--ink); text-decoration: none; }
+.news h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.tag { display: inline-block; margin-top: 4px; font-size: .72rem; font-weight: 600; padding: 1px 8px; border-radius: 999px; }
+.tag-kosningar { background: var(--s4); color: var(--ink); }
+.tag-fjarmal { background: var(--chip-gov-bg); color: var(--chip-gov); }

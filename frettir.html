@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="is">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fréttir</title>
+<meta name="description" content="Helstu fréttir af kosningum og uppgjörum fyrirtækja, teknar saman á íslensku með tilvísun í heimildir.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="fjarmal.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='6' width='24' height='20' rx='3' fill='%2317202b'/><path d='M9 12h14M9 16h14M9 20h9' stroke='white' stroke-width='2.4' stroke-linecap='round'/></svg>">
+</head>
+<body class="fin">
+<nav class="sitenav" aria-label="Síður">
+  <a href="/frettir" aria-current="page">Fréttir</a>
+  <a href="/">Kosningar</a>
+  <a href="/fjarmal">Fjármál</a>
+</nav>
+<main class="fin-main">
+  <header class="fin-head">
+    <h1>Fréttir</h1>
+    <p class="lede">Það helsta úr kosningum og uppgjörum, tekið saman á íslensku. Fréttir annarra miðla eru endursagðar stuttlega með okkar eigin orðum og hver frétt vísar á upprunann.</p>
+  </header>
+  <section class="block" aria-labelledby="news-h">
+    <div class="block-head">
+      <h2 id="news-h" class="visually-hidden">Nýjast</h2>
+      <div class="filters" role="group" aria-label="Sýna">
+        <button type="button" class="pill" data-filter="all" aria-pressed="true">Allt</button>
+        <button type="button" class="pill" data-filter="kosningar" aria-pressed="false">Kosningar</button>
+        <button type="button" class="pill" data-filter="fjarmal" aria-pressed="false">Fjármál</button>
+      </div>
+    </div>
+    <ol class="feed news" id="news"></ol>
+  </section>
+  <p class="fineprint">Fréttir merktar öðrum miðlum eru stuttar endursagnir og ekki afrit; lestu fréttina í heild hjá miðlinum. Samantektir úr gögnum síðunnar byggja á kosningakortinu og skilum fyrirtækja til SEC. Ekki fjárfestingarráðgjöf. <span id="updated"></span></p>
+</main>
+<script src="frettir.js"></script>
+</body>
+</html>

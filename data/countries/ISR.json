@@ -12,8 +12,25 @@
   }
  ],
  "leaders": "Prime Minister Benjamin Netanyahu (Likud); President Isaac Herzog",
- "summary": "The 25th Knesset completed its full term and dissolved in July 2026. Netanyahu's right-wing and religious bloc faces a reorganised opposition led by a joint Bennett–Lapid list.",
+ "summary": "The 25th Knesset dissolved in July 2026. Polls show former army chief Gadi Eisenkot's Yashar ahead of Likud, with neither Netanyahu's bloc nor the opposition bloc reaching a 61-seat majority.",
  "parties": [
+  {
+   "name": "Yashar",
+   "abbr": "Yashar",
+   "leader": "Gadi Eisenkot",
+   "position": "Centre",
+   "ideology": "Liberal Zionism, centrism",
+   "inGovernment": false,
+   "lastResult": "New party (founded Sept 2025)",
+   "polling": "23–26 seats, first place (Kan 18 Oct; Times of Israel 15 Oct)",
+   "policies": [
+    "State commission of inquiry into the 7 October attacks",
+    "Military or national service for Haredi and Arab citizens",
+    "Protect judicial independence; term limits for the prime minister",
+    "Strengthen the IDF and expand regional peace agreements",
+    "Cut crime, especially in Arab communities"
+   ]
+  },
   {
    "name": "Likud (with New Hope)",
    "abbr": "Likud",
@@ -22,7 +39,7 @@
    "ideology": "National liberalism, conservatism",
    "inGovernment": true,
    "lastResult": "32 seats (2022)",
-   "polling": "",
+   "polling": "20–21 seats (Times of Israel 15 Oct; Kan 18 Oct)",
    "policies": [
     "Netanyahu seeks to remain prime minister",
     "Hard line on security, Iran and Hamas",
@@ -38,12 +55,28 @@
    "ideology": "Zionism, liberalism",
    "inGovernment": false,
    "lastResult": "Yesh Atid 24 seats (2022)",
-   "polling": "",
+   "polling": "11–12 seats",
    "policies": [
     "Replace the Netanyahu government",
     "Joint list of Bennett and Yair Lapid, led by Bennett",
     "Universal conscription including Haredim",
     "State commission of inquiry into 7 October"
+   ]
+  },
+  {
+   "name": "The Democrats",
+   "abbr": "Dem",
+   "leader": "Yair Golan",
+   "position": "Centre-left to left",
+   "ideology": "Social democracy, Labor–Meretz merger",
+   "inGovernment": false,
+   "lastResult": "Labor 4 seats (2022); Meretz below threshold",
+   "polling": "8–9 seats",
+   "policies": [
+    "Unify the Zionist left",
+    "Replace the Netanyahu government",
+    "Oppose the judicial overhaul",
+    "Diplomatic path with the Palestinians"
    ]
   },
   {
@@ -54,7 +87,7 @@
    "ideology": "Haredi, Sephardi religious conservatism",
    "inGovernment": true,
    "lastResult": "11 seats (2022)",
-   "polling": "",
+   "polling": "8 seats",
    "policies": [
     "Military service exemptions for yeshiva students",
     "Religious character of public life",
@@ -69,27 +102,12 @@
    "ideology": "Secular nationalism",
    "inGovernment": false,
    "lastResult": "6 seats (2022)",
-   "polling": "",
+   "polling": "8–9 seats",
    "policies": [
     "Universal military conscription",
     "Separation of religion and state, civil marriage",
     "Hawkish security policy",
     "Will not sit with Netanyahu-led government"
-   ]
-  },
-  {
-   "name": "Religious Zionist Party",
-   "abbr": "RZP",
-   "leader": "Bezalel Smotrich",
-   "position": "Far-right",
-   "ideology": "Religious Zionism",
-   "inGovernment": true,
-   "lastResult": "7 seats (2022 joint list share)",
-   "polling": "",
-   "policies": [
-    "Settlement expansion and sovereignty in the West Bank",
-    "Opposes a Palestinian state",
-    "Judicial reform"
    ]
   },
   {
@@ -100,7 +118,7 @@
    "ideology": "Religious nationalism, Kahanism",
    "inGovernment": true,
    "lastResult": "6 seats (2022 joint list share)",
-   "polling": "",
+   "polling": "7–8 seats",
    "policies": [
     "Harsher policing and death penalty for terrorists",
     "Opposed Gaza ceasefire deals",
@@ -115,11 +133,71 @@
    "ideology": "Ashkenazi Haredi",
    "inGovernment": false,
    "lastResult": "7 seats (2022)",
-   "polling": "",
+   "polling": "7–8 seats",
    "policies": [
     "Law exempting Haredi men from military service",
     "Left the coalition in 2025 over conscription",
     "Funding for religious education"
+   ]
+  },
+  {
+   "name": "Religious Zionist Party",
+   "abbr": "RZP",
+   "leader": "Bezalel Smotrich",
+   "position": "Far-right",
+   "ideology": "Religious Zionism",
+   "inGovernment": true,
+   "lastResult": "7 seats (2022 joint list share)",
+   "polling": "6–7 seats",
+   "policies": [
+    "Settlement expansion and sovereignty in the West Bank",
+    "Opposes a Palestinian state",
+    "Judicial reform"
+   ]
+  },
+  {
+   "name": "Joint List (Hadash–Ta'al)",
+   "abbr": "JL",
+   "leader": "Yousef Jabareen",
+   "position": "Left",
+   "ideology": "Arab-Israeli representation, Hadash and Ta'al",
+   "inGovernment": false,
+   "lastResult": "Hadash–Ta'al 5 seats (2022)",
+   "polling": "8 seats",
+   "policies": [
+    "Equal rights for Arab citizens",
+    "End to the occupation and a Palestinian state",
+    "Cleared by the Supreme Court to run"
+   ]
+  },
+  {
+   "name": "United Arab List (Ra'am)",
+   "abbr": "Ra'am",
+   "leader": "Mansour Abbas",
+   "position": "",
+   "ideology": "Islamic conservatism, Arab-Israeli interests",
+   "inGovernment": false,
+   "lastResult": "5 seats (2022)",
+   "polling": "5 seats",
+   "policies": [
+    "Budgets and crime-fighting for Arab towns",
+    "Open to joining a coalition from outside the blocs",
+    "Cleared by the Supreme Court to run"
+   ]
+  },
+  {
+   "name": "Reservists",
+   "abbr": "Res",
+   "leader": "Yoaz Hendel",
+   "position": "Right",
+   "ideology": "Zionism, security-focused",
+   "inGovernment": false,
+   "lastResult": "New list",
+   "polling": "4 seats, outside both blocs",
+   "policies": [
+    "Joint list with Yaron Zelekha",
+    "Burden-sharing in military service",
+    "Platform details limited in English-language sources"
    ]
   },
   {
@@ -130,7 +208,7 @@
    "ideology": "Centrism, security-focused",
    "inGovernment": false,
    "lastResult": "National Unity 12 seats (2022)",
-   "polling": "Near the 3.25% threshold in some polls",
+   "polling": "Below the 3.25% threshold (about 1%)",
    "policies": [
     "Broad Zionist unity government",
     "Security-first approach",
@@ -139,6 +217,9 @@
   }
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+  "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+  "https://en.wikipedia.org/wiki/Yashar_(political_party)",
+  "https://www.timesofisrael.com/liveblog_entry/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/",
+  "https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/israeli-election-poll-new-far-right-party-sinks-under-threshold-smotrich-gains/000001a1-505c-da7f-a7a5-dcffffe30000"
  ]
 }

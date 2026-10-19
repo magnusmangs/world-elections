@@ -16,3 +16,10 @@ Updated weekly by a scheduled Claude task that researches changes, edits country
 - `scripts/fundamentals.py`: pulls SEC EDGAR filings and XBRL figures plus the Seðlabanki USD/ISK rate, writes `data/finance/`. Figures come only from filings; Icelandic text uses fixed templates.
 - `.github/workflows/update-finance.yml`: runs every 30 minutes on weekdays, commits only when data changed, then deploys.
 - `scripts/press_releases.py`: day-one summaries of earnings releases (8-K Exhibit 99.1). Claude extracts figures with exact quotes; code verifies each quote verbatim, the number inside it, the multiplier and plausibility against the last XBRL quarter. Numeric sentences come from templates; AI prose may contain no digits. Failures go to `data/finance/review.json`. Needs the repo secret `ANTHROPIC_API_KEY` (model via `ANTHROPIC_MODEL`, default claude-sonnet-5-5).
+
+## Fréttir (news)
+
+- `frettir.html`, `frettir.js`: Icelandic news page, merged from all sections.
+- `scripts/news.py`: builds `data/news.json` at deploy time from SECTIONS (third-party articles, election highlights, finance highlights). Add a function to SECTIONS to plug in a new part of the site.
+- `data/news/articles.json`: third-party election news, own-words summaries with outlet and link. Validated against `data/news/sources.json` (allowed outlets), length and quotation limits.
+- `NEWS.md`: daily research procedure used by the scheduled task.
