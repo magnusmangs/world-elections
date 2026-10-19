@@ -1,0 +1,31 @@
+name: Refresh country headlines
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly
+  workflow_dispatch:
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VERCEL_ORG_ID: team_kvUU3CsmbN6ecnp7qHGvXys6
+      VERCEL_PROJECT_ID: prj_6y7RdFzKDR8auGyeMe6rEhw7dQjq
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build election data
+        run: python3 scripts/build.py
+      - name: Collect headlines from outlet feeds
+        run: python3 scripts/headlines.py
+      - name: Build news page data
+        run: python3 scripts/news.py
+      - name: Deploy to Vercel
+        run: npx --yes vercel@latest deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}"

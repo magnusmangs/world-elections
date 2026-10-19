@@ -34,7 +34,19 @@
     </div>
     <ol class="feed news" id="news"></ol>
   </section>
-  <p class="fineprint">Fréttir merktar öðrum miðlum eru stuttar endursagnir og ekki afrit; lestu fréttina í heild hjá miðlinum. Samantektir úr gögnum síðunnar byggja á kosningakortinu og skilum fyrirtækja til SEC. Ekki fjárfestingarráðgjöf. <span id="updated"></span></p>
+  <section class="block" aria-labelledby="land-h" id="lond">
+    <div class="block-head">
+      <h2 id="land-h">Fréttir eftir löndum</h2>
+      <label class="search"><span class="visually-hidden">Veldu land</span><select id="land"></select></label>
+    </div>
+    <p class="hint">Hvað miðlar í landinu sjálfu leggja áherslu á, og hvernig miðlar í öðrum löndum fjalla um það. Fyrirsagnir eru birtar óbreyttar á frummáli með tengli á fréttina.</p>
+    <div class="cols">
+      <div><h3 id="dom-h">Innlendir miðlar</h3><ol class="hl" id="dom"></ol></div>
+      <div><h3 id="for-h">Erlendir miðlar</h3><div id="for"></div></div>
+    </div>
+  </section>
+
+  <p class="fineprint">Fréttir merktar öðrum miðlum eru stuttar endursagnir og ekki afrit; lestu fréttina í heild hjá miðlinum. Fyrirsagnir í „Fréttir eftir löndum“ eru sóttar sjálfkrafa á klukkustundar fresti úr opnum fréttaveitum miðlanna; tegund miðils (t.d. ríkismiðill) er tilgreind. Samantektir úr gögnum síðunnar byggja á kosningakortinu og skilum fyrirtækja til SEC. Ekki fjárfestingarráðgjöf. <span id="updated"></span></p>
 </main>
 <script src="frettir.js"></script>
 </body>

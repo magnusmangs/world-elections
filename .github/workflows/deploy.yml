@@ -22,6 +22,8 @@ jobs:
           node-version: 22
       - name: Check data builds
         run: python3 scripts/build.py --today "$(date -u +%F)"
+      - name: Collect headlines from outlet feeds
+        run: python3 scripts/headlines.py
       - name: Build news page data
         run: python3 scripts/news.py
       - name: Deploy

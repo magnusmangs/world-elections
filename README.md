@@ -23,3 +23,7 @@ Updated weekly by a scheduled Claude task that researches changes, edits country
 - `scripts/news.py`: builds `data/news.json` at deploy time from SECTIONS (third-party articles, election highlights, finance highlights). Add a function to SECTIONS to plug in a new part of the site.
 - `data/news/articles.json`: third-party election news, own-words summaries with outlet and link. Validated against `data/news/sources.json` (allowed outlets), length and quotation limits.
 - `NEWS.md`: daily research procedure used by the scheduled task.
+- `data/news/outlets.json`: top outlets per country (with type: public broadcaster, state media, newspaper...) and RSS feeds.
+- `scripts/headlines.py`: hourly; collects headlines + links only (no article text) and indexes them by country: domestic coverage vs foreign coverage. Keywords in `data/news/keywords.json` plus leader surnames from the election data.
+- `.github/workflows/update-headlines.yml`: hourly refresh and deploy. Headlines are generated, not committed.
+- Sjónarhorn items (`"type": "sjonarhorn"` in articles.json) compare how outlets in different countries frame the same story; validated to need 2+ outlets from 2+ countries.

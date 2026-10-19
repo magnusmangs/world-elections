@@ -14,6 +14,7 @@
     $("news").innerHTML = list.length ? list.map((i) => {
       const href = i.link || (i.source && i.source.url) || "#";
       const ext = !i.link;
+      if (i.kind === "sjónarhorn") return perspectiveHtml(i);
       const src = i.kind === "frétt"
         ? `Heimild: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(i.source.name)}</a>`
         : i.source ? `Úr gögnum síðunnar. Frumgagn: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(i.source.name)}</a>${i.ai ? ". Unnið með gervigreind, tölur sannreyndar" : ""}` : "Úr gögnum síðunnar";
@@ -26,12 +27,67 @@
         </div></li>`;
     }).join("") : `<li>Engar fréttir í þessum flokki síðustu vikurnar.</li>`;
   }
+  function perspectiveHtml(i) {
+    const basis = (b) => b === "article" ? "byggt á grein" : "byggt á fyrirsögn";
+    return `<li class="persp-item">
+      <time datetime="${esc(i.date)}">${esc(dateShort(i.date))}<br><span class="tag tag-${esc(i.section)}">Sjónarhorn</span></time>
+      <div>
+        <h3>${esc(i.titleIs)}</h3>
+        <p>${esc(i.summaryIs)}</p>
+        <ul class="persp">${(i.perspectives || []).map((p) => `<li>
+          <span class="persp-src"><span class="cc">${esc(nom(p.country))}</span> <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.outlet)}</a> <span class="basis">${basis(p.basis)}</span></span>
+          <span>${esc(p.framingIs)}</span></li>`).join("")}</ul>
+      </div></li>`;
+  }
+
+  // ---------- countries view ----------
+  let NOM = {}, hindex = null;
+  const nom = (iso) => NOM[iso] || iso;
+  const TYPE_IS = (t) => ({ "public broadcaster": "almannaútvarp", "state media": "ríkismiðill", "state news agency": "ríkisfréttastofa",
+    "state broadcaster": "ríkissjónvarp", "broadcaster (state-funded)": "ríkisfjármagnaður miðill", "news agency": "fréttastofa",
+    "newspaper": "dagblað", "news site": "fréttavefur", "broadcaster": "sjónvarp", "magazine": "tímarit", "regional news site": "svæðisbundinn fréttavefur" }[t] || t);
+  const hl = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener" lang="${esc(r.lang)}">${esc(r.title)}</a>
+      <span class="hl-meta">${esc(r.outlet)} (${esc(TYPE_IS(r.type))})${r.published ? ", " + esc(dateShort(r.published.slice(0, 10))) : ""}</span></li>`;
+  async function showCountry(iso) {
+    $("land").value = iso;
+    try { history.replaceState(null, "", "#land=" + iso.toLowerCase()); } catch (_) {}
+    $("dom-h").textContent = `Innlendir miðlar í ${nom(iso)}`.replace(/ í (.*)$/, (m, n) => " · " + n);
+    let d;
+    try { d = await fetch(`data/news/headlines/${iso}.json`, { cache: "no-cache" }).then((r) => r.json()); }
+    catch (_) { $("dom").innerHTML = "<li>Engar fyrirsagnir fundust.</li>"; $("for").innerHTML = ""; return; }
+    $("dom").innerHTML = d.domestic.length ? d.domestic.slice(0, 15).map(hl).join("")
+      : `<li class="muted">Enginn innlendur miðill frá ${esc(nom(iso))} er enn í skránni okkar.</li>`;
+    const groups = {};
+    d.foreign.forEach((r) => (groups[r.outletCountry] = groups[r.outletCountry] || []).push(r));
+    const order = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length);
+    $("for").innerHTML = order.length ? order.map((c) => `<div class="fgroup"><h4>${esc(nom(c))}</h4><ol class="hl">${groups[c].slice(0, 5).map(hl).join("")}</ol></div>`).join("")
+      : `<p class="muted">Engar erlendar fyrirsagnir um ${esc(nom(iso))} síðustu sjö daga.</p>`;
+    const persp = items.filter((i) => i.kind === "sjónarhorn" && i.iso3 === iso);
+    if (persp.length) $("for").insertAdjacentHTML("afterbegin", `<ol class="feed news">${persp.map(perspectiveHtml).join("")}</ol>`);
+  }
+  async function initCountries() {
+    try {
+      hindex = await fetch("data/news/headlines/index.json", { cache: "no-cache" }).then((r) => r.json());
+    } catch (_) { $("lond").hidden = true; return; }
+    const list = hindex.countries.filter((c) => c.domestic + c.foreign > 0)
+      .sort((a, b) => nom(a.iso3).localeCompare(nom(b.iso3), "is"));
+    $("land").innerHTML = list.map((c) => `<option value="${esc(c.iso3)}">${esc(nom(c.iso3))} (${c.foreign} erl. · ${c.domestic} innl.)</option>`).join("");
+    $("land").onchange = (e) => showCountry(e.target.value);
+    const m = location.hash.match(/land=([a-z]{3})/i);
+    const start = m ? m[1].toUpperCase() : (list.find((c) => c.iso3 === "BRA") || list[0]).iso3;
+    if (list.some((c) => c.iso3 === start)) showCountry(start);
+    if (m) $("lond").scrollIntoView();
+  }
+
   document.querySelectorAll(".pill").forEach((b) => b.addEventListener("click", () => {
     filter = b.dataset.filter; try { localStorage.setItem("frettir.filter", filter); } catch (_) {} render();
   }));
-  fetch("data/news.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => {
+  Promise.all([fetch("data/news.json", { cache: "no-cache" }).then((r) => r.json()),
+    fetch("data/news/countries_is_nom.json").then((r) => r.json()).catch(() => ({}))]).then(([d, names]) => {
+    NOM = names;
     items = d.items || [];
     $("updated").textContent = `Síðast uppfært ${d.updated.slice(0, 10)} kl. ${d.updated.slice(11, 16)} (UTC).`;
     render();
+    initCountries();
   }).catch(() => { $("news").innerHTML = "<li>Ekki tókst að sækja fréttirnar. Endurhlaðið síðuna.</li>"; });
 })();

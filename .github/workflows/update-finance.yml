@@ -46,6 +46,8 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Collect headlines from outlet feeds
+        run: python3 scripts/headlines.py
       - name: Build news page data
         run: python3 scripts/news.py
       - name: Deploy to Vercel

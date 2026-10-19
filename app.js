@@ -104,6 +104,7 @@
         ${votes}
         <p class="summary">${esc(c.summary)}</p>
         ${parties}
+        <p class="summary"><a href="/frettir#land=${esc(c.iso3.toLowerCase())}">Fréttir um ${esc(c.name)} í innlendum og erlendum miðlum</a></p>
         <h3>Sources</h3>
         <ol class="sources">${(c.sources || []).map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, ""))}</a></li>`).join("")}</ol>
         <p class="reviewed">Last reviewed ${esc(fmt(c.lastReviewed, { day: "numeric", month: "long", year: "numeric" }))}. Summaries are written with AI assistance from the sources above and may lag the news.</p>`;

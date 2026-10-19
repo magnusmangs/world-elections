@@ -91,6 +91,22 @@ def validate_article(a, allowed, now):
             errs.append("quotation longer than 15 words")
     if len(a["titleIs"]) > 140:
         errs.append("title longer than 140 characters")
+    if a.get("type") == "sjonarhorn":
+        ps = a.get("perspectives") or []
+        if len(ps) < 2 or len({p.get("country") for p in ps}) < 2:
+            errs.append("perspective item needs at least 2 outlets from 2 different countries")
+        for p in ps:
+            ph = (urlparse(p.get("url", "")).hostname or "").lower()
+            if not any(ph == d or ph.endswith("." + d) for d in allowed):
+                errs.append(f"perspective outlet {ph} not allowed")
+            if p.get("basis") not in ("headline", "article"):
+                errs.append("perspective basis must be headline or article")
+            f = p.get("framingIs", "")
+            if not f or len(f) > 260:
+                errs.append("perspective framingIs missing or longer than 260 characters")
+            for q in QUOTE.findall(f):
+                if len(q.split()) > 15:
+                    errs.append("quotation longer than 15 words")
     return errs
 
 
@@ -105,7 +121,8 @@ def section_articles(now):
             bad.append((a.get("id"), errs)); continue
         if (now - datetime.date.fromisoformat(a["published"])).days > 45:
             continue
-        out.append({"id": a["id"], "section": a["section"], "kind": "frétt", "date": a["published"],
+        out.append({"id": a["id"], "section": a["section"], "kind": "sjónarhorn" if a.get("type") == "sjonarhorn" else "frétt",
+                    "perspectives": a.get("perspectives"), "date": a["published"],
                     "titleIs": a["titleIs"], "summaryIs": a["summaryIs"],
                     "source": {"name": a["source"], "url": a["url"]},
                     "link": f"/#{a['iso3'].lower()}" if a.get("iso3") else None, "iso3": a.get("iso3")})

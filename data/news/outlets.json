@@ -1,0 +1,536 @@
+{
+ "note": "Top news outlets per country. Headlines and links only are collected (no article text). type marks public broadcasters, state media, wires etc. so readers can weigh the source. Add an outlet: append an entry; the hourly job checks the feed.",
+ "countryNamesIs": {
+  "GBR": "Bretland",
+  "USA": "Bandaríkin",
+  "QAT": "Katar",
+  "DEU": "Þýskaland",
+  "FRA": "Frakkland",
+  "RUS": "Rússland",
+  "CHN": "Kína",
+  "HKG": "Hong Kong",
+  "IND": "Indland",
+  "JPN": "Japan",
+  "TUR": "Tyrkland",
+  "UKR": "Úkraína",
+  "ISL": "Ísland",
+  "BRA": "Brasilía",
+  "ISR": "Ísrael",
+  "SRB": "Serbía",
+  "BGR": "Búlgaría",
+  "NZL": "Nýja-Sjáland",
+  "ESP": "Spánn",
+  "FIN": "Finnland",
+  "EST": "Eistland",
+  "GRC": "Grikkland",
+  "POL": "Pólland",
+  "NGA": "Nígería",
+  "KEN": "Kenía",
+  "MEX": "Mexíkó",
+  "ARG": "Argentína",
+  "ITA": "Ítalía",
+  "SVK": "Slóvakía",
+  "CHE": "Sviss",
+  "ZAF": "Suður-Afríka",
+  "AUS": "Ástralía",
+  "CAN": "Kanada",
+  "SGP": "Singapúr"
+ },
+ "outlets": [
+  {
+   "id": "bbc",
+   "country": "GBR",
+   "name": "BBC News",
+   "domain": "bbc.com",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://feeds.bbci.co.uk/news/world/rss.xml"
+  },
+  {
+   "id": "theguardian",
+   "country": "GBR",
+   "name": "The Guardian",
+   "domain": "theguardian.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.theguardian.com/world/rss"
+  },
+  {
+   "id": "news-sky-com",
+   "country": "GBR",
+   "name": "Sky News",
+   "domain": "news.sky.com",
+   "type": "broadcaster",
+   "lang": "en",
+   "feed": "https://feeds.skynews.com/feeds/rss/world.xml"
+  },
+  {
+   "id": "telegraph-co-uk",
+   "country": "GBR",
+   "name": "The Telegraph",
+   "domain": "telegraph.co.uk",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.telegraph.co.uk/news/rss.xml"
+  },
+  {
+   "id": "npr",
+   "country": "USA",
+   "name": "NPR",
+   "domain": "npr.org",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://feeds.npr.org/1004/rss.xml"
+  },
+  {
+   "id": "nytimes",
+   "country": "USA",
+   "name": "The New York Times",
+   "domain": "nytimes.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+  },
+  {
+   "id": "foxnews",
+   "country": "USA",
+   "name": "Fox News",
+   "domain": "foxnews.com",
+   "type": "broadcaster",
+   "lang": "en",
+   "feed": "https://moxie.foxnews.com/google-publisher/world.xml"
+  },
+  {
+   "id": "wsj",
+   "country": "USA",
+   "name": "The Wall Street Journal",
+   "domain": "wsj.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+  },
+  {
+   "id": "politico",
+   "country": "USA",
+   "name": "Politico",
+   "domain": "politico.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://rss.politico.com/politics-news.xml"
+  },
+  {
+   "id": "aljazeera",
+   "country": "QAT",
+   "name": "Al Jazeera",
+   "domain": "aljazeera.com",
+   "type": "broadcaster (state-funded)",
+   "lang": "en",
+   "feed": "https://www.aljazeera.com/xml/rss/all.xml"
+  },
+  {
+   "id": "dw",
+   "country": "DEU",
+   "name": "Deutsche Welle",
+   "domain": "dw.com",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://rss.dw.com/rdf/rss-en-all"
+  },
+  {
+   "id": "spiegel",
+   "country": "DEU",
+   "name": "Der Spiegel",
+   "domain": "spiegel.de",
+   "type": "magazine",
+   "lang": "en",
+   "feed": "https://www.spiegel.de/international/index.rss"
+  },
+  {
+   "id": "france24",
+   "country": "FRA",
+   "name": "France 24",
+   "domain": "france24.com",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://www.france24.com/en/rss"
+  },
+  {
+   "id": "lemonde",
+   "country": "FRA",
+   "name": "Le Monde",
+   "domain": "lemonde.fr",
+   "type": "newspaper",
+   "lang": "fr",
+   "feed": "https://www.lemonde.fr/rss/une.xml"
+  },
+  {
+   "id": "lefigaro",
+   "country": "FRA",
+   "name": "Le Figaro",
+   "domain": "lefigaro.fr",
+   "type": "newspaper",
+   "lang": "fr",
+   "feed": "https://www.lefigaro.fr/rss/figaro_actualites.xml"
+  },
+  {
+   "id": "tass",
+   "country": "RUS",
+   "name": "TASS",
+   "domain": "tass.com",
+   "type": "state news agency",
+   "lang": "en",
+   "feed": "https://tass.com/rss/v2.xml"
+  },
+  {
+   "id": "cgtn",
+   "country": "CHN",
+   "name": "CGTN",
+   "domain": "cgtn.com",
+   "type": "state broadcaster",
+   "lang": "en",
+   "feed": "https://www.cgtn.com/subscribe/rss/section/world.xml"
+  },
+  {
+   "id": "scmp",
+   "country": "HKG",
+   "name": "South China Morning Post",
+   "domain": "scmp.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.scmp.com/rss/91/feed"
+  },
+  {
+   "id": "thehindu",
+   "country": "IND",
+   "name": "The Hindu",
+   "domain": "thehindu.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.thehindu.com/news/international/feeder/default.rss"
+  },
+  {
+   "id": "japantimes-co-jp",
+   "country": "JPN",
+   "name": "The Japan Times",
+   "domain": "japantimes.co.jp",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.japantimes.co.jp/feed/"
+  },
+  {
+   "id": "dailysabah",
+   "country": "TUR",
+   "name": "Daily Sabah",
+   "domain": "dailysabah.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.dailysabah.com/rssFeed/world"
+  },
+  {
+   "id": "kyivindependent",
+   "country": "UKR",
+   "name": "The Kyiv Independent",
+   "domain": "kyivindependent.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://kyivindependent.com/rss/"
+  },
+  {
+   "id": "ruv",
+   "country": "ISL",
+   "name": "RÚV",
+   "domain": "ruv.is",
+   "type": "public broadcaster",
+   "lang": "is",
+   "feed": "https://www.ruv.is/rss/frettir"
+  },
+  {
+   "id": "mbl",
+   "country": "ISL",
+   "name": "mbl.is",
+   "domain": "mbl.is",
+   "type": "newspaper",
+   "lang": "is",
+   "feed": "https://www.mbl.is/feeds/fp/"
+  },
+  {
+   "id": "visir",
+   "country": "ISL",
+   "name": "Vísir",
+   "domain": "visir.is",
+   "type": "news site",
+   "lang": "is",
+   "feed": "https://www.visir.is/rss/allt"
+  },
+  {
+   "id": "folha-uol-com-br",
+   "country": "BRA",
+   "name": "Folha de S.Paulo",
+   "domain": "folha.uol.com.br",
+   "type": "newspaper",
+   "lang": "pt",
+   "feed": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml"
+  },
+  {
+   "id": "g1-globo-com",
+   "country": "BRA",
+   "name": "g1 (Globo)",
+   "domain": "g1.globo.com",
+   "type": "news site",
+   "lang": "pt",
+   "feed": "https://g1.globo.com/rss/g1/politica/"
+  },
+  {
+   "id": "timesofisrael",
+   "country": "ISR",
+   "name": "The Times of Israel",
+   "domain": "timesofisrael.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://www.timesofisrael.com/feed/"
+  },
+  {
+   "id": "jpost",
+   "country": "ISR",
+   "name": "The Jerusalem Post",
+   "domain": "jpost.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.jpost.com/rss/rssfeedsheadlines.aspx"
+  },
+  {
+   "id": "ynetnews",
+   "country": "ISR",
+   "name": "Ynetnews",
+   "domain": "ynetnews.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://www.ynetnews.com/Integration/StoryRss3082.xml"
+  },
+  {
+   "id": "n1info",
+   "country": "SRB",
+   "name": "N1",
+   "domain": "n1info.rs",
+   "type": "broadcaster",
+   "lang": "en",
+   "feed": "https://n1info.rs/english/feed/"
+  },
+  {
+   "id": "balkaninsight",
+   "country": "SRB",
+   "name": "Balkan Insight",
+   "domain": "balkaninsight.com",
+   "type": "regional news site",
+   "lang": "en",
+   "feed": "https://balkaninsight.com/feed/"
+  },
+  {
+   "id": "novinite",
+   "country": "BGR",
+   "name": "Novinite",
+   "domain": "novinite.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://www.novinite.com/services/news_rdf.php"
+  },
+  {
+   "id": "rnz-co-nz",
+   "country": "NZL",
+   "name": "RNZ",
+   "domain": "rnz.co.nz",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://www.rnz.co.nz/rss/national.xml"
+  },
+  {
+   "id": "nzherald-co-nz",
+   "country": "NZL",
+   "name": "The New Zealand Herald",
+   "domain": "nzherald.co.nz",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.nzherald.co.nz/arc/outboundfeeds/rss/curated/78/?outputType=xml"
+  },
+  {
+   "id": "elpais",
+   "country": "ESP",
+   "name": "El País",
+   "domain": "elpais.com",
+   "type": "newspaper",
+   "lang": "es",
+   "feed": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+  },
+  {
+   "id": "elmundo",
+   "country": "ESP",
+   "name": "El Mundo",
+   "domain": "elmundo.es",
+   "type": "newspaper",
+   "lang": "es",
+   "feed": "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
+  },
+  {
+   "id": "yle",
+   "country": "FIN",
+   "name": "Yle News",
+   "domain": "yle.fi",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
+  },
+  {
+   "id": "err",
+   "country": "EST",
+   "name": "ERR News",
+   "domain": "err.ee",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://news.err.ee/rss"
+  },
+  {
+   "id": "ekathimerini",
+   "country": "GRC",
+   "name": "Kathimerini",
+   "domain": "ekathimerini.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.ekathimerini.com/rss"
+  },
+  {
+   "id": "notesfrompoland",
+   "country": "POL",
+   "name": "Notes from Poland",
+   "domain": "notesfrompoland.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://notesfrompoland.com/feed/"
+  },
+  {
+   "id": "tvpworld",
+   "country": "POL",
+   "name": "TVP World",
+   "domain": "tvpworld.com",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://tvpworld.com/rss"
+  },
+  {
+   "id": "premiumtimesng",
+   "country": "NGA",
+   "name": "Premium Times",
+   "domain": "premiumtimesng.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://www.premiumtimesng.com/feed"
+  },
+  {
+   "id": "punchng",
+   "country": "NGA",
+   "name": "Punch",
+   "domain": "punchng.com",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://punchng.com/feed/"
+  },
+  {
+   "id": "standardmedia-co-ke",
+   "country": "KEN",
+   "name": "The Standard",
+   "domain": "standardmedia.co.ke",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://www.standardmedia.co.ke/rss/headlines.php"
+  },
+  {
+   "id": "mexiconewsdaily",
+   "country": "MEX",
+   "name": "Mexico News Daily",
+   "domain": "mexiconewsdaily.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://mexiconewsdaily.com/feed/"
+  },
+  {
+   "id": "clarin",
+   "country": "ARG",
+   "name": "Clarín",
+   "domain": "clarin.com",
+   "type": "newspaper",
+   "lang": "es",
+   "feed": "https://www.clarin.com/rss/lo-ultimo/"
+  },
+  {
+   "id": "lanacion-com-ar",
+   "country": "ARG",
+   "name": "La Nación",
+   "domain": "lanacion.com.ar",
+   "type": "newspaper",
+   "lang": "es",
+   "feed": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "id": "ansa",
+   "country": "ITA",
+   "name": "ANSA",
+   "domain": "ansa.it",
+   "type": "news agency",
+   "lang": "en",
+   "feed": "https://www.ansa.it/english/news/english_nr_rss.xml"
+  },
+  {
+   "id": "spectator-sme-sk",
+   "country": "SVK",
+   "name": "The Slovak Spectator",
+   "domain": "spectator.sme.sk",
+   "type": "newspaper",
+   "lang": "en",
+   "feed": "https://spectator.sme.sk/rss"
+  },
+  {
+   "id": "swissinfo",
+   "country": "CHE",
+   "name": "Swissinfo",
+   "domain": "swissinfo.ch",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://www.swissinfo.ch/eng/rss"
+  },
+  {
+   "id": "news24",
+   "country": "ZAF",
+   "name": "News24",
+   "domain": "news24.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://feeds.news24.com/articles/news24/World/rss"
+  },
+  {
+   "id": "abc-net-au",
+   "country": "AUS",
+   "name": "ABC News",
+   "domain": "abc.net.au",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://www.abc.net.au/news/feed/2942460/rss.xml"
+  },
+  {
+   "id": "cbc",
+   "country": "CAN",
+   "name": "CBC News",
+   "domain": "cbc.ca",
+   "type": "public broadcaster",
+   "lang": "en",
+   "feed": "https://www.cbc.ca/webfeed/rss/rss-world"
+  },
+  {
+   "id": "channelnewsasia",
+   "country": "SGP",
+   "name": "CNA",
+   "domain": "channelnewsasia.com",
+   "type": "broadcaster",
+   "lang": "en",
+   "feed": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6311"
+  }
+ ]
+}
