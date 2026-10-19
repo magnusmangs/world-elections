@@ -7,11 +7,17 @@
    "form": "8-K",
    "kind": "Afkomutilkynning",
    "filed": "2026-10-13",
-   "periodEnd": "2026-10-13",
+   "periodEnd": "2026-09-30",
    "accession": "0001628280-26-065582",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm",
    "headlineIs": "JPMorgan Chase birtir afkomutilkynningu",
-   "summaryIs": "Fréttatilkynning um afkomu var birt hjá SEC. Staðfestar tölur úr uppgjörinu birtast hér þegar fyrirtækið skilar formlegu uppgjöri (10-Q eða 10-K)."
+   "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur JPMorgan Chase 50,2 ma. USD (6.072 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 8,1% frá sama tíma í fyrra. Hagnaður nam 15,3 ma. USD (1.852 ma. kr.), aukning um 6,3% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 5,57 USD. Bankinn segir að öll meginsvið hafi skilað góðri afkomu og að tekjur af markaðsviðskiptum og fjárfestingabankastarfsemi hafi aukist. Tap af sölu fjárfestingaverðbréfa dró úr hagnaði fjórðungsins samkvæmt tilkynningunni. Bankinn dró úr endurkaupum eigin bréfa á fjórðungnum.",
+   "ai": {
+    "status": "verified",
+    "label": "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum.",
+    "exhibit": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+    "rejected": 0
+   }
   },
   {
    "ticker": "JNJ",
@@ -19,11 +25,17 @@
    "form": "8-K",
    "kind": "Afkomutilkynning",
    "filed": "2026-10-13",
-   "periodEnd": "2026-10-13",
+   "periodEnd": "2026-09-27",
    "accession": "0000200406-26-000189",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/jnj-20261013.htm",
    "headlineIs": "Johnson & Johnson birtir afkomutilkynningu",
-   "summaryIs": "Fréttatilkynning um afkomu var birt hjá SEC. Staðfestar tölur úr uppgjörinu birtast hér þegar fyrirtækið skilar formlegu uppgjöri (10-Q eða 10-K)."
+   "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Johnson & Johnson 25,4 ma. USD (3.074 ma. kr.) á ársfjórðungnum sem lauk 27. september 2026, aukning um 5,9% frá sama tíma í fyrra. Hagnaður nam 210 m. USD (25 ma. kr.), samdráttur um 95,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,09 USD. Hagnaður dróst verulega saman vegna einskiptiskostnaðar sem tengist fyrirhugaðri lausn talkúm-málaferla og kaupum á Firefly Bio. Fyrirtækið segir að sterk rekstrarafkoma endurspegli vaxandi skriðþunga í lyfja- og lækningatækjastarfsemi. Fyrirtækið hækkaði spá sína um sölu og leiðréttan hagnað á hlut fyrir árið.",
+   "ai": {
+    "status": "verified",
+    "label": "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum.",
+    "exhibit": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/a2026q3exhibit991.htm",
+    "rejected": 0
+   }
   },
   {
    "ticker": "COST",

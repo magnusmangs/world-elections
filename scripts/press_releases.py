@@ -17,7 +17,12 @@ Pipeline per new earnings 8-K in data/finance/feed.json:
      "release published" text with a link.
 
 Needs ANTHROPIC_API_KEY. Without it the script exits quietly (nothing changes).
-Usage: python3 scripts/press_releases.py [--max 8] [--days 10] [--mock response.json --accession X]
+Modes:
+  (default)  API mode, needs ANTHROPIC_API_KEY (paid).
+  --prepare  Claude-session mode, step 1: download pending releases to data/finance/work/ and print instructions.
+  --apply    Claude-session mode, step 2: verify data/finance/work/<accession>.answer.json and update the feed.
+  --mock F   Test the verifier with a hand-written answer file (no changes written).
+Options: --max 8 --days 10 --accession X
 """
 import html, json, os, re, sys, time, datetime, urllib.request
 
@@ -31,7 +36,7 @@ MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 METRICS = {"revenue", "operatingIncome", "netIncome", "eps"}
 MULTIPLIERS = {1, 1_000, 1_000_000, 1_000_000_000}
 NUMBER_WORDS = re.compile(r"(prósent|milljarð|milljón|milljón|þúsund|helming|tvöf|þrefald|tug|hundr)", re.I)
-ADVICE = re.compile(r"\b(kaup|kaupa|selja|sölu|mælum|ráðleggj|ráðgjöf|tækifæri til|ættir)\w*", re.I)
+ADVICE = re.compile(r"(kaupa bréf|selja bréf|kauptækifær|söluráð|mæl(um|i|ir) með|ráðlegg|fjárfestingarráð|ættir að|ætti að kaupa|ætti að selja|góð kaup|gott tækifæri)", re.I)
 AI_LABEL = "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum."
 
 SYSTEM = """You extract figures from a US company's earnings press release for an Icelandic news service.
@@ -142,10 +147,39 @@ def verify_figure(f, source, last_xbrl):
         if abs(calc - val) > max(abs(val) * 0.005, 0.005):
             return False, f"value {val} != as_written x multiplier {calc}"
         ref = last_xbrl.get(f["metric"])
-        if ref and f.get("period") == "current" and ref != 0 and val != 0:
-            ratio = val / ref
-            if not (0.25 <= ratio <= 4) and not (f["metric"] in ("netIncome", "eps", "operatingIncome") and (val < 0) != (ref < 0)):
-                return False, f"implausible vs last reported quarter ({ref})"
+        if f["metric"] == "revenue" and ref and f.get("period") == "current" and not (0.25 <= val / ref <= 4):
+            return False, f"implausible vs last reported quarter revenue ({ref})"
+        if f["metric"] == "eps" and abs(val) > 1000:
+            return False, "implausible EPS"
+        return True, "ok"
+    except Exception as e:
+        return False, f"error: {e}"
+
+
+def cross_check(checked):
+    """Profit lines can swing wildly (one-off charges), so instead of comparing them with last
+    quarter we require them to sit in the same table units as revenue and below 2x revenue."""
+    bad = []
+    for period in ("current", "prior_year"):
+        rev = checked.get(("revenue", period))
+        for m in ("netIncome", "operatingIncome"):
+            f = checked.get((m, period))
+            if not f:
+                continue
+            if not rev:
+                if period == "current":
+                    bad.append((m, period, "no verified revenue to cross-check against"))
+                continue
+            if abs(float(f["value"])) > 2 * abs(float(rev["value"])):
+                bad.append((m, period, "larger than twice revenue"))
+            elif int(f["multiplier"]) != int(rev["multiplier"]) and int(rev["multiplier"]) != 1_000_000_000 and int(f["multiplier"]) != 1_000_000_000:
+                bad.append((m, period, "units differ from revenue table"))
+    return bad
+
+
+def _unused():
+    try:
+        pass
         return True, "ok"
     except Exception as e:
         return False, f"error: {e}"
@@ -169,6 +203,8 @@ def build(company_name, model_out, source, last_xbrl, rate):
                 checked[key] = f
         else:
             rejected.append({**f, "reason": why})
+    for m, period, why in cross_check(checked):
+        rejected.append({**checked.pop((m, period)), "reason": why})
     pe = model_out.get("periodEnd", "")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", pe or ""):
         return None, checked, rejected + [{"reason": "missing or invalid periodEnd"}]
@@ -198,15 +234,39 @@ def build(company_name, model_out, source, last_xbrl, rate):
 
 
 # ---------- main ----------
+WORK = os.path.join(FIN, "work")  # scratch files for the Claude-session mode, never committed
+
+
+def apply_result(item, url, out, source, co, rate, review, model_name):
+    last = {k: v["value"] for k, v in co["latest"]["metrics"].items()}
+    result, checked, rejected = build(co["name"], out, source, last, rate)
+    os.makedirs(REL, exist_ok=True)
+    record = {"accession": item["accession"], "ticker": item["ticker"], "exhibit": url, "model": model_name,
+              "processed": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+              "verified": [{"metric": k[0], "period": k[1], **v} for k, v in checked.items()],
+              "rejected": rejected, "result": result}
+    json.dump(record, open(os.path.join(REL, f"{item['accession']}.json"), "w"), ensure_ascii=False, indent=1)
+    if result:
+        item["summaryIs"] = result["summaryIs"]
+        item["periodEnd"] = result["periodEnd"]
+        item["ai"] = {"status": "verified", "label": AI_LABEL, "exhibit": url, "rejected": len(rejected)}
+        print(f"{item['ticker']}: verified ({len(checked)} figures, {len(rejected)} rejected)")
+    else:
+        item["ai"] = {"status": "needs_review"}
+        review["items"].append({"accession": item["accession"], "ticker": item["ticker"], "filed": item["filed"],
+                                "exhibit": url, "reasons": [r.get("reason") for r in rejected][:10]})
+        print(f"{item['ticker']}: needs review: {[r.get('reason') for r in rejected][:3]}")
+    return record
+
+
 def main():
     args = sys.argv[1:]
     opt = lambda k, d=None: args[args.index(k) + 1] if k in args else d
-    mock = opt("--mock")
-    if not mock and not os.environ.get("ANTHROPIC_API_KEY"):
-        print("ANTHROPIC_API_KEY not set; skipping AI summaries.")
+    mode = "prepare" if "--prepare" in args else "apply" if "--apply" in args else "mock" if "--mock" in args else "api"
+    if mode == "api" and not os.environ.get("ANTHROPIC_API_KEY"):
+        print("ANTHROPIC_API_KEY not set; skipping API mode. (Use --prepare / --apply for the Claude-session mode.)")
         return
     max_n, days = int(opt("--max", 8)), int(opt("--days", 10))
-    os.makedirs(REL, exist_ok=True)
     feed_path = os.path.join(FIN, "feed.json")
     feed = json.load(open(feed_path))
     rate = json.load(open(os.path.join(FIN, "index.json")))["fx"]["usdIsk"]
@@ -216,41 +276,61 @@ def main():
     only = opt("--accession")
     todo = [i for i in feed["items"] if i["form"] == "8-K" and not i.get("ai") and
             (i["accession"] == only if only else i["filed"] >= cutoff)][:max_n]
-    changed = False
-    for item in todo:
-        co = json.load(open(os.path.join(FIN, "companies", f"{item['ticker']}.json")))
-        last = {k: v["value"] for k, v in co["latest"]["metrics"].items()}
-        try:
+    os.makedirs(WORK, exist_ok=True)
+
+    if mode == "prepare":
+        n = 0
+        for item in todo:
+            co = json.load(open(os.path.join(FIN, "companies", f"{item['ticker']}.json")))
             url = exhibit_991(co["cik"], item["accession"])
             if not url:
-                item["ai"] = {"status": "no_exhibit"}; changed = True; continue
-            source = html_to_text(fetch_text(url))
-            out = json.load(open(mock)) if mock else ask_claude(source, co["name"])
+                item["ai"] = {"status": "no_exhibit"}; continue
+            txt = os.path.join(WORK, f"{item['accession']}.txt")
+            open(txt, "w").write(f"Company: {co['name']} ({item['ticker']})\nExhibit: {url}\n\n" + html_to_text(fetch_text(url)))
+            json.dump({"url": url}, open(os.path.join(WORK, f"{item['accession']}.meta.json"), "w"))
+            print(f"PENDING {item['ticker']} {item['filed']}: read {os.path.relpath(txt, ROOT)} "
+                  f"-> write data/finance/work/{item['accession']}.answer.json")
+            n += 1
+        json.dump(feed, open(feed_path, "w"), ensure_ascii=False, indent=1)
+        if n:
+            print("\nINSTRUCTIONS FOR EACH ANSWER FILE:\n" + SYSTEM)
+        else:
+            print("No new earnings releases to summarise.")
+        return
+
+    changed, record = False, None
+    for item in todo:
+        co = json.load(open(os.path.join(FIN, "companies", f"{item['ticker']}.json")))
+        try:
+            if mode == "apply":
+                ans = os.path.join(WORK, f"{item['accession']}.answer.json")
+                if not os.path.exists(ans):
+                    continue
+                url = json.load(open(os.path.join(WORK, f"{item['accession']}.meta.json")))["url"]
+                body = open(os.path.join(WORK, f"{item['accession']}.txt")).read()
+                source = normalize(body.split("\n\n", 1)[1])
+                raw = open(ans).read()
+                out = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
+                model_name = "claude (scheduled session)"
+            else:
+                url = exhibit_991(co["cik"], item["accession"])
+                if not url:
+                    item["ai"] = {"status": "no_exhibit"}; changed = True; continue
+                source = html_to_text(fetch_text(url))
+                out = json.load(open(opt("--mock"))) if mode == "mock" else ask_claude(source, co["name"])
+                model_name = None if mode == "mock" else MODEL
         except Exception as e:
             print(f"{item['ticker']}: error {e}", file=sys.stderr); continue
-        result, checked, rejected = build(co["name"], out, source, last, rate)
-        record = {"accession": item["accession"], "ticker": item["ticker"], "exhibit": url, "model": None if mock else MODEL,
-                  "processed": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
-                  "verified": [{"metric": k[0], "period": k[1], **v} for k, v in checked.items()],
-                  "rejected": rejected, "result": result}
-        if not mock:
-            json.dump(record, open(os.path.join(REL, f"{item['accession']}.json"), "w"), ensure_ascii=False, indent=1)
-        if result:
-            item["summaryIs"] = result["summaryIs"]
-            item["periodEnd"] = result["periodEnd"]
-            item["ai"] = {"status": "verified", "label": AI_LABEL, "exhibit": url, "rejected": len(rejected)}
-            print(f"{item['ticker']}: verified ({len(checked)} figures, {len(rejected)} rejected)")
-        else:
-            item["ai"] = {"status": "needs_review"}
-            review["items"].append({"accession": item["accession"], "ticker": item["ticker"], "filed": item["filed"],
-                                    "exhibit": url, "reasons": [r.get("reason") for r in rejected][:10]})
-            print(f"{item['ticker']}: needs review: {[r.get('reason') for r in rejected][:3]}")
+        if mode == "mock":
+            last = {k: v["value"] for k, v in co["latest"]["metrics"].items()}
+            result, checked, rejected = build(co["name"], out, source, last, rate)
+            print(json.dumps({"result": result, "rejected": rejected}, ensure_ascii=False, indent=1)[:2500])
+            continue
+        record = apply_result(item, url, out, source, co, rate, review, model_name)
         changed = True
-    if changed and not mock:
+    if changed:
         json.dump(feed, open(feed_path, "w"), ensure_ascii=False, indent=1)
         json.dump(review, open(review_path, "w"), ensure_ascii=False, indent=1)
-    elif mock:
-        print(json.dumps({k: v for k, v in record.items() if k != "verified"}, ensure_ascii=False, indent=1)[:2500])
 
 
 if __name__ == "__main__":

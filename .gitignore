@@ -3,3 +3,4 @@
 .vercel-token
 node_modules
 __pycache__/
+data/finance/work/

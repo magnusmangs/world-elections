@@ -1,0 +1,73 @@
+{
+ "accession": "0000200406-26-000189",
+ "ticker": "JNJ",
+ "exhibit": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/a2026q3exhibit991.htm",
+ "model": "claude (scheduled session)",
+ "processed": "2026-10-19T15:22Z",
+ "verified": [
+  {
+   "metric": "revenue",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "$25,399",
+   "multiplier": 1000000,
+   "value": 25399000000,
+   "quote": "Reported Sales $25,399 $23,993 5.9%"
+  },
+  {
+   "metric": "revenue",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "$23,993",
+   "multiplier": 1000000,
+   "value": 23993000000,
+   "quote": "Reported Sales $25,399 $23,993 5.9%"
+  },
+  {
+   "metric": "netIncome",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "$210",
+   "multiplier": 1000000,
+   "value": 210000000,
+   "quote": "Net Earnings $210 $5,152 (95.9)%"
+  },
+  {
+   "metric": "netIncome",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "$5,152",
+   "multiplier": 1000000,
+   "value": 5152000000,
+   "quote": "Net Earnings $210 $5,152 (95.9)%"
+  },
+  {
+   "metric": "eps",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "$0.09",
+   "multiplier": 1,
+   "value": 0.09,
+   "quote": "EPS (diluted) $0.09 $2.12 (95.8)%"
+  },
+  {
+   "metric": "eps",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "$2.12",
+   "multiplier": 1,
+   "value": 2.12,
+   "quote": "EPS (diluted) $0.09 $2.12 (95.8)%"
+  }
+ ],
+ "rejected": [],
+ "result": {
+  "periodEnd": "2026-09-27",
+  "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Johnson & Johnson 25,4 ma. USD (3.074 ma. kr.) á ársfjórðungnum sem lauk 27. september 2026, aukning um 5,9% frá sama tíma í fyrra. Hagnaður nam 210 m. USD (25 ma. kr.), samdráttur um 95,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,09 USD. Hagnaður dróst verulega saman vegna einskiptiskostnaðar sem tengist fyrirhugaðri lausn talkúm-málaferla og kaupum á Firefly Bio. Fyrirtækið segir að sterk rekstrarafkoma endurspegli vaxandi skriðþunga í lyfja- og lækningatækjastarfsemi. Fyrirtækið hækkaði spá sína um sölu og leiðréttan hagnað á hlut fyrir árið.",
+  "basis": {
+   "revenue": "GAAP",
+   "netIncome": "GAAP",
+   "eps": "GAAP"
+  }
+ }
+}
