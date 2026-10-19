@@ -1,0 +1,428 @@
+{
+ "ticker": "AMD",
+ "cik": "0000002488",
+ "name": "AMD",
+ "sector": "Semiconductors & Related Devices",
+ "fiscalYearEnd": "1226",
+ "latest": {
+  "periodEnd": "2026-06-27",
+  "metrics": {
+   "revenue": {
+    "value": 11536000000,
+    "yoy": 50.1
+   },
+   "operatingIncome": {
+    "value": 1990000000,
+    "yoy": 1585.1
+   },
+   "netIncome": {
+    "value": 2297000000,
+    "yoy": 163.4
+   },
+   "eps": {
+    "value": 1.38,
+    "yoy": 155.6
+   },
+   "operatingCashFlow": {
+    "value": 2366000000,
+    "yoy": 17.7,
+    "derived": true
+   },
+   "capex": {
+    "value": 808000000,
+    "yoy": 186.5,
+    "derived": true
+   },
+   "cash": {
+    "value": 5086000000
+   },
+   "longTermDebt": {
+    "value": 2351000000
+   }
+  },
+  "filed": "2026-08-05",
+  "accession": "0000002488-26-000123"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-09-28",
+   "metrics": {
+    "revenue": {
+     "value": 6819000000,
+     "yoy": 17.6
+    },
+    "operatingIncome": {
+     "value": 724000000,
+     "yoy": 223.2
+    },
+    "netIncome": {
+     "value": 771000000,
+     "yoy": 157.9
+    },
+    "eps": {
+     "value": 0.47,
+     "yoy": 161.1
+    },
+    "operatingCashFlow": {
+     "value": 628000000,
+     "yoy": 49.2,
+     "derived": true
+    },
+    "capex": {
+     "value": 132000000,
+     "yoy": 6.5,
+     "derived": true
+    },
+    "cash": {
+     "value": 3897000000
+    },
+    "longTermDebt": {
+     "value": 1720000000
+    }
+   },
+   "filed": "2025-11-05",
+   "accession": "0000002488-24-000163"
+  },
+  {
+   "periodEnd": "2024-12-28",
+   "metrics": {
+    "revenue": {
+     "value": 7658000000,
+     "yoy": 24.2,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 871000000,
+     "yoy": 154.7,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 482000000,
+     "yoy": -27.7,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 1299000000,
+     "yoy": 240.9,
+     "derived": true
+    },
+    "capex": {
+     "value": 208000000,
+     "yoy": 49.6,
+     "derived": true
+    },
+    "cash": {
+     "value": 3787000000
+    },
+    "longTermDebt": {
+     "value": 1721000000
+    }
+   },
+   "filed": "2026-02-04",
+   "accession": "0000002488-26-000018"
+  },
+  {
+   "periodEnd": "2025-03-29",
+   "metrics": {
+    "revenue": {
+     "value": 7438000000,
+     "yoy": 35.9
+    },
+    "operatingIncome": {
+     "value": 806000000,
+     "yoy": 2138.9
+    },
+    "netIncome": {
+     "value": 709000000,
+     "yoy": 476.4
+    },
+    "eps": {
+     "value": 0.44,
+     "yoy": 528.6
+    },
+    "operatingCashFlow": {
+     "value": 939000000,
+     "yoy": 80.2
+    },
+    "capex": {
+     "value": 212000000,
+     "yoy": 49.3
+    },
+    "cash": {
+     "value": 6049000000
+    },
+    "longTermDebt": {
+     "value": 3217000000
+    }
+   },
+   "filed": "2026-05-06",
+   "accession": "0000002488-25-000047"
+  },
+  {
+   "periodEnd": "2025-06-28",
+   "metrics": {
+    "revenue": {
+     "value": 7685000000,
+     "yoy": 31.7
+    },
+    "operatingIncome": {
+     "value": -134000000,
+     "yoy": -149.8
+    },
+    "netIncome": {
+     "value": 872000000,
+     "yoy": 229.1
+    },
+    "eps": {
+     "value": 0.54,
+     "yoy": 237.5
+    },
+    "operatingCashFlow": {
+     "value": 2011000000,
+     "yoy": 239.1,
+     "derived": true
+    },
+    "capex": {
+     "value": 282000000,
+     "yoy": 83.1,
+     "derived": true
+    },
+    "cash": {
+     "value": 4442000000
+    },
+    "longTermDebt": {
+     "value": 3218000000
+    }
+   },
+   "filed": "2026-08-05",
+   "accession": "0000002488-25-000108"
+  },
+  {
+   "periodEnd": "2025-09-27",
+   "metrics": {
+    "revenue": {
+     "value": 9246000000,
+     "yoy": 35.6
+    },
+    "operatingIncome": {
+     "value": 1270000000,
+     "yoy": 75.4
+    },
+    "netIncome": {
+     "value": 1243000000,
+     "yoy": 61.2
+    },
+    "eps": {
+     "value": 0.75,
+     "yoy": 59.6
+    },
+    "operatingCashFlow": {
+     "value": 2159000000,
+     "yoy": 243.8,
+     "derived": true
+    },
+    "capex": {
+     "value": 258000000,
+     "yoy": 95.5,
+     "derived": true
+    },
+    "cash": {
+     "value": 4808000000
+    },
+    "longTermDebt": {
+     "value": 2347000000
+    }
+   },
+   "filed": "2025-11-05",
+   "accession": "0000002488-25-000166"
+  },
+  {
+   "periodEnd": "2025-12-27",
+   "metrics": {
+    "revenue": {
+     "value": 10270000000,
+     "yoy": 34.1,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 1752000000,
+     "yoy": 101.1,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 1511000000,
+     "yoy": 213.5,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 2600000000,
+     "yoy": 100.2,
+     "derived": true
+    },
+    "capex": {
+     "value": 222000000,
+     "yoy": 6.7,
+     "derived": true
+    },
+    "cash": {
+     "value": 5539000000
+    },
+    "longTermDebt": {
+     "value": 2348000000
+    }
+   },
+   "filed": "2026-08-05",
+   "accession": "0000002488-26-000123"
+  },
+  {
+   "periodEnd": "2026-03-28",
+   "metrics": {
+    "revenue": {
+     "value": 10253000000,
+     "yoy": 37.8
+    },
+    "operatingIncome": {
+     "value": 1476000000,
+     "yoy": 83.1
+    },
+    "netIncome": {
+     "value": 1383000000,
+     "yoy": 95.1
+    },
+    "eps": {
+     "value": 0.84,
+     "yoy": 90.9
+    },
+    "operatingCashFlow": {
+     "value": 2955000000,
+     "yoy": 214.7
+    },
+    "capex": {
+     "value": 389000000,
+     "yoy": 83.5
+    },
+    "cash": {
+     "value": 5585000000
+    },
+    "longTermDebt": {
+     "value": 2350000000
+    }
+   },
+   "filed": "2026-05-06",
+   "accession": "0000002488-26-000076"
+  },
+  {
+   "periodEnd": "2026-06-27",
+   "metrics": {
+    "revenue": {
+     "value": 11536000000,
+     "yoy": 50.1
+    },
+    "operatingIncome": {
+     "value": 1990000000,
+     "yoy": 1585.1
+    },
+    "netIncome": {
+     "value": 2297000000,
+     "yoy": 163.4
+    },
+    "eps": {
+     "value": 1.38,
+     "yoy": 155.6
+    },
+    "operatingCashFlow": {
+     "value": 2366000000,
+     "yoy": 17.7,
+     "derived": true
+    },
+    "capex": {
+     "value": 808000000,
+     "yoy": 186.5,
+     "derived": true
+    },
+    "cash": {
+     "value": 5086000000
+    },
+    "longTermDebt": {
+     "value": 2351000000
+    }
+   },
+   "filed": "2026-08-05",
+   "accession": "0000002488-26-000123"
+  }
+ ],
+ "ttm": {
+  "revenue": 41305000000,
+  "netIncome": 6434000000,
+  "operatingCashFlow": 10080000000,
+  "capex": 1677000000
+ },
+ "summaryIs": "Tekjur AMD námu 11,5 ma. USD (1.396 ma. kr.) á ársfjórðungnum sem lauk 27. júní 2026, aukning um 50,1% frá sama tíma í fyrra. Hagnaður nam 2,3 ma. USD (278 ma. kr.), aukning um 163,4% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 1,38 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,6 ma. USD (189 ma. kr.).",
+ "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-08-05",
+   "accession": "0000002488-26-000123",
+   "reportDate": "2026-06-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-04",
+   "accession": "0000002488-26-000121",
+   "reportDate": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-05-06",
+   "accession": "0000002488-26-000076",
+   "reportDate": "2026-03-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-05",
+   "accession": "0000002488-26-000072",
+   "reportDate": "2026-05-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-02-04",
+   "accession": "0000002488-26-000018",
+   "reportDate": "2025-12-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+   "kind": "Ársskýrsla"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-02-03",
+   "accession": "0000002488-26-000014",
+   "reportDate": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amd-20260203.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2025-11-05",
+   "accession": "0000002488-25-000166",
+   "reportDate": "2025-09-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000166/amd-20250927.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2025-11-04",
+   "accession": "0000002488-25-000163",
+   "reportDate": "2025-11-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000163/amd-20251104.htm",
+   "kind": "Afkomutilkynning"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488"
+}

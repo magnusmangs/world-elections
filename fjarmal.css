@@ -1,0 +1,61 @@
+body.fin { background: var(--surface); }
+.fin-main { max-width: 980px; margin: 0 auto; padding: 8px 16px 64px; }
+.fin-head h1 { margin: 16px 0 0; font: 800 clamp(2.6rem, 7vw, 4.6rem)/.9 var(--display); letter-spacing: -.035em; }
+.fin-head .lede { max-width: 60ch; margin: 14px 0 0; font-size: 1.05rem; }
+.fx { margin: 10px 0 0; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+
+.block { margin-top: 44px; }
+.block h2 { margin: 0; font: 700 1.6rem/1.15 var(--display); letter-spacing: -.02em; }
+.block-head { display: flex; justify-content: space-between; align-items: end; gap: 12px; flex-wrap: wrap; }
+.filters { display: flex; gap: 6px; }
+.pill { border: 1px solid var(--land-line); background: var(--surface); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-weight: 600; font-size: .9rem; }
+.pill[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.hint { color: var(--muted); margin: 12px 0 0; }
+
+.companies { list-style: none; margin: 14px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.companies li { background: var(--surface); }
+.co { all: unset; box-sizing: border-box; display: block; width: 100%; padding: 14px 16px; cursor: pointer; min-height: 100%; }
+.co:hover { background: var(--surface-2); }
+.co:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+.co-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.co-name { font-weight: 600; }
+.co-tk { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.co-rev, .co-meta { display: block; }
+.co-rev { margin-top: 6px; font: 700 1.15rem/1.2 var(--display); font-variant-numeric: tabular-nums; }
+.co-meta { font-size: .82rem; color: var(--muted); }
+.up { color: var(--chip-gov); }
+.down { color: var(--s1); }
+.star { color: var(--s1); }
+
+.feed { list-style: none; margin: 14px 0 0; padding: 0; }
+.feed li { border-top: 1px solid var(--rule); padding: 14px 0; display: grid; grid-template-columns: 6.5rem 1fr; gap: 14px; }
+.feed time { color: var(--muted); font-size: .88rem; font-variant-numeric: tabular-nums; padding-top: 2px; }
+.feed h3 { margin: 0; font-size: 1.02rem; font-weight: 600; }
+.feed h3 button { all: unset; cursor: pointer; }
+.feed h3 button:hover { text-decoration: underline; text-underline-offset: 3px; }
+.feed h3 button:focus-visible { outline: 3px solid var(--focus); }
+.feed p { margin: 4px 0 0; max-width: 70ch; }
+.feed .src { font-size: .82rem; color: var(--muted); }
+.feed .src a { color: var(--muted); }
+.more { margin-top: 12px; }
+
+.follow { border: 1px solid var(--land-line); background: var(--surface); border-radius: 8px; padding: 6px 12px; cursor: pointer; font-weight: 600; margin-top: 12px; }
+.follow[aria-pressed="true"] { background: var(--chip-gov-bg); color: var(--chip-gov); border-color: var(--chip-gov); }
+.kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; margin: 18px 0 0; }
+.kpis div { padding: 10px 12px; background: var(--surface-2); border-radius: 8px; }
+.kpis dt { font-size: .8rem; color: var(--muted); }
+.kpis dd { margin: 2px 0 0; font: 700 1.05rem/1.25 var(--display); font-variant-numeric: tabular-nums; }
+.kpis small { display: block; font: 400 .8rem/1.3 var(--text); color: var(--muted); }
+.qtable { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: .88rem; font-variant-numeric: tabular-nums; }
+.qtable th, .qtable td { text-align: right; padding: 6px 4px; border-bottom: 1px solid var(--rule); }
+.qtable th:first-child, .qtable td:first-child { text-align: left; }
+.qtable th { color: var(--muted); font-weight: 500; }
+.bar { display: inline-block; height: 8px; background: var(--ink); opacity: .7; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+.filings { padding-left: 1.1rem; font-size: .9rem; }
+.filings a { color: var(--ink); }
+.note { font-size: .82rem; color: var(--muted); margin-top: 12px; }
+
+@media (max-width: 600px) {
+  .feed li { grid-template-columns: 1fr; gap: 2px; }
+  .kpis { grid-template-columns: 1fr; }
+}

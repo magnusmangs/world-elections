@@ -1,0 +1,346 @@
+{
+ "ticker": "LLY",
+ "cik": "0000059478",
+ "name": "Eli Lilly",
+ "sector": "Pharmaceutical Preparations",
+ "fiscalYearEnd": "1231",
+ "latest": {
+  "periodEnd": "2026-06-30",
+  "metrics": {
+   "revenue": {
+    "value": 22974000000,
+    "yoy": 47.7
+   },
+   "netIncome": {
+    "value": 7095000000,
+    "yoy": 25.3
+   },
+   "eps": {
+    "value": 7.94,
+    "yoy": 26.2
+   },
+   "operatingCashFlow": {
+    "value": 10690000000,
+    "yoy": 246.3,
+    "derived": true
+   },
+   "cash": {
+    "value": 8950000000
+   },
+   "longTermDebt": {
+    "value": 47858000000
+   }
+  },
+  "filed": "2026-08-05",
+  "accession": "0000059478-26-000081"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 11439100000,
+     "yoy": 20.4
+    },
+    "netIncome": {
+     "value": 970300000,
+     "yoy": 1790.4
+    },
+    "eps": {
+     "value": 1.07,
+     "yoy": 1883.3
+    },
+    "operatingCashFlow": {
+     "value": 3711900000,
+     "yoy": 69.5,
+     "derived": true
+    },
+    "cash": {
+     "value": 3369000000
+    },
+    "longTermDebt": {
+     "value": 29045400000
+    }
+   },
+   "filed": "2025-10-30",
+   "accession": "0000059478-24-000245"
+  },
+  {
+   "periodEnd": "2024-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 13533100000,
+     "yoy": 44.7,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 4409800000,
+     "yoy": 101.4,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 2473900000,
+     "yoy": 892.9,
+     "derived": true
+    },
+    "cash": {
+     "value": 3268000000
+    },
+    "longTermDebt": {
+     "value": 28527000000
+    }
+   },
+   "filed": "2026-02-12",
+   "accession": "0000059478-26-000013"
+  },
+  {
+   "periodEnd": "2025-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 12729000000,
+     "yoy": 45.2
+    },
+    "netIncome": {
+     "value": 2759000000,
+     "yoy": 23.0
+    },
+    "eps": {
+     "value": 3.06,
+     "yoy": 23.4
+    },
+    "operatingCashFlow": {
+     "value": 1666000000,
+     "yoy": 42.9
+    },
+    "cash": {
+     "value": 3093300000
+    },
+    "longTermDebt": {
+     "value": 34499500000
+    }
+   },
+   "filed": "2026-04-30",
+   "accession": "0000059478-25-000132"
+  },
+  {
+   "periodEnd": "2025-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 15558000000,
+     "yoy": 37.6
+    },
+    "netIncome": {
+     "value": 5661000000,
+     "yoy": 90.8
+    },
+    "eps": {
+     "value": 6.29,
+     "yoy": 91.8
+    },
+    "operatingCashFlow": {
+     "value": 3087000000,
+     "yoy": 110.5,
+     "derived": true
+    },
+    "cash": {
+     "value": 3375900000
+    },
+    "longTermDebt": {
+     "value": 34180100000
+    }
+   },
+   "filed": "2026-08-05",
+   "accession": "0000059478-25-000204"
+  },
+  {
+   "periodEnd": "2025-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 17600800000,
+     "yoy": 53.9
+    },
+    "netIncome": {
+     "value": 5582500000,
+     "yoy": 475.3
+    },
+    "eps": {
+     "value": 6.21,
+     "yoy": 480.4
+    },
+    "operatingCashFlow": {
+     "value": 8835400000,
+     "yoy": 138.0,
+     "derived": true
+    },
+    "cash": {
+     "value": 9791900000
+    },
+    "longTermDebt": {
+     "value": 40873600000
+    }
+   },
+   "filed": "2025-10-30",
+   "accession": "0000059478-25-000254"
+  },
+  {
+   "periodEnd": "2025-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 19292000000,
+     "yoy": 42.6,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 6637700000,
+     "yoy": 50.5,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 3224600000,
+     "yoy": 30.3,
+     "derived": true
+    },
+    "cash": {
+     "value": 7268000000
+    },
+    "longTermDebt": {
+     "value": 40868000000
+    }
+   },
+   "filed": "2026-08-05",
+   "accession": "0000059478-26-000081"
+  },
+  {
+   "periodEnd": "2026-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 19799000000,
+     "yoy": 55.5
+    },
+    "netIncome": {
+     "value": 7396000000,
+     "yoy": 168.1
+    },
+    "eps": {
+     "value": 8.26,
+     "yoy": 169.9
+    },
+    "operatingCashFlow": {
+     "value": 5333000000,
+     "yoy": 220.1
+    },
+    "cash": {
+     "value": 5282000000
+    },
+    "longTermDebt": {
+     "value": 39370000000
+    }
+   },
+   "filed": "2026-04-30",
+   "accession": "0000059478-26-000045"
+  },
+  {
+   "periodEnd": "2026-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 22974000000,
+     "yoy": 47.7
+    },
+    "netIncome": {
+     "value": 7095000000,
+     "yoy": 25.3
+    },
+    "eps": {
+     "value": 7.94,
+     "yoy": 26.2
+    },
+    "operatingCashFlow": {
+     "value": 10690000000,
+     "yoy": 246.3,
+     "derived": true
+    },
+    "cash": {
+     "value": 8950000000
+    },
+    "longTermDebt": {
+     "value": 47858000000
+    }
+   },
+   "filed": "2026-08-05",
+   "accession": "0000059478-26-000081"
+  }
+ ],
+ "ttm": {
+  "revenue": 79665800000,
+  "netIncome": 26711200000,
+  "operatingCashFlow": 28083000000
+ },
+ "summaryIs": "Tekjur Eli Lilly námu 23,0 ma. USD (2.781 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 47,7% frá sama tíma í fyrra. Hagnaður nam 7,1 ma. USD (859 ma. kr.), aukning um 25,3% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 7,94 USD.",
+ "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-08-05",
+   "accession": "0000059478-26-000081",
+   "reportDate": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-05",
+   "accession": "0000059478-26-000077",
+   "reportDate": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000077/lly-20260805.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-04-30",
+   "accession": "0000059478-26-000045",
+   "reportDate": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-30",
+   "accession": "0000059478-26-000043",
+   "reportDate": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000043/lly-20260430.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-02-12",
+   "accession": "0000059478-26-000013",
+   "reportDate": "2025-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+   "kind": "Ársskýrsla"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-02-04",
+   "accession": "0000059478-26-000008",
+   "reportDate": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000008/lly-20260204.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2025-10-30",
+   "accession": "0000059478-25-000254",
+   "reportDate": "2025-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000254/lly-20250930.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2025-10-30",
+   "accession": "0000059478-25-000251",
+   "reportDate": "2025-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000251/lly-20251030.htm",
+   "kind": "Afkomutilkynning"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000059478"
+}

@@ -1,0 +1,428 @@
+{
+ "ticker": "TSLA",
+ "cik": "0001318605",
+ "name": "Tesla",
+ "sector": "Motor Vehicles & Passenger Car Bodies",
+ "fiscalYearEnd": "1231",
+ "latest": {
+  "periodEnd": "2026-06-30",
+  "metrics": {
+   "revenue": {
+    "value": 28236000000,
+    "yoy": 25.5
+   },
+   "operatingIncome": {
+    "value": 398000000,
+    "yoy": -56.9
+   },
+   "netIncome": {
+    "value": 1114000000,
+    "yoy": -4.9
+   },
+   "eps": {
+    "value": 0.32,
+    "yoy": -3.0
+   },
+   "operatingCashFlow": {
+    "value": 4697000000,
+    "yoy": 84.9,
+    "derived": true
+   },
+   "capex": {
+    "value": 5789000000,
+    "yoy": 141.8,
+    "derived": true
+   },
+   "cash": {
+    "value": 15219000000
+   },
+   "longTermDebt": {
+    "value": 7721000000
+   }
+  },
+  "filed": "2026-07-23",
+  "accession": "0001628280-26-049270"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 25182000000,
+     "yoy": 7.8
+    },
+    "operatingIncome": {
+     "value": 2717000000,
+     "yoy": 54.0
+    },
+    "netIncome": {
+     "value": 2173000000,
+     "yoy": 17.3
+    },
+    "eps": {
+     "value": 0.62,
+     "yoy": 17.0
+    },
+    "operatingCashFlow": {
+     "value": 6255000000,
+     "yoy": 89.1,
+     "derived": true
+    },
+    "capex": {
+     "value": 3513000000,
+     "yoy": 42.8,
+     "derived": true
+    },
+    "cash": {
+     "value": 18111000000
+    },
+    "longTermDebt": {
+     "value": 5275000000
+    }
+   },
+   "filed": "2025-10-23",
+   "accession": "0001628280-24-043486"
+  },
+  {
+   "periodEnd": "2024-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 25707000000,
+     "yoy": 2.1,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 1583000000,
+     "yoy": -23.3,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 2128000000,
+     "yoy": -73.2,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 4814000000,
+     "yoy": 10.2,
+     "derived": true
+    },
+    "capex": {
+     "value": 2780000000,
+     "yoy": 20.5,
+     "derived": true
+    },
+    "cash": {
+     "value": 16139000000
+    },
+    "longTermDebt": {
+     "value": 5535000000
+    }
+   },
+   "filed": "2026-07-23",
+   "accession": "0001628280-26-003952"
+  },
+  {
+   "periodEnd": "2025-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 19335000000,
+     "yoy": -9.2
+    },
+    "operatingIncome": {
+     "value": 399000000,
+     "yoy": -65.9
+    },
+    "netIncome": {
+     "value": 409000000,
+     "yoy": -70.6
+    },
+    "eps": {
+     "value": 0.12,
+     "yoy": -70.7
+    },
+    "operatingCashFlow": {
+     "value": 2156000000,
+     "yoy": 790.9
+    },
+    "capex": {
+     "value": 1492000000,
+     "yoy": -46.3
+    },
+    "cash": {
+     "value": 16352000000
+    },
+    "longTermDebt": {
+     "value": 5080000000
+    }
+   },
+   "filed": "2026-04-23",
+   "accession": "0001628280-25-018911"
+  },
+  {
+   "periodEnd": "2025-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 22496000000,
+     "yoy": -11.8
+    },
+    "operatingIncome": {
+     "value": 923000000,
+     "yoy": -42.5
+    },
+    "netIncome": {
+     "value": 1172000000,
+     "yoy": -16.3
+    },
+    "eps": {
+     "value": 0.33,
+     "yoy": -17.5
+    },
+    "operatingCashFlow": {
+     "value": 2540000000,
+     "yoy": -29.7,
+     "derived": true
+    },
+    "capex": {
+     "value": 2394000000,
+     "yoy": 5.4,
+     "derived": true
+    },
+    "cash": {
+     "value": 15587000000
+    },
+    "longTermDebt": {
+     "value": 4994000000
+    }
+   },
+   "filed": "2026-07-23",
+   "accession": "0001628280-25-035806"
+  },
+  {
+   "periodEnd": "2025-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 28095000000,
+     "yoy": 11.6
+    },
+    "operatingIncome": {
+     "value": 1624000000,
+     "yoy": -40.2
+    },
+    "netIncome": {
+     "value": 1373000000,
+     "yoy": -36.8
+    },
+    "eps": {
+     "value": 0.39,
+     "yoy": -37.1
+    },
+    "operatingCashFlow": {
+     "value": 6238000000,
+     "yoy": -0.3,
+     "derived": true
+    },
+    "capex": {
+     "value": 2248000000,
+     "yoy": -36.0,
+     "derived": true
+    },
+    "cash": {
+     "value": 18289000000
+    },
+    "longTermDebt": {
+     "value": 5609000000
+    }
+   },
+   "filed": "2025-10-23",
+   "accession": "0001628280-25-045968"
+  },
+  {
+   "periodEnd": "2025-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 24901000000,
+     "yoy": -3.1,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 1409000000,
+     "yoy": -11.0,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 840000000,
+     "yoy": -60.5,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 3813000000,
+     "yoy": -20.8,
+     "derived": true
+    },
+    "capex": {
+     "value": 2393000000,
+     "yoy": -13.9,
+     "derived": true
+    },
+    "cash": {
+     "value": 16513000000
+    },
+    "longTermDebt": {
+     "value": 6584000000
+    }
+   },
+   "filed": "2026-07-23",
+   "accession": "0001628280-26-049270"
+  },
+  {
+   "periodEnd": "2026-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 22387000000,
+     "yoy": 15.8
+    },
+    "operatingIncome": {
+     "value": 941000000,
+     "yoy": 135.8
+    },
+    "netIncome": {
+     "value": 477000000,
+     "yoy": 16.6
+    },
+    "eps": {
+     "value": 0.13,
+     "yoy": 8.3
+    },
+    "operatingCashFlow": {
+     "value": 3937000000,
+     "yoy": 82.6
+    },
+    "capex": {
+     "value": 2493000000,
+     "yoy": 67.1
+    },
+    "cash": {
+     "value": 16603000000
+    },
+    "longTermDebt": {
+     "value": 7645000000
+    }
+   },
+   "filed": "2026-04-23",
+   "accession": "0001628280-26-026673"
+  },
+  {
+   "periodEnd": "2026-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 28236000000,
+     "yoy": 25.5
+    },
+    "operatingIncome": {
+     "value": 398000000,
+     "yoy": -56.9
+    },
+    "netIncome": {
+     "value": 1114000000,
+     "yoy": -4.9
+    },
+    "eps": {
+     "value": 0.32,
+     "yoy": -3.0
+    },
+    "operatingCashFlow": {
+     "value": 4697000000,
+     "yoy": 84.9,
+     "derived": true
+    },
+    "capex": {
+     "value": 5789000000,
+     "yoy": 141.8,
+     "derived": true
+    },
+    "cash": {
+     "value": 15219000000
+    },
+    "longTermDebt": {
+     "value": 7721000000
+    }
+   },
+   "filed": "2026-07-23",
+   "accession": "0001628280-26-049270"
+  }
+ ],
+ "ttm": {
+  "revenue": 103619000000,
+  "netIncome": 3804000000,
+  "operatingCashFlow": 18685000000,
+  "capex": 12923000000
+ },
+ "summaryIs": "Tekjur Tesla námu 28,2 ma. USD (3.417 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 25,5% frá sama tíma í fyrra. Hagnaður nam 1,1 ma. USD (135 ma. kr.), samdráttur um 4,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,32 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var -1,1 ma. USD (-132 ma. kr.).",
+ "filings": [
+  {
+   "form": "8-K",
+   "filed": "2026-10-02",
+   "accession": "0001628280-26-064366",
+   "reportDate": "2026-10-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-07-23",
+   "accession": "0001628280-26-049270",
+   "reportDate": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-07-22",
+   "accession": "0001628280-26-049213",
+   "reportDate": "2026-07-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/tsla-20260722.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-07-02",
+   "accession": "0001628280-26-046717",
+   "reportDate": "2026-07-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/tsla-20260702.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-04-23",
+   "accession": "0001628280-26-026673",
+   "reportDate": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-22",
+   "accession": "0001628280-26-026551",
+   "reportDate": "2026-04-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/tsla-20260422.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-02",
+   "accession": "0001628280-26-022956",
+   "reportDate": "2026-04-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026022956/tsla-20260402.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-01-29",
+   "accession": "0001628280-26-003952",
+   "reportDate": "2025-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+   "kind": "Ársskýrsla"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605"
+}

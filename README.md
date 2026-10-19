@@ -8,3 +8,10 @@ A world map of upcoming national elections. Click a country to see its parties, 
 - `data/watchlist.json`: countries to research next.
 
 Updated weekly by a scheduled Claude task that researches changes, edits country files, rebuilds and pushes. A GitHub Action (.github/workflows/deploy.yml) redeploys to Vercel on every push to `main`. It needs the repo secret `VERCEL_TOKEN`.
+
+## Fjármál (finance)
+
+- `fjarmal.html`, `fjarmal.css`, `fjarmal.js`: Icelandic page with US company fundamentals.
+- `data/finance/watchlist.json`: tracked companies. Add `{ "ticker": "...", "name": "..." }`.
+- `scripts/fundamentals.py`: pulls SEC EDGAR filings and XBRL figures plus the Seðlabanki USD/ISK rate, writes `data/finance/`. Figures come only from filings; Icelandic text uses fixed templates.
+- `.github/workflows/update-finance.yml`: runs every 30 minutes on weekdays, commits only when data changed, then deploys.

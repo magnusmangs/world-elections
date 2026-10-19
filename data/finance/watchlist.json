@@ -1,0 +1,85 @@
+{
+ "note": "US companies tracked on the Fjármál page. Add {ticker, name}; the SEC CIK is looked up automatically.",
+ "tickers": [
+  {
+   "ticker": "AAPL",
+   "name": "Apple"
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft"
+  },
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia"
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon"
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet (Google)"
+  },
+  {
+   "ticker": "META",
+   "name": "Meta"
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla"
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom"
+  },
+  {
+   "ticker": "BRK-B",
+   "name": "Berkshire Hathaway"
+  },
+  {
+   "ticker": "JPM",
+   "name": "JPMorgan Chase"
+  },
+  {
+   "ticker": "V",
+   "name": "Visa"
+  },
+  {
+   "ticker": "MA",
+   "name": "Mastercard"
+  },
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly"
+  },
+  {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson"
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart"
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco"
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix"
+  },
+  {
+   "ticker": "AMD",
+   "name": "AMD"
+  },
+  {
+   "ticker": "PLTR",
+   "name": "Palantir"
+  },
+  {
+   "ticker": "XOM",
+   "name": "ExxonMobil"
+  }
+ ]
+}

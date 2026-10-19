@@ -1,0 +1,47 @@
+name: Update finance data from SEC
+
+on:
+  schedule:
+    # Every 30 minutes on weekdays, hourly at weekends (UTC). GitHub may delay scheduled runs.
+    - cron: "*/30 * * * 1-5"
+    - cron: "0 * * * 0,6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finance-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VERCEL_ORG_ID: team_kvUU3CsmbN6ecnp7qHGvXys6
+      VERCEL_PROJECT_ID: prj_6y7RdFzKDR8auGyeMe6rEhw7dQjq
+      SEC_USER_AGENT: "World Elections Fjarmal magnusomagnusson@icloud.com"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch fundamentals from SEC EDGAR
+        run: python3 scripts/fundamentals.py
+      - name: Commit if data changed
+        id: commit
+        run: |
+          if git diff --quiet -- data/finance; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"; echo "No new filings."; exit 0
+          fi
+          git config user.name "fjarmal-bot"
+          git config user.email "fjarmal-bot@users.noreply.github.com"
+          git add data/finance
+          git commit -m "Finance data update $(date -u +%FT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Deploy to Vercel
+        if: steps.commit.outputs.changed == 'true'
+        run: npx --yes vercel@latest deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}"

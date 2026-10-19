@@ -1,0 +1,418 @@
+{
+ "ticker": "NFLX",
+ "cik": "0001065280",
+ "name": "Netflix",
+ "sector": "Services-Video Tape Rental",
+ "fiscalYearEnd": "1231",
+ "latest": {
+  "periodEnd": "2026-06-30",
+  "metrics": {
+   "revenue": {
+    "value": 12559938000,
+    "yoy": 13.4
+   },
+   "operatingIncome": {
+    "value": 4192610000,
+    "yoy": 11.1
+   },
+   "netIncome": {
+    "value": 3401414000,
+    "yoy": 8.8
+   },
+   "eps": {
+    "value": 0.8,
+    "yoy": 11.1
+   },
+   "operatingCashFlow": {
+    "value": 1743812000,
+    "yoy": -28.0
+   },
+   "capex": {
+    "value": 218644000,
+    "yoy": 40.3
+   },
+   "cash": {
+    "value": 9099232000
+   },
+   "longTermDebt": {
+    "value": 11825548000
+   }
+  },
+  "filed": "2026-07-17",
+  "accession": "0001065280-26-000212"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 9824703000,
+     "yoy": 15.0
+    },
+    "operatingIncome": {
+     "value": 2909477000,
+     "yoy": 51.8
+    },
+    "netIncome": {
+     "value": 2363509000,
+     "yoy": 40.9
+    },
+    "eps": {
+     "value": 5.4,
+     "yoy": 44.8
+    },
+    "operatingCashFlow": {
+     "value": 2321101000,
+     "yoy": 16.5
+    },
+    "capex": {
+     "value": 126863000,
+     "yoy": 22.1
+    },
+    "cash": {
+     "value": 7457025000
+    },
+    "longTermDebt": {
+     "value": 14160932000
+    }
+   },
+   "filed": "2025-10-22",
+   "accession": "0001065280-24-000287"
+  },
+  {
+   "periodEnd": "2024-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 10246513000,
+     "yoy": 16.0,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 2272766000,
+     "yoy": 51.9,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 1868607000,
+     "yoy": 99.2,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 1536894000,
+     "yoy": -7.6,
+     "derived": true
+    },
+    "capex": {
+     "value": 158674000,
+     "yoy": 94.4,
+     "derived": true
+    },
+    "cash": {
+     "value": 7804733000
+    },
+    "longTermDebt": {
+     "value": 13798351000
+    }
+   },
+   "filed": "2026-01-23",
+   "accession": "0001065280-26-000034"
+  },
+  {
+   "periodEnd": "2025-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 10542801000,
+     "yoy": 12.5
+    },
+    "operatingIncome": {
+     "value": 3346999000,
+     "yoy": 27.1
+    },
+    "netIncome": {
+     "value": 2890351000,
+     "yoy": 23.9
+    },
+    "eps": {
+     "value": 0.66,
+     "yoy": -87.5
+    },
+    "operatingCashFlow": {
+     "value": 2789199000,
+     "yoy": 26.1
+    },
+    "capex": {
+     "value": 128277000,
+     "yoy": 69.4
+    },
+    "cash": {
+     "value": 7199848000
+    },
+    "longTermDebt": {
+     "value": 14011037000
+    }
+   },
+   "filed": "2026-04-17",
+   "accession": "0001065280-25-000176"
+  },
+  {
+   "periodEnd": "2025-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 11079166000,
+     "yoy": 15.9
+    },
+    "operatingIncome": {
+     "value": 3774694000,
+     "yoy": 45.0
+    },
+    "netIncome": {
+     "value": 3125413000,
+     "yoy": 45.6
+    },
+    "eps": {
+     "value": 0.72,
+     "yoy": -85.2
+    },
+    "operatingCashFlow": {
+     "value": 2423258000,
+     "yoy": 87.7
+    },
+    "capex": {
+     "value": 155889000,
+     "yoy": 99.1
+    },
+    "cash": {
+     "value": 8177405000
+    },
+    "longTermDebt": {
+     "value": 14453206000
+    }
+   },
+   "filed": "2026-07-17",
+   "accession": "0001065280-25-000323"
+  },
+  {
+   "periodEnd": "2025-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 11510307000,
+     "yoy": 17.2
+    },
+    "operatingIncome": {
+     "value": 3248247000,
+     "yoy": 11.6
+    },
+    "netIncome": {
+     "value": 2546916000,
+     "yoy": 7.8
+    },
+    "eps": {
+     "value": 5.87,
+     "yoy": 8.7
+    },
+    "operatingCashFlow": {
+     "value": 2825174000,
+     "yoy": 21.7
+    },
+    "capex": {
+     "value": 164719000,
+     "yoy": 29.8
+    },
+    "cash": {
+     "value": 9287287000
+    },
+    "longTermDebt": {
+     "value": 14463020000
+    }
+   },
+   "filed": "2025-10-22",
+   "accession": "0001065280-25-000406"
+  },
+  {
+   "periodEnd": "2025-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 12050762000,
+     "yoy": 17.6,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 2956663000,
+     "yoy": 30.1,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 2418521000,
+     "yoy": 29.4,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 2111642000,
+     "yoy": 37.4,
+     "derived": true
+    },
+    "capex": {
+     "value": 239335000,
+     "yoy": 50.8,
+     "derived": true
+    },
+    "cash": {
+     "value": 9033681000
+    },
+    "longTermDebt": {
+     "value": 13463971000
+    }
+   },
+   "filed": "2026-07-17",
+   "accession": "0001065280-26-000212"
+  },
+  {
+   "periodEnd": "2026-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 12249757000,
+     "yoy": 16.2
+    },
+    "operatingIncome": {
+     "value": 3956997000,
+     "yoy": 18.2
+    },
+    "netIncome": {
+     "value": 5282791000,
+     "yoy": 82.8
+    },
+    "eps": {
+     "value": 1.23,
+     "yoy": 86.4
+    },
+    "operatingCashFlow": {
+     "value": 5290205000,
+     "yoy": 89.7
+    },
+    "capex": {
+     "value": 196130000,
+     "yoy": 52.9
+    },
+    "cash": {
+     "value": 12259772000
+    },
+    "longTermDebt": {
+     "value": 13361331000
+    }
+   },
+   "filed": "2026-04-17",
+   "accession": "0001065280-26-000138"
+  },
+  {
+   "periodEnd": "2026-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 12559938000,
+     "yoy": 13.4
+    },
+    "operatingIncome": {
+     "value": 4192610000,
+     "yoy": 11.1
+    },
+    "netIncome": {
+     "value": 3401414000,
+     "yoy": 8.8
+    },
+    "eps": {
+     "value": 0.8,
+     "yoy": 11.1
+    },
+    "operatingCashFlow": {
+     "value": 1743812000,
+     "yoy": -28.0
+    },
+    "capex": {
+     "value": 218644000,
+     "yoy": 40.3
+    },
+    "cash": {
+     "value": 9099232000
+    },
+    "longTermDebt": {
+     "value": 11825548000
+    }
+   },
+   "filed": "2026-07-17",
+   "accession": "0001065280-26-000212"
+  }
+ ],
+ "ttm": {
+  "revenue": 48370764000,
+  "netIncome": 13649642000,
+  "operatingCashFlow": 11970833000,
+  "capex": 818828000
+ },
+ "summaryIs": "Tekjur Netflix námu 12,6 ma. USD (1.520 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 13,4% frá sama tíma í fyrra. Hagnaður nam 3,4 ma. USD (412 ma. kr.), aukning um 8,8% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,80 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,5 ma. USD (185 ma. kr.).",
+ "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-07-17",
+   "accession": "0001065280-26-000212",
+   "reportDate": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000212/nflx-20260630.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-07-16",
+   "accession": "0001065280-26-000211",
+   "reportDate": "2026-07-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000211/nflx-20260716.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-04-17",
+   "accession": "0001065280-26-000138",
+   "reportDate": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000138/nflx-20260331.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-16",
+   "accession": "0001065280-26-000137",
+   "reportDate": "2026-04-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/nflx-20260410.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-01-23",
+   "accession": "0001065280-26-000034",
+   "reportDate": "2025-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+   "kind": "Ársskýrsla"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-01-20",
+   "accession": "0001065280-26-000033",
+   "reportDate": "2026-01-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000033/nflx-20260120.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2025-10-22",
+   "accession": "0001065280-25-000406",
+   "reportDate": "2025-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000406/nflx-20250930.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2025-10-21",
+   "accession": "0001065280-25-000404",
+   "reportDate": "2025-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000404/nflx-20251021.htm",
+   "kind": "Afkomutilkynning"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001065280"
+}

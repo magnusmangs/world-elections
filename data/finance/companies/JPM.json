@@ -1,0 +1,319 @@
+{
+ "ticker": "JPM",
+ "cik": "0000019617",
+ "name": "JPMorgan Chase",
+ "sector": "National Commercial Banks",
+ "fiscalYearEnd": "1231",
+ "latest": {
+  "periodEnd": "2026-06-30",
+  "metrics": {
+   "revenue": {
+    "value": 57347000000,
+    "yoy": 27.7
+   },
+   "netIncome": {
+    "value": 21155000000,
+    "yoy": 41.2
+   },
+   "eps": {
+    "value": 7.7,
+    "yoy": 46.9
+   },
+   "operatingCashFlow": {
+    "value": -25283000000,
+    "yoy": -185.6,
+    "derived": true
+   },
+   "cash": {
+    "value": 309811000000
+   }
+  },
+  "filed": "2026-08-06",
+  "accession": "0001628280-26-054343"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 42654000000,
+     "yoy": 7.0
+    },
+    "netIncome": {
+     "value": 12898000000,
+     "yoy": -1.9
+    },
+    "eps": {
+     "value": 4.37,
+     "yoy": 0.9
+    },
+    "operatingCashFlow": {
+     "value": -74081000000,
+     "yoy": -264.2,
+     "derived": true
+    },
+    "cash": {
+     "value": 434260000000
+    }
+   },
+   "filed": "2025-11-04",
+   "accession": "0001628280-25-048859"
+  },
+  {
+   "periodEnd": "2024-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 42768000000,
+     "yoy": 10.9,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 14005000000,
+     "yoy": 50.5,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 147758000000,
+     "yoy": 145.3,
+     "derived": true
+    },
+    "cash": {
+     "value": 469317000000
+    }
+   },
+   "filed": "2026-08-06",
+   "accession": "0001628280-26-054343"
+  },
+  {
+   "periodEnd": "2025-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 45310000000,
+     "yoy": 8.1
+    },
+    "netIncome": {
+     "value": 14643000000,
+     "yoy": 9.1
+    },
+    "eps": {
+     "value": 5.07,
+     "yoy": 14.2
+    },
+    "operatingCashFlow": {
+     "value": -251839000000,
+     "yoy": -63.4
+    },
+    "cash": {
+     "value": 425903000000
+    }
+   },
+   "filed": "2026-05-01",
+   "accession": "0001628280-26-029344"
+  },
+  {
+   "periodEnd": "2025-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 44912000000,
+     "yoy": -10.5
+    },
+    "netIncome": {
+     "value": 14987000000,
+     "yoy": -17.4
+    },
+    "eps": {
+     "value": 5.24,
+     "yoy": -14.4
+    },
+    "operatingCashFlow": {
+     "value": 29547000000,
+     "yoy": -23.2,
+     "derived": true
+    },
+    "cash": {
+     "value": 420327000000
+    }
+   },
+   "filed": "2026-08-06",
+   "accession": "0001628280-26-054343"
+  },
+  {
+   "periodEnd": "2025-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 46427000000,
+     "yoy": 8.8
+    },
+    "netIncome": {
+     "value": 14393000000,
+     "yoy": 11.6
+    },
+    "eps": {
+     "value": 5.07,
+     "yoy": 16.0
+    },
+    "operatingCashFlow": {
+     "value": -45214000000,
+     "yoy": 39.0,
+     "derived": true
+    },
+    "cash": {
+     "value": 303436000000
+    }
+   },
+   "filed": "2025-11-04",
+   "accession": "0001628280-25-048859"
+  },
+  {
+   "periodEnd": "2025-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 45798000000,
+     "yoy": 7.1,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 13025000000,
+     "yoy": -7.0,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 119724000000,
+     "yoy": -19.0,
+     "derived": true
+    },
+    "cash": {
+     "value": 343338000000
+    }
+   },
+   "filed": "2026-08-06",
+   "accession": "0001628280-26-054343"
+  },
+  {
+   "periodEnd": "2026-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 49836000000,
+     "yoy": 10.0
+    },
+    "netIncome": {
+     "value": 16494000000,
+     "yoy": 12.6
+    },
+    "eps": {
+     "value": 5.94,
+     "yoy": 17.2
+    },
+    "operatingCashFlow": {
+     "value": -211761000000,
+     "yoy": 15.9
+    },
+    "cash": {
+     "value": 312142000000
+    }
+   },
+   "filed": "2026-05-01",
+   "accession": "0001628280-26-029344"
+  },
+  {
+   "periodEnd": "2026-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 57347000000,
+     "yoy": 27.7
+    },
+    "netIncome": {
+     "value": 21155000000,
+     "yoy": 41.2
+    },
+    "eps": {
+     "value": 7.7,
+     "yoy": 46.9
+    },
+    "operatingCashFlow": {
+     "value": -25283000000,
+     "yoy": -185.6,
+     "derived": true
+    },
+    "cash": {
+     "value": 309811000000
+    }
+   },
+   "filed": "2026-08-06",
+   "accession": "0001628280-26-054343"
+  }
+ ],
+ "ttm": {
+  "revenue": 199408000000,
+  "netIncome": 65067000000,
+  "operatingCashFlow": -162534000000
+ },
+ "summaryIs": "Tekjur JPMorgan Chase námu 57,3 ma. USD (6.941 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 27,7% frá sama tíma í fyrra. Hagnaður nam 21,2 ma. USD (2.560 ma. kr.), aukning um 41,2% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 7,70 USD.",
+ "filings": [
+  {
+   "form": "8-K",
+   "filed": "2026-10-13",
+   "accession": "0001628280-26-065582",
+   "reportDate": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-08-06",
+   "accession": "0001628280-26-054343",
+   "reportDate": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-07-14",
+   "accession": "0001628280-26-048078",
+   "reportDate": "2026-07-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/jpm-20260714.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-05-01",
+   "accession": "0001628280-26-029344",
+   "reportDate": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026029344/jpm-20260331.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-14",
+   "accession": "0001628280-26-024990",
+   "reportDate": "2026-04-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/jpm-20260414.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-02-13",
+   "accession": "0001628280-26-008131",
+   "reportDate": "2025-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+   "kind": "Ársskýrsla"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-01-13",
+   "accession": "0001628280-26-001902",
+   "reportDate": "2026-01-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/jpm-20260113.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2025-11-04",
+   "accession": "0001628280-25-048859",
+   "reportDate": "2025-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617"
+}

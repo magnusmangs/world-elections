@@ -1,0 +1,428 @@
+{
+ "ticker": "NVDA",
+ "cik": "0001045810",
+ "name": "Nvidia",
+ "sector": "Semiconductors & Related Devices",
+ "fiscalYearEnd": "0131",
+ "latest": {
+  "periodEnd": "2026-07-26",
+  "metrics": {
+   "revenue": {
+    "value": 96221000000,
+    "yoy": 105.9
+   },
+   "operatingIncome": {
+    "value": 63734000000,
+    "yoy": 124.1
+   },
+   "netIncome": {
+    "value": 59688000000,
+    "yoy": 125.9
+   },
+   "eps": {
+    "value": 2.46,
+    "yoy": 127.8
+   },
+   "operatingCashFlow": {
+    "value": 24077000000,
+    "yoy": 56.7,
+    "derived": true
+   },
+   "capex": {
+    "value": 2677000000,
+    "yoy": 41.3,
+    "derived": true
+   },
+   "cash": {
+    "value": 22443000000
+   },
+   "longTermDebt": {
+    "value": 32366000000
+   }
+  },
+  "filed": "2026-08-26",
+  "accession": "0001045810-26-000075"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-10-27",
+   "metrics": {
+    "revenue": {
+     "value": 35082000000,
+     "yoy": 93.6
+    },
+    "operatingIncome": {
+     "value": 21869000000,
+     "yoy": 109.9
+    },
+    "netIncome": {
+     "value": 19309000000,
+     "yoy": 108.9
+    },
+    "eps": {
+     "value": 0.78,
+     "yoy": 110.8
+    },
+    "operatingCashFlow": {
+     "value": 17627000000,
+     "yoy": 140.4,
+     "derived": true
+    },
+    "capex": {
+     "value": 813000000,
+     "yoy": 192.4,
+     "derived": true
+    },
+    "cash": {
+     "value": 9107000000
+    },
+    "longTermDebt": {
+     "value": 8462000000
+    }
+   },
+   "filed": "2025-11-19",
+   "accession": "0001045810-24-000316"
+  },
+  {
+   "periodEnd": "2025-01-26",
+   "metrics": {
+    "revenue": {
+     "value": 39331000000,
+     "yoy": 77.9,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 24034000000,
+     "yoy": 76.5,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 22091000000,
+     "yoy": 79.8,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 16629000000,
+     "yoy": 44.6,
+     "derived": true
+    },
+    "capex": {
+     "value": 1077000000,
+     "yoy": 324.0,
+     "derived": true
+    },
+    "cash": {
+     "value": 8589000000
+    },
+    "longTermDebt": {
+     "value": 8463000000
+    }
+   },
+   "filed": "2026-02-25",
+   "accession": "0001045810-26-000021"
+  },
+  {
+   "periodEnd": "2025-04-27",
+   "metrics": {
+    "revenue": {
+     "value": 44062000000,
+     "yoy": 69.2
+    },
+    "operatingIncome": {
+     "value": 21638000000,
+     "yoy": 28.0
+    },
+    "netIncome": {
+     "value": 18775000000,
+     "yoy": 26.2
+    },
+    "eps": {
+     "value": 0.76,
+     "yoy": 26.7
+    },
+    "operatingCashFlow": {
+     "value": 27414000000,
+     "yoy": 78.7
+    },
+    "capex": {
+     "value": 1227000000,
+     "yoy": 232.5
+    },
+    "cash": {
+     "value": 15234000000
+    },
+    "longTermDebt": {
+     "value": 8464000000
+    }
+   },
+   "filed": "2026-05-20",
+   "accession": "0001045810-25-000116"
+  },
+  {
+   "periodEnd": "2025-07-27",
+   "metrics": {
+    "revenue": {
+     "value": 46743000000,
+     "yoy": 55.6
+    },
+    "operatingIncome": {
+     "value": 28440000000,
+     "yoy": 52.6
+    },
+    "netIncome": {
+     "value": 26422000000,
+     "yoy": 59.2
+    },
+    "eps": {
+     "value": 1.08,
+     "yoy": 61.2
+    },
+    "operatingCashFlow": {
+     "value": 15365000000,
+     "yoy": 6.1,
+     "derived": true
+    },
+    "capex": {
+     "value": 1895000000,
+     "yoy": 94.0,
+     "derived": true
+    },
+    "cash": {
+     "value": 11639000000
+    },
+    "longTermDebt": {
+     "value": 8466000000
+    }
+   },
+   "filed": "2026-08-26",
+   "accession": "0001045810-25-000209"
+  },
+  {
+   "periodEnd": "2025-10-26",
+   "metrics": {
+    "revenue": {
+     "value": 57006000000,
+     "yoy": 62.5
+    },
+    "operatingIncome": {
+     "value": 36010000000,
+     "yoy": 64.7
+    },
+    "netIncome": {
+     "value": 31910000000,
+     "yoy": 65.3
+    },
+    "eps": {
+     "value": 1.3,
+     "yoy": 66.7
+    },
+    "operatingCashFlow": {
+     "value": 23751000000,
+     "yoy": 34.7,
+     "derived": true
+    },
+    "capex": {
+     "value": 1636000000,
+     "yoy": 101.2,
+     "derived": true
+    },
+    "cash": {
+     "value": 11486000000
+    },
+    "longTermDebt": {
+     "value": 7468000000
+    }
+   },
+   "filed": "2025-11-19",
+   "accession": "0001045810-25-000230"
+  },
+  {
+   "periodEnd": "2026-01-25",
+   "metrics": {
+    "revenue": {
+     "value": 68127000000,
+     "yoy": 73.2,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 44299000000,
+     "yoy": 84.3,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 42960000000,
+     "yoy": 94.5,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 36188000000,
+     "yoy": 117.6,
+     "derived": true
+    },
+    "capex": {
+     "value": 1284000000,
+     "yoy": 19.2,
+     "derived": true
+    },
+    "cash": {
+     "value": 10605000000
+    },
+    "longTermDebt": {
+     "value": 7469000000
+    }
+   },
+   "filed": "2026-08-26",
+   "accession": "0001045810-26-000075"
+  },
+  {
+   "periodEnd": "2026-04-26",
+   "metrics": {
+    "revenue": {
+     "value": 81615000000,
+     "yoy": 85.2
+    },
+    "operatingIncome": {
+     "value": 53536000000,
+     "yoy": 147.4
+    },
+    "netIncome": {
+     "value": 58321000000,
+     "yoy": 210.6
+    },
+    "eps": {
+     "value": 2.39,
+     "yoy": 214.5
+    },
+    "operatingCashFlow": {
+     "value": 50344000000,
+     "yoy": 83.6
+    },
+    "capex": {
+     "value": 1757000000,
+     "yoy": 43.2
+    },
+    "cash": {
+     "value": 13237000000
+    },
+    "longTermDebt": {
+     "value": 7470000000
+    }
+   },
+   "filed": "2026-05-20",
+   "accession": "0001045810-26-000052"
+  },
+  {
+   "periodEnd": "2026-07-26",
+   "metrics": {
+    "revenue": {
+     "value": 96221000000,
+     "yoy": 105.9
+    },
+    "operatingIncome": {
+     "value": 63734000000,
+     "yoy": 124.1
+    },
+    "netIncome": {
+     "value": 59688000000,
+     "yoy": 125.9
+    },
+    "eps": {
+     "value": 2.46,
+     "yoy": 127.8
+    },
+    "operatingCashFlow": {
+     "value": 24077000000,
+     "yoy": 56.7,
+     "derived": true
+    },
+    "capex": {
+     "value": 2677000000,
+     "yoy": 41.3,
+     "derived": true
+    },
+    "cash": {
+     "value": 22443000000
+    },
+    "longTermDebt": {
+     "value": 32366000000
+    }
+   },
+   "filed": "2026-08-26",
+   "accession": "0001045810-26-000075"
+  }
+ ],
+ "ttm": {
+  "revenue": 302969000000,
+  "netIncome": 192879000000,
+  "operatingCashFlow": 134360000000,
+  "capex": 7354000000
+ },
+ "summaryIs": "Tekjur Nvidia námu 96,2 ma. USD (11.646 ma. kr.) á ársfjórðungnum sem lauk 26. júlí 2026, aukning um 105,9% frá sama tíma í fyrra. Hagnaður nam 59,7 ma. USD (7.224 ma. kr.), aukning um 125,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 2,46 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 21,4 ma. USD (2.590 ma. kr.).",
+ "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-08-26",
+   "accession": "0001045810-26-000075",
+   "reportDate": "2026-07-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-26",
+   "accession": "0001045810-26-000073",
+   "reportDate": "2026-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-05-20",
+   "accession": "0001045810-26-000052",
+   "reportDate": "2026-04-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-20",
+   "accession": "0001045810-26-000051",
+   "reportDate": "2026-05-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-02-25",
+   "accession": "0001045810-26-000021",
+   "reportDate": "2026-01-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "kind": "Ársskýrsla"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-02-25",
+   "accession": "0001045810-26-000019",
+   "reportDate": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2025-11-19",
+   "accession": "0001045810-25-000230",
+   "reportDate": "2025-10-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2025-11-19",
+   "accession": "0001045810-25-000228",
+   "reportDate": "2025-11-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm",
+   "kind": "Afkomutilkynning"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810"
+}

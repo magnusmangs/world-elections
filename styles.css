@@ -79,6 +79,17 @@ button, input { font: inherit; color: inherit; }
 .tooltip { position: absolute; z-index: 5; pointer-events: none; background: var(--ink); color: var(--surface); padding: 6px 10px; border-radius: 6px; font-size: .85rem; line-height: 1.35; max-width: 240px; transform: translate(-50%, calc(-100% - 12px)); }
 .tooltip b { font-weight: 600; }
 
+/* Site nav */
+.sitenav { display: flex; gap: 4px; padding: 12px 16px; position: relative; z-index: 3; }
+.sitenav a { color: var(--ink); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: .92rem; }
+.sitenav a:hover { background: var(--surface-2); }
+.sitenav a[aria-current="page"] { background: var(--ink); color: var(--surface); }
+.atlas .sitenav { position: absolute; top: 0; right: 0; }
+.atlas .sitenav a { background: var(--surface); }
+.atlas .sitenav a[aria-current="page"] { background: var(--ink); }
+
+@media (max-width: 720px) { .atlas .sitenav { position: static; justify-content: flex-end; padding-bottom: 0; } }
+
 /* Calendar */
 .calendar { background: var(--surface); padding: 40px 16px 56px; }
 .calendar > * { max-width: 920px; margin-left: auto; margin-right: auto; }

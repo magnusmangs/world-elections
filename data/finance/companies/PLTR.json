@@ -1,0 +1,401 @@
+{
+ "ticker": "PLTR",
+ "cik": "0001321655",
+ "name": "Palantir",
+ "sector": "Services-Prepackaged Software",
+ "fiscalYearEnd": "1231",
+ "latest": {
+  "periodEnd": "2026-06-30",
+  "metrics": {
+   "revenue": {
+    "value": 1935464000,
+    "yoy": 92.8
+   },
+   "operatingIncome": {
+    "value": 912004000,
+    "yoy": 238.6
+   },
+   "netIncome": {
+    "value": 1061890000,
+    "yoy": 225.0
+   },
+   "eps": {
+    "value": 0.41,
+    "yoy": 215.4
+   },
+   "operatingCashFlow": {
+    "value": 1216167000,
+    "yoy": 125.5,
+    "derived": true
+   },
+   "capex": {
+    "value": 14554000,
+    "yoy": 90.6,
+    "derived": true
+   },
+   "cash": {
+    "value": 2030047000
+   }
+  },
+  "filed": "2026-08-04",
+  "accession": "0001321655-26-000041"
+ },
+ "quarters": [
+  {
+   "periodEnd": "2024-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 725516000,
+     "yoy": 30.0
+    },
+    "operatingIncome": {
+     "value": 113140000,
+     "yoy": 183.0
+    },
+    "netIncome": {
+     "value": 143525000,
+     "yoy": 100.7
+    },
+    "eps": {
+     "value": 0.06,
+     "yoy": 100.0
+    },
+    "operatingCashFlow": {
+     "value": 419772000,
+     "yoy": 214.6,
+     "derived": true
+    },
+    "capex": {
+     "value": 3985000,
+     "yoy": 154.6,
+     "derived": true
+    },
+    "cash": {
+     "value": 768710000
+    }
+   },
+   "filed": "2025-11-04",
+   "accession": "0001321655-25-000131"
+  },
+  {
+   "periodEnd": "2024-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 827519000,
+     "yoy": 36.0,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 11043000,
+     "yoy": -83.2,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 79009000,
+     "yoy": -15.4,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 460327000,
+     "yoy": 52.8,
+     "derived": true
+    },
+    "capex": {
+     "value": 3106000,
+     "yoy": -36.1,
+     "derived": true
+    },
+    "cash": {
+     "value": 2098524000
+    }
+   },
+   "filed": "2026-02-17",
+   "accession": "0001321655-26-000011"
+  },
+  {
+   "periodEnd": "2025-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 883855000,
+     "yoy": 39.3
+    },
+    "operatingIncome": {
+     "value": 176048000,
+     "yoy": 117.7
+    },
+    "netIncome": {
+     "value": 214031000,
+     "yoy": 102.8
+    },
+    "eps": {
+     "value": 0.08,
+     "yoy": 100.0
+    },
+    "operatingCashFlow": {
+     "value": 310263000,
+     "yoy": 139.4
+    },
+    "capex": {
+     "value": 6184000,
+     "yoy": 132.1
+    },
+    "cash": {
+     "value": 993464000
+    }
+   },
+   "filed": "2026-05-05",
+   "accession": "0001321655-26-000028"
+  },
+  {
+   "periodEnd": "2025-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 1003697000,
+     "yoy": 48.0
+    },
+    "operatingIncome": {
+     "value": 269317000,
+     "yoy": 155.7
+    },
+    "netIncome": {
+     "value": 326727000,
+     "yoy": 143.6
+    },
+    "eps": {
+     "value": 0.13,
+     "yoy": 116.7
+    },
+    "operatingCashFlow": {
+     "value": 539251000,
+     "yoy": 274.0,
+     "derived": true
+    },
+    "capex": {
+     "value": 7634000,
+     "yoy": 165.2,
+     "derived": true
+    },
+    "cash": {
+     "value": 929547000
+    }
+   },
+   "filed": "2026-08-04",
+   "accession": "0001321655-26-000041"
+  },
+  {
+   "periodEnd": "2025-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 1181092000,
+     "yoy": 62.8
+    },
+    "operatingIncome": {
+     "value": 393256000,
+     "yoy": 247.6
+    },
+    "netIncome": {
+     "value": 475599000,
+     "yoy": 231.4
+    },
+    "eps": {
+     "value": 0.18,
+     "yoy": 200.0
+    },
+    "operatingCashFlow": {
+     "value": 507664000,
+     "yoy": 20.9,
+     "derived": true
+    },
+    "capex": {
+     "value": 6792000,
+     "yoy": 70.4,
+     "derived": true
+    },
+    "cash": {
+     "value": 1615967000
+    }
+   },
+   "filed": "2025-11-04",
+   "accession": "0001321655-25-000131"
+  },
+  {
+   "periodEnd": "2025-12-31",
+   "metrics": {
+    "revenue": {
+     "value": 1406802000,
+     "yoy": 70.0,
+     "derived": true
+    },
+    "operatingIncome": {
+     "value": 575394000,
+     "yoy": 5110.5,
+     "derived": true
+    },
+    "netIncome": {
+     "value": 608676000,
+     "yoy": 670.4,
+     "derived": true
+    },
+    "operatingCashFlow": {
+     "value": 777295000,
+     "yoy": 68.9,
+     "derived": true
+    },
+    "capex": {
+     "value": 13272000,
+     "yoy": 327.3,
+     "derived": true
+    },
+    "cash": {
+     "value": 1423796000
+    }
+   },
+   "filed": "2026-08-04",
+   "accession": "0001321655-26-000041"
+  },
+  {
+   "periodEnd": "2026-03-31",
+   "metrics": {
+    "revenue": {
+     "value": 1632583000,
+     "yoy": 84.7
+    },
+    "operatingIncome": {
+     "value": 753998000,
+     "yoy": 328.3
+    },
+    "netIncome": {
+     "value": 870527000,
+     "yoy": 306.7
+    },
+    "eps": {
+     "value": 0.34,
+     "yoy": 325.0
+    },
+    "operatingCashFlow": {
+     "value": 899165000,
+     "yoy": 189.8
+    },
+    "capex": {
+     "value": 7401000,
+     "yoy": 19.7
+    },
+    "cash": {
+     "value": 2291631000
+    }
+   },
+   "filed": "2026-05-05",
+   "accession": "0001321655-26-000028"
+  },
+  {
+   "periodEnd": "2026-06-30",
+   "metrics": {
+    "revenue": {
+     "value": 1935464000,
+     "yoy": 92.8
+    },
+    "operatingIncome": {
+     "value": 912004000,
+     "yoy": 238.6
+    },
+    "netIncome": {
+     "value": 1061890000,
+     "yoy": 225.0
+    },
+    "eps": {
+     "value": 0.41,
+     "yoy": 215.4
+    },
+    "operatingCashFlow": {
+     "value": 1216167000,
+     "yoy": 125.5,
+     "derived": true
+    },
+    "capex": {
+     "value": 14554000,
+     "yoy": 90.6,
+     "derived": true
+    },
+    "cash": {
+     "value": 2030047000
+    }
+   },
+   "filed": "2026-08-04",
+   "accession": "0001321655-26-000041"
+  }
+ ],
+ "ttm": {
+  "revenue": 6155941000,
+  "netIncome": 3016692000,
+  "operatingCashFlow": 3400291000,
+  "capex": 42019000
+ },
+ "summaryIs": "Tekjur Palantir námu 1,9 ma. USD (234 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 92,8% frá sama tíma í fyrra. Hagnaður nam 1,1 ma. USD (129 ma. kr.), aukning um 225,0% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,41 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,2 ma. USD (145 ma. kr.).",
+ "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-08-04",
+   "accession": "0001321655-26-000041",
+   "reportDate": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-03",
+   "accession": "0001321655-26-000039",
+   "reportDate": "2026-08-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-05-05",
+   "accession": "0001321655-26-000028",
+   "reportDate": "2026-03-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-04",
+   "accession": "0001321655-26-000026",
+   "reportDate": "2026-05-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-K",
+   "filed": "2026-02-17",
+   "accession": "0001321655-26-000011",
+   "reportDate": "2025-12-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+   "kind": "Ársskýrsla"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-02-02",
+   "accession": "0001321655-26-000004",
+   "reportDate": "2026-02-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2025-11-04",
+   "accession": "0001321655-25-000131",
+   "reportDate": "2025-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
+  {
+   "form": "8-K",
+   "filed": "2025-11-03",
+   "accession": "0001321655-25-000130",
+   "reportDate": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/pltr-20251103.htm",
+   "kind": "Afkomutilkynning"
+  }
+ ],
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655"
+}
