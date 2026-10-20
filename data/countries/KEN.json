@@ -1,81 +1,94 @@
 {
- "iso3": "KEN",
- "isoNumeric": "404",
- "name": "Kenya",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2027-08-10",
-   "dateStatus": "confirmed",
-   "type": "General (president, National Assembly, Senate)",
-   "note": "Winner needs >50% nationally and 25% in 24 of 47 counties."
+  "iso3": "KEN",
+  "isoNumeric": "404",
+  "name": "Kenya",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2027-08-10",
+      "dateStatus": "confirmed",
+      "type": "General (president, National Assembly, Senate)",
+      "note": "Winner needs >50% nationally and 25% in 24 of 47 counties."
+    }
+  ],
+  "leaders": "President William Ruto (UDA)",
+  "summary": "Ruto seeks a second term. The opposition has not yet agreed a single candidate; Kalonzo Musyoka leads among opposition supporters in recent polls.",
+  "parties": [
+    {
+      "name": "William Ruto (UDA / Kenya Kwanza)",
+      "abbr": "UDA",
+      "leader": "William Ruto",
+      "position": "Centre-right",
+      "ideology": "Bottom-up economics",
+      "inGovernment": true,
+      "lastResult": "50.5% (2022)",
+      "polling": "24% (TIFA, May 2026)",
+      "policies": [
+        "Bottom-up economic transformation agenda",
+        "Affordable housing levy",
+        "Universal health coverage reform (SHA)",
+        "Tax-raising measures to cut debt"
+      ],
+      "seats": 143,
+      "color": "#f2c200"
+    },
+    {
+      "name": "Kalonzo Musyoka (Wiper / United Opposition)",
+      "abbr": "WDM",
+      "leader": "Kalonzo Musyoka",
+      "position": "Centre",
+      "ideology": "",
+      "inGovernment": false,
+      "lastResult": "Ran with Odinga in 2022",
+      "polling": "Leads opposition supporters' preference (TIFA)",
+      "policies": [
+        "Unifying opposition candidate",
+        "Opposes Ruto's tax policies",
+        "Launched campaign June 2026"
+      ],
+      "seats": 26,
+      "color": "#1565c0"
+    },
+    {
+      "name": "Fred Matiang'i",
+      "abbr": "IND",
+      "leader": "Fred Matiang'i",
+      "position": "Centre",
+      "ideology": "",
+      "inGovernment": false,
+      "lastResult": "Former Interior Cabinet Secretary",
+      "polling": "14% (TIFA, May 2026)",
+      "policies": [
+        "Possible joint ticket with Kalonzo",
+        "Governance and security record"
+      ],
+      "color": "#777"
+    },
+    {
+      "name": "Rigathi Gachagua (DCP)",
+      "abbr": "DCP",
+      "leader": "Rigathi Gachagua",
+      "position": "Centre-right",
+      "ideology": "",
+      "inGovernment": false,
+      "lastResult": "Impeached as Deputy President (2024)",
+      "polling": "9% (TIFA, May 2026)",
+      "policies": [
+        "Strong base in Mount Kenya",
+        "Part of united opposition talks"
+      ],
+      "color": "#2e7d32"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2027_Kenyan_general_election",
+    "https://peopledaily.digital/inside-politics/kalonzo-launches-2027-campaign-platform-as-opposition-intensifies-bid-to-challenge-ruto/amp"
+  ],
+  "chamber": {
+    "name": "National Assembly",
+    "seats": 349,
+    "majority": 175,
+    "asOf": "as elected in August 2022",
+    "source": "https://en.wikipedia.org/wiki/2022_Kenyan_general_election"
   }
- ],
- "leaders": "President William Ruto (UDA)",
- "summary": "Ruto seeks a second term. The opposition has not yet agreed a single candidate; Kalonzo Musyoka leads among opposition supporters in recent polls.",
- "parties": [
-  {
-   "name": "William Ruto (UDA / Kenya Kwanza)",
-   "abbr": "UDA",
-   "leader": "William Ruto",
-   "position": "Centre-right",
-   "ideology": "Bottom-up economics",
-   "inGovernment": true,
-   "lastResult": "50.5% (2022)",
-   "polling": "24% (TIFA, May 2026)",
-   "policies": [
-    "Bottom-up economic transformation agenda",
-    "Affordable housing levy",
-    "Universal health coverage reform (SHA)",
-    "Tax-raising measures to cut debt"
-   ]
-  },
-  {
-   "name": "Kalonzo Musyoka (Wiper / United Opposition)",
-   "abbr": "WDM",
-   "leader": "Kalonzo Musyoka",
-   "position": "Centre",
-   "ideology": "",
-   "inGovernment": false,
-   "lastResult": "Ran with Odinga in 2022",
-   "polling": "Leads opposition supporters' preference (TIFA)",
-   "policies": [
-    "Unifying opposition candidate",
-    "Opposes Ruto's tax policies",
-    "Launched campaign June 2026"
-   ]
-  },
-  {
-   "name": "Fred Matiang'i",
-   "abbr": "IND",
-   "leader": "Fred Matiang'i",
-   "position": "Centre",
-   "ideology": "",
-   "inGovernment": false,
-   "lastResult": "Former Interior Cabinet Secretary",
-   "polling": "14% (TIFA, May 2026)",
-   "policies": [
-    "Possible joint ticket with Kalonzo",
-    "Governance and security record"
-   ]
-  },
-  {
-   "name": "Rigathi Gachagua (DCP)",
-   "abbr": "DCP",
-   "leader": "Rigathi Gachagua",
-   "position": "Centre-right",
-   "ideology": "",
-   "inGovernment": false,
-   "lastResult": "Impeached as Deputy President (2024)",
-   "polling": "9% (TIFA, May 2026)",
-   "policies": [
-    "Strong base in Mount Kenya",
-    "Part of united opposition talks"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/2027_Kenyan_general_election",
-  "https://peopledaily.digital/inside-politics/kalonzo-launches-2027-campaign-platform-as-opposition-intensifies-bid-to-challenge-ruto/amp"
- ]
 }

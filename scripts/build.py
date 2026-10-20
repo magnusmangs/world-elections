@@ -34,6 +34,24 @@ def main():
         for p in c.get("parties", []):
             for k in REQ_PARTY:
                 if k not in p: errors.append(f"{name}: party '{p.get('name')}' missing '{k}'")
+        ch, pl = c.get("chamber"), c.get("poll")
+        if ch is not None:
+            if not isinstance(ch.get("seats"), int) or not ch.get("name") or not str(ch.get("source", "")).startswith("https://"):
+                errors.append(f"{name}: chamber needs name, integer seats and https source")
+            else:
+                held = sum(p.get("seats") or 0 for p in c.get("parties", []))
+                if held > ch["seats"]: errors.append(f"{name}: party seats {held} exceed chamber {ch['seats']}")
+        if pl is not None:
+            if pl.get("unit") not in ("seats", "percent") or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", pl.get("date", "")) \
+               or not pl.get("pollster") or not str(pl.get("url", "")).startswith("https://"):
+                errors.append(f"{name}: poll needs unit seats|percent, date, pollster, https url")
+            vals = [p["pollValue"] for p in c.get("parties", []) if isinstance(p.get("pollValue"), (int, float))]
+            if not vals: errors.append(f"{name}: poll given but no party has pollValue")
+            if pl.get("unit") == "percent" and sum(vals) > 100.5: errors.append(f"{name}: poll shares sum to {sum(vals)}")
+            if pl.get("unit") == "seats" and ch and isinstance(ch.get("seats"), int) and sum(vals) > ch["seats"]:
+                errors.append(f"{name}: poll seats exceed chamber")
+        for p in c.get("parties", []):
+            if "seats" in p and not (p["seats"] is None or isinstance(p["seats"], int)): errors.append(f"{name}: {p['name']} seats must be integer")
         if not c.get("sources"):
             errors.append(f"{name}: needs at least one source URL")
         upcoming = sorted([e for e in c.get("elections", []) if e.get("date", "") >= today], key=lambda e: e["date"])

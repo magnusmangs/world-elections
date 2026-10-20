@@ -1,53 +1,64 @@
 {
- "iso3": "GRD",
- "isoNumeric": "308",
- "name": "Grenada",
- "lastReviewed": "2026-10-20",
- "elections": [
-  {
-   "date": "2026-11-05",
-   "dateStatus": "confirmed",
-   "type": "General election (snap)",
-   "note": "15 seats, first-past-the-post."
+  "iso3": "GRD",
+  "isoNumeric": "308",
+  "name": "Grenada",
+  "lastReviewed": "2026-10-20",
+  "elections": [
+    {
+      "date": "2026-11-05",
+      "dateStatus": "confirmed",
+      "type": "General election (snap)",
+      "note": "15 seats, first-past-the-post."
+    }
+  ],
+  "leaders": "Prime Minister Dickon Mitchell (NDC)",
+  "summary": "Prime Minister Mitchell called the vote almost a year before the October 2027 deadline. The NDC and NNP are the main contenders for the 15 seats, and former foreign minister Peter David's new Democratic People's Movement is also expected to run. Candidates were nominated on 15 October.",
+  "parties": [
+    {
+      "name": "National Democratic Congress",
+      "abbr": "NDC",
+      "leader": "Dickon Mitchell",
+      "position": "Centre-left",
+      "ideology": "Social democracy",
+      "inGovernment": true,
+      "lastResult": "51.8%, 9 seats (2022)",
+      "polling": "",
+      "policies": [
+        "Seeks a second term on continuity and public service",
+        "Frames the vote as moving Grenada, Carriacou and Petite Martinique forward",
+        "Detailed manifesto limited in English-language sources so far"
+      ],
+      "seats": 9,
+      "color": "#f2c200"
+    },
+    {
+      "name": "New National Party",
+      "abbr": "NNP",
+      "leader": "Emmalin Pierre",
+      "position": "Centre-right",
+      "ideology": "Conservatism",
+      "inGovernment": false,
+      "lastResult": "47.1%, 6 seats (2022)",
+      "polling": "",
+      "policies": [
+        "First general election under Emmalin Pierre, the party's first woman leader",
+        "Detailed manifesto limited in English-language sources so far"
+      ],
+      "seats": 6,
+      "color": "#2e8b57"
+    }
+  ],
+  "sources": [
+    "https://jamaica-gleaner.com/index%2Ephp/article/world-news/20261006/mitchell-calls-early-election",
+    "https://www.caribbeannationalweekly.com/posts/grenada-sets-nov-5-date-for-general-elections",
+    "https://en.wikipedia.org/wiki/2027_Grenadian_general_election",
+    "https://www.caribbeannationalweekly.com/posts/grenada-candidates-nominated-ahead-of-november-5-general-election"
+  ],
+  "chamber": {
+    "name": "House of Representatives",
+    "seats": 15,
+    "majority": 8,
+    "asOf": "as elected in June 2022",
+    "source": "https://en.wikipedia.org/wiki/2022_Grenadian_general_election"
   }
- ],
- "leaders": "Prime Minister Dickon Mitchell (NDC)",
- "summary": "Prime Minister Mitchell called the vote almost a year before the October 2027 deadline. The NDC and NNP are the main contenders for the 15 seats, and former foreign minister Peter David's new Democratic People's Movement is also expected to run. Candidates were nominated on 15 October.",
- "parties": [
-  {
-   "name": "National Democratic Congress",
-   "abbr": "NDC",
-   "leader": "Dickon Mitchell",
-   "position": "Centre-left",
-   "ideology": "Social democracy",
-   "inGovernment": true,
-   "lastResult": "51.8%, 9 seats (2022)",
-   "polling": "",
-   "policies": [
-    "Seeks a second term on continuity and public service",
-    "Frames the vote as moving Grenada, Carriacou and Petite Martinique forward",
-    "Detailed manifesto limited in English-language sources so far"
-   ]
-  },
-  {
-   "name": "New National Party",
-   "abbr": "NNP",
-   "leader": "Emmalin Pierre",
-   "position": "Centre-right",
-   "ideology": "Conservatism",
-   "inGovernment": false,
-   "lastResult": "47.1%, 6 seats (2022)",
-   "polling": "",
-   "policies": [
-    "First general election under Emmalin Pierre, the party's first woman leader",
-    "Detailed manifesto limited in English-language sources so far"
-   ]
-  }
- ],
- "sources": [
-  "https://jamaica-gleaner.com/index%2Ephp/article/world-news/20261006/mitchell-calls-early-election",
-  "https://www.caribbeannationalweekly.com/posts/grenada-sets-nov-5-date-for-general-elections",
-  "https://en.wikipedia.org/wiki/2027_Grenadian_general_election",
-  "https://www.caribbeannationalweekly.com/posts/grenada-candidates-nominated-ahead-of-november-5-general-election"
- ]
 }

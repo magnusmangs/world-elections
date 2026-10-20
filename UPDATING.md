@@ -11,3 +11,8 @@ The scheduled Claude task follows the `world-elections-update` skill. If the ski
 7. Report a few lines: countries added, results recorded, dates moved, countries refreshed, anything unverified.
 8. Finance review queue: read `data/finance/review.json` and list any earnings releases the AI check could not verify (ticker, date, reasons, exhibit link) in the weekly report.
 9. Images: run `python3 scripts/media.py` after adding countries, parties or companies. It finds freely licensed images on Wikimedia Commons via Wikidata (logos by SEC CIK, people by exact name and citizenship, flags) and records author and licence for the captions.
+10. Balance of power and polls (the hemicycle and poll bars in the country panel). Optional fields, checked by `build.py`:
+    - `chamber`: `{"name", "seats", "majority", "asOf", "source"}`. Current seats in the chamber being elected. Each party gets an integer `seats`; the remainder is drawn grey as "Others". If current composition is unclear, use the last election result and say so in `asOf` ("as elected in June 2024"). Leave `chamber` out for presidential-only votes and for countries with no sitting legislature.
+    - `poll`: `{"unit": "percent" | "seats", "date", "pollster", "url", "note"}` plus a number `pollValue` on each party. Use one named poll, not a mix of polls. Only show a poll at most 60 days old with an accessible source; otherwise remove `poll` and the `pollValue`s. Smaller lists not in `parties` go in `note`.
+    - Optional party `color` (hex), usually the party's own colour.
+    Refresh `poll` for every vote in the next 30 days and in the rolling review. After a result, set `seats` to the new composition and remove `poll`.

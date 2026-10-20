@@ -1,98 +1,115 @@
 {
- "iso3": "PSE",
- "isoNumeric": "275",
- "name": "Palestine",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2026-11-28",
-   "dateStatus": "confirmed",
-   "type": "Legislative (Palestinian Legislative Council)",
-   "note": "First legislative election since 2006. 200 seats. Inclusion of East Jerusalem and Gaza disputed."
+  "iso3": "PSE",
+  "isoNumeric": "275",
+  "name": "Palestine",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2026-11-28",
+      "dateStatus": "confirmed",
+      "type": "Legislative (Palestinian Legislative Council)",
+      "note": "First legislative election since 2006. 200 seats. Inclusion of East Jerusalem and Gaza disputed."
+    }
+  ],
+  "leaders": "President Mahmoud Abbas (Fatah); Prime Minister Mohammad Mustafa",
+  "summary": "President Abbas set the first legislative vote in 20 years for 28 November. Lists must accept prior PLO commitments, a condition Hamas rejects, and whether voting can take place in East Jerusalem and Gaza is unresolved.",
+  "parties": [
+    {
+      "name": "Fatah",
+      "abbr": "Fatah",
+      "leader": "Mahmoud Abbas",
+      "position": "Centre-left",
+      "ideology": "Palestinian nationalism, secularism",
+      "inGovernment": true,
+      "lastResult": "43 seats (2006)",
+      "polling": "",
+      "policies": [
+        "Two-state solution through negotiations in the PLO framework",
+        "Backs Abbas's electoral decrees and list conditions",
+        "Reform of Palestinian Authority institutions"
+      ],
+      "seats": 45,
+      "color": "#f2c200"
+    },
+    {
+      "name": "Hamas",
+      "abbr": "Hamas",
+      "leader": "Khaled Mashal",
+      "position": "Right",
+      "ideology": "Islamism, Palestinian nationalism",
+      "inGovernment": false,
+      "lastResult": "74 seats (2006, as Change and Reform)",
+      "polling": "",
+      "policies": [
+        "Rejects the requirement to recognise prior PLO agreements",
+        "Insists East Jerusalem be included",
+        "Seeks a unity government with Fatah",
+        "Eligibility to run is contested"
+      ],
+      "seats": 74,
+      "color": "#2e7d32"
+    },
+    {
+      "name": "Popular Front for the Liberation of Palestine",
+      "abbr": "PFLP",
+      "leader": "Ahmad Sa'adat",
+      "position": "Far-left",
+      "ideology": "Marxism-Leninism, Palestinian nationalism",
+      "inGovernment": false,
+      "lastResult": "3 seats (2006)",
+      "polling": "",
+      "policies": [
+        "Opposes negotiations as currently framed",
+        "Economic redistribution",
+        "National unity among factions"
+      ],
+      "seats": 3,
+      "color": "#c62828"
+    },
+    {
+      "name": "Palestinian National Initiative",
+      "abbr": "PNI",
+      "leader": "Mustafa Barghouti",
+      "position": "Centre-left",
+      "ideology": "Democratic socialism, reformism",
+      "inGovernment": false,
+      "lastResult": "2 seats (2006)",
+      "polling": "",
+      "policies": [
+        "End the Fatah–Hamas division",
+        "Democratic reform of institutions",
+        "Non-violent popular resistance"
+      ],
+      "seats": 2,
+      "color": "#6a1b9a"
+    },
+    {
+      "name": "Third Way",
+      "abbr": "TW",
+      "leader": "Salam Fayyad",
+      "position": "Centre",
+      "ideology": "Technocratic reform",
+      "inGovernment": false,
+      "lastResult": "2 seats (2006)",
+      "polling": "",
+      "policies": [
+        "Institution-building and good governance",
+        "Rule of law and anti-corruption",
+        "Reconciliation between factions"
+      ],
+      "seats": 2,
+      "color": "#1565c0"
+    }
+  ],
+  "sources": [
+    "https://aa.com.tr/en/middle-east/palestinian-election-commission-announces-timetable-for-nov-28-legislative-vote/4006814",
+    "https://en.wikipedia.org/wiki/2026_Palestinian_legislative_election"
+  ],
+  "chamber": {
+    "name": "Palestinian Legislative Council",
+    "seats": 132,
+    "majority": 67,
+    "asOf": "as elected in 2006; the council was dissolved in 2018",
+    "source": "https://en.wikipedia.org/wiki/2006_Palestinian_legislative_election"
   }
- ],
- "leaders": "President Mahmoud Abbas (Fatah); Prime Minister Mohammad Mustafa",
- "summary": "President Abbas set the first legislative vote in 20 years for 28 November. Lists must accept prior PLO commitments, a condition Hamas rejects, and whether voting can take place in East Jerusalem and Gaza is unresolved.",
- "parties": [
-  {
-   "name": "Fatah",
-   "abbr": "Fatah",
-   "leader": "Mahmoud Abbas",
-   "position": "Centre-left",
-   "ideology": "Palestinian nationalism, secularism",
-   "inGovernment": true,
-   "lastResult": "43 seats (2006)",
-   "polling": "",
-   "policies": [
-    "Two-state solution through negotiations in the PLO framework",
-    "Backs Abbas's electoral decrees and list conditions",
-    "Reform of Palestinian Authority institutions"
-   ]
-  },
-  {
-   "name": "Hamas",
-   "abbr": "Hamas",
-   "leader": "Khaled Mashal",
-   "position": "Right",
-   "ideology": "Islamism, Palestinian nationalism",
-   "inGovernment": false,
-   "lastResult": "74 seats (2006, as Change and Reform)",
-   "polling": "",
-   "policies": [
-    "Rejects the requirement to recognise prior PLO agreements",
-    "Insists East Jerusalem be included",
-    "Seeks a unity government with Fatah",
-    "Eligibility to run is contested"
-   ]
-  },
-  {
-   "name": "Popular Front for the Liberation of Palestine",
-   "abbr": "PFLP",
-   "leader": "Ahmad Sa'adat",
-   "position": "Far-left",
-   "ideology": "Marxism-Leninism, Palestinian nationalism",
-   "inGovernment": false,
-   "lastResult": "3 seats (2006)",
-   "polling": "",
-   "policies": [
-    "Opposes negotiations as currently framed",
-    "Economic redistribution",
-    "National unity among factions"
-   ]
-  },
-  {
-   "name": "Palestinian National Initiative",
-   "abbr": "PNI",
-   "leader": "Mustafa Barghouti",
-   "position": "Centre-left",
-   "ideology": "Democratic socialism, reformism",
-   "inGovernment": false,
-   "lastResult": "2 seats (2006)",
-   "polling": "",
-   "policies": [
-    "End the Fatah–Hamas division",
-    "Democratic reform of institutions",
-    "Non-violent popular resistance"
-   ]
-  },
-  {
-   "name": "Third Way",
-   "abbr": "TW",
-   "leader": "Salam Fayyad",
-   "position": "Centre",
-   "ideology": "Technocratic reform",
-   "inGovernment": false,
-   "lastResult": "2 seats (2006)",
-   "polling": "",
-   "policies": [
-    "Institution-building and good governance",
-    "Rule of law and anti-corruption",
-    "Reconciliation between factions"
-   ]
-  }
- ],
- "sources": [
-  "https://aa.com.tr/en/middle-east/palestinian-election-commission-announces-timetable-for-nov-28-legislative-vote/4006814",
-  "https://en.wikipedia.org/wiki/2026_Palestinian_legislative_election"
- ]
 }

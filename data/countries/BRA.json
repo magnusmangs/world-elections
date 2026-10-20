@@ -1,54 +1,65 @@
 {
- "iso3": "BRA",
- "isoNumeric": "076",
- "name": "Brazil",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2026-10-25",
-   "dateStatus": "confirmed",
-   "type": "Presidential run-off",
-   "note": "First round 4 October 2026: Flávio Bolsonaro 47.0%, Lula 45.2%."
+  "iso3": "BRA",
+  "isoNumeric": "076",
+  "name": "Brazil",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2026-10-25",
+      "dateStatus": "confirmed",
+      "type": "Presidential run-off",
+      "note": "First round 4 October 2026: Flávio Bolsonaro 47.0%, Lula 45.2%."
+    }
+  ],
+  "leaders": "President Luiz Inácio Lula da Silva (PT)",
+  "summary": "Flávio Bolsonaro narrowly led the first round on 4 October and faces incumbent Lula in the run-off. Lula is seeking a fourth, non-consecutive term.",
+  "parties": [
+    {
+      "name": "Flávio Bolsonaro (Liberal Party)",
+      "abbr": "PL",
+      "leader": "Flávio Bolsonaro",
+      "position": "Right",
+      "ideology": "Conservatism, right-wing populism",
+      "inGovernment": false,
+      "lastResult": "47.0% (first round)",
+      "polling": "",
+      "policies": [
+        "Continues the political movement of his father, Jair Bolsonaro",
+        "Tougher policing and public security measures",
+        "Lower taxes and reduced state role in the economy",
+        "Endorsed by Caiado, Zema and other right-wing first-round candidates"
+      ],
+      "pollValue": 51,
+      "color": "#1d3f8f"
+    },
+    {
+      "name": "Lula da Silva (Workers' Party)",
+      "abbr": "PT",
+      "leader": "Luiz Inácio Lula da Silva",
+      "position": "Centre-left to left",
+      "ideology": "Social democracy",
+      "inGovernment": true,
+      "lastResult": "45.2% (first round)",
+      "polling": "",
+      "policies": [
+        "Seeks a fourth term on social programmes such as Bolsa Família",
+        "Champions ending the 6x1 (six-day) work schedule",
+        "Tougher stance on organised crime",
+        "Income tax exemption for lower earners funded by taxing high incomes"
+      ],
+      "pollValue": 49,
+      "color": "#c8102e"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+    "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff/comments"
+  ],
+  "poll": {
+    "unit": "percent",
+    "date": "2026-10-15",
+    "pollster": "Datafolha (valid votes, run-off)",
+    "url": "https://www.moneytimes.com.br/pesquisa-datafolha-15-de-outubro-gaep/",
+    "note": "Total votes: Bolsonaro 47%, Lula 45%."
   }
- ],
- "leaders": "President Luiz Inácio Lula da Silva (PT)",
- "summary": "Flávio Bolsonaro narrowly led the first round on 4 October and faces incumbent Lula in the run-off. Lula is seeking a fourth, non-consecutive term.",
- "parties": [
-  {
-   "name": "Flávio Bolsonaro (Liberal Party)",
-   "abbr": "PL",
-   "leader": "Flávio Bolsonaro",
-   "position": "Right",
-   "ideology": "Conservatism, right-wing populism",
-   "inGovernment": false,
-   "lastResult": "47.0% (first round)",
-   "polling": "",
-   "policies": [
-    "Continues the political movement of his father, Jair Bolsonaro",
-    "Tougher policing and public security measures",
-    "Lower taxes and reduced state role in the economy",
-    "Endorsed by Caiado, Zema and other right-wing first-round candidates"
-   ]
-  },
-  {
-   "name": "Lula da Silva (Workers' Party)",
-   "abbr": "PT",
-   "leader": "Luiz Inácio Lula da Silva",
-   "position": "Centre-left to left",
-   "ideology": "Social democracy",
-   "inGovernment": true,
-   "lastResult": "45.2% (first round)",
-   "polling": "",
-   "policies": [
-    "Seeks a fourth term on social programmes such as Bolsa Família",
-    "Champions ending the 6x1 (six-day) work schedule",
-    "Tougher stance on organised crime",
-    "Income tax exemption for lower earners funded by taxing high incomes"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
-  "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff/comments"
- ]
 }

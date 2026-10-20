@@ -1,92 +1,105 @@
 {
- "iso3": "GTM",
- "isoNumeric": "320",
- "name": "Guatemala",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2027-06-27",
-   "dateStatus": "confirmed",
-   "type": "General (presidential, Congress, municipal)",
-   "note": "Presidential run-off in August if needed."
+  "iso3": "GTM",
+  "isoNumeric": "320",
+  "name": "Guatemala",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2027-06-27",
+      "dateStatus": "confirmed",
+      "type": "General (presidential, Congress, municipal)",
+      "note": "Presidential run-off in August if needed."
+    }
+  ],
+  "leaders": "President Bernardo Arévalo (term-limited)",
+  "summary": "President Arévalo is constitutionally barred from re-election. The field is wide open, with independent pre-candidate Roberto Arzú leading early polls at around 19%.",
+  "parties": [
+    {
+      "name": "Roberto Arzú",
+      "abbr": "IND",
+      "leader": "Roberto Arzú",
+      "position": "Right",
+      "ideology": "",
+      "inGovernment": false,
+      "lastResult": "",
+      "polling": "18.5–19% (Aug–Sep 2026)",
+      "policies": [
+        "Searching for a party vehicle",
+        "Platform details limited"
+      ]
+    },
+    {
+      "name": "Sandra Torres (UNE)",
+      "abbr": "UNE",
+      "leader": "Sandra Torres",
+      "position": "Centre",
+      "ideology": "Social democracy (historic), populism",
+      "inGovernment": false,
+      "lastResult": "12.9% first round; 28 seats (2023)",
+      "polling": "11–13%",
+      "policies": [
+        "Fourth presidential bid",
+        "Social assistance programmes",
+        "Security policy"
+      ],
+      "seats": 28,
+      "color": "#2e7d32"
+    },
+    {
+      "name": "Carlos Pineda (Serve)",
+      "abbr": "Serve",
+      "leader": "Carlos Pineda",
+      "position": "Right",
+      "ideology": "Populism",
+      "inGovernment": false,
+      "lastResult": "Barred from 2023 race",
+      "polling": "9–10%",
+      "policies": [
+        "Anti-establishment, social-media campaign",
+        "Platform details limited"
+      ],
+      "color": "#f57c00"
+    },
+    {
+      "name": "Neto Bran (CREO)",
+      "abbr": "CREO",
+      "leader": "Neto Bran",
+      "position": "Centre-right",
+      "ideology": "",
+      "inGovernment": false,
+      "lastResult": "2.0% (2023)",
+      "polling": "~8%",
+      "policies": [
+        "Mayor of Mixco",
+        "Security and local services record"
+      ],
+      "seats": 3,
+      "color": "#1565c0"
+    },
+    {
+      "name": "Semilla successor",
+      "abbr": "Raíces",
+      "leader": "Anabella Giracca (tentative)",
+      "position": "Centre-left",
+      "ideology": "Anti-corruption, social democracy",
+      "inGovernment": true,
+      "lastResult": "",
+      "polling": "~3%",
+      "policies": [
+        "Continuity of Arévalo's anti-corruption agenda",
+        "Education reform"
+      ],
+      "color": "#6d4c41"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2027_Guatemalan_general_election"
+  ],
+  "chamber": {
+    "name": "Congress",
+    "seats": 160,
+    "majority": 81,
+    "asOf": "as elected in June 2023",
+    "source": "https://en.wikipedia.org/wiki/2023_Guatemalan_general_election"
   }
- ],
- "leaders": "President Bernardo Arévalo (term-limited)",
- "summary": "President Arévalo is constitutionally barred from re-election. The field is wide open, with independent pre-candidate Roberto Arzú leading early polls at around 19%.",
- "parties": [
-  {
-   "name": "Roberto Arzú",
-   "abbr": "IND",
-   "leader": "Roberto Arzú",
-   "position": "Right",
-   "ideology": "",
-   "inGovernment": false,
-   "lastResult": "",
-   "polling": "18.5–19% (Aug–Sep 2026)",
-   "policies": [
-    "Searching for a party vehicle",
-    "Platform details limited"
-   ]
-  },
-  {
-   "name": "Sandra Torres (UNE)",
-   "abbr": "UNE",
-   "leader": "Sandra Torres",
-   "position": "Centre",
-   "ideology": "Social democracy (historic), populism",
-   "inGovernment": false,
-   "lastResult": "12.9% first round; 28 seats (2023)",
-   "polling": "11–13%",
-   "policies": [
-    "Fourth presidential bid",
-    "Social assistance programmes",
-    "Security policy"
-   ]
-  },
-  {
-   "name": "Carlos Pineda (Serve)",
-   "abbr": "Serve",
-   "leader": "Carlos Pineda",
-   "position": "Right",
-   "ideology": "Populism",
-   "inGovernment": false,
-   "lastResult": "Barred from 2023 race",
-   "polling": "9–10%",
-   "policies": [
-    "Anti-establishment, social-media campaign",
-    "Platform details limited"
-   ]
-  },
-  {
-   "name": "Neto Bran (CREO)",
-   "abbr": "CREO",
-   "leader": "Neto Bran",
-   "position": "Centre-right",
-   "ideology": "",
-   "inGovernment": false,
-   "lastResult": "2.0% (2023)",
-   "polling": "~8%",
-   "policies": [
-    "Mayor of Mixco",
-    "Security and local services record"
-   ]
-  },
-  {
-   "name": "Semilla successor",
-   "abbr": "Raíces",
-   "leader": "Anabella Giracca (tentative)",
-   "position": "Centre-left",
-   "ideology": "Anti-corruption, social democracy",
-   "inGovernment": true,
-   "lastResult": "",
-   "polling": "~3%",
-   "policies": [
-    "Continuity of Arévalo's anti-corruption agenda",
-    "Education reform"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/2027_Guatemalan_general_election"
- ]
 }

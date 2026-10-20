@@ -1,56 +1,75 @@
 {
- "iso3": "USA",
- "isoNumeric": "840",
- "name": "United States",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2026-11-03",
-   "dateStatus": "confirmed",
-   "type": "Congressional midterms",
-   "note": "All 435 House seats and 35 Senate seats, plus 36 governorships."
-  }
- ],
- "leaders": "President Donald Trump (Republican)",
- "summary": "Republicans control the White House and both chambers of Congress going into the midterms. Democrats lead the generic congressional ballot by about 7 points (Sept 2026 average).",
- "parties": [
-  {
-   "name": "Republican Party",
-   "abbr": "GOP",
-   "leader": "Donald Trump (party leader); Joe Gruters (RNC chair)",
-   "position": "Right",
-   "ideology": "Conservatism, right-wing populism",
-   "inGovernment": true,
-   "lastResult": "Won House and Senate majorities (2024)",
-   "polling": "Generic ballot ~42% (Sept 2026)",
-   "policies": [
-    "Broad tariffs to re-industrialise the US",
-    "Large-scale immigration enforcement and deportations",
-    "Mid-decade redistricting in several states",
-    "Proof of citizenship to register to vote (SAVE Act)",
-    "Extended tax cuts under the One Big Beautiful Bill Act"
-   ]
+  "iso3": "USA",
+  "isoNumeric": "840",
+  "name": "United States",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2026-11-03",
+      "dateStatus": "confirmed",
+      "type": "Congressional midterms",
+      "note": "All 435 House seats and 35 Senate seats, plus 36 governorships."
+    }
+  ],
+  "leaders": "President Donald Trump (Republican)",
+  "summary": "Republicans control the White House and both chambers of Congress going into the midterms. Democrats lead the generic congressional ballot by about 7 points (Sept 2026 average).",
+  "parties": [
+    {
+      "name": "Republican Party",
+      "abbr": "GOP",
+      "leader": "Donald Trump (party leader); Joe Gruters (RNC chair)",
+      "position": "Right",
+      "ideology": "Conservatism, right-wing populism",
+      "inGovernment": true,
+      "lastResult": "Won House and Senate majorities (2024)",
+      "polling": "Generic ballot ~42% (Sept 2026)",
+      "policies": [
+        "Broad tariffs to re-industrialise the US",
+        "Large-scale immigration enforcement and deportations",
+        "Mid-decade redistricting in several states",
+        "Proof of citizenship to register to vote (SAVE Act)",
+        "Extended tax cuts under the One Big Beautiful Bill Act"
+      ],
+      "seats": 218,
+      "pollValue": 41.9,
+      "color": "#d22532"
+    },
+    {
+      "name": "Democratic Party",
+      "abbr": "DEM",
+      "leader": "Hakeem Jeffries (House) and Chuck Schumer (Senate)",
+      "position": "Centre-left",
+      "ideology": "Liberalism, progressivism",
+      "inGovernment": false,
+      "lastResult": "Minority in House and Senate (2024)",
+      "polling": "Generic ballot ~49% (Sept 2026)",
+      "policies": [
+        "Focus on affordability and cost of living",
+        "Oppose tariffs as inflationary",
+        "Oppose ICE tactics and mass deportation methods",
+        "Protect voting access and voter-roll privacy",
+        "Defend health care subsidies and Medicaid"
+      ],
+      "seats": 214,
+      "pollValue": 48.8,
+      "color": "#2a5fb0"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "https://ballotpedia.org/United_States_Congress_elections,_2026"
+  ],
+  "chamber": {
+    "name": "House of Representatives",
+    "seats": 435,
+    "majority": 218,
+    "asOf": "two seats vacant",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
   },
-  {
-   "name": "Democratic Party",
-   "abbr": "DEM",
-   "leader": "Hakeem Jeffries (House) and Chuck Schumer (Senate)",
-   "position": "Centre-left",
-   "ideology": "Liberalism, progressivism",
-   "inGovernment": false,
-   "lastResult": "Minority in House and Senate (2024)",
-   "polling": "Generic ballot ~49% (Sept 2026)",
-   "policies": [
-    "Focus on affordability and cost of living",
-    "Oppose tariffs as inflationary",
-    "Oppose ICE tactics and mass deportation methods",
-    "Protect voting access and voter-roll privacy",
-    "Defend health care subsidies and Medicaid"
-   ]
+  "poll": {
+    "unit": "percent",
+    "date": "2026-09-13",
+    "pollster": "Generic congressional ballot, polling average (Decision Desk HQ, RealClearPolitics, Silver Bulletin and others)",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
   }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/2026_United_States_elections",
-  "https://ballotpedia.org/United_States_Congress_elections,_2026"
- ]
 }

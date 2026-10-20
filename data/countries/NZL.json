@@ -1,132 +1,164 @@
 {
- "iso3": "NZL",
- "isoNumeric": "554",
- "name": "New Zealand",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2026-11-07",
-   "dateStatus": "confirmed",
-   "type": "General election",
-   "note": "120 seats, mixed-member proportional (MMP)."
+  "iso3": "NZL",
+  "isoNumeric": "554",
+  "name": "New Zealand",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2026-11-07",
+      "dateStatus": "confirmed",
+      "type": "General election",
+      "note": "120 seats, mixed-member proportional (MMP)."
+    }
+  ],
+  "leaders": "Prime Minister Christopher Luxon (National)",
+  "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. National and Labour are tied at 28% in the latest 1News–Verian poll, and Hipkins and Luxon are level as preferred prime minister.",
+  "parties": [
+    {
+      "name": "National Party",
+      "abbr": "NAT",
+      "leader": "Christopher Luxon",
+      "position": "Centre-right",
+      "ideology": "Conservatism, liberal conservatism",
+      "inGovernment": true,
+      "lastResult": "38.1%, 48 seats (2023)",
+      "polling": "28% (1News–Verian, 8–12 Oct)",
+      "policies": [
+        "Raise default KiwiSaver contributions from 3% to 6% by 2032",
+        "Make KiwiSaver compulsory and auto-enrol newborns",
+        "Low-interest loans for home solar, batteries and insulation",
+        "Scrap good-character sentencing discounts for sexual offending"
+      ],
+      "seats": 49,
+      "pollValue": 28,
+      "color": "#00529f"
+    },
+    {
+      "name": "Labour Party",
+      "abbr": "LAB",
+      "leader": "Chris Hipkins",
+      "position": "Centre-left",
+      "ideology": "Social democracy",
+      "inGovernment": false,
+      "lastResult": "26.9%, 34 seats (2023)",
+      "polling": "28%",
+      "policies": [
+        "Repeal the Regulatory Standards Act within 100 days",
+        "Cap public transport fares at $20 a week in major cities",
+        "Create a NZ Future Fund",
+        "Free cervical screening for women aged 25–69"
+      ],
+      "seats": 34,
+      "pollValue": 28,
+      "color": "#d82a20"
+    },
+    {
+      "name": "Green Party",
+      "abbr": "GRN",
+      "leader": "Marama Davidson and Chlöe Swarbrick",
+      "position": "Left",
+      "ideology": "Green politics",
+      "inGovernment": false,
+      "lastResult": "11.6%, 15 seats (2023)",
+      "polling": "15%",
+      "policies": [
+        "Wealth tax, inheritance tax and higher corporate tax",
+        "Build 40,000 social homes in five years",
+        "Revoke fast-tracked mining consents",
+        "Mass electrification and renewables"
+      ],
+      "seats": 15,
+      "pollValue": 15,
+      "color": "#098137"
+    },
+    {
+      "name": "ACT New Zealand",
+      "abbr": "ACT",
+      "leader": "David Seymour",
+      "position": "Right",
+      "ideology": "Classical liberalism, libertarianism",
+      "inGovernment": true,
+      "lastResult": "8.6%, 11 seats (2023)",
+      "polling": "10%",
+      "policies": [
+        "Cut government spending and merge ministries",
+        "Deport serious non-citizen offenders",
+        "Let pharmacists treat more conditions",
+        "Split-gas emissions target"
+      ],
+      "seats": 11,
+      "pollValue": 10,
+      "color": "#fdd600"
+    },
+    {
+      "name": "New Zealand First",
+      "abbr": "NZF",
+      "leader": "Winston Peters",
+      "position": "Centre-right to right",
+      "ideology": "Nationalism, populism",
+      "inGovernment": true,
+      "lastResult": "6.1%, 8 seats (2023)",
+      "polling": "10%",
+      "policies": [
+        "Break up energy companies to cut power prices",
+        "Turn supermarket duopoly into two cooperatives",
+        "Merge BNZ with Kiwibank as a Crown bank",
+        "Referendum on the Māori electorates"
+      ],
+      "seats": 8,
+      "pollValue": 10,
+      "color": "#000000"
+    },
+    {
+      "name": "Te Pāti Māori",
+      "abbr": "TPM",
+      "leader": "Debbie Ngarewa-Packer and Rawiri Waititi",
+      "position": "Left",
+      "ideology": "Māori rights, tino rangatiratanga",
+      "inGovernment": false,
+      "lastResult": "3.1%, 6 seats (2023)",
+      "polling": "0.4%",
+      "policies": [
+        "Abolish prisons by 2040 in favour of community solutions",
+        "Parliamentary Commissioner for Te Tiriti with veto powers",
+        "Contest general as well as Māori electorates"
+      ],
+      "seats": 5,
+      "pollValue": 0.4,
+      "color": "#b2001a"
+    },
+    {
+      "name": "The Opportunity Party",
+      "abbr": "TOP",
+      "leader": "Qiulae Wong",
+      "position": "Centre",
+      "ideology": "Radical centrism",
+      "inGovernment": false,
+      "lastResult": "2.2%, 0 seats (2023)",
+      "polling": "8% (on track for about 10 MPs)",
+      "policies": [
+        "Replace welfare with a means-tested citizen's income",
+        "Land value tax to bring down house prices",
+        "Citizens' assemblies on major issues"
+      ],
+      "pollValue": 8,
+      "color": "#32dac3"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+    "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+  ],
+  "chamber": {
+    "name": "House of Representatives",
+    "seats": 123,
+    "majority": 62,
+    "source": "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
+  },
+  "poll": {
+    "unit": "percent",
+    "date": "2026-10-12",
+    "pollster": "1News Verian (fieldwork 8–12 Oct)",
+    "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
   }
- ],
- "leaders": "Prime Minister Christopher Luxon (National)",
- "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. National and Labour are tied at 28% in the latest 1News–Verian poll, and Hipkins and Luxon are level as preferred prime minister.",
- "parties": [
-  {
-   "name": "National Party",
-   "abbr": "NAT",
-   "leader": "Christopher Luxon",
-   "position": "Centre-right",
-   "ideology": "Conservatism, liberal conservatism",
-   "inGovernment": true,
-   "lastResult": "38.1%, 48 seats (2023)",
-   "polling": "28% (1News–Verian, 8–12 Oct)",
-   "policies": [
-    "Raise default KiwiSaver contributions from 3% to 6% by 2032",
-    "Make KiwiSaver compulsory and auto-enrol newborns",
-    "Low-interest loans for home solar, batteries and insulation",
-    "Scrap good-character sentencing discounts for sexual offending"
-   ]
-  },
-  {
-   "name": "Labour Party",
-   "abbr": "LAB",
-   "leader": "Chris Hipkins",
-   "position": "Centre-left",
-   "ideology": "Social democracy",
-   "inGovernment": false,
-   "lastResult": "26.9%, 34 seats (2023)",
-   "polling": "28%",
-   "policies": [
-    "Repeal the Regulatory Standards Act within 100 days",
-    "Cap public transport fares at $20 a week in major cities",
-    "Create a NZ Future Fund",
-    "Free cervical screening for women aged 25–69"
-   ]
-  },
-  {
-   "name": "Green Party",
-   "abbr": "GRN",
-   "leader": "Marama Davidson and Chlöe Swarbrick",
-   "position": "Left",
-   "ideology": "Green politics",
-   "inGovernment": false,
-   "lastResult": "11.6%, 15 seats (2023)",
-   "polling": "15%",
-   "policies": [
-    "Wealth tax, inheritance tax and higher corporate tax",
-    "Build 40,000 social homes in five years",
-    "Revoke fast-tracked mining consents",
-    "Mass electrification and renewables"
-   ]
-  },
-  {
-   "name": "ACT New Zealand",
-   "abbr": "ACT",
-   "leader": "David Seymour",
-   "position": "Right",
-   "ideology": "Classical liberalism, libertarianism",
-   "inGovernment": true,
-   "lastResult": "8.6%, 11 seats (2023)",
-   "polling": "10%",
-   "policies": [
-    "Cut government spending and merge ministries",
-    "Deport serious non-citizen offenders",
-    "Let pharmacists treat more conditions",
-    "Split-gas emissions target"
-   ]
-  },
-  {
-   "name": "New Zealand First",
-   "abbr": "NZF",
-   "leader": "Winston Peters",
-   "position": "Centre-right to right",
-   "ideology": "Nationalism, populism",
-   "inGovernment": true,
-   "lastResult": "6.1%, 8 seats (2023)",
-   "polling": "10%",
-   "policies": [
-    "Break up energy companies to cut power prices",
-    "Turn supermarket duopoly into two cooperatives",
-    "Merge BNZ with Kiwibank as a Crown bank",
-    "Referendum on the Māori electorates"
-   ]
-  },
-  {
-   "name": "Te Pāti Māori",
-   "abbr": "TPM",
-   "leader": "Debbie Ngarewa-Packer and Rawiri Waititi",
-   "position": "Left",
-   "ideology": "Māori rights, tino rangatiratanga",
-   "inGovernment": false,
-   "lastResult": "3.1%, 6 seats (2023)",
-   "polling": "0.4%",
-   "policies": [
-    "Abolish prisons by 2040 in favour of community solutions",
-    "Parliamentary Commissioner for Te Tiriti with veto powers",
-    "Contest general as well as Māori electorates"
-   ]
-  },
-  {
-   "name": "The Opportunity Party",
-   "abbr": "TOP",
-   "leader": "Qiulae Wong",
-   "position": "Centre",
-   "ideology": "Radical centrism",
-   "inGovernment": false,
-   "lastResult": "2.2%, 0 seats (2023)",
-   "polling": "8% (on track for about 10 MPs)",
-   "policies": [
-    "Replace welfare with a means-tested citizen's income",
-    "Land value tax to bring down house prices",
-    "Citizens' assemblies on major issues"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
-  "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
- ]
 }

@@ -1,103 +1,119 @@
 {
- "iso3": "SRB",
- "isoNumeric": "688",
- "name": "Serbia",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2026-10-25",
-   "dateStatus": "confirmed",
-   "type": "Parliamentary (snap)",
-   "note": "250 seats, closed-list proportional representation, 3% threshold."
+  "iso3": "SRB",
+  "isoNumeric": "688",
+  "name": "Serbia",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2026-10-25",
+      "dateStatus": "confirmed",
+      "type": "Parliamentary (snap)",
+      "note": "250 seats, closed-list proportional representation, 3% threshold."
+    }
+  ],
+  "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut",
+  "summary": "Aleksandar Vučić resigned as president on 27 September 2026 to lead the SNS list as candidate for prime minister. The snap vote follows two years of student-led anti-corruption protests, and the Student List is campaigning door to door.",
+  "parties": [
+    {
+      "name": "United Serbia (SNS-led)",
+      "abbr": "SNS",
+      "leader": "Aleksandar Vučić",
+      "position": "Big tent, right-leaning",
+      "ideology": "Populism, national conservatism",
+      "inGovernment": true,
+      "lastResult": "48.1%, 129 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Vučić is the list's candidate for prime minister",
+        "Balances EU accession with close ties to Russia and China",
+        "Infrastructure and investment-led growth (Expo 2027)",
+        "Rejects protesters' corruption allegations"
+      ],
+      "seats": 110,
+      "color": "#1f4e9c"
+    },
+    {
+      "name": "Student List",
+      "abbr": "SL",
+      "leader": "Citizens' group from the protest movement",
+      "position": "Big tent",
+      "ideology": "Anti-corruption, rule of law",
+      "inGovernment": false,
+      "lastResult": "First election",
+      "polling": "",
+      "policies": [
+        "Fulfil the demands of the anti-corruption protests",
+        "Independent judiciary and accountability for corruption",
+        "Reform of education and healthcare",
+        "Equality before the law"
+      ],
+      "color": "#c0392b"
+    },
+    {
+      "name": "Platform for a European Serbia (SSP–SRCE)",
+      "abbr": "SSP",
+      "leader": "Dragan Đilas",
+      "position": "Centre",
+      "ideology": "Pro-Europeanism, liberalism",
+      "inGovernment": false,
+      "lastResult": "Predecessor coalition 24.3%, 65 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Accelerate EU accession",
+        "Cooperation with the Student List after the vote",
+        "Anti-corruption and media freedom",
+        "Strengthen democratic institutions"
+      ],
+      "seats": 20,
+      "color": "#f2a900"
+    },
+    {
+      "name": "Socialist Party of Serbia",
+      "abbr": "SPS",
+      "leader": "Ivica Dačić",
+      "position": "Centre-left to big tent",
+      "ideology": "Social democracy, populism",
+      "inGovernment": true,
+      "lastResult": "6.7%, 18 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Junior partner of the governing SNS",
+        "Runs jointly with JS, Zeleni and SDPS",
+        "Emphasises pensions and social security",
+        "Supports continuity of current foreign policy"
+      ],
+      "seats": 12,
+      "color": "#d6262f"
+    },
+    {
+      "name": "National Democratic Alternative",
+      "abbr": "NADA",
+      "leader": "Miloš Jovanović",
+      "position": "Right",
+      "ideology": "National conservatism, monarchism",
+      "inGovernment": false,
+      "lastResult": "5.2%, 13 seats (2023)",
+      "polling": "",
+      "policies": [
+        "National conservative and Orthodox Christian values",
+        "Opposes recognition of Kosovo",
+        "Sceptical of EU accession conditions",
+        "Backs joint opposition effort against SNS"
+      ],
+      "seats": 10,
+      "color": "#2c3e50"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+    "https://new.intellinews.com/articles/serbia-to-hold-snap-parliamentary-election-on-october-25-466709",
+    "https://meduza.io/en/feature/2026/09/28/aleksandar-vucic-resigns-as-serbia-s-president-eight-months-early-to-run-for-prime-minister-instead"
+  ],
+  "chamber": {
+    "name": "National Assembly",
+    "seats": 250,
+    "majority": 126,
+    "asOf": "outgoing assembly; SSP–SRCE counts SSP and SRCE groups",
+    "source": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
   }
- ],
- "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut",
- "summary": "Aleksandar Vučić resigned as president on 27 September 2026 to lead the SNS list as candidate for prime minister. The snap vote follows two years of student-led anti-corruption protests, and the Student List is campaigning door to door.",
- "parties": [
-  {
-   "name": "United Serbia (SNS-led)",
-   "abbr": "SNS",
-   "leader": "Aleksandar Vučić",
-   "position": "Big tent, right-leaning",
-   "ideology": "Populism, national conservatism",
-   "inGovernment": true,
-   "lastResult": "48.1%, 129 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Vučić is the list's candidate for prime minister",
-    "Balances EU accession with close ties to Russia and China",
-    "Infrastructure and investment-led growth (Expo 2027)",
-    "Rejects protesters' corruption allegations"
-   ]
-  },
-  {
-   "name": "Student List",
-   "abbr": "SL",
-   "leader": "Citizens' group from the protest movement",
-   "position": "Big tent",
-   "ideology": "Anti-corruption, rule of law",
-   "inGovernment": false,
-   "lastResult": "First election",
-   "polling": "",
-   "policies": [
-    "Fulfil the demands of the anti-corruption protests",
-    "Independent judiciary and accountability for corruption",
-    "Reform of education and healthcare",
-    "Equality before the law"
-   ]
-  },
-  {
-   "name": "Platform for a European Serbia (SSP–SRCE)",
-   "abbr": "SSP",
-   "leader": "Dragan Đilas",
-   "position": "Centre",
-   "ideology": "Pro-Europeanism, liberalism",
-   "inGovernment": false,
-   "lastResult": "Predecessor coalition 24.3%, 65 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Accelerate EU accession",
-    "Cooperation with the Student List after the vote",
-    "Anti-corruption and media freedom",
-    "Strengthen democratic institutions"
-   ]
-  },
-  {
-   "name": "Socialist Party of Serbia",
-   "abbr": "SPS",
-   "leader": "Ivica Dačić",
-   "position": "Centre-left to big tent",
-   "ideology": "Social democracy, populism",
-   "inGovernment": true,
-   "lastResult": "6.7%, 18 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Junior partner of the governing SNS",
-    "Runs jointly with JS, Zeleni and SDPS",
-    "Emphasises pensions and social security",
-    "Supports continuity of current foreign policy"
-   ]
-  },
-  {
-   "name": "National Democratic Alternative",
-   "abbr": "NADA",
-   "leader": "Miloš Jovanović",
-   "position": "Right",
-   "ideology": "National conservatism, monarchism",
-   "inGovernment": false,
-   "lastResult": "5.2%, 13 seats (2023)",
-   "polling": "",
-   "policies": [
-    "National conservative and Orthodox Christian values",
-    "Opposes recognition of Kosovo",
-    "Sceptical of EU accession conditions",
-    "Backs joint opposition effort against SNS"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
-  "https://new.intellinews.com/articles/serbia-to-hold-snap-parliamentary-election-on-october-25-466709",
-  "https://meduza.io/en/feature/2026/09/28/aleksandar-vucic-resigns-as-serbia-s-president-eight-months-early-to-run-for-prime-minister-instead"
- ]
 }

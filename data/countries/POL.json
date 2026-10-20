@@ -1,111 +1,130 @@
 {
- "iso3": "POL",
- "isoNumeric": "616",
- "name": "Poland",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2027-10-24",
-   "dateStatus": "expected",
-   "type": "Parliamentary (Sejm and Senate)",
-   "note": "Must be held between 17 October and 11 November 2027; date set by the President."
+  "iso3": "POL",
+  "isoNumeric": "616",
+  "name": "Poland",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2027-10-24",
+      "dateStatus": "expected",
+      "type": "Parliamentary (Sejm and Senate)",
+      "note": "Must be held between 17 October and 11 November 2027; date set by the President."
+    }
+  ],
+  "leaders": "Prime Minister Donald Tusk (KO); President Karol Nawrocki",
+  "summary": "Tusk's coalition faces a right-wing opposition that has fragmented, with Confederation gaining and former PM Morawiecki splitting from PiS in July 2026. President Nawrocki has vetoed several government laws.",
+  "parties": [
+    {
+      "name": "Civic Coalition",
+      "abbr": "KO",
+      "leader": "Donald Tusk",
+      "position": "Centre to centre-right",
+      "ideology": "Liberal conservatism, pro-Europeanism",
+      "inGovernment": true,
+      "lastResult": "30.7%, 157 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Defence spending near 5% of GDP",
+        "Rule-of-law restoration",
+        "Campaign against the far right",
+        "Pro-EU agenda"
+      ],
+      "seats": 156,
+      "color": "#f68f2d"
+    },
+    {
+      "name": "Law and Justice",
+      "abbr": "PiS",
+      "leader": "Jarosław Kaczyński; PM candidate Przemysław Czarnek",
+      "position": "Right",
+      "ideology": "National conservatism, right-wing populism",
+      "inGovernment": false,
+      "lastResult": "35.4%, 194 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Shifted further right under Czarnek",
+        "Basic income proposal",
+        "Oppose EU migration pact",
+        "Sovereignty against EU institutions"
+      ],
+      "seats": 147,
+      "color": "#263778"
+    },
+    {
+      "name": "Confederation",
+      "abbr": "KWiN",
+      "leader": "Sławomir Mentzen and Krzysztof Bosak",
+      "position": "Right to far-right",
+      "ideology": "Right-libertarianism, nationalism",
+      "inGovernment": false,
+      "lastResult": "7.2%, 18 seats (2023)",
+      "polling": "Rising since 2025",
+      "policies": [
+        "Lower taxes and smaller state",
+        "Restrict immigration",
+        "Eurosceptic positions"
+      ],
+      "seats": 16,
+      "color": "#122746"
+    },
+    {
+      "name": "Development Plus",
+      "abbr": "R+",
+      "leader": "Mateusz Morawiecki",
+      "position": "Centre-right",
+      "ideology": "Christian democracy, conservatism",
+      "inGovernment": false,
+      "lastResult": "New (split from PiS July 2026)",
+      "polling": "~7% at launch",
+      "policies": [
+        "Moderate conservative alternative to PiS",
+        "Economic growth and investment"
+      ],
+      "seats": 41,
+      "color": "#5b8bd1"
+    },
+    {
+      "name": "Polish People's Party",
+      "abbr": "PSL",
+      "leader": "Władysław Kosiniak-Kamysz",
+      "position": "Centre-right",
+      "ideology": "Agrarianism, Christian democracy",
+      "inGovernment": true,
+      "lastResult": "Third Way 14.4% (2023, with PL2050)",
+      "polling": "",
+      "policies": [
+        "Farmers' interests",
+        "Defence (holds defence ministry)",
+        "Blocks some socially liberal reforms"
+      ],
+      "seats": 32,
+      "color": "#1bb100"
+    },
+    {
+      "name": "New Left",
+      "abbr": "NL",
+      "leader": "Włodzimierz Czarzasty",
+      "position": "Centre-left",
+      "ideology": "Social democracy",
+      "inGovernment": true,
+      "lastResult": "8.6%, 26 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Joint list proposal with Razem",
+        "Housing and abortion rights liberalisation"
+      ],
+      "seats": 21,
+      "color": "#d50000"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Next_Polish_parliamentary_election"
+  ],
+  "chamber": {
+    "name": "Sejm",
+    "seats": 460,
+    "majority": 231,
+    "asOf": "Konfederacja shown as KWiN club; PSL excludes Poland 2050",
+    "source": "https://en.wikipedia.org/wiki/Next_Polish_parliamentary_election"
   }
- ],
- "leaders": "Prime Minister Donald Tusk (KO); President Karol Nawrocki",
- "summary": "Tusk's coalition faces a right-wing opposition that has fragmented, with Confederation gaining and former PM Morawiecki splitting from PiS in July 2026. President Nawrocki has vetoed several government laws.",
- "parties": [
-  {
-   "name": "Civic Coalition",
-   "abbr": "KO",
-   "leader": "Donald Tusk",
-   "position": "Centre to centre-right",
-   "ideology": "Liberal conservatism, pro-Europeanism",
-   "inGovernment": true,
-   "lastResult": "30.7%, 157 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Defence spending near 5% of GDP",
-    "Rule-of-law restoration",
-    "Campaign against the far right",
-    "Pro-EU agenda"
-   ]
-  },
-  {
-   "name": "Law and Justice",
-   "abbr": "PiS",
-   "leader": "Jarosław Kaczyński; PM candidate Przemysław Czarnek",
-   "position": "Right",
-   "ideology": "National conservatism, right-wing populism",
-   "inGovernment": false,
-   "lastResult": "35.4%, 194 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Shifted further right under Czarnek",
-    "Basic income proposal",
-    "Oppose EU migration pact",
-    "Sovereignty against EU institutions"
-   ]
-  },
-  {
-   "name": "Confederation",
-   "abbr": "KWiN",
-   "leader": "Sławomir Mentzen and Krzysztof Bosak",
-   "position": "Right to far-right",
-   "ideology": "Right-libertarianism, nationalism",
-   "inGovernment": false,
-   "lastResult": "7.2%, 18 seats (2023)",
-   "polling": "Rising since 2025",
-   "policies": [
-    "Lower taxes and smaller state",
-    "Restrict immigration",
-    "Eurosceptic positions"
-   ]
-  },
-  {
-   "name": "Development Plus",
-   "abbr": "R+",
-   "leader": "Mateusz Morawiecki",
-   "position": "Centre-right",
-   "ideology": "Christian democracy, conservatism",
-   "inGovernment": false,
-   "lastResult": "New (split from PiS July 2026)",
-   "polling": "~7% at launch",
-   "policies": [
-    "Moderate conservative alternative to PiS",
-    "Economic growth and investment"
-   ]
-  },
-  {
-   "name": "Polish People's Party",
-   "abbr": "PSL",
-   "leader": "Władysław Kosiniak-Kamysz",
-   "position": "Centre-right",
-   "ideology": "Agrarianism, Christian democracy",
-   "inGovernment": true,
-   "lastResult": "Third Way 14.4% (2023, with PL2050)",
-   "polling": "",
-   "policies": [
-    "Farmers' interests",
-    "Defence (holds defence ministry)",
-    "Blocks some socially liberal reforms"
-   ]
-  },
-  {
-   "name": "New Left",
-   "abbr": "NL",
-   "leader": "Włodzimierz Czarzasty",
-   "position": "Centre-left",
-   "ideology": "Social democracy",
-   "inGovernment": true,
-   "lastResult": "8.6%, 26 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Joint list proposal with Razem",
-    "Housing and abortion rights liberalisation"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/Next_Polish_parliamentary_election"
- ]
 }

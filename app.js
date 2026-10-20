@@ -70,6 +70,91 @@
     const m = MEDIA.people[`${iso}|${name}`];
     return m ? `<figure class="pphoto"><img src="${esc(m.thumb)}" alt="${esc(name)}" loading="lazy"><figcaption><a href="${esc(m.page)}" target="_blank" rel="noopener">${esc(m.author)}</a>${m.author === "Almenningseign" ? "" : ", " + esc(m.license)}</figcaption></figure>` : "";
   }
+
+  // ---------- parliament (hemicycle) and latest poll ----------
+  const NS = "http://www.w3.org/2000/svg";
+  function partyColor(p, i, n) {
+    if (p.color) return p.color;
+    const s = spectrum(p.position); const mid = s ? (s[0] + s[1]) / 2 : 3;
+    const hue = [350, 5, 25, 45, 200, 215, 230][Math.round(mid)];
+    return `hsl(${hue} ${55 + (i % 2) * 15}% ${38 + (i % 3) * 10}%)`;
+  }
+  function orderParties(c) {
+    const mid = (p) => { const s = spectrum(p.position); return s ? (s[0] + s[1]) / 2 : 3; };
+    return c.parties.map((p, i) => ({ p, i })).sort((a, b) => mid(a.p) - mid(b.p) || a.i - b.i).map((x) => x.p);
+  }
+  // Seat positions in a half circle, filled column by column from left to right.
+  function hemicycleSeats(total) {
+    let rows = Math.max(2, Math.min(12, Math.round(Math.sqrt(total / 2.2))));
+    const r0 = 0.38, r1 = 1;
+    const radii = Array.from({ length: rows }, (_, k) => r0 + (r1 - r0) * (rows === 1 ? 1 : k / (rows - 1)));
+    const sum = radii.reduce((a, b) => a + b, 0);
+    let counts = radii.map((r) => Math.floor((total * r) / sum));
+    let left = total - counts.reduce((a, b) => a + b, 0);
+    for (let k = rows - 1; left > 0; k = (k - 1 + rows) % rows, left--) counts[k]++;
+    const seats = [];
+    radii.forEach((r, k) => {
+      const n = counts[k];
+      for (let j = 0; j < n; j++) {
+        const t = n === 1 ? 0.5 : j / (n - 1);
+        const ang = Math.PI * (1 - t);
+        seats.push({ x: r * Math.cos(ang), y: r * Math.sin(ang), ang });
+      }
+    });
+    seats.sort((a, b) => b.ang - a.ang || a.y - b.y);
+    const dot = Math.min(0.9 * (r1 - r0) / Math.max(rows - 1, 1), 0.9 * Math.PI * r0 / Math.max(counts[0] - 1, 1)) / 2;
+    return { seats, dot: Math.max(dot, 0.006) };
+  }
+  function seatsHtml(c) {
+    const ch = c.chamber;
+    if (!ch || !ch.seats) return "";
+    const parties = orderParties(c).filter((p) => p.seats > 0);
+    if (!parties.length) return "";
+    const known = parties.reduce((a, p) => a + p.seats, 0);
+    const groups = parties.map((p, i) => ({ name: p.abbr || p.name, full: p.name, n: p.seats, color: partyColor(p, i), gov: p.inGovernment }));
+    if (ch.seats - known > 0) groups.push({ name: "Others", full: "Other parties, independents and vacant seats", n: ch.seats - known, color: "var(--land-line)" });
+    const { seats, dot } = hemicycleSeats(ch.seats);
+    let k = 0, circles = "";
+    groups.forEach((g) => { for (let j = 0; j < g.n && k < seats.length; j++, k++) {
+      const s = seats[k];
+      circles += `<circle cx="${(s.x * 100).toFixed(2)}" cy="${(-s.y * 100).toFixed(2)}" r="${(dot * 100).toFixed(2)}" fill="${g.color}"><title>${esc(g.full)}</title></circle>`;
+    } });
+    const gov = groups.filter((g) => g.gov).reduce((a, g) => a + g.n, 0);
+    const maj = ch.majority || Math.floor(ch.seats / 2) + 1;
+    const desc = groups.map((g) => `${g.full} ${g.n}`).join(", ");
+    return `<figure class="hemi">
+      <svg viewBox="-104 -104 208 110" role="img" aria-label="${esc(ch.name)}, ${ch.seats} seats: ${esc(desc)}">${circles}
+        <text x="0" y="-6" text-anchor="middle" class="hemi-total">${ch.seats}</text>
+        <text x="0" y="4" text-anchor="middle" class="hemi-sub">majority ${maj}</text></svg>
+      <ul class="hemi-key">${groups.map((g) => `<li><i style="background:${g.color}"></i>${esc(g.name)} <b>${g.n}</b></li>`).join("")}</ul>
+      <figcaption>Seats in the ${esc(ch.name)}${ch.asOf ? ` (${esc(ch.asOf)})` : " today"}.${gov ? ` Governing parties hold ${gov} of ${ch.seats}.` : ""}${ch.source ? ` <a href="${esc(ch.source)}" target="_blank" rel="noopener">Source</a>` : ""}</figcaption>
+    </figure>`;
+  }
+  function pollHtml(c) {
+    const pl = c.poll;
+    if (!pl) return "";
+    const parties = c.parties.filter((p) => typeof p.pollValue === "number").sort((a, b) => b.pollValue - a.pollValue);
+    if (!parties.length) return "";
+    const seatsUnit = pl.unit === "seats";
+    const max = seatsUnit && c.chamber ? Math.max(c.chamber.majority || 0, ...parties.map((p) => p.pollValue)) : Math.max(50, ...parties.map((p) => p.pollValue));
+    const order = orderParties(c);
+    const candidates = !c.chamber;
+    const label = (p) => candidates || p.abbr === "IND" ? p.name.replace(/\s*\(.*\)\s*/, "") : (p.abbr || p.name);
+    const fmtV = (v) => seatsUnit ? `${v}` : `${String(v).replace(".", ".")}%`;
+    const line = seatsUnit && c.chamber && c.chamber.majority ? `<span class="poll-maj" style="left:${(c.chamber.majority / max) * 100}%" title="Majority"></span>` : "";
+    return `<figure class="poll">
+      <ol class="poll-bars">${parties.map((p) => `<li><span class="poll-name" title="${esc(p.name)}">${esc(label(p))}</span>
+        <span class="poll-track"><span class="poll-bar" style="width:${Math.max(1, (p.pollValue / max) * 100)}%;background:${partyColor(p, order.indexOf(p))}"></span></span>
+        <span class="poll-val">${esc(fmtV(p.pollValue))}</span></li>`).join("")}</ol>
+      <figcaption>${seatsUnit ? "Projected seats" : "Vote share"}, ${esc(pl.pollster)}, ${esc(fmt(pl.date, { day: "numeric", month: "long", year: "numeric" }))}.${pl.note ? " " + esc(pl.note) : ""} <a href="${esc(pl.url)}" target="_blank" rel="noopener">Source</a></figcaption>
+    </figure>`;
+  }
+  function chamberHtml(c) {
+    const s = seatsHtml(c), p = pollHtml(c);
+    if (!s && !p) return "";
+    return `${s ? `<h3>Balance of power</h3>${s}` : ""}${p ? `<h3${s ? ' class="poll-h"' : ""}>Latest poll</h3>${p}` : ""}`;
+  }
+
   function partyHtml(p, iso) {
     const stats = [];
     if (p.lastResult) stats.push(["Last result", p.lastResult]);
@@ -110,6 +195,7 @@
         <p class="leaders">${esc(c.leaders)}</p>
         ${votes}
         <p class="summary">${esc(c.summary)}</p>
+        ${chamberHtml(c)}
         ${parties}
         <p class="summary"><a href="/frettir#land=${esc(c.iso3.toLowerCase())}">Fréttir um ${esc(c.name)} í innlendum og erlendum miðlum</a></p>
         <h3>Sources</h3>

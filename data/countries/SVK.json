@@ -1,124 +1,157 @@
 {
- "iso3": "SVK",
- "isoNumeric": "703",
- "name": "Slovakia",
- "lastReviewed": "2026-10-19",
- "elections": [
-  {
-   "date": "2027-09-25",
-   "dateStatus": "expected",
-   "type": "Parliamentary (National Council)",
-   "note": "150 seats. Must be held by 28 September 2027."
+  "iso3": "SVK",
+  "isoNumeric": "703",
+  "name": "Slovakia",
+  "lastReviewed": "2026-10-19",
+  "elections": [
+    {
+      "date": "2027-09-25",
+      "dateStatus": "expected",
+      "type": "Parliamentary (National Council)",
+      "note": "150 seats. Must be held by 28 September 2027."
+    }
+  ],
+  "leaders": "Prime Minister Robert Fico (Smer–SD); President Peter Pellegrini",
+  "summary": "The vote is a test of Fico's coalition after criminal-code changes, a public broadcaster overhaul and a shift in Ukraine policy. Liberal Progressive Slovakia leads the opposition.",
+  "parties": [
+    {
+      "name": "Direction – Social Democracy",
+      "abbr": "Smer",
+      "leader": "Robert Fico",
+      "position": "Left-wing nationalist",
+      "ideology": "Left-wing nationalism, social conservatism",
+      "inGovernment": true,
+      "lastResult": "23.0%, 42 seats (2023)",
+      "polling": "",
+      "policies": [
+        "'Sovereign' foreign policy, ended state military aid to Ukraine",
+        "Criminal code reform",
+        "Constitutional amendment on two sexes and adoption",
+        "Replaced RTVS with STVR"
+      ],
+      "seats": 41,
+      "pollValue": 17.1,
+      "color": "#d82222"
+    },
+    {
+      "name": "Progressive Slovakia",
+      "abbr": "PS",
+      "leader": "Michal Šimečka",
+      "position": "Centre to centre-left",
+      "ideology": "Liberalism, pro-Europeanism",
+      "inGovernment": false,
+      "lastResult": "18.0%, 32 seats (2023)",
+      "polling": "Leads most 2026 polls",
+      "policies": [
+        "Reverse criminal-law and broadcasting changes",
+        "Firmly pro-EU and pro-NATO",
+        "Support for Ukraine",
+        "Rule of law"
+      ],
+      "seats": 33,
+      "pollValue": 18.9,
+      "color": "#00bde2"
+    },
+    {
+      "name": "Voice – Social Democracy",
+      "abbr": "Hlas",
+      "leader": "Matúš Šutaj Eštok",
+      "position": "Centre-left",
+      "ideology": "Social democracy, populism",
+      "inGovernment": true,
+      "lastResult": "14.7%, 27 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Coalition partner",
+        "Rejects leaving EU or NATO",
+        "Social benefits and pensions"
+      ],
+      "seats": 25,
+      "pollValue": 8.6,
+      "color": "#7a2c7a"
+    },
+    {
+      "name": "Republic",
+      "abbr": "Republika",
+      "leader": "Milan Uhrík",
+      "position": "Far-right",
+      "ideology": "Nationalism, Euroscepticism",
+      "inGovernment": false,
+      "lastResult": "4.8%, 0 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Opposes EU and NATO policy on Ukraine",
+        "Restrict migration"
+      ],
+      "pollValue": 9.7,
+      "color": "#21254a"
+    },
+    {
+      "name": "Christian Democratic Movement",
+      "abbr": "KDH",
+      "leader": "Milan Majerský",
+      "position": "Centre-right",
+      "ideology": "Christian democracy",
+      "inGovernment": false,
+      "lastResult": "6.8%, 12 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Family policy",
+        "Pro-Western orientation"
+      ],
+      "seats": 11,
+      "pollValue": 6.9,
+      "color": "#113a72"
+    },
+    {
+      "name": "Freedom and Solidarity",
+      "abbr": "SaS",
+      "leader": "Branislav Gröhling",
+      "position": "Centre-right",
+      "ideology": "Classical liberalism",
+      "inGovernment": false,
+      "lastResult": "6.3%, 11 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Lower taxes and deregulation",
+        "Opposes consolidation tax rises"
+      ],
+      "seats": 12,
+      "pollValue": 8.1,
+      "color": "#a6ce39"
+    },
+    {
+      "name": "Slovak National Party",
+      "abbr": "SNS",
+      "leader": "Andrej Danko",
+      "position": "Right",
+      "ideology": "Nationalism",
+      "inGovernment": true,
+      "lastResult": "5.6%, 10 seats (2023)",
+      "polling": "",
+      "policies": [
+        "Coalition partner",
+        "National and traditional values"
+      ],
+      "seats": 8,
+      "pollValue": 4.8,
+      "color": "#1d3c8f"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Next_Slovak_parliamentary_election"
+  ],
+  "chamber": {
+    "name": "National Council",
+    "seats": 150,
+    "majority": 76,
+    "source": "https://en.wikipedia.org/wiki/Next_Slovak_parliamentary_election"
+  },
+  "poll": {
+    "unit": "percent",
+    "date": "2026-09-21",
+    "pollster": "AKO for JOJ24 (fieldwork 10–21 Sep)",
+    "url": "https://www.noviny.sk/slovensko/1266699-volebny-prieskum-joj24-najsilnejsie-strany-sa-prepadli-volby-by-aj-nadalej-vyhralo-ps",
+    "note": "Hnutie Slovensko 8.1%, Demokrati 4.4%."
   }
- ],
- "leaders": "Prime Minister Robert Fico (Smer–SD); President Peter Pellegrini",
- "summary": "The vote is a test of Fico's coalition after criminal-code changes, a public broadcaster overhaul and a shift in Ukraine policy. Liberal Progressive Slovakia leads the opposition.",
- "parties": [
-  {
-   "name": "Direction – Social Democracy",
-   "abbr": "Smer",
-   "leader": "Robert Fico",
-   "position": "Left-wing nationalist",
-   "ideology": "Left-wing nationalism, social conservatism",
-   "inGovernment": true,
-   "lastResult": "23.0%, 42 seats (2023)",
-   "polling": "",
-   "policies": [
-    "'Sovereign' foreign policy, ended state military aid to Ukraine",
-    "Criminal code reform",
-    "Constitutional amendment on two sexes and adoption",
-    "Replaced RTVS with STVR"
-   ]
-  },
-  {
-   "name": "Progressive Slovakia",
-   "abbr": "PS",
-   "leader": "Michal Šimečka",
-   "position": "Centre to centre-left",
-   "ideology": "Liberalism, pro-Europeanism",
-   "inGovernment": false,
-   "lastResult": "18.0%, 32 seats (2023)",
-   "polling": "Leads most 2026 polls",
-   "policies": [
-    "Reverse criminal-law and broadcasting changes",
-    "Firmly pro-EU and pro-NATO",
-    "Support for Ukraine",
-    "Rule of law"
-   ]
-  },
-  {
-   "name": "Voice – Social Democracy",
-   "abbr": "Hlas",
-   "leader": "Matúš Šutaj Eštok",
-   "position": "Centre-left",
-   "ideology": "Social democracy, populism",
-   "inGovernment": true,
-   "lastResult": "14.7%, 27 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Coalition partner",
-    "Rejects leaving EU or NATO",
-    "Social benefits and pensions"
-   ]
-  },
-  {
-   "name": "Republic",
-   "abbr": "Republika",
-   "leader": "Milan Uhrík",
-   "position": "Far-right",
-   "ideology": "Nationalism, Euroscepticism",
-   "inGovernment": false,
-   "lastResult": "4.8%, 0 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Opposes EU and NATO policy on Ukraine",
-    "Restrict migration"
-   ]
-  },
-  {
-   "name": "Christian Democratic Movement",
-   "abbr": "KDH",
-   "leader": "Milan Majerský",
-   "position": "Centre-right",
-   "ideology": "Christian democracy",
-   "inGovernment": false,
-   "lastResult": "6.8%, 12 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Family policy",
-    "Pro-Western orientation"
-   ]
-  },
-  {
-   "name": "Freedom and Solidarity",
-   "abbr": "SaS",
-   "leader": "Branislav Gröhling",
-   "position": "Centre-right",
-   "ideology": "Classical liberalism",
-   "inGovernment": false,
-   "lastResult": "6.3%, 11 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Lower taxes and deregulation",
-    "Opposes consolidation tax rises"
-   ]
-  },
-  {
-   "name": "Slovak National Party",
-   "abbr": "SNS",
-   "leader": "Andrej Danko",
-   "position": "Right",
-   "ideology": "Nationalism",
-   "inGovernment": true,
-   "lastResult": "5.6%, 10 seats (2023)",
-   "polling": "",
-   "policies": [
-    "Coalition partner",
-    "National and traditional values"
-   ]
-  }
- ],
- "sources": [
-  "https://en.wikipedia.org/wiki/Next_Slovak_parliamentary_election"
- ]
 }
