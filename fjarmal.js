@@ -136,10 +136,12 @@
       renderCompanies(); renderFeed();
     };
     try { history.replaceState(null, "", "#" + c.ticker.toLowerCase()); } catch (_) {}
+    if (window.chatContext) window.chatContext("company", c.ticker, c.name);
   }
   function showPanel() { $("panel").hidden = false; $("scrim").hidden = false; $("panel").scrollTop = 0; $("panel-close").focus(); }
   function closePanel() {
     $("panel").hidden = true; $("scrim").hidden = true;
+    if (window.chatContext) window.chatContext("general");
     try { history.replaceState(null, "", location.pathname); } catch (_) {}
     if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
   }

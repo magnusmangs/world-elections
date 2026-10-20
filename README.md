@@ -32,3 +32,16 @@ Updated weekly by a scheduled Claude task that researches changes, edits country
 
 - `scripts/media.py`: freely licensed images from Wikimedia Commons, found through Wikidata. Company logos matched exactly by SEC CIK, candidate photos by exact name plus citizenship, flags by ISO code. Only public domain, CC0, CC BY and CC BY-SA files are kept; every image is shown with author and licence and links to its Commons page. Writes `data/media/media.json`.
 - `data/media/presskits.json`: company press rooms (linked). Press-kit images are only embedded after that company's terms for press use are checked and recorded.
+
+## Spjall (chat)
+
+`api/ask.js` is a Vercel serverless function behind the "Spyrja" button on every page (`chat.js`, `chat.css`).
+It answers only from the site's own data for what the reader has open: a country (`data/countries/ISO3.json` plus
+article-based news for that country), a company (`data/finance/companies/TICKER.json`, verified earnings-release
+records and filings), or the news front page. Context is built in `lib/context.js`. Headline-only items are never used.
+
+Provider is chosen by environment variables in the Vercel project (Settings, Environment Variables):
+- `GROQ_API_KEY`: free tier (about 1,000 requests a day). Optional `GROQ_MODEL`.
+- `ANTHROPIC_API_KEY`: used instead when set (better Icelandic, paid). Optional `ANTHROPIC_MODEL`.
+With neither set the widget replies that chat is not active yet. Questions are capped at 500 characters,
+30 per hour per IP (best effort), and nothing is logged or stored.

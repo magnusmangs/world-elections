@@ -74,6 +74,7 @@
   async function showCountry(iso) {
     $("land").value = iso;
     try { history.replaceState(null, "", "#land=" + iso.toLowerCase()); } catch (_) {}
+    if (window.chatContext) window.chatContext("country", iso, nom(iso));
     $("dom-h").textContent = `Innlendir miðlar í ${nom(iso)}`.replace(/ í (.*)$/, (m, n) => " · " + n);
     let d;
     try { d = await fetch(`data/news/headlines/${iso}.json`, { cache: "no-cache" }).then((r) => r.json()); }

@@ -123,12 +123,14 @@
     state.active = c ? c.isoNumeric : null;
     highlight();
     try { history.replaceState(null, "", c ? "#" + c.iso3.toLowerCase() : location.pathname); } catch (_) {}
+    if (window.chatContext) c ? window.chatContext("country", c.iso3, c.name) : window.chatContext("general");
   }
   function closePanel() {
     $("panel").hidden = true;
     $("scrim").hidden = true;
     state.active = null;
     highlight();
+    if (window.chatContext) window.chatContext("general");
     try { history.replaceState(null, "", location.pathname); } catch (_) {}
     if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
   }
