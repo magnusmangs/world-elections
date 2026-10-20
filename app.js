@@ -64,12 +64,19 @@
   }
 
   // ---------- panel ----------
-  function partyHtml(p) {
+  let MEDIA = { people: {} };
+  function personPhoto(iso, p) {
+    const name = (p.leader || "").split(" and ")[0].split(";")[0].split("(")[0].trim();
+    const m = MEDIA.people[`${iso}|${name}`];
+    return m ? `<figure class="pphoto"><img src="${esc(m.thumb)}" alt="${esc(name)}" loading="lazy"><figcaption><a href="${esc(m.page)}" target="_blank" rel="noopener">${esc(m.author)}</a>${m.author === "Almenningseign" ? "" : ", " + esc(m.license)}</figcaption></figure>` : "";
+  }
+  function partyHtml(p, iso) {
     const stats = [];
     if (p.lastResult) stats.push(["Last result", p.lastResult]);
     if (p.polling) stats.push(["Polling", p.polling]);
     const meta = [p.leader && `Led by ${p.leader}`, p.ideology].filter(Boolean).join(". ");
     return `<li class="party">
+      ${personPhoto(iso, p)}
       <div class="party-head">
         <p class="party-name">${esc(p.name)}${p.abbr && !p.name.includes(p.abbr) ? ` <span class="party-abbr">${esc(p.abbr)}</span>` : ""}</p>
         ${p.inGovernment ? `<span class="chip">In government</span>` : ""}
@@ -97,7 +104,7 @@
       const hasParties = c.parties && c.parties.length;
       const parties = `<h3>Who is running</h3>`
         + (c.noParties ? `<p class="no-parties">${esc(c.noParties)}</p>` : "")
-        + (hasParties ? `<ul class="parties">${c.parties.map(partyHtml).join("")}</ul>`
+        + (hasParties ? `<ul class="parties">${c.parties.map((p) => partyHtml(p, c.iso3)).join("")}</ul>`
           : (c.noParties ? "" : `<p class="no-parties">Party information is not available yet.</p>`));
       body.innerHTML = `<h2 id="panel-title">${esc(c.name)}</h2>
         <p class="leaders">${esc(c.leaders)}</p>
@@ -260,7 +267,9 @@
   Promise.all([
     fetch("data/elections.json", { cache: "no-cache" }).then((r) => r.json()),
     fetch("assets/countries-50m.json").then((r) => r.json()),
-  ]).then(([data, world]) => {
+    fetch("data/media/media.json").then((r) => r.json()).catch(() => ({ people: {} })),
+  ]).then(([data, world, media]) => {
+    MEDIA = media;
     // Recompute upcoming against the viewer's date so past votes drop off between updates.
     for (const c of data.countries) {
       c.upcoming = (c.elections || []).filter((e) => daysUntil(e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date));

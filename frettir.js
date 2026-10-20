@@ -5,7 +5,27 @@
   const M = ["jan.", "feb.", "mars", "apr.", "maí", "júní", "júlí", "ágú.", "sep.", "okt.", "nóv.", "des."];
   const dateShort = (s) => { const d = new Date(s + "T00:00:00Z"); return `${d.getUTCDate()}. ${M[d.getUTCMonth()]}`; };
   const TAG = { kosningar: "Kosningar", fjarmal: "Fjármál" };
-  let items = [], filter = "all";
+  let items = [], filter = "all", MEDIA = { companies: {}, people: {}, flags: {} };
+  function pickImage(i) {
+    if (i.section === "fjarmal") {
+      const tk = (i.link || "").split("#")[1]; const m = tk && MEDIA.companies[tk.toUpperCase()];
+      return m ? { m, cls: "is-logo", kind: "Merki" } : null;
+    }
+    if (!i.iso3) return null;
+    const text = `${i.titleIs} ${i.summaryIs || ""}`;
+    let best = null;
+    for (const [k, m] of Object.entries(MEDIA.people)) {
+      const [iso, name] = k.split("|");
+      const sur = name.split(" ").filter((w) => w.length > 3).pop();
+      const at = iso === i.iso3 && sur ? text.indexOf(sur) : -1;
+      if (at >= 0 && (!best || at < best.at)) best = { at, m, name };
+    }
+    if (best) return { m: best.m, cls: "", kind: "Mynd", alt: best.name };
+    const fl = MEDIA.flags[i.iso3];
+    return fl ? { m: fl, cls: "is-flag", kind: "Fáni" } : null;
+  }
+  const thumb = (i) => { const p = pickImage(i); if (!p) return "";
+    return `<figure class="thumb ${p.cls}"><img src="${esc(p.m.thumb)}" alt="${esc(p.alt || "")}" loading="lazy"><figcaption class="credit">${p.kind}: <a href="${esc(p.m.page)}" target="_blank" rel="noopener">${esc(p.m.author)}</a>${p.m.author === "Almenningseign" ? "" : ", " + esc(p.m.license)}</figcaption></figure>`; };
   try { filter = localStorage.getItem("frettir.filter") || "all"; } catch (_) {}
 
   function render() {
@@ -21,6 +41,7 @@
       return `<li>
         <time datetime="${esc(i.date)}">${esc(dateShort(i.date))}<br><span class="tag tag-${esc(i.section)}">${esc(TAG[i.section] || i.section)}</span></time>
         <div>
+          ${thumb(i)}
           <h3><a href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>${esc(i.titleIs)}</a></h3>
           ${i.summaryIs ? `<p>${esc(i.summaryIs)}</p>` : ""}
           <p class="src">${src}</p>
@@ -32,6 +53,7 @@
     return `<li class="persp-item">
       <time datetime="${esc(i.date)}">${esc(dateShort(i.date))}<br><span class="tag tag-${esc(i.section)}">Sjónarhorn</span></time>
       <div>
+        ${thumb(i)}
         <h3>${esc(i.titleIs)}</h3>
         <p>${esc(i.summaryIs)}</p>
         <ul class="persp">${(i.perspectives || []).map((p) => `<li>
@@ -83,8 +105,9 @@
     filter = b.dataset.filter; try { localStorage.setItem("frettir.filter", filter); } catch (_) {} render();
   }));
   Promise.all([fetch("data/news.json", { cache: "no-cache" }).then((r) => r.json()),
-    fetch("data/news/countries_is_nom.json").then((r) => r.json()).catch(() => ({}))]).then(([d, names]) => {
-    NOM = names;
+    fetch("data/news/countries_is_nom.json").then((r) => r.json()).catch(() => ({})),
+    fetch("data/media/media.json").then((r) => r.json()).catch(() => ({ companies: {}, people: {}, flags: {} }))]).then(([d, names, media]) => {
+    NOM = names; MEDIA = media;
     items = d.items || [];
     $("updated").textContent = `Síðast uppfært ${d.updated.slice(0, 10)} kl. ${d.updated.slice(11, 16)} (UTC).`;
     render();

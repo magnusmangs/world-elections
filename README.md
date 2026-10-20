@@ -27,3 +27,8 @@ Updated weekly by a scheduled Claude task that researches changes, edits country
 - `scripts/headlines.py`: hourly; collects headlines + links only (no article text) and indexes them by country: domestic coverage vs foreign coverage. Keywords in `data/news/keywords.json` plus leader surnames from the election data.
 - `.github/workflows/update-headlines.yml`: hourly refresh and deploy. Headlines are generated, not committed.
 - Sjónarhorn items (`"type": "sjonarhorn"` in articles.json) compare how outlets in different countries frame the same story; validated to need 2+ outlets from 2+ countries.
+
+## Myndir (images)
+
+- `scripts/media.py`: freely licensed images from Wikimedia Commons, found through Wikidata. Company logos matched exactly by SEC CIK, candidate photos by exact name plus citizenship, flags by ISO code. Only public domain, CC0, CC BY and CC BY-SA files are kept; every image is shown with author and licence and links to its Commons page. Writes `data/media/media.json`.
+- `data/media/presskits.json`: company press rooms (linked). Press-kit images are only embedded after that company's terms for press use are checked and recorded.

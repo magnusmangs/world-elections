@@ -79,6 +79,12 @@ button, input { font: inherit; color: inherit; }
 .tooltip { position: absolute; z-index: 5; pointer-events: none; background: var(--ink); color: var(--surface); padding: 6px 10px; border-radius: 6px; font-size: .85rem; line-height: 1.35; max-width: 240px; transform: translate(-50%, calc(-100% - 12px)); }
 .tooltip b { font-weight: 600; }
 
+.pphoto { float: right; width: 72px; margin: 0 0 6px 12px; }
+.pphoto img { width: 72px; height: 72px; object-fit: cover; object-position: center 20%; border-radius: 50%; display: block; background: var(--surface-2); }
+.pphoto figcaption { font-size: .62rem; line-height: 1.2; color: var(--muted); margin-top: 3px; text-align: center; word-break: break-word; }
+.pphoto figcaption a { color: var(--muted); }
+.party::after { content: ""; display: block; clear: both; }
+
 /* Site nav */
 .sitenav { display: flex; gap: 4px; padding: 12px 16px; position: relative; z-index: 3; }
 .sitenav a { color: var(--ink); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: .92rem; }

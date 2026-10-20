@@ -1,0 +1,125 @@
+{
+ "note": "Company press rooms and media kits. Linked for readers. Images from a press kit are only embedded after that company's terms for press use have been checked and recorded in imageTerms; until then imagesAllowed is false.",
+ "companies": {
+  "AAPL": {
+   "pressRoom": "https://www.apple.com/newsroom/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "MSFT": {
+   "pressRoom": "https://news.microsoft.com/source/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "NVDA": {
+   "pressRoom": "https://nvidianews.nvidia.com/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "AMZN": {
+   "pressRoom": "https://press.aboutamazon.com/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "GOOGL": {
+   "pressRoom": "https://blog.google/image-library/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "META": {
+   "pressRoom": "https://about.fb.com/news/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "TSLA": {
+   "pressRoom": "https://www.tesla.com/blog",
+   "checked": false,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "AVGO": {
+   "pressRoom": "https://www.broadcom.com/company/news",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "BRK-B": {
+   "pressRoom": "https://www.berkshirehathaway.com/news/",
+   "checked": false,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "JPM": {
+   "pressRoom": "https://www.jpmorganchase.com/newsroom",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "V": {
+   "pressRoom": "https://usa.visa.com/about-visa/newsroom.html",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "MA": {
+   "pressRoom": "https://www.mastercard.com/news/",
+   "checked": false,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "LLY": {
+   "pressRoom": "https://www.lilly.com/news",
+   "checked": false,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "JNJ": {
+   "pressRoom": "https://www.jnj.com/media-center",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "WMT": {
+   "pressRoom": "https://corporate.walmart.com/news",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "COST": {
+   "pressRoom": "https://investor.costco.com/",
+   "checked": false,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "NFLX": {
+   "pressRoom": "https://about.netflix.com/en/newsroom",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "AMD": {
+   "pressRoom": "https://newsroom.amd.com/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "PLTR": {
+   "pressRoom": "https://www.palantir.com/newsroom/",
+   "checked": true,
+   "imagesAllowed": false,
+   "imageTerms": null
+  },
+  "XOM": {
+   "pressRoom": "https://corporate.exxonmobil.com/news",
+   "checked": false,
+   "imagesAllowed": false,
+   "imageTerms": null
+  }
+ }
+}

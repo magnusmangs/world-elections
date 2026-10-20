@@ -88,3 +88,20 @@ body.fin { background: var(--surface); }
 .basis { font-weight: 400; color: var(--muted); font-size: .78rem; }
 @media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }
 .cols .feed li { grid-template-columns: 1fr; gap: 2px; }
+.logo { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: #fff; border: 1px solid var(--rule); flex: none; overflow: hidden; }
+.logo img { max-width: 26px; max-height: 26px; object-fit: contain; }
+.logo-fallback { font: 700 .8rem/1 var(--display); color: #17202b; }
+.co-top { align-items: center; }
+.co-id { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.panel-logo { display: flex; align-items: center; gap: 14px; }
+.panel-logo .logo { width: 56px; height: 56px; border-radius: 12px; }
+.panel-logo .logo img { max-width: 44px; max-height: 44px; }
+.credit { font-size: .72rem; color: var(--muted); margin: 4px 0 0; }
+.credit a { color: var(--muted); }
+.thumb { float: right; margin: 2px 0 8px 14px; width: 96px; text-align: right; }
+.thumb img { width: 96px; height: 96px; object-fit: cover; border-radius: 8px; background: var(--surface-2); display: block; }
+.thumb.is-logo img, .thumb.is-flag img { object-fit: contain; background: #fff; border: 1px solid var(--rule); padding: 8px; box-sizing: border-box; }
+.thumb .credit { text-align: right; line-height: 1.25; }
+.press { margin-top: 10px; font-size: .9rem; }
+.press a { color: var(--ink); }
+@media (max-width: 600px) { .thumb { width: 72px; } .thumb img { width: 72px; height: 72px; } }

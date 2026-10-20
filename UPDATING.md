@@ -10,3 +10,4 @@ The scheduled Claude task follows the `world-elections-update` skill. If the ski
 6. Run `python3 scripts/build.py --today <YYYY-MM-DD>` and fix all errors. Commit as `Weekly update YYYY-MM-DD: <summary>` and push to `main`. Never force-push. Vercel redeploys on push.
 7. Report a few lines: countries added, results recorded, dates moved, countries refreshed, anything unverified.
 8. Finance review queue: read `data/finance/review.json` and list any earnings releases the AI check could not verify (ticker, date, reasons, exhibit link) in the weekly report.
+9. Images: run `python3 scripts/media.py` after adding countries, parties or companies. It finds freely licensed images on Wikimedia Commons via Wikidata (logos by SEC CIK, people by exact name and citizenship, flags) and records author and licence for the captions.

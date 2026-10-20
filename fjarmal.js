@@ -9,6 +9,10 @@
     operatingCashFlow: "Handbært fé frá rekstri", capex: "Fjárfesting í rekstrarfjármunum", cash: "Handbært fé", longTermDebt: "Langtímaskuldir",
   };
   const KEY = "fjarmal.watch.v1";
+  let MEDIA = { companies: {} }, KITS = { companies: {} };
+  const credit = (m, kind) => m ? `<p class="credit">${kind}: <a href="${esc(m.page)}" target="_blank" rel="noopener">${esc(m.author)}</a>, ${esc(m.license)} (Wikimedia Commons)${m.trademark ? ". Vörumerki fyrirtækisins" : ""}</p>` : "";
+  const logo = (tk, name) => { const m = MEDIA.companies[tk];
+    return `<span class="logo">${m ? `<img src="${esc(m.thumb)}" alt="" loading="lazy">` : `<span class="logo-fallback">${esc(name.slice(0, 1))}</span>`}</span>`; };
   let state = { index: null, feed: [], rate: null, filter: "all", watch: new Set(), lastFocus: null, feedShown: 25 };
 
   // Per-viewer watchlist lives only in this browser (no account, nothing sent to a server).
@@ -48,7 +52,7 @@
     $("mine-hint").hidden = !(state.filter === "mine" && !list.length);
     document.querySelectorAll(".pill").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.filter === state.filter)));
     $("companies").innerHTML = list.map((c) => `<li><button type="button" class="co" data-tk="${esc(c.ticker)}">
-        <span class="co-top"><span class="co-name">${state.watch.has(c.ticker) ? '<span class="star" aria-label="Fylgst með">●</span> ' : ""}${esc(c.name)}</span><span class="co-tk">${esc(c.ticker)}</span></span>
+        <span class="co-top"><span class="co-id">${logo(c.ticker, c.name)}<span class="co-name">${state.watch.has(c.ticker) ? '<span class="star" aria-label="Fylgst með">●</span> ' : ""}${esc(c.name)}</span></span><span class="co-tk">${esc(c.ticker)}</span></span>
         <span class="co-rev">${esc(usd(c.revenue))}</span>
         <span class="co-meta">Tekjur á fjórðungi til ${esc(dateShort(c.periodEnd))}<br>${yoy(c.revenueYoY)}</span>
       </button></li>`).join("");
@@ -92,8 +96,9 @@
     const kpi = (label, v, extra = "", money = true) => v == null ? "" : `<div><dt>${esc(label)}</dt><dd>${money ? esc(usd(v)) : esc(nf(v, 2) + " USD")}<small>${money ? esc(isk(v)) : ""}${extra ? (money ? " · " : "") + extra : ""}</small></dd></div>`;
     const maxRev = Math.max(...c.quarters.map((q) => q.metrics.revenue?.value || 0));
     body.innerHTML = `
-      <h2 id="panel-title">${esc(c.name)}</h2>
-      <p class="leaders">${esc(c.ticker)} · ${esc(c.sector)}</p>
+      <div class="panel-logo">${logo(c.ticker, c.name)}<div><h2 id="panel-title">${esc(c.name)}</h2>
+      <p class="leaders">${esc(c.ticker)} · ${esc(c.sector)}</p></div></div>
+      ${credit(MEDIA.companies[c.ticker], "Merki")}
       <button type="button" class="follow" id="follow" aria-pressed="${following}">${following ? "Fylgist með" : "Fylgjast með"}</button>
       ${(() => {
         const r = state.feed.find((i) => i.ticker === c.ticker && i.form === "8-K" && i.ai && i.ai.status === "verified" && i.periodEnd > c.latest.periodEnd);
@@ -119,6 +124,7 @@
       <h3>Skil til SEC</h3>
       <ol class="filings">${c.filings.map((f) => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.kind)} (${esc(f.form)})</a>, ${esc(dateShort(f.filed))}</li>`).join("")}</ol>
       <p class="note">Tölur úr XBRL-gögnum í skilum ${esc(c.name)} til SEC. Sumir fjórðungar eru reiknaðir sem mismunur á uppsöfnuðum tölum (t.d. fjórði fjórðungur = árið að frádregnum níu mánuðum). Gengi: ${state.rate ? nf(state.rate, 2) : "–"} kr. á USD.</p>
+      ${KITS.companies[c.ticker] ? `<p class="press"><a href="${esc(KITS.companies[c.ticker].pressRoom)}" target="_blank" rel="noopener">Fréttaherbergi og fjölmiðlaefni ${esc(c.name)}</a></p>` : ""}
       <p class="reviewed"><a href="${esc(c.source)}" target="_blank" rel="noopener">Öll skil ${esc(c.name)} hjá SEC</a></p>`;
     $("follow").onclick = () => {
       if (state.watch.has(c.ticker)) state.watch.delete(c.ticker); else state.watch.add(c.ticker);
@@ -144,7 +150,10 @@
   Promise.all([
     fetch("data/finance/index.json", { cache: "no-cache" }).then((r) => r.json()),
     fetch("data/finance/feed.json", { cache: "no-cache" }).then((r) => r.json()),
-  ]).then(([index, feed]) => {
+    fetch("data/media/media.json").then((r) => r.json()).catch(() => ({ companies: {} })),
+    fetch("data/media/presskits.json").then((r) => r.json()).catch(() => ({ companies: {} })),
+  ]).then(([index, feed, media, kits]) => {
+    MEDIA = media; KITS = kits;
     state.index = index; state.feed = feed.items || []; state.rate = index.fx?.usdIsk;
     $("fx").textContent = index.fx ? `Gengi USD: ${nf(index.fx.usdIsk, 2)} kr. (Seðlabanki Íslands, ${dateLong(index.fx.date)}). ${index.companies.length} fyrirtæki.` : "";
     const u = new Date(index.updated.replace("Z", ":00Z"));
