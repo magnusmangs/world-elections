@@ -350,6 +350,14 @@
  "summaryIs": "Tekjur Netflix námu 12,6 ma. USD (1.525 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 13,4% frá sama tíma í fyrra. Hagnaður nam 3,4 ma. USD (413 ma. kr.), aukning um 8,8% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,80 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,5 ma. USD (185 ma. kr.).",
  "filings": [
   {
+   "form": "8-K",
+   "filed": "2026-10-20",
+   "accession": "0001065280-26-000290",
+   "reportDate": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
    "form": "10-Q",
    "filed": "2026-07-17",
    "accession": "0001065280-26-000212",
@@ -404,14 +412,6 @@
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000406/nflx-20250930.htm",
    "kind": "Ársfjórðungsuppgjör"
-  },
-  {
-   "form": "8-K",
-   "filed": "2025-10-21",
-   "accession": "0001065280-25-000404",
-   "reportDate": "2025-10-21",
-   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000404/nflx-20251021.htm",
-   "kind": "Afkomutilkynning"
   }
  ],
  "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001065280"

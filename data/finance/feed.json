@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-19T14:54Z",
+ "updated": "2026-10-20T21:44Z",
  "items": [
+  {
+   "ticker": "NFLX",
+   "name": "Netflix",
+   "form": "8-K",
+   "kind": "Afkomutilkynning",
+   "filed": "2026-10-20",
+   "periodEnd": "2026-10-20",
+   "accession": "0001065280-26-000290",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+   "headlineIs": "Netflix birtir afkomutilkynningu",
+   "summaryIs": "Fréttatilkynning um afkomu var birt hjá SEC. Staðfestar tölur úr uppgjörinu birtast hér þegar fyrirtækið skilar formlegu uppgjöri (10-Q eða 10-K)."
+  },
   {
    "ticker": "JPM",
    "name": "JPMorgan Chase",
