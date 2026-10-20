@@ -1,23 +1,33 @@
 {
- "note": "Company press rooms and media kits. Linked for readers. Images from a press kit are only embedded after that company's terms for press use have been checked and recorded in imageTerms; until then imagesAllowed is false.",
+ "note": "Company press rooms and media kits. logoAllowed:false hides the company's logo on the site because its own guidelines require written permission. Press-kit images are embedded only when imagesAllowed is true and the terms are recorded in imageTerms.",
  "companies": {
   "AAPL": {
    "pressRoom": "https://www.apple.com/newsroom/",
    "checked": true,
    "imagesAllowed": false,
-   "imageTerms": null
+   "imageTerms": "Apple's trademark guidelines: the Apple logo may not be used without an express written trademark licence, including in publications; product images are not supported for third-party use. Editorial use is not addressed. Contact: Apple Trademark Department.",
+   "logoAllowed": false,
+   "checkedOn": "2026-10-20",
+   "termsUrl": "https://www.apple.com/legal/guidelinesfor3rdparties.html"
   },
   "MSFT": {
    "pressRoom": "https://news.microsoft.com/source/",
    "checked": true,
-   "imagesAllowed": false,
-   "imageTerms": null
+   "imagesAllowed": true,
+   "imageTerms": "Microsoft permissions: images from the Microsoft News Center image gallery may be used for editorial purposes by the press and industry analysts. Logos only per Microsoft trademark and brand guidelines (unaltered). Third-party trademarks or people in images may need separate consent.",
+   "logoAllowed": true,
+   "checkedOn": "2026-10-20",
+   "termsUrl": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions/default.aspx",
+   "credit": "Mynd: Microsoft"
   },
   "NVDA": {
    "pressRoom": "https://nvidianews.nvidia.com/",
    "checked": true,
    "imagesAllowed": false,
-   "imageTerms": null
+   "imageTerms": "NVIDIA logo and brand guidelines: the logo may not be used without written authorization from NVIDIA; no editorial exception is stated. Reusing third-party artwork with NVIDIA branding, including editorial imagery, is not allowed.",
+   "logoAllowed": false,
+   "checkedOn": "2026-10-20",
+   "termsUrl": "https://nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage"
   },
   "AMZN": {
    "pressRoom": "https://press.aboutamazon.com/",

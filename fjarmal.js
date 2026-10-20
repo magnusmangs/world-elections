@@ -11,7 +11,8 @@
   const KEY = "fjarmal.watch.v1";
   let MEDIA = { companies: {} }, KITS = { companies: {} };
   const credit = (m, kind) => m ? `<p class="credit">${kind}: <a href="${esc(m.page)}" target="_blank" rel="noopener">${esc(m.author)}</a>, ${esc(m.license)} (Wikimedia Commons)${m.trademark ? ". Vörumerki fyrirtækisins" : ""}</p>` : "";
-  const logo = (tk, name) => { const m = MEDIA.companies[tk];
+  const logoOk = (tk) => !(KITS.companies[tk] && KITS.companies[tk].logoAllowed === false);
+  const logo = (tk, name) => { const m = logoOk(tk) && MEDIA.companies[tk];
     return `<span class="logo">${m ? `<img src="${esc(m.thumb)}" alt="" loading="lazy">` : `<span class="logo-fallback">${esc(name.slice(0, 1))}</span>`}</span>`; };
   let state = { index: null, feed: [], rate: null, filter: "all", watch: new Set(), lastFocus: null, feedShown: 25 };
 
@@ -98,7 +99,7 @@
     body.innerHTML = `
       <div class="panel-logo">${logo(c.ticker, c.name)}<div><h2 id="panel-title">${esc(c.name)}</h2>
       <p class="leaders">${esc(c.ticker)} · ${esc(c.sector)}</p></div></div>
-      ${credit(MEDIA.companies[c.ticker], "Merki")}
+      ${logoOk(c.ticker) ? credit(MEDIA.companies[c.ticker], "Merki") : ""}
       <button type="button" class="follow" id="follow" aria-pressed="${following}">${following ? "Fylgist með" : "Fylgjast með"}</button>
       ${(() => {
         const r = state.feed.find((i) => i.ticker === c.ticker && i.form === "8-K" && i.ai && i.ai.status === "verified" && i.periodEnd > c.latest.periodEnd);

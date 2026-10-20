@@ -5,10 +5,11 @@
   const M = ["jan.", "feb.", "mars", "apr.", "maí", "júní", "júlí", "ágú.", "sep.", "okt.", "nóv.", "des."];
   const dateShort = (s) => { const d = new Date(s + "T00:00:00Z"); return `${d.getUTCDate()}. ${M[d.getUTCMonth()]}`; };
   const TAG = { kosningar: "Kosningar", fjarmal: "Fjármál" };
-  let items = [], filter = "all", MEDIA = { companies: {}, people: {}, flags: {} };
+  let items = [], filter = "all", MEDIA = { companies: {}, people: {}, flags: {} }, KITS = { companies: {} };
   function pickImage(i) {
     if (i.section === "fjarmal") {
-      const tk = (i.link || "").split("#")[1]; const m = tk && MEDIA.companies[tk.toUpperCase()];
+      const tk = (i.link || "").split("#")[1]; const T = tk && tk.toUpperCase();
+      const m = T && !(KITS.companies[T] && KITS.companies[T].logoAllowed === false) && MEDIA.companies[T];
       return m ? { m, cls: "is-logo", kind: "Merki" } : null;
     }
     if (!i.iso3) return null;
@@ -106,8 +107,9 @@
   }));
   Promise.all([fetch("data/news.json", { cache: "no-cache" }).then((r) => r.json()),
     fetch("data/news/countries_is_nom.json").then((r) => r.json()).catch(() => ({})),
-    fetch("data/media/media.json").then((r) => r.json()).catch(() => ({ companies: {}, people: {}, flags: {} }))]).then(([d, names, media]) => {
-    NOM = names; MEDIA = media;
+    fetch("data/media/media.json").then((r) => r.json()).catch(() => ({ companies: {}, people: {}, flags: {} })),
+    fetch("data/media/presskits.json").then((r) => r.json()).catch(() => ({ companies: {} }))]).then(([d, names, media, kits]) => {
+    NOM = names; MEDIA = media; KITS = kits;
     items = d.items || [];
     $("updated").textContent = `Síðast uppfært ${d.updated.slice(0, 10)} kl. ${d.updated.slice(11, 16)} (UTC).`;
     render();
