@@ -7,11 +7,17 @@
    "form": "8-K",
    "kind": "Afkomutilkynning",
    "filed": "2026-10-20",
-   "periodEnd": "2026-10-20",
+   "periodEnd": "2026-09-30",
    "accession": "0001065280-26-000290",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
    "headlineIs": "Netflix birtir afkomutilkynningu",
-   "summaryIs": "Fréttatilkynning um afkomu var birt hjá SEC. Staðfestar tölur úr uppgjörinu birtast hér þegar fyrirtækið skilar formlegu uppgjöri (10-Q eða 10-K)."
+   "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Netflix 12,9 ma. USD (1.563 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 11,8% frá sama tíma í fyrra. Hagnaður nam 3,7 ma. USD (445 ma. kr.), aukning um 43,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,87 USD. Netflix segir að tekjuvöxtur fjórðungsins hafi einkum stafað af áskriftartekjum, sem endurspegli fjölgun áskrifta og verðhækkanir, auk vaxtar í auglýsingatekjum og hagstæðra gengisáhrifa. Að sögn félagsins voru rekstrarhagnaður og rekstrarframlegð yfir eigin spá, einkum vegna tímasetningar útgjalda. Félagið segir að brottfall áskrifenda hafi minnkað bæði á heimsvísu og í Bandaríkjunum miðað við sama tímabil í fyrra. Félagið segir að endurkaup eigin hlutabréfa á fjórðungnum hafi verið þau mestu í sögu þess. Félagið gerir ráð fyrir áframhaldandi tekjuvexti á lokafjórðungi ársins vegna fjölgunar áskrifta, verðlagningar og auglýsingatekna, en hefur lækkað væntingar sínar um auglýsingatekjur ársins.",
+   "ai": {
+    "status": "verified",
+    "label": "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum.",
+    "exhibit": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm",
+    "rejected": 0
+   }
   },
   {
    "ticker": "JPM",
