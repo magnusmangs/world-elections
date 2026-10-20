@@ -2,7 +2,7 @@
  "iso3": "GRD",
  "isoNumeric": "308",
  "name": "Grenada",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-20",
  "elections": [
   {
    "date": "2026-11-05",
@@ -12,7 +12,7 @@
   }
  ],
  "leaders": "Prime Minister Dickon Mitchell (NDC)",
- "summary": "Prime Minister Mitchell called the vote almost a year before the October 2027 deadline. Two parties contest all 15 seats.",
+ "summary": "Prime Minister Mitchell called the vote almost a year before the October 2027 deadline. The NDC and NNP are the main contenders for the 15 seats, and former foreign minister Peter David's new Democratic People's Movement is also expected to run. Candidates were nominated on 15 October.",
  "parties": [
   {
    "name": "National Democratic Congress",
@@ -47,6 +47,7 @@
  "sources": [
   "https://jamaica-gleaner.com/index%2Ephp/article/world-news/20261006/mitchell-calls-early-election",
   "https://www.caribbeannationalweekly.com/posts/grenada-sets-nov-5-date-for-general-elections",
-  "https://en.wikipedia.org/wiki/2027_Grenadian_general_election"
+  "https://en.wikipedia.org/wiki/2027_Grenadian_general_election",
+  "https://www.caribbeannationalweekly.com/posts/grenada-candidates-nominated-ahead-of-november-5-general-election"
  ]
 }

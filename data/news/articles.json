@@ -2,6 +2,78 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "nzl-2026-10-20-1news",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-10-20",
+   "added": "2026-10-20",
+   "titleIs": "Yfirsæti gætu ráðið úrslitum í þingkosningunum á Nýja-Sjálandi",
+   "summaryIs": "Greining 1News bendir á að Þjóðarflokkurinn gæti unnið fleiri kjördæmi en fylgi hans á landsvísu gefur tilefni til, sem fjölgar þingsætum umfram 120. Te Pāti Māori gæti einnig skapað slík yfirsæti með sigrum í kjördæmum Maóra. Samkvæmt síðustu könnun 1News–Verian fengju Verkamannaflokkurinn, Græningjar og Opportunity 62 sæti, sem dygði ekki til meirihluta ef yfirsæti verða fjögur eða fimm.",
+   "source": "1News",
+   "url": "https://www.1news.co.nz/2026/10/20/analysis-could-extra-seats-in-parliament-decide-the-election/",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-18-bta",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-18",
+   "added": "2026-10-20",
+   "titleIs": "Gyurov leggur áherslu á réttarríki og góð samskipti við Tyrkland",
+   "summaryIs": "Forsetaframbjóðandinn Andrey Gyurov ræddi 17. október í fjarfundi við fulltrúa 15 samtaka búlgarskra Tyrkja í Istanbúl. Hann lagði áherslu á lýðræði, réttarríkið og vernd réttinda allra borgara, hvar sem þeir búa. Hann talaði einnig fyrir góðum grannsamskiptum við Tyrkland og sameiginlegri ábyrgð á öryggi á svæðinu.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/1227186-presidential-candidate-andrey-gurov-speaks-with-representatives-of-bulgarian-exp",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-17-bta",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-17",
+   "added": "2026-10-20",
+   "titleIs": "Iotova leggur áherslu á þjóðareiningu og baráttu gegn fátækt",
+   "summaryIs": "Iliana Iotova forseti, sem sækist eftir fullu kjörtímabili, hvatti á kosningafundi í Vidin til samstarfs stofnana í stað dýpri pólitískra deilna. Hún nefndi baráttu gegn fátækt, betri heilbrigðis- og menntaþjónustu og stuðning við barnafjölskyldur og eldri borgara. Í utanríkismálum vill hún diplómatíska lausn á stríðinu í Úkraínu og aukið öryggi á Svartahafi.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/1227067-president-and-presidential-candidate-iotova-calls-for-national-unity-and-stronge",
+   "basis": "article"
+  },
+  {
+   "id": "grd-2026-10-16-cnw",
+   "section": "kosningar",
+   "iso3": "GRD",
+   "published": "2026-10-16",
+   "added": "2026-10-20",
+   "titleIs": "Framboð staðfest í Grenada fyrir þingkosningarnar 5. nóvember",
+   "summaryIs": "Frambjóðendur voru tilnefndir um allt land 15. október. Dickon Mitchell forsætisráðherra sækist eftir öðru kjörtímabili fyrir NDC, en Emmalin Pierre verður fyrsta konan til að leiða NNP í þingkosningum. Peter David, fyrrverandi utanríkisráðherra, er talinn munu bjóða sig fram fyrir nýjan flokk sinn, Democratic People's Movement.",
+   "source": "Caribbean National Weekly",
+   "url": "https://www.caribbeannationalweekly.com/posts/grenada-candidates-nominated-ahead-of-november-5-general-election",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-10-15-ynet",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-15",
+   "added": "2026-10-20",
+   "titleIs": "Ger-hasídar hafa ekki hvatt fylgjendur sína til að kjósa UTJ",
+   "summaryIs": "Ger-hreyfingin, stærsti hópur hasída í Ísrael með um 30.000 kjósendur, hefur ekki enn hvatt fylgjendur sína til að kjósa Sameinaðan Torah-gyðingdóm (UTJ) fyrir kosningarnar 27. október. Deilan snýst um klofning innan Agudat Yisrael og skiptingu sæta á sameiginlegum lista. Atkvæði hópsins jafngilda um einu til einu og hálfu þingsæti.",
+   "source": "Ynetnews",
+   "url": "https://www.ynetnews.com/article/ryn11gcpige",
+   "basis": "article"
+  },
+  {
+   "id": "srb-2026-10-13-n1",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-13",
+   "added": "2026-10-20",
+   "titleIs": "Nefnd um kjörskrá í Serbíu fann yfir 11.000 grunsamleg heimilisföng",
+   "summaryIs": "Fulltrúi stjórnarandstöðuflokksins SSP í nefnd sem fer yfir kjörskrána segir nefndina ekki hafa getað metið fjölda vafasamra kjósenda vegna skorts á aðgangi að opinberum gagnagrunnum, en telur þá geta skipt tugum þúsunda. Stjórnvöld hafa sagt tvítekin persónunúmer stafa af tæknilegum villum. Nefndin hefur ekkert framkvæmdavald og getur aðeins gert tillögur.",
+   "source": "N1",
+   "url": "https://n1info.rs/english/news/commission-member-says-some-voters-should-not-be-on-registered/",
+   "basis": "article"
+  },
+  {
    "id": "bra-2026-10-16-aljazeera",
    "section": "kosningar",
    "iso3": "BRA",

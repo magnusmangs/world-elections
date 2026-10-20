@@ -2,20 +2,22 @@
  "iso3": "BHR",
  "isoNumeric": "048",
  "name": "Bahrain",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-20",
  "elections": [
   {
-   "date": "2026-11-01",
-   "dateStatus": "expected",
+   "date": "2027-11-27",
+   "dateStatus": "tentative",
    "type": "Parliamentary (Council of Representatives)",
-   "note": "40 single-member seats, two-round system. Exact date to be confirmed."
+   "note": "40 single-member seats, two-round system. A royal order of 29 April 2026 extended the legislative term by one year to December 2027; the election date has not been set."
   }
  ],
  "leaders": "King Hamad bin Isa Al Khalifa; Crown Prince and Prime Minister Salman bin Hamad",
- "summary": "Bahrain elects the lower house of parliament; the upper house is appointed by the King. Candidates run mostly as independents, and the main opposition societies were dissolved in 2016–2017 and remain barred.",
+ "summary": "Bahrain elects the lower house of parliament; the upper house is appointed by the King. The vote due in late 2026 was pushed back when a royal order extended the legislative term to December 2027. Candidates run mostly as independents, and the main opposition societies were dissolved in 2016–2017 and remain barred.",
  "parties": [],
  "noParties": "Candidates stand largely as independents. Major opposition political societies (Al-Wefaq, Wa'ad) are banned from running.",
  "sources": [
-  "https://en.wikipedia.org/wiki/2026_Bahraini_general_election"
+  "https://en.wikipedia.org/wiki/2026_Bahraini_general_election",
+  "https://www.idea.int/democracytracker/report/bahrain/april-2026",
+  "https://www.electionguide.org/elections/id/5100/"
  ]
 }

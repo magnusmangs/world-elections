@@ -2,13 +2,13 @@
  "iso3": "CPV",
  "isoNumeric": "132",
  "name": "Cabo Verde",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-20",
  "elections": [
   {
    "date": "2026-11-15",
    "dateStatus": "confirmed",
    "type": "Presidential",
-   "note": "Two-round system."
+   "note": "Two-round system. The Constitutional Court admitted five candidacies on 21 September 2026: José Maria Neves, Joana Rosa, Gilson Alves, Antero Tavares and Casimiro de Pina."
   }
  ],
  "leaders": "President José Maria Neves (PAICV)",
@@ -46,6 +46,7 @@
   }
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election"
+  "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election",
+  "https://forbesafricalusofona.com/?p=176618"
  ]
 }
