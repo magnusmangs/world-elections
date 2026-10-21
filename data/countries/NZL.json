@@ -2,7 +2,7 @@
   "iso3": "NZL",
   "isoNumeric": "554",
   "name": "New Zealand",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-21",
   "elections": [
     {
       "date": "2026-11-07",
@@ -12,7 +12,7 @@
     }
   ],
   "leaders": "Prime Minister Christopher Luxon (National)",
-  "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. National and Labour are tied at 28% in the latest 1News–Verian poll, and Hipkins and Luxon are level as preferred prime minister.",
+  "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. National leads Labour 32% to 27% in the latest 1News–Verian poll (15–19 Oct), with Luxon ahead of Hipkins as preferred prime minister.",
   "parties": [
     {
       "name": "National Party",
@@ -22,7 +22,7 @@
       "ideology": "Conservatism, liberal conservatism",
       "inGovernment": true,
       "lastResult": "38.1%, 48 seats (2023)",
-      "polling": "28% (1News–Verian, 8–12 Oct)",
+      "polling": "32% (1News–Verian, 15–19 Oct)",
       "policies": [
         "Raise default KiwiSaver contributions from 3% to 6% by 2032",
         "Make KiwiSaver compulsory and auto-enrol newborns",
@@ -30,7 +30,7 @@
         "Scrap good-character sentencing discounts for sexual offending"
       ],
       "seats": 49,
-      "pollValue": 28,
+      "pollValue": 32,
       "color": "#00529f"
     },
     {
@@ -41,7 +41,7 @@
       "ideology": "Social democracy",
       "inGovernment": false,
       "lastResult": "26.9%, 34 seats (2023)",
-      "polling": "28%",
+      "polling": "27%",
       "policies": [
         "Repeal the Regulatory Standards Act within 100 days",
         "Cap public transport fares at $20 a week in major cities",
@@ -49,7 +49,7 @@
         "Free cervical screening for women aged 25–69"
       ],
       "seats": 34,
-      "pollValue": 28,
+      "pollValue": 27,
       "color": "#d82a20"
     },
     {
@@ -60,7 +60,7 @@
       "ideology": "Green politics",
       "inGovernment": false,
       "lastResult": "11.6%, 15 seats (2023)",
-      "polling": "15%",
+      "polling": "16%",
       "policies": [
         "Wealth tax, inheritance tax and higher corporate tax",
         "Build 40,000 social homes in five years",
@@ -68,7 +68,7 @@
         "Mass electrification and renewables"
       ],
       "seats": 15,
-      "pollValue": 15,
+      "pollValue": 16,
       "color": "#098137"
     },
     {
@@ -79,7 +79,7 @@
       "ideology": "Classical liberalism, libertarianism",
       "inGovernment": true,
       "lastResult": "8.6%, 11 seats (2023)",
-      "polling": "10%",
+      "polling": "11%",
       "policies": [
         "Cut government spending and merge ministries",
         "Deport serious non-citizen offenders",
@@ -87,7 +87,7 @@
         "Split-gas emissions target"
       ],
       "seats": 11,
-      "pollValue": 10,
+      "pollValue": 11,
       "color": "#fdd600"
     },
     {
@@ -98,7 +98,7 @@
       "ideology": "Nationalism, populism",
       "inGovernment": true,
       "lastResult": "6.1%, 8 seats (2023)",
-      "polling": "10%",
+      "polling": "8%",
       "policies": [
         "Break up energy companies to cut power prices",
         "Turn supermarket duopoly into two cooperatives",
@@ -106,7 +106,7 @@
         "Referendum on the Māori electorates"
       ],
       "seats": 8,
-      "pollValue": 10,
+      "pollValue": 8,
       "color": "#000000"
     },
     {
@@ -117,7 +117,7 @@
       "ideology": "Māori rights, tino rangatiratanga",
       "inGovernment": false,
       "lastResult": "3.1%, 6 seats (2023)",
-      "polling": "0.4%",
+      "polling": "Under 1%",
       "policies": [
         "Abolish prisons by 2040 in favour of community solutions",
         "Parliamentary Commissioner for Te Tiriti with veto powers",
@@ -135,19 +135,20 @@
       "ideology": "Radical centrism",
       "inGovernment": false,
       "lastResult": "2.2%, 0 seats (2023)",
-      "polling": "8% (on track for about 10 MPs)",
+      "polling": "7% (about 8 seats)",
       "policies": [
         "Replace welfare with a means-tested citizen's income",
         "Land value tax to bring down house prices",
         "Citizens' assemblies on major issues"
       ],
-      "pollValue": 8,
+      "pollValue": 7,
       "color": "#32dac3"
     }
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
-    "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+    "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/",
+    "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
   ],
   "chamber": {
     "name": "House of Representatives",
@@ -157,8 +158,8 @@
   },
   "poll": {
     "unit": "percent",
-    "date": "2026-10-12",
-    "pollster": "1News Verian (fieldwork 8–12 Oct)",
-    "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+    "date": "2026-10-19",
+    "pollster": "1News Verian (fieldwork 15–19 Oct)",
+    "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
   }
 }
