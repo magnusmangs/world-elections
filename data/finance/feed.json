@@ -1,6 +1,66 @@
 {
- "updated": "2026-10-20T21:44Z",
+ "updated": "2026-10-21T21:49Z",
  "items": [
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "form": "8-K",
+   "kind": "Afkomutilkynning",
+   "filed": "2026-10-21",
+   "periodEnd": "2026-09-30",
+   "accession": "0001628280-26-066738",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm",
+   "headlineIs": "Tesla birtir afkomutilkynningu",
+   "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Tesla 28,0 ma. USD (3.400 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, samdráttur um 0,2% frá sama tíma í fyrra. Hagnaður nam 787 m. USD (95 ma. kr.), samdráttur um 42,7% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,22 USD. Tesla segir að tekjur hafi staðið nánast í stað milli ára þar sem samdráttur í orkugeymslu, lægra meðalverð bíla og minni tekjur af losunarheimildum vógu á móti vexti í þjónustu. Rekstrarkostnaður jókst vegna rannsókna og þróunar á sviði gervigreindar og vélmenna ásamt hærri launakostnaði í formi hlutabréfa. Félagið hóf að bjóða sjálfkeyrandi leigubílaþjónustu með Cybercab í Austin og hóf fjöldaframleiðslu á Tesla Semi flutningabílnum. Að sögn félagsins takmarkaði framboð rafhlaðna enn framleiðslu bíla á fjórðungnum. Tesla gefur ekki út tölulega spá en segist stefna að hámarksnýtingu verksmiðja sinna og vænta þess að hagnaður af gervigreind, hugbúnaði og bílaflota bætist með tímanum við hagnað af vélbúnaði.",
+   "ai": {
+    "status": "verified",
+    "label": "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum.",
+    "exhibit": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+    "rejected": 0
+   }
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix",
+   "form": "10-Q",
+   "kind": "Ársfjórðungsuppgjör",
+   "filed": "2026-10-21",
+   "periodEnd": "2026-09-30",
+   "accession": "0001065280-26-000291",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+   "headlineIs": "Netflix skilar ársfjórðungsuppgjöri",
+   "summaryIs": "Tekjur Netflix námu 12,9 ma. USD (1.561 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 11,8% frá sama tíma í fyrra. Hagnaður nam 3,7 ma. USD (444 ma. kr.), aukning um 43,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,87 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 2,9 ma. USD (350 ma. kr.)."
+  },
+  {
+   "ticker": "META",
+   "name": "Meta",
+   "form": "8-K",
+   "kind": "Afkomutilkynning",
+   "filed": "2026-10-21",
+   "periodEnd": "2026-09-30",
+   "accession": "0001628280-26-066700",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+   "headlineIs": "Meta birtir afkomutilkynningu",
+   "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Meta 64,6 ma. USD (7.832 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 26,1% frá sama tíma í fyrra. Hagnaður nam 9,9 ma. USD (1.195 ma. kr.), aukning um 264,0% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 3,83 USD. Meta segir að tekjuvöxt megi rekja til fleiri birtra auglýsinga og hærra meðalverðs á hverja auglýsingu. Kostnaður jókst verulega, meðal annars vegna gjaldfærslu sem tengist samkomulagi við dómsmálaráðherra bandarískra ríkja um málaferli vegna geðheilsu ungmenna og samfélagsmiðla. Félagið kynnti nýjan flokk almennra hlutabréfa án atkvæðisréttar sem verður greiddur út sem arður í hlutabréfum. Meta gefur út spá um tekjur á yfirstandandi ársfjórðungi og hefur hækkað kostnaðarspá sína fyrir árið vegna gjaldfærslunnar en væntir þess að tap Reality Labs minnki.",
+   "ai": {
+    "status": "verified",
+    "label": "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum.",
+    "exhibit": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+    "rejected": 0
+   }
+  },
+  {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "form": "10-Q",
+   "kind": "Ársfjórðungsuppgjör",
+   "filed": "2026-10-21",
+   "periodEnd": "2026-09-27",
+   "accession": "0000200406-26-000197",
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm",
+   "headlineIs": "Johnson & Johnson skilar ársfjórðungsuppgjöri",
+   "summaryIs": "Tekjur Johnson & Johnson námu 25,4 ma. USD (3.079 ma. kr.) á ársfjórðungnum sem lauk 27. september 2026, aukning um 5,9% frá sama tíma í fyrra. Hagnaður nam 210 m. USD (25 ma. kr.), samdráttur um 95,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,09 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 6,4 ma. USD (771 ma. kr.)."
+  },
   {
    "ticker": "NFLX",
    "name": "Netflix",

@@ -5,80 +5,43 @@
  "sector": "Services-Video Tape Rental",
  "fiscalYearEnd": "1231",
  "latest": {
-  "periodEnd": "2026-06-30",
+  "periodEnd": "2026-09-30",
   "metrics": {
    "revenue": {
-    "value": 12559938000,
-    "yoy": 13.4
+    "value": 12874176000,
+    "yoy": 11.8
    },
    "operatingIncome": {
-    "value": 4192610000,
-    "yoy": 11.1
+    "value": 4458600000,
+    "yoy": 37.3
    },
    "netIncome": {
-    "value": 3401414000,
-    "yoy": 8.8
+    "value": 3663927000,
+    "yoy": 43.9
    },
    "eps": {
-    "value": 0.8,
-    "yoy": 11.1
+    "value": 0.87,
+    "yoy": 47.5
    },
    "operatingCashFlow": {
-    "value": 1743812000,
-    "yoy": -28.0
+    "value": 3162279000,
+    "yoy": 11.9
    },
    "capex": {
-    "value": 218644000,
-    "yoy": 40.3
+    "value": 278766000,
+    "yoy": 69.2
    },
    "cash": {
-    "value": 9099232000
+    "value": 8194275000
    },
    "longTermDebt": {
-    "value": 11825548000
+    "value": 12657598000
    }
   },
-  "filed": "2026-07-17",
-  "accession": "0001065280-26-000212"
+  "filed": "2026-10-21",
+  "accession": "0001065280-26-000291"
  },
  "quarters": [
-  {
-   "periodEnd": "2024-09-30",
-   "metrics": {
-    "revenue": {
-     "value": 9824703000,
-     "yoy": 15.0
-    },
-    "operatingIncome": {
-     "value": 2909477000,
-     "yoy": 51.8
-    },
-    "netIncome": {
-     "value": 2363509000,
-     "yoy": 40.9
-    },
-    "eps": {
-     "value": 5.4,
-     "yoy": 44.8
-    },
-    "operatingCashFlow": {
-     "value": 2321101000,
-     "yoy": 16.5
-    },
-    "capex": {
-     "value": 126863000,
-     "yoy": 22.1
-    },
-    "cash": {
-     "value": 7457025000
-    },
-    "longTermDebt": {
-     "value": 14160932000
-    }
-   },
-   "filed": "2025-10-22",
-   "accession": "0001065280-24-000287"
-  },
   {
    "periodEnd": "2024-12-31",
    "metrics": {
@@ -207,8 +170,8 @@
      "yoy": 7.8
     },
     "eps": {
-     "value": 5.87,
-     "yoy": 8.7
+     "value": 0.59,
+     "yoy": -89.1
     },
     "operatingCashFlow": {
      "value": 2825174000,
@@ -225,7 +188,7 @@
      "value": 14463020000
     }
    },
-   "filed": "2025-10-22",
+   "filed": "2026-10-21",
    "accession": "0001065280-25-000406"
   },
   {
@@ -263,8 +226,8 @@
      "value": 13463971000
     }
    },
-   "filed": "2026-07-17",
-   "accession": "0001065280-26-000212"
+   "filed": "2026-10-21",
+   "accession": "0001065280-26-000291"
   },
   {
    "periodEnd": "2026-03-31",
@@ -339,16 +302,61 @@
    },
    "filed": "2026-07-17",
    "accession": "0001065280-26-000212"
+  },
+  {
+   "periodEnd": "2026-09-30",
+   "metrics": {
+    "revenue": {
+     "value": 12874176000,
+     "yoy": 11.8
+    },
+    "operatingIncome": {
+     "value": 4458600000,
+     "yoy": 37.3
+    },
+    "netIncome": {
+     "value": 3663927000,
+     "yoy": 43.9
+    },
+    "eps": {
+     "value": 0.87,
+     "yoy": 47.5
+    },
+    "operatingCashFlow": {
+     "value": 3162279000,
+     "yoy": 11.9
+    },
+    "capex": {
+     "value": 278766000,
+     "yoy": 69.2
+    },
+    "cash": {
+     "value": 8194275000
+    },
+    "longTermDebt": {
+     "value": 12657598000
+    }
+   },
+   "filed": "2026-10-21",
+   "accession": "0001065280-26-000291"
   }
  ],
  "ttm": {
-  "revenue": 48370764000,
-  "netIncome": 13649642000,
-  "operatingCashFlow": 11970833000,
-  "capex": 818828000
+  "revenue": 49734633000,
+  "netIncome": 14766653000,
+  "operatingCashFlow": 12307938000,
+  "capex": 932875000
  },
- "summaryIs": "Tekjur Netflix námu 12,6 ma. USD (1.523 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 13,4% frá sama tíma í fyrra. Hagnaður nam 3,4 ma. USD (412 ma. kr.), aukning um 8,8% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,80 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,5 ma. USD (185 ma. kr.).",
+ "summaryIs": "Tekjur Netflix námu 12,9 ma. USD (1.561 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 11,8% frá sama tíma í fyrra. Hagnaður nam 3,7 ma. USD (444 ma. kr.), aukning um 43,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,87 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 2,9 ma. USD (350 ma. kr.).",
  "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-10-21",
+   "accession": "0001065280-26-000291",
+   "reportDate": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+   "kind": "Ársfjórðungsuppgjör"
+  },
   {
    "form": "8-K",
    "filed": "2026-10-20",
@@ -404,14 +412,6 @@
    "reportDate": "2026-01-20",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000033/nflx-20260120.htm",
    "kind": "Afkomutilkynning"
-  },
-  {
-   "form": "10-Q",
-   "filed": "2025-10-22",
-   "accession": "0001065280-25-000406",
-   "reportDate": "2025-09-30",
-   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000406/nflx-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
   }
  ],
  "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001065280"

@@ -360,6 +360,14 @@
  "summaryIs": "Tekjur Meta námu 60,8 ma. USD (7.372 ma. kr.) á ársfjórðungnum sem lauk 30. júní 2026, aukning um 28,0% frá sama tíma í fyrra. Hagnaður nam 15,8 ma. USD (1.921 ma. kr.), samdráttur um 13,6% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 6,18 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,7 ma. USD (212 ma. kr.).",
  "filings": [
   {
+   "form": "8-K",
+   "filed": "2026-10-21",
+   "accession": "0001628280-26-066700",
+   "reportDate": "2026-10-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
    "form": "10-Q",
    "filed": "2026-07-30",
    "accession": "0001628280-26-050705",
@@ -414,14 +422,6 @@
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
    "kind": "Ársfjórðungsuppgjör"
-  },
-  {
-   "form": "8-K",
-   "filed": "2025-10-29",
-   "accession": "0001628280-25-047114",
-   "reportDate": "2025-10-29",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-20251029.htm",
-   "kind": "Afkomutilkynning"
   }
  ],
  "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801"

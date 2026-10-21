@@ -361,6 +361,14 @@
  "filings": [
   {
    "form": "8-K",
+   "filed": "2026-10-21",
+   "accession": "0001628280-26-066738",
+   "reportDate": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm",
+   "kind": "Afkomutilkynning"
+  },
+  {
+   "form": "8-K",
    "filed": "2026-10-02",
    "accession": "0001628280-26-064366",
    "reportDate": "2026-10-02",
@@ -414,14 +422,6 @@
    "reportDate": "2026-04-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026022956/tsla-20260402.htm",
    "kind": "Afkomutilkynning"
-  },
-  {
-   "form": "10-K",
-   "filed": "2026-01-29",
-   "accession": "0001628280-26-003952",
-   "reportDate": "2025-12-31",
-   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
-   "kind": "Ársskýrsla"
   }
  ],
  "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605"

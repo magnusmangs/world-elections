@@ -1,0 +1,92 @@
+{
+ "accession": "0001628280-26-066700",
+ "ticker": "META",
+ "exhibit": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+ "model": "claude (scheduled session)",
+ "processed": "2026-10-21T21:49Z",
+ "verified": [
+  {
+   "metric": "revenue",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "64,601",
+   "multiplier": 1000000,
+   "value": 64601000000,
+   "quote": "Revenue $64,601 $51,242 $181,712 $141,073"
+  },
+  {
+   "metric": "revenue",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "51,242",
+   "multiplier": 1000000,
+   "value": 51242000000,
+   "quote": "Revenue $64,601 $51,242 $181,712 $141,073"
+  },
+  {
+   "metric": "operatingIncome",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "12,988",
+   "multiplier": 1000000,
+   "value": 12988000000,
+   "quote": "Income from operations $12,988 $20,535 (37)%"
+  },
+  {
+   "metric": "operatingIncome",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "20,535",
+   "multiplier": 1000000,
+   "value": 20535000000,
+   "quote": "Income from operations $12,988 $20,535 (37)%"
+  },
+  {
+   "metric": "netIncome",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "9,860",
+   "multiplier": 1000000,
+   "value": 9860000000,
+   "quote": "Net income $9,860 $2,709 264%"
+  },
+  {
+   "metric": "netIncome",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "2,709",
+   "multiplier": 1000000,
+   "value": 2709000000,
+   "quote": "Net income $9,860 $2,709 264%"
+  },
+  {
+   "metric": "eps",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "3.83",
+   "multiplier": 1,
+   "value": 3.83,
+   "quote": "Diluted earnings per share (EPS) $3.83 $1.05 265%"
+  },
+  {
+   "metric": "eps",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "1.05",
+   "multiplier": 1,
+   "value": 1.05,
+   "quote": "Diluted earnings per share (EPS) $3.83 $1.05 265%"
+  }
+ ],
+ "rejected": [],
+ "result": {
+  "periodEnd": "2026-09-30",
+  "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Meta 64,6 ma. USD (7.832 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 26,1% frá sama tíma í fyrra. Hagnaður nam 9,9 ma. USD (1.195 ma. kr.), aukning um 264,0% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 3,83 USD. Meta segir að tekjuvöxt megi rekja til fleiri birtra auglýsinga og hærra meðalverðs á hverja auglýsingu. Kostnaður jókst verulega, meðal annars vegna gjaldfærslu sem tengist samkomulagi við dómsmálaráðherra bandarískra ríkja um málaferli vegna geðheilsu ungmenna og samfélagsmiðla. Félagið kynnti nýjan flokk almennra hlutabréfa án atkvæðisréttar sem verður greiddur út sem arður í hlutabréfum. Meta gefur út spá um tekjur á yfirstandandi ársfjórðungi og hefur hækkað kostnaðarspá sína fyrir árið vegna gjaldfærslunnar en væntir þess að tap Reality Labs minnki.",
+  "basis": {
+   "revenue": "GAAP",
+   "operatingIncome": "GAAP",
+   "netIncome": "GAAP",
+   "eps": "GAAP"
+  }
+ }
+}

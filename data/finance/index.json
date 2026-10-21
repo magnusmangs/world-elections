@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T19:24Z",
+ "updated": "2026-10-21T21:49Z",
  "fx": {
   "usdIsk": 121.24,
   "date": "2026-10-21",
@@ -110,11 +110,11 @@
    "ticker": "JNJ",
    "name": "Johnson & Johnson",
    "sector": "Pharmaceutical Preparations",
-   "periodEnd": "2026-06-28",
-   "revenue": 25310000000,
-   "revenueYoY": 6.6,
-   "netIncome": 5534000000,
-   "lastFiled": "2026-10-13"
+   "periodEnd": "2026-09-27",
+   "revenue": 25399000000,
+   "revenueYoY": 5.9,
+   "netIncome": 210000000,
+   "lastFiled": "2026-10-21"
   },
   {
    "ticker": "MA",
@@ -134,7 +134,7 @@
    "revenue": 60801000000,
    "revenueYoY": 28.0,
    "netIncome": 15848000000,
-   "lastFiled": "2026-07-30"
+   "lastFiled": "2026-10-21"
   },
   {
    "ticker": "MSFT",
@@ -150,11 +150,11 @@
    "ticker": "NFLX",
    "name": "Netflix",
    "sector": "Services-Video Tape Rental",
-   "periodEnd": "2026-06-30",
-   "revenue": 12559938000,
-   "revenueYoY": 13.4,
-   "netIncome": 3401414000,
-   "lastFiled": "2026-10-20"
+   "periodEnd": "2026-09-30",
+   "revenue": 12874176000,
+   "revenueYoY": 11.8,
+   "netIncome": 3663927000,
+   "lastFiled": "2026-10-21"
   },
   {
    "ticker": "NVDA",
@@ -184,7 +184,7 @@
    "revenue": 28236000000,
    "revenueYoY": 25.5,
    "netIncome": 1114000000,
-   "lastFiled": "2026-10-02"
+   "lastFiled": "2026-10-21"
   },
   {
    "ticker": "V",
