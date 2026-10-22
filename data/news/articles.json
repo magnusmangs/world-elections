@@ -2,6 +2,66 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "bra-2026-10-21-aljazeera",
+   "section": "kosningar",
+   "iso3": "BRA",
+   "published": "2026-10-21",
+   "added": "2026-10-22",
+   "titleIs": "Lula og Flávio Bolsonaro krefjast hvor um sig að mótframbjóðandinn verði dæmdur úr leik",
+   "summaryIs": "Lögmenn Flávio Bolsonaro báðu yfirkjördómstól Brasilíu að ógilda framboð Lula vegna fjöldaskilaboða stjórnvalda á WhatsApp um félagsleg úrræði. Framboð Lula hyggst á móti krefjast þess að Bolsonaro verði dæmdur úr leik vegna meintrar hagræðingar Meta á algrími í hans þágu. Dómstóllinn hefur ekki úrskurðað um hvoruga kröfuna fyrir seinni umferðina 25. október.",
+   "source": "Al Jazeera (AFP)",
+   "url": "https://www.aljazeera.com/news/2026/10/21/lula-bolsonaro-seek-to-disqualify-each-other-ahead-of-brazil-runoff",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-21-novinite",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-21",
+   "added": "2026-10-22",
+   "titleIs": "Könnun í Búlgaríu: Iotova með 47,3% en Gyurov 30,6% og seinni umferð líkleg",
+   "summaryIs": "Í könnun Market Links fyrir bTV, gerðri 13. til 19. október, mælist Iliana Iotova forseti með 47,3%, Andrey Gyurov með 30,6% og Kostadin Kostadinov úr Vazrazhdane með 10,3%. Spáð er um 39% kjörsókn í fyrri umferðinni 25. október, sem myndi gera seinni umferð óhjákvæmilega.",
+   "source": "Novinite (Market Links/bTV)",
+   "url": "https://www.novinite.com/view_news.php?id=241163",
+   "basis": "article"
+  },
+  {
+   "id": "srb-2026-10-20-n1",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-20",
+   "added": "2026-10-22",
+   "titleIs": "Námsmenn í Serbíu segja lögreglu hafa gert leit hjá aðgerðasinnum fyrir kosningarnar",
+   "summaryIs": "Námsmenn sem bjóða fram undir merkjum Námsmannalistans segja lögreglu hafa leitað á stöðum sem tengjast námsmanninum Lazar Misić, meðal annars á fljótabát í Zemun, og kalla það tilraun til ógnunar. Lögmenn hans sögðu hann ekki í haldi. Innanríkisráðuneytið hafði ekki svarað fyrirspurn N1 um lagagrundvöll aðgerðanna þegar fréttin birtist.",
+   "source": "N1",
+   "url": "https://n1info.rs/english/news/student-activists-police-launch-raids-to-arrest-students",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-10-21-jpost",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-21",
+   "added": "2026-10-22",
+   "titleIs": "Fjórar nýjar kannanir í Ísrael: Yashar fremst en hvorug fylkingin nær 61 sæti",
+   "summaryIs": "Í könnunum Walla, Rásar 12, Rásar 13 og Kan fær Yashar flokkur Eisenkots 20 til 24 sæti og Likud flokkur Netanyahus 18 til 21 sæti. Að meðaltali fær fylking Netanyahus um 50 sæti, aðrir síonískir flokkar um 53 og flokkar araba 14. Hvorug fylkingin nær 61 sæta meirihluta fyrir kosningarnar 27. október.",
+   "source": "The Jerusalem Post (Walla, Rás 12, Rás 13, Kan)",
+   "url": "https://www.jpost.com/israel-election-2026/article-912371",
+   "basis": "article"
+  },
+  {
+   "id": "nzl-2026-10-21-1news",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-10-21",
+   "added": "2026-10-22",
+   "titleIs": "Kosning hafin erlendis á Nýja-Sjálandi og stóru flokkarnir jafnir í trausti á framfærslumálum",
+   "summaryIs": "Um 126.000 Nýsjálendingar á kjörskrá erlendis gátu byrjað að kjósa 21. október. Í könnun 1News og Verian (15. til 19. október) treysta 28% Þjóðarflokknum best í framfærslumálum og jafnmargir Verkamannaflokknum. Verkamannaflokkurinn vísar til könnunar Freshwater Strategy fyrir The Post þar sem hann mælist örlítið ofar en Þjóðarflokkurinn.",
+   "source": "1News (Verian)",
+   "url": "https://www.1news.co.nz/2026/10/21/poll-national-labour-tied-on-cost-of-living-as-first-votes-cast/",
+   "basis": "article"
+  },
+  {
    "id": "isr-2026-10-20-ynet",
    "section": "kosningar",
    "iso3": "ISR",

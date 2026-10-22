@@ -2,7 +2,7 @@
  "iso3": "BGR",
  "isoNumeric": "100",
  "name": "Bulgaria",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-22",
  "elections": [
   {
    "date": "2026-10-25",
@@ -12,7 +12,7 @@
   }
  ],
  "leaders": "President Iliana Iotova; Prime Minister Rumen Radev (Progressive Bulgaria)",
- "summary": "Iliana Iotova, who became president in 2026 when Rumen Radev left the office to lead a new party, is seeking a full term. Radev is now prime minister, and his Progressive Bulgaria leads national polling.",
+ "summary": "Iliana Iotova, who became president in 2026 when Rumen Radev left the office to lead a new party, is seeking a full term. A Market Links poll (13–19 Oct) puts her at 47.3% against 30.6% for Andrey Gyurov, so a run-off is likely.",
  "parties": [
   {
    "name": "Iliana Iotova",
@@ -22,13 +22,14 @@
    "ideology": "Independent, backed by Progressive Bulgaria, BSP and allies",
    "inGovernment": true,
    "lastResult": "Incumbent president; vice president 2017–2026",
-   "polling": "Backing party Progressive Bulgaria ~40% (Global Metrics, Jul 2026)",
+   "polling": "47.3% (Market Links/bTV, 13–19 Oct 2026)",
    "policies": [
     "Seeks a full term as incumbent",
     "Backed by Progressive Bulgaria, BSP–United Left, ISBG and VMRO-BND",
     "Running mate: Kiril Valchev",
     "Detailed platform not yet published in English-language sources"
-   ]
+   ],
+   "pollValue": 47.3
   },
   {
    "name": "Andrey Gyurov",
@@ -38,13 +39,14 @@
    "ideology": "Independent, backed by PP–DB (liberal, pro-European)",
    "inGovernment": false,
    "lastResult": "Former caretaker prime minister (2026)",
-   "polling": "Backing alliance PP–DB ~13% (Global Metrics, Jul 2026)",
+   "polling": "30.6% (Market Links/bTV, 13–19 Oct 2026)",
    "policies": [
     "Backed by the reformist, pro-EU PP–DB alliance",
     "Running mate: Georgi Kandev",
     "Alliance campaigns on anti-corruption and judicial reform",
     "Alliance supports firm Euro-Atlantic orientation"
-   ]
+   ],
+   "pollValue": 30.6
   },
   {
    "name": "Kostadin Kostadinov",
@@ -54,16 +56,18 @@
    "ideology": "Bulgarian nationalism, Euroscepticism",
    "inGovernment": false,
    "lastResult": "Party leader and MP since 2021",
-   "polling": "Revival ~5.5% (Global Metrics, Jul 2026)",
+   "polling": "10.3% (Market Links/bTV, 13–19 Oct 2026)",
    "policies": [
     "Party opposed adoption of the euro",
     "Critical of EU and NATO policy, favours closer ties with Russia",
     "Opposes military aid to Ukraine",
     "Running mate: Petar Volgin"
-   ]
+   ],
+   "pollValue": 10.3
   }
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"
+  "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
+  "https://www.novinite.com/view_news.php?id=241163"
  ]
 }
