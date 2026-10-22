@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-21T21:49Z",
+ "updated": "2026-10-22T12:08Z",
  "items": [
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "form": "10-Q",
+   "kind": "Ársfjórðungsuppgjör",
+   "filed": "2026-10-22",
+   "periodEnd": "2026-09-30",
+   "accession": "0001628280-26-066775",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+   "headlineIs": "Tesla skilar ársfjórðungsuppgjöri",
+   "summaryIs": "Tekjur Tesla námu 28,0 ma. USD (3.400 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, samdráttur um 0,2% frá sama tíma í fyrra. Hagnaður nam 787 m. USD (95 ma. kr.), samdráttur um 42,7% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 0,22 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 1,5 ma. USD (186 ma. kr.)."
+  },
+  {
+   "ticker": "META",
+   "name": "Meta",
+   "form": "10-Q",
+   "kind": "Ársfjórðungsuppgjör",
+   "filed": "2026-10-22",
+   "periodEnd": "2026-09-30",
+   "accession": "0001628280-26-066773",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+   "headlineIs": "Meta skilar ársfjórðungsuppgjöri",
+   "summaryIs": "Tekjur Meta námu 64,6 ma. USD (7.832 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 26,1% frá sama tíma í fyrra. Hagnaður nam 9,9 ma. USD (1.195 ma. kr.), aukning um 264,0% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 3,83 USD. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var -1,2 ma. USD (-140 ma. kr.)."
+  },
   {
    "ticker": "TSLA",
    "name": "Tesla",

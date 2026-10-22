@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T21:49Z",
+ "updated": "2026-10-22T12:08Z",
  "fx": {
   "usdIsk": 121.24,
   "date": "2026-10-21",
@@ -130,11 +130,11 @@
    "ticker": "META",
    "name": "Meta",
    "sector": "Services-Computer Programming, Data Processing, Etc.",
-   "periodEnd": "2026-06-30",
-   "revenue": 60801000000,
-   "revenueYoY": 28.0,
-   "netIncome": 15848000000,
-   "lastFiled": "2026-10-21"
+   "periodEnd": "2026-09-30",
+   "revenue": 64601000000,
+   "revenueYoY": 26.1,
+   "netIncome": 9860000000,
+   "lastFiled": "2026-10-22"
   },
   {
    "ticker": "MSFT",
@@ -180,11 +180,11 @@
    "ticker": "TSLA",
    "name": "Tesla",
    "sector": "Motor Vehicles & Passenger Car Bodies",
-   "periodEnd": "2026-06-30",
-   "revenue": 28236000000,
-   "revenueYoY": 25.5,
-   "netIncome": 1114000000,
-   "lastFiled": "2026-10-21"
+   "periodEnd": "2026-09-30",
+   "revenue": 28046000000,
+   "revenueYoY": -0.2,
+   "netIncome": 787000000,
+   "lastFiled": "2026-10-22"
   },
   {
    "ticker": "V",
