@@ -47,7 +47,7 @@ def main():
                 errors.append(f"{name}: poll needs unit seats|percent, date, pollster, https url")
             vals = [p["pollValue"] for p in c.get("parties", []) if isinstance(p.get("pollValue"), (int, float))]
             if not vals: errors.append(f"{name}: poll given but no party has pollValue")
-            if pl.get("unit") == "percent" and sum(vals) > 100.5: errors.append(f"{name}: poll shares sum to {sum(vals)}")
+            if pl.get("unit") == "percent" and sum(vals) > 100 + 0.5 * len(vals): errors  # published shares are rounded.append(f"{name}: poll shares sum to {sum(vals)}")
             if pl.get("unit") == "seats" and ch and isinstance(ch.get("seats"), int) and sum(vals) > ch["seats"]:
                 errors.append(f"{name}: poll seats exceed chamber")
         for p in c.get("parties", []):
