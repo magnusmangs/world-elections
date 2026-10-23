@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/frettir/:id", "destination": "/frettir.html" }
+    { "source": "/frettir/:id", "destination": "/frettir" }
   ],
   "headers": [
     {
