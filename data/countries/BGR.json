@@ -2,13 +2,13 @@
  "iso3": "BGR",
  "isoNumeric": "100",
  "name": "Bulgaria",
- "lastReviewed": "2026-10-22",
+ "lastReviewed": "2026-10-23",
  "elections": [
   {
    "date": "2026-10-25",
    "dateStatus": "confirmed",
    "type": "Presidential",
-   "note": "Two-round system; run-off if no candidate wins a majority."
+   "note": "Two-round system; a first-round win needs a majority with turnout above 50%. Run-off on 1 November 2026 if needed."
   }
  ],
  "leaders": "President Iliana Iotova; Prime Minister Rumen Radev (Progressive Bulgaria)",
@@ -68,6 +68,7 @@
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
-  "https://www.novinite.com/view_news.php?id=241163"
+  "https://www.novinite.com/view_news.php?id=241163",
+  "https://www.novinite.com/articles/241182/Change+or+More+of+the+Same:+Bulgaria+Picks+a+President+on+Sunday"
  ]
 }

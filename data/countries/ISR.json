@@ -2,7 +2,7 @@
   "iso3": "ISR",
   "isoNumeric": "376",
   "name": "Israel",
-  "lastReviewed": "2026-10-21",
+  "lastReviewed": "2026-10-23",
   "elections": [
     {
       "date": "2026-10-27",
@@ -31,7 +31,7 @@
         "Cut crime, especially in Arab communities"
       ],
       "color": "#2a9fd6",
-      "pollValue": 21
+      "pollValue": 23
     },
     {
       "name": "Likud (with New Hope)",
@@ -50,7 +50,7 @@
       ],
       "color": "#1f4e9c",
       "seats": 36,
-      "pollValue": 20
+      "pollValue": 21
     },
     {
       "name": "Together (Bennett–Lapid)",
@@ -69,7 +69,7 @@
       ],
       "color": "#47b0e8",
       "seats": 24,
-      "pollValue": 13
+      "pollValue": 11
     },
     {
       "name": "The Democrats",
@@ -88,7 +88,7 @@
       ],
       "color": "#d6262f",
       "seats": 4,
-      "pollValue": 9
+      "pollValue": 8
     },
     {
       "name": "Shas",
@@ -106,7 +106,7 @@
       ],
       "color": "#0c1c3a",
       "seats": 11,
-      "pollValue": 7
+      "pollValue": 8
     },
     {
       "name": "Yisrael Beiteinu",
@@ -161,7 +161,7 @@
       ],
       "color": "#4b4b4b",
       "seats": 7,
-      "pollValue": 7
+      "pollValue": 8
     },
     {
       "name": "Religious Zionist Party",
@@ -197,7 +197,7 @@
       ],
       "color": "#2e8b57",
       "seats": 5,
-      "pollValue": 7
+      "pollValue": 9
     },
     {
       "name": "United Arab List (Ra'am)",
@@ -257,7 +257,8 @@
     "https://en.wikipedia.org/wiki/Yashar_(political_party)",
     "https://www.timesofisrael.com/liveblog_entry/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/",
     "https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/israeli-election-poll-new-far-right-party-sinks-under-threshold-smotrich-gains/000001a1-505c-da7f-a7a5-dcffffe30000",
-    "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race"
+    "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race",
+    "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/"
   ],
   "chamber": {
     "name": "Knesset",
@@ -268,9 +269,9 @@
   },
   "poll": {
     "unit": "seats",
-    "date": "2026-10-08",
-    "pollster": "Lazar Research for Maariv",
-    "url": "https://www.jpost.com/israel-election-2026/article-911139",
-    "note": "Amcha Yisrael 4 seats."
+    "date": "2026-10-15",
+    "pollster": "Zman Yisrael for The Times of Israel (fieldwork 14–15 Oct, n=500)",
+    "url": "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
+    "note": "Netanyahu bloc 51, Jewish-led opposition 51, Arab-led parties 14, Reservists 4. Amcha Yisrael below threshold."
   }
 }

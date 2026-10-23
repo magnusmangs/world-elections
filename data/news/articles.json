@@ -2,6 +2,97 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "srb-2026-10-22-sjonarhorn",
+   "type": "sjonarhorn",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-22",
+   "added": "2026-10-23",
+   "titleIs": "Sjónarhorn: Lokafundir fyrir þingkosningarnar í Serbíu",
+   "summaryIs": "Bæði N1 og Al Jazeera fjölluðu um lokafund Námsmannalistans á Slavija-torgi í Belgrad 22. október. N1 lýsir fundinum innan frá með áherslu á ræðumenn og mannfjöldann, en Al Jazeera setur hann í samhengi við samtímis fund Vučić, ásakanir á báða bóga og viðvaranir félagasamtaka um ójöfn skilyrði.",
+   "source": "N1; Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election",
+   "basis": "article",
+   "perspectives": [
+    {
+     "outlet": "N1",
+     "country": "SRB",
+     "published": "2026-10-22",
+     "basis": "article",
+     "url": "https://n1info.rs/english/news/massive-crowds-flood-belgrades-slavija-square-for-student-lists-final-campaign-rally-it-smells-like-freedom",
+     "framingIs": "Serbneska sjónvarpsstöðin N1 segir frá fundinum innan frá: troðfullt torg, ræður námsmanna og oddvitans Ilija Srdanović og samanburður við fjöldamótmælin í mars 2025. Lítið er fjallað um stjórnarflokkinn."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "country": "QAT",
+     "published": "2026-10-22",
+     "basis": "article",
+     "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election",
+     "framingIs": "Ríkisfjármagnaða stöðin Al Jazeera (Katar) leggur áherslu á tvo keppinauta: námsmenn á torginu og Vučić í íþróttahöll. Hún nefnir ásakanir Vučić um erlenda íhlutun, skort á óháðum könnunum og viðvaranir um ofbeldi og ójöfn skilyrði."
+    }
+   ]
+  },
+  {
+   "id": "srb-2026-10-22-n1",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-22",
+   "added": "2026-10-23",
+   "titleIs": "Vučić spáir sigri á lokafundi lista síns í Belgrad",
+   "summaryIs": "Aleksandar Vučić, oddviti listans Sameinuð Serbía, sagðist viss um sigur á lokafundi sínum í Nýju-Belgrad 22. október. Hann lofaði hærri launum og lífeyri, árlegri hækkun lágmarkslauna og lítilli en skilvirkri ríkisstjórn. Hann gagnrýndi Námsmannalistann harðlega og sakaði andstæðinga um að hafa reynt að steypa ríkinu.",
+   "source": "N1 (FoNet, Beta)",
+   "url": "https://n1info.rs/english/news/vucic-predicts-election-victory-at-united-serbias-final-belgrade-campaign-rally",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-10-22-timesofisrael",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-22",
+   "added": "2026-10-23",
+   "titleIs": "Lokakönnun Times of Israel: fylkingarnar jafnar með 51 sæti hvor",
+   "summaryIs": "Í könnun Zman Yisrael fyrir Times of Israel (14.–15. október, 500 svarendur) fær Yashar undir forystu Gadi Eisenkot 23 sæti og Likud 21. Fylking Netanyahu og andstæðingar hans meðal flokka gyðinga fá 51 sæti hvor, arabískir flokkar 14 og Varaliðsmenn 4, svo hvorug fylkingin nær 61 sæti. Nær 60% svarenda telja að Netanyahu eigi að hætta takist honum ekki að mynda stjórn.",
+   "source": "The Times of Israel (Zman Yisrael)",
+   "url": "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-22-bnrnews",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-22",
+   "added": "2026-10-23",
+   "titleIs": "Könnun Myara fyrir BNR: Iotova með 43,4% og Gyurov 28,9%",
+   "summaryIs": "Í könnun Myara fyrir búlgarska ríkisútvarpið BNR, sem lýsir afstöðu kjósenda um miðjan október, fá Iliana Iotova og Kiril Valchev 43,4%. Andrey Gyurov og Georgi Kandev fá 28,9% og Kostadin Kostadinov og Petar Volgin 10,2%. Kjörsókn er áætluð 39,4%.",
+   "source": "BNR (Myara)",
+   "url": "https://bnrnews.bg/en/post/546000/poll-iotova-leads-presidential-race-with-434percent-gyurov-on-289percent",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-22-novinite",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-22",
+   "added": "2026-10-23",
+   "titleIs": "Metfjöldi framboða í Búlgaríu og seinni umferð 1. nóvember talin nær óumflýjanleg",
+   "summaryIs": "Alls eru 27 framboð til forseta Búlgaríu, fleiri en nokkru sinni frá 1992. Sigur í fyrri umferð krefst meirihluta og yfir 50% kjörsóknar, en spáð er um 38–39% kjörsókn, svo seinni umferð 1. nóvember er talin nær viss. Öryggi á Svartahafi, stríðið í Úkraínu og hlutverk forsetans gagnvart ríkisstjórninni eru helstu málin.",
+   "source": "Novinite",
+   "url": "https://www.novinite.com/articles/241182/Change+or+More+of+the+Same:+Bulgaria+Picks+a+President+on+Sunday",
+   "basis": "article"
+  },
+  {
+   "id": "bra-2026-10-21-mercopress",
+   "section": "kosningar",
+   "iso3": "BRA",
+   "published": "2026-10-21",
+   "added": "2026-10-23",
+   "titleIs": "Lula eykur félagslegar greiðslur á lokaspretti en Bolsonaro lofar niðurskurði",
+   "summaryIs": "Lula hefur tilkynnt 15% hækkun Bolsa Família og styrki til bílstjóra og smáfyrirtækja, og samkvæmt útreikningum Folha nema aðgerðir síðasta árs nær 300 milljörðum reala. Flávio Bolsonaro boðar 250 milljarða reala niðurskurð en segist halda Bolsa Família. Lokakappræðurnar fara fram á TV Globo á föstudag fyrir seinni umferðina 25. október.",
+   "source": "MercoPress",
+   "url": "https://en.mercopress.com/2026/10/21/lula-ramps-up-public-handouts-in-the-final-stretch-of-brazil-s-presidential-campaign",
+   "basis": "article"
+  },
+  {
    "id": "bra-2026-10-21-aljazeera",
    "section": "kosningar",
    "iso3": "BRA",
