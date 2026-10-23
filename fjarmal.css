@@ -105,3 +105,40 @@ body.fin { background: var(--surface); }
 .press { margin-top: 10px; font-size: .9rem; }
 .press a { color: var(--ink); }
 @media (max-width: 600px) { .thumb { width: 72px; } .thumb img { width: 72px; height: 72px; } }
+
+/* single news post (/frettir/<id>) */
+.fin-head h1 a { color: inherit; text-decoration: none; }
+body.is-post .fin-head h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); }
+body.is-post .fin-head .lede { display: none; }
+.post { margin-top: 28px; max-width: 720px; }
+.post::after { content: ""; display: block; clear: both; }
+.post-back { margin: 0 0 14px; font-size: .9rem; }
+.post-back a, .post a[data-home] { color: var(--muted); }
+.post-meta { margin: 0; color: var(--muted); font-size: .9rem; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.post-meta .tag { margin-top: 0; }
+.post-title { margin: 10px 0 0; font: 800 clamp(1.8rem, 4.6vw, 2.8rem)/1.05 var(--display); letter-spacing: -.025em; text-wrap: balance; }
+.post-lead { margin: 18px 0 0; font-size: 1.15rem; line-height: 1.55; }
+.post-img { float: right; margin: 18px 0 12px 20px; width: 180px; }
+.post-img img { width: 180px; height: 180px; object-fit: cover; border-radius: 12px; background: var(--surface-2); display: block; }
+.post-img.is-logo img, .post-img.is-flag img { object-fit: contain; background: #fff; border: 1px solid var(--rule); padding: 14px; box-sizing: border-box; height: auto; aspect-ratio: 3 / 2; }
+.post-src { margin: 18px 0 0; font-size: .9rem; color: var(--muted); }
+.post-src a { color: var(--ink); font-weight: 600; }
+.post-note { margin: 4px 0 0; font-size: .82rem; color: var(--muted); }
+.post-btn { display: inline-block; margin-top: 12px; padding: 9px 16px; border-radius: 8px; background: var(--ink); color: var(--surface); text-decoration: none; font-weight: 600; font-size: .92rem; }
+.post-btn:hover { opacity: .88; }
+.post-btn:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.post .persp { clear: both; }
+.post-box { clear: both; margin-top: 28px; padding: 16px 18px; background: var(--surface-2); border-radius: 12px; }
+.post-box h2, .post-related h2 { margin: 0; font: 700 1.25rem/1.2 var(--display); letter-spacing: -.01em; }
+.post-box p { margin: 8px 0 0; }
+.post-box .post-btn { margin-top: 14px; }
+.post-table { overflow-x: auto; margin-top: 10px; }
+.post-table .qtable th, .post-table .qtable td { text-align: left; }
+.post-table .qtable tbody th { font-weight: 600; }
+.post-related { clear: both; margin-top: 28px; }
+.post-related .hl { margin-top: 8px; }
+@media (max-width: 600px) {
+  .post-img { width: 112px; margin-left: 14px; }
+  .post-img img { width: 112px; height: 112px; }
+  .post-lead { font-size: 1.05rem; }
+}
