@@ -2,6 +2,54 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "isr-2026-10-23-timesofisrael",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-23",
+   "added": "2026-10-24",
+   "titleIs": "Lokakannanir þriggja sjónvarpsstöðva í Ísrael: Yashar stærst en hvorug fylkingin með meirihluta",
+   "summaryIs": "Í síðustu könnunum Stöðvar 12, Stöðvar 13 og Kan fyrir kosningarnar 27. október fær Yashar, flokkur Gadi Eisenkot, 22 til 23 sæti og Likud Netanyahus 19 til 21. Stjórnarandstöðufylkingin mælist með 52 til 56 sæti og fylking Netanyahus með 50, svo hvorug nær 61 sæti. Flokkar Ofer Winter og Moti Leitner ná ekki inn á þing í neinni könnunanna.",
+   "source": "The Times of Israel (Stöð 12, Stöð 13, Kan)",
+   "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/",
+   "basis": "article"
+  },
+  {
+   "id": "bra-2026-10-23-aljazeera",
+   "section": "kosningar",
+   "iso3": "BRA",
+   "published": "2026-10-23",
+   "added": "2026-10-24",
+   "titleIs": "Lula saxar á forskot Flávio Bolsonaro í síðustu könnunum fyrir seinni umferðina",
+   "summaryIs": "Al Jazeera segir muninn fyrir seinni umferð forsetakosninganna í Brasilíu 25. október innan skekkjumarka. Quaest (21. október) mælir Flávio Bolsonaro með 45% og Lula með 44%, en AtlasIntel fyrir Bloomberg 49,8% gegn 47,6%. Lula lofar meðal annars ókeypis almenningssamgöngum um helgar, en Bolsonaro harðari aðgerðum gegn skipulagðri glæpastarfsemi og þaki á ríkisskuldir.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/23/what-to-know-as-brazil-prepares-for-tense-presidential-run-off",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-23-novinite",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-23",
+   "added": "2026-10-24",
+   "titleIs": "Gallup International: Iotova með 43,2% og Gyurov 29,7% fyrir forsetakosningarnar í Búlgaríu",
+   "summaryIs": "Í könnun Gallup International Balkan, gerðri 14. til 22. október meðal 1.001 kjósanda, fær Iliana Iotova 43,2% en Andrey Gyurov 29,7%. Kostadin Kostadinov er þriðji með 12,4% og aðrir frambjóðendur undir 4%. Búist er við um 38% kjörsókn og fáir aðspurðra telja kosningabaráttuna líflega.",
+   "source": "Novinite (Gallup International Balkan)",
+   "url": "https://www.novinite.com/articles/241223/Poll:+Yotova+Leads+Gyurov+by+13.5+Points",
+   "basis": "article"
+  },
+  {
+   "id": "srb-2026-10-22-bta",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-22",
+   "added": "2026-10-24",
+   "titleIs": "Kosningaþögn hafin í Serbíu fyrir þingkosningarnar á sunnudag",
+   "summaryIs": "Samkvæmt BTA hófst kosningaþögn í Serbíu á miðnætti og stendur þar til kjörstöðum lokar klukkan 20 sunnudaginn 25. október. Rúmlega 6,45 milljónir eru á kjörskrá, kjörstaðir eru 8.392, þar af 93 erlendis, og 18 listar eru í framboði, þar af níu listar minnihlutahópa. Brot á þögninni geta varðað sektum allt að 600.000 dínörum.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/balkans/1230635-pre-election-silence-in-serbia-begins-at-midnight-lasts-until-polling-stations-",
+   "basis": "article"
+  },
+  {
    "id": "srb-2026-10-22-sjonarhorn",
    "type": "sjonarhorn",
    "section": "kosningar",

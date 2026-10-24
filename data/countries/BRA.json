@@ -2,7 +2,7 @@
   "iso3": "BRA",
   "isoNumeric": "076",
   "name": "Brazil",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-24",
   "elections": [
     {
       "date": "2026-10-25",
@@ -12,7 +12,7 @@
     }
   ],
   "leaders": "President Luiz Inácio Lula da Silva (PT)",
-  "summary": "Flávio Bolsonaro narrowly led the first round on 4 October and faces incumbent Lula in the run-off. Lula is seeking a fourth, non-consecutive term.",
+  "summary": "Flávio Bolsonaro narrowly led the first round on 4 October and faces incumbent Lula in the run-off. Late polls put the two within the margin of error (Quaest, 21 Oct: Bolsonaro 45%, Lula 44%). Lula is seeking a fourth, non-consecutive term.",
   "parties": [
     {
       "name": "Flávio Bolsonaro (Liberal Party)",
@@ -22,7 +22,7 @@
       "ideology": "Conservatism, right-wing populism",
       "inGovernment": false,
       "lastResult": "47.0% (first round)",
-      "polling": "",
+      "polling": "45% (Quaest, 21 Oct 2026)",
       "policies": [
         "Continues the political movement of his father, Jair Bolsonaro",
         "Tougher policing and public security measures",
@@ -40,7 +40,7 @@
       "ideology": "Social democracy",
       "inGovernment": true,
       "lastResult": "45.2% (first round)",
-      "polling": "",
+      "polling": "44% (Quaest, 21 Oct 2026)",
       "policies": [
         "Seeks a fourth term on social programmes such as Bolsa Família",
         "Champions ending the 6x1 (six-day) work schedule",
@@ -53,7 +53,8 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
-    "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff/comments"
+    "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff/comments",
+    "https://www.aljazeera.com/news/2026/10/23/what-to-know-as-brazil-prepares-for-tense-presidential-run-off"
   ],
   "poll": {
     "unit": "percent",

@@ -2,7 +2,7 @@
   "iso3": "ISR",
   "isoNumeric": "376",
   "name": "Israel",
-  "lastReviewed": "2026-10-23",
+  "lastReviewed": "2026-10-24",
   "elections": [
     {
       "date": "2026-10-27",
@@ -22,7 +22,7 @@
       "ideology": "Liberal Zionism, centrism",
       "inGovernment": false,
       "lastResult": "New party (founded Sept 2025)",
-      "polling": "23–26 seats, first place (Kan 18 Oct; Times of Israel 15 Oct)",
+      "polling": "22–23 seats, first place (Channel 12, Channel 13 and Kan, 23 Oct)",
       "policies": [
         "State commission of inquiry into the 7 October attacks",
         "Military or national service for Haredi and Arab citizens",
@@ -41,7 +41,7 @@
       "ideology": "National liberalism, conservatism",
       "inGovernment": true,
       "lastResult": "32 seats (2022)",
-      "polling": "20–21 seats (Times of Israel 15 Oct; Kan 18 Oct)",
+      "polling": "19–21 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
       "policies": [
         "Netanyahu seeks to remain prime minister",
         "Hard line on security, Iran and Hamas",
@@ -60,7 +60,7 @@
       "ideology": "Zionism, liberalism",
       "inGovernment": false,
       "lastResult": "Yesh Atid 24 seats (2022)",
-      "polling": "11–12 seats",
+      "polling": "14–15 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
       "policies": [
         "Replace the Netanyahu government",
         "Joint list of Bennett and Yair Lapid, led by Bennett",
@@ -79,7 +79,7 @@
       "ideology": "Social democracy, Labor–Meretz merger",
       "inGovernment": false,
       "lastResult": "Labor 4 seats (2022); Meretz below threshold",
-      "polling": "8–9 seats",
+      "polling": "8–10 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
       "policies": [
         "Unify the Zionist left",
         "Replace the Netanyahu government",
@@ -225,7 +225,7 @@
       "ideology": "Zionism, security-focused",
       "inGovernment": false,
       "lastResult": "New list",
-      "polling": "4 seats, outside both blocs",
+      "polling": "Below the threshold in Channel 12 and Channel 13 polls, 4 seats in Kan (23 Oct), outside both blocs",
       "policies": [
         "Joint list with Yaron Zelekha",
         "Burden-sharing in military service",
@@ -258,7 +258,8 @@
     "https://www.timesofisrael.com/liveblog_entry/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/",
     "https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/israeli-election-poll-new-far-right-party-sinks-under-threshold-smotrich-gains/000001a1-505c-da7f-a7a5-dcffffe30000",
     "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race",
-    "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/"
+    "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
+    "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/"
   ],
   "chamber": {
     "name": "Knesset",
@@ -269,9 +270,9 @@
   },
   "poll": {
     "unit": "seats",
-    "date": "2026-10-15",
-    "pollster": "Zman Yisrael for The Times of Israel (fieldwork 14–15 Oct, n=500)",
-    "url": "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
-    "note": "Netanyahu bloc 51, Jewish-led opposition 51, Arab-led parties 14, Reservists 4. Amcha Yisrael below threshold."
+    "date": "2026-10-23",
+    "pollster": "Channel 12 (final pre-election poll)",
+    "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/",
+    "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Channel 13 had 54/50/16 and Kan 52/50. People of Israel, Reservists and Charedi Public below threshold in Channel 12."
   }
 }
