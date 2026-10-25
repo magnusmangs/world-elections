@@ -2,6 +2,66 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "bra-2026-10-25-lanacion",
+   "section": "kosningar",
+   "iso3": "BRA",
+   "published": "2026-10-25",
+   "added": "2026-10-25",
+   "titleIs": "Brasilíumenn velja milli Lula og Flávio Bolsonaro í hnífjafnri seinni umferð",
+   "summaryIs": "Seinni umferð forsetakosninganna fer fram í dag og kosið er rafrænt, svo úrslit liggja yfirleitt fyrir fáeinum tímum eftir lokun. Lula leggur áherslu á framfærslukostnað, skuldaúrræði fyrir smáfyrirtæki og ókeypis strætó um helgar. Flávio Bolsonaro, sem vann fyrri umferðina með rúmlega 2,2 milljóna atkvæða mun, setur baráttu gegn glæpum á oddinn og lofar lægra matarverði.",
+   "source": "La Nación (AP)",
+   "url": "https://www.lanacion.com.ar/usa/brazil-faces-a-tense-lula-vs-bolsonaro-runoff-with-us-influence-over-latin-america-at-stake-nid25102026/",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-25-aljazeera",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-25",
+   "added": "2026-10-25",
+   "titleIs": "Búlgarar kjósa forseta í skugga drónaárása á kaupskip á Svartahafi",
+   "summaryIs": "Kjörstaðir í Búlgaríu opnuðu klukkan sjö og 27 eru í framboði. Iliana Iotova starfandi forseti, sem Rumen Radev forsætisráðherra styður, mælist efst en Andrey Gyurov, studdur af umbótasinnuðum og vestrænt sinnuðum flokkum, næstur. Kjörsókn þarf að fara yfir 50% til að sigur vinnist strax, en spáð er undir 40% og þá verður kosið aftur 1. nóvember.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine",
+   "basis": "article"
+  },
+  {
+   "id": "srb-2026-10-25-euronews",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-25",
+   "added": "2026-10-25",
+   "titleIs": "Serbar kjósa nýtt þing þar sem listi Vučić og Námsmannalistinn takast á",
+   "summaryIs": "Rúmlega 6,45 milljónir eru á kjörskrá í skyndikosningunum til 250 sæta þings Serbíu í dag. Átján listar með 2.418 frambjóðendum eru í boði og þröskuldurinn er 3%. Helstu keppinautarnir eru listi Framfaraflokks Aleksandar Vučić og Námsmannalistinn, en Euronews segir kannanir misvísandi og marga kjósendur óákveðna.",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/10/25/serbia-goes-to-polls-to-choose-between-populist-vucic-and-student-movement",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-10-24-timesofisrael-rally",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-24",
+   "added": "2026-10-25",
+   "titleIs": "Fjöldafundur í Tel Aviv krefst rannsóknar á 7. október þremur dögum fyrir kosningar",
+   "summaryIs": "Samtökin October Council, sem eftirlifendur, fyrrverandi gíslar og syrgjandi fjölskyldur standa að, héldu fund á Gíslatorgi á laugardagskvöld og segja yfir 100.000 hafa mætt; lögregla gaf ekki upp tölu. Eisenkot, Golan, Liberman, Bennett og Lapid voru viðstaddir. Netanyahu hafnar opinberri rannsóknarnefnd og telur að nefnd skipuð af Hæstarétti yrði hlutdræg gegn stjórninni.",
+   "source": "The Times of Israel",
+   "url": "https://www.timesofisrael.com/we-can-start-a-different-story-masses-in-tel-aviv-demand-oct-7-inquiry-days-before-election/",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-10-24-timesofisrael",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-24",
+   "added": "2026-10-25",
+   "titleIs": "Netanyahu fær smáflokkinn Achi til að draga framboð sitt til baka",
+   "summaryIs": "Haredi-flokkurinn Achi hætti við framboð fjórum dögum fyrir kosningar eftir að Likud samdi um að fulltrúi hans yrði aðstoðarráðherra í forsætisráðuneytinu. Engin könnun spáði flokknum inn á þing. Netanyahu þrýstir einnig á flokka Ofer Winter og Moti Leitner að hætta svo atkvæði hægri fylkingarinnar fari ekki til spillis, en þeir hafa neitað.",
+   "source": "The Times of Israel",
+   "url": "https://www.timesofisrael.com/netanyahu-convinces-haredi-party-backed-by-rabbi-accused-of-sex-offenses-to-drop-out/",
+   "basis": "article"
+  },
+  {
    "id": "isr-2026-10-23-timesofisrael",
    "section": "kosningar",
    "iso3": "ISR",
