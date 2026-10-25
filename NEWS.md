@@ -20,6 +20,9 @@ and results from the last 7 days. Neutral, accurate, and always credited.
    `source` (outlet name; add the pollster in brackets if relevant; if that contains Icelandic words such as "Stöð 12",
    add `sourceEn` with the English form), `url` (canonical https link).
    - Write the summaries yourself, in Icelandic and in English. Never translate whole sentences from the article.
+   - Names: never invent an Icelandic name for a party, list, alliance, TV channel or institution. Use the Icelandic
+     form only when it is established in Icelandic media; otherwise keep the original name (Studentska lista, Lega,
+     Channel 12), matching `nameIs` in the country file.
      No quotation longer than 15 words. Report polls with pollster and date.
    - One item per story; do not add a second item that repeats an existing one.
    - New outlet? Add its domain to `data/news/sources.json` only if it is a reputable news organisation,

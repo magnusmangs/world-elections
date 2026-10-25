@@ -31,7 +31,7 @@
       "lastResult": "New party (founded Sept 2025)",
       "lastResultIs": "Nýr flokkur (stofnaður í sept. 2025)",
       "polling": "22–23 seats, first place (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "22–23 sæti, efstur (Stöð 12, Stöð 13 og Kan, 23. okt.)",
+      "pollingIs": "22–23 sæti, efstur (Channel 12, Channel 13 og Kan, 23. okt.)",
       "policies": [
         "State commission of inquiry into the 7 October attacks",
         "Military or national service for Haredi and Arab citizens",
@@ -61,7 +61,7 @@
       "lastResult": "32 seats (2022)",
       "lastResultIs": "32 sæti (2022)",
       "polling": "19–21 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "19–21 sæti (Stöð 12, Stöð 13 og Kan, 23. okt.)",
+      "pollingIs": "19–21 sæti (Channel 12, Channel 13 og Kan, 23. okt.)",
       "policies": [
         "Netanyahu seeks to remain prime minister",
         "Hard line on security, Iran and Hamas",
@@ -72,7 +72,7 @@
         "Netanyahu vill sitja áfram sem forsætisráðherra",
         "Hörð afstaða í öryggismálum og gagnvart Íran og Hamas",
         "Styður hluta af breytingunum á dómskerfinu",
-        "Sameinaðist Nýrri von, flokki Gideons Sa'ar"
+        "Sameinaðist Tikva Hadasha, flokki Gideons Sa'ar"
       ],
       "color": "#1f4e9c",
       "seats": 36,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Together (Bennett–Lapid)",
-      "nameIs": "Saman (Bennett–Lapid)",
+      "nameIs": "Beyachad (Bennett–Lapid)",
       "abbr": "Together",
       "leader": "Naftali Bennett",
       "position": "Centre to centre-right",
@@ -91,7 +91,7 @@
       "lastResult": "Yesh Atid 24 seats (2022)",
       "lastResultIs": "Yesh Atid 24 sæti (2022)",
       "polling": "14–15 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "14–15 sæti (Stöð 12, Stöð 13 og Kan, 23. okt.)",
+      "pollingIs": "14–15 sæti (Channel 12, Channel 13 og Kan, 23. okt.)",
       "policies": [
         "Replace the Netanyahu government",
         "Joint list of Bennett and Yair Lapid, led by Bennett",
@@ -110,7 +110,7 @@
     },
     {
       "name": "The Democrats",
-      "nameIs": "Demókratarnir",
+      "nameIs": "HaDemokratim",
       "abbr": "Dem",
       "leader": "Yair Golan",
       "position": "Centre-left to left",
@@ -121,7 +121,7 @@
       "lastResult": "Labor 4 seats (2022); Meretz below threshold",
       "lastResultIs": "Verkamannaflokkurinn 4 sæti (2022); Meretz undir þröskuldi",
       "polling": "8–10 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "8–10 sæti (Stöð 12, Stöð 13 og Kan, 23. okt.)",
+      "pollingIs": "8–10 sæti (Channel 12, Channel 13 og Kan, 23. okt.)",
       "policies": [
         "Unify the Zionist left",
         "Replace the Netanyahu government",
@@ -223,7 +223,7 @@
     },
     {
       "name": "United Torah Judaism",
-      "nameIs": "Sameinaður Torah-gyðingdómur",
+      "nameIs": "Yahadut HaTorah",
       "abbr": "UTJ",
       "leader": "Yitzhak Goldknopf",
       "position": "Right",
@@ -251,7 +251,7 @@
     },
     {
       "name": "Religious Zionist Party",
-      "nameIs": "Trúarlegi zíonistaflokkurinn",
+      "nameIs": "HaTzionut HaDatit",
       "abbr": "RZP",
       "leader": "Bezalel Smotrich",
       "position": "Far-right",
@@ -279,7 +279,7 @@
     },
     {
       "name": "Joint List (Hadash–Ta'al)",
-      "nameIs": "Sameiginlegi listinn (Hadash–Ta'al)",
+      "nameIs": "Hadash–Ta'al",
       "abbr": "JL",
       "leader": "Yousef Jabareen",
       "position": "Left",
@@ -307,7 +307,7 @@
     },
     {
       "name": "United Arab List (Ra'am)",
-      "nameIs": "Sameinaði arabíski listinn (Ra'am)",
+      "nameIs": "Ra'am",
       "abbr": "Ra'am",
       "leader": "Mansour Abbas",
       "position": "",
@@ -334,7 +334,7 @@
     },
     {
       "name": "Reservists",
-      "nameIs": "Varaliðarnir",
+      "nameIs": "HaMiluimnikim",
       "abbr": "Res",
       "leader": "Yoaz Hendel",
       "position": "Right",
@@ -361,7 +361,7 @@
     },
     {
       "name": "Blue and White",
-      "nameIs": "Bláhvíta bandalagið",
+      "nameIs": "Kahol Lavan",
       "abbr": "B&W",
       "leader": "Benny Gantz",
       "position": "Centre",
@@ -409,9 +409,9 @@
     "unit": "seats",
     "date": "2026-10-23",
     "pollster": "Channel 12 (final pre-election poll)",
-    "pollsterIs": "Stöð 12 (síðasta könnun fyrir kosningar)",
+    "pollsterIs": "Channel 12 (síðasta könnun fyrir kosningar)",
     "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/",
     "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Channel 13 had 54/50/16 and Kan 52/50. People of Israel, Reservists and Charedi Public below threshold in Channel 12.",
-    "noteIs": "Blokk stjórnarandstöðunnar 56, blokk Netanyahus 50, flokkar undir forystu araba 14. Stöð 13 mældi 54/50/16 og Kan 52/50. People of Israel, Varaliðarnir og Charedi Public undir þröskuldi hjá Stöð 12."
+    "noteIs": "Blokk stjórnarandstöðunnar 56, blokk Netanyahus 50, flokkar undir forystu araba 14. Channel 13 mældi 54/50/16 og Kan 52/50. People of Israel, HaMiluimnikim og Charedi Public undir þröskuldi hjá Channel 12."
   }
 }

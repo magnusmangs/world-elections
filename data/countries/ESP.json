@@ -51,7 +51,7 @@
     },
     {
       "name": "Spanish Socialist Workers' Party",
-      "nameIs": "Sósíalíski verkamannaflokkurinn",
+      "nameIs": "Sósíalistaflokkurinn (PSOE)",
       "abbr": "PSOE",
       "leader": "Pedro Sánchez",
       "position": "Centre-left",
@@ -110,7 +110,7 @@
     },
     {
       "name": "Broad Front (ex-Sumar)",
-      "nameIs": "Breiðfylkingin (áður Sumar)",
+      "nameIs": "Frente Amplio (áður Sumar)",
       "abbr": "FA",
       "leader": "To be confirmed",
       "position": "Left",
@@ -196,7 +196,7 @@
     "seats": 350,
     "majority": 176,
     "asOf": "as elected in July 2023; Broad Front shows the Sumar list, which included Podemos",
-    "asOfIs": "samkvæmt kosningunum í júlí 2023; tölur Breiðfylkingarinnar eiga við lista Sumar, sem Podemos átti aðild að",
+    "asOfIs": "samkvæmt kosningunum í júlí 2023; tölur Frente Amplio eiga við lista Sumar, sem Podemos átti aðild að",
     "source": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
   },
   "poll": {

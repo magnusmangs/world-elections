@@ -17,7 +17,7 @@
   "leaders": "Prime Minister Kyriakos Mitsotakis (New Democracy)",
   "leadersIs": "Kyriakos Mitsotakis forsætisráðherra (Nýtt lýðræði)",
   "summary": "New Democracy leads polls at around 30%, far below its 2023 majority. Alexis Tsipras's new Greek Left Alliance (ELAS) is second, and Maria Karystianou's Elpida has entered the race.",
-  "summaryIs": "Nýtt lýðræði mælist með um 30% fylgi í könnunum, langt undir meirihlutanum sem flokkurinn vann 2023. Nýr flokkur Alexis Tsipras, Gríska vinstribandalagið (ELAS), er í öðru sæti og Elpida, flokkur Mariu Karystianou, hefur bæst í hópinn.",
+  "summaryIs": "Nýtt lýðræði mælist með um 30% fylgi í könnunum, langt undir meirihlutanum sem flokkurinn vann 2023. Nýr flokkur Alexis Tsipras, ELAS, er í öðru sæti og Elpida, flokkur Mariu Karystianou, hefur bæst í hópinn.",
   "parties": [
     {
       "name": "New Democracy",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Greek Left Alliance",
-      "nameIs": "Gríska vinstribandalagið",
+      "nameIs": "ELAS",
       "abbr": "ELAS",
       "leader": "Alexis Tsipras",
       "position": "Centre-left to left",
@@ -126,7 +126,7 @@
     },
     {
       "name": "Greek Solution",
-      "nameIs": "Gríska lausnin",
+      "nameIs": "Elliniki Lysi",
       "abbr": "EL",
       "leader": "Kyriakos Velopoulos",
       "position": "Far-right",

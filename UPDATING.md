@@ -10,8 +10,11 @@ The scheduled Claude task follows the `world-elections-update` skill. If the ski
    Write every text field in English and add its Icelandic twin right after it with the suffix `Is`:
    `name`/`nameIs` (country), `leaders`, `summary`, `noParties`, each election's `type` and `note`, each party's
    `position`, `ideology`, `lastResult`, `polling` and `policies` (`policiesIs` has the same number of lines),
-   `chamber.name` and `asOf`, `poll.pollster` and `note`, `lastElection.type` and `outcome`. Party `nameIs` is optional:
-   add it only when Icelandic media translate the name (Labour Party = Verkamannaflokkurinn). Natural, neutral Icelandic,
+   `chamber.name` and `asOf`, `poll.pollster` and `note`, `lastElection.type` and `outcome`. Names: never invent an Icelandic
+   name. Use an Icelandic form only when it is established in Icelandic media (Labour Party = Verkamannaflokkurinn,
+   Law and Justice = Lög og réttlæti). Otherwise keep the original name, in the party's own language where it uses the
+   Latin alphabet (Lega, Progresívne Slovensko, Studentska lista) or its usual transliteration (Yahadut HaTorah), both in
+   `nameIs` and in the Icelandic text. The same goes for alliances, lists, TV channels (Channel 12) and institutions. Natural, neutral Icelandic,
    decimal comma (47,0%), dates as "4. október 2026". Positions: Lengst til vinstri, Vinstri, Mið-vinstri, Miðja,
    Mið-hægri, Hægri, Lengst til hægri, Breið fylking. When you change an English field, update its twin too.
    `build.py` fails on any missing twin.

@@ -17,11 +17,11 @@
   "leaders": "Prime Minister Robert Fico (Smer–SD); President Peter Pellegrini",
   "leadersIs": "Robert Fico forsætisráðherra (Smer–SD); Peter Pellegrini forseti",
   "summary": "The vote is a test of Fico's coalition after criminal-code changes, a public broadcaster overhaul and a shift in Ukraine policy. Liberal Progressive Slovakia leads the opposition.",
-  "summaryIs": "Kosningarnar verða prófsteinn á samsteypustjórn Ficos eftir breytingar á hegningarlögum, uppstokkun ríkisútvarpsins og stefnubreytingu í málefnum Úkraínu. Frjálslyndi flokkurinn Framsækin Slóvakía fer fyrir stjórnarandstöðunni.",
+  "summaryIs": "Kosningarnar verða prófsteinn á samsteypustjórn Ficos eftir breytingar á hegningarlögum, uppstokkun ríkisútvarpsins og stefnubreytingu í málefnum Úkraínu. Frjálslyndi flokkurinn Progresívne Slovensko fer fyrir stjórnarandstöðunni.",
   "parties": [
     {
       "name": "Direction – Social Democracy",
-      "nameIs": "Stefna – jafnaðarmenn",
+      "nameIs": "Smer – sociálna demokracia",
       "abbr": "Smer",
       "leader": "Robert Fico",
       "position": "Left-wing nationalist",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Progressive Slovakia",
-      "nameIs": "Framsækin Slóvakía",
+      "nameIs": "Progresívne Slovensko",
       "abbr": "PS",
       "leader": "Michal Šimečka",
       "position": "Centre to centre-left",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Voice – Social Democracy",
-      "nameIs": "Rödd – jafnaðarmenn",
+      "nameIs": "Hlas – sociálna demokracia",
       "abbr": "Hlas",
       "leader": "Matúš Šutaj Eštok",
       "position": "Centre-left",
@@ -107,7 +107,7 @@
     },
     {
       "name": "Republic",
-      "nameIs": "Lýðveldið",
+      "nameIs": "Republika",
       "abbr": "Republika",
       "leader": "Milan Uhrík",
       "position": "Far-right",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Christian Democratic Movement",
-      "nameIs": "Kristilega lýðræðishreyfingin",
+      "nameIs": "Kresťanskodemokratické hnutie",
       "abbr": "KDH",
       "leader": "Milan Majerský",
       "position": "Centre-right",
@@ -156,7 +156,7 @@
     },
     {
       "name": "Freedom and Solidarity",
-      "nameIs": "Frelsi og samstaða",
+      "nameIs": "Sloboda a Solidarita",
       "abbr": "SaS",
       "leader": "Branislav Gröhling",
       "position": "Centre-right",
@@ -181,7 +181,7 @@
     },
     {
       "name": "Slovak National Party",
-      "nameIs": "Slóvakíski þjóðarflokkurinn",
+      "nameIs": "Slovenská národná strana",
       "abbr": "SNS",
       "leader": "Andrej Danko",
       "position": "Right",

@@ -17,7 +17,7 @@
   "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut",
   "leadersIs": "Ana Brnabić, starfandi forseti (frá september 2026); Đuro Macut forsætisráðherra",
   "summary": "Aleksandar Vučić resigned as president on 27 September 2026 to lead the SNS list as candidate for prime minister. The snap vote follows two years of student-led anti-corruption protests, and the Student List is campaigning door to door.",
-  "summaryIs": "Aleksandar Vučić sagði af sér sem forseti 27. september 2026 til að leiða lista SNS sem forsætisráðherraefni. Kosningarnar koma í kjölfar tveggja ára mótmæla gegn spillingu undir forystu námsmanna og Námsmannalistinn gengur hús úr húsi í kosningabaráttunni.",
+  "summaryIs": "Aleksandar Vučić sagði af sér sem forseti 27. september 2026 til að leiða lista SNS sem forsætisráðherraefni. Kosningarnar koma í kjölfar tveggja ára mótmæla gegn spillingu undir forystu námsmanna og listi þeirra, Studentska lista, gengur hús úr húsi í kosningabaráttunni.",
   "parties": [
     {
       "name": "United Serbia (SNS-led)",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Student List",
-      "nameIs": "Námsmannalistinn",
+      "nameIs": "Studentska lista",
       "abbr": "SL",
       "leader": "Citizens' group from the protest movement",
       "position": "Big tent",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Platform for a European Serbia (SSP–SRCE)",
-      "nameIs": "Vettvangur fyrir evrópska Serbíu (SSP–SRCE)",
+      "nameIs": "SSP–SRCE",
       "abbr": "SSP",
       "leader": "Dragan Đilas",
       "position": "Centre",
@@ -94,7 +94,7 @@
       ],
       "policiesIs": [
         "Hraða aðild að ESB",
-        "Samstarf við Námsmannalistann eftir kosningar",
+        "Samstarf við Studentska lista eftir kosningar",
         "Barátta gegn spillingu og fyrir fjölmiðlafrelsi",
         "Efla lýðræðislegar stofnanir"
       ],

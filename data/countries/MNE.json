@@ -17,11 +17,11 @@
   "leaders": "Prime Minister Milojko Spajić (PES)",
   "leadersIs": "Milojko Spajić forsætisráðherra (PES)",
   "summary": "Spajić's Europe Now! leads a coalition aiming to close EU accession talks by 2026–2027. The former ruling DPS leads some polls.",
-  "summaryIs": "Flokkur Spajić, Evrópa núna!, leiðir samsteypustjórn sem stefnir að því að ljúka aðildarviðræðum við ESB 2026–2027. Fyrrverandi stjórnarflokkurinn DPS mælist stærstur í sumum könnunum.",
+  "summaryIs": "Flokkur Spajić, Evropa sad!, leiðir samsteypustjórn sem stefnir að því að ljúka aðildarviðræðum við ESB 2026–2027. Fyrrverandi stjórnarflokkurinn DPS mælist stærstur í sumum könnunum.",
   "parties": [
     {
       "name": "Europe Now!",
-      "nameIs": "Evrópa núna!",
+      "nameIs": "Evropa sad!",
       "abbr": "PES",
       "leader": "Milojko Spajić",
       "position": "Centre",
@@ -75,7 +75,7 @@
     },
     {
       "name": "For the Future of Montenegro",
-      "nameIs": "Fyrir framtíð Svartfjallalands",
+      "nameIs": "Za budućnost Crne Gore",
       "abbr": "ZBCG",
       "leader": "Andrija Mandić",
       "position": "Right",
@@ -99,7 +99,7 @@
     },
     {
       "name": "Bosniak Party",
-      "nameIs": "Bosníakaflokkurinn",
+      "nameIs": "Bošnjačka stranka",
       "abbr": "BS",
       "leader": "Ervin Ibrahimović",
       "position": "Centre",
