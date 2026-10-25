@@ -2,33 +2,49 @@
   "iso3": "ISR",
   "isoNumeric": "376",
   "name": "Israel",
+  "nameIs": "Ísrael",
   "lastReviewed": "2026-10-24",
   "elections": [
     {
       "date": "2026-10-27",
       "dateStatus": "confirmed",
       "type": "Legislative (Knesset)",
-      "note": "120 seats, nationwide proportional representation, 3.25% threshold."
+      "typeIs": "Þingkosningar (Knesset)",
+      "note": "120 seats, nationwide proportional representation, 3.25% threshold.",
+      "noteIs": "120 þingsæti, hlutfallskosning á landsvísu, 3,25% þröskuldur."
     }
   ],
   "leaders": "Prime Minister Benjamin Netanyahu (Likud); President Isaac Herzog",
+  "leadersIs": "Benjamin Netanyahu forsætisráðherra (Likud); Isaac Herzog forseti",
   "summary": "The 25th Knesset dissolved in July 2026. Polls show former army chief Gadi Eisenkot's Yashar ahead of Likud, with neither Netanyahu's bloc nor the opposition bloc reaching a 61-seat majority. Benny Gantz's Blue and White withdrew from the race on 19 October.",
+  "summaryIs": "Knesset, 25. þing Ísraels, var leyst upp í júlí 2026. Kannanir sýna Yashar, flokk fyrrverandi herráðsforingjans Gadi Eisenkot, á undan Likud, en hvorki blokk Netanyahus né blokk stjórnarandstöðunnar nær 61 sætis meirihluta. Bláhvíta bandalagið, flokkur Bennys Gantz, dró framboð sitt til baka 19. október.",
   "parties": [
     {
       "name": "Yashar",
       "abbr": "Yashar",
       "leader": "Gadi Eisenkot",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Liberal Zionism, centrism",
+      "ideologyIs": "Frjálslyndur zíonismi, miðjustefna",
       "inGovernment": false,
       "lastResult": "New party (founded Sept 2025)",
+      "lastResultIs": "Nýr flokkur (stofnaður í sept. 2025)",
       "polling": "22–23 seats, first place (Channel 12, Channel 13 and Kan, 23 Oct)",
+      "pollingIs": "22–23 sæti, efstur (Stöð 12, Stöð 13 og Kan, 23. okt.)",
       "policies": [
         "State commission of inquiry into the 7 October attacks",
         "Military or national service for Haredi and Arab citizens",
         "Protect judicial independence; term limits for the prime minister",
         "Strengthen the IDF and expand regional peace agreements",
         "Cut crime, especially in Arab communities"
+      ],
+      "policiesIs": [
+        "Rannsóknarnefnd á vegum ríkisins um árásirnar 7. október",
+        "Herþjónusta eða samfélagsþjónusta fyrir strangtrúaða gyðinga og arabíska borgara",
+        "Vernda sjálfstæði dómstóla; takmörk á því hve lengi forsætisráðherra má sitja",
+        "Efla Ísraelsher og fjölga friðarsamningum á svæðinu",
+        "Draga úr glæpum, einkum í samfélögum araba"
       ],
       "color": "#2a9fd6",
       "pollValue": 23
@@ -38,15 +54,25 @@
       "abbr": "Likud",
       "leader": "Benjamin Netanyahu",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "National liberalism, conservatism",
+      "ideologyIs": "Þjóðleg frjálslyndisstefna, íhaldsstefna",
       "inGovernment": true,
       "lastResult": "32 seats (2022)",
+      "lastResultIs": "32 sæti (2022)",
       "polling": "19–21 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
+      "pollingIs": "19–21 sæti (Stöð 12, Stöð 13 og Kan, 23. okt.)",
       "policies": [
         "Netanyahu seeks to remain prime minister",
         "Hard line on security, Iran and Hamas",
         "Supports parts of the judicial overhaul",
         "Merged with Gideon Sa'ar's New Hope"
+      ],
+      "policiesIs": [
+        "Netanyahu vill sitja áfram sem forsætisráðherra",
+        "Hörð afstaða í öryggismálum og gagnvart Íran og Hamas",
+        "Styður hluta af breytingunum á dómskerfinu",
+        "Sameinaðist Nýrri von, flokki Gideons Sa'ar"
       ],
       "color": "#1f4e9c",
       "seats": 36,
@@ -54,18 +80,29 @@
     },
     {
       "name": "Together (Bennett–Lapid)",
+      "nameIs": "Saman (Bennett–Lapid)",
       "abbr": "Together",
       "leader": "Naftali Bennett",
       "position": "Centre to centre-right",
+      "positionIs": "Miðja til mið-hægri",
       "ideology": "Zionism, liberalism",
+      "ideologyIs": "Zíonismi, frjálslyndisstefna",
       "inGovernment": false,
       "lastResult": "Yesh Atid 24 seats (2022)",
+      "lastResultIs": "Yesh Atid 24 sæti (2022)",
       "polling": "14–15 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
+      "pollingIs": "14–15 sæti (Stöð 12, Stöð 13 og Kan, 23. okt.)",
       "policies": [
         "Replace the Netanyahu government",
         "Joint list of Bennett and Yair Lapid, led by Bennett",
         "Universal conscription including Haredim",
         "State commission of inquiry into 7 October"
+      ],
+      "policiesIs": [
+        "Koma ríkisstjórn Netanyahus frá",
+        "Sameiginlegur listi Bennetts og Yairs Lapid, undir forystu Bennetts",
+        "Almenn herskylda, einnig fyrir strangtrúaða gyðinga",
+        "Rannsóknarnefnd á vegum ríkisins um 7. október"
       ],
       "color": "#47b0e8",
       "seats": 24,
@@ -73,18 +110,29 @@
     },
     {
       "name": "The Democrats",
+      "nameIs": "Demókratarnir",
       "abbr": "Dem",
       "leader": "Yair Golan",
       "position": "Centre-left to left",
+      "positionIs": "Mið-vinstri til vinstri",
       "ideology": "Social democracy, Labor–Meretz merger",
+      "ideologyIs": "Jafnaðarstefna, sameining Verkamannaflokksins og Meretz",
       "inGovernment": false,
       "lastResult": "Labor 4 seats (2022); Meretz below threshold",
+      "lastResultIs": "Verkamannaflokkurinn 4 sæti (2022); Meretz undir þröskuldi",
       "polling": "8–10 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
+      "pollingIs": "8–10 sæti (Stöð 12, Stöð 13 og Kan, 23. okt.)",
       "policies": [
         "Unify the Zionist left",
         "Replace the Netanyahu government",
         "Oppose the judicial overhaul",
         "Diplomatic path with the Palestinians"
+      ],
+      "policiesIs": [
+        "Sameina vinstrisinnaða zíonista",
+        "Koma ríkisstjórn Netanyahus frá",
+        "Andvígir breytingunum á dómskerfinu",
+        "Diplómatísk leið í samskiptum við Palestínumenn"
       ],
       "color": "#d6262f",
       "seats": 4,
@@ -95,14 +143,23 @@
       "abbr": "Shas",
       "leader": "Aryeh Deri",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Haredi, Sephardi religious conservatism",
+      "ideologyIs": "Trúarleg íhaldsstefna strangtrúaðra sefardískra gyðinga",
       "inGovernment": true,
       "lastResult": "11 seats (2022)",
+      "lastResultIs": "11 sæti (2022)",
       "polling": "8 seats",
+      "pollingIs": "8 sæti",
       "policies": [
         "Military service exemptions for yeshiva students",
         "Religious character of public life",
         "Welfare and cost-of-living support for low-income families"
+      ],
+      "policiesIs": [
+        "Undanþága frá herþjónustu fyrir nemendur trúarskóla (jeshíva)",
+        "Trúarlegt yfirbragð á opinberu lífi",
+        "Velferð og stuðningur vegna framfærslukostnaðar fyrir tekjulágar fjölskyldur"
       ],
       "color": "#0c1c3a",
       "seats": 11,
@@ -113,15 +170,25 @@
       "abbr": "YB",
       "leader": "Avigdor Lieberman",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Secular nationalism",
+      "ideologyIs": "Veraldleg þjóðernishyggja",
       "inGovernment": false,
       "lastResult": "6 seats (2022)",
+      "lastResultIs": "6 sæti (2022)",
       "polling": "8–9 seats",
+      "pollingIs": "8–9 sæti",
       "policies": [
         "Universal military conscription",
         "Separation of religion and state, civil marriage",
         "Hawkish security policy",
         "Will not sit with Netanyahu-led government"
+      ],
+      "policiesIs": [
+        "Almenn herskylda",
+        "Aðskilnaður ríkis og trúar, borgaraleg hjónabönd",
+        "Herská stefna í öryggismálum",
+        "Mun ekki sitja í ríkisstjórn undir forystu Netanyahus"
       ],
       "color": "#2d6a4f",
       "seats": 6,
@@ -132,14 +199,23 @@
       "abbr": "Otzma",
       "leader": "Itamar Ben-Gvir",
       "position": "Far-right",
+      "positionIs": "Lengst til hægri",
       "ideology": "Religious nationalism, Kahanism",
+      "ideologyIs": "Trúarleg þjóðernishyggja, kahanismi",
       "inGovernment": true,
       "lastResult": "6 seats (2022 joint list share)",
+      "lastResultIs": "6 sæti (hlutur af sameiginlegum lista 2022)",
       "polling": "7–8 seats",
+      "pollingIs": "7–8 sæti",
       "policies": [
         "Harsher policing and death penalty for terrorists",
         "Opposed Gaza ceasefire deals",
         "Expanded gun licensing"
+      ],
+      "policiesIs": [
+        "Harðari löggæsla og dauðarefsing fyrir hryðjuverkamenn",
+        "Lagðist gegn samningum um vopnahlé á Gaza",
+        "Rýmri reglur um byssuleyfi"
       ],
       "color": "#ef7d00",
       "seats": 7,
@@ -147,17 +223,27 @@
     },
     {
       "name": "United Torah Judaism",
+      "nameIs": "Sameinaður Torah-gyðingdómur",
       "abbr": "UTJ",
       "leader": "Yitzhak Goldknopf",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Ashkenazi Haredi",
+      "ideologyIs": "Strangtrúaðir askenasískir gyðingar",
       "inGovernment": false,
       "lastResult": "7 seats (2022)",
+      "lastResultIs": "7 sæti (2022)",
       "polling": "7–8 seats",
+      "pollingIs": "7–8 sæti",
       "policies": [
         "Law exempting Haredi men from military service",
         "Left the coalition in 2025 over conscription",
         "Funding for religious education"
+      ],
+      "policiesIs": [
+        "Lög sem undanþiggja strangtrúaða karla herþjónustu",
+        "Yfirgaf stjórnarsamstarfið árið 2025 vegna deilna um herskyldu",
+        "Fjármögnun trúarlegrar menntunar"
       ],
       "color": "#4b4b4b",
       "seats": 7,
@@ -165,17 +251,27 @@
     },
     {
       "name": "Religious Zionist Party",
+      "nameIs": "Trúarlegi zíonistaflokkurinn",
       "abbr": "RZP",
       "leader": "Bezalel Smotrich",
       "position": "Far-right",
+      "positionIs": "Lengst til hægri",
       "ideology": "Religious Zionism",
+      "ideologyIs": "Trúarlegur zíonismi",
       "inGovernment": true,
       "lastResult": "7 seats (2022 joint list share)",
+      "lastResultIs": "7 sæti (hlutur af sameiginlegum lista 2022)",
       "polling": "6–7 seats",
+      "pollingIs": "6–7 sæti",
       "policies": [
         "Settlement expansion and sovereignty in the West Bank",
         "Opposes a Palestinian state",
         "Judicial reform"
+      ],
+      "policiesIs": [
+        "Fleiri landtökubyggðir og fullveldi á Vesturbakkanum",
+        "Andvígur palestínsku ríki",
+        "Umbætur á dómskerfinu"
       ],
       "color": "#5b7f1f",
       "seats": 6,
@@ -183,17 +279,27 @@
     },
     {
       "name": "Joint List (Hadash–Ta'al)",
+      "nameIs": "Sameiginlegi listinn (Hadash–Ta'al)",
       "abbr": "JL",
       "leader": "Yousef Jabareen",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Arab-Israeli representation, Hadash and Ta'al",
+      "ideologyIs": "Fulltrúar arabískra Ísraela, Hadash og Ta'al",
       "inGovernment": false,
       "lastResult": "Hadash–Ta'al 5 seats (2022)",
+      "lastResultIs": "Hadash–Ta'al 5 sæti (2022)",
       "polling": "8 seats",
+      "pollingIs": "8 sæti",
       "policies": [
         "Equal rights for Arab citizens",
         "End to the occupation and a Palestinian state",
         "Cleared by the Supreme Court to run"
+      ],
+      "policiesIs": [
+        "Jafnrétti fyrir arabíska borgara",
+        "Endi á hernáminu og palestínskt ríki",
+        "Hæstiréttur heimilaði framboðið"
       ],
       "color": "#2e8b57",
       "seats": 5,
@@ -201,17 +307,26 @@
     },
     {
       "name": "United Arab List (Ra'am)",
+      "nameIs": "Sameinaði arabíski listinn (Ra'am)",
       "abbr": "Ra'am",
       "leader": "Mansour Abbas",
       "position": "",
       "ideology": "Islamic conservatism, Arab-Israeli interests",
+      "ideologyIs": "Íslömsk íhaldsstefna, hagsmunir arabískra Ísraela",
       "inGovernment": false,
       "lastResult": "5 seats (2022)",
+      "lastResultIs": "5 sæti (2022)",
       "polling": "5 seats",
+      "pollingIs": "5 sæti",
       "policies": [
         "Budgets and crime-fighting for Arab towns",
         "Open to joining a coalition from outside the blocs",
         "Cleared by the Supreme Court to run"
+      ],
+      "policiesIs": [
+        "Fjárveitingar og barátta gegn glæpum í bæjum araba",
+        "Opinn fyrir aðild að ríkisstjórn utan blokkanna",
+        "Hæstiréttur heimilaði framboðið"
       ],
       "color": "#1a7a3a",
       "seats": 5,
@@ -219,34 +334,54 @@
     },
     {
       "name": "Reservists",
+      "nameIs": "Varaliðarnir",
       "abbr": "Res",
       "leader": "Yoaz Hendel",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Zionism, security-focused",
+      "ideologyIs": "Zíonismi, áhersla á öryggismál",
       "inGovernment": false,
       "lastResult": "New list",
+      "lastResultIs": "Nýr listi",
       "polling": "Below the threshold in Channel 12 and Channel 13 polls, 4 seats in Kan (23 Oct), outside both blocs",
+      "pollingIs": "Undir þröskuldi í könnunum Stöðvar 12 og Stöðvar 13, 4 sæti hjá Kan (23. okt.), utan beggja blokka",
       "policies": [
         "Joint list with Yaron Zelekha",
         "Burden-sharing in military service",
         "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Sameiginlegur listi með Yaron Zelekha",
+        "Að byrðum herþjónustu sé deilt jafnt",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
       ],
       "color": "#8a6d3b",
       "pollValue": 4
     },
     {
       "name": "Blue and White",
+      "nameIs": "Bláhvíta bandalagið",
       "abbr": "B&W",
       "leader": "Benny Gantz",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Centrism, security-focused",
+      "ideologyIs": "Miðjustefna, áhersla á öryggismál",
       "inGovernment": false,
       "lastResult": "National Unity 12 seats (2022)",
+      "lastResultIs": "Þjóðareiningarflokkurinn 12 sæti (2022)",
       "polling": "Withdrew from the race on 19 October 2026 after polling below the 3.25% threshold",
+      "pollingIs": "Dró framboð sitt til baka 19. október 2026 eftir að hafa mælst undir 3,25% þröskuldinum",
       "policies": [
         "Broad Zionist unity government",
         "Security-first approach",
         "Equal share of the burden in military service"
+      ],
+      "policiesIs": [
+        "Breið þjóðstjórn zíonista",
+        "Öryggismál í fyrirrúmi",
+        "Jöfn skipting byrða í herþjónustu"
       ],
       "color": "#6aa0d8",
       "seats": 8
@@ -263,7 +398,9 @@
   ],
   "chamber": {
     "name": "Knesset",
+    "nameIs": "Knesset",
     "asOf": "at dissolution, July 2026; Likud includes New Hope",
+    "asOfIs": "við þingrof í júlí 2026; Ný von talin með Likud",
     "seats": 120,
     "majority": 61,
     "source": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
@@ -272,7 +409,9 @@
     "unit": "seats",
     "date": "2026-10-23",
     "pollster": "Channel 12 (final pre-election poll)",
+    "pollsterIs": "Stöð 12 (síðasta könnun fyrir kosningar)",
     "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/",
-    "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Channel 13 had 54/50/16 and Kan 52/50. People of Israel, Reservists and Charedi Public below threshold in Channel 12."
+    "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Channel 13 had 54/50/16 and Kan 52/50. People of Israel, Reservists and Charedi Public below threshold in Channel 12.",
+    "noteIs": "Blokk stjórnarandstöðunnar 56, blokk Netanyahus 50, flokkar undir forystu araba 14. Stöð 13 mældi 54/50/16 og Kan 52/50. People of Israel, Varaliðarnir og Charedi Public undir þröskuldi hjá Stöð 12."
   }
 }

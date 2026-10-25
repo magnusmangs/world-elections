@@ -2,31 +2,43 @@
  "iso3": "TLS",
  "isoNumeric": "626",
  "name": "Timor-Leste",
+ "nameIs": "Austur-Tímor",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-03-20",
    "dateStatus": "expected",
    "type": "Presidential",
-   "note": "Scheduled for March 2027; run-off in April if needed."
+   "typeIs": "Forsetakosningar",
+   "note": "Scheduled for March 2027; run-off in April if needed.",
+   "noteIs": "Fyrirhugaðar í mars 2027; seinni umferð í apríl ef þörf krefur."
   }
  ],
  "leaders": "President José Ramos-Horta; Prime Minister Xanana Gusmão (CNRT)",
+ "leadersIs": "José Ramos-Horta forseti; Xanana Gusmão forsætisráðherra (CNRT)",
  "summary": "Incumbent José Ramos-Horta is considering another run, prompting debate over the constitutional limit on terms. Timor-Leste joined ASEAN in 2025.",
+ "summaryIs": "José Ramos-Horta, sitjandi forseti, íhugar að bjóða sig fram á ný, sem hefur vakið umræðu um ákvæði stjórnarskrárinnar um takmörk á fjölda kjörtímabila. Austur-Tímor gekk í ASEAN árið 2025.",
  "parties": [
   {
    "name": "José Ramos-Horta",
    "abbr": "CNRT-backed",
    "leader": "José Ramos-Horta",
    "position": "Centre",
+   "positionIs": "Miðja",
    "ideology": "",
    "inGovernment": true,
    "lastResult": "62.1% run-off (2022)",
+   "lastResultIs": "62,1% í seinni umferð (2022)",
    "polling": "",
    "policies": [
     "Considering re-election",
     "Said candidates should be loyal to PM Gusmão",
     "Eligibility debated"
+   ],
+   "policiesIs": [
+    "Íhugar að bjóða sig fram á ný",
+    "Sagði að frambjóðendur ættu að vera hollir Gusmão forsætisráðherra",
+    "Deilt um kjörgengi"
    ]
   },
   {
@@ -34,13 +46,20 @@
    "abbr": "FRETILIN",
    "leader": "Rui Maria de Araújo",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy",
+   "ideologyIs": "Jafnaðarstefna",
    "inGovernment": false,
    "lastResult": "Former PM (2015–17)",
+   "lastResultIs": "Fyrrverandi forsætisráðherra (2015–17)",
    "polling": "",
    "policies": [
     "Intends to run; party nomination pending",
     "Health and social services background"
+   ],
+   "policiesIs": [
+    "Hyggst bjóða sig fram; tilnefning flokksins liggur ekki fyrir",
+    "Bakgrunnur í heilbrigðis- og félagsþjónustu"
    ]
   },
   {
@@ -51,10 +70,15 @@
    "ideology": "",
    "inGovernment": false,
    "lastResult": "Former Deputy PM (2020–23)",
+   "lastResultIs": "Fyrrverandi aðstoðarforsætisráðherra (2020–23)",
    "polling": "",
    "policies": [
     "Announced candidacy",
     "Women's leadership focus"
+   ],
+   "policiesIs": [
+    "Hefur tilkynnt framboð",
+    "Leggur áherslu á forystu kvenna"
    ]
   }
  ],

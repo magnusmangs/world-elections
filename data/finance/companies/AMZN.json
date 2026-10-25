@@ -355,7 +355,8 @@
    "accession": "0001018724-26-000026",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -363,7 +364,8 @@
    "accession": "0001018724-26-000024",
    "reportDate": "2026-07-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -371,7 +373,8 @@
    "accession": "0001018724-26-000014",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -379,7 +382,8 @@
    "accession": "0001018724-26-000012",
    "reportDate": "2026-04-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -387,7 +391,8 @@
    "accession": "0001018724-26-000004",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -395,7 +400,8 @@
    "accession": "0001018724-26-000002",
    "reportDate": "2026-02-05",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -403,7 +409,8 @@
    "accession": "0001018724-25-000123",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -411,8 +418,10 @@
    "accession": "0001018724-25-000121",
    "reportDate": "2025-10-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20251030.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724",
+ "summaryEn": "Amazon reported revenue of $200.6 billion for the quarter ended 30 June 2026, up 19.6% from a year earlier. Net income was $62.6 billion, up 244.9% from a year earlier. Diluted earnings per share were $5.75. Free cash flow (operating cash flow less capital expenditure) was -$8.8 billion."
 }

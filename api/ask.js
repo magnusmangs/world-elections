@@ -10,7 +10,7 @@ Rules:
 - Copy numbers exactly as they appear in the data, with units and the period they refer to. Money: say USD, and you may add ISK using usdIsk.rate when given, saying it is converted.
 - Name the source for facts that come from news items or filings (outlet name or "SEC").
 - Be neutral. Give each party or candidate the same treatment. No opinions, predictions of who will win, or investment advice (never say buy, sell or hold).
-- Answer in the language of the question (Icelandic or English). Correct, plain Icelandic. Short: at most about 120 words unless asked for more.
+- Answer in the reader's site language given below, unless the question is clearly written in another language. Correct, plain Icelandic or English. Short: at most about 120 words unless asked for more.
 - No em dashes.`;
 
 const hits = new Map();
@@ -53,13 +53,15 @@ module.exports = async (req, res) => {
   if (req.method !== "POST") return res.status(405).json({ error: "POST only" });
   const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body || {});
   const question = String(body.question || "").trim().slice(0, 500);
-  if (!question) return res.status(400).json({ error: "Engin spurning." });
+  const en = body.lang === "en";
+  const L = (is, enText) => (en ? enText : is);
+  if (!question) return res.status(400).json({ error: L("Engin spurning.", "No question.") });
   const ip = (req.headers["x-forwarded-for"] || "").split(",")[0] || "anon";
-  if (rateLimited(ip)) return res.status(429).json({ answer: "Of margar spurningar á stuttum tíma. Reyndu aftur eftir smá stund." });
+  if (rateLimited(ip)) return res.status(429).json({ answer: L("Of margar spurningar á stuttum tíma. Reyndu aftur eftir smá stund.", "Too many questions in a short time. Please try again shortly.") });
 
   const ctx = buildContext(body.context?.kind, body.context?.id);
-  if (!ctx) return res.status(404).json({ answer: "Ég fann engin gögn um þetta efni á síðunni." });
-  const system = `${SYSTEM}\n\n<data topic="${ctx.label}">\n${JSON.stringify(ctx.data)}\n</data>\nUseful links on this site: ${ctx.links.join(", ")}`;
+  if (!ctx) return res.status(404).json({ answer: L("Ég fann engin gögn um þetta efni á síðunni.", "I found no data on this topic on the site.") });
+  const system = `${SYSTEM}\nThe reader is using the site in ${en ? "English" : "Icelandic"}.\n\n<data topic="${ctx.label}">\n${JSON.stringify(ctx.data)}\n</data>\nUseful links on this site: ${ctx.links.join(", ")}`;
   const history = (Array.isArray(body.history) ? body.history : []).slice(-6)
     .filter((m) => (m.role === "user" || m.role === "assistant") && typeof m.content === "string")
     .map((m) => ({ role: m.role, content: m.content.slice(0, 1200) }));
@@ -69,10 +71,10 @@ module.exports = async (req, res) => {
     let answer, provider;
     if (process.env.ANTHROPIC_API_KEY) { answer = await callClaude(system, messages); provider = "claude"; }
     else if (process.env.GROQ_API_KEY) { answer = await callGroq(system, messages); provider = "groq"; }
-    else return res.status(503).json({ answer: "Spjallið er ekki virkt enn. Lykil vantar fyrir mállíkanið." });
+    else return res.status(503).json({ answer: L("Spjallið er ekki virkt enn. Lykil vantar fyrir mállíkanið.", "Chat is not active yet. The language model key is missing.") });
     answer = answer.replace(/—/g, ",");
     return res.status(200).json({ answer, provider, topic: ctx.label });
   } catch (e) {
-    return res.status(502).json({ answer: "Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund." });
+    return res.status(502).json({ answer: L("Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund.", "Could not get an answer right now. Please try again shortly.") });
   }
 };

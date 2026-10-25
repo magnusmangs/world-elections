@@ -2,31 +2,46 @@
   "iso3": "FIN",
   "isoNumeric": "246",
   "name": "Finland",
+  "nameIs": "Finnland",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-04-18",
       "dateStatus": "confirmed",
       "type": "Parliamentary (Eduskunta)",
-      "note": "200 seats, open-list PR. First since joining NATO."
+      "typeIs": "Þingkosningar (Eduskunta)",
+      "note": "200 seats, open-list PR. First since joining NATO.",
+      "noteIs": "200 þingsæti, hlutfallskosning með opnum listum. Fyrstu kosningarnar frá inngöngu Finnlands í NATO."
     }
   ],
   "leaders": "Prime Minister Petteri Orpo (National Coalition); President Alexander Stubb",
+  "leadersIs": "Petteri Orpo forsætisráðherra (Samstöðuflokkurinn); Alexander Stubb forseti",
   "summary": "Orpo's centre-right coalition of the National Coalition, Finns, Swedish People's Party and Christian Democrats has pursued spending cuts. The opposition Social Democrats have led polling since 2024.",
+  "summaryIs": "Mið-hægristjórn Orpos, sem Samstöðuflokkurinn, Sannir Finnar, Sænski þjóðarflokkurinn og Kristilegir demókratar eiga aðild að, hefur ráðist í niðurskurð útgjalda. Jafnaðarmannaflokkurinn, sem er í stjórnarandstöðu, hefur mælst stærstur í könnunum frá 2024.",
   "parties": [
     {
       "name": "Social Democratic Party",
+      "nameIs": "Jafnaðarmannaflokkurinn",
       "abbr": "SDP",
       "leader": "Antti Lindtman",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": false,
       "lastResult": "19.9%, 43 seats (2023)",
+      "lastResultIs": "19,9%, 43 þingsæti (2023)",
       "polling": "Leads 2026 polls",
+      "pollingIs": "Efstur í könnunum 2026",
       "policies": [
         "Reverse cuts to social security and services",
         "Employment-driven growth",
         "Fairer tax burden"
+      ],
+      "policiesIs": [
+        "Niðurskurður í almannatryggingum og þjónustu verði dreginn til baka",
+        "Hagvöxtur sem byggist á aukinni atvinnu",
+        "Sanngjarnari skattbyrði"
       ],
       "seats": 43,
       "pollValue": 22.7,
@@ -34,17 +49,26 @@
     },
     {
       "name": "National Coalition Party",
+      "nameIs": "Samstöðuflokkurinn",
       "abbr": "KOK",
       "leader": "Petteri Orpo",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Liberal conservatism",
+      "ideologyIs": "Frjálslynd íhaldsstefna",
       "inGovernment": true,
       "lastResult": "20.8%, 48 seats (2023)",
+      "lastResultIs": "20,8%, 48 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Balance public finances through spending cuts",
         "Labour market reform",
         "Lower income taxes"
+      ],
+      "policiesIs": [
+        "Jafnvægi í opinberum fjármálum með niðurskurði útgjalda",
+        "Umbætur á vinnumarkaði",
+        "Lægri tekjuskattar"
       ],
       "seats": 48,
       "pollValue": 16.3,
@@ -52,17 +76,26 @@
     },
     {
       "name": "Finns Party",
+      "nameIs": "Sannir Finnar",
       "abbr": "PS",
       "leader": "Riikka Purra",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Nationalism, right-wing populism",
+      "ideologyIs": "Þjóðernishyggja, hægripopúlismi",
       "inGovernment": true,
       "lastResult": "20.1%, 46 seats (2023)",
+      "lastResultIs": "20,1%, 46 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Tighter immigration policy",
         "Fiscal restraint",
         "EU-critical positions"
+      ],
+      "policiesIs": [
+        "Hertari innflytjendastefna",
+        "Aðhald í ríkisfjármálum",
+        "Gagnrýnin afstaða til ESB"
       ],
       "seats": 45,
       "pollValue": 16.5,
@@ -70,17 +103,26 @@
     },
     {
       "name": "Centre Party",
+      "nameIs": "Miðflokkurinn",
       "abbr": "KESK",
       "leader": "Antti Kaikkonen",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Agrarianism, regionalism",
+      "ideologyIs": "Bændastefna, byggðastefna",
       "inGovernment": false,
       "lastResult": "11.3%, 23 seats (2023)",
+      "lastResultIs": "11,3%, 23 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Rural services and regional policy",
         "Fiscal responsibility",
         "Family policy"
+      ],
+      "policiesIs": [
+        "Þjónusta í dreifbýli og byggðastefna",
+        "Ábyrg ríkisfjármál",
+        "Fjölskyldustefna"
       ],
       "seats": 23,
       "pollValue": 12.6,
@@ -88,17 +130,26 @@
     },
     {
       "name": "Left Alliance",
+      "nameIs": "Vinstrabandalagið",
       "abbr": "VAS",
       "leader": "Minja Koskela",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Democratic socialism",
+      "ideologyIs": "Lýðræðislegur sósíalismi",
       "inGovernment": false,
       "lastResult": "7.1%, 11 seats (2023)",
+      "lastResultIs": "7,1%, 11 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Reverse social benefit cuts",
         "Taxes on capital and wealth",
         "Climate and labour rights"
+      ],
+      "policiesIs": [
+        "Skerðingar á félagslegum bótum verði dregnar til baka",
+        "Skattar á fjármagn og auð",
+        "Loftslagsmál og réttindi launafólks"
       ],
       "seats": 11,
       "pollValue": 12.4,
@@ -106,17 +157,26 @@
     },
     {
       "name": "Green League",
+      "nameIs": "Græna bandalagið",
       "abbr": "VIHR",
       "leader": "Sofia Virta",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Green liberalism",
+      "ideologyIs": "Græn frjálshyggja",
       "inGovernment": false,
       "lastResult": "7.0%, 13 seats (2023)",
+      "lastResultIs": "7,0%, 13 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Carbon neutrality by 2035",
         "Nature protection",
         "Education funding"
+      ],
+      "policiesIs": [
+        "Kolefnishlutleysi fyrir 2035",
+        "Náttúruvernd",
+        "Fjármögnun menntakerfisins"
       ],
       "seats": 13,
       "pollValue": 8.3,
@@ -124,16 +184,24 @@
     },
     {
       "name": "Swedish People's Party",
+      "nameIs": "Sænski þjóðarflokkurinn",
       "abbr": "RKP",
       "leader": "Anders Adlercreutz",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Liberalism, Swedish-speaking minority",
+      "ideologyIs": "Frjálslyndisstefna, sænskumælandi minnihluti",
       "inGovernment": true,
       "lastResult": "4.3%, 9 seats (2023)",
+      "lastResultIs": "4,3%, 9 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Swedish-language services",
         "Pro-European liberalism"
+      ],
+      "policiesIs": [
+        "Þjónusta á sænsku",
+        "Evrópusinnuð frjálslyndisstefna"
       ],
       "seats": 10,
       "pollValue": 3.6,
@@ -141,16 +209,24 @@
     },
     {
       "name": "Christian Democrats",
+      "nameIs": "Kristilegir demókratar",
       "abbr": "KD",
       "leader": "Sari Essayah",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Christian democracy",
+      "ideologyIs": "Kristilegt lýðræði",
       "inGovernment": true,
       "lastResult": "4.2%, 5 seats (2023)",
+      "lastResultIs": "4,2%, 5 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Elderly care and family values",
         "Fiscal conservatism"
+      ],
+      "policiesIs": [
+        "Öldrunarþjónusta og fjölskyldugildi",
+        "Íhaldssemi í ríkisfjármálum"
       ],
       "seats": 5,
       "pollValue": 3.4,
@@ -162,6 +238,7 @@
   ],
   "chamber": {
     "name": "Eduskunta",
+    "nameIs": "Eduskunta",
     "seats": 200,
     "majority": 101,
     "source": "https://en.wikipedia.org/wiki/2027_Finnish_parliamentary_election"
@@ -170,6 +247,7 @@
     "unit": "percent",
     "date": "2026-10-05",
     "pollster": "Taloustutkimus (fieldwork 7 Sep–5 Oct)",
+    "pollsterIs": "Taloustutkimus (könnun gerð 7. sept.–5. okt.)",
     "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_Finnish_parliamentary_election"
   }
 }

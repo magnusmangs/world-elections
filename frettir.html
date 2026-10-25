@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fréttir</title>
-<meta name="description" content="Helstu fréttir af kosningum og uppgjörum fyrirtækja, teknar saman á íslensku með tilvísun í heimildir.">
+<title data-en="News">Fréttir</title>
+<meta name="description" content="Helstu fréttir af kosningum og uppgjörum fyrirtækja, teknar saman á íslensku með tilvísun í heimildir." data-en-content="The main news on elections and company results, summarised with links to the sources.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -14,42 +14,43 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='6' width='24' height='20' rx='3' fill='%2317202b'/><path d='M9 12h14M9 16h14M9 20h9' stroke='white' stroke-width='2.4' stroke-linecap='round'/></svg>">
 </head>
 <body class="fin">
-<nav class="sitenav" aria-label="Síður">
-  <a href="/frettir" aria-current="page">Fréttir</a>
-  <a href="/">Kosningar</a>
-  <a href="/fjarmal">Fjármál</a>
+<nav class="sitenav" aria-label="Síður" data-en-aria-label="Pages">
+  <a href="/frettir" aria-current="page" data-en="News">Fréttir</a>
+  <a href="/" data-en="Elections">Kosningar</a>
+  <a href="/fjarmal" data-en="Finance">Fjármál</a>
 </nav>
 <main class="fin-main">
   <header class="fin-head">
-    <h1><a href="/frettir" id="home">Fréttir</a></h1>
-    <p class="lede">Það helsta úr kosningum og uppgjörum, tekið saman á íslensku. Fréttir annarra miðla eru endursagðar stuttlega með okkar eigin orðum eftir lestur greinarinnar sjálfrar, og hver frétt vísar á upprunann.</p>
+    <h1><a href="/frettir" id="home" data-en="News">Fréttir</a></h1>
+    <p class="lede" data-en="The main news on elections and company results. Reports by other outlets are retold briefly in our own words after reading the article itself, and every item links to the original.">Það helsta úr kosningum og uppgjörum, tekið saman á íslensku. Fréttir annarra miðla eru endursagðar stuttlega með okkar eigin orðum eftir lestur greinarinnar sjálfrar, og hver frétt vísar á upprunann.</p>
   </header>
   <article class="post" id="post" hidden></article>
   <section class="block" aria-labelledby="news-h">
     <div class="block-head">
-      <h2 id="news-h" class="visually-hidden">Nýjast</h2>
-      <div class="filters" role="group" aria-label="Sýna">
-        <button type="button" class="pill" data-filter="all" aria-pressed="true">Allt</button>
-        <button type="button" class="pill" data-filter="kosningar" aria-pressed="false">Kosningar</button>
-        <button type="button" class="pill" data-filter="fjarmal" aria-pressed="false">Fjármál</button>
+      <h2 id="news-h" class="visually-hidden" data-en="Latest">Nýjast</h2>
+      <div class="filters" role="group" aria-label="Sýna" data-en-aria-label="Show">
+        <button type="button" class="pill" data-filter="all" aria-pressed="true" data-en="All">Allt</button>
+        <button type="button" class="pill" data-filter="kosningar" aria-pressed="false" data-en="Elections">Kosningar</button>
+        <button type="button" class="pill" data-filter="fjarmal" aria-pressed="false" data-en="Finance">Fjármál</button>
       </div>
     </div>
     <ol class="feed news" id="news"></ol>
   </section>
   <section class="block" aria-labelledby="land-h" id="lond">
     <div class="block-head">
-      <h2 id="land-h">Fréttir eftir löndum</h2>
-      <label class="search"><span class="visually-hidden">Veldu land</span><select id="land"></select></label>
+      <h2 id="land-h" data-en="News by country">Fréttir eftir löndum</h2>
+      <label class="search"><span class="visually-hidden" data-en="Choose a country">Veldu land</span><select id="land"></select></label>
     </div>
-    <p class="hint">Yfirlit yfir fyrirsagnir: hvað miðlar í landinu sjálfu leggja áherslu á og hvernig miðlar í öðrum löndum fjalla um það. Þetta eru tenglar á fréttirnar sjálfar, birtir óbreyttir á frummáli, en ekki samantektir. Samantektir og sjónarhorn hér að ofan byggja eingöngu á greinum sem hafa verið lesnar.</p>
+    <p class="hint" data-en="Headlines at a glance: what outlets in the country itself lead with, and how outlets in other countries cover it. These are links to the stories, shown unchanged in their original language, not summaries. The summaries and perspectives above rest only on articles that have been read.">Yfirlit yfir fyrirsagnir: hvað miðlar í landinu sjálfu leggja áherslu á og hvernig miðlar í öðrum löndum fjalla um það. Þetta eru tenglar á fréttirnar sjálfar, birtir óbreyttir á frummáli, en ekki samantektir. Samantektir og sjónarhorn hér að ofan byggja eingöngu á greinum sem hafa verið lesnar.</p>
     <div class="cols">
-      <div><h3 id="dom-h">Innlendir miðlar</h3><ol class="hl" id="dom"></ol></div>
-      <div><h3 id="for-h">Erlendir miðlar</h3><div id="for"></div></div>
+      <div><h3 id="dom-h" data-en="Domestic media">Innlendir miðlar</h3><ol class="hl" id="dom"></ol></div>
+      <div><h3 id="for-h" data-en="Foreign media">Erlendir miðlar</h3><div id="for"></div></div>
     </div>
   </section>
 
-  <p class="fineprint">Fréttir merktar öðrum miðlum eru stuttar endursagnir og ekki afrit; lestu fréttina í heild hjá miðlinum. Fyrirsagnir í „Fréttir eftir löndum“ eru sóttar sjálfkrafa á klukkustundar fresti úr opnum fréttaveitum miðlanna; tegund miðils (t.d. ríkismiðill) er tilgreind. Samantektir úr gögnum síðunnar byggja á kosningakortinu og skilum fyrirtækja til SEC. Ekki fjárfestingarráðgjöf. <span id="updated"></span></p>
+  <p class="fineprint"><span data-en="Items credited to other outlets are short retellings, not copies; read the full story at the outlet. Headlines in “News by country” are collected automatically every hour from the outlets' open feeds; the type of outlet (for example state media) is stated. Summaries from the site's own data are based on the election map and company filings to the SEC. Not investment advice.">Fréttir merktar öðrum miðlum eru stuttar endursagnir og ekki afrit; lestu fréttina í heild hjá miðlinum. Fyrirsagnir í „Fréttir eftir löndum“ eru sóttar sjálfkrafa á klukkustundar fresti úr opnum fréttaveitum miðlanna; tegund miðils (t.d. ríkismiðill) er tilgreind. Samantektir úr gögnum síðunnar byggja á kosningakortinu og skilum fyrirtækja til SEC. Ekki fjárfestingarráðgjöf.</span> <span id="updated"></span></p>
 </main>
+<script src="/i18n.js"></script>
 <script src="/frettir.js"></script>
 <script src="/chat.js"></script>
 </body>

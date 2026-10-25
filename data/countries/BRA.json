@@ -2,50 +2,77 @@
   "iso3": "BRA",
   "isoNumeric": "076",
   "name": "Brazil",
+  "nameIs": "Brasilía",
   "lastReviewed": "2026-10-24",
   "elections": [
     {
       "date": "2026-10-25",
       "dateStatus": "confirmed",
       "type": "Presidential run-off",
-      "note": "First round 4 October 2026: Flávio Bolsonaro 47.0%, Lula 45.2%."
+      "typeIs": "Forsetakosningar, seinni umferð",
+      "note": "First round 4 October 2026: Flávio Bolsonaro 47.0%, Lula 45.2%.",
+      "noteIs": "Fyrri umferð 4. október 2026: Flávio Bolsonaro 47,0%, Lula 45,2%."
     }
   ],
   "leaders": "President Luiz Inácio Lula da Silva (PT)",
+  "leadersIs": "Luiz Inácio Lula da Silva forseti (PT)",
   "summary": "Flávio Bolsonaro narrowly led the first round on 4 October and faces incumbent Lula in the run-off. Late polls put the two within the margin of error (Quaest, 21 Oct: Bolsonaro 45%, Lula 44%). Lula is seeking a fourth, non-consecutive term.",
+  "summaryIs": "Flávio Bolsonaro var naumlega efstur í fyrri umferðinni 4. október og mætir sitjandi forseta, Lula, í seinni umferðinni. Síðustu kannanir sýna þá innan skekkjumarka (Quaest, 21. okt.: Bolsonaro 45%, Lula 44%). Lula sækist eftir fjórða kjörtímabilinu, en þau hafa ekki verið samfelld.",
   "parties": [
     {
       "name": "Flávio Bolsonaro (Liberal Party)",
+      "nameIs": "Flávio Bolsonaro (Frjálslyndi flokkurinn)",
       "abbr": "PL",
       "leader": "Flávio Bolsonaro",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Conservatism, right-wing populism",
+      "ideologyIs": "Íhaldsstefna, hægripopúlismi",
       "inGovernment": false,
       "lastResult": "47.0% (first round)",
+      "lastResultIs": "47,0% (fyrri umferð)",
       "polling": "45% (Quaest, 21 Oct 2026)",
+      "pollingIs": "45% (Quaest, 21. okt. 2026)",
       "policies": [
         "Continues the political movement of his father, Jair Bolsonaro",
         "Tougher policing and public security measures",
         "Lower taxes and reduced state role in the economy",
         "Endorsed by Caiado, Zema and other right-wing first-round candidates"
       ],
+      "policiesIs": [
+        "Heldur áfram stjórnmálahreyfingu föður síns, Jairs Bolsonaro",
+        "Harðari löggæsla og hertar aðgerðir í öryggismálum",
+        "Lægri skattar og minni umsvif ríkisins í efnahagslífinu",
+        "Nýtur stuðnings Caiado, Zema og annarra hægrisinnaðra frambjóðenda úr fyrri umferð"
+      ],
       "pollValue": 51,
       "color": "#1d3f8f"
     },
     {
       "name": "Lula da Silva (Workers' Party)",
+      "nameIs": "Lula da Silva (Verkamannaflokkurinn)",
       "abbr": "PT",
       "leader": "Luiz Inácio Lula da Silva",
       "position": "Centre-left to left",
+      "positionIs": "Mið-vinstri til vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "45.2% (first round)",
+      "lastResultIs": "45,2% (fyrri umferð)",
       "polling": "44% (Quaest, 21 Oct 2026)",
+      "pollingIs": "44% (Quaest, 21. okt. 2026)",
       "policies": [
         "Seeks a fourth term on social programmes such as Bolsa Família",
         "Champions ending the 6x1 (six-day) work schedule",
         "Tougher stance on organised crime",
         "Income tax exemption for lower earners funded by taxing high incomes"
+      ],
+      "policiesIs": [
+        "Sækist eftir fjórða kjörtímabilinu og leggur áherslu á félagsleg úrræði á borð við Bolsa Família",
+        "Berst fyrir afnámi 6x1-vinnufyrirkomulagsins (sex daga vinnuviku)",
+        "Harðari afstaða gegn skipulagðri glæpastarfsemi",
+        "Tekjuskattsundanþága fyrir tekjulága, fjármögnuð með skatti á háar tekjur"
       ],
       "pollValue": 49,
       "color": "#c8102e"
@@ -60,7 +87,9 @@
     "unit": "percent",
     "date": "2026-10-15",
     "pollster": "Datafolha (valid votes, run-off)",
+    "pollsterIs": "Datafolha (gild atkvæði, seinni umferð)",
     "url": "https://www.moneytimes.com.br/pesquisa-datafolha-15-de-outubro-gaep/",
-    "note": "Total votes: Bolsonaro 47%, Lula 45%."
+    "note": "Total votes: Bolsonaro 47%, Lula 45%.",
+    "noteIs": "Af öllum greiddum atkvæðum: Bolsonaro 47%, Lula 45%."
   }
 }

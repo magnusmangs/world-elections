@@ -2,32 +2,48 @@
   "iso3": "NZL",
   "isoNumeric": "554",
   "name": "New Zealand",
+  "nameIs": "Nýja-Sjáland",
   "lastReviewed": "2026-10-21",
   "elections": [
     {
       "date": "2026-11-07",
       "dateStatus": "confirmed",
       "type": "General election",
-      "note": "120 seats, mixed-member proportional (MMP)."
+      "typeIs": "Þingkosningar",
+      "note": "120 seats, mixed-member proportional (MMP).",
+      "noteIs": "120 þingsæti, blandað hlutfallskosningakerfi (MMP)."
     }
   ],
   "leaders": "Prime Minister Christopher Luxon (National)",
+  "leadersIs": "Christopher Luxon forsætisráðherra (Þjóðarflokkurinn)",
   "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. National leads Labour 32% to 27% in the latest 1News–Verian poll (15–19 Oct), with Luxon ahead of Hipkins as preferred prime minister.",
+  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First mætir stjórnarandstöðu undir forystu Verkamannaflokksins. Þjóðarflokkurinn mælist með 32% en Verkamannaflokkurinn 27% í nýjustu könnun 1News–Verian (15.–19. okt.) og fleiri vilja Luxon en Hipkins sem forsætisráðherra.",
   "parties": [
     {
       "name": "National Party",
+      "nameIs": "Þjóðarflokkurinn",
       "abbr": "NAT",
       "leader": "Christopher Luxon",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Conservatism, liberal conservatism",
+      "ideologyIs": "Íhaldsstefna, frjálslynd íhaldsstefna",
       "inGovernment": true,
       "lastResult": "38.1%, 48 seats (2023)",
+      "lastResultIs": "38,1%, 48 þingsæti (2023)",
       "polling": "32% (1News–Verian, 15–19 Oct)",
+      "pollingIs": "32% (1News–Verian, 15.–19. okt.)",
       "policies": [
         "Raise default KiwiSaver contributions from 3% to 6% by 2032",
         "Make KiwiSaver compulsory and auto-enrol newborns",
         "Low-interest loans for home solar, batteries and insulation",
         "Scrap good-character sentencing discounts for sexual offending"
+      ],
+      "policiesIs": [
+        "Hækka sjálfgefin framlög í lífeyrissparnaðinn KiwiSaver úr 3% í 6% fyrir 2032",
+        "Gera KiwiSaver að skyldu og skrá nýbura sjálfkrafa",
+        "Lán á lágum vöxtum fyrir sólarsellur, rafhlöður og einangrun heimila",
+        "Afnema refsimildun vegna góðrar fyrri hegðunar í kynferðisbrotamálum"
       ],
       "seats": 49,
       "pollValue": 32,
@@ -35,18 +51,29 @@
     },
     {
       "name": "Labour Party",
+      "nameIs": "Verkamannaflokkurinn",
       "abbr": "LAB",
       "leader": "Chris Hipkins",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": false,
       "lastResult": "26.9%, 34 seats (2023)",
+      "lastResultIs": "26,9%, 34 þingsæti (2023)",
       "polling": "27%",
+      "pollingIs": "27%",
       "policies": [
         "Repeal the Regulatory Standards Act within 100 days",
         "Cap public transport fares at $20 a week in major cities",
         "Create a NZ Future Fund",
         "Free cervical screening for women aged 25–69"
+      ],
+      "policiesIs": [
+        "Fella lög um reglusetningu (Regulatory Standards Act) úr gildi innan 100 daga",
+        "Þak á fargjöld í almenningssamgöngum, 20 dalir á viku í stærstu borgunum",
+        "Stofna framtíðarsjóð Nýja-Sjálands (NZ Future Fund)",
+        "Gjaldfrjáls leghálsskimun fyrir konur á aldrinum 25–69 ára"
       ],
       "seats": 34,
       "pollValue": 27,
@@ -54,18 +81,29 @@
     },
     {
       "name": "Green Party",
+      "nameIs": "Græningjaflokkurinn",
       "abbr": "GRN",
       "leader": "Marama Davidson and Chlöe Swarbrick",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Green politics",
+      "ideologyIs": "Græn stjórnmál",
       "inGovernment": false,
       "lastResult": "11.6%, 15 seats (2023)",
+      "lastResultIs": "11,6%, 15 þingsæti (2023)",
       "polling": "16%",
+      "pollingIs": "16%",
       "policies": [
         "Wealth tax, inheritance tax and higher corporate tax",
         "Build 40,000 social homes in five years",
         "Revoke fast-tracked mining consents",
         "Mass electrification and renewables"
+      ],
+      "policiesIs": [
+        "Auðlegðarskattur, erfðafjárskattur og hærri fyrirtækjaskattur",
+        "Byggja 40.000 félagslegar íbúðir á fimm árum",
+        "Afturkalla námuleyfi sem veitt voru með flýtimeðferð",
+        "Víðtæk rafvæðing og endurnýjanleg orka"
       ],
       "seats": 15,
       "pollValue": 16,
@@ -76,15 +114,25 @@
       "abbr": "ACT",
       "leader": "David Seymour",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Classical liberalism, libertarianism",
+      "ideologyIs": "Klassísk frjálslyndisstefna, frjálshyggja",
       "inGovernment": true,
       "lastResult": "8.6%, 11 seats (2023)",
+      "lastResultIs": "8,6%, 11 þingsæti (2023)",
       "polling": "11%",
+      "pollingIs": "11%",
       "policies": [
         "Cut government spending and merge ministries",
         "Deport serious non-citizen offenders",
         "Let pharmacists treat more conditions",
         "Split-gas emissions target"
+      ],
+      "policiesIs": [
+        "Draga úr ríkisútgjöldum og sameina ráðuneyti",
+        "Vísa úr landi erlendum ríkisborgurum sem fremja alvarleg brot",
+        "Leyfa lyfjafræðingum að meðhöndla fleiri kvilla",
+        "Aðskilin losunarmarkmið fyrir metan og aðrar gróðurhúsalofttegundir"
       ],
       "seats": 11,
       "pollValue": 11,
@@ -95,15 +143,25 @@
       "abbr": "NZF",
       "leader": "Winston Peters",
       "position": "Centre-right to right",
+      "positionIs": "Mið-hægri til hægri",
       "ideology": "Nationalism, populism",
+      "ideologyIs": "Þjóðernishyggja, popúlismi",
       "inGovernment": true,
       "lastResult": "6.1%, 8 seats (2023)",
+      "lastResultIs": "6,1%, 8 þingsæti (2023)",
       "polling": "8%",
+      "pollingIs": "8%",
       "policies": [
         "Break up energy companies to cut power prices",
         "Turn supermarket duopoly into two cooperatives",
         "Merge BNZ with Kiwibank as a Crown bank",
         "Referendum on the Māori electorates"
+      ],
+      "policiesIs": [
+        "Brjóta upp orkufyrirtæki til að lækka raforkuverð",
+        "Breyta tveimur ráðandi matvörukeðjum í tvö samvinnufélög",
+        "Sameina BNZ og Kiwibank í ríkisbanka",
+        "Þjóðaratkvæðagreiðsla um sérstök kjördæmi Maóra"
       ],
       "seats": 8,
       "pollValue": 8,
@@ -114,14 +172,23 @@
       "abbr": "TPM",
       "leader": "Debbie Ngarewa-Packer and Rawiri Waititi",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Māori rights, tino rangatiratanga",
+      "ideologyIs": "Réttindi Maóra, tino rangatiratanga (sjálfsákvörðunarréttur)",
       "inGovernment": false,
       "lastResult": "3.1%, 6 seats (2023)",
+      "lastResultIs": "3,1%, 6 þingsæti (2023)",
       "polling": "Under 1%",
+      "pollingIs": "Undir 1%",
       "policies": [
         "Abolish prisons by 2040 in favour of community solutions",
         "Parliamentary Commissioner for Te Tiriti with veto powers",
         "Contest general as well as Māori electorates"
+      ],
+      "policiesIs": [
+        "Leggja niður fangelsi fyrir 2040 og taka upp úrræði í nærsamfélaginu",
+        "Sérstakur umboðsmaður þingsins fyrir Te Tiriti (Waitangi-sáttmálann) með neitunarvald",
+        "Bjóða fram bæði í almennum kjördæmum og kjördæmum Maóra"
       ],
       "seats": 5,
       "pollValue": 0.4,
@@ -132,14 +199,23 @@
       "abbr": "TOP",
       "leader": "Qiulae Wong",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Radical centrism",
+      "ideologyIs": "Róttæk miðjustefna",
       "inGovernment": false,
       "lastResult": "2.2%, 0 seats (2023)",
+      "lastResultIs": "2,2%, 0 þingsæti (2023)",
       "polling": "7% (about 8 seats)",
+      "pollingIs": "7% (um 8 þingsæti)",
       "policies": [
         "Replace welfare with a means-tested citizen's income",
         "Land value tax to bring down house prices",
         "Citizens' assemblies on major issues"
+      ],
+      "policiesIs": [
+        "Skipta velferðarkerfinu út fyrir tekjutengd borgaralaun",
+        "Skattur á landverð til að lækka húsnæðisverð",
+        "Borgaraþing um stór málefni"
       ],
       "pollValue": 7,
       "color": "#32dac3"
@@ -152,6 +228,7 @@
   ],
   "chamber": {
     "name": "House of Representatives",
+    "nameIs": "þingið",
     "seats": 123,
     "majority": 62,
     "source": "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
@@ -160,6 +237,7 @@
     "unit": "percent",
     "date": "2026-10-19",
     "pollster": "1News Verian (fieldwork 15–19 Oct)",
+    "pollsterIs": "1News Verian (könnun gerð 15.–19. okt.)",
     "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
   }
 }

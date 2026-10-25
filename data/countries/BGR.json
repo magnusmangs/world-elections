@@ -2,32 +2,47 @@
  "iso3": "BGR",
  "isoNumeric": "100",
  "name": "Bulgaria",
+ "nameIs": "Búlgaría",
  "lastReviewed": "2026-10-23",
  "elections": [
   {
    "date": "2026-10-25",
    "dateStatus": "confirmed",
    "type": "Presidential",
-   "note": "Two-round system; a first-round win needs a majority with turnout above 50%. Run-off on 1 November 2026 if needed."
+   "typeIs": "Forsetakosningar",
+   "note": "Two-round system; a first-round win needs a majority with turnout above 50%. Run-off on 1 November 2026 if needed.",
+   "noteIs": "Kosið í tveimur umferðum; til að sigra í fyrri umferð þarf meirihluta atkvæða og yfir 50% kjörsókn. Seinni umferð fer fram 1. nóvember 2026 ef þörf krefur."
   }
  ],
  "leaders": "President Iliana Iotova; Prime Minister Rumen Radev (Progressive Bulgaria)",
+ "leadersIs": "Iliana Iotova forseti; Rumen Radev forsætisráðherra (Framsækin Búlgaría)",
  "summary": "Iliana Iotova, who became president in 2026 when Rumen Radev left the office to lead a new party, is seeking a full term. A Market Links poll (13–19 Oct) puts her at 47.3% against 30.6% for Andrey Gyurov, so a run-off is likely.",
+ "summaryIs": "Iliana Iotova, sem tók við forsetaembættinu árið 2026 þegar Rumen Radev lét af því til að leiða nýjan flokk, sækist eftir fullu kjörtímabili. Samkvæmt könnun Market Links (13.–19. okt.) fær hún 47,3% en Andrey Gyurov 30,6%, svo líklega þarf seinni umferð.",
  "parties": [
   {
    "name": "Iliana Iotova",
    "abbr": "IND",
    "leader": "Iliana Iotova",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Independent, backed by Progressive Bulgaria, BSP and allies",
+   "ideologyIs": "Óháð, studd af Framsækinni Búlgaríu, BSP og bandamönnum",
    "inGovernment": true,
    "lastResult": "Incumbent president; vice president 2017–2026",
+   "lastResultIs": "Sitjandi forseti; varaforseti 2017–2026",
    "polling": "47.3% (Market Links/bTV, 13–19 Oct 2026)",
+   "pollingIs": "47,3% (Market Links/bTV, 13.–19. okt. 2026)",
    "policies": [
     "Seeks a full term as incumbent",
     "Backed by Progressive Bulgaria, BSP–United Left, ISBG and VMRO-BND",
     "Running mate: Kiril Valchev",
     "Detailed platform not yet published in English-language sources"
+   ],
+   "policiesIs": [
+    "Sækist eftir fullu kjörtímabili sem sitjandi forseti",
+    "Studd af Framsækinni Búlgaríu, bandalaginu BSP–Sameinað vinstri, ISBG og VMRO-BND",
+    "Varaforsetaefni: Kiril Valchev",
+    "Ítarleg stefnuskrá hefur ekki enn birst í enskum heimildum"
    ],
    "pollValue": 47.3
   },
@@ -36,15 +51,25 @@
    "abbr": "IND",
    "leader": "Andrey Gyurov",
    "position": "Centre-right",
+   "positionIs": "Mið-hægri",
    "ideology": "Independent, backed by PP–DB (liberal, pro-European)",
+   "ideologyIs": "Óháður, studdur af PP–DB (frjálslynt, Evrópusinnað bandalag)",
    "inGovernment": false,
    "lastResult": "Former caretaker prime minister (2026)",
+   "lastResultIs": "Fyrrverandi forsætisráðherra starfsstjórnar (2026)",
    "polling": "30.6% (Market Links/bTV, 13–19 Oct 2026)",
+   "pollingIs": "30,6% (Market Links/bTV, 13.–19. okt. 2026)",
    "policies": [
     "Backed by the reformist, pro-EU PP–DB alliance",
     "Running mate: Georgi Kandev",
     "Alliance campaigns on anti-corruption and judicial reform",
     "Alliance supports firm Euro-Atlantic orientation"
+   ],
+   "policiesIs": [
+    "Studdur af umbótasinnaða og Evrópusinnaða bandalaginu PP–DB",
+    "Varaforsetaefni: Georgi Kandev",
+    "Bandalagið berst gegn spillingu og fyrir umbótum í dómskerfinu",
+    "Bandalagið vill að Búlgaría haldi fast við vestrænt samstarf innan ESB og NATO"
    ],
    "pollValue": 30.6
   },
@@ -53,15 +78,25 @@
    "abbr": "Revival",
    "leader": "Kostadin Kostadinov",
    "position": "Far-right",
+   "positionIs": "Lengst til hægri",
    "ideology": "Bulgarian nationalism, Euroscepticism",
+   "ideologyIs": "Búlgörsk þjóðernishyggja, efasemdir um Evrópusambandið",
    "inGovernment": false,
    "lastResult": "Party leader and MP since 2021",
+   "lastResultIs": "Formaður flokksins og þingmaður frá 2021",
    "polling": "10.3% (Market Links/bTV, 13–19 Oct 2026)",
+   "pollingIs": "10,3% (Market Links/bTV, 13.–19. okt. 2026)",
    "policies": [
     "Party opposed adoption of the euro",
     "Critical of EU and NATO policy, favours closer ties with Russia",
     "Opposes military aid to Ukraine",
     "Running mate: Petar Volgin"
+   ],
+   "policiesIs": [
+    "Flokkurinn lagðist gegn upptöku evrunnar",
+    "Gagnrýninn á stefnu ESB og NATO og vill nánari tengsl við Rússland",
+    "Andvígur hernaðaraðstoð við Úkraínu",
+    "Varaforsetaefni: Petar Volgin"
    ],
    "pollValue": 10.3
   }

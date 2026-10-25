@@ -2,31 +2,44 @@
   "iso3": "FJI",
   "isoNumeric": "242",
   "name": "Fiji",
+  "nameIs": "Fídjíeyjar",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-12-24",
       "dateStatus": "tentative",
       "type": "General election",
-      "note": "55 seats, open-list PR. Due between June 2026 and 6 February 2027. A constitutional referendum is also planned."
+      "typeIs": "Þingkosningar",
+      "note": "55 seats, open-list PR. Due between June 2026 and 6 February 2027. A constitutional referendum is also planned.",
+      "noteIs": "55 sæti, hlutfallskosning með opnum listum. Kosningar skulu fara fram á tímabilinu júní 2026 til 6. febrúar 2027. Einnig er fyrirhuguð þjóðaratkvæðagreiðsla um stjórnarskrárbreytingar."
     }
   ],
   "leaders": "Prime Minister Sitiveni Rabuka (People's Alliance)",
+  "leadersIs": "Sitiveni Rabuka forsætisráðherra (People's Alliance)",
   "summary": "The 2022 election produced a hung parliament and a coalition led by Rabuka's People's Alliance. The former ruling FijiFirst party was deregistered in 2024.",
+  "summaryIs": "Kosningarnar 2022 skiluðu þingi án meirihluta og samsteypustjórn undir forystu People's Alliance, flokks Rabuka. FijiFirst, fyrrverandi stjórnarflokkur, var afskráður árið 2024.",
   "parties": [
     {
       "name": "People's Alliance",
       "abbr": "PA",
       "leader": "Sitiveni Rabuka",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Conservatism",
+      "ideologyIs": "Íhaldsstefna",
       "inGovernment": true,
       "lastResult": "21 seats (2022)",
+      "lastResultIs": "21 sæti (2022)",
       "polling": "",
       "policies": [
         "Leads the coalition government",
         "Constitutional reform via referendum",
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Leiðir samsteypustjórnina",
+        "Stjórnarskrárumbætur með þjóðaratkvæðagreiðslu",
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "seats": 21,
       "color": "#7b2d8e"
@@ -36,14 +49,22 @@
       "abbr": "NFP",
       "leader": "Biman Prasad",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "5 seats (2022)",
+      "lastResultIs": "5 sæti (2022)",
       "polling": "",
       "policies": [
         "Coalition partner holding finance portfolio",
         "Cost-of-living and economic recovery",
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Samstarfsflokkur í ríkisstjórn sem fer með fjármálaráðuneytið",
+        "Framfærslukostnaður og efnahagsbati",
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "seats": 5,
       "color": "#f2c200"
@@ -53,14 +74,22 @@
       "abbr": "SODELPA",
       "leader": "Viliame Gavoka",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "iTaukei interests, conservatism",
+      "ideologyIs": "Hagsmunir iTaukei-frumbyggja, íhaldsstefna",
       "inGovernment": true,
       "lastResult": "3 seats (2022)",
+      "lastResultIs": "3 sæti (2022)",
       "polling": "",
       "policies": [
         "Coalition partner",
         "Indigenous land and rights",
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Samstarfsflokkur í ríkisstjórn",
+        "Land og réttindi frumbyggja",
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "seats": 3,
       "color": "#1a7a3a"
@@ -72,9 +101,11 @@
   ],
   "chamber": {
     "name": "Parliament",
+    "nameIs": "þingið",
     "seats": 55,
     "majority": 28,
     "asOf": "as elected in December 2022; FijiFirst, which won 26 seats, has since been deregistered",
+    "asOfIs": "eins og kjörið var í desember 2022; FijiFirst, sem hlaut 26 sæti, hefur síðan verið afskráður",
     "source": "https://en.wikipedia.org/wiki/2022_Fijian_general_election"
   }
 }

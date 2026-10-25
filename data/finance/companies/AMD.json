@@ -365,7 +365,8 @@
    "accession": "0000002488-26-000123",
    "reportDate": "2026-06-27",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -373,7 +374,8 @@
    "accession": "0000002488-26-000121",
    "reportDate": "2026-08-04",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -381,7 +383,8 @@
    "accession": "0000002488-26-000076",
    "reportDate": "2026-03-28",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -389,7 +392,8 @@
    "accession": "0000002488-26-000072",
    "reportDate": "2026-05-05",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -397,7 +401,8 @@
    "accession": "0000002488-26-000018",
    "reportDate": "2025-12-27",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -405,7 +410,8 @@
    "accession": "0000002488-26-000014",
    "reportDate": "2026-02-03",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amd-20260203.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -413,7 +419,8 @@
    "accession": "0000002488-25-000166",
    "reportDate": "2025-09-27",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000166/amd-20250927.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -421,8 +428,10 @@
    "accession": "0000002488-25-000163",
    "reportDate": "2025-11-04",
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000163/amd-20251104.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488",
+ "summaryEn": "AMD reported revenue of $11.5 billion for the quarter ended 27 June 2026, up 50.1% from a year earlier. Net income was $2.3 billion, up 163.4% from a year earlier. Diluted earnings per share were $1.38. Free cash flow (operating cash flow less capital expenditure) was $1.6 billion."
 }

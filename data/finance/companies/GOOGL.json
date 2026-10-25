@@ -359,7 +359,8 @@
    "accession": "0001652044-26-000071",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -367,7 +368,8 @@
    "accession": "0001652044-26-000066",
    "reportDate": "2026-07-22",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -375,7 +377,8 @@
    "accession": "0001652044-26-000048",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -383,7 +386,8 @@
    "accession": "0001652044-26-000043",
    "reportDate": "2026-04-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/goog-20260429.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -391,7 +395,8 @@
    "accession": "0001652044-26-000018",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -399,7 +404,8 @@
    "accession": "0001652044-26-000012",
    "reportDate": "2026-02-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/goog-20260204.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -407,7 +413,8 @@
    "accession": "0001652044-25-000091",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -415,8 +422,10 @@
    "accession": "0001652044-25-000087",
    "reportDate": "2025-10-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/goog-20251029.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044",
+ "summaryEn": "Alphabet (Google) reported revenue of $119.8 billion for the quarter ended 30 June 2026, up 24.2% from a year earlier. Net income was $112.2 billion, up 297.9% from a year earlier. Diluted earnings per share were $9.11. Free cash flow (operating cash flow less capital expenditure) was -$5.9 billion."
 }

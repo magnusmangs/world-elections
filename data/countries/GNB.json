@@ -2,31 +2,44 @@
  "iso3": "GNB",
  "isoNumeric": "624",
  "name": "Guinea-Bissau",
+ "nameIs": "Gínea-Bissá",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2026-12-06",
    "dateStatus": "tentative",
    "type": "Presidential and parliamentary",
-   "note": "102-seat National People's Assembly. Set by junta decree."
+   "typeIs": "Forseta- og þingkosningar",
+   "note": "102-seat National People's Assembly. Set by junta decree.",
+   "noteIs": "102 sæti á þjóðþinginu. Dagsetningin var ákveðin með tilskipun herforingjastjórnarinnar."
   }
  ],
  "leaders": "Transitional President Gen. Horta Inta-A Na Man (military)",
+ "leadersIs": "Horta Inta-A Na Man hershöfðingi, forseti til bráðabirgða (herinn)",
  "summary": "The November 2025 elections were annulled after a military coup ousted President Umaro Sissoco Embaló. The junta set a one-year transition ending in these polls. Publishing opinion polls is banned.",
+ "summaryIs": "Kosningarnar í nóvember 2025 voru ógiltar eftir að herinn rændi völdum og steypti Umaro Sissoco Embaló forseta af stóli. Herforingjastjórnin ákvað eins árs aðlögunartímabil sem lýkur með þessum kosningum. Bannað er að birta skoðanakannanir.",
  "parties": [
   {
    "name": "PAIGC",
    "abbr": "PAIGC",
    "leader": "Domingos Simões Pereira",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy",
+   "ideologyIs": "Jafnaðarstefna",
    "inGovernment": false,
    "lastResult": "Largest party (2023)",
+   "lastResultIs": "Stærsti flokkurinn (2023)",
    "polling": "",
    "policies": [
     "Historic independence party",
     "Demands a swift return to constitutional order",
     "Participation conditions still unclear"
+   ],
+   "policiesIs": [
+    "Sögulegur sjálfstæðisflokkur landsins",
+    "Krefst þess að stjórnskipuleg skipan komist á aftur án tafar",
+    "Enn óljóst með hvaða skilyrðum flokkurinn getur tekið þátt"
    ]
   },
   {
@@ -34,6 +47,7 @@
    "abbr": "PRS",
    "leader": "",
    "position": "Centre",
+   "positionIs": "Miðja",
    "ideology": "",
    "inGovernment": false,
    "lastResult": "",
@@ -41,6 +55,10 @@
    "policies": [
     "Led government before the transition",
     "Platform details limited in English-language sources"
+   ],
+   "policiesIs": [
+    "Fór fyrir ríkisstjórn fyrir aðlögunartímabilið",
+    "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
    ]
   }
  ],

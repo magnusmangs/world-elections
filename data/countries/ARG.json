@@ -2,47 +2,72 @@
  "iso3": "ARG",
  "isoNumeric": "032",
  "name": "Argentina",
+ "nameIs": "Argentína",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-10-24",
    "dateStatus": "expected",
    "type": "General (presidential and partial Congress)",
-   "note": "Run-off likely 21 November 2027. Half of Deputies, a third of the Senate."
+   "typeIs": "Forseta- og þingkosningar (kosið um hluta þingsæta)",
+   "note": "Run-off likely 21 November 2027. Half of Deputies, a third of the Senate.",
+   "noteIs": "Seinni umferð líklega 21. nóvember 2027. Kosið er um helming sæta í fulltrúadeildinni og þriðjung í öldungadeildinni."
   }
  ],
  "leaders": "President Javier Milei (La Libertad Avanza)",
+ "leadersIs": "Javier Milei forseti (La Libertad Avanza)",
  "summary": "Milei's La Libertad Avanza won the 2025 midterms, and he has signalled he will seek re-election. Buenos Aires governor Axel Kicillof is the leading Peronist figure.",
+ "summaryIs": "La Libertad Avanza, flokkur Mileis, sigraði í þingkosningunum á miðju kjörtímabili 2025 og Milei hefur gefið til kynna að hann sækist eftir endurkjöri. Axel Kicillof, ríkisstjóri Buenos Aires-héraðs, er fremstur í flokki perónista.",
  "parties": [
   {
    "name": "La Libertad Avanza",
    "abbr": "LLA",
    "leader": "Javier Milei",
    "position": "Right",
+   "positionIs": "Hægri",
    "ideology": "Libertarianism, anarcho-capitalism",
+   "ideologyIs": "Frjálshyggja, anarkókapítalismi",
    "inGovernment": true,
    "lastResult": "Won 2025 midterms (64 deputies)",
+   "lastResultIs": "Sigur í þingkosningum á miðju kjörtímabili 2025 (64 fulltrúar)",
    "polling": "38.5% (Explanans, Sep 2026)",
+   "pollingIs": "38,5% (Explanans, sept. 2026)",
    "policies": [
     "Fiscal surplus and deep spending cuts",
     "Deregulation and privatisation",
     "Disinflation and currency liberalisation",
     "Abolish mandatory primaries (PASO)"
+   ],
+   "policiesIs": [
+    "Afgangur af ríkisrekstri og mikill niðurskurður útgjalda",
+    "Afnám regluverks og einkavæðing",
+    "Hjöðnun verðbólgu og frjálsari gjaldeyrisviðskipti",
+    "Afnám skyldubundinna forkosninga (PASO)"
    ]
   },
   {
    "name": "Fuerza Patria (Peronism)",
+   "nameIs": "Fuerza Patria (perónistar)",
    "abbr": "FP",
    "leader": "Axel Kicillof (likely)",
    "position": "Centre-left to left",
+   "positionIs": "Mið-vinstri til vinstri",
    "ideology": "Peronism, Kirchnerism",
+   "ideologyIs": "Perónismi, kirchnerismi",
    "inGovernment": false,
    "lastResult": "47 deputies (2025)",
+   "lastResultIs": "47 fulltrúar (2025)",
    "polling": "Kicillof 24% (Explanans, Sep 2026)",
+   "pollingIs": "Kicillof 24% (Explanans, sept. 2026)",
    "policies": [
     "Restore public spending on universities, health and pensions",
     "Industrial policy and protection of domestic industry",
     "Oppose privatisations"
+   ],
+   "policiesIs": [
+    "Opinber útgjöld til háskóla, heilbrigðismála og lífeyris verði aukin á ný",
+    "Iðnaðarstefna og vernd innlends iðnaðar",
+    "Andstaða við einkavæðingu"
    ]
   },
   {
@@ -50,13 +75,20 @@
    "abbr": "PU",
    "leader": "Juan Schiaretti",
    "position": "Centre",
+   "positionIs": "Miðja",
    "ideology": "Federalism, moderate Peronism",
+   "ideologyIs": "Sambandsríkishyggja, hófsamur perónismi",
    "inGovernment": false,
    "lastResult": "8 deputies (2025)",
+   "lastResultIs": "8 fulltrúar (2025)",
    "polling": "",
    "policies": [
     "Provincial governors' alliance",
     "Fiscal balance with production-led growth"
+   ],
+   "policiesIs": [
+    "Bandalag héraðsstjóra",
+    "Jafnvægi í ríkisfjármálum ásamt hagvexti sem byggist á framleiðslu"
    ]
   },
   {
@@ -64,13 +96,20 @@
    "abbr": "FIT-U",
    "leader": "Myriam Bregman",
    "position": "Far-left",
+   "positionIs": "Lengst til vinstri",
    "ideology": "Trotskyism",
+   "ideologyIs": "Trotskíismi",
    "inGovernment": false,
    "lastResult": "3 deputies (2025)",
+   "lastResultIs": "3 fulltrúar (2025)",
    "polling": "",
    "policies": [
     "Reject IMF agreements",
     "Higher wages and pensions"
+   ],
+   "policiesIs": [
+    "Höfnun samninga við Alþjóðagjaldeyrissjóðinn",
+    "Hærri laun og lífeyrir"
    ]
   }
  ],

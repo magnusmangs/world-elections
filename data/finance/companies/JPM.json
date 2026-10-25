@@ -256,7 +256,8 @@
    "accession": "0001628280-26-065582",
    "reportDate": "2026-10-13",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -264,7 +265,8 @@
    "accession": "0001628280-26-054343",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -272,7 +274,8 @@
    "accession": "0001628280-26-048078",
    "reportDate": "2026-07-14",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/jpm-20260714.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -280,7 +283,8 @@
    "accession": "0001628280-26-029344",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026029344/jpm-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -288,7 +292,8 @@
    "accession": "0001628280-26-024990",
    "reportDate": "2026-04-14",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/jpm-20260414.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -296,7 +301,8 @@
    "accession": "0001628280-26-008131",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -304,7 +310,8 @@
    "accession": "0001628280-26-001902",
    "reportDate": "2026-01-13",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/jpm-20260113.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -312,8 +319,10 @@
    "accession": "0001628280-25-048859",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617",
+ "summaryEn": "JPMorgan Chase reported revenue of $57.3 billion for the quarter ended 30 June 2026, up 27.7% from a year earlier. Net income was $21.2 billion, up 41.2% from a year earlier. Diluted earnings per share were $7.70."
 }

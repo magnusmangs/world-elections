@@ -2,31 +2,44 @@
   "iso3": "SSD",
   "isoNumeric": "728",
   "name": "South Sudan",
+  "nameIs": "Suður-Súdan",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-12-22",
       "dateStatus": "tentative",
       "type": "General (first since independence)",
-      "note": "Presidency, National Legislative Assembly and Council of States."
+      "typeIs": "Þingkosningar og forsetakosningar (þær fyrstu frá sjálfstæði)",
+      "note": "Presidency, National Legislative Assembly and Council of States.",
+      "noteIs": "Forsetaembættið, þjóðþingið (National Legislative Assembly) og ríkjaráðið (Council of States)."
     }
   ],
   "leaders": "President Salva Kiir (SPLM)",
+  "leadersIs": "Salva Kiir forseti (SPLM)",
   "summary": "South Sudan has never held a national election since independence in 2011; the vote has been postponed repeatedly since 2015. Main opposition leader Riek Machar has been under arrest and on trial since 2025.",
+  "summaryIs": "Aldrei hafa farið fram landskosningar í Suður-Súdan frá sjálfstæði 2011; kosningunum hefur ítrekað verið frestað frá 2015. Riek Machar, helsti leiðtogi stjórnarandstöðunnar, hefur verið í haldi og sætt réttarhöldum frá 2025.",
   "parties": [
     {
       "name": "SPLM",
       "abbr": "SPLM",
       "leader": "Salva Kiir",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Nationalism, big tent",
+      "ideologyIs": "Þjóðernishyggja, breið fylking",
       "inGovernment": true,
       "lastResult": "332 of 550 Assembly seats (appointed transitional)",
+      "lastResultIs": "332 af 550 þingsætum (skipað bráðabirgðaþing)",
       "polling": "",
       "policies": [
         "Kiir is the presidential nominee",
         "Implementation of the 2018 peace deal on its terms",
         "Dissolved transitional government ahead of the vote"
+      ],
+      "policiesIs": [
+        "Kiir er forsetaefni flokksins",
+        "Framkvæmd friðarsamkomulagsins frá 2018 á eigin forsendum",
+        "Leysti upp bráðabirgðastjórnina fyrir kosningarnar"
       ],
       "seats": 332,
       "color": "#1b5e20"
@@ -36,29 +49,42 @@
       "abbr": "SPLM-IO",
       "leader": "Riek Machar (detained)",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Federalism",
+      "ideologyIs": "Sambandsríkisstefna",
       "inGovernment": false,
       "lastResult": "Partner in transitional government",
+      "lastResultIs": "Aðili að bráðabirgðastjórninni",
       "polling": "",
       "policies": [
         "Demands release of Machar",
         "Questions conditions for a credible vote",
         "Federal system of government"
       ],
+      "policiesIs": [
+        "Krefst þess að Machar verði látinn laus",
+        "Efast um að skilyrði séu fyrir trúverðugum kosningum",
+        "Sambandsríkisskipulag"
+      ],
       "seats": 128,
       "color": "#c62828"
     },
     {
       "name": "People's Liberal Party",
+      "nameIs": "Frjálslyndi alþýðuflokkurinn",
       "abbr": "PLP",
       "leader": "Peter Mayen (candidate)",
       "position": "",
       "ideology": "Liberalism",
+      "ideologyIs": "Frjálslyndisstefna",
       "inGovernment": false,
       "lastResult": "",
       "polling": "",
       "policies": [
         "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
       ],
       "color": "#1565c0"
     }
@@ -68,9 +94,11 @@
   ],
   "chamber": {
     "name": "National Legislative Assembly",
+    "nameIs": "þjóðþingið",
     "seats": 550,
     "majority": 276,
     "asOf": "appointed under the 2018 peace deal, not elected",
+    "asOfIs": "skipað samkvæmt friðarsamkomulaginu frá 2018, ekki kjörið",
     "source": "https://en.wikipedia.org/wiki/2026_South_Sudanese_general_election"
   }
 }

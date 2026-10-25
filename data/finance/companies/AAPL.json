@@ -365,7 +365,8 @@
    "accession": "0000320193-26-000020",
    "reportDate": "2026-06-27",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -373,7 +374,8 @@
    "accession": "0000320193-26-000018",
    "reportDate": "2026-07-30",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -381,7 +383,8 @@
    "accession": "0000320193-26-000013",
    "reportDate": "2026-03-28",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -389,7 +392,8 @@
    "accession": "0000320193-26-000011",
    "reportDate": "2026-04-30",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -397,7 +401,8 @@
    "accession": "0000320193-26-000006",
    "reportDate": "2025-12-27",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -405,7 +410,8 @@
    "accession": "0000320193-26-000005",
    "reportDate": "2026-01-29",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -413,7 +419,8 @@
    "accession": "0000320193-25-000079",
    "reportDate": "2025-09-27",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -421,8 +428,10 @@
    "accession": "0000320193-25-000077",
    "reportDate": "2025-10-30",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193",
+ "summaryEn": "Apple reported revenue of $109.4 billion for the quarter ended 27 June 2026, up 16.4% from a year earlier. Net income was $29.8 billion, up 27.1% from a year earlier. Diluted earnings per share were $2.02. Free cash flow (operating cash flow less capital expenditure) was $31.9 billion."
 }

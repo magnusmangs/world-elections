@@ -356,7 +356,8 @@
    "accession": "0001193125-26-323660",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -364,7 +365,8 @@
    "accession": "0001193125-26-323632",
    "reportDate": "2026-07-29",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -372,7 +374,8 @@
    "accession": "0001193125-26-191507",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -380,7 +383,8 @@
    "accession": "0001193125-26-191457",
    "reportDate": "2026-04-29",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -388,7 +392,8 @@
    "accession": "0001193125-26-027207",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -396,7 +401,8 @@
    "accession": "0001193125-26-027198",
    "reportDate": "2026-01-28",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -404,7 +410,8 @@
    "accession": "0001193125-25-256321",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -412,8 +419,10 @@
    "accession": "0001193125-25-256310",
    "reportDate": "2025-10-28",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019",
+ "summaryEn": "Microsoft reported revenue of $90.0 billion for the quarter ended 30 June 2026, up 17.7% from a year earlier. Net income was $35.8 billion, up 31.3% from a year earlier. Free cash flow (operating cash flow less capital expenditure) was $19.6 billion."
 }

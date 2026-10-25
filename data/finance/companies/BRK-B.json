@@ -272,7 +272,8 @@
    "accession": "0001193125-26-344495",
    "reportDate": "2026-08-08",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -280,7 +281,8 @@
    "accession": "0001193125-26-341032",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -288,7 +290,8 @@
    "accession": "0001193125-26-212148",
    "reportDate": "2026-05-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526212148/d74313d8k.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -296,7 +299,8 @@
    "accession": "0001193125-26-202243",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -304,7 +308,8 @@
    "accession": "0001193125-26-085801",
    "reportDate": "2026-02-28",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526085801/d117283d8k.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -312,7 +317,8 @@
    "accession": "0001193125-26-083899",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -320,7 +326,8 @@
    "accession": "0001193125-25-262260",
    "reportDate": "2025-11-01",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525262260/d22917d8k.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -328,8 +335,10 @@
    "accession": "0001193125-25-261548",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983",
+ "summaryEn": "Berkshire Hathaway reported revenue of $70.1 billion for the quarter ended 30 June 2026, up 14.2% from a year earlier. Net income was $25.7 billion, up 107.5% from a year earlier. Free cash flow (operating cash flow less capital expenditure) was $5.6 billion."
 }

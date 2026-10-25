@@ -2,26 +2,35 @@
   "iso3": "SVK",
   "isoNumeric": "703",
   "name": "Slovakia",
+  "nameIs": "Slóvakía",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-09-25",
       "dateStatus": "expected",
       "type": "Parliamentary (National Council)",
-      "note": "150 seats. Must be held by 28 September 2027."
+      "typeIs": "Þingkosningar (þjóðþingið)",
+      "note": "150 seats. Must be held by 28 September 2027.",
+      "noteIs": "150 þingsæti. Verða að fara fram í síðasta lagi 28. september 2027."
     }
   ],
   "leaders": "Prime Minister Robert Fico (Smer–SD); President Peter Pellegrini",
+  "leadersIs": "Robert Fico forsætisráðherra (Smer–SD); Peter Pellegrini forseti",
   "summary": "The vote is a test of Fico's coalition after criminal-code changes, a public broadcaster overhaul and a shift in Ukraine policy. Liberal Progressive Slovakia leads the opposition.",
+  "summaryIs": "Kosningarnar verða prófsteinn á samsteypustjórn Ficos eftir breytingar á hegningarlögum, uppstokkun ríkisútvarpsins og stefnubreytingu í málefnum Úkraínu. Frjálslyndi flokkurinn Framsækin Slóvakía fer fyrir stjórnarandstöðunni.",
   "parties": [
     {
       "name": "Direction – Social Democracy",
+      "nameIs": "Stefna – jafnaðarmenn",
       "abbr": "Smer",
       "leader": "Robert Fico",
       "position": "Left-wing nationalist",
+      "positionIs": "Vinstri, þjóðernissinnaður",
       "ideology": "Left-wing nationalism, social conservatism",
+      "ideologyIs": "Vinstri þjóðernishyggja, félagsleg íhaldsstefna",
       "inGovernment": true,
       "lastResult": "23.0%, 42 seats (2023)",
+      "lastResultIs": "23,0%, 42 þingsæti (2023)",
       "polling": "",
       "policies": [
         "'Sovereign' foreign policy, ended state military aid to Ukraine",
@@ -29,24 +38,41 @@
         "Constitutional amendment on two sexes and adoption",
         "Replaced RTVS with STVR"
       ],
+      "policiesIs": [
+        "„Fullvalda“ utanríkisstefna, hætti hernaðaraðstoð ríkisins við Úkraínu",
+        "Breytingar á hegningarlögum",
+        "Stjórnarskrárbreyting um tvö kyn og ættleiðingar",
+        "Leysti RTVS af hólmi með STVR"
+      ],
       "seats": 41,
       "pollValue": 17.1,
       "color": "#d82222"
     },
     {
       "name": "Progressive Slovakia",
+      "nameIs": "Framsækin Slóvakía",
       "abbr": "PS",
       "leader": "Michal Šimečka",
       "position": "Centre to centre-left",
+      "positionIs": "Miðja til mið-vinstri",
       "ideology": "Liberalism, pro-Europeanism",
+      "ideologyIs": "Frjálslyndisstefna, Evrópusinnar",
       "inGovernment": false,
       "lastResult": "18.0%, 32 seats (2023)",
+      "lastResultIs": "18,0%, 32 þingsæti (2023)",
       "polling": "Leads most 2026 polls",
+      "pollingIs": "Mælist efstur í flestum könnunum 2026",
       "policies": [
         "Reverse criminal-law and broadcasting changes",
         "Firmly pro-EU and pro-NATO",
         "Support for Ukraine",
         "Rule of law"
+      ],
+      "policiesIs": [
+        "Afturköllun breytinga á hegningarlögum og útvarpsmálum",
+        "Eindregið hlynntur ESB og NATO",
+        "Stuðningur við Úkraínu",
+        "Réttarríkið"
       ],
       "seats": 33,
       "pollValue": 18.9,
@@ -54,17 +80,26 @@
     },
     {
       "name": "Voice – Social Democracy",
+      "nameIs": "Rödd – jafnaðarmenn",
       "abbr": "Hlas",
       "leader": "Matúš Šutaj Eštok",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy, populism",
+      "ideologyIs": "Jafnaðarstefna, popúlismi",
       "inGovernment": true,
       "lastResult": "14.7%, 27 seats (2023)",
+      "lastResultIs": "14,7%, 27 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Coalition partner",
         "Rejects leaving EU or NATO",
         "Social benefits and pensions"
+      ],
+      "policiesIs": [
+        "Aðili að samsteypustjórninni",
+        "Hafnar úrsögn úr ESB eða NATO",
+        "Félagslegar bætur og lífeyrir"
       ],
       "seats": 25,
       "pollValue": 8.6,
@@ -72,32 +107,48 @@
     },
     {
       "name": "Republic",
+      "nameIs": "Lýðveldið",
       "abbr": "Republika",
       "leader": "Milan Uhrík",
       "position": "Far-right",
+      "positionIs": "Lengst til hægri",
       "ideology": "Nationalism, Euroscepticism",
+      "ideologyIs": "Þjóðernishyggja, Evrópuefasemdir",
       "inGovernment": false,
       "lastResult": "4.8%, 0 seats (2023)",
+      "lastResultIs": "4,8%, 0 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Opposes EU and NATO policy on Ukraine",
         "Restrict migration"
+      ],
+      "policiesIs": [
+        "Andvígur stefnu ESB og NATO gagnvart Úkraínu",
+        "Takmörkun fólksflutninga"
       ],
       "pollValue": 9.7,
       "color": "#21254a"
     },
     {
       "name": "Christian Democratic Movement",
+      "nameIs": "Kristilega lýðræðishreyfingin",
       "abbr": "KDH",
       "leader": "Milan Majerský",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Christian democracy",
+      "ideologyIs": "Kristileg lýðræðisstefna",
       "inGovernment": false,
       "lastResult": "6.8%, 12 seats (2023)",
+      "lastResultIs": "6,8%, 12 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Family policy",
         "Pro-Western orientation"
+      ],
+      "policiesIs": [
+        "Fjölskyldustefna",
+        "Vestræn áhersla"
       ],
       "seats": 11,
       "pollValue": 6.9,
@@ -105,16 +156,24 @@
     },
     {
       "name": "Freedom and Solidarity",
+      "nameIs": "Frelsi og samstaða",
       "abbr": "SaS",
       "leader": "Branislav Gröhling",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Classical liberalism",
+      "ideologyIs": "Klassísk frjálshyggja",
       "inGovernment": false,
       "lastResult": "6.3%, 11 seats (2023)",
+      "lastResultIs": "6,3%, 11 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Lower taxes and deregulation",
         "Opposes consolidation tax rises"
+      ],
+      "policiesIs": [
+        "Lægri skattar og afnám regluverks",
+        "Andvígur skattahækkunum vegna aðhaldsaðgerða"
       ],
       "seats": 12,
       "pollValue": 8.1,
@@ -122,16 +181,24 @@
     },
     {
       "name": "Slovak National Party",
+      "nameIs": "Slóvakíski þjóðarflokkurinn",
       "abbr": "SNS",
       "leader": "Andrej Danko",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Nationalism",
+      "ideologyIs": "Þjóðernishyggja",
       "inGovernment": true,
       "lastResult": "5.6%, 10 seats (2023)",
+      "lastResultIs": "5,6%, 10 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Coalition partner",
         "National and traditional values"
+      ],
+      "policiesIs": [
+        "Aðili að samsteypustjórninni",
+        "Þjóðleg og hefðbundin gildi"
       ],
       "seats": 8,
       "pollValue": 4.8,
@@ -143,6 +210,7 @@
   ],
   "chamber": {
     "name": "National Council",
+    "nameIs": "þjóðþingið",
     "seats": 150,
     "majority": 76,
     "source": "https://en.wikipedia.org/wiki/Next_Slovak_parliamentary_election"
@@ -151,7 +219,9 @@
     "unit": "percent",
     "date": "2026-09-21",
     "pollster": "AKO for JOJ24 (fieldwork 10–21 Sep)",
+    "pollsterIs": "AKO fyrir JOJ24 (könnun gerð 10.–21. sept.)",
     "url": "https://www.noviny.sk/slovensko/1266699-volebny-prieskum-joj24-najsilnejsie-strany-sa-prepadli-volby-by-aj-nadalej-vyhralo-ps",
-    "note": "Hnutie Slovensko 8.1%, Demokrati 4.4%."
+    "note": "Hnutie Slovensko 8.1%, Demokrati 4.4%.",
+    "noteIs": "Hnutie Slovensko 8,1%, Demokrati 4,4%."
   }
 }

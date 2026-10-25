@@ -364,7 +364,8 @@
    "accession": "0000909832-26-000093",
    "reportDate": "2026-08-30",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -372,7 +373,8 @@
    "accession": "0000909832-26-000084",
    "reportDate": "2026-09-24",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -380,7 +382,8 @@
    "accession": "0000909832-26-000051",
    "reportDate": "2026-05-10",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -388,7 +391,8 @@
    "accession": "0000909832-26-000046",
    "reportDate": "2026-05-28",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000046/cost-20260528.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -396,7 +400,8 @@
    "accession": "0000909832-26-000029",
    "reportDate": "2026-02-15",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000029/cost-20260215.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -404,7 +409,8 @@
    "accession": "0000909832-26-000025",
    "reportDate": "2026-03-05",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000025/cost-20260305.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -412,7 +418,8 @@
    "accession": "0000909832-25-000169",
    "reportDate": "2025-11-23",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000169/cost-20251123.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -420,8 +427,10 @@
    "accession": "0000909832-25-000164",
    "reportDate": "2025-12-11",
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000164/cost-20251211.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000909832"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000909832",
+ "summaryEn": "Costco reported revenue of $95.7 billion for the quarter ended 30 August 2026, up 11.1% from a year earlier. Net income was $3.0 billion, up 14.9% from a year earlier. Free cash flow (operating cash flow less capital expenditure) was $2.5 billion."
 }

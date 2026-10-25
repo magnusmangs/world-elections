@@ -2,26 +2,35 @@
   "iso3": "CHE",
   "isoNumeric": "756",
   "name": "Switzerland",
+  "nameIs": "Sviss",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-10-24",
       "dateStatus": "expected",
       "type": "Federal (National Council and Council of States)",
-      "note": "200 National Council seats, PR by canton. Referendums also on 29 Nov 2026."
+      "typeIs": "Þingkosningar (þjóðarráðið og kantónuráðið)",
+      "note": "200 National Council seats, PR by canton. Referendums also on 29 Nov 2026.",
+      "noteIs": "200 sæti í þjóðarráðinu, hlutfallskosning eftir kantónum. Þjóðaratkvæðagreiðslur fara einnig fram 29. nóvember 2026."
     }
   ],
   "leaders": "Federal Council (seven-member collegial government)",
+  "leadersIs": "Sambandsráðið (sjö manna fjölskipuð ríkisstjórn)",
   "summary": "Switzerland is governed by a grand coalition of the four largest parties in the Federal Council. The Swiss People's Party won a record share in 2023.",
+  "summaryIs": "Í Sviss situr breið samsteypustjórn fjögurra stærstu flokkanna í sambandsráðinu. Svissneski þjóðarflokkurinn fékk metfylgi árið 2023.",
   "parties": [
     {
       "name": "Swiss People's Party",
+      "nameIs": "Svissneski þjóðarflokkurinn",
       "abbr": "SVP",
       "leader": "Marcel Dettling",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "National conservatism",
+      "ideologyIs": "Þjóðernisíhaldsstefna",
       "inGovernment": true,
       "lastResult": "27.9%, 62 seats (2023)",
+      "lastResultIs": "27,9%, 62 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Cap population at 10 million (initiative)",
@@ -29,23 +38,38 @@
         "Strict asylum policy",
         "Neutrality"
       ],
+      "policiesIs": [
+        "Íbúafjöldi verði takmarkaður við 10 milljónir (borgarafrumkvæði)",
+        "Efasemdir um nýjan samningapakka við ESB",
+        "Ströng stefna í hælismálum",
+        "Hlutleysi"
+      ],
       "seats": 62,
       "pollValue": 29.9,
       "color": "#3a8a3a"
     },
     {
       "name": "Social Democratic Party",
+      "nameIs": "Jafnaðarmannaflokkurinn",
       "abbr": "SP",
       "leader": "Mattea Meyer and Cédric Wermuth",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "18.3%, 41 seats (2023)",
+      "lastResultIs": "18,3%, 41 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Cap health insurance premiums at 10% of income",
         "Support EU bilateral package",
         "Higher taxes on large inheritances"
+      ],
+      "policiesIs": [
+        "Sjúkratryggingaiðgjöld verði að hámarki 10% af tekjum",
+        "Stuðningur við tvíhliða samningapakkann við ESB",
+        "Hærri skattar á stóran arf"
       ],
       "seats": 41,
       "pollValue": 19.3,
@@ -56,13 +80,20 @@
       "abbr": "Mitte",
       "leader": "Philipp Bregy",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Christian democracy",
+      "ideologyIs": "Kristilegt lýðræði",
       "inGovernment": true,
       "lastResult": "14.1%, 29 seats (2023)",
+      "lastResultIs": "14,1%, 29 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Family and pension reforms",
         "Compromise-oriented EU policy"
+      ],
+      "policiesIs": [
+        "Umbætur í fjölskyldu- og lífeyrismálum",
+        "Málamiðlunarstefna gagnvart ESB"
       ],
       "seats": 29,
       "pollValue": 12.6,
@@ -73,14 +104,22 @@
       "abbr": "FDP",
       "leader": "Co-presidents Susanne Vincenz-Stauffacher and Benjamin Mühlemann",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Classical liberalism",
+      "ideologyIs": "Klassísk frjálshyggja",
       "inGovernment": true,
       "lastResult": "14.3%, 28 seats (2023)",
+      "lastResultIs": "14,3%, 28 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Lower taxes and less regulation",
         "Individual taxation",
         "Fiscal brake"
+      ],
+      "policiesIs": [
+        "Lægri skattar og minna regluverk",
+        "Sérsköttun einstaklinga",
+        "Skuldabremsa"
       ],
       "seats": 28,
       "pollValue": 13.3,
@@ -88,16 +127,24 @@
     },
     {
       "name": "Green Party",
+      "nameIs": "Græningjar",
       "abbr": "GPS",
       "leader": "Lisa Mazzone",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Green politics",
+      "ideologyIs": "Græn stjórnmál",
       "inGovernment": false,
       "lastResult": "9.8%, 23 seats (2023)",
+      "lastResultIs": "9,8%, 23 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Climate protection and biodiversity",
         "Seat on the Federal Council"
+      ],
+      "policiesIs": [
+        "Loftslagsvernd og líffræðileg fjölbreytni",
+        "Sæti í sambandsráðinu"
       ],
       "seats": 23,
       "pollValue": 10.3,
@@ -105,16 +152,24 @@
     },
     {
       "name": "Green Liberal Party",
+      "nameIs": "Frjálslyndir græningjar",
       "abbr": "GLP",
       "leader": "Jürg Grossen",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Green liberalism",
+      "ideologyIs": "Græn frjálshyggja",
       "inGovernment": false,
       "lastResult": "7.6%, 10 seats (2023)",
+      "lastResultIs": "7,6%, 10 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Market-based climate policy",
         "Pro-EU integration"
+      ],
+      "policiesIs": [
+        "Markaðsdrifin loftslagsstefna",
+        "Hlynntur nánari Evrópusamruna"
       ],
       "seats": 10,
       "pollValue": 7.1,
@@ -127,15 +182,18 @@
   ],
   "chamber": {
     "name": "National Council",
+    "nameIs": "þjóðarráðið",
     "seats": 200,
     "majority": 101,
     "asOf": "as elected in October 2023",
+    "asOfIs": "samkvæmt kosningunum í október 2023",
     "source": "https://en.wikipedia.org/wiki/2023_Swiss_federal_election"
   },
   "poll": {
     "unit": "percent",
     "date": "2026-09-23",
     "pollster": "Sotomo for SRG (fieldwork 10–23 Sep)",
+    "pollsterIs": "Sotomo fyrir SRG (könnun gerð 10.–23. sept.)",
     "url": "https://www.bluewin.ch/en/news/srg-election-barometer-the-extremes-are-gaining-ground-while-the-political-center-is-losing-ground-li.3638419"
   }
 }

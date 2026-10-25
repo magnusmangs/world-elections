@@ -2,27 +2,37 @@
   "iso3": "USA",
   "isoNumeric": "840",
   "name": "United States",
+  "nameIs": "Bandaríkin",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-11-03",
       "dateStatus": "confirmed",
       "type": "Congressional midterms",
-      "note": "All 435 House seats and 35 Senate seats, plus 36 governorships."
+      "typeIs": "Þingkosningar á miðju kjörtímabili",
+      "note": "All 435 House seats and 35 Senate seats, plus 36 governorships.",
+      "noteIs": "Kosið um öll 435 sæti fulltrúadeildarinnar og 35 sæti í öldungadeildinni, auk 36 ríkisstjóraembætta."
     }
   ],
   "leaders": "President Donald Trump (Republican)",
+  "leadersIs": "Donald Trump forseti (Repúblikanaflokkurinn)",
   "summary": "Republicans control the White House and both chambers of Congress going into the midterms. Democrats lead the generic congressional ballot by about 7 points (Sept 2026 average).",
+  "summaryIs": "Repúblikanar ráða Hvíta húsinu og báðum deildum þingsins fyrir kosningarnar á miðju kjörtímabili. Demókratar mælast með um 7 stiga forskot þegar spurt er almennt hvorn flokkinn kjósendur styðji til þings (meðaltal í september 2026).",
   "parties": [
     {
       "name": "Republican Party",
+      "nameIs": "Repúblikanaflokkurinn",
       "abbr": "GOP",
       "leader": "Donald Trump (party leader); Joe Gruters (RNC chair)",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Conservatism, right-wing populism",
+      "ideologyIs": "Íhaldsstefna, hægripopúlismi",
       "inGovernment": true,
       "lastResult": "Won House and Senate majorities (2024)",
+      "lastResultIs": "Vann meirihluta í fulltrúadeild og öldungadeild (2024)",
       "polling": "Generic ballot ~42% (Sept 2026)",
+      "pollingIs": "Um 42% í almennri þingkönnun (sept. 2026)",
       "policies": [
         "Broad tariffs to re-industrialise the US",
         "Large-scale immigration enforcement and deportations",
@@ -30,25 +40,44 @@
         "Proof of citizenship to register to vote (SAVE Act)",
         "Extended tax cuts under the One Big Beautiful Bill Act"
       ],
+      "policiesIs": [
+        "Víðtækir tollar til að endurreisa iðnað í Bandaríkjunum",
+        "Umfangsmiklar aðgerðir gegn innflytjendum og brottvísanir",
+        "Ný kjördæmaskipan á miðjum áratug í nokkrum ríkjum",
+        "Krafa um sönnun á ríkisborgararétti við skráningu á kjörskrá (SAVE-lögin)",
+        "Framlengdar skattalækkanir samkvæmt One Big Beautiful Bill-lögunum"
+      ],
       "seats": 218,
       "pollValue": 41.9,
       "color": "#d22532"
     },
     {
       "name": "Democratic Party",
+      "nameIs": "Demókrataflokkurinn",
       "abbr": "DEM",
       "leader": "Hakeem Jeffries (House) and Chuck Schumer (Senate)",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Liberalism, progressivism",
+      "ideologyIs": "Frjálslyndisstefna, framfarastefna",
       "inGovernment": false,
       "lastResult": "Minority in House and Senate (2024)",
+      "lastResultIs": "Í minnihluta í fulltrúadeild og öldungadeild (2024)",
       "polling": "Generic ballot ~49% (Sept 2026)",
+      "pollingIs": "Um 49% í almennri þingkönnun (sept. 2026)",
       "policies": [
         "Focus on affordability and cost of living",
         "Oppose tariffs as inflationary",
         "Oppose ICE tactics and mass deportation methods",
         "Protect voting access and voter-roll privacy",
         "Defend health care subsidies and Medicaid"
+      ],
+      "policiesIs": [
+        "Áhersla á framfærslukostnað og verðlag",
+        "Andvígir tollum sem ýti undir verðbólgu",
+        "Andvígir aðferðum ICE og fjöldabrottvísunum",
+        "Vernda aðgengi að kosningum og persónuvernd á kjörskrám",
+        "Verja niðurgreiðslur í heilbrigðiskerfinu og Medicaid"
       ],
       "seats": 214,
       "pollValue": 48.8,
@@ -61,15 +90,18 @@
   ],
   "chamber": {
     "name": "House of Representatives",
+    "nameIs": "fulltrúadeildin",
     "seats": 435,
     "majority": 218,
     "asOf": "two seats vacant",
+    "asOfIs": "tvö sæti laus",
     "source": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
   },
   "poll": {
     "unit": "percent",
     "date": "2026-09-13",
     "pollster": "Generic congressional ballot, polling average (Decision Desk HQ, RealClearPolitics, Silver Bulletin and others)",
+    "pollsterIs": "Almenn þingkönnun, meðaltal kannana (Decision Desk HQ, RealClearPolitics, Silver Bulletin o.fl.)",
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
   }
 }

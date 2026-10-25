@@ -2,49 +2,75 @@
   "iso3": "GRC",
   "isoNumeric": "300",
   "name": "Greece",
+  "nameIs": "Grikkland",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-05-01",
       "dateStatus": "expected",
       "type": "Parliamentary",
-      "note": "300 seats; due before 25 July 2027. PM has pointed to spring 2027."
+      "typeIs": "Þingkosningar",
+      "note": "300 seats; due before 25 July 2027. PM has pointed to spring 2027.",
+      "noteIs": "300 sæti; kosningar skulu fara fram fyrir 25. júlí 2027. Forsætisráðherrann hefur nefnt vorið 2027."
     }
   ],
   "leaders": "Prime Minister Kyriakos Mitsotakis (New Democracy)",
+  "leadersIs": "Kyriakos Mitsotakis forsætisráðherra (Nýtt lýðræði)",
   "summary": "New Democracy leads polls at around 30%, far below its 2023 majority. Alexis Tsipras's new Greek Left Alliance (ELAS) is second, and Maria Karystianou's Elpida has entered the race.",
+  "summaryIs": "Nýtt lýðræði mælist með um 30% fylgi í könnunum, langt undir meirihlutanum sem flokkurinn vann 2023. Nýr flokkur Alexis Tsipras, Gríska vinstribandalagið (ELAS), er í öðru sæti og Elpida, flokkur Mariu Karystianou, hefur bæst í hópinn.",
   "parties": [
     {
       "name": "New Democracy",
+      "nameIs": "Nýtt lýðræði",
       "abbr": "ND",
       "leader": "Kyriakos Mitsotakis",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Liberal conservatism",
+      "ideologyIs": "Frjálslynd íhaldsstefna",
       "inGovernment": true,
       "lastResult": "40.6%, 158 seats (2023)",
+      "lastResultIs": "40,6%, 158 sæti (2023)",
       "polling": "~30% (MARC, Jun 2026)",
+      "pollingIs": "~30% (MARC, júní 2026)",
       "policies": [
         "Tax cuts and investment-led growth",
         "Defence modernisation",
         "Defends record after OPEKEPE farm-subsidy scandal",
         "Housing support for young people"
       ],
+      "policiesIs": [
+        "Skattalækkanir og fjárfestingadrifinn hagvöxtur",
+        "Nútímavæðing varnarmála",
+        "Ver verk sín eftir OPEKEPE-hneykslið um landbúnaðarstyrki",
+        "Húsnæðisstuðningur við ungt fólk"
+      ],
       "seats": 156,
       "color": "#1a5bad"
     },
     {
       "name": "Greek Left Alliance",
+      "nameIs": "Gríska vinstribandalagið",
       "abbr": "ELAS",
       "leader": "Alexis Tsipras",
       "position": "Centre-left to left",
+      "positionIs": "Mið-vinstri til vinstri",
       "ideology": "Progressivism, social democracy",
+      "ideologyIs": "Framfarastefna, jafnaðarstefna",
       "inGovernment": false,
       "lastResult": "New party",
+      "lastResultIs": "Nýr flokkur",
       "polling": "~16.5%",
+      "pollingIs": "~16,5%",
       "policies": [
         "Unite the fragmented centre-left",
         "Wages, pensions and cost of living",
         "Anti-corruption and institutional transparency"
+      ],
+      "policiesIs": [
+        "Sameina sundraða mið-vinstrið",
+        "Laun, lífeyrir og framfærslukostnaður",
+        "Barátta gegn spillingu og gagnsæi stofnana"
       ],
       "color": "#e83f6f"
     },
@@ -53,14 +79,23 @@
       "abbr": "PASOK",
       "leader": "Nikos Androulakis",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": false,
       "lastResult": "11.8%, 32 seats (2023)",
+      "lastResultIs": "11,8%, 32 sæti (2023)",
       "polling": "~10.5%",
+      "pollingIs": "~10,5%",
       "policies": [
         "Official opposition",
         "Stronger public health system",
         "Rule of law and anti-corruption"
+      ],
+      "policiesIs": [
+        "Í forystu stjórnarandstöðunnar",
+        "Öflugra opinbert heilbrigðiskerfi",
+        "Réttarríkið og barátta gegn spillingu"
       ],
       "seats": 32,
       "color": "#2d9c45"
@@ -71,46 +106,74 @@
       "leader": "Maria Karystianou",
       "position": "",
       "ideology": "Anti-establishment",
+      "ideologyIs": "Andstaða við ráðandi öfl",
       "inGovernment": false,
       "lastResult": "New party",
+      "lastResultIs": "Nýr flokkur",
       "polling": "~10.5%",
+      "pollingIs": "~10,5%",
       "policies": [
         "Justice and accountability over the 2023 Tempi rail disaster",
         "Anti-corruption",
         "Citizen-led politics"
       ],
+      "policiesIs": [
+        "Réttlæti og ábyrgð vegna Tempi-lestarslyssins 2023",
+        "Barátta gegn spillingu",
+        "Stjórnmál sprottin frá almennum borgurum"
+      ],
       "color": "#8e5bb5"
     },
     {
       "name": "Greek Solution",
+      "nameIs": "Gríska lausnin",
       "abbr": "EL",
       "leader": "Kyriakos Velopoulos",
       "position": "Far-right",
+      "positionIs": "Lengst til hægri",
       "ideology": "National conservatism",
+      "ideologyIs": "Þjóðleg íhaldsstefna",
       "inGovernment": false,
       "lastResult": "4.4%, 12 seats (2023)",
+      "lastResultIs": "4,4%, 12 sæti (2023)",
       "polling": "~7%",
+      "pollingIs": "~7%",
       "policies": [
         "Strict immigration control",
         "Orthodox Christian values",
         "Hard line toward Turkey"
+      ],
+      "policiesIs": [
+        "Strangt eftirlit með innflytjendum",
+        "Kristin gildi rétttrúnaðarkirkjunnar",
+        "Hörð afstaða gagnvart Tyrklandi"
       ],
       "seats": 11,
       "color": "#3f8fd2"
     },
     {
       "name": "Communist Party of Greece",
+      "nameIs": "Kommúnistaflokkur Grikklands",
       "abbr": "KKE",
       "leader": "Dimitris Koutsoumpas",
       "position": "Far-left",
+      "positionIs": "Lengst til vinstri",
       "ideology": "Marxism-Leninism",
+      "ideologyIs": "Marxismi-lenínismi",
       "inGovernment": false,
       "lastResult": "7.7%, 21 seats (2023)",
+      "lastResultIs": "7,7%, 21 sæti (2023)",
       "polling": "~6.5%",
+      "pollingIs": "~6,5%",
       "policies": [
         "Workers' rights and public ownership",
         "Exit from NATO and the EU",
         "Opposes privatisation"
+      ],
+      "policiesIs": [
+        "Réttindi launafólks og opinbert eignarhald",
+        "Úrsögn úr NATO og ESB",
+        "Andvígur einkavæðingu"
       ],
       "seats": 21,
       "color": "#c1121f"
@@ -120,13 +183,21 @@
       "abbr": "PE",
       "leader": "Zoe Konstantopoulou",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Left-wing populism",
+      "ideologyIs": "Vinstripopúlismi",
       "inGovernment": false,
       "lastResult": "3.2%, 8 seats (2023)",
+      "lastResultIs": "3,2%, 8 sæti (2023)",
       "polling": "~5%",
+      "pollingIs": "~5%",
       "policies": [
         "Anti-austerity",
         "Accountability for Tempi disaster"
+      ],
+      "policiesIs": [
+        "Gegn aðhaldsaðgerðum",
+        "Ábyrgð vegna Tempi-slyssins"
       ],
       "seats": 5,
       "color": "#7b1e3a"
@@ -139,9 +210,11 @@
   ],
   "chamber": {
     "name": "Hellenic Parliament",
+    "nameIs": "gríska þingið",
     "seats": 300,
     "majority": 151,
     "asOf": "others: 40 independents, Syriza 24, Niki 8",
+    "asOfIs": "aðrir: 40 óháðir, Syriza 24, Niki 8",
     "source": "https://en.wikipedia.org/wiki/Next_Greek_parliamentary_election"
   }
 }

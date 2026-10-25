@@ -2,32 +2,48 @@
   "iso3": "ITA",
   "isoNumeric": "380",
   "name": "Italy",
+  "nameIs": "Ítalía",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-12-22",
       "dateStatus": "expected",
       "type": "General (Chamber and Senate)",
-      "note": "Latest legal date 22 December 2027. New majority-bonus electoral law adopted October 2026."
+      "typeIs": "Þingkosningar (fulltrúadeild og öldungadeild)",
+      "note": "Latest legal date 22 December 2027. New majority-bonus electoral law adopted October 2026.",
+      "noteIs": "Kjósa þarf í síðasta lagi 22. desember 2027. Ný kosningalög með meirihlutabónus voru samþykkt í október 2026."
     }
   ],
   "leaders": "Prime Minister Giorgia Meloni (Brothers of Italy); President Sergio Mattarella",
+  "leadersIs": "Giorgia Meloni forsætisráðherra (Bræður Ítalíu); Sergio Mattarella forseti",
   "summary": "Meloni's centre-right coalition has governed since 2022 and still leads polls. A new electoral law with a majority bonus for both houses was adopted in October 2026.",
+  "summaryIs": "Mið-hægristjórn Meloni hefur verið við völd frá 2022 og er enn með forystu í könnunum. Ný kosningalög sem veita meirihlutabónus í báðum þingdeildum voru samþykkt í október 2026.",
   "parties": [
     {
       "name": "Brothers of Italy",
+      "nameIs": "Bræður Ítalíu",
       "abbr": "FdI",
       "leader": "Giorgia Meloni",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "National conservatism",
+      "ideologyIs": "Þjóðleg íhaldsstefna",
       "inGovernment": true,
       "lastResult": "26.0% (2022)",
+      "lastResultIs": "26,0% (2022)",
       "polling": "~27%",
+      "pollingIs": "~27%",
       "policies": [
         "Direct election of the prime minister (premierato)",
         "Strict migration policy and offshore processing",
         "Tax cuts for middle incomes",
         "Justice reform separating judges and prosecutors"
+      ],
+      "policiesIs": [
+        "Bein kosning forsætisráðherra (premierato)",
+        "Ströng innflytjendastefna og afgreiðsla hælisumsókna utan landsteinanna",
+        "Skattalækkanir fyrir millitekjuhópa",
+        "Umbætur á réttarkerfinu sem aðskilja dómara og saksóknara"
       ],
       "seats": 116,
       "pollValue": 26.8,
@@ -35,17 +51,27 @@
     },
     {
       "name": "Democratic Party",
+      "nameIs": "Lýðræðisflokkurinn",
       "abbr": "PD",
       "leader": "Elly Schlein",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": false,
       "lastResult": "19.1% (2022)",
+      "lastResultIs": "19,1% (2022)",
       "polling": "~21%",
+      "pollingIs": "~21%",
       "policies": [
         "Statutory minimum wage",
         "More public health funding",
         "Leads centre-left coalition"
+      ],
+      "policiesIs": [
+        "Lögbundin lágmarkslaun",
+        "Aukið fé til opinberrar heilbrigðisþjónustu",
+        "Leiðir bandalag mið-vinstriflokka"
       ],
       "seats": 71,
       "pollValue": 21.2,
@@ -53,17 +79,27 @@
     },
     {
       "name": "Five Star Movement",
+      "nameIs": "Fimm stjörnu hreyfingin",
       "abbr": "M5S",
       "leader": "Giuseppe Conte",
       "position": "Big tent, centre-left aligned",
+      "positionIs": "Breið fylking, hallast að mið-vinstri",
       "ideology": "Populism",
+      "ideologyIs": "Lýðhyggja",
       "inGovernment": false,
       "lastResult": "15.4% (2022)",
+      "lastResultIs": "15,4% (2022)",
       "polling": "~13%",
+      "pollingIs": "~13%",
       "policies": [
         "Citizens' income-style welfare",
         "Opposes higher military spending",
         "Anti-corruption"
+      ],
+      "policiesIs": [
+        "Velferðarkerfi í anda borgaralauna",
+        "Andvíg auknum útgjöldum til hermála",
+        "Barátta gegn spillingu"
       ],
       "seats": 48,
       "pollValue": 12.6,
@@ -74,14 +110,23 @@
       "abbr": "FI",
       "leader": "Antonio Tajani",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Liberal conservatism",
+      "ideologyIs": "Frjálslynd íhaldsstefna",
       "inGovernment": true,
       "lastResult": "8.1% (2022)",
+      "lastResultIs": "8,1% (2022)",
       "polling": "~7.5%",
+      "pollingIs": "~7,5%",
       "policies": [
         "Pro-European centre-right",
         "Lower taxes",
         "Coalition partner"
+      ],
+      "policiesIs": [
+        "Evrópusinnaður mið-hægriflokkur",
+        "Lægri skattar",
+        "Aðili að stjórnarsamstarfinu"
       ],
       "seats": 54,
       "pollValue": 7.5,
@@ -92,13 +137,21 @@
       "abbr": "FN",
       "leader": "Roberto Vannacci",
       "position": "Far-right",
+      "positionIs": "Lengst til hægri",
       "ideology": "National conservatism",
+      "ideologyIs": "Þjóðleg íhaldsstefna",
       "inGovernment": false,
       "lastResult": "New party (2026)",
+      "lastResultIs": "Nýr flokkur (2026)",
       "polling": "~7%",
+      "pollingIs": "~7%",
       "policies": [
         "Split from the League",
         "Hard line on immigration and identity"
+      ],
+      "policiesIs": [
+        "Klauf sig úr Bandalaginu (Lega)",
+        "Hörð afstaða í innflytjenda- og sjálfsmyndarmálum"
       ],
       "seats": 9,
       "pollValue": 7.4,
@@ -106,17 +159,27 @@
     },
     {
       "name": "Greens and Left Alliance",
+      "nameIs": "Bandalag græningja og vinstrimanna",
       "abbr": "AVS",
       "leader": "Angelo Bonelli and Nicola Fratoianni",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Green politics, eco-socialism",
+      "ideologyIs": "Græn stjórnmál, vistsósíalismi",
       "inGovernment": false,
       "lastResult": "3.6% (2022)",
+      "lastResultIs": "3,6% (2022)",
       "polling": "~6%",
+      "pollingIs": "~6%",
       "policies": [
         "Climate action",
         "Wealth taxation",
         "Part of centre-left coalition"
+      ],
+      "policiesIs": [
+        "Aðgerðir í loftslagsmálum",
+        "Skattlagning auðs",
+        "Hluti af bandalagi mið-vinstriflokka"
       ],
       "seats": 10,
       "pollValue": 6.4,
@@ -124,17 +187,27 @@
     },
     {
       "name": "League",
+      "nameIs": "Bandalagið",
       "abbr": "Lega",
       "leader": "Matteo Salvini",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Right-wing populism, regionalism",
+      "ideologyIs": "Hægrisinnuð lýðhyggja, svæðishyggja",
       "inGovernment": true,
       "lastResult": "8.8% (2022)",
+      "lastResultIs": "8,8% (2022)",
       "polling": "~6%",
+      "pollingIs": "~6%",
       "policies": [
         "Regional autonomy",
         "Strict immigration policy",
         "Strait of Messina bridge"
+      ],
+      "policiesIs": [
+        "Aukin sjálfstjórn héraða",
+        "Ströng innflytjendastefna",
+        "Brú yfir Messínasund"
       ],
       "seats": 57,
       "pollValue": 5.6,
@@ -146,16 +219,20 @@
   ],
   "chamber": {
     "name": "Chamber of Deputies",
+    "nameIs": "fulltrúadeildin",
     "seats": 400,
     "majority": 201,
     "asOf": "by party; others mostly in the mixed group",
+    "asOfIs": "eftir flokkum; aðrir flestir í blandaða þingflokknum",
     "source": "https://en.wikipedia.org/wiki/Next_Italian_general_election"
   },
   "poll": {
     "unit": "percent",
     "date": "2026-10-08",
     "pollster": "Doppia Cifra",
+    "pollsterIs": "Doppia Cifra",
     "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Italian_general_election",
-    "note": "Azione 3.0%, Italia Viva 2.4%."
+    "note": "Azione 3.0%, Italia Viva 2.4%.",
+    "noteIs": "Azione 3,0%, Italia Viva 2,4%."
   }
 }

@@ -2,19 +2,25 @@
  "iso3": "FSM",
  "isoNumeric": "583",
  "name": "Micronesia",
+ "nameIs": "Míkrónesía",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-03-02",
    "dateStatus": "tentative",
    "type": "Parliamentary (Congress)",
-   "note": "14 seats. The president is then elected by Congress."
+   "typeIs": "Þingkosningar (þjóðþingið)",
+   "note": "14 seats. The president is then elected by Congress.",
+   "noteIs": "14 sæti. Þingið kýs síðan forsetann."
   }
  ],
  "leaders": "President Wesley Simina",
+ "leadersIs": "Wesley Simina forseti",
  "summary": "Micronesia has no political parties; all candidates run as independents.",
+ "summaryIs": "Engir stjórnmálaflokkar eru í Míkrónesíu; allir frambjóðendur bjóða sig fram sem óháðir.",
  "parties": [],
  "noParties": "No political parties exist. Candidates stand as independents.",
+ "noPartiesIs": "Engir stjórnmálaflokkar eru starfandi. Frambjóðendur bjóða sig fram sem óháðir.",
  "sources": [
   "https://www.electionguide.org/elections/type/upcoming/"
  ]

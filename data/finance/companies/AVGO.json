@@ -353,7 +353,8 @@
    "accession": "0001730168-26-000080",
    "reportDate": "2026-08-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -361,7 +362,8 @@
    "accession": "0001730168-26-000076",
    "reportDate": "2026-09-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -369,7 +371,8 @@
    "accession": "0001730168-26-000054",
    "reportDate": "2026-05-03",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -377,7 +380,8 @@
    "accession": "0001730168-26-000051",
    "reportDate": "2026-06-03",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -385,7 +389,8 @@
    "accession": "0001730168-26-000016",
    "reportDate": "2026-02-01",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -393,7 +398,8 @@
    "accession": "0001730168-26-000011",
    "reportDate": "2026-03-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-20260304.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -401,7 +407,8 @@
    "accession": "0001730168-25-000121",
    "reportDate": "2025-11-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -409,8 +416,10 @@
    "accession": "0001730168-25-000116",
    "reportDate": "2025-12-11",
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-20251211.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001730168"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001730168",
+ "summaryEn": "Broadcom reported revenue of $29.6 billion for the quarter ended 2 August 2026, up 85.5% from a year earlier. Net income was $13.1 billion, up 216.1% from a year earlier. Diluted earnings per share were $2.68. Free cash flow (operating cash flow less capital expenditure) was $13.7 billion."
 }

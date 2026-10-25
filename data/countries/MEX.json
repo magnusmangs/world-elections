@@ -2,31 +2,44 @@
   "iso3": "MEX",
   "isoNumeric": "484",
   "name": "Mexico",
+  "nameIs": "Mexíkó",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-06-06",
       "dateStatus": "confirmed",
       "type": "Legislative (Chamber of Deputies) and state elections",
-      "note": "All 500 deputies for 2027–2030."
+      "typeIs": "Þingkosningar (fulltrúadeild) og fylkiskosningar",
+      "note": "All 500 deputies for 2027–2030.",
+      "noteIs": "Kosið um alla 500 fulltrúa fyrir kjörtímabilið 2027–2030."
     }
   ],
   "leaders": "President Claudia Sheinbaum (Morena)",
+  "leadersIs": "Claudia Sheinbaum forseti (Morena)",
   "summary": "The midterm is the first test for President Sheinbaum. The Morena-led coalition won a supermajority in 2024, and the opposition PAN and PRI will run separately.",
+  "summaryIs": "Kosningarnar á miðju kjörtímabili eru fyrsta prófraun Sheinbaum forseta. Bandalag undir forystu Morena vann aukinn meirihluta árið 2024 og stjórnarandstöðuflokkarnir PAN og PRI bjóða fram hvor í sínu lagi.",
   "parties": [
     {
       "name": "Morena",
       "abbr": "MORENA",
       "leader": "Ariadna Montiel Reyes",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Left-wing populism",
+      "ideologyIs": "Vinstrisinnuð lýðhyggja",
       "inGovernment": true,
       "lastResult": "236 seats (2024)",
+      "lastResultIs": "236 sæti (2024)",
       "polling": "",
       "policies": [
         "Continue the 'Fourth Transformation' social programmes",
         "Backed the 2024 judicial reform",
         "Electoral reform reducing autonomous bodies"
+      ],
+      "policiesIs": [
+        "Halda áfram félagslegum áætlunum „fjórðu umbreytingarinnar“",
+        "Studdi dómskerfisumbæturnar 2024",
+        "Kosningaumbætur sem draga úr vægi sjálfstæðra stofnana"
       ],
       "seats": 236,
       "color": "#a6192e"
@@ -36,14 +49,22 @@
       "abbr": "PAN",
       "leader": "Jorge Romero Herrera",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Conservatism, Christian democracy",
+      "ideologyIs": "Íhaldsstefna, kristileg lýðræðisstefna",
       "inGovernment": false,
       "lastResult": "72 seats (2024)",
+      "lastResultIs": "72 sæti (2024)",
       "polling": "",
       "policies": [
         "Runs without the PRI",
         "Security and rule of law",
         "Defend independent institutions"
+      ],
+      "policiesIs": [
+        "Býður fram án PRI",
+        "Öryggi og réttarríkið",
+        "Standa vörð um sjálfstæðar stofnanir"
       ],
       "seats": 72,
       "color": "#0055a5"
@@ -54,60 +75,90 @@
       "leader": "Karen Castrejón",
       "position": "",
       "ideology": "Green politics (nominal)",
+      "ideologyIs": "Græn stjórnmál (að nafninu til)",
       "inGovernment": true,
       "lastResult": "77 seats (2024)",
+      "lastResultIs": "77 sæti (2024)",
       "polling": "",
       "policies": [
         "Ruling coalition partner",
         "Opposed the 2026 electoral reform"
+      ],
+      "policiesIs": [
+        "Aðili að stjórnarbandalaginu",
+        "Lagðist gegn kosningaumbótunum 2026"
       ],
       "seats": 77,
       "color": "#50b747"
     },
     {
       "name": "Labor Party",
+      "nameIs": "Verkamannaflokkurinn",
       "abbr": "PT",
       "leader": "Alberto Anaya",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Socialism",
+      "ideologyIs": "Sósíalismi",
       "inGovernment": true,
       "lastResult": "51 seats (2024)",
+      "lastResultIs": "51 sæti (2024)",
       "polling": "",
       "policies": [
         "Ruling coalition partner",
         "Opposed the 2026 electoral reform"
+      ],
+      "policiesIs": [
+        "Aðili að stjórnarbandalaginu",
+        "Lagðist gegn kosningaumbótunum 2026"
       ],
       "seats": 51,
       "color": "#d52b1e"
     },
     {
       "name": "Institutional Revolutionary Party",
+      "nameIs": "Stofnanabundni byltingarflokkurinn",
       "abbr": "PRI",
       "leader": "Alejandro Moreno",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Big tent",
+      "ideologyIs": "Breið fylking",
       "inGovernment": false,
       "lastResult": "35 seats (2024)",
+      "lastResultIs": "35 sæti (2024)",
       "polling": "",
       "policies": [
         "Sought a united opposition front",
         "Runs alone after split with PAN"
+      ],
+      "policiesIs": [
+        "Sóttist eftir sameinaðri fylkingu stjórnarandstöðunnar",
+        "Býður fram einn eftir klofning frá PAN"
       ],
       "seats": 35,
       "color": "#00843d"
     },
     {
       "name": "Citizens' Movement",
+      "nameIs": "Borgarahreyfingin",
       "abbr": "MC",
       "leader": "Jorge Máynez",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy, progressivism",
+      "ideologyIs": "Jafnaðarstefna, framfarastefna",
       "inGovernment": false,
       "lastResult": "27 seats (2024)",
+      "lastResultIs": "27 sæti (2024)",
       "polling": "",
       "policies": [
         "Rejects alliances with old parties",
         "Progressive urban platform"
+      ],
+      "policiesIs": [
+        "Hafnar bandalögum við gömlu flokkana",
+        "Framsækin stefna með áherslu á borgir"
       ],
       "seats": 27,
       "color": "#ff8300"
@@ -118,9 +169,11 @@
   ],
   "chamber": {
     "name": "Chamber of Deputies",
+    "nameIs": "fulltrúadeildin",
     "seats": 500,
     "majority": 251,
     "asOf": "as elected in June 2024",
+    "asOfIs": "eins og kjörið var í júní 2024",
     "source": "https://en.wikipedia.org/wiki/2024_Mexican_general_election"
   }
 }

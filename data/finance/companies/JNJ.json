@@ -327,7 +327,8 @@
    "accession": "0000200406-26-000197",
    "reportDate": "2026-09-27",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -335,7 +336,8 @@
    "accession": "0000200406-26-000189",
    "reportDate": "2026-10-13",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/jnj-20261013.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -343,7 +345,8 @@
    "accession": "0000200406-26-000153",
    "reportDate": "2026-06-28",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000153/jnj-20260628.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -351,7 +354,8 @@
    "accession": "0000200406-26-000146",
    "reportDate": "2026-07-15",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000146/jnj-20260715.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -359,7 +363,8 @@
    "accession": "0000200406-26-000087",
    "reportDate": "2026-03-29",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000087/jnj-20260329.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -367,7 +372,8 @@
    "accession": "0000200406-26-000076",
    "reportDate": "2026-04-14",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000076/jnj-20260414.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -375,7 +381,8 @@
    "accession": "0000200406-26-000016",
    "reportDate": "2025-12-28",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -383,8 +390,10 @@
    "accession": "0000200406-26-000002",
    "reportDate": "2026-01-21",
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000002/jnj-20260121.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000200406"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000200406",
+ "summaryEn": "Johnson & Johnson reported revenue of $25.4 billion for the quarter ended 27 September 2026, up 5.9% from a year earlier. Net income was $210 million, down 95.9% from a year earlier. Diluted earnings per share were $0.09. Free cash flow (operating cash flow less capital expenditure) was $6.4 billion."
 }

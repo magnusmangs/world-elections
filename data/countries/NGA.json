@@ -2,31 +2,44 @@
  "iso3": "NGA",
  "isoNumeric": "566",
  "name": "Nigeria",
+ "nameIs": "Nígería",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-01-16",
    "dateStatus": "confirmed",
    "type": "General (presidential and National Assembly)",
-   "note": "Moved forward from 20 February 2027 under the Electoral Act 2026."
+   "typeIs": "Forseta- og þingkosningar",
+   "note": "Moved forward from 20 February 2027 under the Electoral Act 2026.",
+   "noteIs": "Flýtt frá 20. febrúar 2027 samkvæmt kosningalögum frá 2026."
   }
  ],
  "leaders": "President Bola Tinubu (APC)",
+ "leadersIs": "Bola Tinubu forseti (APC)",
  "summary": "President Tinubu seeks a second term. Much of the opposition has coordinated through the African Democratic Congress, though Peter Obi runs on a separate ticket with Rabiu Kwankwaso.",
+ "summaryIs": "Tinubu forseti sækist eftir öðru kjörtímabili. Stór hluti stjórnarandstöðunnar hefur fylkt sér um African Democratic Congress (ADC), en Peter Obi býður sig fram sér ásamt Rabiu Kwankwaso.",
  "parties": [
   {
    "name": "Bola Tinubu (All Progressives Congress)",
    "abbr": "APC",
    "leader": "Bola Tinubu",
    "position": "Centre-right",
+   "positionIs": "Mið-hægri",
    "ideology": "Conservatism, big tent",
+   "ideologyIs": "Íhaldsstefna, breið fylking",
    "inGovernment": true,
    "lastResult": "36.6% (2023)",
+   "lastResultIs": "36,6% (2023)",
    "polling": "",
    "policies": [
     "Defends fuel-subsidy removal and currency unification as necessary reforms",
     "Tax reform and infrastructure spending",
     "Running mate: Kashim Shettima"
+   ],
+   "policiesIs": [
+    "Ver afnám eldsneytisniðurgreiðslna og sameiningu gengis sem nauðsynlegar umbætur",
+    "Skattaumbætur og fjárfesting í innviðum",
+    "Varaforsetaefni: Kashim Shettima"
    ]
   },
   {
@@ -34,15 +47,24 @@
    "abbr": "ADC",
    "leader": "Atiku Abubakar",
    "position": "Centre-right",
+   "positionIs": "Mið-hægri",
    "ideology": "Liberal conservatism, opposition coalition",
+   "ideologyIs": "Frjálslynd íhaldsstefna, bandalag stjórnarandstöðu",
    "inGovernment": false,
    "lastResult": "29.1% (2023, as PDP)",
+   "lastResultIs": "29,1% (2023, fyrir PDP)",
    "polling": "",
    "policies": [
     "Opposition coalition candidate",
     "Criticises cost-of-living crisis under Tinubu",
     "Restructuring and greater devolution",
     "Running mate: Rotimi Amaechi"
+   ],
+   "policiesIs": [
+    "Frambjóðandi bandalags stjórnarandstöðunnar",
+    "Gagnrýnir framfærslukreppuna í stjórnartíð Tinubu",
+    "Endurskipulagning ríkisins og aukin valddreifing",
+    "Varaforsetaefni: Rotimi Amaechi"
    ]
   },
   {
@@ -50,15 +72,24 @@
    "abbr": "NDC",
    "leader": "Peter Obi",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy, reformism",
+   "ideologyIs": "Jafnaðarstefna, umbótastefna",
    "inGovernment": false,
    "lastResult": "25.4% (2023, as Labour Party)",
+   "lastResultIs": "25,4% (2023, fyrir Verkamannaflokkinn)",
    "polling": "",
    "policies": [
     "Shift from consumption to production economy",
     "Anti-corruption and cutting cost of governance",
     "Strong youth support base",
     "Running mate: Rabiu Kwankwaso"
+   ],
+   "policiesIs": [
+    "Færa hagkerfið frá neyslu til framleiðslu",
+    "Barátta gegn spillingu og lægri kostnaður við stjórnsýslu",
+    "Sterkur stuðningur meðal ungs fólks",
+    "Varaforsetaefni: Rabiu Kwankwaso"
    ]
   },
   {
@@ -69,10 +100,15 @@
    "ideology": "",
    "inGovernment": false,
    "lastResult": "Sitting Oyo State governor",
+   "lastResultIs": "Sitjandi fylkisstjóri í Oyo",
    "polling": "",
    "policies": [
     "Campaigns on his record as Oyo governor",
     "Platform details limited"
+   ],
+   "policiesIs": [
+    "Byggir baráttuna á ferli sínum sem fylkisstjóri í Oyo",
+    "Takmarkaðar upplýsingar um stefnumál"
    ]
   }
  ],

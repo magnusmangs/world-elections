@@ -2,32 +2,48 @@
   "iso3": "ESP",
   "isoNumeric": "724",
   "name": "Spain",
+  "nameIs": "Spánn",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-11-29",
       "dateStatus": "confirmed",
       "type": "General election (snap)",
-      "note": "Congress of Deputies (350) and Senate."
+      "typeIs": "Þingkosningar (snemmbúnar)",
+      "note": "Congress of Deputies (350) and Senate.",
+      "noteIs": "Fulltrúadeildin (350) og öldungadeildin."
     }
   ],
   "leaders": "Prime Minister Pedro Sánchez (PSOE); King Felipe VI",
+  "leadersIs": "Pedro Sánchez forsætisráðherra (PSOE); Filippus VI. konungur",
   "summary": "Sánchez dissolved parliament on 6 October 2026 after Junts, PP and Vox defeated his housing relief package. Housing affordability is the central campaign issue.",
+  "summaryIs": "Sánchez rauf þing 6. október 2026 eftir að Junts, PP og Vox felldu aðgerðapakka hans í húsnæðismálum. Húsnæðiskostnaður er helsta mál kosningabaráttunnar.",
   "parties": [
     {
       "name": "People's Party",
+      "nameIs": "Lýðflokkurinn",
       "abbr": "PP",
       "leader": "Alberto Núñez Feijóo",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Conservatism, Christian democracy",
+      "ideologyIs": "Íhaldsstefna, kristilegt lýðræði",
       "inGovernment": false,
       "lastResult": "33.1%, 137 seats (2023)",
+      "lastResultIs": "33,1%, 137 þingsæti (2023)",
       "polling": "~33% (Oct 2026)",
+      "pollingIs": "~33% (okt. 2026)",
       "policies": [
         "Tax cuts and fiscal discipline",
         "Tighter immigration control",
         "Anti-corruption focus on government scandals",
         "Reform of postal voting safeguards"
+      ],
+      "policiesIs": [
+        "Skattalækkanir og aðhald í ríkisfjármálum",
+        "Hert eftirlit með innflytjendum",
+        "Barátta gegn spillingu með áherslu á hneykslismál stjórnarinnar",
+        "Umbætur á öryggisráðstöfunum við póstkosningu"
       ],
       "seats": 137,
       "pollValue": 31.9,
@@ -35,18 +51,29 @@
     },
     {
       "name": "Spanish Socialist Workers' Party",
+      "nameIs": "Sósíalíski verkamannaflokkurinn",
       "abbr": "PSOE",
       "leader": "Pedro Sánchez",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "31.7%, 121 seats (2023)",
+      "lastResultIs": "31,7%, 121 þingsæti (2023)",
       "polling": "~26% (Oct 2026)",
+      "pollingIs": "~26% (okt. 2026)",
       "policies": [
         "Housing relief package and rent controls",
         "Defends the 2024 amnesty law",
         "Recognition of Palestine",
         "Expanded labour and social rights"
+      ],
+      "policiesIs": [
+        "Aðgerðapakki í húsnæðismálum og leiguþak",
+        "Ver sakaruppgjafarlögin frá 2024",
+        "Viðurkenning á Palestínu",
+        "Aukin réttindi á vinnumarkaði og félagsleg réttindi"
       ],
       "seats": 121,
       "pollValue": 28.1,
@@ -57,15 +84,25 @@
       "abbr": "Vox",
       "leader": "Santiago Abascal",
       "position": "Far-right",
+      "positionIs": "Lengst til hægri",
       "ideology": "National conservatism, right-wing populism",
+      "ideologyIs": "Þjóðernisíhaldsstefna, hægripopúlismi",
       "inGovernment": false,
       "lastResult": "12.4%, 33 seats (2023)",
+      "lastResultIs": "12,4%, 33 þingsæti (2023)",
       "polling": "~18–19% (Oct 2026)",
+      "pollingIs": "~18–19% (okt. 2026)",
       "policies": [
         "Strict immigration and 'national priority' rules",
         "Oppose amnesty and Catalan independence",
         "Recentralise powers from the regions",
         "Oppose the 'Grandchildren Law' on nationality"
+      ],
+      "policiesIs": [
+        "Ströng innflytjendastefna og reglur um „forgang landsmanna“",
+        "Andstaða við sakaruppgjöf og sjálfstæði Katalóníu",
+        "Völd færð frá héruðunum aftur til ríkisins",
+        "Andstaða við „barnabarnalögin“ um ríkisborgararétt"
       ],
       "seats": 33,
       "pollValue": 18.9,
@@ -73,18 +110,29 @@
     },
     {
       "name": "Broad Front (ex-Sumar)",
+      "nameIs": "Breiðfylkingin (áður Sumar)",
       "abbr": "FA",
       "leader": "To be confirmed",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Progressivism, green politics",
+      "ideologyIs": "Framfarastefna, græn stjórnmál",
       "inGovernment": true,
       "lastResult": "Sumar 12.3%, 31 seats (2023)",
+      "lastResultIs": "Sumar 12,3%, 31 þingsæti (2023)",
       "polling": "~6% (Oct 2026)",
+      "pollingIs": "~6% (okt. 2026)",
       "policies": [
         "Housing as a public right",
         "Stronger labour protections",
         "Climate action",
         "Unite parties to the left of PSOE"
+      ],
+      "policiesIs": [
+        "Húsnæði sem almannaréttur",
+        "Aukin vernd launafólks",
+        "Aðgerðir í loftslagsmálum",
+        "Sameining flokka vinstra megin við PSOE"
       ],
       "seats": 31,
       "color": "#e51c55"
@@ -94,14 +142,22 @@
       "abbr": "Podemos",
       "leader": "Irene Montero",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Left-wing populism, democratic socialism",
+      "ideologyIs": "Vinstripopúlismi, lýðræðislegur sósíalismi",
       "inGovernment": false,
       "lastResult": "Within Sumar (2023)",
+      "lastResultIs": "Bauð fram innan Sumar (2023)",
       "polling": "",
       "policies": [
         "Left alternative to PSOE",
         "Expanded welfare and public housing",
         "Oppose higher defence spending"
+      ],
+      "policiesIs": [
+        "Vinstri valkostur við PSOE",
+        "Aukin velferð og félagslegt húsnæði",
+        "Andstaða við aukin útgjöld til varnarmála"
       ],
       "color": "#6b2e68"
     },
@@ -110,14 +166,22 @@
       "abbr": "Junts",
       "leader": "Carles Puigdemont (party); Míriam Nogueras (Congress)",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Catalan independence",
+      "ideologyIs": "Sjálfstæði Katalóníu",
       "inGovernment": false,
       "lastResult": "1.6%, 7 seats (2023)",
+      "lastResultIs": "1,6%, 7 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Catalan self-determination",
         "Greater fiscal autonomy for Catalonia",
         "Opposed the housing relief package"
+      ],
+      "policiesIs": [
+        "Sjálfsákvörðunarréttur Katalóníu",
+        "Aukið fjárhagslegt sjálfræði Katalóníu",
+        "Lagðist gegn aðgerðapakkanum í húsnæðismálum"
       ],
       "seats": 7,
       "color": "#00c3b2"
@@ -128,16 +192,20 @@
   ],
   "chamber": {
     "name": "Congress of Deputies",
+    "nameIs": "fulltrúadeildin",
     "seats": 350,
     "majority": 176,
     "asOf": "as elected in July 2023; Broad Front shows the Sumar list, which included Podemos",
+    "asOfIs": "samkvæmt kosningunum í júlí 2023; tölur Breiðfylkingarinnar eiga við lista Sumar, sem Podemos átti aðild að",
     "source": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
   },
   "poll": {
     "unit": "percent",
     "date": "2026-10-09",
     "pollster": "40dB for El País and Cadena SER",
+    "pollsterIs": "40dB fyrir El País og Cadena SER",
     "url": "https://www.esdiario.com/nacional/261009/199828/tres-encuestas-dan-mayoria-pp-vox-ivan-redondo-agarra-clavo-ardiendo-sanchez.html",
-    "note": "Smaller parties not reported."
+    "note": "Smaller parties not reported.",
+    "noteIs": "Fylgi minni flokka ekki birt."
   }
 }

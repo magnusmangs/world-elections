@@ -2,31 +2,44 @@
   "iso3": "AGO",
   "isoNumeric": "024",
   "name": "Angola",
+  "nameIs": "Angóla",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-08-24",
       "dateStatus": "expected",
       "type": "General (National Assembly; head of list becomes president)",
-      "note": "220 seats. President Lourenço is term-limited."
+      "typeIs": "Þingkosningar (þjóðþingið; efsti maður á lista verður forseti)",
+      "note": "220 seats. President Lourenço is term-limited.",
+      "noteIs": "220 þingsæti. Lourenço forseti hefur setið eins lengi og stjórnarskráin leyfir."
     }
   ],
   "leaders": "President João Lourenço (MPLA)",
+  "leadersIs": "João Lourenço forseti (MPLA)",
   "summary": "The MPLA has governed since independence in 1975. In 2022 it won its narrowest victory, and João Lourenço cannot seek a third term.",
+  "summaryIs": "MPLA hefur verið við völd frá því að landið fékk sjálfstæði árið 1975. Flokkurinn vann sinn naumasta sigur árið 2022 og João Lourenço getur ekki boðið sig fram til þriðja kjörtímabils.",
   "parties": [
     {
       "name": "MPLA",
       "abbr": "MPLA",
       "leader": "João Lourenço (successor as list head to be chosen)",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy (formerly Marxist-Leninist)",
+      "ideologyIs": "Jafnaðarstefna (áður marxismi-lenínismi)",
       "inGovernment": true,
       "lastResult": "51.2%, 124 seats (2022)",
+      "lastResultIs": "51,2%, 124 þingsæti (2022)",
       "polling": "",
       "policies": [
         "Economic diversification away from oil",
         "Infrastructure such as the Lobito Corridor",
         "Anti-corruption campaign targeting the dos Santos era"
+      ],
+      "policiesIs": [
+        "Fjölbreyttara efnahagslíf sem reiðir sig minna á olíu",
+        "Innviðauppbygging á borð við Lobito-ganginn",
+        "Barátta gegn spillingu sem beinist að valdatíð dos Santos"
       ],
       "seats": 124,
       "color": "#d4121e"
@@ -36,14 +49,22 @@
       "abbr": "UNITA",
       "leader": "Adalberto Costa Júnior",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Conservatism, nationalism",
+      "ideologyIs": "Íhaldsstefna, þjóðernishyggja",
       "inGovernment": false,
       "lastResult": "43.9%, 90 seats (2022)",
+      "lastResultIs": "43,9%, 90 þingsæti (2022)",
       "polling": "",
       "policies": [
         "Electoral transparency and an independent commission",
         "Local (autarchic) elections",
         "Cost-of-living and fuel price relief"
+      ],
+      "policiesIs": [
+        "Gagnsæjar kosningar og óháð kjörstjórn",
+        "Sveitarstjórnarkosningar",
+        "Aðgerðir vegna framfærslukostnaðar og eldsneytisverðs"
       ],
       "seats": 90,
       "color": "#1f7a3a"
@@ -54,11 +75,16 @@
       "leader": "Benedito Daniel",
       "position": "",
       "ideology": "Federalism",
+      "ideologyIs": "Sambandsríkishyggja",
       "inGovernment": false,
       "lastResult": "1.1%, 2 seats (2022)",
+      "lastResultIs": "1,1%, 2 þingsæti (2022)",
       "polling": "",
       "policies": [
         "Federal system for Angola"
+      ],
+      "policiesIs": [
+        "Sambandsríki í Angóla"
       ],
       "seats": 2,
       "color": "#f2c200"
@@ -71,9 +97,13 @@
       "ideology": "",
       "inGovernment": false,
       "lastResult": "1.0%, 2 seats (2022)",
+      "lastResultIs": "1,0%, 2 þingsæti (2022)",
       "polling": "",
       "policies": [
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "seats": 2,
       "color": "#1565c0"
@@ -85,9 +115,11 @@
   ],
   "chamber": {
     "name": "National Assembly",
+    "nameIs": "þjóðþingið",
     "seats": 220,
     "majority": 111,
     "asOf": "as elected in August 2022",
+    "asOfIs": "samkvæmt kosningunum í ágúst 2022",
     "source": "https://en.wikipedia.org/wiki/2022_Angolan_general_election"
   }
 }

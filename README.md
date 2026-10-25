@@ -9,6 +9,15 @@ A world map of upcoming national elections. Click a country to see its parties, 
 
 Updated weekly by a scheduled Claude task that researches changes, edits country files, rebuilds and pushes. A GitHub Action (.github/workflows/deploy.yml) redeploys to Vercel on every push to `main`. It needs the repo secret `VERCEL_TOKEN`.
 
+## Languages
+
+The site shows one language at a time: Icelandic by default, English with the IS / EN toggle in the top navigation
+(`i18n.js`, saved per browser; `?lang=en` or `?lang=is` forces one). Static text sits in the HTML in Icelandic with the
+English in `data-en` attributes; scripts use `window.LANG`. Data carries both languages:
+- Country files: English fields plus Icelandic twins with the suffix `Is` (checked by `build.py`).
+- News items: `titleIs`/`summaryIs` plus `titleEn`/`summaryEn` (checked by `news.py`).
+- Finance: Icelandic templates in `fundamentals.py`/`press_releases.py`, English templates over the same verified figures in `scripts/finance_en.py`.
+
 ## Fjármál (finance)
 
 - `fjarmal.html`, `fjarmal.css`, `fjarmal.js`: Icelandic page with US company fundamentals.

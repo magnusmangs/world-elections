@@ -338,7 +338,8 @@
    "accession": "0001321655-26-000041",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -346,7 +347,8 @@
    "accession": "0001321655-26-000039",
    "reportDate": "2026-08-03",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -354,7 +356,8 @@
    "accession": "0001321655-26-000028",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -362,7 +365,8 @@
    "accession": "0001321655-26-000026",
    "reportDate": "2026-05-04",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -370,7 +374,8 @@
    "accession": "0001321655-26-000011",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -378,7 +383,8 @@
    "accession": "0001321655-26-000004",
    "reportDate": "2026-02-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -386,7 +392,8 @@
    "accession": "0001321655-25-000131",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -394,8 +401,10 @@
    "accession": "0001321655-25-000130",
    "reportDate": "2025-11-03",
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/pltr-20251103.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655",
+ "summaryEn": "Palantir reported revenue of $1.9 billion for the quarter ended 30 June 2026, up 92.8% from a year earlier. Net income was $1.1 billion, up 225.0% from a year earlier. Diluted earnings per share were $0.41. Free cash flow (operating cash flow less capital expenditure) was $1.2 billion."
 }

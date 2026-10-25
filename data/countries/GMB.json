@@ -2,37 +2,52 @@
   "iso3": "GMB",
   "isoNumeric": "270",
   "name": "The Gambia",
+  "nameIs": "Gambía",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-12-05",
       "dateStatus": "confirmed",
       "type": "Presidential",
-      "note": "Single round, first-past-the-post."
+      "typeIs": "Forsetakosningar",
+      "note": "Single round, first-past-the-post.",
+      "noteIs": "Ein umferð, sá sem fær flest atkvæði sigrar."
     },
     {
       "date": "2027-04-10",
       "dateStatus": "tentative",
       "type": "Parliamentary (National Assembly)",
+      "typeIs": "Þingkosningar (þjóðþingið)",
       "note": ""
     }
   ],
   "leaders": "President Adama Barrow (NPP)",
+  "leadersIs": "Adama Barrow forseti (NPP)",
   "summary": "Adama Barrow is seeking a third term; the current constitution has no presidential term limit. The stalled 2020 draft constitution, which would introduce one, is a central issue.",
+  "summaryIs": "Adama Barrow sækist eftir þriðja kjörtímabilinu, en í núgildandi stjórnarskrá eru engin takmörk á fjölda kjörtímabila forseta. Stjórnarskrárdrögin frá 2020, sem myndu setja slík takmörk en hafa strandað, eru eitt helsta kosningamálið.",
   "parties": [
     {
       "name": "Adama Barrow (National People's Party)",
       "abbr": "NPP",
       "leader": "Adama Barrow",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Big tent",
+      "ideologyIs": "Breið fylking",
       "inGovernment": true,
       "lastResult": "53.2% (2021)",
+      "lastResultIs": "53,2% (2021)",
       "polling": "32% (Gambia Participates, Aug 2026)",
+      "pollingIs": "32% (Gambia Participates, ágúst 2026)",
       "policies": [
         "Seeks a third term",
         "Infrastructure and roads programme",
         "Says he supports constitutional reform on his terms"
+      ],
+      "policiesIs": [
+        "Sækist eftir þriðja kjörtímabilinu",
+        "Áætlun um innviði og vegagerð",
+        "Segist styðja stjórnarskrárumbætur á eigin forsendum"
       ],
       "pollValue": 32,
       "color": "#7b2d8e"
@@ -42,14 +57,23 @@
       "abbr": "UDP",
       "leader": "Ousainou Darboe",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Liberalism",
+      "ideologyIs": "Frjálslyndisstefna",
       "inGovernment": false,
       "lastResult": "27.7% (2021)",
+      "lastResultIs": "27,7% (2021)",
       "polling": "25% (Aug 2026)",
+      "pollingIs": "25% (ágúst 2026)",
       "policies": [
         "Revive the 2020 draft constitution with term limits",
         "Accuses Barrow of blocking limits on presidential power",
         "Anti-corruption"
+      ],
+      "policiesIs": [
+        "Endurvekja stjórnarskrárdrögin frá 2020 með takmörkun kjörtímabila",
+        "Sakar Barrow um að hindra takmörkun á valdi forseta",
+        "Barátta gegn spillingu"
       ],
       "pollValue": 25,
       "color": "#f2c200"
@@ -59,14 +83,23 @@
       "abbr": "UMC",
       "leader": "Talib Ahmed Bensouda",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Reformism",
+      "ideologyIs": "Umbótastefna",
       "inGovernment": false,
       "lastResult": "First run; Mayor of Kanifing since 2018",
+      "lastResultIs": "Býður sig fram í fyrsta sinn; borgarstjóri Kanifing frá 2018",
       "polling": "19% (Aug 2026)",
+      "pollingIs": "19% (ágúst 2026)",
       "policies": [
         "Coalition flagbearer",
         "Campaigns on municipal track record and youth jobs",
         "Governance reform"
+      ],
+      "policiesIs": [
+        "Frambjóðandi kosningabandalags",
+        "Byggir baráttuna á árangri í sveitarstjórn og störfum fyrir ungt fólk",
+        "Umbætur á stjórnarháttum"
       ],
       "pollValue": 19,
       "color": "#1565c0"
@@ -84,6 +117,10 @@
         "Has published a 2026 manifesto",
         "Specific positions limited in English-language sources"
       ],
+      "policiesIs": [
+        "Hefur birt stefnuskrá fyrir 2026",
+        "Takmarkaðar upplýsingar um einstök stefnumál í enskum heimildum"
+      ],
       "color": "#2e7d32"
     }
   ],
@@ -94,7 +131,9 @@
     "unit": "percent",
     "date": "2026-08-24",
     "pollster": "Gambia Participates",
+    "pollsterIs": "Gambia Participates",
     "url": "https://thepoint.gm/africa/gambia/headlines/parties-dispute-polls-finding-that-puts-barrow-ahead-of-dec-election",
-    "note": "Undecided 17%. Opposition parties disputed the findings."
+    "note": "Undecided 17%. Opposition parties disputed the findings.",
+    "noteIs": "Óákveðnir 17%. Stjórnarandstöðuflokkar véfengdu niðurstöðurnar."
   }
 }

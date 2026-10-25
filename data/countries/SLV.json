@@ -2,32 +2,46 @@
   "iso3": "SLV",
   "isoNumeric": "222",
   "name": "El Salvador",
+  "nameIs": "El Salvador",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-02-28",
       "dateStatus": "confirmed",
       "type": "Presidential, legislative and municipal",
-      "note": "Moved forward from 2029 after 2025 reforms. Presidential term now six years with no term limit."
+      "typeIs": "Forseta-, þing- og sveitarstjórnarkosningar",
+      "note": "Moved forward from 2029 after 2025 reforms. Presidential term now six years with no term limit.",
+      "noteIs": "Flýtt frá 2029 eftir umbætur 2025. Kjörtímabil forseta er nú sex ár og engin takmörk á fjölda kjörtímabila."
     }
   ],
   "leaders": "President Nayib Bukele (Nuevas Ideas)",
+  "leadersIs": "Nayib Bukele forseti (Nuevas Ideas)",
   "summary": "In July 2025 the Legislative Assembly abolished presidential term limits and moved the election to 2027. Bukele has registered as a pre-candidate for another term.",
+  "summaryIs": "Í júlí 2025 afnam löggjafarþingið takmörk á fjölda kjörtímabila forseta og flýtti kosningunum til 2027. Bukele hefur skráð sig sem forframbjóðanda til enn eins kjörtímabils.",
   "parties": [
     {
       "name": "Nuevas Ideas",
       "abbr": "NI",
       "leader": "Nayib Bukele (candidate)",
       "position": "Big tent",
+      "positionIs": "Breið fylking",
       "ideology": "Bukelism, populism",
+      "ideologyIs": "Bukelismi, popúlismi",
       "inGovernment": true,
       "lastResult": "84.7% presidential; 54 of 60 seats (2024)",
+      "lastResultIs": "84,7% í forsetakjöri; 54 af 60 þingsætum (2024)",
       "polling": "",
       "policies": [
         "Continue the state of exception against gangs",
         "Bukele seeks another term",
         "Large prison and security build-out",
         "Bitcoin and investment-led growth"
+      ],
+      "policiesIs": [
+        "Áframhaldandi neyðarástand gegn glæpagengjum",
+        "Bukele sækist eftir enn einu kjörtímabili",
+        "Umfangsmikil uppbygging fangelsa og öryggismála",
+        "Hagvöxtur drifinn af bitcoin og fjárfestingu"
       ],
       "seats": 54,
       "color": "#00bfff"
@@ -37,14 +51,22 @@
       "abbr": "ARENA",
       "leader": "Carlos García Saade",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Conservatism",
+      "ideologyIs": "Íhaldsstefna",
       "inGovernment": false,
       "lastResult": "5.6% presidential (2024)",
+      "lastResultIs": "5,6% í forsetakjöri (2024)",
       "polling": "",
       "policies": [
         "Opposes removal of term limits",
         "Restore checks and balances",
         "Market economy"
+      ],
+      "policiesIs": [
+        "Andvígur afnámi takmarka á kjörtímabilum",
+        "Endurreisn valdtemprunar",
+        "Markaðshagkerfi"
       ],
       "seats": 2,
       "color": "#1d3f8f"
@@ -54,14 +76,22 @@
       "abbr": "FMLN",
       "leader": "Manuel Flores",
       "position": "Left",
+      "positionIs": "Vinstri",
       "ideology": "Democratic socialism",
+      "ideologyIs": "Lýðræðislegur sósíalismi",
       "inGovernment": false,
       "lastResult": "6.4% presidential (2024)",
+      "lastResultIs": "6,4% í forsetakjöri (2024)",
       "polling": "",
       "policies": [
         "Open to an opposition coalition, but not with ARENA",
         "Opposes constitutional reforms",
         "Social programmes and workers' rights"
+      ],
+      "policiesIs": [
+        "Opin fyrir bandalagi stjórnarandstöðuflokka, en ekki með ARENA",
+        "Andvíg stjórnarskrárbreytingum",
+        "Félagsleg úrræði og réttindi launafólks"
       ],
       "color": "#d32f2f"
     },
@@ -70,6 +100,7 @@
       "abbr": "Vamos",
       "leader": "Cesia Rivas",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "",
@@ -78,6 +109,11 @@
         "No presidential candidate",
         "Focus on legislative and municipal races",
         "Opposes the constitutional reforms"
+      ],
+      "policiesIs": [
+        "Býður ekki fram forsetaefni",
+        "Leggur áherslu á þing- og sveitarstjórnarkosningar",
+        "Andvígur stjórnarskrárbreytingunum"
       ],
       "seats": 1,
       "color": "#7b1fa2"
@@ -88,9 +124,11 @@
   ],
   "chamber": {
     "name": "Legislative Assembly",
+    "nameIs": "löggjafarþingið",
     "seats": 60,
     "majority": 31,
     "asOf": "as elected in February 2024",
+    "asOfIs": "eins og kosið var í febrúar 2024",
     "source": "https://en.wikipedia.org/wiki/2024_Salvadoran_legislative_election"
   }
 }

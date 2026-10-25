@@ -2,31 +2,44 @@
   "iso3": "AND",
   "isoNumeric": "020",
   "name": "Andorra",
+  "nameIs": "Andorra",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-04-01",
       "dateStatus": "expected",
       "type": "Parliamentary (General Council)",
-      "note": "28 seats. Must be held by April 2027."
+      "typeIs": "Þingkosningar (allsherjarráðið)",
+      "note": "28 seats. Must be held by April 2027.",
+      "noteIs": "28 þingsæti. Kosningarnar verða að fara fram í síðasta lagi í apríl 2027."
     }
   ],
   "leaders": "Head of Government Xavier Espot Zamora (DA), term-limited",
+  "leadersIs": "Xavier Espot Zamora forsætisráðherra (DA), sem má ekki bjóða sig fram aftur",
   "summary": "The Democrats for Andorra–Committed Citizens coalition holds a 16-seat majority. Head of Government Xavier Espot is barred by term limits from running again.",
+  "summaryIs": "Kosningabandalag Demókrata fyrir Andorra og Committed Citizens hefur 16 þingsæta meirihluta. Xavier Espot forsætisráðherra má ekki bjóða sig fram aftur vegna takmarkana á fjölda kjörtímabila.",
   "parties": [
     {
       "name": "Democrats for Andorra + Committed Citizens",
       "abbr": "DA+CC",
       "leader": "New leader to be chosen (Espot term-limited)",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Liberal conservatism",
+      "ideologyIs": "Frjálslynd íhaldsstefna",
       "inGovernment": true,
       "lastResult": "16 seats (2023)",
+      "lastResultIs": "16 þingsæti (2023)",
       "polling": "",
       "policies": [
         "EU association agreement",
         "Housing affordability measures",
         "Fiscal stability"
+      ],
+      "policiesIs": [
+        "Samstarfssamningur við ESB",
+        "Aðgerðir til að gera húsnæði viðráðanlegra",
+        "Stöðugleiki í ríkisfjármálum"
       ],
       "seats": 16,
       "color": "#f28c00"
@@ -36,29 +49,43 @@
       "abbr": "Concòrdia",
       "leader": "Cerni Escalé",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "5 seats (2023)",
+      "lastResultIs": "5 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Main opposition force",
         "Housing and cost-of-living focus"
+      ],
+      "policiesIs": [
+        "Helsta stjórnarandstöðuaflið",
+        "Áhersla á húsnæðismál og framfærslukostnað"
       ],
       "seats": 5,
       "color": "#6a1b9a"
     },
     {
       "name": "Social Democratic Party",
+      "nameIs": "Jafnaðarmannaflokkurinn",
       "abbr": "PS",
       "leader": "Pere Baró",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": false,
       "lastResult": "3 seats (2023)",
+      "lastResultIs": "3 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Public housing and workers' rights",
         "Progressive taxation"
+      ],
+      "policiesIs": [
+        "Félagslegt húsnæði og réttindi launafólks",
+        "Stighækkandi skattlagning"
       ],
       "seats": 3,
       "color": "#d32f2f"
@@ -71,9 +98,13 @@
       "ideology": "",
       "inGovernment": false,
       "lastResult": "3 seats (2023)",
+      "lastResultIs": "3 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "seats": 3,
       "color": "#1565c0"
@@ -84,9 +115,11 @@
   ],
   "chamber": {
     "name": "General Council",
+    "nameIs": "allsherjarráðið",
     "seats": 28,
     "majority": 15,
     "asOf": "as elected in April 2023",
+    "asOfIs": "samkvæmt kosningunum í apríl 2023",
     "source": "https://en.wikipedia.org/wiki/2023_Andorran_parliamentary_election"
   }
 }

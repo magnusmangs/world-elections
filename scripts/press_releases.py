@@ -335,3 +335,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # English twins for the one-language-at-a-time site (templates over the same verified figures).
+    import finance_en
+    finance_en.main()

@@ -4,7 +4,8 @@
 The page is a merge of SECTIONS. Each section is a function that returns news items.
 To add a new section of the site later, write one function and add it to SECTIONS.
 
-Item shape: {id, section, kind, date, titleIs, summaryIs, source:{name,url}|None, link}
+Item shape: {id, section, kind, date, titleIs, summaryIs, titleEn, summaryEn, source:{name,nameEn?,url}|None, link}
+The site shows one language at a time, so every item carries Icelandic and English text.
   kind = "frétt"   third-party reporting, summarised in our own words, outlet named and linked
          "yfirlit" generated from the site's own data
 
@@ -30,6 +31,14 @@ def today():
 def date_is(s):
     d = datetime.date.fromisoformat(s)
     return f"{d.day}. {MONTHS[d.month - 1]}"
+
+
+MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+
+def date_en(s):
+    d = datetime.date.fromisoformat(s)
+    return f"{d.day} {MONTHS_EN[d.month - 1]}"
 
 
 def load(path, default):
@@ -60,11 +69,13 @@ def type_is(t):
 
 # ---------- validation for third-party items ----------
 QUOTE = re.compile(r"[„\"“”«»']([^„\"“”«»']{20,})[\"“”«»']")
+# English text uses apostrophes for possessives (Bulgaria's), so only double quotes count there.
+QUOTE_EN = re.compile(r"[\"“”«»]([^\"“”«»]{20,})[\"“”«»]")
 
 
 def validate_article(a, allowed, now):
     errs = []
-    for k in ("id", "section", "published", "titleIs", "summaryIs", "source", "url"):
+    for k in ("id", "section", "published", "titleIs", "summaryIs", "titleEn", "summaryEn", "source", "url"):
         if not a.get(k):
             errs.append(f"missing {k}")
     if errs:
@@ -81,16 +92,17 @@ def validate_article(a, allowed, now):
             errs.append("published date is in the future")
     except ValueError:
         errs.append("published must be YYYY-MM-DD")
-    s = a["summaryIs"]
-    if len(s) > 420:
-        errs.append("summary longer than 420 characters")
-    if len(re.findall(r"(?<!\d)[.!?](\s|$)", s)) > 3:  # ignore ordinal dots in dates (25. október)
-        errs.append("summary has more than 3 sentences")
-    for q in QUOTE.findall(s + " " + a["titleIs"]):
-        if len(q.split()) > 15:
-            errs.append("quotation longer than 15 words")
-    if len(a["titleIs"]) > 140:
-        errs.append("title longer than 140 characters")
+    for lang in ("Is", "En"):
+        s, t = a["summary" + lang], a["title" + lang]
+        if len(s) > 420:
+            errs.append(f"summary{lang} longer than 420 characters")
+        if len(re.findall(r"(?<!\d)[.!?](\s|$)", s)) > 3:  # ignore ordinal dots in dates (25. október)
+            errs.append(f"summary{lang} has more than 3 sentences")
+        for q in (QUOTE if lang == "Is" else QUOTE_EN).findall(s + " " + t):
+            if len(q.split()) > 15:
+                errs.append("quotation longer than 15 words")
+        if len(t) > 140:
+            errs.append(f"title{lang} longer than 140 characters")
     if a.get("basis") != "article":
         errs.append("basis must be 'article': every item must rest on an article that was opened and read")
     if a.get("type") == "sjonarhorn":
@@ -103,12 +115,13 @@ def validate_article(a, allowed, now):
                 errs.append(f"perspective outlet {ph} not allowed")
             if p.get("basis") != "article":
                 errs.append("perspective must rest on an article that was opened and read (basis: article), not a headline")
-            f = p.get("framingIs", "")
-            if not f or len(f) > 260:
-                errs.append("perspective framingIs missing or longer than 260 characters")
-            for q in QUOTE.findall(f):
-                if len(q.split()) > 15:
-                    errs.append("quotation longer than 15 words")
+            for key in ("framingIs", "framingEn"):
+                f = p.get(key, "")
+                if not f or len(f) > 260:
+                    errs.append(f"perspective {key} missing or longer than 260 characters")
+                for q in (QUOTE if key == "framingIs" else QUOTE_EN).findall(f):
+                    if len(q.split()) > 15:
+                        errs.append("quotation longer than 15 words")
     return errs
 
 
@@ -126,7 +139,8 @@ def section_articles(now):
         out.append({"id": a["id"], "section": a["section"], "kind": "sjónarhorn" if a.get("type") == "sjonarhorn" else "frétt",
                     "perspectives": a.get("perspectives"), "paywall": bool(a.get("paywall")), "date": a["published"],
                     "titleIs": a["titleIs"], "summaryIs": a["summaryIs"],
-                    "source": {"name": a["source"], "url": a["url"]},
+                    "titleEn": a["titleEn"], "summaryEn": a["summaryEn"],
+                    "source": {"name": a["source"], "nameEn": a.get("sourceEn") or a["source"], "url": a["url"]},
                     "link": f"/#{a['iso3'].lower()}" if a.get("iso3") else None, "iso3": a.get("iso3")})
     return out, bad
 
@@ -141,16 +155,23 @@ def section_elections(now):
             days = (d - now).days
             if 0 <= days <= 10 and e.get("dateStatus") != "expected":
                 when = "í dag" if days == 0 else "á morgun" if days == 1 else f"eftir {days} daga"
+                when_en = "today" if days == 0 else "tomorrow" if days == 1 else f"in {days} days"
+                n = len(c.get("parties", []))
                 out.append({"id": f"vote-{c['iso3']}-{e['date']}", "section": "kosningar", "kind": "yfirlit",
                             "date": (now).isoformat(), "sortKey": 1,
                             "titleIs": f"Kosið í {name} {when}: {type_is(e['type'])} {date_is(e['date'])}",
-                            "summaryIs": f"{len(c.get('parties', []))} flokkar eða frambjóðendur eru á kosningakortinu með helstu stefnumálum sínum." if c.get("parties") else "Sjá nánar á kosningakortinu.", "source": None,
+                            "summaryIs": f"{n} flokkar eða frambjóðendur eru á kosningakortinu með helstu stefnumálum sínum." if n else "Sjá nánar á kosningakortinu.",
+                            "titleEn": f"{c['name']} votes {when_en}: {e['type']}, {date_en(e['date'])}",
+                            "summaryEn": f"{n} parties or candidates are on the election map with their main policies." if n else "See the election map for details.",
+                            "source": None,
                             "link": f"/#{c['iso3'].lower()}", "iso3": c["iso3"]})
         le = c.get("lastElection")
         if le and le.get("date") and 0 <= (now - datetime.date.fromisoformat(le["date"])).days <= 14:
             out.append({"id": f"result-{c['iso3']}-{le['date']}", "section": "kosningar", "kind": "yfirlit",
                         "date": le["date"], "titleIs": f"Úrslit í {name}: {type_is(le.get('type'))}",
-                        "summaryIs": le.get("outcomeIs") or le.get("outcome", ""), "source": None,
+                        "summaryIs": le.get("outcomeIs") or le.get("outcome", ""),
+                        "titleEn": f"Result in {c['name']}: {le.get('type') or 'election'}",
+                        "summaryEn": le.get("outcome") or "", "source": None,
                         "link": f"/#{c['iso3'].lower()}", "iso3": c["iso3"]})
     return out, []
 
@@ -165,6 +186,7 @@ def section_finance(now):
             continue
         out.append({"id": f"fin-{i['accession']}", "section": "fjarmal", "kind": "yfirlit", "date": i["filed"],
                     "titleIs": i["headlineIs"], "summaryIs": i["summaryIs"],
+                    "titleEn": i.get("headlineEn") or "", "summaryEn": i.get("summaryEn") or "",
                     "source": {"name": "SEC EDGAR", "url": i.get("ai", {}).get("exhibit") or i["url"]},
                     "link": f"/fjarmal#{i['ticker'].lower()}", "ai": bool(i.get("ai"))})
     return out, []

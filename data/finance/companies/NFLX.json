@@ -355,7 +355,8 @@
    "accession": "0001065280-26-000291",
    "reportDate": "2026-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -363,7 +364,8 @@
    "accession": "0001065280-26-000290",
    "reportDate": "2026-10-20",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -371,7 +373,8 @@
    "accession": "0001065280-26-000212",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000212/nflx-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -379,7 +382,8 @@
    "accession": "0001065280-26-000211",
    "reportDate": "2026-07-16",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000211/nflx-20260716.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -387,7 +391,8 @@
    "accession": "0001065280-26-000138",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000138/nflx-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -395,7 +400,8 @@
    "accession": "0001065280-26-000137",
    "reportDate": "2026-04-10",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/nflx-20260410.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -403,7 +409,8 @@
    "accession": "0001065280-26-000034",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -411,8 +418,10 @@
    "accession": "0001065280-26-000033",
    "reportDate": "2026-01-20",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000033/nflx-20260120.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001065280"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001065280",
+ "summaryEn": "Netflix reported revenue of $12.9 billion for the quarter ended 30 September 2026, up 11.8% from a year earlier. Net income was $3.7 billion, up 43.9% from a year earlier. Diluted earnings per share were $0.87. Free cash flow (operating cash flow less capital expenditure) was $2.9 billion."
 }

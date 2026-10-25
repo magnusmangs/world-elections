@@ -365,7 +365,8 @@
    "accession": "0001628280-26-066773",
    "reportDate": "2026-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -373,7 +374,8 @@
    "accession": "0001628280-26-066700",
    "reportDate": "2026-10-19",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -381,7 +383,8 @@
    "accession": "0001628280-26-050705",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -389,7 +392,8 @@
    "accession": "0001628280-26-050596",
    "reportDate": "2026-07-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -397,7 +401,8 @@
    "accession": "0001628280-26-028526",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -405,7 +410,8 @@
    "accession": "0001628280-26-028364",
    "reportDate": "2026-04-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -413,7 +419,8 @@
    "accession": "0001628280-26-003942",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -421,8 +428,10 @@
    "accession": "0001628280-26-003832",
    "reportDate": "2026-01-28",
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801",
+ "summaryEn": "Meta reported revenue of $64.6 billion for the quarter ended 30 September 2026, up 26.1% from a year earlier. Net income was $9.9 billion, up 264.0% from a year earlier. Diluted earnings per share were $3.83. Free cash flow (operating cash flow less capital expenditure) was -$1.2 billion."
 }

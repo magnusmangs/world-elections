@@ -365,7 +365,8 @@
    "accession": "0001141391-26-000083",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000083/ma-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -373,7 +374,8 @@
    "accession": "0001141391-26-000081",
    "reportDate": "2026-07-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma-20260730.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -381,7 +383,8 @@
    "accession": "0001141391-26-000031",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000031/ma-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -389,7 +392,8 @@
    "accession": "0001141391-26-000029",
    "reportDate": "2026-04-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000029/ma-20260430.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -397,7 +401,8 @@
    "accession": "0001141391-26-000013",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -405,7 +410,8 @@
    "accession": "0001141391-26-000003",
    "reportDate": "2026-01-29",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma-20260129.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -413,7 +419,8 @@
    "accession": "0001141391-25-000193",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000193/ma-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -421,8 +428,10 @@
    "accession": "0001141391-25-000191",
    "reportDate": "2025-10-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000191/ma-20251030.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391",
+ "summaryEn": "Mastercard reported revenue of $9.3 billion for the quarter ended 30 June 2026, up 14.1% from a year earlier. Net income was $4.4 billion, up 18.6% from a year earlier. Diluted earnings per share were $4.97. Free cash flow (operating cash flow less capital expenditure) was $3.5 billion."
 }

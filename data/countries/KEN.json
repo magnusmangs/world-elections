@@ -2,32 +2,47 @@
   "iso3": "KEN",
   "isoNumeric": "404",
   "name": "Kenya",
+  "nameIs": "Kenía",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-08-10",
       "dateStatus": "confirmed",
       "type": "General (president, National Assembly, Senate)",
-      "note": "Winner needs >50% nationally and 25% in 24 of 47 counties."
+      "typeIs": "Forseta- og þingkosningar (forseti, þjóðþing og öldungadeild)",
+      "note": "Winner needs >50% nationally and 25% in 24 of 47 counties.",
+      "noteIs": "Sigurvegarinn þarf meira en 50% atkvæða á landsvísu og 25% í 24 af 47 sýslum."
     }
   ],
   "leaders": "President William Ruto (UDA)",
+  "leadersIs": "William Ruto forseti (UDA)",
   "summary": "Ruto seeks a second term. The opposition has not yet agreed a single candidate; Kalonzo Musyoka leads among opposition supporters in recent polls.",
+  "summaryIs": "Ruto sækist eftir öðru kjörtímabili. Stjórnarandstaðan hefur enn ekki sameinast um einn frambjóðanda; Kalonzo Musyoka nýtur mests stuðnings meðal stuðningsmanna stjórnarandstöðunnar í nýlegum könnunum.",
   "parties": [
     {
       "name": "William Ruto (UDA / Kenya Kwanza)",
       "abbr": "UDA",
       "leader": "William Ruto",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Bottom-up economics",
+      "ideologyIs": "Hagstjórn neðan frá (bottom-up)",
       "inGovernment": true,
       "lastResult": "50.5% (2022)",
+      "lastResultIs": "50,5% (2022)",
       "polling": "24% (TIFA, May 2026)",
+      "pollingIs": "24% (TIFA, maí 2026)",
       "policies": [
         "Bottom-up economic transformation agenda",
         "Affordable housing levy",
         "Universal health coverage reform (SHA)",
         "Tax-raising measures to cut debt"
+      ],
+      "policiesIs": [
+        "Áætlun um efnahagslega umbreytingu neðan frá",
+        "Gjald til að fjármagna húsnæði á viðráðanlegu verði",
+        "Umbætur í átt að almennri heilbrigðistryggingu (SHA)",
+        "Skattahækkanir til að draga úr skuldum"
       ],
       "seats": 143,
       "color": "#f2c200"
@@ -37,14 +52,22 @@
       "abbr": "WDM",
       "leader": "Kalonzo Musyoka",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "Ran with Odinga in 2022",
+      "lastResultIs": "Í framboði með Odinga 2022",
       "polling": "Leads opposition supporters' preference (TIFA)",
+      "pollingIs": "Nýtur mests stuðnings meðal stuðningsmanna stjórnarandstöðunnar (TIFA)",
       "policies": [
         "Unifying opposition candidate",
         "Opposes Ruto's tax policies",
         "Launched campaign June 2026"
+      ],
+      "policiesIs": [
+        "Sameiningarframbjóðandi stjórnarandstöðunnar",
+        "Andvígur skattastefnu Ruto",
+        "Hóf kosningabaráttu í júní 2026"
       ],
       "seats": 26,
       "color": "#1565c0"
@@ -54,13 +77,20 @@
       "abbr": "IND",
       "leader": "Fred Matiang'i",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "Former Interior Cabinet Secretary",
+      "lastResultIs": "Fyrrverandi innanríkisráðherra",
       "polling": "14% (TIFA, May 2026)",
+      "pollingIs": "14% (TIFA, maí 2026)",
       "policies": [
         "Possible joint ticket with Kalonzo",
         "Governance and security record"
+      ],
+      "policiesIs": [
+        "Hugsanlega sameiginlegt framboð með Kalonzo",
+        "Ferill í stjórnsýslu og öryggismálum"
       ],
       "color": "#777"
     },
@@ -69,13 +99,20 @@
       "abbr": "DCP",
       "leader": "Rigathi Gachagua",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "Impeached as Deputy President (2024)",
+      "lastResultIs": "Vikið úr embætti varaforseta með embættisbrotakæru (2024)",
       "polling": "9% (TIFA, May 2026)",
+      "pollingIs": "9% (TIFA, maí 2026)",
       "policies": [
         "Strong base in Mount Kenya",
         "Part of united opposition talks"
+      ],
+      "policiesIs": [
+        "Sterkt fylgi á Mount Kenya-svæðinu",
+        "Tekur þátt í viðræðum um sameinaða stjórnarandstöðu"
       ],
       "color": "#2e7d32"
     }
@@ -86,9 +123,11 @@
   ],
   "chamber": {
     "name": "National Assembly",
+    "nameIs": "þjóðþingið",
     "seats": 349,
     "majority": 175,
     "asOf": "as elected in August 2022",
+    "asOfIs": "eins og kjörið var í ágúst 2022",
     "source": "https://en.wikipedia.org/wiki/2022_Kenyan_general_election"
   }
 }

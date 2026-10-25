@@ -2,26 +2,34 @@
   "iso3": "SRB",
   "isoNumeric": "688",
   "name": "Serbia",
+  "nameIs": "Serbía",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-10-25",
       "dateStatus": "confirmed",
       "type": "Parliamentary (snap)",
-      "note": "250 seats, closed-list proportional representation, 3% threshold."
+      "typeIs": "Þingkosningar (snemmbúnar)",
+      "note": "250 seats, closed-list proportional representation, 3% threshold.",
+      "noteIs": "250 þingsæti, hlutfallskosning með lokuðum listum, 3% þröskuldur."
     }
   ],
   "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut",
+  "leadersIs": "Ana Brnabić, starfandi forseti (frá september 2026); Đuro Macut forsætisráðherra",
   "summary": "Aleksandar Vučić resigned as president on 27 September 2026 to lead the SNS list as candidate for prime minister. The snap vote follows two years of student-led anti-corruption protests, and the Student List is campaigning door to door.",
+  "summaryIs": "Aleksandar Vučić sagði af sér sem forseti 27. september 2026 til að leiða lista SNS sem forsætisráðherraefni. Kosningarnar koma í kjölfar tveggja ára mótmæla gegn spillingu undir forystu námsmanna og Námsmannalistinn gengur hús úr húsi í kosningabaráttunni.",
   "parties": [
     {
       "name": "United Serbia (SNS-led)",
       "abbr": "SNS",
       "leader": "Aleksandar Vučić",
       "position": "Big tent, right-leaning",
+      "positionIs": "Breið fylking, hallast til hægri",
       "ideology": "Populism, national conservatism",
+      "ideologyIs": "Popúlismi, þjóðleg íhaldsstefna",
       "inGovernment": true,
       "lastResult": "48.1%, 129 seats (2023)",
+      "lastResultIs": "48,1%, 129 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Vučić is the list's candidate for prime minister",
@@ -29,17 +37,27 @@
         "Infrastructure and investment-led growth (Expo 2027)",
         "Rejects protesters' corruption allegations"
       ],
+      "policiesIs": [
+        "Vučić er forsætisráðherraefni listans",
+        "Reynir að samræma aðildarviðræður við ESB og náin tengsl við Rússland og Kína",
+        "Hagvöxtur drifinn áfram af innviðum og fjárfestingu (Expo 2027)",
+        "Hafnar ásökunum mótmælenda um spillingu"
+      ],
       "seats": 110,
       "color": "#1f4e9c"
     },
     {
       "name": "Student List",
+      "nameIs": "Námsmannalistinn",
       "abbr": "SL",
       "leader": "Citizens' group from the protest movement",
       "position": "Big tent",
+      "positionIs": "Breið fylking",
       "ideology": "Anti-corruption, rule of law",
+      "ideologyIs": "Barátta gegn spillingu, réttarríkið",
       "inGovernment": false,
       "lastResult": "First election",
+      "lastResultIs": "Fyrstu kosningar",
       "polling": "",
       "policies": [
         "Fulfil the demands of the anti-corruption protests",
@@ -47,16 +65,26 @@
         "Reform of education and healthcare",
         "Equality before the law"
       ],
+      "policiesIs": [
+        "Uppfylla kröfur mótmælanna gegn spillingu",
+        "Sjálfstætt dómskerfi og að spilling hafi afleiðingar",
+        "Umbætur í mennta- og heilbrigðismálum",
+        "Jafnrétti fyrir lögum"
+      ],
       "color": "#c0392b"
     },
     {
       "name": "Platform for a European Serbia (SSP–SRCE)",
+      "nameIs": "Vettvangur fyrir evrópska Serbíu (SSP–SRCE)",
       "abbr": "SSP",
       "leader": "Dragan Đilas",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Pro-Europeanism, liberalism",
+      "ideologyIs": "Evrópusinnuð stefna, frjálslyndisstefna",
       "inGovernment": false,
       "lastResult": "Predecessor coalition 24.3%, 65 seats (2023)",
+      "lastResultIs": "Fyrirrennari bandalagsins 24,3%, 65 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Accelerate EU accession",
@@ -64,23 +92,39 @@
         "Anti-corruption and media freedom",
         "Strengthen democratic institutions"
       ],
+      "policiesIs": [
+        "Hraða aðild að ESB",
+        "Samstarf við Námsmannalistann eftir kosningar",
+        "Barátta gegn spillingu og fyrir fjölmiðlafrelsi",
+        "Efla lýðræðislegar stofnanir"
+      ],
       "seats": 20,
       "color": "#f2a900"
     },
     {
       "name": "Socialist Party of Serbia",
+      "nameIs": "Sósíalistaflokkur Serbíu",
       "abbr": "SPS",
       "leader": "Ivica Dačić",
       "position": "Centre-left to big tent",
+      "positionIs": "Mið-vinstri til breiðrar fylkingar",
       "ideology": "Social democracy, populism",
+      "ideologyIs": "Jafnaðarstefna, popúlismi",
       "inGovernment": true,
       "lastResult": "6.7%, 18 seats (2023)",
+      "lastResultIs": "6,7%, 18 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Junior partner of the governing SNS",
         "Runs jointly with JS, Zeleni and SDPS",
         "Emphasises pensions and social security",
         "Supports continuity of current foreign policy"
+      ],
+      "policiesIs": [
+        "Minni samstarfsflokkur SNS í ríkisstjórn",
+        "Býður fram sameiginlega með JS, Zeleni og SDPS",
+        "Leggur áherslu á lífeyri og almannatryggingar",
+        "Styður óbreytta utanríkisstefnu"
       ],
       "seats": 12,
       "color": "#d6262f"
@@ -90,15 +134,24 @@
       "abbr": "NADA",
       "leader": "Miloš Jovanović",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "National conservatism, monarchism",
+      "ideologyIs": "Þjóðleg íhaldsstefna, konungshyggja",
       "inGovernment": false,
       "lastResult": "5.2%, 13 seats (2023)",
+      "lastResultIs": "5,2%, 13 þingsæti (2023)",
       "polling": "",
       "policies": [
         "National conservative and Orthodox Christian values",
         "Opposes recognition of Kosovo",
         "Sceptical of EU accession conditions",
         "Backs joint opposition effort against SNS"
+      ],
+      "policiesIs": [
+        "Þjóðleg íhaldsgildi og gildi rétttrúnaðarkirkjunnar",
+        "Andvígur viðurkenningu Kósovó",
+        "Efins um skilyrði fyrir aðild að ESB",
+        "Styður sameiginlegt átak stjórnarandstöðunnar gegn SNS"
       ],
       "seats": 10,
       "color": "#2c3e50"
@@ -111,9 +164,11 @@
   ],
   "chamber": {
     "name": "National Assembly",
+    "nameIs": "þjóðþingið",
     "seats": 250,
     "majority": 126,
     "asOf": "outgoing assembly; SSP–SRCE counts SSP and SRCE groups",
+    "asOfIs": "fráfarandi þing; SSP–SRCE telur þingflokka SSP og SRCE saman",
     "source": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
   }
 }

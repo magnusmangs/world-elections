@@ -2,30 +2,41 @@
   "iso3": "GTM",
   "isoNumeric": "320",
   "name": "Guatemala",
+  "nameIs": "Gvatemala",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-06-27",
       "dateStatus": "confirmed",
       "type": "General (presidential, Congress, municipal)",
-      "note": "Presidential run-off in August if needed."
+      "typeIs": "Forseta-, þing- og sveitarstjórnarkosningar",
+      "note": "Presidential run-off in August if needed.",
+      "noteIs": "Seinni umferð forsetakosninga í ágúst ef þörf krefur."
     }
   ],
   "leaders": "President Bernardo Arévalo (term-limited)",
+  "leadersIs": "Bernardo Arévalo forseti (má ekki bjóða sig fram aftur)",
   "summary": "President Arévalo is constitutionally barred from re-election. The field is wide open, with independent pre-candidate Roberto Arzú leading early polls at around 19%.",
+  "summaryIs": "Stjórnarskráin bannar Arévalo forseta að bjóða sig fram til endurkjörs. Baráttan er galopin og óháði forframbjóðandinn Roberto Arzú leiðir í fyrstu könnunum með um 19% fylgi.",
   "parties": [
     {
       "name": "Roberto Arzú",
       "abbr": "IND",
       "leader": "Roberto Arzú",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "",
       "polling": "18.5–19% (Aug–Sep 2026)",
+      "pollingIs": "18,5–19% (ágúst–september 2026)",
       "policies": [
         "Searching for a party vehicle",
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Leitar að flokki til að bjóða sig fram fyrir",
+        "Takmarkaðar upplýsingar um stefnumál"
       ]
     },
     {
@@ -33,14 +44,23 @@
       "abbr": "UNE",
       "leader": "Sandra Torres",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Social democracy (historic), populism",
+      "ideologyIs": "Jafnaðarstefna (áður), popúlismi",
       "inGovernment": false,
       "lastResult": "12.9% first round; 28 seats (2023)",
+      "lastResultIs": "12,9% í fyrri umferð; 28 sæti (2023)",
       "polling": "11–13%",
+      "pollingIs": "11–13%",
       "policies": [
         "Fourth presidential bid",
         "Social assistance programmes",
         "Security policy"
+      ],
+      "policiesIs": [
+        "Fjórða forsetaframboð hennar",
+        "Félagsleg aðstoð",
+        "Öryggismál"
       ],
       "seats": 28,
       "color": "#2e7d32"
@@ -50,13 +70,21 @@
       "abbr": "Serve",
       "leader": "Carlos Pineda",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Populism",
+      "ideologyIs": "Popúlismi",
       "inGovernment": false,
       "lastResult": "Barred from 2023 race",
+      "lastResultIs": "Meinað að bjóða sig fram 2023",
       "polling": "9–10%",
+      "pollingIs": "9–10%",
       "policies": [
         "Anti-establishment, social-media campaign",
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Gegn ráðandi öflum, kosningabarátta á samfélagsmiðlum",
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "color": "#f57c00"
     },
@@ -65,29 +93,44 @@
       "abbr": "CREO",
       "leader": "Neto Bran",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "2.0% (2023)",
+      "lastResultIs": "2,0% (2023)",
       "polling": "~8%",
+      "pollingIs": "~8%",
       "policies": [
         "Mayor of Mixco",
         "Security and local services record"
+      ],
+      "policiesIs": [
+        "Borgarstjóri Mixco",
+        "Árangur í öryggismálum og þjónustu sveitarfélagsins"
       ],
       "seats": 3,
       "color": "#1565c0"
     },
     {
       "name": "Semilla successor",
+      "nameIs": "Arftaki Semilla",
       "abbr": "Raíces",
       "leader": "Anabella Giracca (tentative)",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Anti-corruption, social democracy",
+      "ideologyIs": "Barátta gegn spillingu, jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "",
       "polling": "~3%",
+      "pollingIs": "~3%",
       "policies": [
         "Continuity of Arévalo's anti-corruption agenda",
         "Education reform"
+      ],
+      "policiesIs": [
+        "Framhald á baráttu Arévalos gegn spillingu",
+        "Umbætur í menntamálum"
       ],
       "color": "#6d4c41"
     }
@@ -97,9 +140,11 @@
   ],
   "chamber": {
     "name": "Congress",
+    "nameIs": "þingið",
     "seats": 160,
     "majority": 81,
     "asOf": "as elected in June 2023",
+    "asOfIs": "eins og kjörið var í júní 2023",
     "source": "https://en.wikipedia.org/wiki/2023_Guatemalan_general_election"
   }
 }

@@ -2,44 +2,64 @@
  "iso3": "MNG",
  "isoNumeric": "496",
  "name": "Mongolia",
+ "nameIs": "Mongólía",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-06-09",
    "dateStatus": "expected",
    "type": "Presidential",
-   "note": "Single six-year term; incumbent ineligible."
+   "typeIs": "Forsetakosningar",
+   "note": "Single six-year term; incumbent ineligible.",
+   "noteIs": "Eitt sex ára kjörtímabil; sitjandi forseti er ekki kjörgengur."
   }
  ],
  "leaders": "President Ukhnaagiin Khürelsükh (MPP)",
+ "leadersIs": "Ukhnaagiin Khürelsükh forseti (MPP)",
  "summary": "President Khürelsükh cannot run again under the single-term rule. Parties are choosing nominees through internal processes.",
+ "summaryIs": "Khürelsükh forseti getur ekki boðið sig fram aftur vegna reglunnar um eitt kjörtímabil. Flokkarnir velja frambjóðendur sína með innra ferli.",
  "parties": [
   {
    "name": "Mongolian People's Party",
+   "nameIs": "Mongólski þjóðarflokkurinn",
    "abbr": "MPP",
    "leader": "Possible: Gombojavyn Zandanshatar",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy",
+   "ideologyIs": "Jafnaðarstefna",
    "inGovernment": true,
    "lastResult": "Won 2021 presidency",
+   "lastResultIs": "Vann forsetakosningarnar 2021",
    "polling": "",
    "policies": [
     "Ruling party",
     "Nominee not yet chosen"
+   ],
+   "policiesIs": [
+    "Stjórnarflokkur",
+    "Frambjóðandi ekki enn valinn"
    ]
   },
   {
    "name": "Democratic Party",
+   "nameIs": "Lýðræðisflokkurinn",
    "abbr": "DP",
    "leader": "Primary: Norovyn Altankhuyag, Luvsannyamyn Gantömör",
    "position": "Centre-right",
+   "positionIs": "Mið-hægri",
    "ideology": "Liberal conservatism",
+   "ideologyIs": "Frjálslynd íhaldsstefna",
    "inGovernment": false,
    "lastResult": "",
    "polling": "",
    "policies": [
     "Nominee via internal primary",
     "Market liberalism"
+   ],
+   "policiesIs": [
+    "Frambjóðandi valinn í forvali innan flokksins",
+    "Markaðsfrjálshyggja"
    ]
   },
   {
@@ -47,12 +67,16 @@
    "abbr": "HUN",
    "leader": "Togmidyn Dorjkhand",
    "position": "Centre",
+   "positionIs": "Miðja",
    "ideology": "",
    "inGovernment": true,
    "lastResult": "",
    "polling": "",
    "policies": [
     "Leader will not run for president"
+   ],
+   "policiesIs": [
+    "Leiðtoginn býður sig ekki fram til forseta"
    ]
   }
  ],

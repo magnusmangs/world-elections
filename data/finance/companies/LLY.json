@@ -283,7 +283,8 @@
    "accession": "0000059478-26-000081",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -291,7 +292,8 @@
    "accession": "0000059478-26-000077",
    "reportDate": "2026-08-05",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000077/lly-20260805.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -299,7 +301,8 @@
    "accession": "0000059478-26-000045",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -307,7 +310,8 @@
    "accession": "0000059478-26-000043",
    "reportDate": "2026-04-30",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000043/lly-20260430.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-K",
@@ -315,7 +319,8 @@
    "accession": "0000059478-26-000013",
    "reportDate": "2025-12-31",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
-   "kind": "Ársskýrsla"
+   "kind": "Ársskýrsla",
+   "kindEn": "Annual report"
   },
   {
    "form": "8-K",
@@ -323,7 +328,8 @@
    "accession": "0000059478-26-000008",
    "reportDate": "2026-02-04",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000008/lly-20260204.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -331,7 +337,8 @@
    "accession": "0000059478-25-000254",
    "reportDate": "2025-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000254/lly-20250930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -339,8 +346,10 @@
    "accession": "0000059478-25-000251",
    "reportDate": "2025-10-30",
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000251/lly-20251030.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000059478"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000059478",
+ "summaryEn": "Eli Lilly reported revenue of $23.0 billion for the quarter ended 30 June 2026, up 47.7% from a year earlier. Net income was $7.1 billion, up 25.3% from a year earlier. Diluted earnings per share were $7.94."
 }

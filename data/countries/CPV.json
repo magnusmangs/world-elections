@@ -2,31 +2,44 @@
  "iso3": "CPV",
  "isoNumeric": "132",
  "name": "Cabo Verde",
+ "nameIs": "Grænhöfðaeyjar",
  "lastReviewed": "2026-10-20",
  "elections": [
   {
    "date": "2026-11-15",
    "dateStatus": "confirmed",
    "type": "Presidential",
-   "note": "Two-round system. The Constitutional Court admitted five candidacies on 21 September 2026: José Maria Neves, Joana Rosa, Gilson Alves, Antero Tavares and Casimiro de Pina."
+   "typeIs": "Forsetakosningar",
+   "note": "Two-round system. The Constitutional Court admitted five candidacies on 21 September 2026: José Maria Neves, Joana Rosa, Gilson Alves, Antero Tavares and Casimiro de Pina.",
+   "noteIs": "Kosið í tveimur umferðum. Stjórnlagadómstóllinn samþykkti fimm framboð 21. september 2026: José Maria Neves, Joana Rosa, Gilson Alves, Antero Tavares og Casimiro de Pina."
   }
  ],
  "leaders": "President José Maria Neves (PAICV)",
+ "leadersIs": "José Maria Neves forseti (PAICV)",
  "summary": "Incumbent José Maria Neves, elected in 2021 with just over 51% in the first round, seeks a second term. Cabo Verde is one of Africa's most stable multiparty democracies.",
+ "summaryIs": "Sitjandi forseti, José Maria Neves, sem var kjörinn árið 2021 með rúmlega 51% atkvæða í fyrri umferð, sækist eftir öðru kjörtímabili. Grænhöfðaeyjar eru eitt stöðugasta fjölflokkalýðræði Afríku.",
  "parties": [
   {
    "name": "José Maria Neves (PAICV)",
    "abbr": "PAICV",
    "leader": "José Maria Neves",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy",
+   "ideologyIs": "Jafnaðarstefna",
    "inGovernment": true,
    "lastResult": "51.7% (2021)",
+   "lastResultIs": "51,7% (2021)",
    "polling": "",
    "policies": [
     "Seeks a second five-year term",
     "Party platform: social democracy and expanded public services",
     "Detailed campaign platform limited in English-language sources"
+   ],
+   "policiesIs": [
+    "Sækist eftir öðru fimm ára kjörtímabili",
+    "Stefna flokksins: jafnaðarstefna og aukin opinber þjónusta",
+    "Takmarkaðar upplýsingar um stefnumál framboðsins í enskum heimildum"
    ]
   },
   {
@@ -34,14 +47,22 @@
    "abbr": "MpD",
    "leader": "Joana Rosa",
    "position": "Centre-right",
+   "positionIs": "Mið-hægri",
    "ideology": "Liberal conservatism",
+   "ideologyIs": "Frjálslynd íhaldsstefna",
    "inGovernment": false,
    "lastResult": "Former Minister of Justice (2021–2026)",
+   "lastResultIs": "Fyrrverandi dómsmálaráðherra (2021–2026)",
    "polling": "",
    "policies": [
     "Backed by the Movement for Democracy",
     "Party platform: market economy, private investment and tourism",
     "Detailed campaign platform limited in English-language sources"
+   ],
+   "policiesIs": [
+    "Nýtur stuðnings Lýðræðishreyfingarinnar (MpD)",
+    "Stefna flokksins: markaðshagkerfi, einkafjárfesting og ferðaþjónusta",
+    "Takmarkaðar upplýsingar um stefnumál framboðsins í enskum heimildum"
    ]
   }
  ],

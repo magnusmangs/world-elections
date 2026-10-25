@@ -2,31 +2,43 @@
   "iso3": "PNG",
   "isoNumeric": "598",
   "name": "Papua New Guinea",
+  "nameIs": "Papúa Nýja-Gínea",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-06-01",
       "dateStatus": "expected",
       "type": "General election",
-      "note": "National Parliament; exact date not yet set."
+      "typeIs": "Þingkosningar",
+      "note": "National Parliament; exact date not yet set.",
+      "noteIs": "Kosið til þjóðþingsins; nákvæm dagsetning hefur ekki verið ákveðin."
     }
   ],
   "leaders": "Prime Minister James Marape (Pangu Pati)",
+  "leadersIs": "James Marape forsætisráðherra (Pangu Pati)",
   "summary": "No party won a majority in 2022, and Marape leads a coalition. The status of Bougainville, which voted for independence in 2019, is expected to be a key issue.",
+  "summaryIs": "Enginn flokkur náði meirihluta árið 2022 og Marape leiðir samsteypustjórn. Búist er við að staða Bougainville, sem kaus með sjálfstæði árið 2019, verði eitt helsta kosningamálið.",
   "parties": [
     {
       "name": "Pangu Pati",
       "abbr": "Pangu",
       "leader": "James Marape",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "",
       "inGovernment": true,
       "lastResult": "39 seats (2022)",
+      "lastResultIs": "39 sæti (2022)",
       "polling": "",
       "policies": [
         "Take Back PNG economic nationalism",
         "Resource project renegotiation",
         "Bougainville settlement process"
+      ],
+      "policiesIs": [
+        "Efnahagsleg þjóðernishyggja undir kjörorðinu Take Back PNG",
+        "Endursamningar um auðlindaverkefni",
+        "Sáttaferli vegna Bougainville"
       ],
       "seats": 39,
       "color": "#c62828"
@@ -36,12 +48,16 @@
       "abbr": "PNC",
       "leader": "Joseph Lelang",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "",
       "inGovernment": false,
       "lastResult": "",
       "polling": "",
       "policies": [
         "Platform details limited"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál"
       ],
       "color": "#1565c0"
     },
@@ -57,6 +73,9 @@
       "policies": [
         "Platform details limited"
       ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál"
+      ],
       "color": "#2e7d32"
     }
   ],
@@ -65,9 +84,11 @@
   ],
   "chamber": {
     "name": "National Parliament",
+    "nameIs": "þjóðþingið",
     "seats": 118,
     "majority": 60,
     "asOf": "as elected in 2022",
+    "asOfIs": "eins og kjörið var árið 2022",
     "source": "https://en.wikipedia.org/wiki/2022_Papua_New_Guinean_general_election"
   }
 }

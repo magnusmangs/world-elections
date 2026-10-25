@@ -2,31 +2,44 @@
   "iso3": "PSE",
   "isoNumeric": "275",
   "name": "Palestine",
+  "nameIs": "Palestína",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2026-11-28",
       "dateStatus": "confirmed",
       "type": "Legislative (Palestinian Legislative Council)",
-      "note": "First legislative election since 2006. 200 seats. Inclusion of East Jerusalem and Gaza disputed."
+      "typeIs": "Þingkosningar (palestínska löggjafarráðið)",
+      "note": "First legislative election since 2006. 200 seats. Inclusion of East Jerusalem and Gaza disputed.",
+      "noteIs": "Fyrstu þingkosningar síðan 2006. 200 þingsæti. Deilt er um hvort Austur-Jerúsalem og Gaza verði með."
     }
   ],
   "leaders": "President Mahmoud Abbas (Fatah); Prime Minister Mohammad Mustafa",
+  "leadersIs": "Mahmoud Abbas forseti (Fatah); Mohammad Mustafa forsætisráðherra",
   "summary": "President Abbas set the first legislative vote in 20 years for 28 November. Lists must accept prior PLO commitments, a condition Hamas rejects, and whether voting can take place in East Jerusalem and Gaza is unresolved.",
+  "summaryIs": "Abbas forseti hefur boðað til fyrstu þingkosninga í 20 ár 28. nóvember. Framboðslistar verða að gangast við fyrri skuldbindingum PLO, skilyrði sem Hamas hafnar, og óvíst er hvort hægt verði að kjósa í Austur-Jerúsalem og á Gaza.",
   "parties": [
     {
       "name": "Fatah",
       "abbr": "Fatah",
       "leader": "Mahmoud Abbas",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Palestinian nationalism, secularism",
+      "ideologyIs": "Palestínsk þjóðernishyggja, veraldarhyggja",
       "inGovernment": true,
       "lastResult": "43 seats (2006)",
+      "lastResultIs": "43 þingsæti (2006)",
       "polling": "",
       "policies": [
         "Two-state solution through negotiations in the PLO framework",
         "Backs Abbas's electoral decrees and list conditions",
         "Reform of Palestinian Authority institutions"
+      ],
+      "policiesIs": [
+        "Tveggja ríkja lausn með samningaviðræðum innan ramma PLO",
+        "Styður kosningatilskipanir Abbas og skilyrði fyrir framboðslistum",
+        "Umbætur á stofnunum palestínsku heimastjórnarinnar"
       ],
       "seats": 45,
       "color": "#f2c200"
@@ -36,9 +49,12 @@
       "abbr": "Hamas",
       "leader": "Khaled Mashal",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Islamism, Palestinian nationalism",
+      "ideologyIs": "Íslamismi, palestínsk þjóðernishyggja",
       "inGovernment": false,
       "lastResult": "74 seats (2006, as Change and Reform)",
+      "lastResultIs": "74 þingsæti (2006, sem Breyting og umbætur)",
       "polling": "",
       "policies": [
         "Rejects the requirement to recognise prior PLO agreements",
@@ -46,56 +62,89 @@
         "Seeks a unity government with Fatah",
         "Eligibility to run is contested"
       ],
+      "policiesIs": [
+        "Hafnar kröfunni um að viðurkenna fyrri samninga PLO",
+        "Krefst þess að Austur-Jerúsalem verði með",
+        "Vill þjóðstjórn með Fatah",
+        "Deilt er um kjörgengi samtakanna"
+      ],
       "seats": 74,
       "color": "#2e7d32"
     },
     {
       "name": "Popular Front for the Liberation of Palestine",
+      "nameIs": "Alþýðufylkingin til frelsunar Palestínu",
       "abbr": "PFLP",
       "leader": "Ahmad Sa'adat",
       "position": "Far-left",
+      "positionIs": "Lengst til vinstri",
       "ideology": "Marxism-Leninism, Palestinian nationalism",
+      "ideologyIs": "Marx-lenínismi, palestínsk þjóðernishyggja",
       "inGovernment": false,
       "lastResult": "3 seats (2006)",
+      "lastResultIs": "3 þingsæti (2006)",
       "polling": "",
       "policies": [
         "Opposes negotiations as currently framed",
         "Economic redistribution",
         "National unity among factions"
       ],
+      "policiesIs": [
+        "Andvíg samningaviðræðum í núverandi mynd",
+        "Jöfnun efnahagslegra gæða",
+        "Þjóðareining fylkinga"
+      ],
       "seats": 3,
       "color": "#c62828"
     },
     {
       "name": "Palestinian National Initiative",
+      "nameIs": "Palestínska þjóðarframtakið",
       "abbr": "PNI",
       "leader": "Mustafa Barghouti",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Democratic socialism, reformism",
+      "ideologyIs": "Lýðræðislegur sósíalismi, umbótastefna",
       "inGovernment": false,
       "lastResult": "2 seats (2006)",
+      "lastResultIs": "2 þingsæti (2006)",
       "polling": "",
       "policies": [
         "End the Fatah–Hamas division",
         "Democratic reform of institutions",
         "Non-violent popular resistance"
       ],
+      "policiesIs": [
+        "Bundinn verði endi á klofninginn milli Fatah og Hamas",
+        "Lýðræðisumbætur á stofnunum",
+        "Friðsamleg andspyrna almennings"
+      ],
       "seats": 2,
       "color": "#6a1b9a"
     },
     {
       "name": "Third Way",
+      "nameIs": "Þriðja leiðin",
       "abbr": "TW",
       "leader": "Salam Fayyad",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Technocratic reform",
+      "ideologyIs": "Umbætur undir forystu sérfræðinga",
       "inGovernment": false,
       "lastResult": "2 seats (2006)",
+      "lastResultIs": "2 þingsæti (2006)",
       "polling": "",
       "policies": [
         "Institution-building and good governance",
         "Rule of law and anti-corruption",
         "Reconciliation between factions"
+      ],
+      "policiesIs": [
+        "Uppbygging stofnana og góðir stjórnarhættir",
+        "Réttarríki og barátta gegn spillingu",
+        "Sáttir milli fylkinga"
       ],
       "seats": 2,
       "color": "#1565c0"
@@ -107,9 +156,11 @@
   ],
   "chamber": {
     "name": "Palestinian Legislative Council",
+    "nameIs": "palestínska löggjafarráðið",
     "seats": 132,
     "majority": 67,
     "asOf": "as elected in 2006; the council was dissolved in 2018",
+    "asOfIs": "eins og kosið var 2006; ráðið var leyst upp 2018",
     "source": "https://en.wikipedia.org/wiki/2006_Palestinian_legislative_election"
   }
 }

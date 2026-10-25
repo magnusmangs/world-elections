@@ -2,48 +2,75 @@
  "iso3": "FRA",
  "isoNumeric": "250",
  "name": "France",
+ "nameIs": "Frakkland",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-04-18",
    "dateStatus": "tentative",
    "type": "Presidential (first round)",
-   "note": "Run-off two weeks later if no majority."
+   "typeIs": "Forsetakosningar (fyrri umferð)",
+   "note": "Run-off two weeks later if no majority.",
+   "noteIs": "Seinni umferð tveimur vikum síðar ef enginn fær meirihluta."
   }
  ],
  "leaders": "President Emmanuel Macron (term-limited)",
+ "leadersIs": "Emmanuel Macron forseti (má ekki bjóða sig fram aftur)",
  "summary": "Macron cannot run again. Marine Le Pen, whose ineligibility expired in June 2026, leads first-round polls with 35–38%, while Mélenchon and Édouard Philippe compete for second place (Harris Interactive, Aug 2026).",
+ "summaryIs": "Macron getur ekki boðið sig fram aftur. Marine Le Pen, en kjörgengisbann hennar rann út í júní 2026, leiðir í könnunum fyrir fyrri umferð með 35–38% fylgi, en Mélenchon og Édouard Philippe keppa um annað sætið (Harris Interactive, ágúst 2026).",
  "parties": [
   {
    "name": "Marine Le Pen (National Rally)",
+   "nameIs": "Marine Le Pen (Þjóðfylkingin)",
    "abbr": "RN",
    "leader": "Marine Le Pen",
    "position": "Far-right",
+   "positionIs": "Lengst til hægri",
    "ideology": "National populism",
+   "ideologyIs": "Þjóðernispopúlismi",
    "inGovernment": false,
    "lastResult": "23.2% first round (2022)",
+   "lastResultIs": "23,2% í fyrri umferð (2022)",
    "polling": "35–38% (Harris, Aug 2026)",
+   "pollingIs": "35–38% (Harris, ágúst 2026)",
    "policies": [
     "Sharp cuts to immigration and 'national priority' for French citizens",
     "Lower retirement age for long careers",
     "Cut VAT on energy",
     "Sceptical of EU powers"
+   ],
+   "policiesIs": [
+    "Verulega dregið úr innflutningi fólks og „forgangur þjóðarinnar“ fyrir franska ríkisborgara",
+    "Lægri eftirlaunaaldur fyrir þá sem eiga langan starfsferil",
+    "Lækkun virðisaukaskatts á orku",
+    "Efasemdir um völd ESB"
    ]
   },
   {
    "name": "Jean-Luc Mélenchon (La France Insoumise)",
+   "nameIs": "Jean-Luc Mélenchon (Óbeygt Frakkland)",
    "abbr": "LFI",
    "leader": "Jean-Luc Mélenchon",
    "position": "Left",
+   "positionIs": "Vinstri",
    "ideology": "Left-wing populism, democratic socialism",
+   "ideologyIs": "Vinstripopúlismi, lýðræðislegur sósíalismi",
    "inGovernment": false,
    "lastResult": "22.0% first round (2022)",
+   "lastResultIs": "22,0% í fyrri umferð (2022)",
    "polling": "16–17%",
+   "pollingIs": "16–17%",
    "policies": [
     "Retirement at 60",
     "Higher minimum wage and price freezes",
     "A 'Sixth Republic' constitution",
     "Ecological planning"
+   ],
+   "policiesIs": [
+    "Eftirlaunaaldur verði 60 ár",
+    "Hærri lágmarkslaun og verðstöðvun",
+    "Ný stjórnarskrá fyrir „sjötta lýðveldið“",
+    "Vistvæn áætlanagerð"
    ]
   },
   {
@@ -51,14 +78,23 @@
    "abbr": "HOR",
    "leader": "Édouard Philippe",
    "position": "Centre-right",
+   "positionIs": "Mið-hægri",
    "ideology": "Liberal conservatism",
+   "ideologyIs": "Frjálslynd íhaldsstefna",
    "inGovernment": false,
    "lastResult": "First run",
+   "lastResultIs": "Býður sig fram í fyrsta sinn",
    "polling": "14–19%",
+   "pollingIs": "14–19%",
    "policies": [
     "Deep reform of public finances",
     "Raise retirement age further",
     "Firm on law and order and immigration"
+   ],
+   "policiesIs": [
+    "Gagngerar umbætur á opinberum fjármálum",
+    "Frekari hækkun eftirlaunaaldurs",
+    "Hörð afstaða í löggæslu- og innflytjendamálum"
    ]
   },
   {
@@ -66,44 +102,71 @@
    "abbr": "RE",
    "leader": "Gabriel Attal",
    "position": "Centre",
+   "positionIs": "Miðja",
    "ideology": "Liberalism, pro-Europeanism",
+   "ideologyIs": "Frjálslyndisstefna, Evrópuhyggja",
    "inGovernment": false,
    "lastResult": "First run",
+   "lastResultIs": "Býður sig fram í fyrsta sinn",
    "polling": "8–15%",
+   "pollingIs": "8–15%",
    "policies": [
     "Continue pro-European, pro-business course",
     "Distinguish himself from Macron's record",
     "Education and youth focus"
+   ],
+   "policiesIs": [
+    "Halda áfram Evrópusinnaðri og atvinnulífsvænni stefnu",
+    "Aðgreina sig frá verkum Macrons",
+    "Áhersla á menntun og ungt fólk"
    ]
   },
   {
    "name": "Bruno Retailleau (The Republicans)",
+   "nameIs": "Bruno Retailleau (Repúblikanar)",
    "abbr": "LR",
    "leader": "Bruno Retailleau",
    "position": "Right",
+   "positionIs": "Hægri",
    "ideology": "Conservatism",
+   "ideologyIs": "Íhaldsstefna",
    "inGovernment": false,
    "lastResult": "First run",
+   "lastResultIs": "Býður sig fram í fyrsta sinn",
    "polling": "",
    "policies": [
     "Strict immigration control",
     "Law and order",
     "Cut public spending"
+   ],
+   "policiesIs": [
+    "Strangt eftirlit með innflytjendum",
+    "Lög og regla",
+    "Niðurskurður opinberra útgjalda"
    ]
   },
   {
    "name": "Raphaël Glucksmann (Place Publique / PS)",
+   "nameIs": "Raphaël Glucksmann (Place Publique / Sósíalistaflokkurinn)",
    "abbr": "PP",
    "leader": "Raphaël Glucksmann",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy, pro-Europeanism",
+   "ideologyIs": "Jafnaðarstefna, Evrópuhyggja",
    "inGovernment": false,
    "lastResult": "First run",
+   "lastResultIs": "Býður sig fram í fyrsta sinn",
    "polling": "",
    "policies": [
     "Strong support for Ukraine and European defence",
     "Tax on very high wealth",
     "Ecological transition"
+   ],
+   "policiesIs": [
+    "Eindreginn stuðningur við Úkraínu og varnir Evrópu",
+    "Skattur á mjög miklar eignir",
+    "Vistvæn umskipti"
    ]
   }
  ],

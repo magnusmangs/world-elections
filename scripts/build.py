@@ -11,6 +11,41 @@ REQ_COUNTRY = ["iso3", "isoNumeric", "name", "lastReviewed", "elections", "leade
 REQ_PARTY = ["name", "position", "inGovernment", "policies"]
 STATUSES = {"confirmed", "tentative", "expected"}
 
+# The site shows one language at a time (Icelandic by default, English on request).
+# Every English text field needs an Icelandic twin with the suffix "Is". Party names are optional (nameIs).
+I18N = {
+    "": ["name", "leaders", "summary", "noParties"],
+    "elections[]": ["type", "note"],
+    "parties[]": ["position", "ideology", "lastResult", "polling"],
+    "chamber": ["name", "asOf"],
+    "poll": ["note", "pollster"],
+    "lastElection": ["type", "outcome"],
+}
+
+
+def missing_is(c):
+    """Return a list of 'path: field' strings where English text has no Icelandic twin."""
+    out = []
+    def check(obj, fields, where):
+        for f in fields:
+            v = obj.get(f)
+            if isinstance(v, str) and v.strip() and not str(obj.get(f + "Is", "")).strip():
+                out.append(f"{where}{f}Is")
+    for path, fields in I18N.items():
+        if path == "":
+            check(c, fields, "")
+        elif path.endswith("[]"):
+            key = path[:-2]
+            for i, o in enumerate(c.get(key) or []):
+                check(o, fields, f"{key}[{i}].")
+        elif isinstance(c.get(path), dict):
+            check(c[path], fields, f"{path}.")
+    for i, p in enumerate(c.get("parties") or []):
+        pol, polIs = p.get("policies") or [], p.get("policiesIs")
+        if pol and (not isinstance(polIs, list) or len(polIs) != len(pol) or not all(str(x).strip() for x in polIs)):
+            out.append(f"parties[{i}].policiesIs (must list the same number of lines as policies)")
+    return out
+
 def main():
     today = datetime.date.today().isoformat()
     if "--today" in sys.argv:
@@ -52,6 +87,8 @@ def main():
                 errors.append(f"{name}: poll seats exceed chamber")
         for p in c.get("parties", []):
             if "seats" in p and not (p["seats"] is None or isinstance(p["seats"], int)): errors.append(f"{name}: {p['name']} seats must be integer")
+        for m in missing_is(c):
+            errors.append(f"{name}: missing Icelandic text {m}")
         if not c.get("sources"):
             errors.append(f"{name}: needs at least one source URL")
         upcoming = sorted([e for e in c.get("elections", []) if e.get("date", "") >= today], key=lambda e: e["date"])

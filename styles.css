@@ -94,6 +94,12 @@ button, input { font: inherit; color: inherit; }
 .atlas .sitenav a { background: var(--surface); }
 .atlas .sitenav a[aria-current="page"] { background: var(--ink); }
 
+.lang-toggle { display: inline-flex; margin-left: 8px; border: 1px solid var(--rule); border-radius: 999px; padding: 2px; background: var(--surface); align-self: center; }
+.lang-toggle button { border: 0; background: transparent; color: var(--muted); font: 600 .8rem/1 var(--text); padding: 5px 9px; border-radius: 999px; cursor: pointer; letter-spacing: .03em; }
+.lang-toggle button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.lang-toggle button:hover:not([aria-pressed="true"]) { color: var(--ink); }
+.lang-toggle button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+
 @media (max-width: 720px) { .atlas .sitenav { position: static; justify-content: flex-end; padding-bottom: 0; } }
 
 /* Calendar */

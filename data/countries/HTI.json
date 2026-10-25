@@ -2,30 +2,42 @@
  "iso3": "HTI",
  "isoNumeric": "332",
  "name": "Haiti",
+ "nameIs": "Haítí",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2026-12-13",
    "dateStatus": "tentative",
    "type": "General (presidential and legislative)",
-   "note": "First elections since 2016. Ouest department excluded from registration due to insecurity."
+   "typeIs": "Forseta- og þingkosningar",
+   "note": "First elections since 2016. Ouest department excluded from registration due to insecurity.",
+   "noteIs": "Fyrstu kosningarnar frá 2016. Ouest-hérað er undanskilið kjósendaskráningu vegna óaldar."
   }
  ],
  "leaders": "Presidency vacant; acting Prime Minister Alix Didier Fils-Aimé",
+ "leadersIs": "Forsetaembættið er autt; Alix Didier Fils-Aimé er starfandi forsætisráðherra",
  "summary": "Elections have been postponed repeatedly since 2019 as gangs control much of Port-au-Prince. The Transitional Presidential Council's mandate expired in February 2026, leaving the prime minister as sole executive.",
+ "summaryIs": "Kosningum hefur ítrekað verið frestað frá 2019 enda ráða glæpagengi stórum hluta Port-au-Prince. Umboð bráðabirgðaforsetaráðsins rann út í febrúar 2026 og forsætisráðherrann fer nú einn með framkvæmdavaldið.",
  "parties": [
   {
    "name": "Fanmi Lavalas",
    "abbr": "FL",
    "leader": "Jean-Bertrand Aristide",
    "position": "Left",
+   "positionIs": "Vinstri",
    "ideology": "Social democracy, populism",
+   "ideologyIs": "Jafnaðarstefna, popúlismi",
    "inGovernment": false,
    "lastResult": "7 Chamber seats (2015–16)",
+   "lastResultIs": "7 sæti í fulltrúadeildinni (2015–16)",
    "polling": "",
    "policies": [
     "Popular-sector and anti-poverty platform",
     "Registered to contest 2026"
+   ],
+   "policiesIs": [
+    "Stefna í þágu alþýðunnar og gegn fátækt",
+    "Skráður til þátttöku í kosningunum 2026"
    ]
   },
   {
@@ -33,13 +45,20 @@
    "abbr": "OPL",
    "leader": "Edgard Leblanc Fils",
    "position": "Centre-left",
+   "positionIs": "Mið-vinstri",
    "ideology": "Social democracy",
+   "ideologyIs": "Jafnaðarstefna",
    "inGovernment": false,
    "lastResult": "9 Chamber seats (2015–16)",
+   "lastResultIs": "9 sæti í fulltrúadeildinni (2015–16)",
    "polling": "",
    "policies": [
     "Registered to contest 2026",
     "Mix of social democratic and market policies"
+   ],
+   "policiesIs": [
+    "Skráður til þátttöku í kosningunum 2026",
+    "Blanda af jafnaðarstefnu og markaðslausnum"
    ]
   },
   {
@@ -47,13 +66,20 @@
    "abbr": "PPD",
    "leader": "Jean-Charles Moïse",
    "position": "Left",
+   "positionIs": "Vinstri",
    "ideology": "Dessalinism, left-wing populism",
+   "ideologyIs": "Dessalinismi, vinstripopúlismi",
    "inGovernment": false,
    "lastResult": "2 Chamber seats (2015–16)",
+   "lastResultIs": "2 sæti í fulltrúadeildinni (2015–16)",
    "polling": "",
    "policies": [
     "Nationalist, anti-elite message",
     "Registered to contest 2026"
+   ],
+   "policiesIs": [
+    "Þjóðernissinnaður boðskapur gegn elítunni",
+    "Skráður til þátttöku í kosningunum 2026"
    ]
   },
   {
@@ -61,13 +87,20 @@
    "abbr": "AAA",
    "leader": "Youri Latortue",
    "position": "Right",
+   "positionIs": "Hægri",
    "ideology": "Nationalism, cultural conservatism",
+   "ideologyIs": "Þjóðernishyggja, menningarleg íhaldsstefna",
    "inGovernment": false,
    "lastResult": "5 Chamber seats (2015–16)",
+   "lastResultIs": "5 sæti í fulltrúadeildinni (2015–16)",
    "polling": "",
    "policies": [
     "Law-and-order focus",
     "Registered to contest 2026"
+   ],
+   "policiesIs": [
+    "Áhersla á lög og reglu",
+    "Skráður til þátttöku í kosningunum 2026"
    ]
   }
  ],

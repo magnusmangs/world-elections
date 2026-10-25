@@ -75,7 +75,8 @@
    "accession": "0000034088-26-000093",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -83,8 +84,10 @@
    "accession": "0002115436-26-000006",
    "reportDate": "2026-07-31",
    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/xom-20260731.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002115436"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002115436",
+ "summaryEn": "ExxonMobil reported revenue of $116.0 billion for the quarter ended 30 June 2026, up 42.3% from a year earlier. Net income was $14.5 billion, up 105.1% from a year earlier. Diluted earnings per share were $3.48."
 }

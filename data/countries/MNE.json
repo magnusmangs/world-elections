@@ -2,80 +2,122 @@
   "iso3": "MNE",
   "isoNumeric": "499",
   "name": "Montenegro",
+  "nameIs": "Svartfjallaland",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-06-27",
       "dateStatus": "expected",
       "type": "Parliamentary",
-      "note": "81 seats. Must be held before 30 June 2027."
+      "typeIs": "Þingkosningar",
+      "note": "81 seats. Must be held before 30 June 2027.",
+      "noteIs": "81 þingsæti. Kosningar verða að fara fram fyrir 30. júní 2027."
     }
   ],
   "leaders": "Prime Minister Milojko Spajić (PES)",
+  "leadersIs": "Milojko Spajić forsætisráðherra (PES)",
   "summary": "Spajić's Europe Now! leads a coalition aiming to close EU accession talks by 2026–2027. The former ruling DPS leads some polls.",
+  "summaryIs": "Flokkur Spajić, Evrópa núna!, leiðir samsteypustjórn sem stefnir að því að ljúka aðildarviðræðum við ESB 2026–2027. Fyrrverandi stjórnarflokkurinn DPS mælist stærstur í sumum könnunum.",
   "parties": [
     {
       "name": "Europe Now!",
+      "nameIs": "Evrópa núna!",
       "abbr": "PES",
       "leader": "Milojko Spajić",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Pro-Europeanism, economic liberalism",
+      "ideologyIs": "Evrópuhyggja, efnahagsleg frjálshyggja",
       "inGovernment": true,
       "lastResult": "25.5% (2023)",
+      "lastResultIs": "25,5% (2023)",
       "polling": "~20% (Spektrum, Apr 2026)",
+      "pollingIs": "~20% (Spektrum, apríl 2026)",
       "policies": [
         "Complete EU accession",
         "Higher wages and pensions",
         "Tax reform"
+      ],
+      "policiesIs": [
+        "Ljúka aðild að ESB",
+        "Hærri laun og lífeyrir",
+        "Umbætur á skattkerfinu"
       ],
       "seats": 26,
       "color": "#00a9e0"
     },
     {
       "name": "Democratic Party of Socialists",
+      "nameIs": "Lýðræðisflokkur sósíalista",
       "abbr": "DPS",
       "leader": "Danijel Živković",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy, Montenegrin nationalism",
+      "ideologyIs": "Jafnaðarstefna, svartfellsk þjóðernishyggja",
       "inGovernment": false,
       "lastResult": "23.2% (2023)",
+      "lastResultIs": "23,2% (2023)",
       "polling": "~26% (Spektrum, Apr 2026)",
+      "pollingIs": "~26% (Spektrum, apríl 2026)",
       "policies": [
         "Pro-EU and pro-NATO",
         "Montenegrin national identity",
         "Main opposition"
+      ],
+      "policiesIs": [
+        "Hlynntur ESB og NATO",
+        "Svartfellsk þjóðarvitund",
+        "Helsti stjórnarandstöðuflokkurinn"
       ],
       "seats": 16,
       "color": "#e2001a"
     },
     {
       "name": "For the Future of Montenegro",
+      "nameIs": "Fyrir framtíð Svartfjallalands",
       "abbr": "ZBCG",
       "leader": "Andrija Mandić",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "Serbian nationalism",
+      "ideologyIs": "Serbnesk þjóðernishyggja",
       "inGovernment": true,
       "lastResult": "14.8% (2023)",
+      "lastResultIs": "14,8% (2023)",
       "polling": "",
       "policies": [
         "Closer ties with Serbia",
         "Serbian language and church rights"
+      ],
+      "policiesIs": [
+        "Nánari tengsl við Serbíu",
+        "Réttindi serbneskrar tungu og kirkju"
       ],
       "seats": 12,
       "color": "#002f6c"
     },
     {
       "name": "Bosniak Party",
+      "nameIs": "Bosníakaflokkurinn",
       "abbr": "BS",
       "leader": "Ervin Ibrahimović",
       "position": "Centre",
+      "positionIs": "Miðja",
       "ideology": "Bosniak minority interests",
+      "ideologyIs": "Hagsmunir minnihluta Bosníaka",
       "inGovernment": true,
       "lastResult": "7.1% (2023)",
+      "lastResultIs": "7,1% (2023)",
       "polling": "~7%",
+      "pollingIs": "~7%",
       "policies": [
         "Minority rights",
         "Pro-EU"
+      ],
+      "policiesIs": [
+        "Réttindi minnihlutahópa",
+        "Hlynntur ESB"
       ],
       "seats": 6,
       "color": "#0b6e3a"
@@ -85,13 +127,21 @@
       "abbr": "URA",
       "leader": "Dritan Abazović",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Green politics, civic",
+      "ideologyIs": "Græn stjórnmál, borgaraleg stefna",
       "inGovernment": false,
       "lastResult": "Within Aleksa & Dritan list (2023)",
+      "lastResultIs": "Á lista Aleksa & Dritan (2023)",
       "polling": "~5%",
+      "pollingIs": "~5%",
       "policies": [
         "Anti-corruption and organised crime",
         "Civic, pro-EU platform"
+      ],
+      "policiesIs": [
+        "Barátta gegn spillingu og skipulagðri glæpastarfsemi",
+        "Borgaraleg og Evrópusinnuð stefna"
       ],
       "seats": 4,
       "color": "#6cc24a"
@@ -102,9 +152,11 @@
   ],
   "chamber": {
     "name": "Parliament",
+    "nameIs": "þingið",
     "seats": 81,
     "majority": 41,
     "asOf": "ZBCG counts NSD and DNP",
+    "asOfIs": "ZBCG telur með NSD og DNP",
     "source": "https://en.wikipedia.org/wiki/Next_Montenegrin_parliamentary_election"
   }
 }

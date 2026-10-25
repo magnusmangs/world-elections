@@ -2,17 +2,22 @@
  "iso3": "KGZ",
  "isoNumeric": "417",
  "name": "Kyrgyzstan",
+ "nameIs": "Kirgistan",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2027-01-27",
    "dateStatus": "tentative",
    "type": "Presidential",
-   "note": "Five-year term, two-term limit under the 2021 constitution."
+   "typeIs": "Forsetakosningar",
+   "note": "Five-year term, two-term limit under the 2021 constitution.",
+   "noteIs": "Fimm ára kjörtímabil og hámark tvö kjörtímabil samkvæmt stjórnarskránni frá 2021."
   }
  ],
  "leaders": "President Sadyr Japarov",
+ "leadersIs": "Sadyr Japarov forseti",
  "summary": "A February 2026 Constitutional Court ruling allowed Sadyr Japarov to seek a second term. International monitors report democratic backsliding and pressure on independent media since 2021.",
+ "summaryIs": "Úrskurður stjórnlagadómstólsins í febrúar 2026 heimilaði Sadyr Japarov að sækjast eftir öðru kjörtímabili. Alþjóðlegir eftirlitsaðilar greina frá afturför lýðræðis og þrýstingi á óháða fjölmiðla frá 2021.",
  "parties": [
   {
    "name": "Sadyr Japarov",
@@ -20,17 +25,25 @@
    "leader": "Sadyr Japarov",
    "position": "",
    "ideology": "Nationalism, populism",
+   "ideologyIs": "Þjóðernishyggja, lýðhyggja",
    "inGovernment": true,
    "lastResult": "79% (2021)",
+   "lastResultIs": "79% (2021)",
    "polling": "",
    "policies": [
     "Seeks a second term",
     "Strong presidential system",
     "Economic development and anti-corruption campaign against old elites"
+   ],
+   "policiesIs": [
+    "Sækist eftir öðru kjörtímabili",
+    "Sterkt forsetaræði",
+    "Efnahagsuppbygging og barátta gegn spillingu sem beinist að gömlu valdaklíkunni"
    ]
   }
  ],
  "noParties": "Opposition candidates have not been confirmed.",
+ "noPartiesIs": "Frambjóðendur stjórnarandstöðunnar hafa ekki verið staðfestir.",
  "sources": [
   "https://en.wikipedia.org/wiki/2027_Kyrgyz_presidential_election"
  ]

@@ -2,19 +2,25 @@
  "iso3": "BHR",
  "isoNumeric": "048",
  "name": "Bahrain",
+ "nameIs": "Barein",
  "lastReviewed": "2026-10-20",
  "elections": [
   {
    "date": "2027-11-27",
    "dateStatus": "tentative",
    "type": "Parliamentary (Council of Representatives)",
-   "note": "40 single-member seats, two-round system. A royal order of 29 April 2026 extended the legislative term by one year to December 2027; the election date has not been set."
+   "typeIs": "Þingkosningar (fulltrúadeildin)",
+   "note": "40 single-member seats, two-round system. A royal order of 29 April 2026 extended the legislative term by one year to December 2027; the election date has not been set.",
+   "noteIs": "40 einmenningskjördæmi, kosið í tveimur umferðum. Með konunglegri tilskipun 29. apríl 2026 var kjörtímabil þingsins framlengt um eitt ár, til desember 2027; kjördagur hefur ekki verið ákveðinn."
   }
  ],
  "leaders": "King Hamad bin Isa Al Khalifa; Crown Prince and Prime Minister Salman bin Hamad",
+ "leadersIs": "Hamad bin Isa Al Khalifa konungur; Salman bin Hamad krónprins og forsætisráðherra",
  "summary": "Bahrain elects the lower house of parliament; the upper house is appointed by the King. The vote due in late 2026 was pushed back when a royal order extended the legislative term to December 2027. Candidates run mostly as independents, and the main opposition societies were dissolved in 2016–2017 and remain barred.",
+ "summaryIs": "Í Barein er kosið til neðri deildar þingsins en konungur skipar í efri deildina. Kosningunum sem áttu að fara fram síðla árs 2026 var frestað þegar kjörtímabil þingsins var framlengt til desember 2027 með konunglegri tilskipun. Frambjóðendur bjóða sig flestir fram sem óháðir og helstu samtök stjórnarandstöðunnar, sem voru leyst upp 2016–2017, mega enn ekki bjóða fram.",
  "parties": [],
  "noParties": "Candidates stand largely as independents. Major opposition political societies (Al-Wefaq, Wa'ad) are banned from running.",
+ "noPartiesIs": "Frambjóðendur bjóða sig að mestu fram sem óháðir. Helstu stjórnmálasamtök stjórnarandstöðunnar (Al-Wefaq, Wa'ad) mega ekki bjóða fram.",
  "sources": [
   "https://en.wikipedia.org/wiki/2026_Bahraini_general_election",
   "https://www.idea.int/democracytracker/report/bahrain/april-2026",

@@ -2,31 +2,44 @@
   "iso3": "GRD",
   "isoNumeric": "308",
   "name": "Grenada",
+  "nameIs": "Grenada",
   "lastReviewed": "2026-10-20",
   "elections": [
     {
       "date": "2026-11-05",
       "dateStatus": "confirmed",
       "type": "General election (snap)",
-      "note": "15 seats, first-past-the-post."
+      "typeIs": "Þingkosningar (snemmbúnar)",
+      "note": "15 seats, first-past-the-post.",
+      "noteIs": "15 þingsæti, meirihlutakosning í einmenningskjördæmum."
     }
   ],
   "leaders": "Prime Minister Dickon Mitchell (NDC)",
+  "leadersIs": "Dickon Mitchell forsætisráðherra (NDC)",
   "summary": "Prime Minister Mitchell called the vote almost a year before the October 2027 deadline. The NDC and NNP are the main contenders for the 15 seats, and former foreign minister Peter David's new Democratic People's Movement is also expected to run. Candidates were nominated on 15 October.",
+  "summaryIs": "Mitchell forsætisráðherra boðaði til kosninga nærri ári áður en kjörtímabilinu lýkur í október 2027. NDC og NNP berjast einkum um þingsætin 15 og búist er við að Democratic People's Movement, nýr flokkur Peters David fyrrverandi utanríkisráðherra, bjóði einnig fram. Frambjóðendur voru tilnefndir 15. október.",
   "parties": [
     {
       "name": "National Democratic Congress",
       "abbr": "NDC",
       "leader": "Dickon Mitchell",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "51.8%, 9 seats (2022)",
+      "lastResultIs": "51,8%, 9 þingsæti (2022)",
       "polling": "",
       "policies": [
         "Seeks a second term on continuity and public service",
         "Frames the vote as moving Grenada, Carriacou and Petite Martinique forward",
         "Detailed manifesto limited in English-language sources so far"
+      ],
+      "policiesIs": [
+        "Sækist eftir öðru kjörtímabili og leggur áherslu á stöðugleika og opinbera þjónustu",
+        "Lýsir kosningunum sem tækifæri til að færa Grenada, Carriacou og Petite Martinique fram á við",
+        "Enn sem komið er takmarkaðar upplýsingar um ítarlega stefnuskrá í enskum heimildum"
       ],
       "seats": 9,
       "color": "#f2c200"
@@ -36,13 +49,20 @@
       "abbr": "NNP",
       "leader": "Emmalin Pierre",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Conservatism",
+      "ideologyIs": "Íhaldsstefna",
       "inGovernment": false,
       "lastResult": "47.1%, 6 seats (2022)",
+      "lastResultIs": "47,1%, 6 þingsæti (2022)",
       "polling": "",
       "policies": [
         "First general election under Emmalin Pierre, the party's first woman leader",
         "Detailed manifesto limited in English-language sources so far"
+      ],
+      "policiesIs": [
+        "Fyrstu þingkosningar undir forystu Emmalin Pierre, fyrstu konunnar sem leiðir flokkinn",
+        "Enn sem komið er takmarkaðar upplýsingar um ítarlega stefnuskrá í enskum heimildum"
       ],
       "seats": 6,
       "color": "#2e8b57"
@@ -56,9 +76,11 @@
   ],
   "chamber": {
     "name": "House of Representatives",
+    "nameIs": "fulltrúadeildin",
     "seats": 15,
     "majority": 8,
     "asOf": "as elected in June 2022",
+    "asOfIs": "samkvæmt úrslitum kosninganna í júní 2022",
     "source": "https://en.wikipedia.org/wiki/2022_Grenadian_general_election"
   }
 }

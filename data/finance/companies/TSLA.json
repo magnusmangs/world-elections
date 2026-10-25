@@ -365,7 +365,8 @@
    "accession": "0001628280-26-066775",
    "reportDate": "2026-09-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -373,7 +374,8 @@
    "accession": "0001628280-26-066738",
    "reportDate": "2026-10-21",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "8-K",
@@ -381,7 +383,8 @@
    "accession": "0001628280-26-064366",
    "reportDate": "2026-10-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -389,7 +392,8 @@
    "accession": "0001628280-26-049270",
    "reportDate": "2026-06-30",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -397,7 +401,8 @@
    "accession": "0001628280-26-049213",
    "reportDate": "2026-07-22",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/tsla-20260722.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "8-K",
@@ -405,7 +410,8 @@
    "accession": "0001628280-26-046717",
    "reportDate": "2026-07-02",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/tsla-20260702.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   },
   {
    "form": "10-Q",
@@ -413,7 +419,8 @@
    "accession": "0001628280-26-026673",
    "reportDate": "2026-03-31",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm",
-   "kind": "Ársfjórðungsuppgjör"
+   "kind": "Ársfjórðungsuppgjör",
+   "kindEn": "Quarterly report"
   },
   {
    "form": "8-K",
@@ -421,8 +428,10 @@
    "accession": "0001628280-26-026551",
    "reportDate": "2026-04-22",
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/tsla-20260422.htm",
-   "kind": "Afkomutilkynning"
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
   }
  ],
- "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605"
+ "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605",
+ "summaryEn": "Tesla reported revenue of $28.0 billion for the quarter ended 30 September 2026, down 0.2% from a year earlier. Net income was $787 million, down 42.7% from a year earlier. Diluted earnings per share were $0.22. Free cash flow (operating cash flow less capital expenditure) was $1.5 billion."
 }

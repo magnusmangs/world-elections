@@ -2,26 +2,35 @@
   "iso3": "POL",
   "isoNumeric": "616",
   "name": "Poland",
+  "nameIs": "Pólland",
   "lastReviewed": "2026-10-19",
   "elections": [
     {
       "date": "2027-10-24",
       "dateStatus": "expected",
       "type": "Parliamentary (Sejm and Senate)",
-      "note": "Must be held between 17 October and 11 November 2027; date set by the President."
+      "typeIs": "Þingkosningar (Sejm og öldungadeild)",
+      "note": "Must be held between 17 October and 11 November 2027; date set by the President.",
+      "noteIs": "Verða að fara fram á tímabilinu 17. október til 11. nóvember 2027; forsetinn ákveður kjördag."
     }
   ],
   "leaders": "Prime Minister Donald Tusk (KO); President Karol Nawrocki",
+  "leadersIs": "Donald Tusk forsætisráðherra (KO); Karol Nawrocki forseti",
   "summary": "Tusk's coalition faces a right-wing opposition that has fragmented, with Confederation gaining and former PM Morawiecki splitting from PiS in July 2026. President Nawrocki has vetoed several government laws.",
+  "summaryIs": "Samsteypustjórn Tusks stendur frammi fyrir sundraðri stjórnarandstöðu á hægri vængnum, þar sem Konfederacja sækir í sig veðrið og Morawiecki, fyrrverandi forsætisráðherra, klauf sig frá PiS í júlí 2026. Nawrocki forseti hefur beitt neitunarvaldi gegn nokkrum lögum ríkisstjórnarinnar.",
   "parties": [
     {
       "name": "Civic Coalition",
+      "nameIs": "Borgarabandalagið",
       "abbr": "KO",
       "leader": "Donald Tusk",
       "position": "Centre to centre-right",
+      "positionIs": "Miðja til mið-hægri",
       "ideology": "Liberal conservatism, pro-Europeanism",
+      "ideologyIs": "Frjálslynd íhaldsstefna, Evrópusinnar",
       "inGovernment": true,
       "lastResult": "30.7%, 157 seats (2023)",
+      "lastResultIs": "30,7%, 157 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Defence spending near 5% of GDP",
@@ -29,23 +38,39 @@
         "Campaign against the far right",
         "Pro-EU agenda"
       ],
+      "policiesIs": [
+        "Útgjöld til varnarmála nærri 5% af VLF",
+        "Endurreisn réttarríkisins",
+        "Barátta gegn öfgahægrinu",
+        "Stefna hliðholl ESB"
+      ],
       "seats": 156,
       "color": "#f68f2d"
     },
     {
       "name": "Law and Justice",
+      "nameIs": "Lög og réttlæti",
       "abbr": "PiS",
       "leader": "Jarosław Kaczyński; PM candidate Przemysław Czarnek",
       "position": "Right",
+      "positionIs": "Hægri",
       "ideology": "National conservatism, right-wing populism",
+      "ideologyIs": "Þjóðernisleg íhaldsstefna, hægri popúlismi",
       "inGovernment": false,
       "lastResult": "35.4%, 194 seats (2023)",
+      "lastResultIs": "35,4%, 194 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Shifted further right under Czarnek",
         "Basic income proposal",
         "Oppose EU migration pact",
         "Sovereignty against EU institutions"
+      ],
+      "policiesIs": [
+        "Hefur færst lengra til hægri undir forystu Czarneks",
+        "Tillaga um borgaralaun",
+        "Andvígur fólksflutningasáttmála ESB",
+        "Fullveldi gagnvart stofnunum ESB"
       ],
       "seats": 147,
       "color": "#263778"
@@ -55,14 +80,23 @@
       "abbr": "KWiN",
       "leader": "Sławomir Mentzen and Krzysztof Bosak",
       "position": "Right to far-right",
+      "positionIs": "Hægri til lengst til hægri",
       "ideology": "Right-libertarianism, nationalism",
+      "ideologyIs": "Hægri frjálshyggja, þjóðernishyggja",
       "inGovernment": false,
       "lastResult": "7.2%, 18 seats (2023)",
+      "lastResultIs": "7,2%, 18 þingsæti (2023)",
       "polling": "Rising since 2025",
+      "pollingIs": "Hefur sótt í sig veðrið frá 2025",
       "policies": [
         "Lower taxes and smaller state",
         "Restrict immigration",
         "Eurosceptic positions"
+      ],
+      "policiesIs": [
+        "Lægri skattar og minna ríkisvald",
+        "Takmörkun innflytjenda",
+        "Efasemdir um Evrópusambandið"
       ],
       "seats": 16,
       "color": "#122746"
@@ -72,46 +106,71 @@
       "abbr": "R+",
       "leader": "Mateusz Morawiecki",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Christian democracy, conservatism",
+      "ideologyIs": "Kristileg lýðræðisstefna, íhaldsstefna",
       "inGovernment": false,
       "lastResult": "New (split from PiS July 2026)",
+      "lastResultIs": "Nýr flokkur (klauf sig frá PiS í júlí 2026)",
       "polling": "~7% at launch",
+      "pollingIs": "Um 7% við stofnun",
       "policies": [
         "Moderate conservative alternative to PiS",
         "Economic growth and investment"
+      ],
+      "policiesIs": [
+        "Hófsamur íhaldssamur valkostur við PiS",
+        "Hagvöxtur og fjárfesting"
       ],
       "seats": 41,
       "color": "#5b8bd1"
     },
     {
       "name": "Polish People's Party",
+      "nameIs": "Pólski bændaflokkurinn",
       "abbr": "PSL",
       "leader": "Władysław Kosiniak-Kamysz",
       "position": "Centre-right",
+      "positionIs": "Mið-hægri",
       "ideology": "Agrarianism, Christian democracy",
+      "ideologyIs": "Bændastefna, kristileg lýðræðisstefna",
       "inGovernment": true,
       "lastResult": "Third Way 14.4% (2023, with PL2050)",
+      "lastResultIs": "Þriðja leiðin 14,4% (2023, með PL2050)",
       "polling": "",
       "policies": [
         "Farmers' interests",
         "Defence (holds defence ministry)",
         "Blocks some socially liberal reforms"
       ],
+      "policiesIs": [
+        "Hagsmunir bænda",
+        "Varnarmál (fer með varnarmálaráðuneytið)",
+        "Stendur í vegi fyrir sumum frjálslyndum umbótum í samfélagsmálum"
+      ],
       "seats": 32,
       "color": "#1bb100"
     },
     {
       "name": "New Left",
+      "nameIs": "Nýja vinstrið",
       "abbr": "NL",
       "leader": "Włodzimierz Czarzasty",
       "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
       "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
       "lastResult": "8.6%, 26 seats (2023)",
+      "lastResultIs": "8,6%, 26 þingsæti (2023)",
       "polling": "",
       "policies": [
         "Joint list proposal with Razem",
         "Housing and abortion rights liberalisation"
+      ],
+      "policiesIs": [
+        "Tillaga um sameiginlegan lista með Razem",
+        "Húsnæðismál og rýmkun réttar til þungunarrofs"
       ],
       "seats": 21,
       "color": "#d50000"
@@ -122,9 +181,11 @@
   ],
   "chamber": {
     "name": "Sejm",
+    "nameIs": "Sejm, neðri deild þingsins",
     "seats": 460,
     "majority": 231,
     "asOf": "Konfederacja shown as KWiN club; PSL excludes Poland 2050",
+    "asOfIs": "Konfederacja sýnd sem þingflokkurinn KWiN; PSL án Póllands 2050",
     "source": "https://en.wikipedia.org/wiki/Next_Polish_parliamentary_election"
   }
 }

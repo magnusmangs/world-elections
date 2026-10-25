@@ -2,35 +2,48 @@
  "iso3": "SOM",
  "isoNumeric": "706",
  "name": "Somalia",
+ "nameIs": "Sómalía",
  "lastReviewed": "2026-10-19",
  "elections": [
   {
    "date": "2026-12-31",
    "dateStatus": "tentative",
    "type": "Presidential and House of the People",
-   "note": "Shift from clan-based indirect voting to direct elections is disputed."
+   "typeIs": "Forsetakosningar og kosningar til fulltrúadeildar (House of the People)",
+   "note": "Shift from clan-based indirect voting to direct elections is disputed.",
+   "noteIs": "Deilt er um umskipti frá óbeinum kosningum á grundvelli ættbálka yfir í beinar kosningar."
   }
  ],
  "leaders": "President Hassan Sheikh Mohamud (mandate disputed)",
+ "leadersIs": "Hassan Sheikh Mohamud forseti (deilt um umboð hans)",
  "summary": "The federal government's 2024 constitutional amendments replace clan-based indirect elections with universal suffrage, but opposition groups and the Puntland and Jubaland states reject them. The opposition argues the president's term ended on 15 May 2026.",
+ "summaryIs": "Stjórnarskrárbreytingar alríkisstjórnarinnar frá 2024 leysa óbeinar kosningar á grundvelli ættbálka af hólmi með almennum kosningarétti, en stjórnarandstöðuhópar og sambandsríkin Puntland og Jubaland hafna þeim. Stjórnarandstaðan heldur því fram að kjörtímabili forsetans hafi lokið 15. maí 2026.",
  "parties": [
   {
    "name": "Federal Government / JSP",
+   "nameIs": "Alríkisstjórnin / JSP",
    "abbr": "JSP",
    "leader": "Hassan Sheikh Mohamud",
    "position": "",
    "ideology": "",
    "inGovernment": true,
    "lastResult": "Elected by parliament (2022)",
+   "lastResultIs": "Kjörinn af þinginu (2022)",
    "polling": "",
    "policies": [
     "Direct one-person-one-vote elections",
     "Backs the 2024 constitutional amendments",
     "Says its mandate runs to May 2027"
+   ],
+   "policiesIs": [
+    "Beinar kosningar þar sem hver kjósandi hefur eitt atkvæði",
+    "Styður stjórnarskrárbreytingarnar frá 2024",
+    "Segir umboð sitt gilda til maí 2027"
    ]
   },
   {
    "name": "Somali Future Council",
+   "nameIs": "Framtíðarráð Sómalíu",
    "abbr": "SFC",
    "leader": "Opposition coalition",
    "position": "",
@@ -42,10 +55,16 @@
     "Says the president's term expired in May 2026",
     "Proposes the Speaker as acting president",
     "Rejects the 2024 amendments"
+   ],
+   "policiesIs": [
+    "Segir kjörtímabil forsetans hafa runnið út í maí 2026",
+    "Leggur til að þingforseti gegni embætti forseta",
+    "Hafnar breytingunum frá 2024"
    ]
   },
   {
    "name": "Puntland and Jubaland",
+   "nameIs": "Puntland og Jubaland",
    "abbr": "FMS",
    "leader": "Said Abdullahi Deni; Ahmed Madobe",
    "position": "",
@@ -57,6 +76,11 @@
     "Withdrew recognition of or cooperation with the federal government",
     "Demand a constitution approved by referendum",
     "Oppose term extensions"
+   ],
+   "policiesIs": [
+    "Hafa hætt að viðurkenna alríkisstjórnina eða starfa með henni",
+    "Krefjast stjórnarskrár sem samþykkt verði í þjóðaratkvæðagreiðslu",
+    "Andvíg framlengingu kjörtímabila"
    ]
   }
  ],
