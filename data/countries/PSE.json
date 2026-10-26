@@ -3,21 +3,21 @@
   "isoNumeric": "275",
   "name": "Palestine",
   "nameIs": "Palestína",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
-      "date": "2026-11-28",
-      "dateStatus": "confirmed",
-      "type": "Legislative (Palestinian Legislative Council)",
-      "typeIs": "Þingkosningar (palestínska löggjafarráðið)",
-      "note": "First legislative election since 2006. 200 seats. Inclusion of East Jerusalem and Gaza disputed.",
-      "noteIs": "Fyrstu þingkosningar síðan 2006. 200 þingsæti. Deilt er um hvort Austur-Jerúsalem og Gaza verði með."
+      "date": "2027-09-11",
+      "dateStatus": "tentative",
+      "type": "General (presidential and legislative)",
+      "typeIs": "Forseta- og þingkosningar",
+      "note": "The legislative vote set for 28 November 2026 was postponed by presidential decree on 10 October 2026 and combined with the presidential election. First legislative election since 2006.",
+      "noteIs": "Þingkosningunum sem áttu að fara fram 28. nóvember 2026 var frestað með forsetatilskipun 10. október 2026 og þær sameinaðar forsetakosningum. Fyrstu þingkosningar síðan 2006."
     }
   ],
   "leaders": "President Mahmoud Abbas (Fatah); Prime Minister Mohammad Mustafa",
   "leadersIs": "Mahmoud Abbas forseti (Fatah); Mohammad Mustafa forsætisráðherra",
-  "summary": "President Abbas set the first legislative vote in 20 years for 28 November. Lists must accept prior PLO commitments, a condition Hamas rejects, and whether voting can take place in East Jerusalem and Gaza is unresolved.",
-  "summaryIs": "Abbas forseti hefur boðað til fyrstu þingkosninga í 20 ár 28. nóvember. Framboðslistar verða að gangast við fyrri skuldbindingum PLO, skilyrði sem Hamas hafnar, og óvíst er hvort hægt verði að kjósa í Austur-Jerúsalem og á Gaza.",
+  "summary": "On 10 October 2026 President Abbas postponed the first legislative vote in 20 years from 28 November 2026 to 11 September 2027, citing Israeli restrictions, and combined it with the presidential election. Lists must accept prior PLO commitments, a condition Hamas rejects, and whether voting can take place in East Jerusalem and Gaza is unresolved.",
+  "summaryIs": "Hinn 10. október 2026 frestaði Abbas forseti fyrstu þingkosningum í 20 ár frá 28. nóvember 2026 til 11. september 2027 með vísan til takmarkana af hálfu Ísraels og sameinaði þær forsetakosningum. Framboðslistar verða að gangast við fyrri skuldbindingum PLO, skilyrði sem Hamas hafnar, og óvíst er hvort hægt verði að kjósa í Austur-Jerúsalem og á Gaza.",
   "parties": [
     {
       "name": "Fatah",
@@ -152,7 +152,8 @@
   ],
   "sources": [
     "https://aa.com.tr/en/middle-east/palestinian-election-commission-announces-timetable-for-nov-28-legislative-vote/4006814",
-    "https://en.wikipedia.org/wiki/2026_Palestinian_legislative_election"
+    "https://en.wikipedia.org/wiki/2026_Palestinian_legislative_election",
+    "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027"
   ],
   "chamber": {
     "name": "Palestinian Legislative Council",

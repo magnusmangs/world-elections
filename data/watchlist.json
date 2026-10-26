@@ -1,11 +1,16 @@
 {
  "note": "Countries likely to vote within ~14 months that are not yet in data/countries. The weekly update researches these first.",
  "countries": [
-  {"name": "Nicaragua", "iso3": "NIC", "isoNumeric": "558", "why": "General election due Nov 2026 or 2027; status unclear after 2025 constitutional changes"},
-  {"name": "Lesotho", "iso3": "LSO", "isoNumeric": "426", "why": "National Assembly election due by late 2027"},
+  {"name": "Lesotho", "iso3": "LSO", "isoNumeric": "426", "why": "National Assembly election due by about October 2027; no date set as of Oct 2026"},
   {"name": "Saint Kitts and Nevis", "iso3": "KNA", "isoNumeric": "659", "why": "General election due by late 2027"},
   {"name": "Dominica", "iso3": "DMA", "isoNumeric": "212", "why": "General election due by early 2028, may be called in 2027"},
-  {"name": "Republic of the Congo", "iso3": "COG", "isoNumeric": "178", "why": "Legislative election due mid-2027"},
-  {"name": "Marshall Islands", "iso3": "MHL", "isoNumeric": "584", "why": "Parliamentary election Nov 2027"}
+  {"name": "Republic of the Congo", "iso3": "COG", "isoNumeric": "178", "why": "Legislative election due by July 2027; no date set as of Oct 2026"},
+  {"name": "Libya", "iso3": "LBY", "isoNumeric": "434", "why": "June 2026 roadmap by rival institutions calls for simultaneous presidential and parliamentary elections by 17 Feb 2027; no electoral commission date yet"},
+  {"name": "Madagascar", "iso3": "MDG", "isoNumeric": "450", "why": "Transition plan: first vote (referendum or constitutional election) announced for July 2027, presidential election before Dec 2027"},
+  {"name": "Slovenia", "iso3": "SVN", "isoNumeric": "705", "why": "Presidential election due autumn 2027 (term ends Dec 2027); incumbent Pirc Musar undeclared"},
+  {"name": "Tajikistan", "iso3": "TJK", "isoNumeric": "762", "why": "Presidential election due by about October 2027 (seven-year term from Oct 2020)"},
+  {"name": "Equatorial Guinea", "iso3": "GNQ", "isoNumeric": "226", "why": "Parliamentary election due about November 2027 (last held Nov 2022)"},
+  {"name": "Tunisia", "iso3": "TUN", "isoNumeric": "788", "why": "Assembly of the Representatives of the People election due late 2027 or early 2028 (last held Dec 2022 to Jan 2023)"},
+  {"name": "Malaysia", "iso3": "MYS", "isoNumeric": "458", "why": "General election due by Feb 2028 (parliament dissolves automatically Dec 2027); may be called earlier in 2027"}
  ]
 }

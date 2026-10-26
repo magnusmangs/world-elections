@@ -1,0 +1,100 @@
+{
+  "iso3": "BDI",
+  "isoNumeric": "108",
+  "name": "Burundi",
+  "nameIs": "Búrúndí",
+  "lastReviewed": "2026-10-26",
+  "elections": [
+    {
+      "date": "2027-05-03",
+      "dateStatus": "confirmed",
+      "type": "Presidential",
+      "typeIs": "Forsetakosningar",
+      "note": "Date set by the electoral commission (CENI) in May 2026. Seven-year term; run-off if no candidate wins a majority.",
+      "noteIs": "Kjörstjórnin (CENI) ákvað dagsetninguna í maí 2026. Sjö ára kjörtímabil; seinni umferð ef enginn frambjóðandi fær meirihluta."
+    }
+  ],
+  "leaders": "President Évariste Ndayishimiye (CNDD-FDD)",
+  "leadersIs": "Évariste Ndayishimiye forseti (CNDD-FDD)",
+  "summary": "The ruling CNDD-FDD has named President Évariste Ndayishimiye as its candidate for a second term after winning every elected seat in the June 2025 parliamentary vote. Opposition parties question the independence of the electoral commission, and Agathon Rwasa, the main opposition figure in 2020, was removed as CNL leader in 2024.",
+  "summaryIs": "Stjórnarflokkurinn CNDD-FDD hefur útnefnt Évariste Ndayishimiye forseta sem frambjóðanda sinn til annars kjörtímabils, eftir að flokkurinn hlaut öll kjörin þingsæti í þingkosningunum í júní 2025. Stjórnarandstöðuflokkar efast um sjálfstæði kjörstjórnarinnar, og Agathon Rwasa, helsti leiðtogi stjórnarandstöðunnar 2020, var settur af sem leiðtogi CNL árið 2024.",
+  "parties": [
+    {
+      "name": "Évariste Ndayishimiye (CNDD-FDD)",
+      "abbr": "CNDD-FDD",
+      "leader": "Évariste Ndayishimiye",
+      "position": "",
+      "ideology": "Dominant ruling party",
+      "ideologyIs": "Ríkjandi valdaflokkur",
+      "inGovernment": true,
+      "lastResult": "71.4% (2020); party won 96.5% in 2025 parliamentary vote",
+      "lastResultIs": "71,4% (2020); flokkurinn hlaut 96,5% í þingkosningunum 2025",
+      "polling": "",
+      "policies": [
+        "Seeks a second seven-year term",
+        "Campaigns on continuity and peace",
+        "Government says preparations follow the constitution and electoral law"
+      ],
+      "policiesIs": [
+        "Sækist eftir öðru sjö ára kjörtímabili",
+        "Leggur áherslu á samfellu og frið",
+        "Stjórnvöld segja undirbúning fylgja stjórnarskrá og kosningalögum"
+      ],
+      "color": "#c62828"
+    },
+    {
+      "name": "Union for National Progress",
+      "abbr": "UPRONA",
+      "leader": "",
+      "position": "",
+      "inGovernment": false,
+      "lastResult": "1.4% in 2025 parliamentary vote, no seats",
+      "lastResultIs": "1,4% í þingkosningunum 2025, ekkert þingsæti",
+      "polling": "",
+      "policies": [
+        "Raised concerns about electoral commission independence in May 2026 talks",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Lýsti áhyggjum af sjálfstæði kjörstjórnarinnar í viðræðum í maí 2026",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "color": "#1565c0"
+    },
+    {
+      "name": "National Congress for Liberty",
+      "abbr": "CNL",
+      "leader": "",
+      "position": "",
+      "inGovernment": false,
+      "lastResult": "0.6% in 2025 parliamentary vote, no seats",
+      "lastResultIs": "0,6% í þingkosningunum 2025, ekkert þingsæti",
+      "polling": "",
+      "policies": [
+        "Former leader Agathon Rwasa ousted in 2024 and barred from standing",
+        "Raised concerns about electoral commission independence in May 2026 talks",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Agathon Rwasa, fyrrverandi leiðtogi, var settur af 2024 og meinað að bjóða sig fram",
+        "Lýsti áhyggjum af sjálfstæði kjörstjórnarinnar í viðræðum í maí 2026",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "color": "#f9a825"
+    }
+  ],
+  "lastElection": {
+    "date": "2025-06-05",
+    "type": "Parliamentary (National Assembly)",
+    "typeIs": "Þingkosningar (þjóðþingið)",
+    "outcome": "CNDD-FDD won 96.5% and all elected seats; opposition parties called the result fraudulent.",
+    "outcomeIs": "CNDD-FDD hlaut 96,5% og öll kjörin þingsæti; stjórnarandstöðuflokkar sögðu úrslitin byggð á svikum."
+  },
+  "sources": [
+    "https://www.burunditimes.com/ndayishimiye-hails-consensus-on-2027-elections-as-opposition-concerns-persist/",
+    "https://africanews.dz/eng/index.php/2026/05/09/burundi-ceni-sets-presidential-election-for-may-3-2027/",
+    "https://www.africanews.com/amp/2026/04/27/burundi-president-ndayishmiye-named-ruling-party-candidate-for-2027-election/",
+    "https://en.wikipedia.org/wiki/2025_Burundian_parliamentary_election",
+    "https://en.wikipedia.org/wiki/2020_Burundian_general_election"
+  ]
+}

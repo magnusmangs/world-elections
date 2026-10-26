@@ -3,15 +3,15 @@
  "isoNumeric": "417",
  "name": "Kyrgyzstan",
  "nameIs": "Kirgistan",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-26",
  "elections": [
   {
    "date": "2027-01-27",
-   "dateStatus": "tentative",
+   "dateStatus": "confirmed",
    "type": "Presidential",
    "typeIs": "Forsetakosningar",
-   "note": "Five-year term, two-term limit under the 2021 constitution.",
-   "noteIs": "Fimm ára kjörtímabil og hámark tvö kjörtímabil samkvæmt stjórnarskránni frá 2021."
+   "note": "Date set by parliamentary resolution in September 2026. Five-year term, two-term limit under the 2021 constitution.",
+   "noteIs": "Dagsetningin var ákveðin með þingsályktun í september 2026. Fimm ára kjörtímabil og hámark tvö kjörtímabil samkvæmt stjórnarskránni frá 2021."
   }
  ],
  "leaders": "President Sadyr Japarov",
@@ -45,6 +45,7 @@
  "noParties": "Opposition candidates have not been confirmed.",
  "noPartiesIs": "Frambjóðendur stjórnarandstöðunnar hafa ekki verið staðfestir.",
  "sources": [
-  "https://en.wikipedia.org/wiki/2027_Kyrgyz_presidential_election"
+  "https://en.wikipedia.org/wiki/2027_Kyrgyz_presidential_election",
+  "https://24.kg/en/article/390494"
  ]
 }

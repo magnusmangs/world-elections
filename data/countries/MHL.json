@@ -1,0 +1,36 @@
+{
+  "iso3": "MHL",
+  "isoNumeric": "584",
+  "name": "Marshall Islands",
+  "nameIs": "Marshalleyjar",
+  "lastReviewed": "2026-10-26",
+  "elections": [
+    {
+      "date": "2027-11-15",
+      "dateStatus": "expected",
+      "type": "Parliamentary (Nitijela)",
+      "typeIs": "Þingkosningar (Nitijela)",
+      "note": "Due by November 2027; exact date not yet set. 33 seats in 19 single-member and 5 multi-member constituencies. The new Nitijela then elects the president from among its members.",
+      "noteIs": "Kosningar skulu fara fram í síðasta lagi í nóvember 2027; nákvæm dagsetning hefur ekki verið ákveðin. 33 þingsæti í 19 einmenningskjördæmum og 5 fjölmenningskjördæmum. Nýja þingið kýs síðan forseta úr hópi þingmanna."
+    }
+  ],
+  "leaders": "President Hilda Heine, in office since January 2024",
+  "leadersIs": "Hilda Heine forseti, í embætti frá janúar 2024",
+  "summary": "Candidates stand as individuals and loose groupings rather than formal parties, and the president is chosen by the Nitijela after the vote. Hilda Heine was elected president by the Nitijela in January 2024.",
+  "summaryIs": "Frambjóðendur bjóða sig fram sem einstaklingar og í lauslegum hópum frekar en í formlegum flokkum, og þingið (Nitijela) kýs forseta eftir kosningarnar. Hilda Heine var kjörin forseti af þinginu í janúar 2024.",
+  "noParties": "No formal political parties; members are elected as individuals.",
+  "noPartiesIs": "Engir formlegir stjórnmálaflokkar; þingmenn eru kjörnir sem einstaklingar.",
+  "parties": [],
+  "lastElection": {
+    "date": "2023-11-20",
+    "type": "Parliamentary (Nitijela)",
+    "typeIs": "Þingkosningar (Nitijela)",
+    "outcome": "The new Nitijela elected Hilda Heine as president in January 2024.",
+    "outcomeIs": "Nýja þingið kaus Hildu Heine forseta í janúar 2024."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/2027_Marshallese_general_election",
+    "https://en.wikipedia.org/wiki/List_of_presidents_of_the_Marshall_Islands",
+    "https://en.wikipedia.org/wiki/2023_Marshallese_general_election"
+  ]
+}

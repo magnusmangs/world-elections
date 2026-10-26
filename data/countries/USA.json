@@ -3,7 +3,7 @@
   "isoNumeric": "840",
   "name": "United States",
   "nameIs": "Bandaríkin",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
       "date": "2026-11-03",
@@ -16,8 +16,8 @@
   ],
   "leaders": "President Donald Trump (Republican)",
   "leadersIs": "Donald Trump forseti (Repúblikanaflokkurinn)",
-  "summary": "Republicans control the White House and both chambers of Congress going into the midterms. Democrats lead the generic congressional ballot by about 7 points (Sept 2026 average).",
-  "summaryIs": "Repúblikanar ráða Hvíta húsinu og báðum deildum þingsins fyrir kosningarnar á miðju kjörtímabili. Demókratar mælast með um 7 stiga forskot þegar spurt er almennt hvorn flokkinn kjósendur styðji til þings (meðaltal í september 2026).",
+  "summary": "Republicans control the White House and both chambers of Congress going into the 3 November midterms. Democrats lead the generic congressional ballot by about 8 to 9 points in late October polling averages, with tariffs, prices, immigration enforcement and redistricting among the main issues.",
+  "summaryIs": "Repúblikanar ráða Hvíta húsinu og báðum deildum þingsins fyrir kosningarnar á miðju kjörtímabili 3. nóvember. Demókratar mælast með um 8 til 9 stiga forskot að meðaltali í almennum þingkönnunum seint í október, og meðal helstu kosningamála eru tollar, verðlag, aðgerðir gegn innflytjendum og ný kjördæmaskipan.",
   "parties": [
     {
       "name": "Republican Party",
@@ -31,8 +31,8 @@
       "inGovernment": true,
       "lastResult": "Won House and Senate majorities (2024)",
       "lastResultIs": "Vann meirihluta í fulltrúadeild og öldungadeild (2024)",
-      "polling": "Generic ballot ~42% (Sept 2026)",
-      "pollingIs": "Um 42% í almennri þingkönnun (sept. 2026)",
+      "polling": "~41% (Strength In Numbers/Verasight, Oct 2026)",
+      "pollingIs": "Um 41% (Strength In Numbers/Verasight, okt. 2026)",
       "policies": [
         "Broad tariffs to re-industrialise the US",
         "Large-scale immigration enforcement and deportations",
@@ -48,7 +48,7 @@
         "Framlengdar skattalækkanir samkvæmt One Big Beautiful Bill-lögunum"
       ],
       "seats": 218,
-      "pollValue": 41.9,
+      "pollValue": 41,
       "color": "#d22532"
     },
     {
@@ -63,8 +63,8 @@
       "inGovernment": false,
       "lastResult": "Minority in House and Senate (2024)",
       "lastResultIs": "Í minnihluta í fulltrúadeild og öldungadeild (2024)",
-      "polling": "Generic ballot ~49% (Sept 2026)",
-      "pollingIs": "Um 49% í almennri þingkönnun (sept. 2026)",
+      "polling": "~52% (Strength In Numbers/Verasight, Oct 2026)",
+      "pollingIs": "Um 52% (Strength In Numbers/Verasight, okt. 2026)",
       "policies": [
         "Focus on affordability and cost of living",
         "Oppose tariffs as inflationary",
@@ -80,28 +80,33 @@
         "Verja niðurgreiðslur í heilbrigðiskerfinu og Medicaid"
       ],
       "seats": 214,
-      "pollValue": 48.8,
+      "pollValue": 52,
       "color": "#2a5fb0"
     }
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_United_States_elections",
-    "https://ballotpedia.org/United_States_Congress_elections,_2026"
+    "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "https://ballotpedia.org/United_States_Congress_elections,_2026",
+    "https://www.gelliottmorris.com/p/2026-10-21-october-strength-in-numbers-verasight-poll-release",
+    "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls"
   ],
   "chamber": {
     "name": "House of Representatives",
     "nameIs": "fulltrúadeildin",
     "seats": 435,
     "majority": 218,
-    "asOf": "two seats vacant",
-    "asOfIs": "tvö sæti laus",
+    "asOf": "October 2026; one independent, two seats vacant",
+    "asOfIs": "október 2026; einn óháður, tvö sæti laus",
     "source": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
   },
   "poll": {
     "unit": "percent",
-    "date": "2026-09-13",
-    "pollster": "Generic congressional ballot, polling average (Decision Desk HQ, RealClearPolitics, Silver Bulletin and others)",
-    "pollsterIs": "Almenn þingkönnun, meðaltal kannana (Decision Desk HQ, RealClearPolitics, Silver Bulletin o.fl.)",
-    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
+    "date": "2026-10-21",
+    "pollster": "Strength In Numbers/Verasight",
+    "pollsterIs": "Strength In Numbers/Verasight",
+    "url": "https://www.gelliottmorris.com/p/2026-10-21-october-strength-in-numbers-verasight-poll-release",
+    "note": "Generic congressional ballot, registered voters (likely voters: Democrats 54%, Republicans 42%). Polling averages on 18 October ranged from D+7.8 to D+9.0.",
+    "noteIs": "Almenn þingkönnun meðal skráðra kjósenda (líklegir kjósendur: Demókratar 54%, Repúblikanar 42%). Meðaltöl kannana 18. október sýndu forskot Demókrata á bilinu 7,8 til 9,0 stig."
   }
 }

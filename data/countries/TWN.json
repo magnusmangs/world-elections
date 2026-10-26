@@ -1,0 +1,124 @@
+{
+  "iso3": "TWN",
+  "isoNumeric": "158",
+  "name": "Taiwan",
+  "nameIs": "Taívan",
+  "lastReviewed": "2026-10-26",
+  "elections": [
+    {
+      "date": "2028-01-15",
+      "dateStatus": "expected",
+      "type": "General (presidential and Legislative Yuan)",
+      "typeIs": "Forseta- og þingkosningar (Legislative Yuan)",
+      "note": "Expected in January 2028; the Central Election Commission has not set the date. The current legislature's term ends on 31 January 2028 and the new president takes office on 20 May 2028.",
+      "noteIs": "Gert er ráð fyrir kosningum í janúar 2028; miðkjörstjórnin hefur ekki ákveðið dagsetninguna. Kjörtímabili núverandi þings lýkur 31. janúar 2028 og nýr forseti tekur við 20. maí 2028."
+    }
+  ],
+  "leaders": "President Lai Ching-te (DPP); Premier Cho Jung-tai (DPP)",
+  "leadersIs": "Lai Ching-te forseti (DPP); Cho Jung-tai forsætisráðherra (DPP)",
+  "summary": "President Lai Ching-te of the DPP is eligible for a second term, while the KMT and TPP together control the Legislative Yuan and cut the government's special defence budget in May 2026. TPP founder Ko Wen-je was sentenced to 17 years for corruption at first instance in March 2026, which rules him out of a 2028 run under current rules.",
+  "summaryIs": "Lai Ching-te forseti úr DPP getur boðið sig fram til annars kjörtímabils, en KMT og TPP ráða saman Legislative Yuan og skáru niður sérstök fjárframlög stjórnarinnar til varnarmála í maí 2026. Ko Wen-je, stofnandi TPP, var dæmdur í 17 ára fangelsi fyrir spillingu á fyrsta dómstigi í mars 2026, sem útilokar hann frá framboði 2028 samkvæmt gildandi reglum.",
+  "parties": [
+    {
+      "name": "Democratic Progressive Party",
+      "abbr": "DPP",
+      "leader": "Lai Ching-te",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Taiwanese nationalism, liberalism",
+      "ideologyIs": "Taívönsk þjóðernishyggja, frjálslyndisstefna",
+      "inGovernment": true,
+      "lastResult": "40.1% presidential, 51 of 113 seats (2024)",
+      "lastResultIs": "40,1% í forsetakjöri, 51 af 113 þingsætum (2024)",
+      "polling": "",
+      "policies": [
+        "Defence spending of 5% of GDP by 2030",
+        "Special defence budget of about US$40 billion, including domestic drones and a 'Taiwan Dome' air defence system",
+        "Lai has said he will not give up on defence spending after legislative cuts"
+      ],
+      "policiesIs": [
+        "Útgjöld til varnarmála nemi 5% af landsframleiðslu fyrir 2030",
+        "Sérstök fjárframlög til varnarmála upp á um 40 milljarða Bandaríkjadala, meðal annars til innlendra dróna og loftvarnakerfisins 'Taiwan Dome'",
+        "Lai hefur sagst ekki ætla að gefast upp á varnarútgjöldum eftir niðurskurð þingsins"
+      ],
+      "seats": 51,
+      "color": "#1b9431"
+    },
+    {
+      "name": "Kuomintang",
+      "abbr": "KMT",
+      "leader": "Cheng Li-wun (chair; presidential nominee not chosen)",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Conservatism, closer cross-strait ties",
+      "ideologyIs": "Íhaldsstefna, nánari tengsl við Kína",
+      "inGovernment": false,
+      "lastResult": "33.5% presidential, 52 of 113 seats (2024)",
+      "lastResultIs": "33,5% í forsetakjöri, 52 af 113 þingsætum (2024)",
+      "polling": "",
+      "policies": [
+        "Direct dialogue with Beijing on the basis of the 1992 Consensus",
+        "Cut the special defence budget to about US$25 billion, funding US arms purchases only",
+        "Opposes an arms race with Beijing; spending to follow fiscal discipline",
+        "No rush to change the status quo"
+      ],
+      "policiesIs": [
+        "Beinar viðræður við stjórnvöld í Peking á grundvelli 1992 Consensus",
+        "Skar sérstök fjárframlög til varnarmála niður í um 25 milljarða Bandaríkjadala, eingöngu til vopnakaupa frá Bandaríkjunum",
+        "Andvígur vígbúnaðarkapphlaupi við Peking; útgjöld fylgi aga í ríkisfjármálum",
+        "Liggur ekki á að breyta óbreyttu ástandi"
+      ],
+      "seats": 52,
+      "color": "#1f4e9c"
+    },
+    {
+      "name": "Taiwan People's Party",
+      "abbr": "TPP",
+      "leader": "Huang Kuo-chang",
+      "position": "Centre",
+      "positionIs": "Miðja",
+      "ideology": "Populism, centrism",
+      "ideologyIs": "Lýðhyggja, miðjustefna",
+      "inGovernment": false,
+      "lastResult": "26.5% presidential, 8 of 113 seats (2024)",
+      "lastResultIs": "26,5% í forsetakjöri, 8 af 113 þingsætum (2024)",
+      "polling": "",
+      "policies": [
+        "Joined the KMT in passing a reduced special defence budget in May 2026",
+        "Founder Ko Wen-je sentenced at first instance and barred from running",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Samþykkti með KMT skert sérstök fjárframlög til varnarmála í maí 2026",
+        "Stofnandinn Ko Wen-je var dæmdur á fyrsta dómstigi og má ekki bjóða sig fram",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "seats": 8,
+      "color": "#28c8c8"
+    }
+  ],
+  "chamber": {
+    "name": "Legislative Yuan",
+    "nameIs": "Legislative Yuan",
+    "seats": 113,
+    "majority": 57,
+    "asOf": "11th Legislative Yuan; 2 independents caucus with the KMT",
+    "asOfIs": "11. Legislative Yuan; 2 óháðir þingmenn starfa með KMT",
+    "source": "https://en.wikipedia.org/wiki/11th_Legislative_Yuan"
+  },
+  "lastElection": {
+    "date": "2024-01-13",
+    "type": "General (presidential and Legislative Yuan)",
+    "typeIs": "Forseta- og þingkosningar (Legislative Yuan)",
+    "outcome": "Lai Ching-te (DPP) won the presidency with 40.1%; no party won a legislative majority.",
+    "outcomeIs": "Lai Ching-te (DPP) vann forsetakjörið með 40,1%; enginn flokkur náði meirihluta á þingi."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/2028_Taiwanese_presidential_election",
+    "https://www.taiwanplus.com/news/taiwan-news/military/250822024/taiwan-president-wants-defense-spending-to-hit-5percentage-gdp-by-2030",
+    "https://en.wikipedia.org/wiki/11th_Legislative_Yuan",
+    "https://jamestown.org/taiwans-special-defense-budget-bill-passes-with-drastic-cuts/",
+    "https://time.com/article/2026/08/11/taiwan-opposition-leader-kmt-cheng-li-wun-china/",
+    "https://newbloommag.net/2026/03/26/ko-sentence-2028-run/"
+  ]
+}

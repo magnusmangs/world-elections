@@ -3,7 +3,7 @@
   "isoNumeric": "376",
   "name": "Israel",
   "nameIs": "Ísrael",
-  "lastReviewed": "2026-10-24",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
       "date": "2026-10-27",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Benjamin Netanyahu (Likud); President Isaac Herzog",
   "leadersIs": "Benjamin Netanyahu forsætisráðherra (Likud); Isaac Herzog forseti",
-  "summary": "The 25th Knesset dissolved in July 2026. Polls show former army chief Gadi Eisenkot's Yashar ahead of Likud, with neither Netanyahu's bloc nor the opposition bloc reaching a 61-seat majority. Benny Gantz's Blue and White withdrew from the race on 19 October.",
-  "summaryIs": "Knesset, 25. þing Ísraels, var leyst upp í júlí 2026. Kannanir sýna Yashar, flokk fyrrverandi herráðsforingjans Gadi Eisenkot, á undan Likud, en hvorki blokk Netanyahus né blokk stjórnarandstöðunnar nær 61 sætis meirihluta. Bláhvíta bandalagið, flokkur Bennys Gantz, dró framboð sitt til baka 19. október.",
+  "summary": "The 25th Knesset dissolved in July 2026, and Israelis elect a new one on 27 October. The final polls on 23 October put Gadi Eisenkot's Yashar ahead of Benjamin Netanyahu's Likud, with neither Netanyahu's bloc nor the opposition bloc reaching a 61-seat majority.",
+  "summaryIs": "Knesset, 25. þing Ísraels, var leyst upp í júlí 2026 og Ísraelar kjósa nýtt þing 27. október. Síðustu kannanir 23. október sýna Yashar, flokk Gadi Eisenkot, á undan Likud, flokki Benjamins Netanyahu, en hvorki blokk Netanyahus né blokk stjórnarandstöðunnar nær 61 sætis meirihluta.",
   "parties": [
     {
       "name": "Yashar",
@@ -30,21 +30,19 @@
       "inGovernment": false,
       "lastResult": "New party (founded Sept 2025)",
       "lastResultIs": "Nýr flokkur (stofnaður í sept. 2025)",
-      "polling": "22–23 seats, first place (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "22–23 sæti, efstur (Channel 12, Channel 13 og Kan, 23. okt.)",
+      "polling": "22–23 seats, first place (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "22–23 sæti, efstur (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "State commission of inquiry into the 7 October attacks",
         "Military or national service for Haredi and Arab citizens",
         "Protect judicial independence; term limits for the prime minister",
-        "Strengthen the IDF and expand regional peace agreements",
-        "Cut crime, especially in Arab communities"
+        "Strengthen the IDF and expand regional peace agreements"
       ],
       "policiesIs": [
         "Rannsóknarnefnd á vegum ríkisins um árásirnar 7. október",
         "Herþjónusta eða samfélagsþjónusta fyrir strangtrúaða gyðinga og arabíska borgara",
         "Vernda sjálfstæði dómstóla; takmörk á því hve lengi forsætisráðherra má sitja",
-        "Efla Ísraelsher og fjölga friðarsamningum á svæðinu",
-        "Draga úr glæpum, einkum í samfélögum araba"
+        "Efla Ísraelsher og fjölga friðarsamningum á svæðinu"
       ],
       "color": "#2a9fd6",
       "pollValue": 23
@@ -60,8 +58,8 @@
       "inGovernment": true,
       "lastResult": "32 seats (2022)",
       "lastResultIs": "32 sæti (2022)",
-      "polling": "19–21 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "19–21 sæti (Channel 12, Channel 13 og Kan, 23. okt.)",
+      "polling": "19–21 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "19–21 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Netanyahu seeks to remain prime minister",
         "Hard line on security, Iran and Hamas",
@@ -90,8 +88,8 @@
       "inGovernment": false,
       "lastResult": "Yesh Atid 24 seats (2022)",
       "lastResultIs": "Yesh Atid 24 sæti (2022)",
-      "polling": "14–15 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "14–15 sæti (Channel 12, Channel 13 og Kan, 23. okt.)",
+      "polling": "14–15 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "14–15 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Replace the Netanyahu government",
         "Joint list of Bennett and Yair Lapid, led by Bennett",
@@ -106,7 +104,7 @@
       ],
       "color": "#47b0e8",
       "seats": 24,
-      "pollValue": 11
+      "pollValue": 15
     },
     {
       "name": "The Democrats",
@@ -120,8 +118,8 @@
       "inGovernment": false,
       "lastResult": "Labor 4 seats (2022); Meretz below threshold",
       "lastResultIs": "Verkamannaflokkurinn 4 sæti (2022); Meretz undir þröskuldi",
-      "polling": "8–10 seats (Channel 12, Channel 13 and Kan, 23 Oct)",
-      "pollingIs": "8–10 sæti (Channel 12, Channel 13 og Kan, 23. okt.)",
+      "polling": "8–10 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "8–10 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Unify the Zionist left",
         "Replace the Netanyahu government",
@@ -136,7 +134,7 @@
       ],
       "color": "#d6262f",
       "seats": 4,
-      "pollValue": 8
+      "pollValue": 10
     },
     {
       "name": "Shas",
@@ -149,8 +147,8 @@
       "inGovernment": true,
       "lastResult": "11 seats (2022)",
       "lastResultIs": "11 sæti (2022)",
-      "polling": "8 seats",
-      "pollingIs": "8 sæti",
+      "polling": "7–8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "7–8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Military service exemptions for yeshiva students",
         "Religious character of public life",
@@ -176,8 +174,8 @@
       "inGovernment": false,
       "lastResult": "6 seats (2022)",
       "lastResultIs": "6 sæti (2022)",
-      "polling": "8–9 seats",
-      "pollingIs": "8–9 sæti",
+      "polling": "8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Universal military conscription",
         "Separation of religion and state, civil marriage",
@@ -192,7 +190,7 @@
       ],
       "color": "#2d6a4f",
       "seats": 6,
-      "pollValue": 9
+      "pollValue": 8
     },
     {
       "name": "Otzma Yehudit",
@@ -205,8 +203,8 @@
       "inGovernment": true,
       "lastResult": "6 seats (2022 joint list share)",
       "lastResultIs": "6 sæti (hlutur af sameiginlegum lista 2022)",
-      "polling": "7–8 seats",
-      "pollingIs": "7–8 sæti",
+      "polling": "8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Harsher policing and death penalty for terrorists",
         "Opposed Gaza ceasefire deals",
@@ -225,7 +223,7 @@
       "name": "United Torah Judaism",
       "nameIs": "Yahadut HaTorah",
       "abbr": "UTJ",
-      "leader": "Yitzhak Goldknopf",
+      "leader": "Ya'akov Asher",
       "position": "Right",
       "positionIs": "Hægri",
       "ideology": "Ashkenazi Haredi",
@@ -233,8 +231,8 @@
       "inGovernment": false,
       "lastResult": "7 seats (2022)",
       "lastResultIs": "7 sæti (2022)",
-      "polling": "7–8 seats",
-      "pollingIs": "7–8 sæti",
+      "polling": "7–8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "7–8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Law exempting Haredi men from military service",
         "Left the coalition in 2025 over conscription",
@@ -247,11 +245,11 @@
       ],
       "color": "#4b4b4b",
       "seats": 7,
-      "pollValue": 8
+      "pollValue": 7
     },
     {
-      "name": "Religious Zionist Party",
-      "nameIs": "HaTzionut HaDatit",
+      "name": "Religious Zionism–Zehut",
+      "nameIs": "HaTzionut HaDatit–Zehut",
       "abbr": "RZP",
       "leader": "Bezalel Smotrich",
       "position": "Far-right",
@@ -261,17 +259,17 @@
       "inGovernment": true,
       "lastResult": "7 seats (2022 joint list share)",
       "lastResultIs": "7 sæti (hlutur af sameiginlegum lista 2022)",
-      "polling": "6–7 seats",
-      "pollingIs": "6–7 sæti",
+      "polling": "6–8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "6–8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Settlement expansion and sovereignty in the West Bank",
         "Opposes a Palestinian state",
-        "Judicial reform"
+        "Joint list with Moshe Feiglin's Zehut"
       ],
       "policiesIs": [
         "Fleiri landtökubyggðir og fullveldi á Vesturbakkanum",
         "Andvígur palestínsku ríki",
-        "Umbætur á dómskerfinu"
+        "Sameiginlegur listi með Zehut, flokki Moshe Feiglin"
       ],
       "color": "#5b7f1f",
       "seats": 6,
@@ -289,8 +287,8 @@
       "inGovernment": false,
       "lastResult": "Hadash–Ta'al 5 seats (2022)",
       "lastResultIs": "Hadash–Ta'al 5 sæti (2022)",
-      "polling": "8 seats",
-      "pollingIs": "8 sæti",
+      "polling": "9 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "9 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Equal rights for Arab citizens",
         "End to the occupation and a Palestinian state",
@@ -316,8 +314,8 @@
       "inGovernment": false,
       "lastResult": "5 seats (2022)",
       "lastResultIs": "5 sæti (2022)",
-      "polling": "5 seats",
-      "pollingIs": "5 sæti",
+      "polling": "5–7 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
+      "pollingIs": "5–7 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
       "policies": [
         "Budgets and crime-fighting for Arab towns",
         "Open to joining a coalition from outside the blocs",
@@ -344,8 +342,8 @@
       "inGovernment": false,
       "lastResult": "New list",
       "lastResultIs": "Nýr listi",
-      "polling": "Below the threshold in Channel 12 and Channel 13 polls, 4 seats in Kan (23 Oct), outside both blocs",
-      "pollingIs": "Undir þröskuldi í könnunum Stöðvar 12 og Stöðvar 13, 4 sæti hjá Kan (23. okt.), utan beggja blokka",
+      "polling": "Below the 3.25% threshold in Channel 12 (2.4%) and Channel 13 (3.0%), 4 seats in Kan (23 Oct 2026)",
+      "pollingIs": "Undir 3,25% þröskuldi hjá Channel 12 (2,4%) og Channel 13 (3,0%), 4 sæti hjá Kan (23. okt. 2026)",
       "policies": [
         "Joint list with Yaron Zelekha",
         "Burden-sharing in military service",
@@ -356,8 +354,7 @@
         "Að byrðum herþjónustu sé deilt jafnt",
         "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
       ],
-      "color": "#8a6d3b",
-      "pollValue": 4
+      "color": "#8a6d3b"
     },
     {
       "name": "Blue and White",
@@ -389,12 +386,10 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
-    "https://en.wikipedia.org/wiki/Yashar_(political_party)",
-    "https://www.timesofisrael.com/liveblog_entry/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/",
-    "https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/israeli-election-poll-new-far-right-party-sinks-under-threshold-smotrich-gains/000001a1-505c-da7f-a7a5-dcffffe30000",
-    "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race",
-    "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
-    "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/"
+    "https://en.wikipedia.org/wiki/Party_lists_for_the_2026_Israeli_legislative_election",
+    "https://www.ynetnews.com/article/s1wppltnme",
+    "https://www.israelnationalnews.com/news/435074",
+    "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race"
   ],
   "chamber": {
     "name": "Knesset",
@@ -408,10 +403,10 @@
   "poll": {
     "unit": "seats",
     "date": "2026-10-23",
-    "pollster": "Channel 12 (final pre-election poll)",
+    "pollster": "Channel 12 News (final pre-election poll)",
     "pollsterIs": "Channel 12 (síðasta könnun fyrir kosningar)",
-    "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/",
-    "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Channel 13 had 54/50/16 and Kan 52/50. People of Israel, Reservists and Charedi Public below threshold in Channel 12.",
-    "noteIs": "Blokk stjórnarandstöðunnar 56, blokk Netanyahus 50, flokkar undir forystu araba 14. Channel 13 mældi 54/50/16 og Kan 52/50. People of Israel, HaMiluimnikim og Charedi Public undir þröskuldi hjá Channel 12."
+    "url": "https://www.ynetnews.com/article/s1wppltnme",
+    "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Reservists–Economic Party (2.4%), Amcha Yisrael (Ofer Winter) and Haredi Public below the 3.25% threshold. Last polls allowed before the vote under Israeli law.",
+    "noteIs": "Blokk stjórnarandstöðunnar 56, blokk Netanyahus 50, flokkar undir forystu araba 14. Listi HaMiluimnikim og Yarons Zelekha (2,4%), Amcha Yisrael (Ofer Winter) og Haredi Public undir 3,25% þröskuldi. Síðustu kannanir sem leyfilegt er að birta fyrir kosningar samkvæmt ísraelskum lögum."
   }
 }

@@ -3,15 +3,15 @@
   "isoNumeric": "242",
   "name": "Fiji",
   "nameIs": "Fídjíeyjar",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
       "date": "2026-12-24",
-      "dateStatus": "tentative",
+      "dateStatus": "expected",
       "type": "General election",
       "typeIs": "Þingkosningar",
-      "note": "55 seats, open-list PR. Due between June 2026 and 6 February 2027. A constitutional referendum is also planned.",
-      "noteIs": "55 sæti, hlutfallskosning með opnum listum. Kosningar skulu fara fram á tímabilinu júní 2026 til 6. febrúar 2027. Einnig er fyrirhuguð þjóðaratkvæðagreiðsla um stjórnarskrárbreytingar."
+      "note": "No polling date announced; must be held by 6 February 2027. The prime minister has said the vote is due between 24 December 2026 and early February 2027. A constitutional referendum is set for 9 December 2026.",
+      "noteIs": "Kjördagur hefur ekki verið ákveðinn; kosningar skulu fara fram í síðasta lagi 6. febrúar 2027. Forsætisráðherrann hefur sagt að kosið verði á tímabilinu 24. desember 2026 til byrjunar febrúar 2027. Þjóðaratkvæðagreiðsla um stjórnarskrárbreytingar er fyrirhuguð 9. desember 2026."
     }
   ],
   "leaders": "Prime Minister Sitiveni Rabuka (People's Alliance)",
@@ -97,7 +97,9 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Fijian_general_election",
-    "https://www.electionguide.org/elections/type/upcoming/"
+    "https://www.electionguide.org/elections/type/upcoming/",
+    "https://asiapacificreport.nz/2026/09/24/not-set-a-date-rabuka-says-fiji-election-timing-depends-on-constitutional-reform/",
+    "https://pina.com.fj/2026/10/14/fiji-rights-coalition-questions-legal-authority-for-referendum-date/"
   ],
   "chamber": {
     "name": "Parliament",

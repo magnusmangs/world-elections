@@ -3,21 +3,12 @@
   "isoNumeric": "076",
   "name": "Brazil",
   "nameIs": "Brasilía",
-  "lastReviewed": "2026-10-24",
-  "elections": [
-    {
-      "date": "2026-10-25",
-      "dateStatus": "confirmed",
-      "type": "Presidential run-off",
-      "typeIs": "Forsetakosningar, seinni umferð",
-      "note": "First round 4 October 2026: Flávio Bolsonaro 47.0%, Lula 45.2%.",
-      "noteIs": "Fyrri umferð 4. október 2026: Flávio Bolsonaro 47,0%, Lula 45,2%."
-    }
-  ],
-  "leaders": "President Luiz Inácio Lula da Silva (PT)",
-  "leadersIs": "Luiz Inácio Lula da Silva forseti (PT)",
-  "summary": "Flávio Bolsonaro narrowly led the first round on 4 October and faces incumbent Lula in the run-off. Late polls put the two within the margin of error (Quaest, 21 Oct: Bolsonaro 45%, Lula 44%). Lula is seeking a fourth, non-consecutive term.",
-  "summaryIs": "Flávio Bolsonaro var naumlega efstur í fyrri umferðinni 4. október og mætir sitjandi forseta, Lula, í seinni umferðinni. Síðustu kannanir sýna þá innan skekkjumarka (Quaest, 21. okt.: Bolsonaro 45%, Lula 44%). Lula sækist eftir fjórða kjörtímabilinu, en þau hafa ekki verið samfelld.",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "President Luiz Inácio Lula da Silva (PT), re-elected on 25 October 2026; new term begins 5 January 2027",
+  "leadersIs": "Luiz Inácio Lula da Silva forseti (PT), endurkjörinn 25. október 2026; nýtt kjörtímabil hefst 5. janúar 2027",
+  "summary": "Lula won the 25 October run-off with 51.79% of valid votes to 48.21% for Flávio Bolsonaro, reversing the first-round order, and begins a fourth, non-consecutive term on 5 January 2027. Flávio Bolsonaro has not conceded and says he will challenge the result in court.",
+  "summaryIs": "Lula sigraði í seinni umferðinni 25. október með 51,79% gildra atkvæða gegn 48,21% hjá Flávio Bolsonaro, öfugt við röðina í fyrri umferð, og hefur fjórða kjörtímabil sitt, sem ekki er samfellt við hin, 5. janúar 2027. Flávio Bolsonaro hefur ekki viðurkennt ósigur og segist ætla að vefengja úrslitin fyrir dómstólum.",
   "parties": [
     {
       "name": "Flávio Bolsonaro (Liberal Party)",
@@ -29,10 +20,9 @@
       "ideology": "Conservatism, right-wing populism",
       "ideologyIs": "Íhaldsstefna, hægripopúlismi",
       "inGovernment": false,
-      "lastResult": "47.0% (first round)",
-      "lastResultIs": "47,0% (fyrri umferð)",
-      "polling": "45% (Quaest, 21 Oct 2026)",
-      "pollingIs": "45% (Quaest, 21. okt. 2026)",
+      "lastResult": "48.21% (run-off, 25 Oct 2026); 47.03% (first round)",
+      "lastResultIs": "48,21% (seinni umferð, 25. okt. 2026); 47,03% (fyrri umferð)",
+      "polling": "",
       "policies": [
         "Continues the political movement of his father, Jair Bolsonaro",
         "Tougher policing and public security measures",
@@ -45,7 +35,6 @@
         "Lægri skattar og minni umsvif ríkisins í efnahagslífinu",
         "Nýtur stuðnings Caiado, Zema og annarra hægrisinnaðra frambjóðenda úr fyrri umferð"
       ],
-      "pollValue": 51,
       "color": "#1d3f8f"
     },
     {
@@ -58,38 +47,36 @@
       "ideology": "Social democracy",
       "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
-      "lastResult": "45.2% (first round)",
-      "lastResultIs": "45,2% (fyrri umferð)",
-      "polling": "44% (Quaest, 21 Oct 2026)",
-      "pollingIs": "44% (Quaest, 21. okt. 2026)",
+      "lastResult": "51.79%, elected (run-off, 25 Oct 2026); 45.16% (first round)",
+      "lastResultIs": "51,79%, kjörinn (seinni umferð, 25. okt. 2026); 45,16% (fyrri umferð)",
+      "polling": "",
       "policies": [
-        "Seeks a fourth term on social programmes such as Bolsa Família",
+        "Re-elected for a fourth term; campaigned on social programmes such as Bolsa Família",
         "Champions ending the 6x1 (six-day) work schedule",
         "Tougher stance on organised crime",
         "Income tax exemption for lower earners funded by taxing high incomes"
       ],
       "policiesIs": [
-        "Sækist eftir fjórða kjörtímabilinu og leggur áherslu á félagsleg úrræði á borð við Bolsa Família",
+        "Endurkjörinn til fjórða kjörtímabils; lagði áherslu á félagsleg úrræði á borð við Bolsa Família",
         "Berst fyrir afnámi 6x1-vinnufyrirkomulagsins (sex daga vinnuviku)",
         "Harðari afstaða gegn skipulagðri glæpastarfsemi",
         "Tekjuskattsundanþága fyrir tekjulága, fjármögnuð með skatti á háar tekjur"
       ],
-      "pollValue": 49,
       "color": "#c8102e"
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
-    "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff/comments",
-    "https://www.aljazeera.com/news/2026/10/23/what-to-know-as-brazil-prepares-for-tense-presidential-run-off"
+    "https://www.riotimesonline.com/brazil-election-results-2026/",
+    "https://revistaoeste.com/politica/confira-os-numeros-do-2o-turno-com-100-da-apuracao-concluida/",
+    "https://www.metropoles.com/brasil/lula-conquista-virada-inedita-no-segundo-turno-e-e-reeleito-para-4o-mandato",
+    "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off",
+    "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
   ],
-  "poll": {
-    "unit": "percent",
-    "date": "2026-10-15",
-    "pollster": "Datafolha (valid votes, run-off)",
-    "pollsterIs": "Datafolha (gild atkvæði, seinni umferð)",
-    "url": "https://www.moneytimes.com.br/pesquisa-datafolha-15-de-outubro-gaep/",
-    "note": "Total votes: Bolsonaro 47%, Lula 45%.",
-    "noteIs": "Af öllum greiddum atkvæðum: Bolsonaro 47%, Lula 45%."
+  "lastElection": {
+    "date": "2026-10-25",
+    "type": "Presidential run-off",
+    "typeIs": "Forsetakosningar, seinni umferð",
+    "outcome": "Luiz Inácio Lula da Silva was re-elected with 51.79% of valid votes against 48.21% for Flávio Bolsonaro (TSE, 100% counted), on a turnout of 80.78%.",
+    "outcomeIs": "Luiz Inácio Lula da Silva var endurkjörinn með 51,79% gildra atkvæða en Flávio Bolsonaro fékk 48,21% (TSE, öll atkvæði talin) og kjörsókn var 80,78%."
   }
 }

@@ -1,0 +1,101 @@
+{
+  "iso3": "CZE",
+  "isoNumeric": "203",
+  "name": "Czech Republic",
+  "nameIs": "Tékkland",
+  "lastReviewed": "2026-10-26",
+  "elections": [
+    {
+      "date": "2028-01-14",
+      "dateStatus": "expected",
+      "type": "Presidential (first round)",
+      "typeIs": "Forsetakosningar (fyrri umferð)",
+      "note": "Direct election due no later than January 2028; the date is set by the President of the Senate. Run-off two weeks later if no candidate wins a majority.",
+      "noteIs": "Beint forsetakjör skal fara fram í síðasta lagi í janúar 2028; forseti öldungadeildarinnar ákveður dagsetninguna. Seinni umferð tveimur vikum síðar ef enginn frambjóðandi fær meirihluta."
+    }
+  ],
+  "leaders": "President Petr Pavel (independent); Prime Minister Andrej Babiš (ANO)",
+  "leadersIs": "Petr Pavel forseti (óháður); Andrej Babiš forsætisráðherra (ANO)",
+  "summary": "President Petr Pavel has said he will seek a second term if he has public support and good health, and leads early polls of potential candidates. The governing parties of Prime Minister Andrej Babiš, who has ruled out running himself, have not agreed on a candidate.",
+  "summaryIs": "Petr Pavel forseti hefur sagst munu sækjast eftir öðru kjörtímabili ef hann nýtur stuðnings almennings og heilsan leyfir, og hann er efstur í fyrstu könnunum á mögulegum frambjóðendum. Stjórnarflokkar Andrej Babiš forsætisráðherra, sem hefur útilokað eigið framboð, hafa ekki komið sér saman um frambjóðanda.",
+  "parties": [
+    {
+      "name": "Petr Pavel",
+      "abbr": "Independent",
+      "leader": "Petr Pavel",
+      "position": "",
+      "ideology": "Independent, incumbent",
+      "ideologyIs": "Óháður, sitjandi forseti",
+      "inGovernment": false,
+      "lastResult": "58.3% run-off (2023)",
+      "lastResultIs": "58,3% í seinni umferð (2023)",
+      "polling": "~36% among potential candidates (STEM/MARK, Sep 2026)",
+      "pollingIs": "~36% meðal mögulegra frambjóðenda (STEM/MARK, sep. 2026)",
+      "policies": [
+        "Will run if he has public support and good health",
+        "Not formally declared as of October 2026",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Býður sig fram ef hann nýtur stuðnings almennings og heilsan leyfir",
+        "Hafði ekki formlega tilkynnt framboð í október 2026",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "color": "#1565c0"
+    },
+    {
+      "name": "Governing coalition candidate (ANO, SPD, Motorists)",
+      "nameIs": "Frambjóðandi stjórnarflokkanna (ANO, SPD, Motoristé sobě)",
+      "abbr": "ANO-SPD-AUTO",
+      "leader": "Not chosen",
+      "position": "",
+      "inGovernment": true,
+      "lastResult": "",
+      "polling": "",
+      "policies": [
+        "Babiš proposed a joint candidate, with talks from early 2027",
+        "Motorists leader Petr Macinka prefers a civil-society candidate without government backing",
+        "Babiš has ruled out running"
+      ],
+      "policiesIs": [
+        "Babiš lagði til sameiginlegan frambjóðanda og viðræður frá byrjun árs 2027",
+        "Petr Macinka, leiðtogi Motoristé sobě, vill frambjóðanda úr röðum almennra borgara án stuðnings stjórnarinnar",
+        "Babiš hefur útilokað eigið framboð"
+      ],
+      "color": "#00bfff"
+    },
+    {
+      "name": "Radek Vondráček",
+      "abbr": "",
+      "leader": "Radek Vondráček",
+      "position": "",
+      "inGovernment": false,
+      "lastResult": "",
+      "polling": "",
+      "policies": [
+        "Has confirmed interest in running",
+        "Backed by Svobodní leader Libor Vondráček (August 2026)",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Hefur staðfest áhuga á framboði",
+        "Nýtur stuðnings Libor Vondráček, leiðtoga Svobodní (ágúst 2026)",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "color": "#7b1fa2"
+    }
+  ],
+  "lastElection": {
+    "date": "2023-01-28",
+    "type": "Presidential run-off",
+    "typeIs": "Forsetakosningar, seinni umferð",
+    "outcome": "Petr Pavel defeated Andrej Babiš with 58.3% of the vote.",
+    "outcomeIs": "Petr Pavel sigraði Andrej Babiš með 58,3% atkvæða."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Next_Czech_presidential_election",
+    "https://www.e15.cz/volby/prezidentske-volby/prezidentske-volby-2028-kdy-budou-pavel-zvazuje-obhajobu-babis-prezidentku-1430444",
+    "https://www.expats.cz/czech-news/article/poll-most-people-in-czechia-want-four-more-years-of-president-petr-pavel",
+    "https://en.wikipedia.org/wiki/Third_cabinet_of_Andrej_Babi%C5%A1"
+  ]
+}

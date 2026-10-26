@@ -3,21 +3,21 @@
  "isoNumeric": "100",
  "name": "Bulgaria",
  "nameIs": "Búlgaría",
- "lastReviewed": "2026-10-23",
+ "lastReviewed": "2026-10-26",
  "elections": [
   {
-   "date": "2026-10-25",
+   "date": "2026-11-01",
    "dateStatus": "confirmed",
-   "type": "Presidential",
-   "typeIs": "Forsetakosningar",
-   "note": "Two-round system; a first-round win needs a majority with turnout above 50%. Run-off on 1 November 2026 if needed.",
-   "noteIs": "Kosið í tveimur umferðum; til að sigra í fyrri umferð þarf meirihluta atkvæða og yfir 50% kjörsókn. Seinni umferð fer fram 1. nóvember 2026 ef þörf krefur."
+   "type": "Presidential run-off",
+   "typeIs": "Forsetakosningar, seinni umferð",
+   "note": "Run-off between Iliana Iotova and Andrey Gyurov. First round 25 October 2026 (CIK, 95.29% of protocols): Iotova 34.59%, Gyurov 32.03%.",
+   "noteIs": "Seinni umferð milli Iliönu Iotovu og Andrey Gyurov. Fyrri umferð 25. október 2026 (CIK, 95,29% kjörgagna): Iotova 34,59%, Gyurov 32,03%."
   }
  ],
  "leaders": "President Iliana Iotova; Prime Minister Rumen Radev (Progressive Bulgaria)",
  "leadersIs": "Iliana Iotova forseti; Rumen Radev forsætisráðherra (Framsækin Búlgaría)",
- "summary": "Iliana Iotova, who became president in 2026 when Rumen Radev left the office to lead a new party, is seeking a full term. A Market Links poll (13–19 Oct) puts her at 47.3% against 30.6% for Andrey Gyurov, so a run-off is likely.",
- "summaryIs": "Iliana Iotova, sem tók við forsetaembættinu árið 2026 þegar Rumen Radev lét af því til að leiða nýjan flokk, sækist eftir fullu kjörtímabili. Samkvæmt könnun Market Links (13.–19. okt.) fær hún 47,3% en Andrey Gyurov 30,6%, svo líklega þarf seinni umferð.",
+ "summary": "Iliana Iotova led the first round on 25 October with 34.59% against 32.03% for Andrey Gyurov (preliminary CIK count), so the two meet in a run-off on 1 November. Turnout was about 22%, according to parallel-count estimates, and official results are due from the CIK on 27 October.",
+ "summaryIs": "Iliana Iotova var efst í fyrri umferðinni 25. október með 34,59% en Andrey Gyurov fékk 32,03% (bráðabirgðatölur CIK), svo þau mætast í seinni umferð 1. nóvember. Kjörsókn var um 22% samkvæmt áætlunum úr samhliða talningu og CIK birtir opinber úrslit 27. október.",
  "parties": [
   {
    "name": "Iliana Iotova",
@@ -28,23 +28,22 @@
    "ideology": "Independent, backed by Progressive Bulgaria, BSP and allies",
    "ideologyIs": "Óháð, studd af Framsækinni Búlgaríu, BSP og bandamönnum",
    "inGovernment": true,
-   "lastResult": "Incumbent president; vice president 2017–2026",
-   "lastResultIs": "Sitjandi forseti; varaforseti 2017–2026",
-   "polling": "47.3% (Market Links/bTV, 13–19 Oct 2026)",
-   "pollingIs": "47,3% (Market Links/bTV, 13.–19. okt. 2026)",
+   "lastResult": "34.59%, first round 2026 (CIK, 95.29% of protocols); incumbent president",
+   "lastResultIs": "34,59%, fyrri umferð 2026 (CIK, 95,29% kjörgagna); sitjandi forseti",
+   "polling": "No run-off poll published yet",
+   "pollingIs": "Engin könnun fyrir seinni umferð hefur birst enn",
    "policies": [
-    "Seeks a full term as incumbent",
+    "Seeks a full term as incumbent; in the run-off",
     "Backed by Progressive Bulgaria, BSP–United Left, ISBG and VMRO-BND",
     "Running mate: Kiril Valchev",
     "Detailed platform not yet published in English-language sources"
    ],
    "policiesIs": [
-    "Sækist eftir fullu kjörtímabili sem sitjandi forseti",
+    "Sækist eftir fullu kjörtímabili sem sitjandi forseti; í seinni umferð",
     "Studd af Framsækinni Búlgaríu, bandalaginu BSP – Obedinena levitsa, ISBG og VMRO-BND",
     "Varaforsetaefni: Kiril Valchev",
     "Ítarleg stefnuskrá hefur ekki enn birst í enskum heimildum"
-   ],
-   "pollValue": 47.3
+   ]
   },
   {
    "name": "Andrey Gyurov",
@@ -55,10 +54,10 @@
    "ideology": "Independent, backed by PP–DB (liberal, pro-European)",
    "ideologyIs": "Óháður, studdur af PP–DB (frjálslynt, Evrópusinnað bandalag)",
    "inGovernment": false,
-   "lastResult": "Former caretaker prime minister (2026)",
-   "lastResultIs": "Fyrrverandi forsætisráðherra starfsstjórnar (2026)",
-   "polling": "30.6% (Market Links/bTV, 13–19 Oct 2026)",
-   "pollingIs": "30,6% (Market Links/bTV, 13.–19. okt. 2026)",
+   "lastResult": "32.03%, first round 2026 (CIK, 95.29% of protocols); former caretaker prime minister",
+   "lastResultIs": "32,03%, fyrri umferð 2026 (CIK, 95,29% kjörgagna); fyrrverandi forsætisráðherra starfsstjórnar",
+   "polling": "No run-off poll published yet",
+   "pollingIs": "Engin könnun fyrir seinni umferð hefur birst enn",
    "policies": [
     "Backed by the reformist, pro-EU PP–DB alliance",
     "Running mate: Georgi Kandev",
@@ -70,8 +69,7 @@
     "Varaforsetaefni: Georgi Kandev",
     "Bandalagið berst gegn spillingu og fyrir umbótum í dómskerfinu",
     "Bandalagið vill að Búlgaría haldi fast við vestrænt samstarf innan ESB og NATO"
-   ],
-   "pollValue": 30.6
+   ]
   },
   {
    "name": "Kostadin Kostadinov",
@@ -82,10 +80,10 @@
    "ideology": "Bulgarian nationalism, Euroscepticism",
    "ideologyIs": "Búlgörsk þjóðernishyggja, efasemdir um Evrópusambandið",
    "inGovernment": false,
-   "lastResult": "Party leader and MP since 2021",
-   "lastResultIs": "Formaður flokksins og þingmaður frá 2021",
-   "polling": "10.3% (Market Links/bTV, 13–19 Oct 2026)",
-   "pollingIs": "10,3% (Market Links/bTV, 13.–19. okt. 2026)",
+   "lastResult": "12.6%, first round 2026 (CIK, 95.29% of protocols); eliminated",
+   "lastResultIs": "12,6%, fyrri umferð 2026 (CIK, 95,29% kjörgagna); úr leik",
+   "polling": "Not in the run-off",
+   "pollingIs": "Ekki í seinni umferð",
    "policies": [
     "Party opposed adoption of the euro",
     "Critical of EU and NATO policy, favours closer ties with Russia",
@@ -97,13 +95,21 @@
     "Gagnrýninn á stefnu ESB og NATO og vill nánari tengsl við Rússland",
     "Andvígur hernaðaraðstoð við Úkraínu",
     "Varaforsetaefni: Petar Volgin"
-   ],
-   "pollValue": 10.3
+   ]
   }
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
-  "https://www.novinite.com/view_news.php?id=241163",
-  "https://www.novinite.com/articles/241182/Change+or+More+of+the+Same:+Bulgaria+Picks+a+President+on+Sunday"
- ]
+  "https://eurocom.bg/2026/10/26/rezultati-pri-95-29-protokoli-iliyana-jotova-vodi-gyurov-e-vtori",
+  "https://www.novinite.com/articles/241250/Low+Turnout+and+Close+Race+Set+Up+Bulgaria%27s+Presidential+Runoff",
+  "https://www.trtworld.com/article/883f3f1fdae9",
+  "https://news.bg/politics/rezultati-ot-izborite-za-prezident-2026-1.html"
+ ],
+ "lastElection": {
+  "date": "2026-10-25",
+  "type": "Presidential (first round)",
+  "typeIs": "Forsetakosningar (fyrri umferð)",
+  "outcome": "No candidate won a majority; preliminary CIK figures (95.29% of protocols) put Iliana Iotova on 34.59%, Andrey Gyurov on 32.03% and Kostadin Kostadinov on 12.6%, on a turnout of about 22% by parallel-count estimates.",
+  "outcomeIs": "Enginn frambjóðandi fékk meirihluta; samkvæmt bráðabirgðatölum CIK (95,29% kjörgagna) fékk Iliana Iotova 34,59%, Andrey Gyurov 32,03% og Kostadin Kostadinov 12,6%, en kjörsókn var um 22% samkvæmt áætlunum úr samhliða talningu."
+ }
 }

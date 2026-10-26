@@ -1,0 +1,156 @@
+{
+  "iso3": "CMR",
+  "isoNumeric": "120",
+  "name": "Cameroon",
+  "nameIs": "Kamerún",
+  "lastReviewed": "2026-10-26",
+  "elections": [
+    {
+      "date": "2027-02-01",
+      "dateStatus": "expected",
+      "type": "Parliamentary (National Assembly) and municipal",
+      "typeIs": "Þingkosningar (þjóðþingið) og sveitarstjórnarkosningar",
+      "note": "180 seats. Postponed from 2025 and early 2026. Deputies' mandate extended to 20 December 2026; the constitution then requires a vote within 40 to 120 days, between about 30 January and 19 April 2027. Voters had not been convened as of late October 2026.",
+      "noteIs": "180 þingsæti. Frestað frá 2025 og byrjun árs 2026. Umboð þingmanna var framlengt til 20. desember 2026; samkvæmt stjórnarskránni skal þá kjósa innan 40 til 120 daga, á tímabilinu frá um 30. janúar til 19. apríl 2027. Ekki hafði verið boðað til kosninga í lok október 2026."
+    }
+  ],
+  "leaders": "President Paul Biya (RDPC), in office since 1982; Prime Minister Joseph Dion Ngute (RDPC)",
+  "leadersIs": "Paul Biya forseti (RDPC), í embætti frá 1982; Joseph Dion Ngute forsætisráðherra (RDPC)",
+  "summary": "The ruling RDPC holds a large majority from the 2020 vote, which the MRC of Maurice Kamto boycotted. Issa Tchiroma Bakary, who disputes Biya's official win in the October 2025 presidential election and lives in exile, says his FSNC will boycott the legislative and municipal elections.",
+  "summaryIs": "Stjórnarflokkurinn RDPC hefur mikinn meirihluta frá kosningunum 2020, sem MRC, flokkur Maurice Kamto, sniðgekk. Issa Tchiroma Bakary, sem dregur í efa opinberan sigur Biya í forsetakosningunum í október 2025 og býr í útlegð, segir að flokkur hans FSNC muni sniðganga þing- og sveitarstjórnarkosningarnar.",
+  "parties": [
+    {
+      "name": "Cameroon People's Democratic Movement",
+      "abbr": "RDPC",
+      "leader": "Paul Biya",
+      "position": "Big tent",
+      "positionIs": "Breið fylking",
+      "ideology": "Dominant ruling party",
+      "ideologyIs": "Ríkjandi valdaflokkur",
+      "inGovernment": true,
+      "lastResult": "152 of 180 seats (2020)",
+      "lastResultIs": "152 af 180 þingsætum (2020)",
+      "polling": "",
+      "policies": [
+        "Backed extending deputies' mandate to December 2026",
+        "Constitutional change in April 2026 restored the vice-presidency",
+        "Continuity of Biya's 2025 presidential programme",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Studdi framlengingu á umboði þingmanna til desember 2026",
+        "Stjórnarskrárbreyting í apríl 2026 endurvakti embætti varaforseta",
+        "Framhald á stefnu Biya úr forsetakosningunum 2025",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "seats": 149,
+      "color": "#1b5e20"
+    },
+    {
+      "name": "National Union for Democracy and Progress",
+      "abbr": "UNDP",
+      "leader": "Bello Bouba Maïgari",
+      "position": "",
+      "inGovernment": false,
+      "lastResult": "7 seats (2020)",
+      "lastResultIs": "7 þingsæti (2020)",
+      "polling": "",
+      "policies": [
+        "Largest opposition group in the outgoing Assembly",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Stærsti stjórnarandstöðuflokkurinn á fráfarandi þingi",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "seats": 7,
+      "color": "#1565c0"
+    },
+    {
+      "name": "Social Democratic Front",
+      "abbr": "SDF",
+      "leader": "Joshua Osih",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
+      "inGovernment": false,
+      "lastResult": "5 seats (2020)",
+      "lastResultIs": "5 þingsæti (2020)",
+      "polling": "",
+      "policies": [
+        "Rejects any further delay to legislative and municipal elections",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Hafnar frekari frestun þing- og sveitarstjórnarkosninga",
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "seats": 6,
+      "color": "#2e7d32"
+    },
+    {
+      "name": "Cameroonian Party for National Reconciliation",
+      "abbr": "PCRN",
+      "leader": "Cabral Libii",
+      "position": "",
+      "inGovernment": false,
+      "lastResult": "5 seats (2020); Libii third in 2025 presidential vote (3.4%)",
+      "lastResultIs": "5 þingsæti (2020); Libii þriðji í forsetakosningunum 2025 (3,4%)",
+      "polling": "",
+      "policies": [
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "seats": 5,
+      "color": "#f9a825"
+    },
+    {
+      "name": "National Front for the Salvation of Cameroon",
+      "abbr": "FSNC",
+      "leader": "Issa Tchiroma Bakary (in exile)",
+      "position": "",
+      "inGovernment": false,
+      "lastResult": "3 seats (2020)",
+      "lastResultIs": "3 þingsæti (2020)",
+      "polling": "",
+      "policies": [
+        "Announced a boycott of the legislative and municipal elections",
+        "Says the October 2025 presidential result was fraudulent",
+        "Will not back members who defy the boycott"
+      ],
+      "policiesIs": [
+        "Hefur boðað sniðgöngu þing- og sveitarstjórnarkosninganna",
+        "Segir úrslit forsetakosninganna í október 2025 byggð á svikum",
+        "Mun ekki styðja flokksmenn sem virða sniðgönguna að vettugi"
+      ],
+      "seats": 3,
+      "color": "#6a1b9a"
+    }
+  ],
+  "chamber": {
+    "name": "National Assembly",
+    "nameIs": "þjóðþingið",
+    "seats": 180,
+    "majority": 91,
+    "asOf": "current composition, elected in February 2020",
+    "asOfIs": "núverandi skipan, kjörið í febrúar 2020",
+    "source": "https://en.wikipedia.org/wiki/2026_Cameroonian_parliamentary_election"
+  },
+  "lastElection": {
+    "date": "2025-10-12",
+    "type": "Presidential",
+    "typeIs": "Forsetakosningar",
+    "outcome": "Paul Biya was declared the winner with 53.7%; runner-up Issa Tchiroma Bakary disputes the result.",
+    "outcomeIs": "Paul Biya var lýstur sigurvegari með 53,7%; Issa Tchiroma Bakary, sem varð annar, vefengir úrslitin."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cameroonian_parliamentary_election",
+    "https://www.camer.be/index.php/actualites/politique/le-calendrier-electoral-est-devenu-un-secret-detat-au-cameroun",
+    "https://www.riotimesonline.com/cameroon-politics-key-players-2026/",
+    "https://ecooutlooknews.com/2026/01/19/issa-tchiroma-denies-talks-with-govt-announces-boycott-of-legislative-elections/",
+    "https://www.africanews.com/2026/02/11/cameroon-president-biya-delays-elections-once-again/"
+  ]
+}

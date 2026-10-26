@@ -3,15 +3,23 @@
  "isoNumeric": "706",
  "name": "Somalia",
  "nameIs": "Sómalía",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-26",
  "elections": [
   {
-   "date": "2026-12-31",
+   "date": "2027-04-15",
    "dateStatus": "tentative",
-   "type": "Presidential and House of the People",
-   "typeIs": "Forsetakosningar og kosningar til fulltrúadeildar (House of the People)",
-   "note": "Shift from clan-based indirect voting to direct elections is disputed.",
-   "noteIs": "Deilt er um umskipti frá óbeinum kosningum á grundvelli ættbálka yfir í beinar kosningar."
+   "type": "Parliamentary (both houses)",
+   "typeIs": "Þingkosningar (báðar deildir)",
+   "note": "Set by the electoral commission on 15 October 2026; opposition groups reject the timetable.",
+   "noteIs": "Kjörstjórnin ákvað dagsetninguna 15. október 2026; stjórnarandstöðuhópar hafna tímaáætluninni."
+  },
+  {
+   "date": "2027-05-15",
+   "dateStatus": "tentative",
+   "type": "Presidential",
+   "typeIs": "Forsetakosningar",
+   "note": "Set for 30 days after the parliamentary vote. The method (direct or indirect) remains disputed.",
+   "noteIs": "Ákveðnar 30 dögum eftir þingkosningarnar. Enn er deilt um hvort kosið verði beint eða óbeint."
   }
  ],
  "leaders": "President Hassan Sheikh Mohamud (mandate disputed)",
@@ -85,6 +93,8 @@
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/2026_Somali_presidential_election",
-  "https://www.electionguide.org/elections/type/upcoming/"
+  "https://www.electionguide.org/elections/type/upcoming/",
+  "https://thesomalidigest.com/electoral-commission-2027-election-timetable/",
+  "https://www.riotimesonline.com/somalia-sets-elections-niebc-timetable-2026"
  ]
 }

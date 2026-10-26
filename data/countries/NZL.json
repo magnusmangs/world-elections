@@ -3,7 +3,7 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-10-21",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
       "date": "2026-11-07",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Christopher Luxon (National)",
   "leadersIs": "Christopher Luxon forsætisráðherra (Þjóðarflokkurinn)",
-  "summary": "The National–ACT–NZ First coalition faces a Labour-led opposition. National leads Labour 32% to 27% in the latest 1News–Verian poll (15–19 Oct), with Luxon ahead of Hipkins as preferred prime minister.",
-  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First mætir stjórnarandstöðu undir forystu Verkamannaflokksins. Þjóðarflokkurinn mælist með 32% en Verkamannaflokkurinn 27% í nýjustu könnun 1News–Verian (15.–19. okt.) og fleiri vilja Luxon en Hipkins sem forsætisráðherra.",
+  "summary": "The National, ACT and NZ First coalition seeks a second term against a Labour-led opposition, with The Opportunity Party polling above the 5% threshold. National leads Labour 32% to 27% in the 1News–Verian poll of 15–19 October, while the Post/Freshwater Strategy poll of 9–19 October had Labour narrowly ahead.",
+  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First sækist eftir öðru kjörtímabili gegn stjórnarandstöðu undir forystu Verkamannaflokksins og The Opportunity Party mælist yfir 5% þröskuldinum. Þjóðarflokkurinn mælist með 32% en Verkamannaflokkurinn 27% í könnun 1News–Verian 15.–19. október, en í könnun The Post/Freshwater Strategy 9.–19. október var Verkamannaflokkurinn naumlega efstur.",
   "parties": [
     {
       "name": "National Party",
@@ -31,21 +31,23 @@
       "inGovernment": true,
       "lastResult": "38.1%, 48 seats (2023)",
       "lastResultIs": "38,1%, 48 þingsæti (2023)",
-      "polling": "32% (1News–Verian, 15–19 Oct)",
-      "pollingIs": "32% (1News–Verian, 15.–19. okt.)",
+      "polling": "32% (1News–Verian, Oct 2026)",
+      "pollingIs": "32% (1News–Verian, okt. 2026)",
       "policies": [
         "Raise default KiwiSaver contributions from 3% to 6% by 2032",
         "Make KiwiSaver compulsory and auto-enrol newborns",
         "Low-interest loans for home solar, batteries and insulation",
-        "Scrap good-character sentencing discounts for sexual offending"
+        "Scrap good-character sentencing discounts for sexual offending",
+        "Extend paid parental leave to 30 weeks"
       ],
       "policiesIs": [
         "Hækka sjálfgefin framlög í lífeyrissparnaðinn KiwiSaver úr 3% í 6% fyrir 2032",
         "Gera KiwiSaver að skyldu og skrá nýbura sjálfkrafa",
         "Lán á lágum vöxtum fyrir sólarsellur, rafhlöður og einangrun heimila",
-        "Afnema refsimildun vegna góðrar fyrri hegðunar í kynferðisbrotamálum"
+        "Afnema refsimildun vegna góðrar fyrri hegðunar í kynferðisbrotamálum",
+        "Lengja launað fæðingarorlof í 30 vikur"
       ],
-      "seats": 49,
+      "seats": 48,
       "pollValue": 32,
       "color": "#00529f"
     },
@@ -61,19 +63,21 @@
       "inGovernment": false,
       "lastResult": "26.9%, 34 seats (2023)",
       "lastResultIs": "26,9%, 34 þingsæti (2023)",
-      "polling": "27%",
-      "pollingIs": "27%",
+      "polling": "27% (1News–Verian, Oct 2026)",
+      "pollingIs": "27% (1News–Verian, okt. 2026)",
       "policies": [
         "Repeal the Regulatory Standards Act within 100 days",
         "Cap public transport fares at $20 a week in major cities",
         "Create a NZ Future Fund",
-        "Free cervical screening for women aged 25–69"
+        "Free cervical screening for women aged 25–69",
+        "Capital gains tax on property, including landlords, to fund cheaper GP visits"
       ],
       "policiesIs": [
         "Fella lög um reglusetningu (Regulatory Standards Act) úr gildi innan 100 daga",
         "Þak á fargjöld í almenningssamgöngum, 20 dalir á viku í stærstu borgunum",
         "Stofna framtíðarsjóð Nýja-Sjálands (NZ Future Fund)",
-        "Gjaldfrjáls leghálsskimun fyrir konur á aldrinum 25–69 ára"
+        "Gjaldfrjáls leghálsskimun fyrir konur á aldrinum 25–69 ára",
+        "Fjármagnstekjuskattur á fasteignir, þar á meðal hjá leigusölum, til að fjármagna ódýrari heimilislæknaþjónustu"
       ],
       "seats": 34,
       "pollValue": 27,
@@ -91,19 +95,21 @@
       "inGovernment": false,
       "lastResult": "11.6%, 15 seats (2023)",
       "lastResultIs": "11,6%, 15 þingsæti (2023)",
-      "polling": "16%",
-      "pollingIs": "16%",
+      "polling": "16% (1News–Verian, Oct 2026)",
+      "pollingIs": "16% (1News–Verian, okt. 2026)",
       "policies": [
         "Wealth tax, inheritance tax and higher corporate tax",
         "Build 40,000 social homes in five years",
         "Revoke fast-tracked mining consents",
-        "Mass electrification and renewables"
+        "Mass electrification and renewables",
+        "Abolish the training wage and fund Māori and Pasifika-led training"
       ],
       "policiesIs": [
         "Auðlegðarskattur, erfðafjárskattur og hærri fyrirtækjaskattur",
         "Byggja 40.000 félagslegar íbúðir á fimm árum",
         "Afturkalla námuleyfi sem veitt voru með flýtimeðferð",
-        "Víðtæk rafvæðing og endurnýjanleg orka"
+        "Víðtæk rafvæðing og endurnýjanleg orka",
+        "Afnema sérstök lægri laun fyrir starfsnema og fjármagna þjálfun á vegum Maóra og Kyrrahafseyjabúa"
       ],
       "seats": 15,
       "pollValue": 16,
@@ -120,19 +126,21 @@
       "inGovernment": true,
       "lastResult": "8.6%, 11 seats (2023)",
       "lastResultIs": "8,6%, 11 þingsæti (2023)",
-      "polling": "11%",
-      "pollingIs": "11%",
+      "polling": "11% (1News–Verian, Oct 2026)",
+      "pollingIs": "11% (1News–Verian, okt. 2026)",
       "policies": [
         "Cut government spending and merge ministries",
         "Deport serious non-citizen offenders",
         "Let pharmacists treat more conditions",
-        "Split-gas emissions target"
+        "Split-gas emissions target",
+        "$400 million over four years to retain GPs and attract overseas doctors"
       ],
       "policiesIs": [
         "Draga úr ríkisútgjöldum og sameina ráðuneyti",
         "Vísa úr landi erlendum ríkisborgurum sem fremja alvarleg brot",
         "Leyfa lyfjafræðingum að meðhöndla fleiri kvilla",
-        "Aðskilin losunarmarkmið fyrir metan og aðrar gróðurhúsalofttegundir"
+        "Aðskilin losunarmarkmið fyrir metan og aðrar gróðurhúsalofttegundir",
+        "400 milljónir dala á fjórum árum til að halda í heimilislækna og laða að erlenda lækna"
       ],
       "seats": 11,
       "pollValue": 11,
@@ -149,19 +157,21 @@
       "inGovernment": true,
       "lastResult": "6.1%, 8 seats (2023)",
       "lastResultIs": "6,1%, 8 þingsæti (2023)",
-      "polling": "8%",
-      "pollingIs": "8%",
+      "polling": "8% (1News–Verian, Oct 2026)",
+      "pollingIs": "8% (1News–Verian, okt. 2026)",
       "policies": [
         "Break up energy companies to cut power prices",
-        "Turn supermarket duopoly into two cooperatives",
+        "Split Foodstuffs into two nationwide cooperatives to compete with Woolworths",
         "Merge BNZ with Kiwibank as a Crown bank",
-        "Referendum on the Māori electorates"
+        "Referendum on the Māori electorates",
+        "Ban the public sale and private use of fireworks"
       ],
       "policiesIs": [
         "Brjóta upp orkufyrirtæki til að lækka raforkuverð",
-        "Breyta tveimur ráðandi matvörukeðjum í tvö samvinnufélög",
+        "Skipta Foodstuffs í tvö landsdekkandi samvinnufélög sem keppi við Woolworths",
         "Sameina BNZ og Kiwibank í ríkisbanka",
-        "Þjóðaratkvæðagreiðsla um sérstök kjördæmi Maóra"
+        "Þjóðaratkvæðagreiðsla um sérstök kjördæmi Maóra",
+        "Banna almenna sölu og einkanotkun flugelda"
       ],
       "seats": 8,
       "pollValue": 8,
@@ -178,8 +188,8 @@
       "inGovernment": false,
       "lastResult": "3.1%, 6 seats (2023)",
       "lastResultIs": "3,1%, 6 þingsæti (2023)",
-      "polling": "Under 1%",
-      "pollingIs": "Undir 1%",
+      "polling": "0.7% (1News–Verian, Oct 2026)",
+      "pollingIs": "0,7% (1News–Verian, okt. 2026)",
       "policies": [
         "Abolish prisons by 2040 in favour of community solutions",
         "Parliamentary Commissioner for Te Tiriti with veto powers",
@@ -190,8 +200,8 @@
         "Sérstakur umboðsmaður þingsins fyrir Te Tiriti (Waitangi-sáttmálann) með neitunarvald",
         "Bjóða fram bæði í almennum kjördæmum og kjördæmum Maóra"
       ],
-      "seats": 5,
-      "pollValue": 0.4,
+      "seats": 4,
+      "pollValue": 0.7,
       "color": "#b2001a"
     },
     {
@@ -205,8 +215,8 @@
       "inGovernment": false,
       "lastResult": "2.2%, 0 seats (2023)",
       "lastResultIs": "2,2%, 0 þingsæti (2023)",
-      "polling": "7% (about 8 seats)",
-      "pollingIs": "7% (um 8 þingsæti)",
+      "polling": "7% (1News–Verian, Oct 2026)",
+      "pollingIs": "7% (1News–Verian, okt. 2026)",
       "policies": [
         "Replace welfare with a means-tested citizen's income",
         "Land value tax to bring down house prices",
@@ -223,21 +233,27 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
-    "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/",
-    "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
+    "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/",
+    "https://www.interest.co.nz/public-policy/140754/national-jumps-32-labour-falls-27-latest-political-poll",
+    "https://www.odt.co.nz/news/national/new-poll-puts-opportunity-and-parliament-on-a-knife-edge-uvcd9nv4",
+    "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
   ],
   "chamber": {
     "name": "House of Representatives",
     "nameIs": "þingið",
     "seats": 123,
     "majority": 62,
-    "source": "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
+    "source": "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament",
+    "asOf": "at dissolution, October 2026 (Papakura vacant, two others outside the listed parties)",
+    "asOfIs": "við þingrof í október 2026 (Papakura autt, tveir þingmenn utan flokkanna sem taldir eru upp)"
   },
   "poll": {
     "unit": "percent",
     "date": "2026-10-19",
-    "pollster": "1News Verian (fieldwork 15–19 Oct)",
-    "pollsterIs": "1News Verian (könnun gerð 15.–19. okt.)",
-    "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
+    "pollster": "1News Verian (fieldwork 15–19 Oct 2026, 1,003 voters)",
+    "pollsterIs": "1News Verian (könnun gerð 15.–19. okt. 2026, 1.003 kjósendur)",
+    "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/",
+    "note": "Undecided voters excluded (10%). Te Pāti Māori figure from interest.co.nz report of the same poll.",
+    "noteIs": "Óákveðnir kjósendur ekki taldir með (10%). Tala Te Pāti Māori úr frétt interest.co.nz um sömu könnun."
   }
 }

@@ -3,21 +3,21 @@
   "isoNumeric": "688",
   "name": "Serbia",
   "nameIs": "Serbía",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
-      "date": "2026-10-25",
-      "dateStatus": "confirmed",
-      "type": "Parliamentary (snap)",
-      "typeIs": "Þingkosningar (snemmbúnar)",
-      "note": "250 seats, closed-list proportional representation, 3% threshold.",
-      "noteIs": "250 þingsæti, hlutfallskosning með lokuðum listum, 3% þröskuldur."
+      "date": "2026-12-20",
+      "dateStatus": "expected",
+      "type": "Presidential (early)",
+      "typeIs": "Forsetakosningar (snemmbúnar)",
+      "note": "Must be held within three months of Aleksandar Vučić's resignation on 27 September 2026; the Speaker of the National Assembly calls it. Date not yet set.",
+      "noteIs": "Kjósa þarf innan þriggja mánaða frá afsögn Aleksandars Vučić 27. september 2026; forseti þjóðþingsins boðar kosningarnar. Dagsetning hefur ekki verið ákveðin."
     }
   ],
-  "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut",
-  "leadersIs": "Ana Brnabić, starfandi forseti (frá september 2026); Đuro Macut forsætisráðherra",
-  "summary": "Aleksandar Vučić resigned as president on 27 September 2026 to lead the SNS list as candidate for prime minister. The snap vote follows two years of student-led anti-corruption protests, and the Student List is campaigning door to door.",
-  "summaryIs": "Aleksandar Vučić sagði af sér sem forseti 27. september 2026 til að leiða lista SNS sem forsætisráðherraefni. Kosningarnar koma í kjölfar tveggja ára mótmæla gegn spillingu undir forystu námsmanna og listi þeirra, Studentska lista, gengur hús úr húsi í kosningabaráttunni.",
+  "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut (outgoing; Student List won a majority on 25 Oct 2026)",
+  "leadersIs": "Ana Brnabić, starfandi forseti (frá september 2026); Đuro Macut forsætisráðherra (fráfarandi; Studentska lista vann meirihluta 25. okt. 2026)",
+  "summary": "The Student List won the 25 October snap election with 52.19% of the vote (preliminary RIK count) and a projected absolute majority of 140 seats, which would end 14 years of SNS-led government; Aleksandar Vučić conceded. An early presidential election must be held by late December 2026 to replace Vučić, who resigned as president to run for prime minister.",
+  "summaryIs": "Studentska lista sigraði í snemmbúnu kosningunum 25. október með 52,19% atkvæða (bráðabirgðatölur RIK) og er spáð hreinum meirihluta, 140 þingsætum, sem myndi binda enda á 14 ára stjórnartíð undir forystu SNS; Aleksandar Vučić viðurkenndi ósigur. Halda þarf snemmbúnar forsetakosningar fyrir lok desember 2026 í stað Vučić, sem sagði af sér sem forseti til að bjóða sig fram til forsætisráðherra.",
   "parties": [
     {
       "name": "United Serbia (SNS-led)",
@@ -28,8 +28,8 @@
       "ideology": "Populism, national conservatism",
       "ideologyIs": "Popúlismi, þjóðleg íhaldsstefna",
       "inGovernment": true,
-      "lastResult": "48.1%, 129 seats (2023)",
-      "lastResultIs": "48,1%, 129 þingsæti (2023)",
+      "lastResult": "39.52%, about 103 seats (2026, preliminary)",
+      "lastResultIs": "39,52%, um 103 þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "Vučić is the list's candidate for prime minister",
@@ -43,7 +43,7 @@
         "Hagvöxtur drifinn áfram af innviðum og fjárfestingu (Expo 2027)",
         "Hafnar ásökunum mótmælenda um spillingu"
       ],
-      "seats": 110,
+      "seats": 103,
       "color": "#1f4e9c"
     },
     {
@@ -56,8 +56,8 @@
       "ideology": "Anti-corruption, rule of law",
       "ideologyIs": "Barátta gegn spillingu, réttarríkið",
       "inGovernment": false,
-      "lastResult": "First election",
-      "lastResultIs": "Fyrstu kosningar",
+      "lastResult": "52.19%, about 140 seats (2026, preliminary)",
+      "lastResultIs": "52,19%, um 140 þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "Fulfil the demands of the anti-corruption protests",
@@ -71,7 +71,8 @@
         "Umbætur í mennta- og heilbrigðismálum",
         "Jafnrétti fyrir lögum"
       ],
-      "color": "#c0392b"
+      "color": "#c0392b",
+      "seats": 140
     },
     {
       "name": "Platform for a European Serbia (SSP–SRCE)",
@@ -83,8 +84,8 @@
       "ideology": "Pro-Europeanism, liberalism",
       "ideologyIs": "Evrópusinnuð stefna, frjálslyndisstefna",
       "inGovernment": false,
-      "lastResult": "Predecessor coalition 24.3%, 65 seats (2023)",
-      "lastResultIs": "Fyrirrennari bandalagsins 24,3%, 65 þingsæti (2023)",
+      "lastResult": "Ran in the European Serbia coalition: under 1%, no seats (2026, preliminary)",
+      "lastResultIs": "Bauð fram í bandalaginu Evropska Srbija: undir 1%, engin þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "Accelerate EU accession",
@@ -98,7 +99,7 @@
         "Barátta gegn spillingu og fyrir fjölmiðlafrelsi",
         "Efla lýðræðislegar stofnanir"
       ],
-      "seats": 20,
+      "seats": 0,
       "color": "#f2a900"
     },
     {
@@ -111,8 +112,8 @@
       "ideology": "Social democracy, populism",
       "ideologyIs": "Jafnaðarstefna, popúlismi",
       "inGovernment": true,
-      "lastResult": "6.7%, 18 seats (2023)",
-      "lastResultIs": "6,7%, 18 þingsæti (2023)",
+      "lastResult": "Factor of Stability list: 2.21%, below threshold, no seats (2026, preliminary)",
+      "lastResultIs": "Listinn Faktor stabilnosti: 2,21%, undir þröskuldi, engin þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "Junior partner of the governing SNS",
@@ -126,7 +127,7 @@
         "Leggur áherslu á lífeyri og almannatryggingar",
         "Styður óbreytta utanríkisstefnu"
       ],
-      "seats": 12,
+      "seats": 0,
       "color": "#d6262f"
     },
     {
@@ -138,8 +139,8 @@
       "ideology": "National conservatism, monarchism",
       "ideologyIs": "Þjóðleg íhaldsstefna, konungshyggja",
       "inGovernment": false,
-      "lastResult": "5.2%, 13 seats (2023)",
-      "lastResultIs": "5,2%, 13 þingsæti (2023)",
+      "lastResult": "Ran in the Authentic Right alliance: under 1%, no seats (2026, preliminary)",
+      "lastResultIs": "Bauð fram í bandalaginu Autentična desnica: undir 1%, engin þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "National conservative and Orthodox Christian values",
@@ -153,22 +154,31 @@
         "Efins um skilyrði fyrir aðild að ESB",
         "Styður sameiginlegt átak stjórnarandstöðunnar gegn SNS"
       ],
-      "seats": 10,
+      "seats": 0,
       "color": "#2c3e50"
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
-    "https://new.intellinews.com/articles/serbia-to-hold-snap-parliamentary-election-on-october-25-466709",
-    "https://meduza.io/en/feature/2026/09/28/aleksandar-vucic-resigns-as-serbia-s-president-eight-months-early-to-run-for-prime-minister-instead"
+    "https://www.k1info.rs/vesti/izbori-2026/140782/zvanicni-rezultati-izbora-u-srbiji/vest",
+    "https://politika.telegraf.rs/izbori-2026/4421093-cesid-objavio-ovo-je-konacna-projekcija-raspodele-mandata-na-osnovu-96-odsto-obradjenog-uzorka",
+    "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+    "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election",
+    "https://www.danas.rs/vesti/politika/izbori26/izbori-za-predsednika-vucic-zakon/"
   ],
   "chamber": {
     "name": "National Assembly",
     "nameIs": "þjóðþingið",
     "seats": 250,
     "majority": 126,
-    "asOf": "outgoing assembly; SSP–SRCE counts SSP and SRCE groups",
-    "asOfIs": "fráfarandi þing; SSP–SRCE telur þingflokka SSP og SRCE saman",
-    "source": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
+    "asOf": "projected seats (CeSID/Ipsos, 96% sample), preliminary result, 25 Oct 2026 election; minority lists hold 7 (SVM 3, Albanian Coalition 2, Ljajić list 1, SDA Sandžak 1)",
+    "asOfIs": "áætluð þingsæti (CeSID/Ipsos, 96% úrtaks), bráðabirgðaúrslit kosninganna 25. okt. 2026; listar minnihlutahópa fá 7 (SVM 3, Albanska koalicija 2, listi Ljajić 1, SDA Sandžak 1)",
+    "source": "https://politika.telegraf.rs/izbori-2026/4421093-cesid-objavio-ovo-je-konacna-projekcija-raspodele-mandata-na-osnovu-96-odsto-obradjenog-uzorka"
+  },
+  "lastElection": {
+    "date": "2026-10-25",
+    "type": "Parliamentary (snap)",
+    "typeIs": "Þingkosningar (snemmbúnar)",
+    "outcome": "The Student List won with 52.19% against 39.52% for United Serbia (preliminary RIK count, 7,926 polling stations), on a turnout of 68.73%; CeSID/Ipsos project 140 of 250 seats for the Student List and 103 for United Serbia, and Aleksandar Vučić conceded.",
+    "outcomeIs": "Studentska lista sigraði með 52,19% en Ujedinjena Srbija fékk 39,52% (bráðabirgðatölur RIK frá 7.926 kjörstöðum) og kjörsókn var 68,73%; CeSID og Ipsos áætla að Studentska lista fái 140 af 250 þingsætum og Ujedinjena Srbija 103, og Aleksandar Vučić viðurkenndi ósigur."
   }
 }

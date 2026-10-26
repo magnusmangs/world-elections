@@ -3,15 +3,15 @@
  "isoNumeric": "624",
  "name": "Guinea-Bissau",
  "nameIs": "Gínea-Bissá",
- "lastReviewed": "2026-10-19",
+ "lastReviewed": "2026-10-26",
  "elections": [
   {
    "date": "2026-12-06",
    "dateStatus": "tentative",
    "type": "Presidential and parliamentary",
    "typeIs": "Forseta- og þingkosningar",
-   "note": "102-seat National People's Assembly. Set by junta decree.",
-   "noteIs": "102 sæti á þjóðþinginu. Dagsetningin var ákveðin með tilskipun herforingjastjórnarinnar."
+   "note": "102-seat National People's Assembly. Set by junta decree. On 8 October 2026 the electoral commission and the prime minister said conditions for a vote on 6 December are not met; no new date announced.",
+   "noteIs": "102 sæti á þjóðþinginu. Dagsetningin var ákveðin með tilskipun herforingjastjórnarinnar. Hinn 8. október 2026 sögðu kjörstjórnin og forsætisráðherrann að skilyrði fyrir kosningum 6. desember væru ekki uppfyllt; ný dagsetning hefur ekki verið tilkynnt."
   }
  ],
  "leaders": "Transitional President Gen. Horta Inta-A Na Man (military)",
@@ -63,6 +63,8 @@
   }
  ],
  "sources": [
-  "https://en.wikipedia.org/wiki/2026_Guinea-Bissau_general_election"
+  "https://en.wikipedia.org/wiki/2026_Guinea-Bissau_general_election",
+  "https://www.enca.com/news/gbissau-moves-towards-postponement-december-general-election",
+  "https://allafrica.com/stories/202610090140.html"
  ]
 }
