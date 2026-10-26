@@ -90,7 +90,10 @@
     "type": "Presidential run-off",
     "typeIs": "Forsetakosningar, seinni umferð",
     "outcome": "Petr Pavel defeated Andrej Babiš with 58.3% of the vote.",
-    "outcomeIs": "Petr Pavel sigraði Andrej Babiš með 58,3% atkvæða."
+    "outcomeIs": "Petr Pavel sigraði Andrej Babiš með 58,3% atkvæða.",
+    "winner": "Petr Pavel",
+    "winnerIs": "Petr Pavel",
+    "result": "new"
   },
   "sources": [
     "https://en.wikipedia.org/wiki/Next_Czech_presidential_election",

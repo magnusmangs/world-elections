@@ -48,6 +48,28 @@
   }
   const nextVote = (c) => (c.upcoming && c.upcoming[0]) || null;
 
+  // ---------- recent results ----------
+  // A national vote held in the last 90 days with a decided winner colours the country by result instead of by its next vote:
+  // one colour when a new party or person won, another when the incumbent held on. A first round with a run-off ahead has no
+  // winner yet, so the country keeps its next-vote colour.
+  const RESULT_DAYS = 90;
+  function recentResult(c) {
+    const le = c && c.lastElection;
+    if (!le || !le.date || !["new", "incumbent"].includes(le.result)) return null;
+    const d = daysUntil(le.date);
+    return d < 0 && d >= -RESULT_DAYS ? le : null;
+  }
+  const resultColor = (le) => (le.result === "new" ? "var(--r-new)" : "var(--r-inc)");
+  const resultLabel = (le) => (le.result === "new" ? L("Nýr sigurvegari", "New winner") : L("Sitjandi hélt velli", "Incumbent held on"));
+  function fillFor(c) {
+    if (!c) return null;
+    const r = recentResult(c);
+    if (r) return resultColor(r);
+    const v = nextVote(c);
+    return v ? tier(v.date) : null;
+  }
+  const onMap = (c) => !!(c && (recentResult(c) || nextVote(c)));
+
   // ---------- political spectrum ----------
   const SPECTRUM = [
     [/far[- ]left/i, 0], [/cent(re|er)[- ]left/i, 2], [/cent(re|er)[- ]right/i, 4], [/far[- ]right/i, 6],
@@ -196,6 +218,13 @@
       body.innerHTML = `<h2 id="panel-title">${esc(nameFallback)}</h2>
         <p class="summary">${L("Engar þjóðarkosningar eru á dagskrá næstu 12 mánuði. Löndum er bætt við þegar kosningar eru boðaðar.", "No national election is on the calendar for the next 12 months. Countries are added as votes are announced.")}</p>`;
     } else {
+      const r = recentResult(c);
+      const result = r ? `<div class="vote result" style="--c:${resultColor(r)}">
+          <div class="count">${L("Úrslit", "Result")}, ${esc(fmt(r.date, { day: "numeric", month: "long", year: "numeric" }))}. ${esc(T(r, "type"))}</div>
+          <div class="winner">${esc(T(r, "winner"))}</div>
+          <div class="badge"><i></i>${esc(resultLabel(r))}</div>
+          ${r.outcome ? `<div class="note">${esc(T(r, "outcome"))}</div>` : ""}
+        </div>` : "";
       const votes = (c.upcoming || []).map((e) => `<div class="vote" style="--c:${tier(e.date)}">
           <div class="when">${esc(whenText(e))}</div>
           <div class="count">${esc(countdown(e))}</div>
@@ -209,6 +238,7 @@
           : (c.noParties ? "" : `<p class="no-parties">${L("Upplýsingar um flokka liggja ekki fyrir enn.", "Party information is not available yet.")}</p>`));
       body.innerHTML = `<h2 id="panel-title">${esc(cname(c))}</h2>
         <p class="leaders">${esc(T(c, "leaders"))}</p>
+        ${result}
         ${votes}
         <p class="summary">${esc(T(c, "summary"))}</p>
         ${chamberHtml(c)}
@@ -298,8 +328,10 @@
     function showTip(event, d) {
       const c = state.byNumeric.get(d.id);
       const name = c ? cname(c) : d.properties.name;
-      const v = c && nextVote(c);
-      tip.innerHTML = v ? `<b>${esc(name)}</b><br>${esc(T(v, "type"))}<br>${esc(whenText(v))}` : `<b>${esc(name)}</b><br>${L("Engar kosningar næstu 12 mánuði", "No vote in the next 12 months")}`;
+      const v = c && nextVote(c), rr = recentResult(c);
+      const res = rr ? `<br>${L("Sigurvegari", "Winner")}: ${esc(T(rr, "winner"))}<br>${esc(resultLabel(rr))}, ${esc(fmt(rr.date, { day: "numeric", month: "long", year: "numeric" }))}` : "";
+      const next = v ? `<br>${rr ? L("Næst: ", "Next: ") : ""}${esc(T(v, "type"))}<br>${esc(whenText(v))}` : "";
+      tip.innerHTML = `<b>${esc(name)}</b>` + (res || next ? res + next : `<br>${L("Engar kosningar næstu 12 mánuði", "No vote in the next 12 months")}`);
       const r = el.getBoundingClientRect();
       tip.style.left = event.clientX - r.left + "px";
       tip.style.top = event.clientY - r.top + "px";
@@ -312,15 +344,15 @@
     };
 
     paths = g.selectAll("path.country").data(countries).join("path")
-      .attr("class", (d) => "country" + (state.byNumeric.has(d.id) && nextVote(state.byNumeric.get(d.id)) ? " has-vote" : ""))
+      .attr("class", (d) => "country" + (onMap(state.byNumeric.get(d.id)) ? " has-vote" : ""))
       .attr("d", path)
-      .style("fill", (d) => { const c = state.byNumeric.get(d.id); const v = c && nextVote(c); return v ? tier(v.date) : null; })
+      .style("fill", (d) => fillFor(state.byNumeric.get(d.id)))
       .on("pointermove", showTip).on("pointerleave", hideTip).on("click", click);
 
     // Dots for small states that are hard to see or click.
     const small = countries.filter((d) => {
       const c = state.byNumeric.get(d.id);
-      if (!c || !nextVote(c)) return false;
+      if (!onMap(c)) return false;
       const b = path.bounds(d); const area = (b[1][0] - b[0][0]) * (b[1][1] - b[0][1]);
       return area < 220 || ["583", "242", "132"].includes(d.id);
     });
@@ -329,7 +361,7 @@
     dots = g.selectAll("g.marker").data(small).join("g").attr("class", "marker")
       .attr("transform", (d) => `translate(${centre(d)})`);
     dots.append("circle").attr("class", "dot").attr("r", isNarrow ? 4 : 5.5)
-      .style("fill", (d) => tier(nextVote(state.byNumeric.get(d.id)).date))
+      .style("fill", (d) => fillFor(state.byNumeric.get(d.id)))
       .on("pointermove", showTip).on("pointerleave", hideTip).on("click", click);
     // One deliberate motion: a ring around every country voting in the next two weeks.
     const pulseTargets = countries.filter((d) => { const c = state.byNumeric.get(d.id); return c && nextVote(c) && soon(d); });

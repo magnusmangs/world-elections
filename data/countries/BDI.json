@@ -88,7 +88,10 @@
     "type": "Parliamentary (National Assembly)",
     "typeIs": "Þingkosningar (þjóðþingið)",
     "outcome": "CNDD-FDD won 96.5% and all elected seats; opposition parties called the result fraudulent.",
-    "outcomeIs": "CNDD-FDD hlaut 96,5% og öll kjörin þingsæti; stjórnarandstöðuflokkar sögðu úrslitin byggð á svikum."
+    "outcomeIs": "CNDD-FDD hlaut 96,5% og öll kjörin þingsæti; stjórnarandstöðuflokkar sögðu úrslitin byggð á svikum.",
+    "winner": "CNDD-FDD",
+    "winnerIs": "CNDD-FDD",
+    "result": "incumbent"
   },
   "sources": [
     "https://www.burunditimes.com/ndayishimiye-hails-consensus-on-2027-elections-as-opposition-concerns-persist/",

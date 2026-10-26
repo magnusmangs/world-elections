@@ -31,7 +31,7 @@ and results from the last 7 days. Neutral, accurate, and always credited.
    moved date, resignation), fix `data/countries/<ISO3>.json` too, cite the article in its sources, and set lastReviewed.
    Every English text field there has an Icelandic twin (`summary` / `summaryIs`, `policies` / `policiesIs` ...):
    update both. `build.py` fails if a twin is missing.
-6. After an election: add the result to that country's `lastElection` {date, type, outcome (English), outcomeIs (Icelandic)}
+6. After an election: add the result to that country's `lastElection` {date, type, outcome (English), outcomeIs (Icelandic), winner, winnerIs, result ("new" or "incumbent", see UPDATING.md step 1; leave out while a run-off is pending)}
    from an official or wire source, and remove the past entry from `elections`.
 7. Perspectives (Sjónarhorn), 1 to 2 per day for the biggest stories:
    - Run `python3 scripts/headlines.py`, then open `data/news/headlines/<ISO3>.json` for the countries in the news.

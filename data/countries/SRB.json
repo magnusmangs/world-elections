@@ -179,6 +179,9 @@
     "type": "Parliamentary (snap)",
     "typeIs": "Þingkosningar (snemmbúnar)",
     "outcome": "The Student List won with 52.19% against 39.52% for United Serbia (preliminary RIK count, 7,926 polling stations), on a turnout of 68.73%; CeSID/Ipsos project 140 of 250 seats for the Student List and 103 for United Serbia, and Aleksandar Vučić conceded.",
-    "outcomeIs": "Studentska lista sigraði með 52,19% en Ujedinjena Srbija fékk 39,52% (bráðabirgðatölur RIK frá 7.926 kjörstöðum) og kjörsókn var 68,73%; CeSID og Ipsos áætla að Studentska lista fái 140 af 250 þingsætum og Ujedinjena Srbija 103, og Aleksandar Vučić viðurkenndi ósigur."
+    "outcomeIs": "Studentska lista sigraði með 52,19% en Ujedinjena Srbija fékk 39,52% (bráðabirgðatölur RIK frá 7.926 kjörstöðum) og kjörsókn var 68,73%; CeSID og Ipsos áætla að Studentska lista fái 140 af 250 þingsætum og Ujedinjena Srbija 103, og Aleksandar Vučić viðurkenndi ósigur.",
+    "winner": "Student List (largest list, projected majority)",
+    "winnerIs": "Studentska lista (stærsti listinn, spáð meirihluta)",
+    "result": "new"
   }
 }

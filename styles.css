@@ -11,6 +11,8 @@
   --s2: #d9487e;
   --s3: #ec8db0;
   --s4: #f6c6d8;
+  --r-new: #0f8a7e;
+  --r-inc: #c4870f;
   --focus: #1d5fd1;
   --chip-gov: #1f6b4f;
   --chip-gov-bg: #dcefe6;
@@ -23,6 +25,7 @@
     --ocean: #0d131a; --land: #1b242e; --land-line: #2f3b48; --ink: #e7ecf1; --muted: #9ba7b5;
     --rule: #26313d; --surface: #141b23; --surface-2: #1d2630;
     --s1: #ff4f8f; --s2: #d33a72; --s3: #8f2f53; --s4: #5a2a3e;
+    --r-new: #2fc4b2; --r-inc: #e2a63c;
     --focus: #7aa7ff; --chip-gov: #8fe0bd; --chip-gov-bg: #183a2e; color-scheme: dark;
   }
 }
@@ -30,6 +33,7 @@
   --ocean: #0d131a; --land: #1b242e; --land-line: #2f3b48; --ink: #e7ecf1; --muted: #9ba7b5;
   --rule: #26313d; --surface: #141b23; --surface-2: #1d2630;
   --s1: #ff4f8f; --s2: #d33a72; --s3: #8f2f53; --s4: #5a2a3e;
+  --r-new: #2fc4b2; --r-inc: #e2a63c;
   --focus: #7aa7ff; --chip-gov: #8fe0bd; --chip-gov-bg: #183a2e; color-scheme: dark;
 }
 
@@ -71,6 +75,11 @@ button, input { font: inherit; color: inherit; }
 .legend-scale { display: flex; gap: 14px; margin: 0; padding: 0; list-style: none; flex-wrap: wrap; }
 .legend-scale li { display: flex; align-items: center; gap: 6px; color: var(--ink); }
 .legend-scale i { width: 14px; height: 14px; border-radius: 3px; background: var(--c); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 28px; max-width: calc(100% - 260px); }
+@media (min-width: 721px) and (max-width: 1100px) { .masthead { bottom: 124px; } }
+.vote.result .winner { font: 700 1.15rem/1.25 var(--display); }
+.vote.result .badge { display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; font-size: .9rem; font-weight: 600; }
+.vote.result .badge i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
 
 .map-tools { position: absolute; right: 16px; bottom: 16px; z-index: 2; display: flex; gap: 6px; }
 .map-tools button { min-width: 40px; height: 40px; padding: 0 12px; border: 1px solid var(--land-line); background: var(--surface); border-radius: 8px; cursor: pointer; font-weight: 600; }
@@ -167,6 +176,7 @@ button, input { font: inherit; color: inherit; }
 @media (max-width: 720px) {
   .atlas { height: auto; min-height: 0; padding-bottom: 12px; }
   .masthead, .legend, .map-tools { position: static; }
+  .legend { max-width: none; }
   .masthead { padding: 16px 16px 0; }
   .lede { font-size: .95rem; }
   .map { position: relative; inset: auto; aspect-ratio: 1.75; margin-top: 8px; }

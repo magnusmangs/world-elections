@@ -3,6 +3,7 @@
 The scheduled Claude task follows the `world-elections-update` skill. If the skill is unavailable, follow this file.
 
 1. Finished elections: for every election dated before today, record the result in `lastElection`, remove it from `elections`, update `leaders`, each party's `lastResult` and `inGovernment`, and the `summary`. Add any scheduled run-off.
+   In `lastElection` also set `winner` (with `winnerIs`) and `result`: `"new"` if a new party, list or person won, `"incumbent"` if the sitting president, their party, or the party leading the outgoing government won again (for parliaments, judge by the largest party or list). Leave `result` out after a first round with a run-off still to come. The map colours a country by `result` for 90 days after the vote (one colour for a new winner, another when the incumbent held on), then goes back to the next-vote colour.
 2. Votes in the next 30 days: refresh date, candidates, polls (pollster and month), pledges and summary.
 3. Calendar sweep for the next 15 months: Wikipedia `<YEAR>_national_electoral_calendar` (this year and next), electionguide.org upcoming list, news on snap elections from the past two weeks, and every entry in `data/watchlist.json`. Add a `data/countries/<ISO3>.json` file for each new national vote. `isoNumeric` must match an `id` in `assets/countries-50m.json`.
 4. Rolling review: refresh up to 8 countries with the oldest `lastReviewed` (older than 28 days). Set `lastReviewed` to today on each file checked.
@@ -10,7 +11,7 @@ The scheduled Claude task follows the `world-elections-update` skill. If the ski
    Write every text field in English and add its Icelandic twin right after it with the suffix `Is`:
    `name`/`nameIs` (country), `leaders`, `summary`, `noParties`, each election's `type` and `note`, each party's
    `position`, `ideology`, `lastResult`, `polling` and `policies` (`policiesIs` has the same number of lines),
-   `chamber.name` and `asOf`, `poll.pollster` and `note`, `lastElection.type` and `outcome`. Names: never invent an Icelandic
+   `chamber.name` and `asOf`, `poll.pollster` and `note`, `lastElection.type`, `outcome` and `winner`. Names: never invent an Icelandic
    name. Use an Icelandic form only when it is established in Icelandic media (Labour Party = Verkamannaflokkurinn,
    Law and Justice = Lög og réttlæti). Otherwise keep the original name, in the party's own language where it uses the
    Latin alphabet (Lega, Progresívne Slovensko, Studentska lista) or its usual transliteration (Yahadut HaTorah), both in

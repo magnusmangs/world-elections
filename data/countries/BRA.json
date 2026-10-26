@@ -77,6 +77,9 @@
     "type": "Presidential run-off",
     "typeIs": "Forsetakosningar, seinni umferð",
     "outcome": "Luiz Inácio Lula da Silva was re-elected with 51.79% of valid votes against 48.21% for Flávio Bolsonaro (TSE, 100% counted), on a turnout of 80.78%.",
-    "outcomeIs": "Luiz Inácio Lula da Silva var endurkjörinn með 51,79% gildra atkvæða en Flávio Bolsonaro fékk 48,21% (TSE, öll atkvæði talin) og kjörsókn var 80,78%."
+    "outcomeIs": "Luiz Inácio Lula da Silva var endurkjörinn með 51,79% gildra atkvæða en Flávio Bolsonaro fékk 48,21% (TSE, öll atkvæði talin) og kjörsókn var 80,78%.",
+    "winner": "Luiz Inácio Lula da Silva (PT), re-elected",
+    "winnerIs": "Luiz Inácio Lula da Silva (PT), endurkjörinn",
+    "result": "incumbent"
   }
 }

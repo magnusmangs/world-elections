@@ -111,7 +111,10 @@
     "type": "General (presidential and Legislative Yuan)",
     "typeIs": "Forseta- og þingkosningar (Legislative Yuan)",
     "outcome": "Lai Ching-te (DPP) won the presidency with 40.1%; no party won a legislative majority.",
-    "outcomeIs": "Lai Ching-te (DPP) vann forsetakjörið með 40,1%; enginn flokkur náði meirihluta á þingi."
+    "outcomeIs": "Lai Ching-te (DPP) vann forsetakjörið með 40,1%; enginn flokkur náði meirihluta á þingi.",
+    "winner": "Lai Ching-te (DPP); DPP kept the presidency",
+    "winnerIs": "Lai Ching-te (DPP); DPP hélt forsetaembættinu",
+    "result": "incumbent"
   },
   "sources": [
     "https://en.wikipedia.org/wiki/2028_Taiwanese_presidential_election",

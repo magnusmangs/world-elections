@@ -27,16 +27,25 @@
       <p class="lede" id="lede" data-en="Loading the calendar…">Sæki dagatalið…</p>
     </header>
 
-    <div class="map" id="map" role="img" aria-label="Heimskort. Lönd þar sem þjóðarkosningar eru fram undan eru lituð eftir því hve fljótt er kosið." data-en-aria-label="World map. Countries with an upcoming national election are coloured by how soon they vote."></div>
+    <div class="map" id="map" role="img" aria-label="Heimskort. Lönd þar sem þjóðarkosningar eru fram undan eru lituð eftir því hve fljótt er kosið. Lönd sem kusu síðustu 90 daga eru lituð eftir því hvort nýr aðili eða sitjandi vann." data-en-aria-label="World map. Countries with an upcoming national election are coloured by how soon they vote. Countries that voted in the last 90 days are coloured by whether a new winner or the incumbent won."></div>
 
     <div class="legend" aria-hidden="true">
-      <span class="legend-title" data-en="Next vote">Næst kosið</span>
-      <ol class="legend-scale">
-        <li><i style="--c:var(--s1)"></i><span data-en="Within a month">Innan mánaðar</span></li>
-        <li><i style="--c:var(--s2)"></i><span data-en="1–3 months">1–3 mánuðir</span></li>
-        <li><i style="--c:var(--s3)"></i><span data-en="3–6 months">3–6 mánuðir</span></li>
-        <li><i style="--c:var(--s4)"></i><span data-en="Later">Síðar</span></li>
-      </ol>
+      <div class="legend-group">
+        <span class="legend-title" data-en="Next vote">Næst kosið</span>
+        <ol class="legend-scale">
+          <li><i style="--c:var(--s1)"></i><span data-en="Within a month">Innan mánaðar</span></li>
+          <li><i style="--c:var(--s2)"></i><span data-en="1–3 months">1–3 mánuðir</span></li>
+          <li><i style="--c:var(--s3)"></i><span data-en="3–6 months">3–6 mánuðir</span></li>
+          <li><i style="--c:var(--s4)"></i><span data-en="Later">Síðar</span></li>
+        </ol>
+      </div>
+      <div class="legend-group">
+        <span class="legend-title" data-en="Results, last 90 days">Úrslit síðustu 90 daga</span>
+        <ul class="legend-scale">
+          <li><i style="--c:var(--r-new)"></i><span data-en="New winner">Nýr sigurvegari</span></li>
+          <li><i style="--c:var(--r-inc)"></i><span data-en="Incumbent held on">Sitjandi hélt velli</span></li>
+        </ul>
+      </div>
     </div>
 
     <div class="map-tools">

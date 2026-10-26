@@ -144,7 +144,10 @@
     "type": "Presidential",
     "typeIs": "Forsetakosningar",
     "outcome": "Paul Biya was declared the winner with 53.7%; runner-up Issa Tchiroma Bakary disputes the result.",
-    "outcomeIs": "Paul Biya var lýstur sigurvegari með 53,7%; Issa Tchiroma Bakary, sem varð annar, vefengir úrslitin."
+    "outcomeIs": "Paul Biya var lýstur sigurvegari með 53,7%; Issa Tchiroma Bakary, sem varð annar, vefengir úrslitin.",
+    "winner": "Paul Biya (RDPC), declared re-elected",
+    "winnerIs": "Paul Biya (RDPC), lýstur endurkjörinn",
+    "result": "incumbent"
   },
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Cameroonian_parliamentary_election",

@@ -10,6 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REQ_COUNTRY = ["iso3", "isoNumeric", "name", "lastReviewed", "elections", "leaders", "summary", "parties", "sources"]
 REQ_PARTY = ["name", "position", "inGovernment", "policies"]
 STATUSES = {"confirmed", "tentative", "expected"}
+RESULTS = {"new", "incumbent"}  # lastElection.result: a new party or person won, or the incumbent held on
 
 # The site shows one language at a time (Icelandic by default, English on request).
 # Every English text field needs an Icelandic twin with the suffix "Is". Party names are optional (nameIs).
@@ -19,7 +20,7 @@ I18N = {
     "parties[]": ["position", "ideology", "lastResult", "polling"],
     "chamber": ["name", "asOf"],
     "poll": ["note", "pollster"],
-    "lastElection": ["type", "outcome"],
+    "lastElection": ["type", "outcome", "winner"],
 }
 
 
@@ -50,7 +51,7 @@ def main():
     today = datetime.date.today().isoformat()
     if "--today" in sys.argv:
         today = sys.argv[sys.argv.index("--today") + 1]
-    errors, countries = [], []
+    errors, warnings, countries = [], [], []
     for path in sorted(glob.glob(os.path.join(ROOT, "data", "countries", "*.json"))):
         name = os.path.basename(path)
         try:
@@ -87,6 +88,19 @@ def main():
                 errors.append(f"{name}: poll seats exceed chamber")
         for p in c.get("parties", []):
             if "seats" in p and not (p["seats"] is None or isinstance(p["seats"], int)): errors.append(f"{name}: {p['name']} seats must be integer")
+        le = c.get("lastElection")
+        if isinstance(le, dict):
+            if "result" in le and le["result"] not in RESULTS:
+                errors.append(f"{name}: lastElection.result must be one of {sorted(RESULTS)}")
+            if le.get("result") in RESULTS and not str(le.get("winner", "")).strip():
+                errors.append(f"{name}: lastElection.result needs a winner")
+            try:
+                age = (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(le.get("date", ""))).days
+            except ValueError:
+                age = None
+            runoff = any(re.search(r"run-?off|second round", e.get("type", ""), re.I) for e in c.get("elections", []))
+            if age is not None and 0 < age <= 90 and "result" not in le and not runoff:
+                warnings.append(f"{name}: lastElection is {age} days old but has no result (new|incumbent); the map will not show it")
         for m in missing_is(c):
             errors.append(f"{name}: missing Icelandic text {m}")
         if not c.get("sources"):
@@ -94,6 +108,8 @@ def main():
         upcoming = sorted([e for e in c.get("elections", []) if e.get("date", "") >= today], key=lambda e: e["date"])
         c["upcoming"] = upcoming
         countries.append(c)
+    for w in warnings:
+        print("WARNING: " + w)
     if errors:
         print("\n".join(errors)); sys.exit(1)
     countries.sort(key=lambda c: (c["upcoming"][0]["date"] if c["upcoming"] else "9999", c["name"]))
