@@ -1,0 +1,208 @@
+{
+  "iso3": "MAR",
+  "isoNumeric": "504",
+  "name": "Morocco",
+  "nameIs": "Marokkó",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "King Mohammed VI; Head of Government Fatima Ezzahra El Mansouri (PAM), appointed 29 September 2026, leading a PAM, Istiqlal, USFP and PPS government named on 16 October 2026",
+  "leadersIs": "Mohammed VI konungur; Fatima Ezzahra El Mansouri forsætisráðherra (PAM), skipuð 29. september 2026, fer fyrir ríkisstjórn PAM, Istiqlal, USFP og PPS sem skipuð var 16. október 2026",
+  "summary": "The Authenticity and Modernity Party (PAM) won 97 of 395 seats in the 23 September 2026 election, ahead of the outgoing head of government's party, the RNI, with 66, on a turnout of 38.02%, the lowest since 2007. King Mohammed VI appointed PAM's Fatima Ezzahra El Mansouri as Morocco's first woman head of government, and her four-party coalition with Istiqlal, the USFP and the PPS holds 207 seats, with the RNI outside the government.",
+  "summaryIs": "Parti authenticité et modernité (PAM) fékk 97 af 395 þingsætum í kosningunum 23. september 2026, á undan RNI, flokki fráfarandi forsætisráðherra, sem fékk 66, og kjörsókn var 38,02%, sú minnsta síðan 2007. Mohammed VI konungur skipaði Fatima Ezzahra El Mansouri úr PAM fyrstu konuna í embætti forsætisráðherra Marokkó, og fjögurra flokka samsteypa hennar með Istiqlal, USFP og PPS hefur 207 þingsæti, en RNI stendur utan stjórnar.",
+  "parties": [
+    {
+      "name": "Authenticity and Modernity Party",
+      "nameIs": "Parti authenticité et modernité",
+      "abbr": "PAM",
+      "leader": "Fatima Ezzahra El Mansouri",
+      "position": "Centre to centre-right",
+      "positionIs": "Miðja til mið-hægri",
+      "ideology": "Liberalism, royalism, modernism",
+      "ideologyIs": "Frjálslyndisstefna, konungshollusta, nútímavæðing",
+      "inGovernment": true,
+      "lastResult": "97 seats, largest party (2026)",
+      "lastResultIs": "97 þingsæti, stærsti flokkurinn (2026)",
+      "polling": "",
+      "policies": [
+        "Leads the new government; programme criminalises illicit enrichment and tightens asset declarations",
+        "Raise direct social aid from 500 to 1,000 dirhams a month by the end of the term",
+        "Gradually raise the minimum pension to 3,000 dirhams",
+        "Reserve 30% of public contract value for small and medium firms"
+      ],
+      "policiesIs": [
+        "Fer fyrir nýrri ríkisstjórn; stefnuskráin gerir ólögmæta auðgun refsiverða og herðir reglur um eignayfirlýsingar",
+        "Hækka beinan félagslegan stuðning úr 500 í 1.000 dirham á mánuði fyrir lok kjörtímabilsins",
+        "Hækka lágmarkslífeyri í áföngum í 3.000 dirham",
+        "Taka frá 30% af verðmæti opinberra samninga fyrir lítil og meðalstór fyrirtæki"
+      ],
+      "seats": 97,
+      "color": "#e0b100"
+    },
+    {
+      "name": "National Rally of Independents",
+      "nameIs": "Rassemblement national des indépendants",
+      "abbr": "RNI",
+      "leader": "Mohamed Chouki",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Liberalism, pro-business",
+      "ideologyIs": "Frjálslyndisstefna, stuðningur við atvinnulífið",
+      "inGovernment": false,
+      "lastResult": "66 seats, down from 102 (2026)",
+      "lastResultIs": "66 þingsæti, niður úr 102 (2026)",
+      "polling": "",
+      "policies": [
+        "Led the outgoing government under Aziz Akhannouch (2021 to 2026)",
+        "Campaigned on its record, including the extension of health insurance coverage",
+        "Announced an internal review of its record after the vote",
+        "Not part of the new governing majority"
+      ],
+      "policiesIs": [
+        "Fór fyrir fráfarandi ríkisstjórn undir forystu Aziz Akhannouch (2021 til 2026)",
+        "Byggði kosningabaráttuna á verkum sínum, meðal annars útvíkkun sjúkratrygginga",
+        "Boðaði innri endurskoðun á störfum sínum eftir kosningarnar",
+        "Á ekki aðild að nýjum stjórnarmeirihluta"
+      ],
+      "seats": 66,
+      "color": "#1f5fa8"
+    },
+    {
+      "name": "Istiqlal Party",
+      "nameIs": "Istiqlal",
+      "abbr": "PI",
+      "leader": "Nizar Baraka",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Moroccan nationalism, conservatism",
+      "ideologyIs": "Marokkósk þjóðernishyggja, íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "65 seats (2026)",
+      "lastResultIs": "65 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Junior partner in the PAM-led government, also part of the outgoing coalition",
+        "Prioritises purchasing power and food price controls",
+        "Has proposed allowing Moroccans abroad to vote from their countries of residence",
+        "Emphasises Arabic language and national identity"
+      ],
+      "policiesIs": [
+        "Samstarfsflokkur í ríkisstjórn undir forystu PAM, átti einnig aðild að fráfarandi stjórn",
+        "Leggur áherslu á kaupmátt og verðstýringu á matvælum",
+        "Hefur lagt til að Marokkóbúar erlendis geti kosið í búsetulandi sínu",
+        "Leggur áherslu á arabíska tungu og þjóðarímynd"
+      ],
+      "seats": 65,
+      "color": "#c8102e"
+    },
+    {
+      "name": "Justice and Development Party",
+      "nameIs": "Parti de la justice et du développement",
+      "abbr": "PJD",
+      "leader": "Abdelilah Benkirane",
+      "position": "Centre-right to right",
+      "positionIs": "Mið-hægri til hægri",
+      "ideology": "Islamic democracy, social conservatism",
+      "ideologyIs": "Íslamskt lýðræði, félagsleg íhaldsstefna",
+      "inGovernment": false,
+      "lastResult": "54 seats, up from 13 (2026)",
+      "lastResultIs": "54 þingsæti, upp úr 13 (2026)",
+      "polling": "",
+      "policies": [
+        "Main opposition party; led governments from 2011 to 2021",
+        "Campaigned against the outgoing government's record on prices and jobs",
+        "Opposes normalisation of relations with Israel",
+        "Emphasises Islamic values and family policy"
+      ],
+      "policiesIs": [
+        "Helsti stjórnarandstöðuflokkurinn; fór fyrir ríkisstjórnum frá 2011 til 2021",
+        "Gagnrýndi fráfarandi stjórn fyrir verðlag og atvinnuleysi",
+        "Andvígur eðlilegum samskiptum við Ísrael",
+        "Leggur áherslu á íslömsk gildi og fjölskyldustefnu"
+      ],
+      "seats": 54,
+      "color": "#2e8b57"
+    },
+    {
+      "name": "Socialist Union of Popular Forces",
+      "nameIs": "Union socialiste des forces populaires",
+      "abbr": "USFP",
+      "leader": "Driss Lachgar",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
+      "inGovernment": true,
+      "lastResult": "26 seats (2026)",
+      "lastResultIs": "26 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Joined the PAM-led coalition after five years in opposition",
+        "Expansion of public health and education services",
+        "Progressive income tax reform",
+        "Stronger social protection for low-income households"
+      ],
+      "policiesIs": [
+        "Gekk til liðs við samsteypu undir forystu PAM eftir fimm ár í stjórnarandstöðu",
+        "Efling opinberrar heilbrigðis- og menntaþjónustu",
+        "Umbætur í átt að stighækkandi tekjuskatti",
+        "Aukin félagsleg vernd fyrir tekjulág heimili"
+      ],
+      "seats": 26,
+      "color": "#8b1e3f"
+    },
+    {
+      "name": "Party of Progress and Socialism",
+      "nameIs": "Parti du progrès et du socialisme",
+      "abbr": "PPS",
+      "leader": "Nabil Benabdallah",
+      "position": "Left",
+      "positionIs": "Vinstri",
+      "ideology": "Socialism, social democracy",
+      "ideologyIs": "Sósíalismi, jafnaðarstefna",
+      "inGovernment": true,
+      "lastResult": "19 seats (2026)",
+      "lastResultIs": "19 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Joined the PAM-led coalition after five years in opposition",
+        "Public investment in health, education and housing",
+        "Measures against high living costs and market concentration",
+        "Wider political and individual freedoms"
+      ],
+      "policiesIs": [
+        "Gekk til liðs við samsteypu undir forystu PAM eftir fimm ár í stjórnarandstöðu",
+        "Opinber fjárfesting í heilbrigðis-, mennta- og húsnæðismálum",
+        "Aðgerðir gegn háum framfærslukostnaði og samþjöppun á mörkuðum",
+        "Aukið stjórnmálalegt og persónulegt frelsi"
+      ],
+      "seats": 19,
+      "color": "#d35400"
+    }
+  ],
+  "chamber": {
+    "name": "House of Representatives",
+    "nameIs": "fulltrúadeildin",
+    "seats": 395,
+    "majority": 198,
+    "asOf": "as elected on 23 September 2026 (Interior Ministry final results); others include MP 29, UC 17, MDS 8, Left Alliance 8",
+    "asOfIs": "eins og kosið var 23. september 2026 (lokaúrslit innanríkisráðuneytisins); aðrir eru meðal annars MP 29, UC 17, MDS 8 og Left Alliance 8",
+    "source": "https://www.moroccoworldnews.com/2026/09/339827/morocco-confirms-pam-as-election-winner-with-97-seats-rni-second-with-66/"
+  },
+  "lastElection": {
+    "date": "2026-09-23",
+    "type": "Parliamentary (House of Representatives)",
+    "typeIs": "Þingkosningar (fulltrúadeild)",
+    "outcome": "PAM won 97 of 395 seats, ahead of the RNI (66), Istiqlal (65), the PJD (54), the Popular Movement (29), the USFP (26) and the PPS (19), on a turnout of 38.02%; the King appointed PAM's Fatima Ezzahra El Mansouri head of government on 29 September and her PAM, Istiqlal, USFP and PPS cabinet was named on 16 October.",
+    "outcomeIs": "PAM fékk 97 af 395 þingsætum, á undan RNI (66), Istiqlal (65), PJD (54), Mouvement populaire (29), USFP (26) og PPS (19), og kjörsókn var 38,02%; konungur skipaði Fatima Ezzahra El Mansouri úr PAM forsætisráðherra 29. september og ráðuneyti hennar með PAM, Istiqlal, USFP og PPS var skipað 16. október.",
+    "winner": "PAM (largest party, leads new government)",
+    "winnerIs": "PAM (stærsti flokkurinn, fer fyrir nýrri ríkisstjórn)",
+    "result": "new"
+  },
+  "sources": [
+    "https://www.moroccoworldnews.com/2026/09/339827/morocco-confirms-pam-as-election-winner-with-97-seats-rni-second-with-66/",
+    "https://www.timeslive.co.za/news/africa/2026-09-29-moroccos-king-appoints-first-woman-prime-minister-following-election/",
+    "https://www.bladi.net/gouvernaient-ensemble-el-mansouri-forme-nouvelle-majorite-akhannouch,124336.html",
+    "https://www.financialafrik.com/2026/10/17/maroc-nouveau-gouvernement-ce-quil-faut-savoir-sur-les-entrants-et-les-sortants/",
+    "https://fr.le360.ma/politique/programme-gouvernemental-une-feuille-de-route-pour-restaurer-la-confiance-reguler-les-marches-et_6CVWVYR3DRD2XFBEPW4FD4B4RE/"
+  ]
+}

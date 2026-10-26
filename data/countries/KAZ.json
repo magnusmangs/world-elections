@@ -1,0 +1,177 @@
+{
+  "iso3": "KAZ",
+  "isoNumeric": "398",
+  "name": "Kazakhstan",
+  "nameIs": "Kasakstan",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "President Kassym-Jomart Tokayev; Vice President Yerlan Karin and Prime Minister Olzhas Bektenov (both approved by the Kurultai on 31 August 2026); Kurultai Chairman Aibek Dadebay (Adilet)",
+  "leadersIs": "Kassym-Jomart Tokajev forseti; Yerlan Karin varaforseti og Olzhas Bektenov forsætisráðherra (Kurultai samþykkti báða 31. ágúst 2026); Aibek Dadebay, forseti Kurultai (Adilet)",
+  "summary": "The pro-presidential Adilet party won 110 of 145 seats with 71.17% of the vote in the 23 August 2026 election, the first for the unicameral Kurultai created by the March 2026 constitution, and four other parties cleared the 5% threshold. OSCE/ODIHR observers said the vote was technically well prepared but took place in an environment lacking political pluralism; the next presidential election is due in 2029.",
+  "summaryIs": "Adilet, flokkur hliðhollur forsetanum, fékk 110 af 145 þingsætum og 71,17% atkvæða í kosningunum 23. ágúst 2026, þeim fyrstu til einnar deildar þingsins Kurultai sem stofnað var með stjórnarskránni frá mars 2026, og fjórir aðrir flokkar komust yfir 5% þröskuldinn. Eftirlitsmenn ÖSE/ODIHR sögðu kosningarnar vel undirbúnar tæknilega en að þær hefðu farið fram við aðstæður þar sem pólitíska fjölbreytni skorti; næstu forsetakosningar eiga að fara fram 2029.",
+  "parties": [
+    {
+      "name": "Adilet",
+      "abbr": "Adilet",
+      "leader": "Aibek Dadebay",
+      "position": "Big tent",
+      "positionIs": "Breið fylking",
+      "ideology": "Pro-presidential, successor to Amanat (merged June 2026)",
+      "ideologyIs": "Hliðhollur forsetanum, arftaki Amanat (sameinuðust í júní 2026)",
+      "inGovernment": true,
+      "lastResult": "71.17%, 110 seats (2026)",
+      "lastResultIs": "71,17%, 110 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Create one million formal jobs and train five million people in AI skills",
+        "Invest 13 trillion tenge in upgrading 86,000 km of utility networks",
+        "Raise life expectancy above 77 with a shift to preventive healthcare",
+        "Limit National Fund withdrawals to major infrastructure projects approved by the president"
+      ],
+      "policiesIs": [
+        "Skapa eina milljón formlegra starfa og þjálfa fimm milljónir manna í gervigreind",
+        "Fjárfesta 13 billjónir tenge í endurnýjun 86.000 km veitukerfa",
+        "Hækka lífslíkur yfir 77 ár með áherslu á forvarnir í heilbrigðiskerfinu",
+        "Takmarka úttektir úr Þjóðarsjóðnum við stórar innviðaframkvæmdir sem forsetinn samþykkir"
+      ],
+      "seats": 110,
+      "color": "#1f6fb2"
+    },
+    {
+      "name": "Auyl",
+      "abbr": "Auyl",
+      "leader": "Kairat Aituganov",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Agrarianism, rural development",
+      "ideologyIs": "Landbúnaðarstefna, byggðaþróun",
+      "inGovernment": false,
+      "lastResult": "6.26%, 10 seats (2026)",
+      "lastResultIs": "6,26%, 10 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Food security law and a revised Land Code",
+        "Fully state-owned Agricultural Bank",
+        "Eliminate most taxes on agricultural producers",
+        "Rural gas supply, broadband and higher pensions for long-term rural residents"
+      ],
+      "policiesIs": [
+        "Lög um fæðuöryggi og endurskoðuð jarðalög",
+        "Landbúnaðarbanki að fullu í eigu ríkisins",
+        "Afnema flesta skatta á landbúnaðarframleiðendur",
+        "Gas, breiðband og hærri lífeyrir fyrir þá sem lengi hafa búið í dreifbýli"
+      ],
+      "seats": 10,
+      "color": "#2e8b3e"
+    },
+    {
+      "name": "Respublica",
+      "abbr": "Respublica",
+      "leader": "Aidarbek Khodzhanazarov",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Pro-business, economic modernisation",
+      "ideologyIs": "Stuðningur við atvinnulífið, efnahagsleg nútímavæðing",
+      "inGovernment": false,
+      "lastResult": "5.56%, 9 seats (2026)",
+      "lastResultIs": "5,56%, 9 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Raise household incomes and support domestic manufacturing",
+        "Education, jobs and digital public services for people with disabilities",
+        "Stricter workplace safety rules and company liability for serious industrial accidents",
+        "Food self-sufficiency and more efficient water use"
+      ],
+      "policiesIs": [
+        "Auka tekjur heimila og styðja innlenda framleiðslu",
+        "Menntun, störf og stafræn opinber þjónusta fyrir fatlað fólk",
+        "Strangari reglur um öryggi á vinnustöðum og ábyrgð fyrirtækja á alvarlegum vinnuslysum",
+        "Sjálfbærni í matvælaframleiðslu og betri nýting vatns"
+      ],
+      "seats": 9,
+      "color": "#7b2cbf"
+    },
+    {
+      "name": "Aq Jol Democratic Party",
+      "nameIs": "Aq Jol",
+      "abbr": "Aq Jol",
+      "leader": "Dania Espaeva",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Liberal conservatism, pro-business",
+      "ideologyIs": "Frjálslynd íhaldsstefna, stuðningur við atvinnulífið",
+      "inGovernment": false,
+      "lastResult": "5.21%, 8 seats (2026)",
+      "lastResultIs": "5,21%, 8 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Stronger Kurultai oversight, including parliamentary investigations",
+        "A coalition government including all parliamentary parties",
+        "Market liberalisation and lower import duties on industrial inputs",
+        "Transparency in pension and health insurance funds"
+      ],
+      "policiesIs": [
+        "Aukið eftirlit Kurultai, þar á meðal rannsóknir þingsins",
+        "Samsteypustjórn með öllum þingflokkum",
+        "Aukið markaðsfrelsi og lægri tollar á aðföng iðnaðar",
+        "Gagnsæi í lífeyris- og sjúkratryggingasjóðum"
+      ],
+      "seats": 8,
+      "color": "#f2a900"
+    },
+    {
+      "name": "Nationwide Social Democratic Party",
+      "nameIs": "OSDP",
+      "abbr": "OSDP",
+      "leader": "Ashat Rakhymzhanov",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
+      "inGovernment": false,
+      "lastResult": "5.11%, 8 seats (2026)",
+      "lastResultIs": "5,11%, 8 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Break up monopolies and introduce progressive tax on high incomes",
+        "Gradual move to a four-day working week without wage cuts",
+        "Asset disclosure for officials and protection for whistleblowers",
+        "Raise healthcare spending to at least 5% of GDP"
+      ],
+      "policiesIs": [
+        "Brjóta upp einokun og taka upp stighækkandi skatt á háar tekjur",
+        "Fjögurra daga vinnuvika í áföngum án launaskerðingar",
+        "Upplýsingaskylda embættismanna um eignir og vernd uppljóstrara",
+        "Hækka útgjöld til heilbrigðismála í að minnsta kosti 5% af landsframleiðslu"
+      ],
+      "seats": 8,
+      "color": "#c8102e"
+    }
+  ],
+  "chamber": {
+    "name": "Kurultai (unicameral parliament)",
+    "nameIs": "Kurultai (þing í einni deild)",
+    "seats": 145,
+    "majority": 73,
+    "asOf": "as elected on 23 August 2026 (final CEC results)",
+    "asOfIs": "eins og kosið var 23. ágúst 2026 (lokaúrslit yfirkjörstjórnar)",
+    "source": "https://kapital.kz/gosudarstvo/152081/partiya-aedilet-poluchila-110-mest-v-kurultae.html"
+  },
+  "lastElection": {
+    "date": "2026-08-23",
+    "type": "Legislative (Kurultai, early)",
+    "typeIs": "Þingkosningar (Kurultai, snemmbúnar)",
+    "outcome": "Adilet won 110 of 145 seats with 71.17%, ahead of Auyl (10), Respublica (9), Aq Jol (8) and the OSDP (8), while the People's Party (3.11%) and Baytaq (1.07%) fell below the threshold; turnout was 74.08% and OSCE/ODIHR observers said the vote took place in an environment lacking political pluralism.",
+    "outcomeIs": "Adilet fékk 110 af 145 þingsætum með 71,17% atkvæða, á undan Auyl (10), Respublica (9), Aq Jol (8) og OSDP (8), en People's Party of Kazakhstan (3,11%) og Baytaq (1,07%) náðu ekki yfir þröskuldinn; kjörsókn var 74,08% og eftirlitsmenn ÖSE/ODIHR sögðu kosningarnar hafa farið fram við aðstæður þar sem pólitíska fjölbreytni skorti.",
+    "winner": "Adilet (pro-presidential majority)",
+    "winnerIs": "Adilet (meirihluti hliðhollur forsetanum)",
+    "result": "incumbent"
+  },
+  "sources": [
+    "https://kapital.kz/gosudarstvo/152081/partiya-aedilet-poluchila-110-mest-v-kurultae.html",
+    "https://odihr.osce.org/node/667173",
+    "https://en.fergana.agency/news/149016/",
+    "https://astanatimes.com/2026/07/kurultai-elections-week-in-review-candidates-make-their-pitch-to-voters/",
+    "https://en.wikipedia.org/wiki/2026_Kazakh_legislative_election"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "iso3": "BIH",
+  "isoNumeric": "070",
+  "name": "Bosnia and Herzegovina",
+  "nameIs": "Bosnía og Hersegóvína",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "Presidency elected on 4 October 2026: Denis Bećirović (SDP BiH), Darijana Filipović (HDZ BiH) and Željka Cvijanović (SNSD); Council of Ministers chaired by Borjana Krišto (HDZ BiH) until a new one is formed",
+  "leadersIs": "Forsætisráð kjörið 4. október 2026: Denis Bećirović (SDP BiH), Darijana Filipović (HDZ BiH) og Željka Cvijanović (SNSD); ráðherraráðið undir forsæti Borjana Krišto (HDZ BiH) þar til nýtt verður myndað",
+  "summary": "In the 4 October general election, held on a turnout of about 42%, Denis Bećirović and Željka Cvijanović kept their Presidency seats while Darijana Filipović of HDZ BiH won the Croat seat from the Democratic Front, and the SDA became the largest party in the state House of Representatives with 9 of 42 seats. The Central Election Commission confirmed the results on 24 October, and talks on a new Council of Ministers are under way, with SNSD and HDZ BiH saying they will continue their partnership and the SDA seeking a place in government.",
+  "summaryIs": "Í almennum kosningum 4. október, þar sem kjörsókn var um 42%, héldu Denis Bećirović og Željka Cvijanović sætum sínum í forsætisráðinu en Darijana Filipović úr HDZ BiH vann sæti Króata af Demokratska fronta, og SDA varð stærsti flokkurinn í fulltrúadeild ríkisþingsins með 9 af 42 sætum. Miðkjörstjórnin staðfesti úrslitin 24. október og viðræður um nýtt ráðherraráð standa yfir, þar sem SNSD og HDZ BiH segjast ætla að halda samstarfi sínu áfram og SDA sækist eftir sæti í ríkisstjórn.",
+  "parties": [
+    {
+      "name": "Party of Democratic Action",
+      "nameIs": "Stranka demokratske akcije",
+      "abbr": "SDA",
+      "leader": "Bakir Izetbegović",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Bosniak nationalism, conservatism",
+      "ideologyIs": "Þjóðernishyggja Bosníaka, íhaldsstefna",
+      "inGovernment": false,
+      "lastResult": "9 of 42 seats, largest party (2026); Izetbegović second for the Bosniak Presidency seat",
+      "lastResultIs": "9 af 42 sætum, stærsti flokkurinn (2026); Izetbegović annar í kjöri til sætis Bosníaka í forsætisráðinu",
+      "polling": "",
+      "policies": [
+        "Supports a unified, civic and centralised Bosnian state",
+        "Backs EU and NATO membership",
+        "Rejects rolling back state powers established after Dayton",
+        "Seeks a state coalition without the outgoing Troika parties"
+      ],
+      "policiesIs": [
+        "Styður sameinað og miðstýrt bosnískt ríki byggt á borgararétti",
+        "Styður aðild að ESB og NATO",
+        "Hafnar því að vald ríkisins sem komið var á eftir Dayton verði afnumið",
+        "Sækist eftir stjórnarsamstarfi á ríkisstigi án fráfarandi Trojka-flokkanna"
+      ],
+      "seats": 9,
+      "color": "#0b8a3e"
+    },
+    {
+      "name": "Alliance of Independent Social Democrats",
+      "nameIs": "Savez nezavisnih socijaldemokrata",
+      "abbr": "SNSD",
+      "leader": "Milorad Dodik",
+      "position": "Right",
+      "positionIs": "Hægri",
+      "ideology": "Serb nationalism, national conservatism",
+      "ideologyIs": "Þjóðernishyggja Serba, þjóðleg íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "6 of 42 seats, largest in Republika Srpska (2026); Cvijanović re-elected to the Serb Presidency seat",
+      "lastResultIs": "6 af 42 sætum, stærstur í Republika Srpska (2026); Cvijanović endurkjörin í sæti Serba í forsætisráðinu",
+      "polling": "",
+      "policies": [
+        "Calls for a return to the original Dayton Agreement",
+        "Defends the autonomy of Republika Srpska",
+        "Opposes the role of the High Representative",
+        "Will continue its state-level partnership with HDZ BiH"
+      ],
+      "policiesIs": [
+        "Krefst þess að upprunalega Dayton-samkomulagið gildi á ný",
+        "Ver sjálfstjórn Republika Srpska",
+        "Andvígur hlutverki hins alþjóðlega æðsta fulltrúa",
+        "Ætlar að halda samstarfi við HDZ BiH áfram á ríkisstigi"
+      ],
+      "seats": 6,
+      "color": "#2b6cb0"
+    },
+    {
+      "name": "Social Democratic Party of Bosnia and Herzegovina",
+      "nameIs": "Socijaldemokratska partija Bosne i Hercegovine",
+      "abbr": "SDP BiH",
+      "leader": "Nermin Nikšić",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy, multi-ethnic civic politics",
+      "ideologyIs": "Jafnaðarstefna, fjölþjóðleg borgaraleg stjórnmál",
+      "inGovernment": true,
+      "lastResult": "5 of 42 seats (2026); Bećirović re-elected to the Bosniak Presidency seat",
+      "lastResultIs": "5 af 42 sætum (2026); Bećirović endurkjörinn í sæti Bosníaka í forsætisráðinu",
+      "polling": "",
+      "policies": [
+        "Civic, non-ethnic model of the state",
+        "Backs EU accession reforms and NATO membership",
+        "Led the outgoing Troika alliance with NiP and Naša stranka",
+        "Coalition choices to be decided by party bodies after the vote"
+      ],
+      "policiesIs": [
+        "Borgaralegt ríkislíkan óháð þjóðarbrotum",
+        "Styður umbætur vegna aðildar að ESB og aðild að NATO",
+        "Leiddi fráfarandi Trojka-bandalagið með NiP og Naša stranka",
+        "Flokksstofnanir ákveða stjórnarsamstarf eftir kosningarnar"
+      ],
+      "seats": 5,
+      "color": "#e2001a"
+    },
+    {
+      "name": "Croatian Democratic Union of Bosnia and Herzegovina",
+      "nameIs": "Hrvatska demokratska zajednica Bosne i Hercegovine",
+      "abbr": "HDZ BiH",
+      "leader": "Dragan Čović",
+      "position": "Centre-right to right",
+      "positionIs": "Mið-hægri til hægri",
+      "ideology": "Croat nationalism, Christian democracy",
+      "ideologyIs": "Þjóðernishyggja Króata, kristilegt lýðræði",
+      "inGovernment": true,
+      "lastResult": "4 of 42 seats in coalition (2026); Filipović won the Croat Presidency seat",
+      "lastResultIs": "4 af 42 sætum í kosningabandalagi (2026); Filipović vann sæti Króata í forsætisráðinu",
+      "polling": "",
+      "policies": [
+        "Changes to the Election Law so Croats elect their own representatives",
+        "Supports EU membership",
+        "Will continue its state-level partnership with SNSD",
+        "Leads the outgoing Council of Ministers"
+      ],
+      "policiesIs": [
+        "Breytingar á kosningalögum svo Króatar kjósi sína eigin fulltrúa",
+        "Styður aðild að ESB",
+        "Ætlar að halda samstarfi við SNSD áfram á ríkisstigi",
+        "Leiðir fráfarandi ráðherraráð"
+      ],
+      "seats": 4,
+      "color": "#0b2c6b"
+    },
+    {
+      "name": "Party for Bosnia and Herzegovina",
+      "nameIs": "Stranka za Bosnu i Hercegovinu",
+      "abbr": "SBiH",
+      "leader": "Semir Efendić",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Bosnian unitarism, conservatism",
+      "ideologyIs": "Stuðningur við sameinað ríki, íhaldsstefna",
+      "inGovernment": false,
+      "lastResult": "3 of 42 seats (2026); Efendić third for the Bosniak Presidency seat",
+      "lastResultIs": "3 af 42 sætum (2026); Efendić þriðji í kjöri til sætis Bosníaka í forsætisráðinu",
+      "polling": "",
+      "policies": [
+        "Abolish the entity-based territorial division",
+        "Strengthen state-level institutions",
+        "Rejects working with the outgoing Troika parties",
+        "Named as a possible SDA partner at state level"
+      ],
+      "policiesIs": [
+        "Afnema skiptingu landsins í einingar",
+        "Efla stofnanir á ríkisstigi",
+        "Hafnar samstarfi við fráfarandi Trojka-flokkana",
+        "Nefndur sem mögulegur samstarfsflokkur SDA á ríkisstigi"
+      ],
+      "seats": 3,
+      "color": "#4a90c2"
+    },
+    {
+      "name": "Democratic Front",
+      "nameIs": "Demokratska fronta",
+      "abbr": "DF",
+      "leader": "Željko Komšić",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Civic nationalism, social democracy",
+      "ideologyIs": "Borgaraleg þjóðernishyggja, jafnaðarstefna",
+      "inGovernment": false,
+      "lastResult": "2 of 42 seats with Građanski savez (2026); lost the Croat Presidency seat (Slaven Kovačević second)",
+      "lastResultIs": "2 af 42 sætum með Građanski savez (2026); tapaði sæti Króata í forsætisráðinu (Slaven Kovačević annar)",
+      "polling": "",
+      "policies": [
+        "Civic state where citizens rather than ethnic groups hold rights",
+        "Opposes ethnic election law changes sought by HDZ BiH",
+        "Backs EU and NATO membership",
+        "Rejected as a partner by SNSD"
+      ],
+      "policiesIs": [
+        "Borgaralegt ríki þar sem réttindi tilheyra borgurum frekar en þjóðarbrotum",
+        "Andvíg breytingum á kosningalögum eftir þjóðarbrotum sem HDZ BiH sækist eftir",
+        "Styður aðild að ESB og NATO",
+        "SNSD hefur hafnað samstarfi við flokkinn"
+      ],
+      "seats": 2,
+      "color": "#f39200"
+    }
+  ],
+  "chamber": {
+    "name": "House of Representatives",
+    "nameIs": "fulltrúadeild ríkisþingsins",
+    "seats": 42,
+    "majority": 22,
+    "asOf": "as elected on 4 October 2026, confirmed by the Central Election Commission on 24 October; others: NiP 2, PSS-PDP 2, SDS 2, and one each for Naša stranka, NES, Lista za pravdu i red, DNS-NPS, SP-DEMOS, Ujedinjena Srpska and HDZ 1990 (Hrvatska petorka)",
+    "asOfIs": "eins og kjörið var 4. október 2026, staðfest af miðkjörstjórn 24. október; aðrir: NiP 2, PSS-PDP 2, SDS 2 og eitt sæti hver Naša stranka, NES, Lista za pravdu i red, DNS-NPS, SP-DEMOS, Ujedinjena Srpska og HDZ 1990 (Hrvatska petorka)",
+    "source": "https://www.nezavisne.com/novosti/bih/CIK-utvrdio-rezultate-opstih-izbora-u-BiH-Evo-konacne-podjele-mandata/988994"
+  },
+  "lastElection": {
+    "date": "2026-10-04",
+    "type": "General (Presidency and state parliament)",
+    "typeIs": "Almennar kosningar (forsætisráð og ríkisþing)",
+    "outcome": "Denis Bećirović (SDP BiH) and Željka Cvijanović (SNSD, about 55%) were re-elected to the Presidency and Darijana Filipović (HDZ BiH) won the Croat seat held by the Democratic Front; the SDA won 9 of 42 seats in the House of Representatives, ahead of SNSD with 6 and SDP BiH with 5, on a turnout of about 42%.",
+    "outcomeIs": "Denis Bećirović (SDP BiH) og Željka Cvijanović (SNSD, um 55%) voru endurkjörin í forsætisráðið og Darijana Filipović (HDZ BiH) vann sæti Króata sem Demokratska fronta hafði haldið; SDA fékk 9 af 42 sætum í fulltrúadeildinni, SNSD 6 og SDP BiH 5, og kjörsókn var um 42%.",
+    "winner": "Presidency: Bećirović, Filipović, Cvijanović",
+    "winnerIs": "Forsætisráð: Bećirović, Filipović, Cvijanović",
+    "result": "new"
+  },
+  "sources": [
+    "https://www.nezavisne.com/novosti/bih/CIK-utvrdio-rezultate-opstih-izbora-u-BiH-Evo-konacne-podjele-mandata/988994",
+    "https://europeanwesternbalkans.com/2026/10/05/what-are-the-preliminary-results-of-bihs-general-elections/",
+    "https://www.danas.rs/svet/opsti-izbori-bih-2026/",
+    "https://n1info.ba/vijesti/sda-zeli-vlast-bez-trojke-dodik-odbacuje-df-mogu-li-medjusobni-uslovi-zakociti-formiranje-nove-vecine",
+    "https://www.eurotopics.net/en/365130/bosnia-and-herzegovina-new-presidency-elected"
+  ]
+}

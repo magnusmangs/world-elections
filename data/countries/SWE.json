@@ -1,0 +1,264 @@
+{
+  "iso3": "SWE",
+  "isoNumeric": "752",
+  "name": "Sweden",
+  "nameIs": "Svíþjóð",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "Prime Minister Ulf Kristersson (Moderates), caretaker since resigning on 17 September 2026; Speaker Andreas Norlén leads government formation",
+  "leadersIs": "Ulf Kristersson forsætisráðherra (Moderaterna), starfandi frá því hann baðst lausnar 17. september 2026; Andreas Norlén, forseti þingsins, stýrir stjórnarmyndun",
+  "summary": "In the 13 September election the Social Democrats stayed the largest party with 28.0%, and the opposition parties (S, V, C, MP) won 176 of 349 seats against 173 for the outgoing Tidö parties, after which Prime Minister Ulf Kristersson resigned. The Riksdag voted down Magdalena Andersson as prime minister on 15 October (99 for, 248 against) and a Centre Party exploration of a centrist government reported insufficient support on 26 October, so no new government has yet been formed.",
+  "summaryIs": "Í kosningunum 13. september var Jafnaðarmannaflokkurinn áfram stærstur með 28,0% og stjórnarandstöðuflokkarnir (S, V, C, MP) fengu 176 af 349 þingsætum en fráfarandi Tidö-flokkarnir 173, og í kjölfarið baðst Ulf Kristersson forsætisráðherra lausnar. Þingið felldi Magdalenu Andersson sem forsætisráðherra 15. október (99 með, 248 á móti) og könnun Centerpartiet á miðjustjórn leiddi 26. október í ljós að ekki væri nægur stuðningur, svo ný ríkisstjórn hefur ekki enn verið mynduð.",
+  "parties": [
+    {
+      "name": "Social Democrats",
+      "nameIs": "Jafnaðarmannaflokkurinn",
+      "abbr": "S",
+      "leader": "Magdalena Andersson",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy",
+      "ideologyIs": "Jafnaðarstefna",
+      "inGovernment": false,
+      "lastResult": "28.0%, 99 seats (2026)",
+      "lastResultIs": "28,0%, 99 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Stronger welfare services, with a focus on jobs and household finances",
+        "Tougher action against organised crime",
+        "Restrictive migration policy at EU minimum levels with more effective returns",
+        "Broad cross-party energy agreement covering all fossil-free power, including nuclear"
+      ],
+      "policiesIs": [
+        "Öflugri velferðarþjónusta með áherslu á störf og fjárhag heimila",
+        "Harðari aðgerðir gegn skipulagðri glæpastarfsemi",
+        "Ströng stefna í útlendingamálum í samræmi við lágmarkskröfur ESB og skilvirkari brottvísanir",
+        "Víðtækt þverpólitískt orkusamkomulag um alla jarðefnalausa raforku, þar á meðal kjarnorku"
+      ],
+      "seats": 99,
+      "color": "#e8112d"
+    },
+    {
+      "name": "Moderates",
+      "nameIs": "Moderaterna",
+      "abbr": "M",
+      "leader": "Ulf Kristersson",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Liberal conservatism",
+      "ideologyIs": "Frjálslynd íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "19.9%, 70 seats (2026)",
+      "lastResultIs": "19,9%, 70 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Tax cuts to raise household disposable income",
+        "Tougher action against organised crime",
+        "Shorter healthcare waiting times",
+        "Kristersson leads the caretaker government until a new one is formed"
+      ],
+      "policiesIs": [
+        "Skattalækkanir til að auka ráðstöfunartekjur heimila",
+        "Harðari aðgerðir gegn skipulagðri glæpastarfsemi",
+        "Styttri biðtími í heilbrigðiskerfinu",
+        "Kristersson leiðir starfsstjórn þar til ný stjórn hefur verið mynduð"
+      ],
+      "seats": 70,
+      "color": "#52bdec"
+    },
+    {
+      "name": "Sweden Democrats",
+      "nameIs": "Svíþjóðardemókratar",
+      "abbr": "SD",
+      "leader": "Jimmie Åkesson",
+      "position": "Right to Far-right",
+      "positionIs": "Hægri til lengst til hægri",
+      "ideology": "National conservatism, right-wing populism",
+      "ideologyIs": "Þjóðleg íhaldsstefna, hægripopúlismi",
+      "inGovernment": false,
+      "lastResult": "17.5%, 62 seats (2026)",
+      "lastResultIs": "17,5%, 62 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Reduce asylum migration to the lowest possible level",
+        "Deport foreign nationals convicted of serious crimes",
+        "Stricter requirements for citizenship and harsher criminal penalties",
+        "Keep fuel and energy costs down"
+      ],
+      "policiesIs": [
+        "Draga úr komu hælisleitenda eins og frekast er unnt",
+        "Vísa úr landi erlendum ríkisborgurum sem dæmdir eru fyrir alvarleg brot",
+        "Strangari skilyrði fyrir ríkisborgararétti og þyngri refsingar",
+        "Halda eldsneytis- og orkukostnaði niðri"
+      ],
+      "seats": 62,
+      "color": "#dddd00"
+    },
+    {
+      "name": "Left Party",
+      "nameIs": "Vänsterpartiet",
+      "abbr": "V",
+      "leader": "Nooshi Dadgostar",
+      "position": "Left",
+      "positionIs": "Vinstri",
+      "ideology": "Socialism, feminism",
+      "ideologyIs": "Sósíalismi, femínismi",
+      "inGovernment": false,
+      "lastResult": "8.4%, 30 seats (2026)",
+      "lastResultIs": "8,4%, 30 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Freeze rents and lower food prices",
+        "Shorter working hours",
+        "Curb profits in banking and publicly funded welfare",
+        "Permanent residence permits as the default and wider family reunification"
+      ],
+      "policiesIs": [
+        "Frysta húsaleigu og lækka matvælaverð",
+        "Styttri vinnutími",
+        "Takmarka hagnað í bankastarfsemi og í velferðarþjónustu sem greidd er af hinu opinbera",
+        "Varanleg dvalarleyfi verði meginregla og rýmri fjölskyldusameining"
+      ],
+      "seats": 30,
+      "color": "#af0000"
+    },
+    {
+      "name": "Centre Party",
+      "nameIs": "Centerpartiet",
+      "abbr": "C",
+      "leader": "Elisabeth Thand Ringqvist",
+      "position": "Centre",
+      "positionIs": "Miðja",
+      "ideology": "Liberalism, agrarianism",
+      "ideologyIs": "Frjálslyndisstefna, bændastefna",
+      "inGovernment": false,
+      "lastResult": "7.0%, 25 seats (2026)",
+      "lastResultIs": "7,0%, 25 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Job creation, entrepreneurship and lower emissions",
+        "Access to welfare and public services across the whole country",
+        "More liberal approach to asylum and labour migration",
+        "Rules out a government that gives cabinet posts to the Left Party"
+      ],
+      "policiesIs": [
+        "Fleiri störf, frumkvöðlastarf og minni losun",
+        "Aðgangur að velferð og opinberri þjónustu um allt land",
+        "Frjálslyndari stefna gagnvart hælisleitendum og vinnuaflsinnflutningi",
+        "Útilokar ríkisstjórn sem veitir Vänsterpartiet ráðherraembætti"
+      ],
+      "seats": 25,
+      "color": "#009933"
+    },
+    {
+      "name": "Christian Democrats",
+      "nameIs": "Kristdemokraterna",
+      "abbr": "KD",
+      "leader": "Ebba Busch",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Christian democracy, conservatism",
+      "ideologyIs": "Kristileg lýðræðisstefna, íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "6.2%, 22 seats (2026)",
+      "lastResultIs": "6,2%, 22 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Move responsibility for healthcare from the regions to the state",
+        "Higher child benefits and lower household taxes",
+        "More support for home ownership",
+        "Said it would vote against Andersson as prime minister"
+      ],
+      "policiesIs": [
+        "Færa ábyrgð á heilbrigðisþjónustu frá héruðum til ríkisins",
+        "Hærri barnabætur og lægri skattar á heimili",
+        "Aukinn stuðningur við að fólk eignist eigið húsnæði",
+        "Sagðist myndu greiða atkvæði gegn Andersson sem forsætisráðherra"
+      ],
+      "seats": 22,
+      "color": "#000077"
+    },
+    {
+      "name": "Green Party",
+      "nameIs": "Miljöpartiet",
+      "abbr": "MP",
+      "leader": "Amanda Lind and Daniel Helldén",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Green politics",
+      "ideologyIs": "Græn stjórnmál",
+      "inGovernment": false,
+      "lastResult": "6.1%, 22 seats (2026)",
+      "lastResultIs": "6,1%, 22 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "More investment in renewable energy, railways and green industry",
+        "Stronger welfare and measures to reduce inequality",
+        "Permanent residence permits as the default and wider family reunification",
+        "No public subsidies for new nuclear reactors"
+      ],
+      "policiesIs": [
+        "Meiri fjárfesting í endurnýjanlegri orku, járnbrautum og grænum iðnaði",
+        "Öflugri velferð og aðgerðir gegn ójöfnuði",
+        "Varanleg dvalarleyfi verði meginregla og rýmri fjölskyldusameining",
+        "Engir opinberir styrkir til nýrra kjarnaofna"
+      ],
+      "seats": 22,
+      "color": "#83cf39"
+    },
+    {
+      "name": "Liberals",
+      "nameIs": "Liberalerna",
+      "abbr": "L",
+      "leader": "Simona Mohamsson",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Liberalism",
+      "ideologyIs": "Frjálslyndisstefna",
+      "inGovernment": true,
+      "lastResult": "5.3%, 19 seats (2026)",
+      "lastResultIs": "5,3%, 19 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Smaller primary-school classes",
+        "More textbooks and a stronger focus on reading",
+        "Mobile-phone-free schools and stronger teacher authority",
+        "National responsibility for schools"
+      ],
+      "policiesIs": [
+        "Minni bekkir í grunnskólum",
+        "Fleiri kennslubækur og meiri áhersla á lestur",
+        "Farsímalausir skólar og aukið vald kennara",
+        "Ríkið beri ábyrgð á skólum"
+      ],
+      "seats": 19,
+      "color": "#006ab3"
+    }
+  ],
+  "chamber": {
+    "name": "Riksdag",
+    "nameIs": "Riksdag",
+    "seats": 349,
+    "majority": 175,
+    "asOf": "as elected on 13 September 2026 (final result)",
+    "asOfIs": "samkvæmt úrslitum kosninganna 13. september 2026 (endanleg úrslit)",
+    "source": "https://en.wikipedia.org/wiki/2026_Swedish_general_election"
+  },
+  "lastElection": {
+    "date": "2026-09-13",
+    "type": "General election (Riksdag)",
+    "typeIs": "Þingkosningar (Riksdag)",
+    "outcome": "The Social Democrats won 28.0% and 99 seats, ahead of the Moderates (19.9%, 70) and Sweden Democrats (17.5%, 62); the opposition bloc of S, V, C and MP won 176 of 349 seats against 173 for the outgoing Tidö parties, on a turnout of 84.9%.",
+    "outcomeIs": "Jafnaðarmannaflokkurinn fékk 28,0% og 99 þingsæti, á undan Moderaterna (19,9%, 70) og Svíþjóðardemókrötum (17,5%, 62); stjórnarandstöðufylkingin S, V, C og MP fékk 176 af 349 þingsætum en fráfarandi Tidö-flokkarnir 173, og kjörsókn var 84,9%.",
+    "winner": "Social Democrats (largest party; opposition bloc won a majority, government not yet formed)",
+    "winnerIs": "Jafnaðarmannaflokkurinn (stærsti flokkurinn; stjórnarandstöðufylkingin fékk meirihluta, ríkisstjórn ekki enn mynduð)",
+    "result": "new"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Swedish_general_election",
+    "https://www.aljazeera.com/news/2026/9/17/sweden-prime-minister-to-resign-as-left-wing-bloc-seals-narrow-election-win",
+    "https://www.placera.se/nyheter/magdalena-andersson-nedrostad-i-statsministeromrostning-2026-10-15",
+    "https://www.gp.se/nyheter/sverige/ingen-regering-i-sikte-detta-har-hant-sedan-valet.dcb5129b-a82d-55df-b443-df766337789c",
+    "https://www.atlanticcouncil.org/blogs/new-atlanticist/your-primer-on-swedens-upcoming-parliamentary-elections/"
+  ]
+}

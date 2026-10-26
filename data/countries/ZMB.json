@@ -1,0 +1,122 @@
+{
+  "iso3": "ZMB",
+  "isoNumeric": "894",
+  "name": "Zambia",
+  "nameIs": "Sambía",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "President Hakainde Hichilema (UPND), re-elected on 13 August 2026 and sworn in for a second term on 1 September 2026; Vice-President Mutale Nalumango",
+  "leadersIs": "Hakainde Hichilema forseti (UPND), endurkjörinn 13. ágúst 2026 og settur í embætti til annars kjörtímabils 1. september 2026; Mutale Nalumango varaforseti",
+  "summary": "Hakainde Hichilema was re-elected in the first round on 13 August 2026 with 60.49% of valid votes against 37.87% for Brian Mundubile of the Tonse Alliance, and his UPND won a majority in the enlarged National Assembly. Mundubile rejected the result and was detained on treason charges, which he denies, and no election petition was filed within the legal deadline; the next general election is due in 2031.",
+  "summaryIs": "Hakainde Hichilema var endurkjörinn í fyrri umferð 13. ágúst 2026 með 60,49% gildra atkvæða gegn 37,87% hjá Brian Mundubile úr Tonse Alliance, og flokkur hans UPND fékk meirihluta á stækkuðu þjóðþingi. Mundubile hafnaði úrslitunum og var handtekinn, ákærður fyrir landráð sem hann neitar, og engin kæra vegna kosninganna var lögð fram innan lögboðins frests; næstu almennu kosningar eiga að fara fram árið 2031.",
+  "parties": [
+    {
+      "name": "United Party for National Development",
+      "nameIs": "United Party for National Development",
+      "abbr": "UPND",
+      "leader": "Hakainde Hichilema",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Liberalism, economic liberalism",
+      "ideologyIs": "Frjálslyndisstefna, efnahagsleg frjálshyggja",
+      "inGovernment": true,
+      "lastResult": "President re-elected with 60.49%; 160 National Assembly seats (2026, near-final)",
+      "lastResultIs": "Forsetinn endurkjörinn með 60,49%; 160 þingsæti á þjóðþinginu (2026, nær endanlegar tölur)",
+      "polling": "",
+      "policies": [
+        "Target of 3 million tonnes of annual copper output",
+        "Expand power generation to 10 gigawatts",
+        "Pledges over two million new jobs by 2031",
+        "Targets 10 million tonnes of maize and 1 billion US dollars in beef exports"
+      ],
+      "policiesIs": [
+        "Markmið um 3 milljónir tonna af kopar á ári",
+        "Auka raforkuframleiðslu í 10 gígavött",
+        "Lofar yfir tveimur milljónum nýrra starfa fyrir 2031",
+        "Stefnir á 10 milljónir tonna af maís og nautakjötsútflutning fyrir 1 milljarð Bandaríkjadala"
+      ],
+      "seats": 160,
+      "color": "#d7262e"
+    },
+    {
+      "name": "National Reconciliation Party for Unity and Prosperity (Tonse Alliance)",
+      "nameIs": "National Reconciliation Party for Unity and Prosperity (Tonse Alliance)",
+      "abbr": "NRPUP",
+      "leader": "Brian Mundubile (presidential candidate)",
+      "position": "Big tent",
+      "positionIs": "Breið fylking",
+      "ideology": "Opposition alliance, populism",
+      "ideologyIs": "Kosningabandalag stjórnarandstöðu, popúlismi",
+      "inGovernment": false,
+      "lastResult": "Mundubile 37.87%; 76 National Assembly seats (2026, near-final)",
+      "lastResultIs": "Mundubile 37,87%; 76 þingsæti á þjóðþinginu (2026, nær endanlegar tölur)",
+      "polling": "",
+      "policies": [
+        "Repeal the Cyber Crimes and Cyber Security laws",
+        "Grant mineral rights and equipment to informal copper miners",
+        "Revive agriculture and manufacturing to create youth jobs",
+        "More local suppliers and contractors in the mining value chain"
+      ],
+      "policiesIs": [
+        "Afnema lög um netglæpi og netöryggi",
+        "Veita óformlegum koparnámumönnum námuréttindi og búnað",
+        "Efla landbúnað og iðnað til að skapa störf fyrir ungt fólk",
+        "Fleiri innlendir birgjar og verktakar í virðiskeðju námuvinnslu"
+      ],
+      "seats": 76,
+      "color": "#1f7a3a"
+    },
+    {
+      "name": "Citizens First",
+      "nameIs": "Citizens First",
+      "abbr": "CF",
+      "leader": "Harry Kalaba",
+      "position": "",
+      "positionIs": "",
+      "ideology": "Opposition party (CF Orange Alliance)",
+      "ideologyIs": "Stjórnarandstöðuflokkur (CF Orange Alliance)",
+      "inGovernment": false,
+      "lastResult": "Kalaba 0.39%; 2 National Assembly seats (2026, near-final)",
+      "lastResultIs": "Kalaba 0,39%; 2 þingsæti á þjóðþinginu (2026, nær endanlegar tölur)",
+      "polling": "",
+      "policies": [
+        "Platform details limited in English-language sources",
+        "Formed the CF Orange Alliance with the National Democratic Congress and Revamp for Development Change",
+        "Called the 2026 election flawed and asked for an independent review"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál í enskumælandi heimildum",
+        "Myndaði CF Orange Alliance með National Democratic Congress og Revamp for Development Change",
+        "Sagði kosningarnar 2026 gallaðar og krafðist óháðrar úttektar"
+      ],
+      "seats": 2,
+      "color": "#f28c28"
+    }
+  ],
+  "chamber": {
+    "name": "National Assembly",
+    "nameIs": "þjóðþingið",
+    "seats": 280,
+    "majority": 141,
+    "asOf": "as elected on 13 August 2026 (224 of 226 constituencies declared, 40 proportional seats, up to 14 appointed or ex officio members); others include 20 independents, Resolute Party 5 and Zambia Must Prosper 1",
+    "asOfIs": "eins og kjörið var 13. ágúst 2026 (úrslit í 224 af 226 kjördæmum, 40 hlutfallssæti, allt að 14 skipaðir þingmenn eða sjálfkjörnir); aðrir eru m.a. 20 óháðir þingmenn, Resolute Party 5 og Zambia Must Prosper 1",
+    "source": "https://en.wikipedia.org/wiki/2026_Zambian_general_election"
+  },
+  "lastElection": {
+    "date": "2026-08-13",
+    "type": "General (presidential and National Assembly)",
+    "typeIs": "Almennar kosningar (forseta- og þingkosningar)",
+    "outcome": "Hakainde Hichilema (UPND) was re-elected with 2,965,326 votes (60.49%) against 1,856,222 (37.87%) for Brian Mundubile, as declared by the Electoral Commission of Zambia on 18 August, on a turnout of 57.23%; the UPND won 160 seats in the National Assembly.",
+    "outcomeIs": "Hakainde Hichilema (UPND) var endurkjörinn með 2.965.326 atkvæðum (60,49%) en Brian Mundubile fékk 1.856.222 (37,87%) samkvæmt kjörstjórn Sambíu 18. ágúst og kjörsókn var 57,23%; UPND fékk 160 þingsæti á þjóðþinginu.",
+    "winner": "Hakainde Hichilema (UPND), re-elected",
+    "winnerIs": "Hakainde Hichilema (UPND), endurkjörinn",
+    "result": "incumbent"
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/8/18/hichilema-re-elected-as-zambia-president-amid-opposition-concerns-over-vote",
+    "https://www.lusakatimes.com/2026/08/18/hichilema-declared-winner-of-2026-presidential-election/",
+    "https://www.africanews.com/2026/09/01/zambias-hichilema-sworn-in-for-a-second-term-mundubile-in-jail/",
+    "https://www.openzambia.com/election-watch/2026/6/11/president-hichilema-launches-upnd-2026-manifesto",
+    "https://en.wikipedia.org/wiki/2026_Zambian_general_election"
+  ]
+}

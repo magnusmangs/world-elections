@@ -165,16 +165,6 @@
   }
  },
  "people": {
-  "FRA|Marine Le Pen": {
-   "wikidata": "Q12927",
-   "file": "Marine Le Pen 2025 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/250px-Marine_Le_Pen_2025_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_2025_(cropped).jpg",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "author": "Almenningseign",
-   "trademark": false
-  },
   "USA|Donald Trump": {
    "wikidata": "Q22686",
    "file": "Official Presidential Portrait of President Donald J. Trump (2025) (3x4).jpg",
@@ -255,14 +245,14 @@
    "author": "Oliver Bunic - European Commission",
    "trademark": false
   },
-  "ITA|Antonio Tajani": {
-   "wikidata": "Q440710",
-   "file": "Antonio Tajani 2025.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Antonio_Tajani_2025.jpg/250px-Antonio_Tajani_2025.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Antonio_Tajani_2025.jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "European People's Party",
+  "LVA|Ainārs Šlesers": {
+   "wikidata": "Q406265",
+   "file": "Flickr - Saeima - 10.Saeimas deputāts Ainārs Šlesers.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Flickr_-_Saeima_-_10.Saeimas_deput%C4%81ts_Ain%C4%81rs_%C5%A0lesers.jpg/250px-Flickr_-_Saeima_-_10.Saeimas_deput%C4%81ts_Ain%C4%81rs_%C5%A0lesers.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Saeima_-_10.Saeimas_deput%C4%81ts_Ain%C4%81rs_%C5%A0lesers.jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
    "trademark": false
   },
   "SSD|Riek Machar": {
@@ -273,16 +263,6 @@
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
-   "trademark": false
-  },
-  "ITA|Giorgia Meloni": {
-   "wikidata": "Q451791",
-   "file": "Giorgia Meloni Official 2024 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Giorgia_Meloni_Official_2024_%28cropped%29.jpg/250px-Giorgia_Meloni_Official_2024_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg",
-   "license": "CC BY 3.0 it",
-   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/it/deed.en",
-   "author": "Governo Italiano",
    "trademark": false
   },
   "MNE|Andrija Mandić": {
@@ -335,36 +315,6 @@
    "author": "Jana Jabůrková, Jiří Turek (J3T)",
    "trademark": false
   },
-  "FRA|Bruno Retailleau": {
-   "wikidata": "Q2926942",
-   "file": "Bruno Retailleau - Ministre de l'Intérieur français (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg/250px-Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Anthonymontardyfr",
-   "trademark": false
-  },
-  "FRA|Édouard Philippe": {
-   "wikidata": "Q3579995",
-   "file": "Édouard Philippe 2019 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%C3%89douard_Philippe_2019_%28cropped%29.jpg/250px-%C3%89douard_Philippe_2019_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Philippe_2019_(cropped).jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "Jacques Paquier",
-   "trademark": false
-  },
-  "ITA|Giuseppe Conte": {
-   "wikidata": "Q3770348",
-   "file": "Giuseppe Conte (1945).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Giuseppe_Conte_%281945%29.jpg/250px-Giuseppe_Conte_%281945%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Conte_(1945).jpg",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Seasdas",
-   "trademark": false
-  },
   "NZL|Chris Hipkins": {
    "wikidata": "Q5106890",
    "file": "Chris Hipkins NZ Labour (cropped).jpg",
@@ -395,6 +345,16 @@
    "author": "Almenningseign",
    "trademark": false
   },
+  "LVA|Viktors Valainis": {
+   "wikidata": "Q9368732",
+   "file": "Viktors Valainis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Viktors_Valainis.jpg/250px-Viktors_Valainis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Viktors_Valainis.jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
+   "trademark": false
+  },
   "BRA|Flávio Bolsonaro": {
    "wikidata": "Q10283057",
    "file": "Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg",
@@ -403,6 +363,16 @@
    "license": "Attribution",
    "licenseUrl": "",
    "author": "Agência Senado",
+   "trademark": false
+  },
+  "LVA|Arvils Ašeradens": {
+   "wikidata": "Q12667125",
+   "file": "Flickr - Saeima - 10.Saeimas deputāts Arvils Ašeradens.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Flickr_-_Saeima_-_10.Saeimas_deput%C4%81ts_Arvils_A%C5%A1eradens.jpg/250px-Flickr_-_Saeima_-_10.Saeimas_deput%C4%81ts_Arvils_A%C5%A1eradens.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Saeima_-_10.Saeimas_deput%C4%81ts_Arvils_A%C5%A1eradens.jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
    "trademark": false
   },
   "CZE|Radek Vondráček": {
@@ -435,16 +405,6 @@
    "author": "Dritan Abazović",
    "trademark": false
   },
-  "ITA|Elly Schlein": {
-   "wikidata": "Q16975892",
-   "file": "Elly Schlein 2023 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Elly_Schlein_2023_%28cropped%29.jpg/250px-Elly_Schlein_2023_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Elly_Schlein_2023_(cropped).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "European Commission (Jennifer Jacquemart)",
-   "trademark": false
-  },
   "NZL|David Seymour": {
    "wikidata": "Q17055796",
    "file": "David Seymour at Government House, Wellington.png",
@@ -453,6 +413,16 @@
    "license": "CC0",
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "author": "Almenningseign",
+   "trademark": false
+  },
+  "LVA|Jūlija Stepaņenko": {
+   "wikidata": "Q18669970",
+   "file": "Jūlija Stepaņenko October 2019 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/J%C5%ABlija_Stepa%C5%86enko_October_2019_%28cropped%29.jpg/250px-J%C5%ABlija_Stepa%C5%86enko_October_2019_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:J%C5%ABlija_Stepa%C5%86enko_October_2019_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
    "trademark": false
   },
   "NZL|Marama Davidson": {
@@ -485,16 +455,6 @@
    "author": "Almenningseign",
    "trademark": false
   },
-  "FRA|Gabriel Attal": {
-   "wikidata": "Q30339350",
-   "file": "Gabriel Attal 2025 (close crop).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Gabriel_Attal_2025_%28close_crop%29.jpg/250px-Gabriel_Attal_2025_%28close_crop%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Ismail Aissoub",
-   "trademark": false
-  },
   "CMR|Cabral Libii": {
    "wikidata": "Q31478946",
    "file": "Cabral Libii meeting 2018.jpg",
@@ -525,6 +485,16 @@
    "author": "Luis Tato / European Union, 2023 / EC - Audiovisual Service",
    "trademark": false
   },
+  "LVA|Ilze Indriksone": {
+   "wikidata": "Q58371485",
+   "file": "13.Saeimas deputātu svinīgais solījums (45056644474).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/13.Saeimas_deput%C4%81tu_svin%C4%ABgais_sol%C4%ABjums_%2845056644474%29.jpg/250px-13.Saeimas_deput%C4%81tu_svin%C4%ABgais_sol%C4%ABjums_%2845056644474%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:13.Saeimas_deput%C4%81tu_svin%C4%ABgais_sol%C4%ABjums_(45056644474).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
+   "trademark": false
+  },
   "AGO|Adalberto Costa Júnior": {
    "wikidata": "Q59164305",
    "file": "Adalberto Costa.jpg",
@@ -533,6 +503,16 @@
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
    "author": "Lwenapithekus Samussuku",
+   "trademark": false
+  },
+  "KAZ|Dania Espaeva": {
+   "wikidata": "Q64494872",
+   "file": "Dania Espaeva, June 2019 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Dania_Espaeva%2C_June_2019_%28cropped%29.jpg/250px-Dania_Espaeva%2C_June_2019_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dania_Espaeva,_June_2019_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "oscepa",
    "trademark": false
   },
   "MNE|Ervin Ibrahimović": {
@@ -585,6 +565,26 @@
    "author": "Монгол Улсын Засгийн Газар",
    "trademark": false
   },
+  "LVA|Andris Šuvajevs": {
+   "wikidata": "Q115493492",
+   "file": "Andris Šuvajevs.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Andris_%C5%A0uvajevs.jpg/250px-Andris_%C5%A0uvajevs.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andris_%C5%A0uvajevs.jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
+   "trademark": false
+  },
+  "LVA|Andris Kulbergs": {
+   "wikidata": "Q115604300",
+   "file": "Andris Kulbergs 2023 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Andris_Kulbergs_2023_%28cropped%29.jpg/250px-Andris_Kulbergs_2023_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andris_Kulbergs_2023_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Saeima",
+   "trademark": false
+  },
   "MNE|Danijel Živković": {
    "wikidata": "Q117452101",
    "file": "Danijel Živković.png",
@@ -603,6 +603,56 @@
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
    "author": "The Formary via YouTubeMedia uploaded with Video2commons[1]",
+   "trademark": false
+  },
+  "ISR|Gadi Eisenkot": {
+   "wikidata": "Q796885",
+   "file": "Gadi Eisenkot 2 (cropped - WD).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Gadi_Eisenkot_2_%28cropped_-_WD%29.jpg/250px-Gadi_Eisenkot_2_%28cropped_-_WD%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gadi_Eisenkot_2_(cropped_-_WD).jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "יהב טרודלר (Yahav Trudler - Yahav Studio‬‏)",
+   "trademark": false
+  },
+  "BGD|Tarique Rahman": {
+   "wikidata": "Q7686199",
+   "file": "Tarique Rahman as chief guest at inaugural ceremony of Ekushey Book Fair 2026, Bangla Academy, Dhaka, 2026-02-26 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tarique_Rahman_as_chief_guest_at_inaugural_ceremony_of_Ekushey_Book_Fair_2026%2C_Bangla_Academy%2C_Dhaka%2C_2026-02-26_%28cropped%29.jpg/250px-Tarique_Rahman_as_chief_guest_at_inaugural_ceremony_of_Ekushey_Book_Fair_2026%2C_Bangla_Academy%2C_Dhaka%2C_2026-02-26_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tarique_Rahman_as_chief_guest_at_inaugural_ceremony_of_Ekushey_Book_Fair_2026,_Bangla_Academy,_Dhaka,_2026-02-26_(cropped).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "ISR|Yoaz Hendel": {
+   "wikidata": "Q8054214",
+   "file": "Yoaz Hendel (28285751636) (cropped).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Yoaz_Hendel_%2828285751636%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yoaz_Hendel_(28285751636)_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "U.S. Embassy Tel Aviv",
+   "trademark": false
+  },
+  "FRA|Marine Le Pen": {
+   "wikidata": "Q12927",
+   "file": "Marine Le Pen 2025 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/250px-Marine_Le_Pen_2025_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_2025_(cropped).jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "RUS|Dmitry Medvedev": {
+   "wikidata": "Q23530",
+   "file": "Dmitry Medvedev and Li Keqiang 20191101 (cropped-2).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Dmitry_Medvedev_and_Li_Keqiang_20191101_%28cropped-2%29.jpg/250px-Dmitry_Medvedev_and_Li_Keqiang_20191101_%28cropped-2%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dmitry_Medvedev_and_Li_Keqiang_20191101_(cropped-2).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Russian Government",
    "trademark": false
   },
   "ISR|Naftali Bennett": {
@@ -635,24 +685,74 @@
    "author": "Almenningseign",
    "trademark": false
   },
-  "HTI|Jean-Bertrand Aristide": {
-   "wikidata": "Q209617",
-   "file": "Jean-Bertrand Aristide - 1991 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jean-Bertrand_Aristide_-_1991_%28cropped%29.jpg/250px-Jean-Bertrand_Aristide_-_1991_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Jean-Bertrand_Aristide_-_1991_(cropped).jpg",
+  "RUS|Gennady Zyuganov": {
+   "wikidata": "Q182452",
+   "file": "Встреча Председателя Правительства РФ Михаила Мишустина с членами фракции КПРФ.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0_%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8F_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0_%D0%A0%D0%A4_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0_%D0%9C%D0%B8%D1%88%D1%83%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D1%81_%D1%87%D0%BB%D0%B5%D0%BD%D0%B0%D0%BC%D0%B8_%D1%84%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%B8_%D0%9A%D0%9F%D0%A0%D0%A4.jpg/250px-%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0_%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8F_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0_%D0%A0%D0%A4_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0_%D0%9C%D0%B8%D1%88%D1%83%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D1%81_%D1%87%D0%BB%D0%B5%D0%BD%D0%B0%D0%BC%D0%B8_%D1%84%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%B8_%D0%9A%D0%9F%D0%A0%D0%A4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0_%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8F_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0_%D0%A0%D0%A4_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0_%D0%9C%D0%B8%D1%88%D1%83%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D1%81_%D1%87%D0%BB%D0%B5%D0%BD%D0%B0%D0%BC%D0%B8_%D1%84%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%B8_%D0%9A%D0%9F%D0%A0%D0%A4.jpg",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "European Communities, 1991 / EC - Audiovisual Service",
+   "author": "duma.gov.ru",
    "trademark": false
   },
-  "BGR|Iliana Iotova": {
-   "wikidata": "Q433338",
-   "file": "President Iliana Iotova (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/President_Iliana_Iotova_%28cropped%29.jpg/250px-President_Iliana_Iotova_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:President_Iliana_Iotova_(cropped).jpg",
-   "license": "CC BY 2.5 bg",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.5/bg/deed.en",
-   "author": "Höfundur óþekktur",
+  "BIH|Željko Komšić": {
+   "wikidata": "Q297825",
+   "file": "Željko Komšić (2025-12-17) (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%C5%BDeljko_Kom%C5%A1i%C4%87_%282025-12-17%29_%28cropped%29.jpg/250px-%C5%BDeljko_Kom%C5%A1i%C4%87_%282025-12-17%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%C5%BDeljko_Kom%C5%A1i%C4%87_(2025-12-17)_(cropped).jpg",
+   "license": "Attribution",
+   "licenseUrl": "",
+   "author": "European Union",
+   "trademark": false
+  },
+  "BIH|Bakir Izetbegović": {
+   "wikidata": "Q312355",
+   "file": "Bakir Izetbegović 2025.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bakir_Izetbegovi%C4%87_2025.jpg/250px-Bakir_Izetbegovi%C4%87_2025.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bakir_Izetbegovi%C4%87_2025.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "European People's Party",
+   "trademark": false
+  },
+  "BIH|Milorad Dodik": {
+   "wikidata": "Q335688",
+   "file": "Milorad Dodik 2026 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Milorad_Dodik_2026_%28cropped%29.jpg/250px-Milorad_Dodik_2026_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Milorad_Dodik_2026_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Office of the President of Russia",
+   "trademark": false
+  },
+  "ITA|Antonio Tajani": {
+   "wikidata": "Q440710",
+   "file": "Antonio Tajani 2025.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Antonio_Tajani_2025.jpg/250px-Antonio_Tajani_2025.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Antonio_Tajani_2025.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "European People's Party",
+   "trademark": false
+  },
+  "ITA|Giorgia Meloni": {
+   "wikidata": "Q451791",
+   "file": "Giorgia Meloni Official 2024 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Giorgia_Meloni_Official_2024_%28cropped%29.jpg/250px-Giorgia_Meloni_Official_2024_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg",
+   "license": "CC BY 3.0 it",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/it/deed.en",
+   "author": "Governo Italiano",
+   "trademark": false
+  },
+  "RUS|Leonid Slutsky": {
+   "wikidata": "Q457624",
+   "file": "Spar-csk (10).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Spar-csk_%2810%29.jpg/250px-Spar-csk_%2810%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spar-csk_(10).jpg",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Дмитрий Садовников",
    "trademark": false
   },
   "ISR|Benny Gantz": {
@@ -665,6 +765,16 @@
    "author": "Almenningseign",
    "trademark": false
   },
+  "BIH|Dragan Čović": {
+   "wikidata": "Q559756",
+   "file": "Dragan Čović European Commission (978490).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Dragan_%C4%8Covi%C4%87_European_Commission_%28978490%29.jpg/250px-Dragan_%C4%8Covi%C4%87_European_Commission_%28978490%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dragan_%C4%8Covi%C4%87_European_Commission_(978490).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "European Commission",
+   "trademark": false
+  },
   "ISR|Yair Golan": {
    "wikidata": "Q569975",
    "file": "Yair Golan (SHL 9404).jpg",
@@ -675,26 +785,6 @@
    "author": "Shlomi Amsalem",
    "trademark": false
   },
-  "EST|Urmas Reinsalu": {
-   "wikidata": "Q645970",
-   "file": "EPP Summit, 17 June, Brussels (53797827225).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/EPP_Summit%2C_17_June%2C_Brussels_%2853797827225%29.jpg/250px-EPP_Summit%2C_17_June%2C_Brussels_%2853797827225%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:EPP_Summit,_17_June,_Brussels_(53797827225).jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "European People's Party",
-   "trademark": false
-  },
-  "GMB|Ousainou Darboe": {
-   "wikidata": "Q710820",
-   "file": "Ousainou Darboe - 2018.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Ousainou_Darboe_-_2018.jpg/250px-Ousainou_Darboe_-_2018.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Ousainou_Darboe_-_2018.jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "Foreign and Commonwealth Office",
-   "trademark": false
-  },
   "NGA|Atiku Abubakar": {
    "wikidata": "Q755878",
    "file": "Atiku Abubakar-2010.jpg",
@@ -703,16 +793,6 @@
    "license": "CC BY 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
    "author": "Atiku Abubakar",
-   "trademark": false
-  },
-  "ISR|Gadi Eisenkot": {
-   "wikidata": "Q796885",
-   "file": "Gadi Eisenkot 2 (cropped - WD).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Gadi_Eisenkot_2_%28cropped_-_WD%29.jpg/250px-Gadi_Eisenkot_2_%28cropped_-_WD%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Gadi_Eisenkot_2_(cropped_-_WD).jpg",
-   "license": "CC BY-SA 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-   "author": "יהב טרודלר (Yahav Trudler - Yahav Studio‬‏)",
    "trademark": false
   },
   "ITA|Matteo Salvini": {
@@ -735,36 +815,6 @@
    "author": "MRECIC ARG",
    "trademark": false
   },
-  "EST|Kristen Michal": {
-   "wikidata": "Q1789192",
-   "file": "Kristen Michal in 2024 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Kristen_Michal_in_2024_%28cropped%29.jpg/250px-Kristen_Michal_in_2024_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Kristen_Michal_in_2024_(cropped).jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "FinnishGovernment",
-   "trademark": false
-  },
-  "MEX|Alberto Anaya": {
-   "wikidata": "Q1984540",
-   "file": "Alberto Anaya.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Alberto_Anaya.jpg/250px-Alberto_Anaya.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Alberto_Anaya.jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
-   "trademark": false
-  },
-  "BGR|Kostadin Kostadinov": {
-   "wikidata": "Q2444253",
-   "file": "Kostadin kostadinov.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Kostadin_kostadinov.jpg/250px-Kostadin_kostadinov.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Kostadin_kostadinov.jpg",
-   "license": "CC BY 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-   "author": "Biser Todorov",
-   "trademark": false
-  },
   "ESP|Alberto Núñez Feijóo": {
    "wikidata": "Q2457783",
    "file": "Alberto Núñez Feijóo 2025.jpg",
@@ -773,6 +823,16 @@
    "license": "CC BY 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
    "author": "European People's Party",
+   "trademark": false
+  },
+  "FRA|Bruno Retailleau": {
+   "wikidata": "Q2926942",
+   "file": "Bruno Retailleau - Ministre de l'Intérieur français (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg/250px-Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Anthonymontardyfr",
    "trademark": false
   },
   "NGA|Peter Obi": {
@@ -795,6 +855,16 @@
    "author": "Nosa Asemota",
    "trademark": false
   },
+  "FRA|Édouard Philippe": {
+   "wikidata": "Q3579995",
+   "file": "Édouard Philippe 2019 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%C3%89douard_Philippe_2019_%28cropped%29.jpg/250px-%C3%89douard_Philippe_2019_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Philippe_2019_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Jacques Paquier",
+   "trademark": false
+  },
   "ITA|Angelo Bonelli": {
    "wikidata": "Q3616895",
    "file": "Festival di Open 2024 11.jpg",
@@ -815,14 +885,14 @@
    "author": "Almenningseign",
    "trademark": false
   },
-  "EST|Mihhail Kõlvart": {
-   "wikidata": "Q4250802",
-   "file": "Mihhail Kõlvart Pätsi monumendi avamisel. 2022 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mihhail_K%C3%B5lvart_P%C3%A4tsi_monumendi_avamisel._2022_%28cropped%29.jpg/250px-Mihhail_K%C3%B5lvart_P%C3%A4tsi_monumendi_avamisel._2022_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Mihhail_K%C3%B5lvart_P%C3%A4tsi_monumendi_avamisel._2022_(cropped).jpg",
+  "ITA|Giuseppe Conte": {
+   "wikidata": "Q3770348",
+   "file": "Giuseppe Conte (1945).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Giuseppe_Conte_%281945%29.jpg/250px-Giuseppe_Conte_%281945%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Conte_(1945).jpg",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Jaan Künnap",
+   "author": "Seasdas",
    "trademark": false
   },
   "ESP|Carles Puigdemont": {
@@ -855,14 +925,14 @@
    "author": "Almenningseign",
    "trademark": false
   },
-  "ISR|Yoaz Hendel": {
-   "wikidata": "Q8054214",
-   "file": "Yoaz Hendel (28285751636) (cropped).jpg",
-   "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Yoaz_Hendel_%2828285751636%29_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Yoaz_Hendel_(28285751636)_(cropped).jpg",
+  "BIH|Nermin Nikšić": {
+   "wikidata": "Q6996487",
+   "file": "Nermin Nikšić 2018 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Nermin_Nik%C5%A1i%C4%87_2018_%28cropped%29.jpg/250px-Nermin_Nik%C5%A1i%C4%87_2018_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nermin_Nik%C5%A1i%C4%87_2018_(cropped).jpg",
    "license": "CC BY 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "U.S. Embassy Tel Aviv",
+   "author": "Socijaldemokratska partija Bosne i Hercegovine",
    "trademark": false
   },
   "ESP|Santiago Abascal": {
@@ -870,26 +940,6 @@
    "file": "Santiago Abascal CPAC 2024 (2).jpg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Santiago_Abascal_CPAC_2024_%282%29.jpg/250px-Santiago_Abascal_CPAC_2024_%282%29.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Santiago_Abascal_CPAC_2024_(2).jpg",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "author": "Almenningseign",
-   "trademark": false
-  },
-  "EST|Lauri Läänemets": {
-   "wikidata": "Q12368349",
-   "file": "Lauri Läänemets 2021. aasta Arvamusfestivalil.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Lauri_L%C3%A4%C3%A4nemets_2021._aasta_Arvamusfestivalil.jpg/250px-Lauri_L%C3%A4%C3%A4nemets_2021._aasta_Arvamusfestivalil.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Lauri_L%C3%A4%C3%A4nemets_2021._aasta_Arvamusfestivalil.jpg",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Sillerkiil",
-   "trademark": false
-  },
-  "EST|Martin Helme": {
-   "wikidata": "Q12369924",
-   "file": "Cumbre de Madrid 8 de Febrero - 54314692073 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cumbre_de_Madrid_8_de_Febrero_-_54314692073_%28cropped%29.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314692073_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Cumbre_de_Madrid_8_de_Febrero_-_54314692073_(cropped).jpg",
    "license": "CC0",
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "author": "Almenningseign",
@@ -905,24 +955,24 @@
    "author": "דוד דנברג",
    "trademark": false
   },
-  "HTI|Youri Latortue": {
-   "wikidata": "Q12898435",
-   "file": "Youri Latortue 20171108.jpg",
-   "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Youri_Latortue_20171108.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Youri_Latortue_20171108.jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "w:en:Presidential Office Building, Taiwan",
+  "BGD|Shafiqur Rahman": {
+   "wikidata": "Q16406038",
+   "file": "Shafiqur Rahman of Bangladesh Jamaat-e-Islami in Dhaka, 2025-11-23 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Shafiqur_Rahman_of_Bangladesh_Jamaat-e-Islami_in_Dhaka%2C_2025-11-23_%28cropped%29.jpg/250px-Shafiqur_Rahman_of_Bangladesh_Jamaat-e-Islami_in_Dhaka%2C_2025-11-23_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Shafiqur_Rahman_of_Bangladesh_Jamaat-e-Islami_in_Dhaka,_2025-11-23_(cropped).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
    "trademark": false
   },
-  "MEX|Jorge Máynez": {
-   "wikidata": "Q16582362",
-   "file": "Jorge Álvarez Máynez (cropped 2).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Jorge_%C3%81lvarez_M%C3%A1ynez_%28cropped_2%29.jpg/250px-Jorge_%C3%81lvarez_M%C3%A1ynez_%28cropped_2%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Jorge_%C3%81lvarez_M%C3%A1ynez_(cropped_2).jpg",
+  "ITA|Elly Schlein": {
+   "wikidata": "Q16975892",
+   "file": "Elly Schlein 2023 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Elly_Schlein_2023_%28cropped%29.jpg/250px-Elly_Schlein_2023_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Elly_Schlein_2023_(cropped).jpg",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "EneasMx",
+   "author": "European Commission (Jennifer Jacquemart)",
    "trademark": false
   },
   "SLV|Nayib Bukele": {
@@ -933,16 +983,6 @@
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
-   "trademark": false
-  },
-  "FJI|Biman Prasad": {
-   "wikidata": "Q18124383",
-   "file": "Biman Prasad 2023.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Biman_Prasad_2023.jpg/250px-Biman_Prasad_2023.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Biman_Prasad_2023.jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Department of Foreign Affairs and Trade (DFAT)/Sarah Friend",
    "trademark": false
   },
   "ISR|Bezalel Smotrich": {
@@ -965,6 +1005,396 @@
    "author": "אמיר דיב - Amir Deeb",
    "trademark": false
   },
+  "ESP|Irene Montero": {
+   "wikidata": "Q21706297",
+   "file": "Irene Montero Gil, 2024 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Irene_Montero_Gil%2C_2024_%28cropped%29.jpg/250px-Irene_Montero_Gil%2C_2024_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Irene_Montero_Gil,_2024_(cropped).jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "FRA|Gabriel Attal": {
+   "wikidata": "Q30339350",
+   "file": "Gabriel Attal 2025 (close crop).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Gabriel_Attal_2025_%28close_crop%29.jpg/250px-Gabriel_Attal_2025_%28close_crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Ismail Aissoub",
+   "trademark": false
+  },
+  "ARG|Javier Milei": {
+   "wikidata": "Q52395487",
+   "file": "Mattarella Milei 2024 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mattarella_Milei_2024_%28cropped%29.jpg/250px-Mattarella_Milei_2024_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mattarella_Milei_2024_(cropped).jpg",
+   "license": "Attribution",
+   "licenseUrl": "",
+   "author": "Quirinale",
+   "trademark": false
+  },
+  "ISR|Mansour Abbas": {
+   "wikidata": "Q62394296",
+   "file": "Mansour Abbas, April 3 2023 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Mansour_Abbas%2C_April_3_2023_%28cropped%29.jpg/250px-Mansour_Abbas%2C_April_3_2023_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mansour_Abbas,_April_3_2023_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "U.S. Embassy Jerusalem",
+   "trademark": false
+  },
+  "MEX|Ariadna Montiel Reyes": {
+   "wikidata": "Q63857028",
+   "file": "Ariadna-montiel.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Ariadna-montiel.jpg/250px-Ariadna-montiel.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ariadna-montiel.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "DueWizard70",
+   "trademark": false
+  },
+  "RUS|Alexey Nechayev": {
+   "wikidata": "Q107311193",
+   "file": "Alexey Nechayev (2026-02-25).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Alexey_Nechayev_%282026-02-25%29.jpg/250px-Alexey_Nechayev_%282026-02-25%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alexey_Nechayev_(2026-02-25).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "duma.gov.ru",
+   "trademark": false
+  },
+  "SLV|Manuel Flores": {
+   "wikidata": "Q120556028",
+   "file": "Manuel \"Chino\" Flores (September 2023) (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Manuel_%22Chino%22_Flores_%28September_2023%29_%28cropped%29.jpg/250px-Manuel_%22Chino%22_Flores_%28September_2023%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Manuel_%22Chino%22_Flores_(September_2023)_(cropped).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "BGD|Nahid Islam": {
+   "wikidata": "Q128605495",
+   "file": "Nahid Islam Dhaka January 6 2026 portrait.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Nahid_Islam_Dhaka_January_6_2026_portrait.jpg/250px-Nahid_Islam_Dhaka_January_6_2026_portrait.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nahid_Islam_Dhaka_January_6_2026_portrait.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Rayhan Ahmed Tamim",
+   "trademark": false
+  },
+  "TLS|José Ramos-Horta": {
+   "wikidata": "Q11665",
+   "file": "2022-05-20 José Ramos-Horta.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2022-05-20_Jos%C3%A9_Ramos-Horta.jpg/250px-2022-05-20_Jos%C3%A9_Ramos-Horta.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2022-05-20_Jos%C3%A9_Ramos-Horta.jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "SVK|Robert Fico": {
+   "wikidata": "Q57606",
+   "file": "Robert Fico (54359433078) (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Robert_Fico_%2854359433078%29_%28cropped%29.jpg/250px-Robert_Fico_%2854359433078%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Robert_Fico_(54359433078)_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Gage Skidmore from Surprise, AZ, United States of America",
+   "trademark": false
+  },
+  "HUN|Viktor Orbán": {
+   "wikidata": "Q57641",
+   "file": "President Donald Trump hosts a bilateral lunch meeting with Hungarian Prime Minister Viktor Orban.2 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_(cropped).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "HTI|Jean-Bertrand Aristide": {
+   "wikidata": "Q209617",
+   "file": "Jean-Bertrand Aristide - 1991 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jean-Bertrand_Aristide_-_1991_%28cropped%29.jpg/250px-Jean-Bertrand_Aristide_-_1991_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jean-Bertrand_Aristide_-_1991_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "European Communities, 1991 / EC - Audiovisual Service",
+   "trademark": false
+  },
+  "FIN|Sari Essayah": {
+   "wikidata": "Q241563",
+   "file": "Sari-Essayah-01 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Sari-Essayah-01_%28cropped%29.jpg/250px-Sari-Essayah-01_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sari-Essayah-01_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Lauri Heikkinen, valtioneuvoston kanslia",
+   "trademark": false
+  },
+  "SOM|Hassan Sheikh Mohamud": {
+   "wikidata": "Q319153",
+   "file": "Hassan Sheikh Mohamud--StateDept Portrait-- (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Hassan_Sheikh_Mohamud--StateDept_Portrait--_%28cropped%29.jpg/250px-Hassan_Sheikh_Mohamud--StateDept_Portrait--_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hassan_Sheikh_Mohamud--StateDept_Portrait--_(cropped).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "BGR|Iliana Iotova": {
+   "wikidata": "Q433338",
+   "file": "President Iliana Iotova (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/President_Iliana_Iotova_%28cropped%29.jpg/250px-President_Iliana_Iotova_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:President_Iliana_Iotova_(cropped).jpg",
+   "license": "CC BY 2.5 bg",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5/bg/deed.en",
+   "author": "Höfundur óþekktur",
+   "trademark": false
+  },
+  "MAR|Nizar Baraka": {
+   "wikidata": "Q562410",
+   "file": "Nizar Baraka - World Economic Forum on the Middle East, North Africa and Eurasia 2012.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Nizar_Baraka_-_World_Economic_Forum_on_the_Middle_East%2C_North_Africa_and_Eurasia_2012.jpg/250px-Nizar_Baraka_-_World_Economic_Forum_on_the_Middle_East%2C_North_Africa_and_Eurasia_2012.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nizar_Baraka_-_World_Economic_Forum_on_the_Middle_East,_North_Africa_and_Eurasia_2012.jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "World Economic Forum from Cologny, Switzerland",
+   "trademark": false
+  },
+  "EST|Urmas Reinsalu": {
+   "wikidata": "Q645970",
+   "file": "EPP Summit, 17 June, Brussels (53797827225).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/EPP_Summit%2C_17_June%2C_Brussels_%2853797827225%29.jpg/250px-EPP_Summit%2C_17_June%2C_Brussels_%2853797827225%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:EPP_Summit,_17_June,_Brussels_(53797827225).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "European People's Party",
+   "trademark": false
+  },
+  "GMB|Ousainou Darboe": {
+   "wikidata": "Q710820",
+   "file": "Ousainou Darboe - 2018.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Ousainou_Darboe_-_2018.jpg/250px-Ousainou_Darboe_-_2018.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ousainou_Darboe_-_2018.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Foreign and Commonwealth Office",
+   "trademark": false
+  },
+  "ZMB|Hakainde Hichilema": {
+   "wikidata": "Q717185",
+   "file": "Hakainde Hichilema in Japan on February 6, 2025 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Hakainde_Hichilema_in_Japan_on_February_6%2C_2025_%28cropped%29.jpg/250px-Hakainde_Hichilema_in_Japan_on_February_6%2C_2025_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hakainde_Hichilema_in_Japan_on_February_6,_2025_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Cabinet Public Relations Office of the Cabinet Secretariat",
+   "trademark": false
+  },
+  "HUN|László Toroczkai": {
+   "wikidata": "Q832910",
+   "file": "Toroczkai László frakcióvezető.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Toroczkai_L%C3%A1szl%C3%B3_frakci%C3%B3vezet%C5%91.jpg/250px-Toroczkai_L%C3%A1szl%C3%B3_frakci%C3%B3vezet%C5%91.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Toroczkai_L%C3%A1szl%C3%B3_frakci%C3%B3vezet%C5%91.jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "TLS|Rui Maria de Araújo": {
+   "wikidata": "Q1647887",
+   "file": "Prime Minister of Timor Leste, Rui Maria de Araújo.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Prime_Minister_of_Timor_Leste%2C_Rui_Maria_de_Ara%C3%BAjo.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Timor_Leste,_Rui_Maria_de_Ara%C3%BAjo.jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "EST|Kristen Michal": {
+   "wikidata": "Q1789192",
+   "file": "Kristen Michal in 2024 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Kristen_Michal_in_2024_%28cropped%29.jpg/250px-Kristen_Michal_in_2024_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kristen_Michal_in_2024_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "FinnishGovernment",
+   "trademark": false
+  },
+  "MEX|Alberto Anaya": {
+   "wikidata": "Q1984540",
+   "file": "Alberto Anaya.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Alberto_Anaya.jpg/250px-Alberto_Anaya.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alberto_Anaya.jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "BGR|Kostadin Kostadinov": {
+   "wikidata": "Q2444253",
+   "file": "Kostadin kostadinov.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Kostadin_kostadinov.jpg/250px-Kostadin_kostadinov.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kostadin_kostadinov.jpg",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Biser Todorov",
+   "trademark": false
+  },
+  "MAR|Fatima Ezzahra El Mansouri": {
+   "wikidata": "Q3067221",
+   "file": "Fatima Ezzahra El Mansouri Screenshot.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fatima_Ezzahra_El_Mansouri_Screenshot.png/250px-Fatima_Ezzahra_El_Mansouri_Screenshot.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Fatima_Ezzahra_El_Mansouri_Screenshot.png",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Anfas Press",
+   "trademark": false
+  },
+  "EST|Mihhail Kõlvart": {
+   "wikidata": "Q4250802",
+   "file": "Mihhail Kõlvart Pätsi monumendi avamisel. 2022 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mihhail_K%C3%B5lvart_P%C3%A4tsi_monumendi_avamisel._2022_%28cropped%29.jpg/250px-Mihhail_K%C3%B5lvart_P%C3%A4tsi_monumendi_avamisel._2022_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mihhail_K%C3%B5lvart_P%C3%A4tsi_monumendi_avamisel._2022_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Jaan Künnap",
+   "trademark": false
+  },
+  "FIN|Petteri Orpo": {
+   "wikidata": "Q6029546",
+   "file": "Petteri-Orpo-01 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Petteri-Orpo-01_%28cropped%29.jpg/250px-Petteri-Orpo-01_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Petteri-Orpo-01_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Lauri Heikkinen, valtioneuvoston kanslia",
+   "trademark": false
+  },
+  "GTM|Sandra Torres": {
+   "wikidata": "Q7416788",
+   "file": "Sandra Torres (Embassy) (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Sandra_Torres_%28Embassy%29_%28cropped%29.jpg/250px-Sandra_Torres_%28Embassy%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sandra_Torres_(Embassy)_(cropped).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "FIN|Antti Kaikkonen": {
+   "wikidata": "Q11852109",
+   "file": "Antti Kaikkonen 2019.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Antti_Kaikkonen_2019.jpg/250px-Antti_Kaikkonen_2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Antti_Kaikkonen_2019.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Laura Kotila, valtioneuvoston kanslia",
+   "trademark": false
+  },
+  "FIN|Antti Lindtman": {
+   "wikidata": "Q11852155",
+   "file": "Antti Lindtman, Leader of the Social Democratic Party of Finland - 2023.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Antti_Lindtman%2C_Leader_of_the_Social_Democratic_Party_of_Finland_-_2023.jpg/250px-Antti_Lindtman%2C_Leader_of_the_Social_Democratic_Party_of_Finland_-_2023.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Antti_Lindtman,_Leader_of_the_Social_Democratic_Party_of_Finland_-_2023.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Christophe Licoppe / European Union, 2023 / EC - Audiovisual",
+   "trademark": false
+  },
+  "EST|Lauri Läänemets": {
+   "wikidata": "Q12368349",
+   "file": "Lauri Läänemets 2021. aasta Arvamusfestivalil.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Lauri_L%C3%A4%C3%A4nemets_2021._aasta_Arvamusfestivalil.jpg/250px-Lauri_L%C3%A4%C3%A4nemets_2021._aasta_Arvamusfestivalil.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lauri_L%C3%A4%C3%A4nemets_2021._aasta_Arvamusfestivalil.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Sillerkiil",
+   "trademark": false
+  },
+  "EST|Martin Helme": {
+   "wikidata": "Q12369924",
+   "file": "Cumbre de Madrid 8 de Febrero - 54314692073 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cumbre_de_Madrid_8_de_Febrero_-_54314692073_%28cropped%29.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314692073_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cumbre_de_Madrid_8_de_Febrero_-_54314692073_(cropped).jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "HTI|Youri Latortue": {
+   "wikidata": "Q12898435",
+   "file": "Youri Latortue 20171108.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Youri_Latortue_20171108.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Youri_Latortue_20171108.jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "w:en:Presidential Office Building, Taiwan",
+   "trademark": false
+  },
+  "SVK|Andrej Danko": {
+   "wikidata": "Q13397958",
+   "file": "Andrej Danko, 2018.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Andrej_Danko%2C_2018.jpg/250px-Andrej_Danko%2C_2018.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andrej_Danko,_2018.jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Igec133",
+   "trademark": false
+  },
+  "MEX|Jorge Máynez": {
+   "wikidata": "Q16582362",
+   "file": "Jorge Álvarez Máynez (cropped 2).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Jorge_%C3%81lvarez_M%C3%A1ynez_%28cropped_2%29.jpg/250px-Jorge_%C3%81lvarez_M%C3%A1ynez_%28cropped_2%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jorge_%C3%81lvarez_M%C3%A1ynez_(cropped_2).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "EneasMx",
+   "trademark": false
+  },
+  "FJI|Biman Prasad": {
+   "wikidata": "Q18124383",
+   "file": "Biman Prasad 2023.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Biman_Prasad_2023.jpg/250px-Biman_Prasad_2023.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Biman_Prasad_2023.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Department of Foreign Affairs and Trade (DFAT)/Sarah Friend",
+   "trademark": false
+  },
+  "ZMB|Harry Kalaba": {
+   "wikidata": "Q19560917",
+   "file": "Välisminister Sven Mikser ja Sambia välisminister Harry Kalaba (31719036133).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/V%C3%A4lisminister_Sven_Mikser_ja_Sambia_v%C3%A4lisminister_Harry_Kalaba_%2831719036133%29.jpg/250px-V%C3%A4lisminister_Sven_Mikser_ja_Sambia_v%C3%A4lisminister_Harry_Kalaba_%2831719036133%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:V%C3%A4lisminister_Sven_Mikser_ja_Sambia_v%C3%A4lisminister_Harry_Kalaba_(31719036133).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Estonian Foreign Ministry",
+   "trademark": false
+  },
+  "GTM|Neto Bran": {
+   "wikidata": "Q20103168",
+   "file": "Neto bran.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Neto_bran.jpg/250px-Neto_bran.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Neto_bran.jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "FIN|Anders Adlercreutz": {
+   "wikidata": "Q20251257",
+   "file": "Anders-Adlercreutz-01 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Anders-Adlercreutz-01_%28cropped%29.jpg/250px-Anders-Adlercreutz-01_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anders-Adlercreutz-01_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Lauri Heikkinen, valtioneuvoston kanslia (click on \"Avoin ai",
+   "trademark": false
+  },
   "EST|Kristina Kallas": {
    "wikidata": "Q20933505",
    "file": "Kristina Kallas KF.jpg",
@@ -983,16 +1413,6 @@
    "license": "CC BY 3.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
    "author": "Haitianhollywood (https://www.youtube.com/channel/UCs8J-DF5N",
-   "trademark": false
-  },
-  "ESP|Irene Montero": {
-   "wikidata": "Q21706297",
-   "file": "Irene Montero Gil, 2024 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Irene_Montero_Gil%2C_2024_%28cropped%29.jpg/250px-Irene_Montero_Gil%2C_2024_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Irene_Montero_Gil,_2024_(cropped).jpg",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "author": "Almenningseign",
    "trademark": false
   },
   "MEX|Jorge Romero Herrera": {
@@ -1035,14 +1455,44 @@
    "author": "Марсель Бадышкин",
    "trademark": false
   },
-  "ARG|Javier Milei": {
-   "wikidata": "Q52395487",
-   "file": "Mattarella Milei 2024 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mattarella_Milei_2024_%28cropped%29.jpg/250px-Mattarella_Milei_2024_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Mattarella_Milei_2024_(cropped).jpg",
-   "license": "Attribution",
+  "FIN|Riikka Purra": {
+   "wikidata": "Q29892910",
+   "file": "Riikka-Purra-01 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Riikka-Purra-01_%28cropped%29.jpg/250px-Riikka-Purra-01_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Riikka-Purra-01_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Lauri Heikkinen, valtioneuvoston kanslia",
+   "trademark": false
+  },
+  "FIN|Sofia Virta": {
+   "wikidata": "Q29893152",
+   "file": "Kansanedustaja Sofia Virta 2023 (cropped 3).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kansanedustaja_Sofia_Virta_2023_%28cropped_3%29.jpg/250px-Kansanedustaja_Sofia_Virta_2023_%28cropped_3%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kansanedustaja_Sofia_Virta_2023_(cropped_3).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "WikiAuthorities",
+   "trademark": false
+  },
+  "TLS|Armanda Berta dos Santos": {
+   "wikidata": "Q33638236",
+   "file": "Armanda Berta dos Santos 2018.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Armanda_Berta_dos_Santos_2018.jpg/250px-Armanda_Berta_dos_Santos_2018.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Armanda_Berta_dos_Santos_2018.jpg",
+   "license": "Public domain",
    "licenseUrl": "",
-   "author": "Quirinale",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "HUN|Péter Magyar": {
+   "wikidata": "Q53861915",
+   "file": "Magyar Péter (dobos).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Magyar_P%C3%A9ter_%28dobos%29.jpg/250px-Magyar_P%C3%A9ter_%28dobos%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Magyar_P%C3%A9ter_(dobos).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Miklós Déri",
    "trademark": false
   },
   "GMB|Talib Ahmed Bensouda": {
@@ -1055,24 +1505,34 @@
    "author": "\"saidylee!\"",
    "trademark": false
   },
-  "ISR|Mansour Abbas": {
-   "wikidata": "Q62394296",
-   "file": "Mansour Abbas, April 3 2023 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Mansour_Abbas%2C_April_3_2023_%28cropped%29.jpg/250px-Mansour_Abbas%2C_April_3_2023_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Mansour_Abbas,_April_3_2023_(cropped).jpg",
+  "FIN|Minja Koskela": {
+   "wikidata": "Q63348610",
+   "file": "Minja Koskela Kestävän kehityksen tila ja tulevaisuus 2022 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Minja_Koskela_Kest%C3%A4v%C3%A4n_kehityksen_tila_ja_tulevaisuus_2022_%28cropped%29.jpg/250px-Minja_Koskela_Kest%C3%A4v%C3%A4n_kehityksen_tila_ja_tulevaisuus_2022_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Minja_Koskela_Kest%C3%A4v%C3%A4n_kehityksen_tila_ja_tulevaisuus_2022_(cropped).jpg",
    "license": "CC BY 2.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "U.S. Embassy Jerusalem",
+   "author": "FinnishGovernment (Valtioneuvoston kanslia)",
    "trademark": false
   },
-  "MEX|Ariadna Montiel Reyes": {
-   "wikidata": "Q63857028",
-   "file": "Ariadna-montiel.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Ariadna-montiel.jpg/250px-Ariadna-montiel.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Ariadna-montiel.jpg",
+  "SVK|Michal Šimečka": {
+   "wikidata": "Q64159898",
+   "file": "Michal Šimečka pri predstavovaní volebného programu (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Michal_%C5%A0ime%C4%8Dka_pri_predstavovan%C3%AD_volebn%C3%A9ho_programu_%28cropped%29.jpg/250px-Michal_%C5%A0ime%C4%8Dka_pri_predstavovan%C3%AD_volebn%C3%A9ho_programu_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Michal_%C5%A0ime%C4%8Dka_pri_predstavovan%C3%AD_volebn%C3%A9ho_programu_(cropped).jpg",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "DueWizard70",
+   "author": "Progresívne Slovensko",
+   "trademark": false
+  },
+  "GTM|Roberto Arzú": {
+   "wikidata": "Q87454083",
+   "file": "Roberto Arzú 2019 (cropped).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Roberto_Arz%C3%BA_2019_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Roberto_Arz%C3%BA_2019_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Sandra Sebastián",
    "trademark": false
   },
   "BGR|Andrey Gyurov": {
@@ -1085,11 +1545,11 @@
    "author": "Höfundur óþekktur",
    "trademark": false
   },
-  "SLV|Manuel Flores": {
-   "wikidata": "Q120556028",
-   "file": "Manuel \"Chino\" Flores (September 2023) (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Manuel_%22Chino%22_Flores_%28September_2023%29_%28cropped%29.jpg/250px-Manuel_%22Chino%22_Flores_%28September_2023%29_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Manuel_%22Chino%22_Flores_(September_2023)_(cropped).jpg",
+  "SVK|Matúš Šutaj Eštok": {
+   "wikidata": "Q123183039",
+   "file": "Matúš ŠUTAJ EŠTOK JHA 5dec2023.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Mat%C3%BA%C5%A1_%C5%A0UTAJ_E%C5%A0TOK_JHA_5dec2023.jpg/250px-Mat%C3%BA%C5%A1_%C5%A0UTAJ_E%C5%A0TOK_JHA_5dec2023.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mat%C3%BA%C5%A1_%C5%A0UTAJ_E%C5%A0TOK_JHA_5dec2023.jpg",
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
@@ -1103,16 +1563,6 @@
    "license": "CC BY 3.0 pl",
    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
    "author": "The Chancellery of the Prime Minister of the Republic of Pol",
-   "trademark": false
-  },
-  "TLS|José Ramos-Horta": {
-   "wikidata": "Q11665",
-   "file": "2022-05-20 José Ramos-Horta.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2022-05-20_Jos%C3%A9_Ramos-Horta.jpg/250px-2022-05-20_Jos%C3%A9_Ramos-Horta.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:2022-05-20_Jos%C3%A9_Ramos-Horta.jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
    "trademark": false
   },
   "PSE|Khaled Mashal": {
@@ -1133,16 +1583,6 @@
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
-   "trademark": false
-  },
-  "SVK|Robert Fico": {
-   "wikidata": "Q57606",
-   "file": "Robert Fico (54359433078) (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Robert_Fico_%2854359433078%29_%28cropped%29.jpg/250px-Robert_Fico_%2854359433078%29_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Robert_Fico_(54359433078)_(cropped).jpg",
-   "license": "CC BY-SA 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-   "author": "Gage Skidmore from Surprise, AZ, United States of America",
    "trademark": false
   },
   "PSE|Salam Fayyad": {
@@ -1175,14 +1615,14 @@
    "author": "kremlin.ru",
    "trademark": false
   },
-  "FIN|Sari Essayah": {
-   "wikidata": "Q241563",
-   "file": "Sari-Essayah-01 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Sari-Essayah-01_%28cropped%29.jpg/250px-Sari-Essayah-01_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Sari-Essayah-01_(cropped).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Lauri Heikkinen, valtioneuvoston kanslia",
+  "MAR|Abdelilah Benkirane": {
+   "wikidata": "Q307921",
+   "file": "Abdelilah Benkirane 2014-08-05.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Abdelilah_Benkirane_2014-08-05.jpg/250px-Abdelilah_Benkirane_2014-08-05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Abdelilah_Benkirane_2014-08-05.jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
    "trademark": false
   },
   "GRC|Alexis Tsipras": {
@@ -1195,14 +1635,24 @@
    "author": "EU2017EE Estonian Presidency",
    "trademark": false
   },
-  "SOM|Hassan Sheikh Mohamud": {
-   "wikidata": "Q319153",
-   "file": "Hassan Sheikh Mohamud--StateDept Portrait-- (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Hassan_Sheikh_Mohamud--StateDept_Portrait--_%28cropped%29.jpg/250px-Hassan_Sheikh_Mohamud--StateDept_Portrait--_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Hassan_Sheikh_Mohamud--StateDept_Portrait--_(cropped).jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
+  "SWE|Jimmie Åkesson": {
+   "wikidata": "Q518776",
+   "file": "Almedalen 7 July 2016 68 (27907007150) (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Almedalen_7_July_2016_68_%2827907007150%29_%28cropped%29.jpg/250px-Almedalen_7_July_2016_68_%2827907007150%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Almedalen_7_July_2016_68_(27907007150)_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Poltikerveckan Almedalen",
+   "trademark": false
+  },
+  "GRC|Kyriakos Mitsotakis": {
+   "wikidata": "Q552751",
+   "file": "Kyriakos Mitsotakis 2026.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kyriakos_Mitsotakis_2026.jpg/250px-Kyriakos_Mitsotakis_2026.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kyriakos_Mitsotakis_2026.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Yorgos Karahalis",
    "trademark": false
   },
   "PSE|Mustafa Barghouti": {
@@ -1215,14 +1665,34 @@
    "author": "OSCE Parliamentary Assembly",
    "trademark": false
   },
-  "TLS|Rui Maria de Araújo": {
-   "wikidata": "Q1647887",
-   "file": "Prime Minister of Timor Leste, Rui Maria de Araújo.jpg",
-   "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Prime_Minister_of_Timor_Leste%2C_Rui_Maria_de_Ara%C3%BAjo.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Timor_Leste,_Rui_Maria_de_Ara%C3%BAjo.jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
+  "SWE|Ulf Kristersson": {
+   "wikidata": "Q1780398",
+   "file": "Ulf Kristersson on 29 June 2023.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Ulf_Kristersson_on_29_June_2023.jpg/250px-Ulf_Kristersson_on_29_June_2023.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ulf_Kristersson_on_29_June_2023.jpg",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "European Commission (Christophe Licoppe)",
+   "trademark": false
+  },
+  "MAR|Driss Lachgar": {
+   "wikidata": "Q3039498",
+   "file": "Driss Lachgar 2021 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Driss_Lachgar_2021_%28cropped%29.jpg/250px-Driss_Lachgar_2021_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Driss_Lachgar_2021_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Yasssau",
+   "trademark": false
+  },
+  "MAR|Nabil Benabdallah": {
+   "wikidata": "Q3318734",
+   "file": "Nabil Benabdallah 2012 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Nabil_Benabdallah_2012_%28cropped%29.jpg/250px-Nabil_Benabdallah_2012_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nabil_Benabdallah_2012_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Magharebia",
    "trademark": false
   },
   "TWN|Lai Ching-te": {
@@ -1235,6 +1705,36 @@
    "author": "總統府",
    "trademark": false
   },
+  "SWE|Magdalena Andersson": {
+   "wikidata": "Q4935873",
+   "file": "Swedish Prime Minister Andersson (2021).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Swedish_Prime_Minister_Andersson_%282021%29.jpg/250px-Swedish_Prime_Minister_Andersson_%282021%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Swedish_Prime_Minister_Andersson_(2021).jpg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "SWE|Ebba Busch": {
+   "wikidata": "Q4941329",
+   "file": "Ebba Busch - Into the Woods - November 24, 2022 (52520720684) (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ebba_Busch_-_Into_the_Woods_-_November_24%2C_2022_%2852520720684%29_%28cropped%29.jpg/250px-Ebba_Busch_-_Into_the_Woods_-_November_24%2C_2022_%2852520720684%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ebba_Busch_-_Into_the_Woods_-_November_24,_2022_(52520720684)_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Stina Virkamäki, valtioneuvoston kanslia - FinnishGovernment",
+   "trademark": false
+  },
+  "SWE|Elisabeth Thand Ringqvist": {
+   "wikidata": "Q4974920",
+   "file": "ElisabethTR2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/ElisabethTR2.jpg/250px-ElisabethTR2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ElisabethTR2.jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Almenningseign",
+   "trademark": false
+  },
   "TWN|Cheng Li-wun": {
    "wikidata": "Q5091239",
    "file": "2025.11.08 50年代白色恐怖政治受難者追思慰靈大會 10 (cropped).jpg",
@@ -1243,16 +1743,6 @@
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
    "author": "KOKUYO",
-   "trademark": false
-  },
-  "FIN|Petteri Orpo": {
-   "wikidata": "Q6029546",
-   "file": "Petteri-Orpo-01 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Petteri-Orpo-01_%28cropped%29.jpg/250px-Petteri-Orpo-01_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Petteri-Orpo-01_(cropped).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Lauri Heikkinen, valtioneuvoston kanslia",
    "trademark": false
   },
   "PNG|James Marape": {
@@ -1273,16 +1763,6 @@
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
    "author": "Maathorneferure",
-   "trademark": false
-  },
-  "GTM|Sandra Torres": {
-   "wikidata": "Q7416788",
-   "file": "Sandra Torres (Embassy) (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Sandra_Torres_%28Embassy%29_%28cropped%29.jpg/250px-Sandra_Torres_%28Embassy%29_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Sandra_Torres_(Embassy)_(cropped).jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
    "trademark": false
   },
   "POL|Włodzimierz Czarzasty": {
@@ -1315,26 +1795,6 @@
    "author": "Almenningseign",
    "trademark": false
   },
-  "FIN|Antti Kaikkonen": {
-   "wikidata": "Q11852109",
-   "file": "Antti Kaikkonen 2019.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Antti_Kaikkonen_2019.jpg/250px-Antti_Kaikkonen_2019.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Antti_Kaikkonen_2019.jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Laura Kotila, valtioneuvoston kanslia",
-   "trademark": false
-  },
-  "FIN|Antti Lindtman": {
-   "wikidata": "Q11852155",
-   "file": "Antti Lindtman, Leader of the Social Democratic Party of Finland - 2023.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Antti_Lindtman%2C_Leader_of_the_Social_Democratic_Party_of_Finland_-_2023.jpg/250px-Antti_Lindtman%2C_Leader_of_the_Social_Democratic_Party_of_Finland_-_2023.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Antti_Lindtman,_Leader_of_the_Social_Democratic_Party_of_Finland_-_2023.jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Christophe Licoppe / European Union, 2023 / EC - Audiovisual",
-   "trademark": false
-  },
   "GRC|Zoe Konstantopoulou": {
    "wikidata": "Q12877513",
    "file": "Zoi Konstantopoulou a Sept 2015 (cropped).jpg",
@@ -1343,16 +1803,6 @@
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
    "author": "DTRocks",
-   "trademark": false
-  },
-  "SVK|Andrej Danko": {
-   "wikidata": "Q13397958",
-   "file": "Andrej Danko, 2018.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Andrej_Danko%2C_2018.jpg/250px-Andrej_Danko%2C_2018.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Andrej_Danko,_2018.jpg",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Igec133",
    "trademark": false
   },
   "TWN|Huang Kuo-chang": {
@@ -1375,24 +1825,14 @@
    "author": "Basilispanagou",
    "trademark": false
   },
-  "GTM|Neto Bran": {
-   "wikidata": "Q20103168",
-   "file": "Neto bran.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Neto_bran.jpg/250px-Neto_bran.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Neto_bran.jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
+  "SWE|Nooshi Dadgostar": {
+   "wikidata": "Q18238235",
+   "file": "Nooshi Dadgostar - 42794852001 (cropped).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Nooshi_Dadgostar_-_42794852001_%28cropped%29.jpg/250px-Nooshi_Dadgostar_-_42794852001_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nooshi_Dadgostar_-_42794852001_(cropped).jpg",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "author": "Almenningseign",
-   "trademark": false
-  },
-  "FIN|Anders Adlercreutz": {
-   "wikidata": "Q20251257",
-   "file": "Anders-Adlercreutz-01 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Anders-Adlercreutz-01_%28cropped%29.jpg/250px-Anders-Adlercreutz-01_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Anders-Adlercreutz-01_(cropped).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Lauri Heikkinen, valtioneuvoston kanslia (click on \"Avoin ai",
    "trademark": false
   },
   "CHE|Lisa Mazzone": {
@@ -1425,54 +1865,14 @@
    "author": "Assemblea Federale Svizzera",
    "trademark": false
   },
-  "FIN|Riikka Purra": {
-   "wikidata": "Q29892910",
-   "file": "Riikka-Purra-01 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Riikka-Purra-01_%28cropped%29.jpg/250px-Riikka-Purra-01_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Riikka-Purra-01_(cropped).jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Lauri Heikkinen, valtioneuvoston kanslia",
-   "trademark": false
-  },
-  "FIN|Sofia Virta": {
-   "wikidata": "Q29893152",
-   "file": "Kansanedustaja Sofia Virta 2023 (cropped 3).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kansanedustaja_Sofia_Virta_2023_%28cropped_3%29.jpg/250px-Kansanedustaja_Sofia_Virta_2023_%28cropped_3%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Kansanedustaja_Sofia_Virta_2023_(cropped_3).jpg",
+  "SWE|Amanda Lind": {
+   "wikidata": "Q24018140",
+   "file": "Amanda Lind Almedalsveckan 2023 1 (cropped 2).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Amanda_Lind_Almedalsveckan_2023_1_%28cropped_2%29.jpg/250px-Amanda_Lind_Almedalsveckan_2023_1_%28cropped_2%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amanda_Lind_Almedalsveckan_2023_1_(cropped_2).jpg",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "WikiAuthorities",
-   "trademark": false
-  },
-  "TLS|Armanda Berta dos Santos": {
-   "wikidata": "Q33638236",
-   "file": "Armanda Berta dos Santos 2018.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Armanda_Berta_dos_Santos_2018.jpg/250px-Armanda_Berta_dos_Santos_2018.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Armanda_Berta_dos_Santos_2018.jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
-   "trademark": false
-  },
-  "FIN|Minja Koskela": {
-   "wikidata": "Q63348610",
-   "file": "Minja Koskela Kestävän kehityksen tila ja tulevaisuus 2022 (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Minja_Koskela_Kest%C3%A4v%C3%A4n_kehityksen_tila_ja_tulevaisuus_2022_%28cropped%29.jpg/250px-Minja_Koskela_Kest%C3%A4v%C3%A4n_kehityksen_tila_ja_tulevaisuus_2022_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Minja_Koskela_Kest%C3%A4v%C3%A4n_kehityksen_tila_ja_tulevaisuus_2022_(cropped).jpg",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "author": "FinnishGovernment (Valtioneuvoston kanslia)",
-   "trademark": false
-  },
-  "SVK|Michal Šimečka": {
-   "wikidata": "Q64159898",
-   "file": "Michal Šimečka pri predstavovaní volebného programu (cropped).jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Michal_%C5%A0ime%C4%8Dka_pri_predstavovan%C3%AD_volebn%C3%A9ho_programu_%28cropped%29.jpg/250px-Michal_%C5%A0ime%C4%8Dka_pri_predstavovan%C3%AD_volebn%C3%A9ho_programu_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Michal_%C5%A0ime%C4%8Dka_pri_predstavovan%C3%AD_volebn%C3%A9ho_programu_(cropped).jpg",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Progresívne Slovensko",
+   "author": "Josefine Hellroth Larsson (WMSE)",
    "trademark": false
   },
   "POL|Sławomir Mentzen": {
@@ -1485,24 +1885,14 @@
    "author": "Adrian Grycuk",
    "trademark": false
   },
-  "GTM|Roberto Arzú": {
-   "wikidata": "Q87454083",
-   "file": "Roberto Arzú 2019 (cropped).jpg",
-   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Roberto_Arz%C3%BA_2019_%28cropped%29.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Roberto_Arz%C3%BA_2019_(cropped).jpg",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Sandra Sebastián",
-   "trademark": false
-  },
-  "SVK|Matúš Šutaj Eštok": {
-   "wikidata": "Q123183039",
-   "file": "Matúš ŠUTAJ EŠTOK JHA 5dec2023.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Mat%C3%BA%C5%A1_%C5%A0UTAJ_E%C5%A0TOK_JHA_5dec2023.jpg/250px-Mat%C3%BA%C5%A1_%C5%A0UTAJ_E%C5%A0TOK_JHA_5dec2023.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Mat%C3%BA%C5%A1_%C5%A0UTAJ_E%C5%A0TOK_JHA_5dec2023.jpg",
-   "license": "Public domain",
-   "licenseUrl": "",
-   "author": "Almenningseign",
+  "SWE|Simona Mohamsson": {
+   "wikidata": "Q123516132",
+   "file": "Simona Mohamsson 2025.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Simona_Mohamsson_2025.png/250px-Simona_Mohamsson_2025.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Simona_Mohamsson_2025.png",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Lowe Lilliehorn",
    "trademark": false
   },
   "PNG|Allan Bird": {
@@ -1524,16 +1914,6 @@
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "author": "Almenningseign",
    "trademark": false
-  },
-  "GRC|Kyriakos Mitsotakis": {
-   "wikidata": "Q552751",
-   "file": "Kyriakos Mitsotakis 2026.jpg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kyriakos_Mitsotakis_2026.jpg/250px-Kyriakos_Mitsotakis_2026.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Kyriakos_Mitsotakis_2026.jpg",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "author": "Yorgos Karahalis",
-   "trademark": false
   }
  },
  "flags": {
@@ -1550,6 +1930,15 @@
    "file": "Flag of Japan.svg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png",
    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "HUN": {
+   "file": "Flag of Hungary.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/250px-Flag_of_Hungary.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
@@ -1577,6 +1966,15 @@
    "file": "Flag of Finland.svg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/250px-Flag_of_Finland.svg.png",
    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "SWE": {
+   "file": "Flag of Sweden.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/250px-Flag_of_Sweden.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
@@ -1717,6 +2115,15 @@
    "author": "Almenningseign",
    "trademark": false
   },
+  "LVA": {
+   "file": "Flag of Latvia.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/250px-Flag_of_Latvia.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
   "UKR": {
    "file": "Flag of Ukraine.svg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png",
@@ -1753,10 +2160,28 @@
    "author": "Almenningseign",
    "trademark": false
   },
+  "BIH": {
+   "file": "Flag of Bosnia and Herzegovina.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/250px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
   "AND": {
    "file": "Flag of Andorra.svg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/250px-Flag_of_Andorra.svg.png",
    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Andorra.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "KAZ": {
+   "file": "Flag of Kazakhstan.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/250px-Flag_of_Kazakhstan.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg",
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
@@ -1969,10 +2394,28 @@
    "author": "Almenningseign",
    "trademark": false
   },
+  "BGD": {
+   "file": "Flag of Bangladesh.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/250px-Flag_of_Bangladesh.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
   "AGO": {
    "file": "Flag of Angola.svg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/250px-Flag_of_Angola.svg.png",
    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Angola.svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "ZMB": {
+   "file": "Flag of Zambia.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/250px-Flag_of_Zambia.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg",
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",
@@ -2027,6 +2470,15 @@
    "file": "Flag of Cape Verde (10-17).svg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Cape_Verde_%2810-17%29.svg/250px-Flag_of_Cape_Verde_%2810-17%29.svg.png",
    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Cape_Verde_(10-17).svg",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "author": "Almenningseign",
+   "trademark": false
+  },
+  "MAR": {
+   "file": "Flag of Morocco.svg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/250px-Flag_of_Morocco.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg",
    "license": "Public domain",
    "licenseUrl": "",
    "author": "Almenningseign",

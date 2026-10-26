@@ -3,7 +3,7 @@
   "isoNumeric": "233",
   "name": "Estonia",
   "nameIs": "Eistland",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-10-26",
   "elections": [
     {
       "date": "2027-03-07",
@@ -14,8 +14,8 @@
       "noteIs": "101 þingsæti, hlutfallskosning."
     }
   ],
-  "leaders": "Prime Minister Kristen Michal (Reform); President Alar Karis",
-  "leadersIs": "Kristen Michal forsætisráðherra (Umbótaflokkurinn); Alar Karis forseti",
+  "leaders": "Prime Minister Kristen Michal (Reform); President Ülle Madise (since 12 October 2026)",
+  "leadersIs": "Kristen Michal forsætisráðherra (Umbótaflokkurinn); Ülle Madise forseti (frá 12. október 2026)",
   "summary": "Reform governs with Estonia 200 after expelling the Social Democrats in March 2025. Tax rises to fund defence have hurt the coalition, while Isamaa has surged in polls.",
   "summaryIs": "Umbótaflokkurinn situr í stjórn með Eistlandi 200 eftir að hafa vikið Jafnaðarmannaflokknum úr stjórninni í mars 2025. Skattahækkanir til að fjármagna varnarmál hafa komið niður á stjórninni en fylgi Isamaa hefur rokið upp í könnunum.",
   "parties": [
@@ -176,7 +176,8 @@
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/Next_Estonian_parliamentary_election"
+    "https://en.wikipedia.org/wiki/Next_Estonian_parliamentary_election",
+    "https://news.err.ee/1610126071/estonia-elects-new-president"
   ],
   "chamber": {
     "name": "Riigikogu",
@@ -184,5 +185,15 @@
     "seats": 101,
     "majority": 51,
     "source": "https://en.wikipedia.org/wiki/Next_Estonian_parliamentary_election"
+  },
+  "lastElection": {
+    "date": "2026-09-02",
+    "type": "Presidential (indirect, by the Riigikogu)",
+    "typeIs": "Forsetakjör (óbeint, á Riigikogu)",
+    "outcome": "The Riigikogu elected Chancellor of Justice Ülle Madise, the only candidate, in the first round with 71 votes (68 needed); 78 of 101 MPs took ballots and seven left them blank. President Alar Karis did not seek a second term, and Madise took office on 12 October.",
+    "outcomeIs": "Riigikogu kaus Ülle Madise, dómsmálakanslara og eina frambjóðandann, í fyrstu umferð með 71 atkvæði (68 þurfti); 78 af 101 þingmanni tóku við kjörseðli og sjö skiluðu auðu. Alar Karis forseti sóttist ekki eftir öðru kjörtímabili og Madise tók við embætti 12. október.",
+    "winner": "Ülle Madise (sole candidate), succeeding Alar Karis",
+    "winnerIs": "Ülle Madise (eini frambjóðandinn), tekur við af Alar Karis",
+    "result": "new"
   }
 }

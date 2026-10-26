@@ -232,7 +232,7 @@
           ${e.note ? `<div class="note">${esc(T(e, "note"))}</div>` : ""}
         </div>`).join("");
       const hasParties = c.parties && c.parties.length;
-      const parties = `<h3>${L("Hverjir bjóða fram", "Who is running")}</h3>`
+      const parties = `<h3>${(c.upcoming || []).length ? L("Hverjir bjóða fram", "Who is running") : L("Helstu flokkar", "Main parties")}</h3>`
         + (c.noParties ? `<p class="no-parties">${esc(T(c, "noParties"))}</p>` : "")
         + (hasParties ? `<ul class="parties">${c.parties.map((p) => partyHtml(p, c.iso3)).join("")}</ul>`
           : (c.noParties ? "" : `<p class="no-parties">${L("Upplýsingar um flokka liggja ekki fyrir enn.", "Party information is not available yet.")}</p>`));

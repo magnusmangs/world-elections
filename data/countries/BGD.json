@@ -1,0 +1,121 @@
+{
+  "iso3": "BGD",
+  "isoNumeric": "050",
+  "name": "Bangladesh",
+  "nameIs": "Bangladess",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "President Mirza Fakhrul Islam Alamgir (BNP), elected by parliament on 20 August 2026; Prime Minister Tarique Rahman (BNP)",
+  "leadersIs": "Mirza Fakhrul Islam Alamgir forseti (BNP), kjörinn af þinginu 20. ágúst 2026; Tarique Rahman forsætisráðherra (BNP)",
+  "summary": "The Jatiya Sangsad elected BNP secretary general Mirza Fakhrul Islam Alamgir as president on 20 August 2026 with 255 votes to 88 for Oli Ahmed, the candidate of the Jamaat-led opposition alliance, in the first contested presidential vote in 35 years. The election followed President Mohammed Shahabuddin's resignation in July; the largely ceremonial post acts on the prime minister's advice and the next general election is due by 2031.",
+  "summaryIs": "Jatiya Sangsad kaus Mirza Fakhrul Islam Alamgir, framkvæmdastjóra BNP, forseta 20. ágúst 2026 með 255 atkvæðum gegn 88 hjá Oli Ahmed, frambjóðanda stjórnarandstöðubandalagsins undir forystu Jamaat, í fyrstu forsetakosningunum í 35 ár þar sem fleiri en einn voru í framboði. Kosningin fór fram eftir að Mohammed Shahabuddin forseti sagði af sér í júlí; embættið er að mestu táknrænt og forsetinn fer að ráðum forsætisráðherra, en næstu þingkosningar eiga að fara fram í síðasta lagi 2031.",
+  "parties": [
+    {
+      "name": "Bangladesh Nationalist Party",
+      "abbr": "BNP",
+      "leader": "Tarique Rahman",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Bangladeshi nationalism, conservatism",
+      "ideologyIs": "Bangladessk þjóðernishyggja, íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "209 of 300 directly elected seats (Feb 2026); presidential candidate elected with 255 votes (Aug 2026)",
+      "lastResultIs": "209 af 300 kjördæmakjörnum sætum (feb. 2026); forsetaefni flokksins kjörið með 255 atkvæðum (ágúst 2026)",
+      "polling": "",
+      "policies": [
+        "Family card with monthly aid of Tk 2,500 or equivalent goods",
+        "Farmer card with subsidies, credit and crop insurance",
+        "Recruit 100,000 health workers",
+        "Dig out 10,000 km of rivers and canals and plant 150 million trees in five years"
+      ],
+      "policiesIs": [
+        "Fjölskyldukort með mánaðarlegum stuðningi upp á 2.500 taka eða jafngildi í vörum",
+        "Bændakort með niðurgreiðslum, lánum og uppskerutryggingu",
+        "Ráða 100.000 heilbrigðisstarfsmenn",
+        "Grafa upp 10.000 km af ám og skurðum og planta 150 milljónum trjáa á fimm árum"
+      ],
+      "seats": 246,
+      "color": "#006a4e"
+    },
+    {
+      "name": "Bangladesh Jamaat-e-Islami",
+      "abbr": "BJI",
+      "leader": "Shafiqur Rahman",
+      "position": "Right",
+      "positionIs": "Hægri",
+      "ideology": "Islamism, social conservatism",
+      "ideologyIs": "Íslamismi, félagsleg íhaldsstefna",
+      "inGovernment": false,
+      "lastResult": "Led the 11-party alliance to 77 directly elected seats (Feb 2026); its alliance's candidate Oli Ahmed received 88 votes (Aug 2026)",
+      "lastResultIs": "Leiddi 11 flokka bandalag sem fékk 77 kjördæmakjörin sæti (feb. 2026); frambjóðandi bandalagsins, Oli Ahmed, fékk 88 atkvæði (ágúst 2026)",
+      "polling": "",
+      "policies": [
+        "Main opposition party; its leader is Leader of the Opposition",
+        "Proportional representation in parliamentary elections",
+        "Public investment of 20% of GDP and US$15 billion in foreign direct investment",
+        "26-point agenda for a 'just, democratic state'"
+      ],
+      "policiesIs": [
+        "Helsti stjórnarandstöðuflokkurinn; leiðtogi hans er leiðtogi stjórnarandstöðunnar",
+        "Hlutfallskosningar í þingkosningum",
+        "Opinber fjárfesting upp á 20% af landsframleiðslu og 15 milljarðar Bandaríkjadala í beinni erlendri fjárfestingu",
+        "26 liða stefnuskrá um „réttlátt, lýðræðislegt ríki“"
+      ],
+      "seats": 76,
+      "color": "#1e7b34"
+    },
+    {
+      "name": "National Citizen Party",
+      "abbr": "NCP",
+      "leader": "Nahid Islam",
+      "position": "Centre",
+      "positionIs": "Miðja",
+      "ideology": "Reformism, founded by leaders of the 2024 student uprising",
+      "ideologyIs": "Umbótastefna, stofnaður af leiðtogum námsmannauppreisnarinnar 2024",
+      "inGovernment": false,
+      "lastResult": "Part of the Jamaat-led 11-party alliance; 8 seats including reserved seats (Feb 2026)",
+      "lastResultIs": "Hluti af 11 flokka bandalagi undir forystu Jamaat; 8 sæti að meðtöldum fráteknum sætum (feb. 2026)",
+      "polling": "",
+      "policies": [
+        "A 'Second Republic' under a new constitution",
+        "Presents itself as an alternative to dynastic party politics",
+        "Backed the opposition alliance's presidential candidate",
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "„Annað lýðveldi“ með nýrri stjórnarskrá",
+        "Kynnir sig sem valkost við ættarveldi í flokkastjórnmálum",
+        "Studdi forsetaefni stjórnarandstöðubandalagsins",
+        "Upplýsingar um stefnu takmarkaðar í enskum heimildum"
+      ],
+      "seats": 8,
+      "color": "#d4202c"
+    }
+  ],
+  "chamber": {
+    "name": "Jatiya Sangsad",
+    "nameIs": "Jatiya Sangsad",
+    "seats": 350,
+    "majority": 176,
+    "asOf": "current composition of the 13th Jatiya Sangsad (300 elected and 50 reserved women's seats), October 2026; 2 seats vacant, including Thakurgaon-1 after Alamgir became president",
+    "asOfIs": "núverandi skipan 13. Jatiya Sangsad (300 kjörin sæti og 50 frátekin sæti kvenna), október 2026; 2 sæti laus, þar á meðal Thakurgaon-1 eftir að Alamgir varð forseti",
+    "source": "https://en.wikipedia.org/wiki/13th_Jatiya_Sangsad"
+  },
+  "lastElection": {
+    "date": "2026-08-20",
+    "type": "Presidential (indirect, by parliament)",
+    "typeIs": "Forsetakosning (óbein, á þinginu)",
+    "outcome": "Mirza Fakhrul Islam Alamgir (BNP) was elected president by parliament with 255 votes to 88 for Oli Ahmed, backed by the Jamaat-led alliance, with 343 of 349 eligible members voting; he succeeded acting president Hafiz Uddin Ahmad, the BNP Speaker, who had served since Mohammed Shahabuddin resigned on 24 July.",
+    "outcomeIs": "Mirza Fakhrul Islam Alamgir (BNP) var kjörinn forseti á þinginu með 255 atkvæðum gegn 88 hjá Oli Ahmed, sem bandalagið undir forystu Jamaat studdi, og 343 af 349 atkvæðisbærum þingmönnum greiddu atkvæði; hann tók við af Hafiz Uddin Ahmad, þingforseta úr BNP, sem gegnt hafði embættinu frá því að Mohammed Shahabuddin sagði af sér 24. júlí.",
+    "winner": "Mirza Fakhrul Islam Alamgir (BNP), succeeding Mohammed Shahabuddin",
+    "winnerIs": "Mirza Fakhrul Islam Alamgir (BNP), tekur við af Mohammed Shahabuddin",
+    "result": "new"
+  },
+  "sources": [
+    "https://newsonair.gov.in/mirza-fakhrul-islam-%e2%81%a0alamgir-elected-as-bangladeshs-23rd-president/",
+    "https://www.gktoday.in/mirza-fakhrul-islam-alamgir-elected-bangladesh-president/",
+    "https://theprint.in/world/why-bangladesh-president-shahabuddin-resigned-nearly-two-years-before-his-term-ended/2996301/",
+    "https://en.wikipedia.org/wiki/13th_Jatiya_Sangsad",
+    "https://en.prothomalo.com/bangladesh/politics/jjokj1ixi0"
+  ]
+}

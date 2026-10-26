@@ -1,0 +1,245 @@
+{
+  "iso3": "LVA",
+  "isoNumeric": "428",
+  "name": "Latvia",
+  "nameIs": "Lettland",
+  "lastReviewed": "2026-10-26",
+  "elections": [
+    {
+      "date": "2027-06-01",
+      "dateStatus": "expected",
+      "type": "Presidential (indirect, by the Saeima)",
+      "typeIs": "Forsetakjör (óbeint, á Saeima)",
+      "note": "President Edgars Rinkēvičs's four-year term ends in July 2027; the Saeima usually elects the president in late May or June. Date not yet set.",
+      "noteIs": "Fjögurra ára kjörtímabili Edgars Rinkēvičs forseta lýkur í júlí 2027; Saeima kýs forseta yfirleitt í lok maí eða í júní. Dagsetning hefur ekki verið ákveðin."
+    }
+  ],
+  "leaders": "Prime Minister Andris Kulbergs (United List), asked on 6 October 2026 to form the next government; President Edgars Rinkēvičs",
+  "leadersIs": "Andris Kulbergs forsætisráðherra (Apvienotais saraksts), falið 6. október 2026 að mynda næstu ríkisstjórn; Edgars Rinkēvičs forseti",
+  "summary": "Prime Minister Andris Kulbergs's United List won the 3 October election with 35.3% and 41 of 100 seats on a record-low turnout of 51.8%, while the governing Union of Greens and Farmers fell below the 5% threshold. President Edgars Rinkēvičs asked Kulbergs to form a government; coalition talks with the National Alliance and New Unity (58 seats together) begin on 28 October, and the new Saeima first meets on 3 November.",
+  "summaryIs": "Apvienotais saraksts, flokkur Andris Kulbergs forsætisráðherra, sigraði í kosningunum 3. október með 35,3% og 41 af 100 þingsætum í minnstu kjörsókn sögunnar, 51,8%, en stjórnarflokkurinn Zaļo un Zemnieku savienība féll undir 5% þröskuldinn. Edgars Rinkēvičs forseti fól Kulbergs að mynda ríkisstjórn; stjórnarmyndunarviðræður við Nacionālā apvienība og Jaunā Vienotība (samtals 58 þingsæti) hefjast 28. október og nýtt þing kemur fyrst saman 3. nóvember.",
+  "parties": [
+    {
+      "name": "United List",
+      "nameIs": "Apvienotais saraksts",
+      "abbr": "AS",
+      "leader": "Andris Kulbergs (PM candidate)",
+      "position": "Centre",
+      "positionIs": "Miðja",
+      "ideology": "Regionalism, green conservatism",
+      "ideologyIs": "Byggðastefna, græn íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "35.3%, 41 seats (2026)",
+      "lastResultIs": "35,3%, 41 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Defence spending at 5% of GDP and more anti-drone capability",
+        "Create a Development Fund to manage state assets",
+        "Cut Rail Baltica to a minimum scope",
+        "10% microenterprise tax and tax breaks for returning emigrants"
+      ],
+      "policiesIs": [
+        "Útgjöld til varnarmála 5% af vergri landsframleiðslu og aukin geta gegn drónum",
+        "Stofna þróunarsjóð sem fari með eignir ríkisins",
+        "Skera Rail Baltica niður í lágmarksumfang",
+        "10% skattur á örfyrirtæki og skattaívilnanir fyrir brottflutta sem snúa heim"
+      ],
+      "seats": 41,
+      "color": "#0b7a75"
+    },
+    {
+      "name": "Latvia First",
+      "nameIs": "Latvija pirmajā vietā",
+      "abbr": "LPV",
+      "leader": "Ainārs Šlesers",
+      "position": "Right",
+      "positionIs": "Hægri",
+      "ideology": "Right-wing populism, national conservatism",
+      "ideologyIs": "Hægripopúlismi, þjóðleg íhaldsstefna",
+      "inGovernment": false,
+      "lastResult": "13.1%, 17 seats (2026)",
+      "lastResultIs": "13,1%, 17 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Make the United States Latvia's closest ally",
+        "Buy 50% of military procurement from the United States",
+        "Cancel Rail Baltica",
+        "Withdraw from the Istanbul Convention"
+      ],
+      "policiesIs": [
+        "Bandaríkin verði nánasti bandamaður Lettlands",
+        "Helmingur hergagnakaupa verði frá Bandaríkjunum",
+        "Hætta við Rail Baltica",
+        "Segja Lettland frá Istanbúl-samningnum"
+      ],
+      "seats": 17,
+      "color": "#1f3a93"
+    },
+    {
+      "name": "Sovereign Power / Union of New Latvians",
+      "nameIs": "Suverēnā vara / Apvienība Jaunlatvieši",
+      "abbr": "SV",
+      "leader": "Jūlija Stepaņenko",
+      "position": "Right",
+      "positionIs": "Hægri",
+      "ideology": "Populism, Russian-speaking voters' interests",
+      "ideologyIs": "Popúlismi, hagsmunir rússneskumælandi kjósenda",
+      "inGovernment": false,
+      "lastResult": "11.7%, 15 seats (2026)",
+      "lastResultIs": "11,7%, 15 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Five-year moratorium on new taxes",
+        "Abolish all housing taxes",
+        "Cut the number of Saeima deputies by half",
+        "Abolish conscription and abandon Rail Baltica"
+      ],
+      "policiesIs": [
+        "Engir nýir skattar í fimm ár",
+        "Afnema alla skatta á húsnæði",
+        "Fækka þingmönnum Saeima um helming",
+        "Afnema herskyldu og hætta við Rail Baltica"
+      ],
+      "seats": 15,
+      "color": "#f4a300"
+    },
+    {
+      "name": "National Alliance",
+      "nameIs": "Nacionālā apvienība",
+      "abbr": "NA",
+      "leader": "Ilze Indriksone (lead candidate)",
+      "position": "Right to Far-right",
+      "positionIs": "Hægri til lengst til hægri",
+      "ideology": "National conservatism",
+      "ideologyIs": "Þjóðleg íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "8.9%, 10 seats (2026)",
+      "lastResultIs": "8,9%, 10 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Defence spending above 5% of GDP",
+        "Break all economic ties with Russia and Belarus",
+        "Limit university places for foreign students to EU, NATO and OECD citizens",
+        "Encourage Russian citizens and people it deems disloyal to leave Latvia"
+      ],
+      "policiesIs": [
+        "Útgjöld til varnarmála yfir 5% af vergri landsframleiðslu",
+        "Slíta öllum efnahagstengslum við Rússland og Hvíta-Rússland",
+        "Takmarka háskólapláss erlendra nema við ríkisborgara ESB-, NATO- og OECD-ríkja",
+        "Hvetja rússneska ríkisborgara og þá sem flokkurinn telur ótrúa ríkinu til að yfirgefa Lettland"
+      ],
+      "seats": 10,
+      "color": "#8c2332"
+    },
+    {
+      "name": "The Progressives",
+      "nameIs": "Progresīvie",
+      "abbr": "PRO",
+      "leader": "Andris Šuvajevs (PM candidate)",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy, green politics",
+      "ideologyIs": "Jafnaðarstefna, græn stjórnmál",
+      "inGovernment": false,
+      "lastResult": "7.9%, 10 seats (2026)",
+      "lastResultIs": "7,9%, 10 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Defence funding of at least 5% of GDP",
+        "Monthly public transport ticket at 50% off for young people",
+        "Raise the minimum teacher salary to EUR 2,100",
+        "Defend the Istanbul Convention and back renewable energy"
+      ],
+      "policiesIs": [
+        "Framlög til varnarmála að minnsta kosti 5% af vergri landsframleiðslu",
+        "Mánaðarkort í almenningssamgöngur á hálfvirði fyrir ungt fólk",
+        "Hækka lágmarkslaun kennara í 2.100 evrur",
+        "Standa vörð um Istanbúl-samninginn og styðja endurnýjanlega orku"
+      ],
+      "seats": 10,
+      "color": "#c2185b"
+    },
+    {
+      "name": "New Unity",
+      "nameIs": "Jaunā Vienotība",
+      "abbr": "JV",
+      "leader": "Arvils Ašeradens (PM candidate)",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Liberal conservatism",
+      "ideologyIs": "Frjálslynd íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "6.4%, 7 seats (2026)",
+      "lastResultIs": "6,4%, 7 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Defence spending at 5% of GDP",
+        "Health spending at 6% of GDP",
+        "Raise the minimum wage to 50% of the average gross wage",
+        "Move towards investing 3% of GDP in research and development"
+      ],
+      "policiesIs": [
+        "Útgjöld til varnarmála 5% af vergri landsframleiðslu",
+        "Útgjöld til heilbrigðismála 6% af vergri landsframleiðslu",
+        "Lágmarkslaun hækki í 50% af meðalheildarlaunum",
+        "Stefnt að því að 3% af vergri landsframleiðslu renni til rannsókna og þróunar"
+      ],
+      "seats": 7,
+      "color": "#6ab023"
+    },
+    {
+      "name": "Union of Greens and Farmers",
+      "nameIs": "Zaļo un Zemnieku savienība",
+      "abbr": "ZZS",
+      "leader": "Viktors Valainis",
+      "position": "Centre",
+      "positionIs": "Miðja",
+      "ideology": "Agrarianism, conservatism",
+      "ideologyIs": "Bændastefna, íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "4.4%, no seats (2026; below the 5% threshold)",
+      "lastResultIs": "4,4%, engin þingsæti (2026; undir 5% þröskuldi)",
+      "polling": "",
+      "policies": [
+        "Health spending at 6% of GDP",
+        "Spend 2% of GDP on higher education and science",
+        "Audit state spending to save at least EUR 500 million for health and the regions",
+        "Promoted Economics Minister Valainis as a prospective prime minister"
+      ],
+      "policiesIs": [
+        "Útgjöld til heilbrigðismála 6% af vergri landsframleiðslu",
+        "2% af vergri landsframleiðslu til háskóla og vísinda",
+        "Endurskoða ríkisútgjöld og spara minnst 500 milljónir evra fyrir heilbrigðismál og landsbyggðina",
+        "Kynnti Valainis efnahagsráðherra sem mögulegt forsætisráðherraefni"
+      ],
+      "seats": 0,
+      "color": "#0b5d1e"
+    }
+  ],
+  "chamber": {
+    "name": "Saeima",
+    "nameIs": "Saeima",
+    "seats": 100,
+    "majority": 51,
+    "asOf": "as elected on 3 October 2026 (Central Election Commission); the 15th Saeima first meets on 3 November 2026",
+    "asOfIs": "samkvæmt úrslitum kosninganna 3. október 2026 (yfirkjörstjórn); 15. Saeima kemur fyrst saman 3. nóvember 2026",
+    "source": "https://dati.cvk.lv/SV2026/en/velesanu-rezultati/"
+  },
+  "lastElection": {
+    "date": "2026-10-03",
+    "type": "Parliamentary (Saeima)",
+    "typeIs": "Þingkosningar (Saeima)",
+    "outcome": "Prime Minister Andris Kulbergs's United List won 35.3% and 41 of 100 seats, ahead of Latvia First (13.1%, 17) and Sovereign Power / Union of New Latvians (11.7%, 15), on a record-low turnout of 51.8%; six lists passed the 5% threshold.",
+    "outcomeIs": "Apvienotais saraksts, flokkur Andris Kulbergs forsætisráðherra, fékk 35,3% og 41 af 100 þingsætum, á undan Latvija pirmajā vietā (13,1%, 17) og Suverēnā vara / Apvienība Jaunlatvieši (11,7%, 15), í minnstu kjörsókn sögunnar, 51,8%; sex listar komust yfir 5% þröskuldinn.",
+    "winner": "United List (largest list; Prime Minister Andris Kulbergs asked to form the next government)",
+    "winnerIs": "Apvienotais saraksts (stærsti listinn; Andris Kulbergs forsætisráðherra falið að mynda næstu ríkisstjórn)",
+    "result": "incumbent"
+  },
+  "sources": [
+    "https://dati.cvk.lv/SV2026/en/velesanu-rezultati/",
+    "https://eutoday.net/kulbergs-latvia-election-coalition-talks-41-seats/",
+    "https://bnn-news.com/latvia/after-more-than-two-weeks-of-silence-latvian-prime-minister-reveals-which-parties-he-will-approach-for-coalition-talks-mww86fr",
+    "https://eng.lsm.lv/article/politics/election/31.08.2026-latvian-saeima-elections-2026-the-parties-and-their-promises.a658526/",
+    "https://en.wikipedia.org/wiki/Andris_Kulbergs"
+  ]
+}

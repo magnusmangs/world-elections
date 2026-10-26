@@ -1,0 +1,122 @@
+{
+  "iso3": "HUN",
+  "isoNumeric": "348",
+  "name": "Hungary",
+  "nameIs": "Ungverjaland",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "President András Baka (since 19 August 2026); Prime Minister Péter Magyar (Tisza)",
+  "leadersIs": "András Baka forseti (frá 19. ágúst 2026); Péter Magyar forsætisráðherra (Tisza)",
+  "summary": "The National Assembly elected former Supreme Court President András Baka, the Tisza nominee, as president on 11 August 2026 by 140 votes to 6, while Fidesz–KDNP stayed away from the vote; the post fell vacant when a constitutional amendment ended Tamás Sulyok's mandate on 20 July. Baka took office on 19 August, and the next parliamentary election is due in 2030.",
+  "summaryIs": "Þjóðþingið kaus András Baka, fyrrverandi forseta hæstaréttar og frambjóðanda Tisza, forseta 11. ágúst 2026 með 140 atkvæðum gegn 6, en Fidesz–KDNP tók ekki þátt í atkvæðagreiðslunni; embættið losnaði þegar stjórnarskrárbreyting batt enda á umboð Tamásar Sulyok 20. júlí. Baka tók við embætti 19. ágúst og næstu þingkosningar eiga að fara fram árið 2030.",
+  "parties": [
+    {
+      "name": "Tisza",
+      "abbr": "TISZA",
+      "leader": "Péter Magyar",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Pro-Europeanism, anti-corruption",
+      "ideologyIs": "Evrópusinnuð stefna, barátta gegn spillingu",
+      "inGovernment": true,
+      "lastResult": "53.2% of list votes, 141 seats (April 2026)",
+      "lastResultIs": "53,2% listaatkvæða, 141 þingsæti (apríl 2026)",
+      "polling": "",
+      "policies": [
+        "Nominated András Baka, elected president on 11 August 2026",
+        "Used its two-thirds majority to pass the amendment that ended President Sulyok's mandate",
+        "Brought Hungary into the European Public Prosecutor's Office (July 2026)",
+        "Reached a political deal with the European Commission to unlock EUR 16.4bn in EU funds"
+      ],
+      "policiesIs": [
+        "Tilnefndi András Baka, sem var kjörinn forseti 11. ágúst 2026",
+        "Nýtti tvo þriðju hluta þingsæta til að samþykkja breytingu sem batt enda á umboð Sulyok forseta",
+        "Kom Ungverjalandi í Evrópska saksóknaraembættið (júlí 2026)",
+        "Náði pólitísku samkomulagi við framkvæmdastjórn ESB um að losa 16,4 milljarða evra úr sjóðum sambandsins"
+      ],
+      "seats": 141,
+      "color": "#d52b1e"
+    },
+    {
+      "name": "Fidesz–KDNP",
+      "abbr": "Fidesz",
+      "leader": "Viktor Orbán",
+      "position": "Right",
+      "positionIs": "Hægri",
+      "ideology": "National conservatism, right-wing populism",
+      "ideologyIs": "Þjóðleg íhaldsstefna, hægripopúlismi",
+      "inGovernment": false,
+      "lastResult": "38.6% of list votes, 52 seats (April 2026)",
+      "lastResultIs": "38,6% listaatkvæða, 52 þingsæti (apríl 2026)",
+      "polling": "",
+      "policies": [
+        "Did not take part in the presidential vote and calls Sulyok's removal illegitimate",
+        "Re-elected Viktor Orbán as party chair in June 2026",
+        "Opposes the EU migration pact and mandatory relocation of asylum seekers",
+        "Opposes fast-track EU membership for Ukraine"
+      ],
+      "policiesIs": [
+        "Tók ekki þátt í forsetakjörinu og telur brottvikningu Sulyok ólögmæta",
+        "Endurkaus Viktor Orbán formann flokksins í júní 2026",
+        "Andvígur flóttamannasáttmála ESB og skyldubundinni dreifingu hælisleitenda",
+        "Andvígur hraðaðri aðild Úkraínu að ESB"
+      ],
+      "seats": 52,
+      "color": "#fd8100"
+    },
+    {
+      "name": "Our Homeland Movement",
+      "nameIs": "Mi Hazánk",
+      "abbr": "MH",
+      "leader": "László Toroczkai",
+      "position": "Far-right",
+      "positionIs": "Lengst til hægri",
+      "ideology": "Nationalism, Euroscepticism",
+      "ideologyIs": "Þjóðernisstefna, efasemdir um ESB",
+      "inGovernment": false,
+      "lastResult": "5.6% of list votes, 6 seats (April 2026)",
+      "lastResultIs": "5,6% listaatkvæða, 6 þingsæti (apríl 2026)",
+      "polling": "",
+      "policies": [
+        "Nominated energy lawyer Máté Tóth for president; parliament ruled the nomination invalid",
+        "Opposes deeper EU integration",
+        "Opposes immigration",
+        "Opposes Ukraine's EU membership"
+      ],
+      "policiesIs": [
+        "Tilnefndi orkulögfræðinginn Máté Tóth til forseta; þingið úrskurðaði tilnefninguna ógilda",
+        "Andvígur nánari samruna innan ESB",
+        "Andvígur innflutningi fólks",
+        "Andvígur aðild Úkraínu að ESB"
+      ],
+      "seats": 6,
+      "color": "#5b7f1f"
+    }
+  ],
+  "chamber": {
+    "name": "National Assembly",
+    "nameIs": "Þjóðþingið",
+    "seats": 199,
+    "majority": 100,
+    "asOf": "as elected on 12 April 2026",
+    "asOfIs": "samkvæmt úrslitum kosninganna 12. apríl 2026",
+    "source": "https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election"
+  },
+  "lastElection": {
+    "date": "2026-08-11",
+    "type": "Presidential (indirect, by the National Assembly)",
+    "typeIs": "Forsetakjör (óbeint, á þjóðþinginu)",
+    "outcome": "The National Assembly elected András Baka, the sole valid candidate, by 140 votes to 6 in a secret ballot; Fidesz–KDNP did not take part, and Our Homeland's nominee Máté Tóth was ruled invalid.",
+    "outcomeIs": "Þjóðþingið kaus András Baka, eina gilda frambjóðandann, með 140 atkvæðum gegn 6 í leynilegri atkvæðagreiðslu; Fidesz–KDNP tók ekki þátt og tilnefning Máté Tóth, frambjóðanda Mi Hazánk, var úrskurðuð ógild.",
+    "winner": "András Baka (Tisza nominee), replacing Tamás Sulyok",
+    "winnerIs": "András Baka (frambjóðandi Tisza), tekur við af Tamási Sulyok",
+    "result": "new"
+  },
+  "sources": [
+    "https://www.sandorpalota.hu/en/andras-baka-elected-hungarys-new-president",
+    "https://www.penzcentrum.hu/gazdasag/20260811/koztarsasagi-elnokke-valasztottak-baka-andrast-1203780",
+    "https://www.vg.hu/kozelet/2026/08/koztarsasagi-elnok-valasztas-parlament-baka-andras",
+    "https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election",
+    "https://www.eunews.it/en/2026/07/10/hungary-joins-eppo-von-der-leyen-welcome-to-the-european-public-prosecutors-office/"
+  ]
+}

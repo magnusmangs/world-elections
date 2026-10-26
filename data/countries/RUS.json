@@ -1,0 +1,180 @@
+{
+  "iso3": "RUS",
+  "isoNumeric": "643",
+  "name": "Russia",
+  "nameIs": "Rússland",
+  "lastReviewed": "2026-10-26",
+  "elections": [],
+  "leaders": "President Vladimir Putin; Prime Minister Mikhail Mishustin; State Duma Chairman Vyacheslav Volodin (United Russia), re-elected after the September 2026 election",
+  "leadersIs": "Vladímír Pútín forseti; Míkhaíl Míshústín forsætisráðherra; Vjatsjeslav Volodín, forseti Dúmunnar (Sameinað Rússland), endurkjörinn eftir kosningarnar í september 2026",
+  "summary": "United Russia won 349 of the 450 State Duma seats in the 18 to 20 September 2026 election, with 58.21% of the party-list vote, while four other parties cleared the 5% threshold. Russia did not invite OSCE/ODIHR observers, the liberal party Yabloko was removed from the ballot by the Supreme Court, and the next national vote is the presidential election due in 2030.",
+  "summaryIs": "Sameinað Rússland fékk 349 af 450 sætum í Dúmunni í kosningunum 18. til 20. september 2026, með 58,21% atkvæða á landslistum, og fjórir aðrir flokkar komust yfir 5% þröskuldinn. Rússland bauð ekki eftirlitsmönnum ÖSE/ODIHR, Hæstiréttur tók frjálslynda flokkinn Jabloko af kjörseðlinum og næstu landskosningar eru forsetakosningar sem eiga að fara fram 2030.",
+  "parties": [
+    {
+      "name": "United Russia",
+      "nameIs": "Sameinað Rússland",
+      "abbr": "UR",
+      "leader": "Dmitry Medvedev",
+      "position": "Big tent, right-leaning",
+      "positionIs": "Breið fylking, hallast til hægri",
+      "ideology": "Conservatism, statism, support for President Putin",
+      "ideologyIs": "Íhaldsstefna, ríkishyggja, stuðningur við Pútín forseta",
+      "inGovernment": true,
+      "lastResult": "58.21%, 349 seats (2026)",
+      "lastResultIs": "58,21%, 349 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Backs President Putin and the war in Ukraine; 41 of its new deputies are war participants",
+        "Family support and birth-rate measures, including payments to families with children",
+        "State-led infrastructure and regional development programmes",
+        "Emphasises traditional values and national security"
+      ],
+      "policiesIs": [
+        "Styður Pútín forseta og stríðið í Úkraínu; 41 nýrra þingmanna flokksins tók þátt í stríðinu",
+        "Stuðningur við fjölskyldur og aðgerðir til að fjölga fæðingum, þar á meðal greiðslur til barnafjölskyldna",
+        "Innviða- og byggðaþróunaráætlanir undir forystu ríkisins",
+        "Leggur áherslu á hefðbundin gildi og þjóðaröryggi"
+      ],
+      "seats": 349,
+      "color": "#1c4fa1"
+    },
+    {
+      "name": "Communist Party of the Russian Federation",
+      "nameIs": "Kommúnistaflokkur Rússlands",
+      "abbr": "CPRF",
+      "leader": "Gennady Zyuganov",
+      "position": "Left to far-left",
+      "positionIs": "Vinstri til lengst til vinstri",
+      "ideology": "Communism, Russian nationalism",
+      "ideologyIs": "Kommúnismi, rússnesk þjóðernishyggja",
+      "inGovernment": false,
+      "lastResult": "13.47%, 37 seats (2026)",
+      "lastResultIs": "13,47%, 37 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Nationalisation of natural resources and strategic industries",
+        "Reverse the 2018 increase in the pension age",
+        "Progressive income tax and price controls on basic goods",
+        "Supports the war in Ukraine while criticising the government's economic policy"
+      ],
+      "policiesIs": [
+        "Þjóðnýting náttúruauðlinda og lykilatvinnugreina",
+        "Afnema hækkun eftirlaunaaldurs frá 2018",
+        "Stighækkandi tekjuskattur og verðstýring á nauðsynjavörum",
+        "Styður stríðið í Úkraínu en gagnrýnir efnahagsstefnu stjórnvalda"
+      ],
+      "seats": 37,
+      "color": "#c8102e"
+    },
+    {
+      "name": "Liberal Democratic Party of Russia",
+      "nameIs": "LDPR",
+      "abbr": "LDPR",
+      "leader": "Leonid Slutsky",
+      "position": "Right to far-right",
+      "positionIs": "Hægri til lengst til hægri",
+      "ideology": "Russian nationalism, populism",
+      "ideologyIs": "Rússnesk þjóðernishyggja, popúlismi",
+      "inGovernment": false,
+      "lastResult": "8.88%, 23 seats (2026)",
+      "lastResultIs": "8,88%, 23 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Supports the war in Ukraine and a strong central state",
+        "Tighter migration rules for workers from Central Asia",
+        "Higher pensions and lower utility tariffs",
+        "Protection of the Russian language and ethnic Russians abroad"
+      ],
+      "policiesIs": [
+        "Styður stríðið í Úkraínu og öflugt miðstýrt ríki",
+        "Strangari reglur um farandverkafólk frá Mið-Asíu",
+        "Hærri lífeyrir og lægri gjöld fyrir veitur",
+        "Vernd rússneskrar tungu og Rússa sem búa erlendis"
+      ],
+      "seats": 23,
+      "color": "#f2c200"
+    },
+    {
+      "name": "New People",
+      "nameIs": "Novye Lyudi",
+      "abbr": "NL",
+      "leader": "Alexey Nechayev",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Economic liberalism, pro-business",
+      "ideologyIs": "Efnahagsleg frjálshyggja, stuðningur við atvinnulífið",
+      "inGovernment": false,
+      "lastResult": "7.82%, 19 seats (2026)",
+      "lastResultIs": "7,82%, 19 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Lower taxes and fewer inspections for small and medium businesses",
+        "More powers and revenue for local and regional government",
+        "Opposes restrictions on internet services and messaging apps",
+        "Does not oppose the war in Ukraine"
+      ],
+      "policiesIs": [
+        "Lægri skattar og færri eftirlitsheimsóknir hjá litlum og meðalstórum fyrirtækjum",
+        "Meiri völd og tekjur til sveitarfélaga og héraða",
+        "Andvígur takmörkunum á netþjónustu og samskiptaforritum",
+        "Er ekki andvígur stríðinu í Úkraínu"
+      ],
+      "seats": 19,
+      "color": "#00a9c9"
+    },
+    {
+      "name": "A Just Russia (For Truth)",
+      "nameIs": "Spravedlivaya Rossiya",
+      "abbr": "SRZP",
+      "leader": "Sergey Mironov",
+      "position": "Centre-left",
+      "positionIs": "Mið-vinstri",
+      "ideology": "Social democracy, socialism, nationalism",
+      "ideologyIs": "Jafnaðarstefna, sósíalismi, þjóðernishyggja",
+      "inGovernment": false,
+      "lastResult": "5.34%, 17 seats (2026)",
+      "lastResultIs": "5,34%, 17 þingsæti (2026)",
+      "polling": "",
+      "policies": [
+        "Progressive income tax and higher taxes on large fortunes",
+        "Lower the pension age back to pre-2018 levels",
+        "Higher minimum wage and state support for families",
+        "Supports the war in Ukraine"
+      ],
+      "policiesIs": [
+        "Stighækkandi tekjuskattur og hærri skattar á stórar eignir",
+        "Lækka eftirlaunaaldur aftur í það sem hann var fyrir 2018",
+        "Hærri lágmarkslaun og stuðningur ríkisins við fjölskyldur",
+        "Styður stríðið í Úkraínu"
+      ],
+      "seats": 17,
+      "color": "#e86f1a"
+    }
+  ],
+  "chamber": {
+    "name": "State Duma",
+    "nameIs": "Dúman",
+    "seats": 450,
+    "majority": 226,
+    "asOf": "as elected in September 2026 (final CEC results, 25 Sept 2026); Rodina 1 and independents 4",
+    "asOfIs": "eins og kosið var í september 2026 (lokaúrslit yfirkjörstjórnar, 25. sept. 2026); Rodina 1 og óháðir 4",
+    "source": "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants"
+  },
+  "lastElection": {
+    "date": "2026-09-20",
+    "type": "State Duma (legislative)",
+    "typeIs": "Dúmukosningar (þingkosningar)",
+    "outcome": "United Russia won 349 of 450 seats with 58.21% of the party-list vote and 209 of 225 constituencies, ahead of the CPRF (37), LDPR (23), New People (19) and A Just Russia (17), on an official turnout of 59.80%; Russia did not invite OSCE/ODIHR observers and the Council of the EU said the vote showed eroding democracy.",
+    "outcomeIs": "Sameinað Rússland fékk 349 af 450 þingsætum, með 58,21% atkvæða á landslistum og 209 af 225 einmenningskjördæmum, á undan Kommúnistaflokknum (37), LDPR (23), Novye Lyudi (19) og Spravedlivaya Rossiya (17), og opinber kjörsókn var 59,80%; Rússland bauð ekki eftirlitsmönnum ÖSE/ODIHR og ráð ESB sagði kosningarnar bera vott um hnignun lýðræðis.",
+    "winner": "United Russia (retains majority)",
+    "winnerIs": "Sameinað Rússland (heldur meirihluta)",
+    "result": "incumbent"
+  },
+  "sources": [
+    "https://asafov.ru/news/cik-rossii-podvel-itogi-vyborov-v-gosudarstvennuiu-dumu-ix-sozyva",
+    "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants",
+    "https://www.thenationalherald.com/final-results-of-russias-election-show-the-kremlin-party-won-a-record-number-of-parliament-seats/",
+    "https://aljazeera.com/news/2026/9/21/russia-election-results-show-putins-party-winning-what-we-know",
+    "https://en.wikipedia.org/wiki/2026_Russian_legislative_election"
+  ]
+}
