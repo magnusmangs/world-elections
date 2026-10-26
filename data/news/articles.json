@@ -2,6 +2,97 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "isr-2026-10-26-ynetnews",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-26",
+   "added": "2026-10-26",
+   "titleIs": "Lokasólarhringur kosningabaráttunnar í Ísrael: Eisenkot vill verða stærstur og Netanyahu treystir á netið",
+   "titleEn": "Final day of Israel's campaign: Eisenkot aims to come first while Netanyahu relies on a digital push",
+   "summaryIs": "Kjörstaðir opna klukkan sjö á þriðjudag. Gadi Eisenkot, leiðtogi Yashar, stefnir að því að verða stærri en Likud þar sem stærsti flokkurinn fær yfirleitt fyrst umboð til stjórnarmyndunar, en Netanyahu ver stórum hluta lokafjárins í hundruð myndbanda til að virkja eigin stuðningsmenn. Bennett útilokar samstarf við Netanyahu og smærri flokkar, bæði trúarlegir og arabískir, leggja allt kapp á kjörsókn.",
+   "summaryEn": "Polling stations open at seven on Tuesday. Yashar leader Gadi Eisenkot wants to finish ahead of Likud, since the largest party usually gets the first chance to form a government, while Netanyahu is spending much of his final budget on hundreds of videos to mobilise his own supporters. Bennett rules out working with Netanyahu, and smaller religious and Arab parties are focusing on turnout.",
+   "source": "Ynetnews",
+   "url": "https://www.ynetnews.com/article/rjztupnngx",
+   "basis": "article"
+  },
+  {
+   "id": "bra-2026-10-26-aljazeera",
+   "section": "kosningar",
+   "iso3": "BRA",
+   "published": "2026-10-26",
+   "added": "2026-10-26",
+   "titleIs": "Lula endurkjörinn forseti Brasilíu en Flávio Bolsonaro neitar að viðurkenna úrslitin",
+   "titleEn": "Lula re-elected president of Brazil, but Flávio Bolsonaro refuses to accept the result",
+   "summaryIs": "Yfirkjörstjórn Brasilíu lýsti Lula sigurvegara seinni umferðar á sunnudagskvöld með rúmlega 51% atkvæða gegn 48% hjá Flávio Bolsonaro, sem vann fyrri umferðina. Bolsonaro hyggst fara fram á ógildingu og segir Hæstarétt hafa breytt reglunum þegar kjörfundur var framlengdur um tvær klukkustundir. Lula sagðist í sigurræðu ætla að vinna með þinginu, þar sem hægriflokkar ráða ferðinni.",
+   "summaryEn": "Brazil's electoral court declared Lula the winner of Sunday's run-off with just over 51% of the vote against 48% for Flávio Bolsonaro, who had won the first round. Bolsonaro plans to seek an annulment, saying the Supreme Court changed the rules when voting was extended by two hours. In his victory speech Lula said he would work with Congress, where right-wing parties hold sway.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+   "basis": "article"
+  },
+  {
+   "id": "srb-2026-10-26-abc",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-26",
+   "added": "2026-10-26",
+   "titleIs": "Vučić viðurkennir ósigur og Studentska lista fær meirihluta á serbneska þinginu",
+   "titleEn": "Vučić concedes defeat as the Student List wins a majority in Serbia's parliament",
+   "summaryIs": "Aleksandar Vučić viðurkenndi ósigur á sunnudagskvöld eftir 14 ár við völd. Úrtakskönnun CeSID og Ipsos áætlar að Studentska lista fái 138 af 250 þingsætum og flokkur Vučić 104, og kjörsókn var nærri 70%, sú mesta frá 1992. Óljóst er hver verður forsætisráðherra, en listinn leggur áherslu á baráttu gegn spillingu og betri skóla.",
+   "summaryEn": "Aleksandar Vučić conceded defeat on Sunday evening after 14 years in power. A CeSID and Ipsos sample projects 138 of 250 seats for the Student List and 104 for Vučić's party, on a turnout of nearly 70%, the highest since 1992. It is unclear who will become prime minister, but the list is focusing on fighting corruption and improving schools.",
+   "source": "ABC News (Reuters)",
+   "url": "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808",
+   "basis": "article"
+  },
+  {
+   "id": "bgr-2026-10-25-bta",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-25",
+   "added": "2026-10-26",
+   "titleIs": "Iotova og Gyurov mætast í seinni umferð forsetakosninganna í Búlgaríu 1. nóvember",
+   "titleEn": "Iotova and Gyurov will meet in Bulgaria's presidential run-off on 1 November",
+   "summaryIs": "Iliana Iotova forseti og Andrey Gyurov urðu efst í fyrri umferðinni og kosið verður á milli þeirra 1. nóvember. Samhliða talning þriggja kannanafyrirtækja setti Iotova í fyrsta sæti en Market Links mældi Gyurov örlítið hærri. Kjörsókn var um 22% samkvæmt áætlunum og Kostadin Kostadinov úr Vazrazhdane varð langt á eftir í þriðja sæti.",
+   "summaryEn": "President Iliana Iotova and Andrey Gyurov came first and second in the first round and will face each other on 1 November. Parallel counts by three polling firms put Iotova first, while Market Links had Gyurov slightly ahead. Estimated turnout was about 22%, and Kostadin Kostadinov of Vazrazhdane finished a distant third.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/bulgaria/1232587-iotova-and-gurov-to-face-off-in-presidential-runoff-on-november-1",
+   "basis": "article"
+  },
+  {
+   "id": "bra-2026-10-26-sjonarhorn",
+   "type": "sjonarhorn",
+   "section": "kosningar",
+   "iso3": "BRA",
+   "published": "2026-10-26",
+   "added": "2026-10-26",
+   "titleIs": "Sjónarhorn: Sigur Lula í Brasilíu",
+   "titleEn": "Perspectives: Lula's victory in Brazil",
+   "summaryIs": "Al Jazeera og Fox News segja báðar frá naumum sigri Lula og deilunni um framlengdan kjörfund. Al Jazeera leggur áherslu á að Bolsonaro neiti að viðurkenna úrslitin og á ásakanir um hindranir á kjörstað, en Fox News setur úrslitin í samhengi við hægrisveiflu í Rómönsku Ameríku og íhaldssamt þing sem Lula þarf að starfa með.",
+   "summaryEn": "Al Jazeera and Fox News both report Lula's narrow win and the dispute over extended voting hours. Al Jazeera focuses on Bolsonaro's refusal to accept the result and allegations that voters were obstructed, while Fox News places the result in the context of a rightward wave in Latin America and the conservative Congress Lula must work with.",
+   "source": "Al Jazeera; Fox News",
+   "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+   "basis": "article",
+   "perspectives": [
+    {
+     "outlet": "Al Jazeera",
+     "country": "QAT",
+     "published": "2026-10-26",
+     "basis": "article",
+     "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+     "framingIs": "Ríkisfjármagnaða stöðin Al Jazeera (Katar) lýsir sigrinum sem vörn gegn öfgahægri og fjallar um höfnun Bolsonaro á úrslitunum, kröfu hans um ógildingu og ásakanir um að stöðvun strætó hafi haldið kjósendum frá.",
+     "framingEn": "State-funded broadcaster Al Jazeera (Qatar) frames the win as holding off the far right, covering Bolsonaro's rejection of the result, his call for an annulment and claims that halted public transport kept voters away."
+    },
+    {
+     "outlet": "Fox News",
+     "country": "USA",
+     "published": "2026-10-25",
+     "basis": "article",
+     "url": "https://www.foxnews.com/world/conservative-wave-hits-roadblock-brazil-lula-holds-off-bolsonaro-challenge",
+     "framingIs": "Bandaríska stöðin Fox News lýsir úrslitunum sem hindrun fyrir íhaldsbylgju í Rómönsku Ameríku. Hún bendir á að framlenging kjörfundar kunni að hafa hjálpað Lula og að hann þurfi að vinna með mjög íhaldssömu þingi.",
+     "framingEn": "US broadcaster Fox News presents the result as a roadblock for a conservative wave in Latin America. It suggests the extended voting hours may have helped Lula and notes he faces a very conservative Congress."
+    }
+   ]
+  },
+  {
    "id": "bra-2026-10-25-lanacion",
    "section": "kosningar",
    "iso3": "BRA",
