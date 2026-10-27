@@ -3,7 +3,7 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-10-26",
+  "lastReviewed": "2026-10-27",
   "elections": [
     {
       "date": "2026-11-07",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Christopher Luxon (National)",
   "leadersIs": "Christopher Luxon forsætisráðherra (Þjóðarflokkurinn)",
-  "summary": "The National, ACT and NZ First coalition seeks a second term against a Labour-led opposition, with The Opportunity Party polling above the 5% threshold. National leads Labour 32% to 27% in the 1News–Verian poll of 15–19 October, while the Post/Freshwater Strategy poll of 9–19 October had Labour narrowly ahead.",
-  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First sækist eftir öðru kjörtímabili gegn stjórnarandstöðu undir forystu Verkamannaflokksins og The Opportunity Party mælist yfir 5% þröskuldinum. Þjóðarflokkurinn mælist með 32% en Verkamannaflokkurinn 27% í könnun 1News–Verian 15.–19. október, en í könnun The Post/Freshwater Strategy 9.–19. október var Verkamannaflokkurinn naumlega efstur.",
+  "summary": "The National, ACT and NZ First coalition seeks a second term against a Labour-led opposition, with The Opportunity Party polling above the 5% threshold. In the 1News–Verian poll of 21–25 October National fell to 29% against 27% for Labour, and the right bloc's path to a majority depends on how many electorates Te Pāti Māori keeps.",
+  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First sækist eftir öðru kjörtímabili gegn stjórnarandstöðu undir forystu Verkamannaflokksins og The Opportunity Party mælist yfir 5% þröskuldinum. Í könnun 1News–Verian 21.–25. október féll Þjóðarflokkurinn í 29% en Verkamannaflokkurinn var með 27%, og hvort hægriblokkin nær meirihluta ræðst af því hve mörg kjördæmi Te Pāti Māori heldur.",
   "parties": [
     {
       "name": "National Party",
@@ -48,7 +48,7 @@
         "Lengja launað fæðingarorlof í 30 vikur"
       ],
       "seats": 48,
-      "pollValue": 32,
+      "pollValue": 29,
       "color": "#00529f"
     },
     {
@@ -112,7 +112,7 @@
         "Afnema sérstök lægri laun fyrir starfsnema og fjármagna þjálfun á vegum Maóra og Kyrrahafseyjabúa"
       ],
       "seats": 15,
-      "pollValue": 16,
+      "pollValue": 15,
       "color": "#098137"
     },
     {
@@ -143,7 +143,7 @@
         "400 milljónir dala á fjórum árum til að halda í heimilislækna og laða að erlenda lækna"
       ],
       "seats": 11,
-      "pollValue": 11,
+      "pollValue": 12,
       "color": "#fdd600"
     },
     {
@@ -174,7 +174,7 @@
         "Banna almenna sölu og einkanotkun flugelda"
       ],
       "seats": 8,
-      "pollValue": 8,
+      "pollValue": 10,
       "color": "#000000"
     },
     {
@@ -201,7 +201,7 @@
         "Bjóða fram bæði í almennum kjördæmum og kjördæmum Maóra"
       ],
       "seats": 4,
-      "pollValue": 0.7,
+      "pollValue": 0.1,
       "color": "#b2001a"
     },
     {
@@ -227,7 +227,7 @@
         "Skattur á landverð til að lækka húsnæðisverð",
         "Borgaraþing um stór málefni"
       ],
-      "pollValue": 7,
+      "pollValue": 6,
       "color": "#32dac3"
     }
   ],
@@ -236,7 +236,8 @@
     "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/",
     "https://www.interest.co.nz/public-policy/140754/national-jumps-32-labour-falls-27-latest-political-poll",
     "https://www.odt.co.nz/news/national/new-poll-puts-opportunity-and-parliament-on-a-knife-edge-uvcd9nv4",
-    "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
+    "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament",
+    "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/"
   ],
   "chamber": {
     "name": "House of Representatives",
@@ -249,11 +250,11 @@
   },
   "poll": {
     "unit": "percent",
-    "date": "2026-10-19",
-    "pollster": "1News Verian (fieldwork 15–19 Oct 2026, 1,003 voters)",
-    "pollsterIs": "1News Verian (könnun gerð 15.–19. okt. 2026, 1.003 kjósendur)",
-    "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/",
-    "note": "Undecided voters excluded (10%). Te Pāti Māori figure from interest.co.nz report of the same poll.",
-    "noteIs": "Óákveðnir kjósendur ekki taldir með (10%). Tala Te Pāti Māori úr frétt interest.co.nz um sömu könnun."
+    "date": "2026-10-25",
+    "pollster": "1News Verian (fieldwork 21–25 Oct 2026, 1,000 voters)",
+    "pollsterIs": "1News Verian (könnun gerð 21.–25. okt. 2026, 1.000 kjósendur)",
+    "url": "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/",
+    "note": "Undecided or refused (11%) excluded.",
+    "noteIs": "Óákveðnir eða þeir sem svöruðu ekki (11%) ekki taldir með."
   }
 }
