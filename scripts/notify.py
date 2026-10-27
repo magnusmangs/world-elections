@@ -13,6 +13,7 @@ import json, os, subprocess, sys, html, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.environ.get("SITE_URL", "https://world-elections.vercel.app").rstrip("/")
+SENDER = os.environ.get("BREVO_SENDER_EMAIL") or "magnusomagnusson@icloud.com"  # must be a verified Brevo sender
 KEYS = ("status", "results", "blocs", "counted", "headline")
 STATUS = {"polls-open": ("Kjörstaðir opnir", "Polls open"), "exit-poll": ("Útgönguspár", "Exit polls"),
           "counting": ("Talning stendur yfir", "Count under way"), "final": ("Lokatölur", "Final count")}
@@ -120,7 +121,7 @@ def send(subject, htmlc, list_id, dry):
         print(f"  [dry-run] list {list_id}: {subject}"); return
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     camp = brevo("/emailCampaigns", {"name": f"{subject[:60]} {stamp}", "subject": subject[:150], "htmlContent": htmlc,
-                                    "sender": {"name": os.environ.get("BREVO_SENDER_NAME", "Kosningar í heiminum"), "email": os.environ["BREVO_SENDER_EMAIL"]},
+                                    "sender": {"name": os.environ.get("BREVO_SENDER_NAME", "Kosningar í heiminum"), "email": SENDER},
                                     "recipients": {"listIds": [list_id]}})
     brevo(f"/emailCampaigns/{camp['id']}/sendNow", None)
     print(f"  sent campaign {camp['id']} to list {list_id}: {subject}")
@@ -134,7 +135,7 @@ def main():
     old = load_live(before) if before and set(before) != {"0"} else {}
     new = json.load(open(os.path.join(ROOT, "data", "live.json"), encoding="utf-8")).get("countries", {})
     lists = {"is": os.environ.get("BREVO_LIST_IS") or "3", "en": os.environ.get("BREVO_LIST_EN") or "4"}  # Brevo list IDs
-    if not (os.environ.get("BREVO_API_KEY") and os.environ.get("BREVO_SENDER_EMAIL") and any(lists.values())):
+    if not (os.environ.get("BREVO_API_KEY") and SENDER and any(lists.values())):
         print("Brevo is not configured; dry run only."); dry = True
     jobs = []
     for iso, lv in new.items():
