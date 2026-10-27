@@ -207,3 +207,22 @@ button, input { font: inherit; color: inherit; }
 .poll-bar { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; }
 .poll-maj { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink); opacity: .6; }
 .poll-val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+
+/* live election night */
+.live { margin: 18px 0 0; padding: 14px 16px; border: 2px solid var(--s1); border-radius: 10px; background: var(--surface); }
+.live.is-final { border-color: var(--rule); }
+.live-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; align-items: baseline; }
+.live-tag { display: inline-flex; align-items: center; gap: 7px; font: 700 .8rem/1 var(--text); letter-spacing: .06em; text-transform: uppercase; color: var(--s1); }
+.live.is-final .live-tag { color: var(--ink); }
+.live-tag i, .live-lede i { width: 9px; height: 9px; border-radius: 50%; background: var(--s1); animation: livepulse 1.6s ease-in-out infinite; }
+.live-lede { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--s1); }
+@keyframes livepulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { .live-tag i, .live-lede i { animation: none; } }
+.live-upd { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.live-headline { margin: 8px 0 0; font: 700 1.1rem/1.3 var(--display); }
+.live-blocs { margin-top: 12px; }
+.live-bloc-bar { position: relative; display: flex; height: 16px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
+.live-bloc-bar span { display: block; height: 100%; }
+.live-bloc-bar i { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); }
+.live-cap { font-size: .78rem; color: var(--muted); margin: 8px 0 0; }
+.live-cap a { color: var(--muted); }

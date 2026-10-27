@@ -29,3 +29,8 @@ The scheduled Claude task follows the `world-elections-update` skill. If the ski
     - `poll`: `{"unit": "percent" | "seats", "date", "pollster", "url", "note"}` plus a number `pollValue` on each party. Use one named poll, not a mix of polls. Only show a poll at most 60 days old with an accessible source; otherwise remove `poll` and the `pollValue`s. Smaller lists not in `parties` go in `note`.
     - Optional party `color` (hex), usually the party's own colour.
     Refresh `poll` for every vote in the next 30 days and in the rolling review. After a result, set `seats` to the new composition and remove `poll`.
+12. Election night (`live`). Optional block on a country file, shown at the top of its panel and in the lede. `build.py` also writes `data/live.json`, which open pages re-fetch every minute.
+    `{"status": "polls-open" | "exit-poll" | "counting" | "final", "updated": "<ISO UTC timestamp>", "headline", "headlineIs", "unit": "seats" | "percent",
+    "counted": <percent of votes counted, optional>, "sourceName", "sourceNameIs", "source": "https://...", "note", "noteIs",
+    "results": [{"abbr": "<party abbr>", "value": n}], "blocs": [{"name", "nameIs", "value", "color"}]}`.
+    Use one named source per update (an exit poll from one channel, then the official count). When the count is final, record the result in `lastElection` and remove `live`.

@@ -21,7 +21,9 @@ I18N = {
     "chamber": ["name", "asOf"],
     "poll": ["note", "pollster"],
     "lastElection": ["type", "outcome", "winner"],
+    "live": ["headline", "note", "sourceName"],
 }
+LIVE_STATUSES = {"polls-open", "exit-poll", "counting", "final"}
 
 
 def missing_is(c):
@@ -101,6 +103,22 @@ def main():
             runoff = any(re.search(r"run-?off|second round", e.get("type", ""), re.I) for e in c.get("elections", []))
             if age is not None and 0 < age <= 90 and "result" not in le and not runoff:
                 warnings.append(f"{name}: lastElection is {age} days old but has no result (new|incumbent); the map will not show it")
+        lv = c.get("live")
+        if lv is not None:
+            if lv.get("status") not in LIVE_STATUSES: errors.append(f"{name}: live.status must be one of {sorted(LIVE_STATUSES)}")
+            try: datetime.datetime.fromisoformat(str(lv.get("updated", "")).replace("Z", "+00:00"))
+            except ValueError: errors.append(f"{name}: live.updated must be an ISO timestamp")
+            if not lv.get("sourceName"): errors.append(f"{name}: live needs sourceName")
+            if lv.get("source") and not str(lv["source"]).startswith("https://"): errors.append(f"{name}: live.source must be https")
+            abbrs = {p.get("abbr") or p.get("name") for p in c.get("parties", [])}
+            for r in lv.get("results", []):
+                if not isinstance(r.get("value"), (int, float)): errors.append(f"{name}: live result {r.get('abbr')} needs a number")
+                if r.get("abbr") not in abbrs and not r.get("color"): warnings.append(f"{name}: live result {r.get('abbr')} is not a listed party (give it a color)")
+            for bl in lv.get("blocs", []):
+                if not str(bl.get("nameIs", "")).strip(): errors.append(f"{name}: missing Icelandic text live.blocs nameIs")
+            if lv.get("unit", "seats") == "seats" and c.get("chamber"):
+                tot = sum(r.get("value") or 0 for r in lv.get("results", []))
+                if tot > c["chamber"]["seats"]: errors.append(f"{name}: live seats {tot} exceed chamber")
         for m in missing_is(c):
             errors.append(f"{name}: missing Icelandic text {m}")
         if not c.get("sources"):
@@ -116,6 +134,8 @@ def main():
     out = {"updated": today, "countryCount": len(countries),
            "electionCount": sum(len(c["upcoming"]) for c in countries), "countries": countries}
     json.dump(out, open(os.path.join(ROOT, "data", "elections.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    live = {c["iso3"]: c["live"] for c in countries if c.get("live")}
+    json.dump({"countries": live}, open(os.path.join(ROOT, "data", "live.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"OK: {len(countries)} countries, {out['electionCount']} upcoming elections, updated {today}")
 
 if __name__ == "__main__":

@@ -63,12 +63,91 @@
   const resultLabel = (le) => (le.result === "new" ? L("Nýr sigurvegari", "New winner") : L("Sitjandi hélt velli", "Incumbent held on"));
   function fillFor(c) {
     if (!c) return null;
+    if (isLive(c)) return "var(--s1)";
     const r = recentResult(c);
     if (r) return resultColor(r);
     const v = nextVote(c);
     return v ? tier(v.date) : null;
   }
-  const onMap = (c) => !!(c && (recentResult(c) || nextVote(c)));
+  const onMap = (c) => !!(c && (isLive(c) || recentResult(c) || nextVote(c)));
+
+
+  // ---------- live election night ----------
+  // An optional `live` block on a country (exit polls, then the count) shown at the top of its panel.
+  // data/live.json is re-fetched every minute while any count is open, so open pages update without a reload.
+  const LIVE_POLL_MS = 60000;
+  const isLive = (c) => !!(c && c.live && c.live.status !== "final");
+  const LIVE_STATUS = {
+    "polls-open": ["Kjörstaðir opnir", "Polls open"],
+    "exit-poll": ["Útgönguspár", "Exit polls"],
+    "counting": ["Talning stendur yfir", "Count under way"],
+    "final": ["Lokatölur", "Final count"],
+  };
+  function liveTime(iso) {
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    const hm = `${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}`;
+    const day = fmt(d.toISOString().slice(0, 10), { day: "numeric", month: "long", year: "numeric" });
+    return EN ? `${hm} GMT, ${day}` : `kl. ${hm}, ${day}`;
+  }
+  function liveHtml(c) {
+    const lv = c && c.live;
+    if (!lv) return "";
+    const st = LIVE_STATUS[lv.status] || LIVE_STATUS["counting"];
+    const seatsUnit = lv.unit !== "percent";
+    const byAbbr = new Map((c.parties || []).map((p) => [p.abbr || p.name, p]));
+    const order = orderParties(c);
+    const rows = (lv.results || []).filter((r) => typeof r.value === "number").sort((a, b) => b.value - a.value);
+    const maj = c.chamber && c.chamber.majority;
+    const max = Math.max(seatsUnit ? (maj || 0) : 40, ...rows.map((r) => r.value)) || 1;
+    const fmtV = (v) => seatsUnit ? `${v}` : `${EN ? String(v) : String(v).replace(".", ",")}%`;
+    const line = seatsUnit && maj ? `<span class="poll-maj" style="left:${(maj / max) * 100}%" title="${L("Meirihluti", "Majority")}"></span>` : "";
+    const bars = rows.length ? `<ol class="poll-bars">${rows.map((r) => {
+      const p = byAbbr.get(r.abbr);
+      const name = p ? (p.abbr || T(p, "name")) : (EN ? r.abbr : (r.abbrIs || r.abbr));
+      const full = p ? T(p, "name") : name;
+      const color = p ? partyColor(p, order.indexOf(p)) : (r.color || "var(--land-line)");
+      return `<li><span class="poll-name" title="${esc(full)}">${esc(name)}</span>
+        <span class="poll-track"><span class="poll-bar" style="width:${Math.max(1, (r.value / max) * 100)}%;background:${color}"></span>${line}</span>
+        <span class="poll-val">${esc(fmtV(r.value))}</span></li>`;
+    }).join("")}</ol>` : "";
+    const blocTotal = seatsUnit && c.chamber ? c.chamber.seats : 0;
+    const blocs = (lv.blocs || []).length && blocTotal ? `<div class="live-blocs" role="img" aria-label="${esc(lv.blocs.map((b) => `${T(b, "name")} ${b.value}`).join(", "))}">
+        <div class="live-bloc-bar">${lv.blocs.map((b) => `<span style="width:${(b.value / blocTotal) * 100}%;background:${b.color || "var(--land-line)"}" title="${esc(T(b, "name"))} ${b.value}"></span>`).join("")}
+          ${maj ? `<i style="left:${(maj / blocTotal) * 100}%"></i>` : ""}</div>
+        <ul class="hemi-key">${lv.blocs.map((b) => `<li><i style="background:${b.color || "var(--land-line)"}"></i>${esc(T(b, "name"))} <b>${b.value}</b></li>`).join("")}</ul>
+      </div>` : "";
+    const counted = typeof lv.counted === "number" ? ` ${L(`${String(lv.counted).replace(".", ",")}% atkvæða talin.`, `${lv.counted}% of votes counted.`)}` : "";
+    return `<section class="live${lv.status === "final" ? " is-final" : ""}" aria-live="polite">
+      <div class="live-head"><span class="live-tag">${lv.status === "final" ? "" : "<i></i>"}${esc(L(st[0], st[1]))}</span>
+        <span class="live-upd">${L("Uppfært", "Updated")} ${esc(liveTime(lv.updated))}</span></div>
+      ${lv.headline ? `<p class="live-headline">${esc(T(lv, "headline"))}</p>` : ""}
+      ${blocs}
+      ${bars}
+      <p class="live-cap">${rows.length ? (seatsUnit ? L("Sæti", "Seats") : L("Fylgi", "Vote share")) + ", " : ""}${esc(T(lv, "sourceName"))}.${counted}${lv.note ? " " + esc(T(lv, "note")) : ""}${lv.source ? ` <a href="${esc(lv.source)}" target="_blank" rel="noopener">${L("Heimild", "Source")}</a>` : ""}
+        ${lv.status === "final" ? "" : L(" Síðan uppfærist sjálfkrafa.", " This page refreshes on its own.")}</p>
+    </section>`;
+  }
+  function startLivePolling() {
+    let last = null;
+    const tick = () => fetch("data/live.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).then((j) => {
+      if (!j || !j.countries) return;
+      const sig = JSON.stringify(j.countries);
+      if (sig === last) return;
+      last = sig;
+      for (const [iso, lv] of Object.entries(j.countries)) {
+        const c = state.byIso3.get(iso);
+        if (c) c.live = lv;
+      }
+      renderLede();
+      highlight();
+      const box = document.getElementById("live-box");
+      const c = state.active && state.byNumeric.get(state.active);
+      if (box && c) box.innerHTML = liveHtml(c);
+    }).catch(() => {});
+    setInterval(() => { if (document.visibilityState !== "hidden" && state.data.countries.some(isLive)) tick(); }, LIVE_POLL_MS);
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && state.data.countries.some(isLive)) tick(); });
+  }
 
   // ---------- political spectrum ----------
   const SPECTRUM = [
@@ -238,6 +317,7 @@
           : (c.noParties ? "" : `<p class="no-parties">${L("Upplýsingar um flokka liggja ekki fyrir enn.", "Party information is not available yet.")}</p>`));
       body.innerHTML = `<h2 id="panel-title">${esc(cname(c))}</h2>
         <p class="leaders">${esc(T(c, "leaders"))}</p>
+        <div id="live-box">${liveHtml(c)}</div>
         ${result}
         ${votes}
         <p class="summary">${esc(T(c, "summary"))}</p>
@@ -384,7 +464,7 @@
   // ---------- lede ----------
   function renderLede() {
     const all = state.data.countries.flatMap((c) => (c.upcoming || []).map((e) => ({ c, e })))
-      .filter((x) => x.e.dateStatus !== "expected").sort((a, b) => a.e.date.localeCompare(b.e.date));
+      .filter((x) => x.e.dateStatus !== "expected" && !isLive(x.c)).sort((a, b) => a.e.date.localeCompare(b.e.date));
     const total = state.data.countries.reduce((n, c) => n + (c.upcoming || []).length, 0);
     const nC = state.data.countries.filter((c) => (c.upcoming || []).length).length;
     let text = L(`<strong>${total} þjóðarkosningar</strong> í ${nC} löndum á næsta ári. Veldu land til að sjá hverjir bjóða fram og fyrir hvað þeir standa.`,
@@ -395,6 +475,10 @@
       const names = same.map((x) => `<button type="button" data-iso="${x.c.iso3}">${esc(cname(x.c))}</button>`);
       const joined = names.length > 1 ? names.slice(0, -1).join(", ") + L(" og ", " and ") + names.at(-1) : names[0];
       text = `${L("Næst", "Next up")}: ${joined}, ${esc(countdown(same[0].e).toLowerCase())}. ` + text;
+    }
+    const live = state.data.countries.filter(isLive);
+    if (live.length) {
+      text = live.map((c) => `<span class="live-lede"><i></i>${L("Í beinni", "Live")}:</span> <button type="button" data-iso="${c.iso3}">${esc(cname(c))}</button>, ${esc(L(...(LIVE_STATUS[c.live.status] || LIVE_STATUS.counting)).toLowerCase())}. `).join("") + text;
     }
     $("lede").innerHTML = text;
     $("lede").onclick = (e) => { const b = e.target.closest("button[data-iso]"); if (b) openPanel(state.byIso3.get(b.dataset.iso)); };
@@ -420,6 +504,7 @@
     renderLede();
     renderCalendar();
     renderMap(world);
+    startLivePolling();
     let t; window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => renderMap(world), 200); });
     const hash = location.hash.slice(1).toUpperCase();
     if (hash && state.byIso3.has(hash)) openPanel(state.byIso3.get(hash));
