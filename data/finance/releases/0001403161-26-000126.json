@@ -1,0 +1,92 @@
+{
+ "accession": "0001403161-26-000126",
+ "ticker": "V",
+ "exhibit": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+ "model": "claude (scheduled session)",
+ "processed": "2026-10-27T21:49Z",
+ "verified": [
+  {
+   "metric": "revenue",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "12,139",
+   "multiplier": 1000000,
+   "value": 12139000000,
+   "quote": "Net revenue $12,139 $10,724 $45,903 $40,000"
+  },
+  {
+   "metric": "revenue",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "10,724",
+   "multiplier": 1000000,
+   "value": 10724000000,
+   "quote": "Net revenue $12,139 $10,724 $45,903 $40,000"
+  },
+  {
+   "metric": "operatingIncome",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "7,262",
+   "multiplier": 1000000,
+   "value": 7262000000,
+   "quote": "Operating income 7,262 6,148 28,110 23,994"
+  },
+  {
+   "metric": "operatingIncome",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "6,148",
+   "multiplier": 1000000,
+   "value": 6148000000,
+   "quote": "Operating income 7,262 6,148 28,110 23,994"
+  },
+  {
+   "metric": "netIncome",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "6,002",
+   "multiplier": 1000000,
+   "value": 6002000000,
+   "quote": "Net income $6,002 $5,090 $23,504 $20,058"
+  },
+  {
+   "metric": "netIncome",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "5,090",
+   "multiplier": 1000000,
+   "value": 5090000000,
+   "quote": "Net income $6,002 $5,090 $23,504 $20,058"
+  },
+  {
+   "metric": "eps",
+   "period": "current",
+   "basis": "GAAP",
+   "as_written": "3.19",
+   "multiplier": 1,
+   "value": 3.19,
+   "quote": "Diluted Earnings Per Share Class A common stock $3.19 $2.62 $12.32 $10.20"
+  },
+  {
+   "metric": "eps",
+   "period": "prior_year",
+   "basis": "GAAP",
+   "as_written": "2.62",
+   "multiplier": 1,
+   "value": 2.62,
+   "quote": "Diluted Earnings Per Share Class A common stock $3.19 $2.62 $12.32 $10.20"
+  }
+ ],
+ "rejected": [],
+ "result": {
+  "periodEnd": "2026-09-30",
+  "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Visa 12,1 ma. USD (1.485 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 13,2% frá sama tíma í fyrra. Hagnaður nam 6,0 ma. USD (734 ma. kr.), aukning um 17,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 3,19 USD. Visa segir að tekjuvöxtur ársfjórðungsins hafi verið drifinn áfram af auknu greiðslumagni, auknu greiðslumagni milli landa og fleiri færslum sem fyrirtækið vann úr. Tekjur af gagnavinnslu, alþjóðlegum færslum og öðrum þáttum jukust frá sama tíma í fyrra. Rekstrarkostnaður jókst einkum vegna hærri almenns og stjórnunarkostnaðar, og uppgjörið var litað af sérstökum liðum tengdum málaferlum og framlagi til Visa Foundation. Stjórn félagsins samþykkti hækkun á ársfjórðungslegum arði og Visa hefur samið um kaup á svikavarnafyrirtækinu BioCatch.",
+  "basis": {
+   "revenue": "GAAP",
+   "operatingIncome": "GAAP",
+   "netIncome": "GAAP",
+   "eps": "GAAP"
+  }
+ }
+}

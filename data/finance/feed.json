@@ -7,14 +7,20 @@
    "form": "8-K",
    "kind": "Afkomutilkynning",
    "filed": "2026-10-27",
-   "periodEnd": "2026-10-27",
+   "periodEnd": "2026-09-30",
    "accession": "0001403161-26-000126",
    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm",
    "headlineIs": "Visa birtir afkomutilkynningu",
-   "summaryIs": "Fréttatilkynning um afkomu var birt hjá SEC. Staðfestar tölur úr uppgjörinu birtast hér þegar fyrirtækið skilar formlegu uppgjöri (10-Q eða 10-K).",
+   "summaryIs": "Samkvæmt afkomutilkynningu námu tekjur Visa 12,1 ma. USD (1.485 ma. kr.) á ársfjórðungnum sem lauk 30. september 2026, aukning um 13,2% frá sama tíma í fyrra. Hagnaður nam 6,0 ma. USD (734 ma. kr.), aukning um 17,9% frá sama tíma í fyrra. Þynntur hagnaður á hlut var 3,19 USD. Visa segir að tekjuvöxtur ársfjórðungsins hafi verið drifinn áfram af auknu greiðslumagni, auknu greiðslumagni milli landa og fleiri færslum sem fyrirtækið vann úr. Tekjur af gagnavinnslu, alþjóðlegum færslum og öðrum þáttum jukust frá sama tíma í fyrra. Rekstrarkostnaður jókst einkum vegna hærri almenns og stjórnunarkostnaðar, og uppgjörið var litað af sérstökum liðum tengdum málaferlum og framlagi til Visa Foundation. Stjórn félagsins samþykkti hækkun á ársfjórðungslegum arði og Visa hefur samið um kaup á svikavarnafyrirtækinu BioCatch.",
    "headlineEn": "Visa publishes an earnings release",
-   "summaryEn": "An earnings press release was filed with the SEC. Confirmed figures appear here once the company files its formal report (10-Q or 10-K).",
-   "kindEn": "Earnings release"
+   "summaryEn": "According to its earnings release, Visa had revenue of $12.1 billion for the quarter ended 30 September 2026, up 13.2% from a year earlier. Net income was $6.0 billion, up 17.9% from a year earlier. Diluted earnings per share were $3.19.",
+   "kindEn": "Earnings release",
+   "ai": {
+    "status": "verified",
+    "label": "Unnið sjálfvirkt með gervigreind úr afkomutilkynningu. Allar tölur eru sannreyndar orðrétt gegn frumtextanum.",
+    "exhibit": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+    "rejected": 0
+   }
   },
   {
    "ticker": "TSLA",
