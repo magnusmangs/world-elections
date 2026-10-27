@@ -9,7 +9,7 @@ per language list. When `live` is removed and `lastElection` holds the result, i
 Env: BREVO_API_KEY, BREVO_LIST_IS, BREVO_LIST_EN, BREVO_SENDER_EMAIL, optional BREVO_SENDER_NAME, SITE_URL.
 Without the key or lists it prints what it would send and exits 0, so pushes never fail on it.
 """
-import json, os, subprocess, sys, html, datetime, urllib.request
+import json, os, subprocess, sys, html, datetime, urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.environ.get("SITE_URL", "https://world-elections.vercel.app").rstrip("/")
@@ -80,7 +80,9 @@ def live_email(c, lv, en):
     if lv.get("note"):
         cap += " " + T(lv, "note", en)
     body += f'<p style="font-size:13px;color:#586472">{html.escape(cap)}<br>{"Updated" if en else "Uppfært"} {html.escape(when(lv["updated"], en))}.</p>'
-    subject = f"{name}: {st.lower() if not en else st}" + (f" ({T(lv, 'headline', en)[:80]})" if lv.get("headline") else "")
+    subject = f"{name}: {st.lower() if not en else st.lower()}"
+    if isinstance(lv.get("counted"), (int, float)):
+        subject += f", {num(lv['counted'], en)}% {'counted' if en else 'talin'}"
     return subject, body
 
 
@@ -108,17 +110,23 @@ def wrap(body, iso, en):
             f'</div></body></html>')
 
 
-def brevo(path, payload):
-    req = urllib.request.Request("https://api.brevo.com/v3" + path, data=json.dumps(payload).encode() if payload is not None else b"",
-                                 method="POST", headers={"api-key": os.environ["BREVO_API_KEY"], "content-type": "application/json", "accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        txt = r.read().decode()
-        return json.loads(txt) if txt else {}
+def brevo(path, payload, method="POST"):
+    req = urllib.request.Request("https://api.brevo.com/v3" + path, data=(json.dumps(payload).encode() if payload is not None else b"") if method == "POST" else None,
+                                 method=method, headers={"api-key": os.environ["BREVO_API_KEY"], "content-type": "application/json", "accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            txt = r.read().decode()
+            return json.loads(txt) if txt else {}
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"{e.code} {e.read().decode()[:300]}")
 
 
 def send(subject, htmlc, list_id, dry):
     if dry:
         print(f"  [dry-run] list {list_id}: {subject}"); return
+    size = brevo(f"/contacts/lists/{list_id}", None, "GET")
+    if not (size.get("uniqueSubscribers") or size.get("totalSubscribers")):
+        print(f"  list {list_id} has no subscribers; skipped"); return
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     camp = brevo("/emailCampaigns", {"name": f"{subject[:60]} {stamp}", "subject": subject[:150], "htmlContent": htmlc,
                                     "sender": {"name": (os.environ.get("BREVO_SENDER_NAME") or "Kosningar í heiminum"), "email": SENDER},
