@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-22T12:08Z",
+ "updated": "2026-10-27T20:09Z",
  "items": [
+  {
+   "ticker": "V",
+   "name": "Visa",
+   "form": "8-K",
+   "kind": "Afkomutilkynning",
+   "filed": "2026-10-27",
+   "periodEnd": "2026-10-27",
+   "accession": "0001403161-26-000126",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm",
+   "headlineIs": "Visa birtir afkomutilkynningu",
+   "summaryIs": "Fréttatilkynning um afkomu var birt hjá SEC. Staðfestar tölur úr uppgjörinu birtast hér þegar fyrirtækið skilar formlegu uppgjöri (10-Q eða 10-K).",
+   "headlineEn": "Visa publishes an earnings release",
+   "summaryEn": "An earnings press release was filed with the SEC. Confirmed figures appear here once the company files its formal report (10-Q or 10-K).",
+   "kindEn": "Earnings release"
+  },
   {
    "ticker": "TSLA",
    "name": "Tesla",

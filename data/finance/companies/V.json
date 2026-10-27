@@ -329,8 +329,17 @@
   "operatingCashFlow": 22756000000,
   "capex": 1571000000
  },
- "summaryIs": "Tekjur Visa námu 11,2 ma. USD (1.369 ma. kr.) á ársfjórðungnum sem lauk 31. mars 2026, aukning um 17,1% frá sama tíma í fyrra. Hagnaður nam 6,0 ma. USD (734 ma. kr.), aukning um 31,5% frá sama tíma í fyrra. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 2,6 ma. USD (320 ma. kr.).",
+ "summaryIs": "Tekjur Visa námu 11,2 ma. USD (1.374 ma. kr.) á ársfjórðungnum sem lauk 31. mars 2026, aukning um 17,1% frá sama tíma í fyrra. Hagnaður nam 6,0 ma. USD (737 ma. kr.), aukning um 31,5% frá sama tíma í fyrra. Frjálst sjóðstreymi (handbært fé frá rekstri að frádreginni fjárfestingu) var 2,6 ma. USD (321 ma. kr.).",
  "filings": [
+  {
+   "form": "8-K",
+   "filed": "2026-10-27",
+   "accession": "0001403161-26-000126",
+   "reportDate": "2026-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm",
+   "kind": "Afkomutilkynning",
+   "kindEn": "Earnings release"
+  },
   {
    "form": "10-Q",
    "filed": "2026-07-29",
@@ -393,15 +402,6 @@
    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
    "kind": "Ársskýrsla",
    "kindEn": "Annual report"
-  },
-  {
-   "form": "8-K",
-   "filed": "2025-10-28",
-   "accession": "0001403161-25-000077",
-   "reportDate": "2025-10-28",
-   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/v-20251028.htm",
-   "kind": "Afkomutilkynning",
-   "kindEn": "Earnings release"
   }
  ],
  "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001403161",
