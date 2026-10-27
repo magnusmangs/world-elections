@@ -133,7 +133,7 @@ def main():
     dry = "--dry-run" in sys.argv
     old = load_live(before) if before and set(before) != {"0"} else {}
     new = json.load(open(os.path.join(ROOT, "data", "live.json"), encoding="utf-8")).get("countries", {})
-    lists = {"is": os.environ.get("BREVO_LIST_IS"), "en": os.environ.get("BREVO_LIST_EN")}
+    lists = {"is": os.environ.get("BREVO_LIST_IS") or "3", "en": os.environ.get("BREVO_LIST_EN") or "4"}  # Brevo list IDs
     if not (os.environ.get("BREVO_API_KEY") and os.environ.get("BREVO_SENDER_EMAIL") and any(lists.values())):
         print("Brevo is not configured; dry run only."); dry = True
     jobs = []

@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
   if (rateLimited(ip)) return res.status(429).json({ error: L("Of margar tilraunir. Reyndu aftur síðar.", "Too many attempts. Please try again later.") });
 
   const key = process.env.BREVO_API_KEY;
-  const listId = Number(en ? process.env.BREVO_LIST_EN : process.env.BREVO_LIST_IS);
+  const listId = Number(en ? (process.env.BREVO_LIST_EN || 4) : (process.env.BREVO_LIST_IS || 3)); // Brevo list IDs
   if (!key || !listId) return res.status(503).json({ error: L("Póstlistinn er ekki tilbúinn enn.", "The mailing list is not set up yet.") });
 
   const doi = Number(process.env.BREVO_DOI_TEMPLATE_ID || 0);
