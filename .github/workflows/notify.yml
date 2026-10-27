@@ -1,0 +1,29 @@
+name: Election-night email alerts
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/countries/**"]
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - name: Build live data
+        run: python3 scripts/build.py --today "$(date -u +%F)"
+      - name: Email subscribers about changed live results
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_IS: ${{ vars.BREVO_LIST_IS }}
+          BREVO_LIST_EN: ${{ vars.BREVO_LIST_EN }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          BREVO_SENDER_NAME: ${{ vars.BREVO_SENDER_NAME }}
+        run: python3 scripts/notify.py "${{ github.event.before }}"

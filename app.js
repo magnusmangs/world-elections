@@ -128,6 +128,41 @@
         ${lv.status === "final" ? "" : L(" Síðan uppfærist sjálfkrafa.", " This page refreshes on its own.")}</p>
     </section>`;
   }
+
+  // ---------- email alerts (Brevo via /api/subscribe) ----------
+  let subN = 0;
+  function subscribeHtml(compact) {
+    const id = `sub-${++subN}`;
+    return `<form class="subscribe${compact ? " compact" : ""}" novalidate>
+      ${compact ? `<p class="sub-lead">${L("Fáðu nýjar tölur í tölvupósti um leið og þær berast.", "Get new figures by email as they come in.")}</p>`
+        : `<h3>${L("Kosningavaktin í tölvupósti", "Election alerts by email")}</h3><p class="sub-lead">${L("Á kosninganóttum sendum við útgönguspár og nýjar tölur jafnóðum og þær birtast hér á síðunni.", "On election nights we email exit polls and new figures as they are posted on this site.")}</p>`}
+      <div class="sub-row">
+        <label class="visually-hidden" for="${id}">${L("Netfang", "Email address")}</label>
+        <input id="${id}" type="email" name="email" required autocomplete="email" placeholder="${L("netfang@daemi.is", "you@example.com")}">
+        <button type="submit">${L("Skrá mig", "Sign up")}</button>
+      </div>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" class="sub-hp" aria-hidden="true">
+      <label class="sub-consent"><input type="checkbox" name="consent"> ${L("Ég samþykki að fá tölvupóst um kosningar. Netfangið er geymt hjá Brevo og hægt er að afskrá sig með einum smelli í hverjum pósti.", "I agree to receive election emails. The address is stored with Brevo and every email has a one-click unsubscribe link.")}</label>
+      <p class="sub-msg" role="status"></p>
+    </form>`;
+  }
+  document.addEventListener("submit", (ev) => {
+    const f = ev.target.closest("form.subscribe");
+    if (!f) return;
+    ev.preventDefault();
+    const msg = f.querySelector(".sub-msg"), btn = f.querySelector("button");
+    const email = f.email.value.trim();
+    if (!f.consent.checked) { msg.textContent = L("Hakaðu við samþykkið til að skrá þig.", "Tick the consent box to sign up."); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { msg.textContent = L("Netfangið virðist ekki rétt.", "That email address does not look right."); return; }
+    btn.disabled = true; msg.textContent = L("Augnablik…", "One moment…");
+    fetch("/api/subscribe", { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ email, consent: true, lang: EN ? "en" : "is", website: f.website.value }) })
+      .then((r) => r.json().catch(() => ({})).then((j) => ({ ok: r.ok, j })))
+      .then(({ ok, j }) => { msg.textContent = ok ? j.message : (j.error || L("Ekki tókst að skrá þig.", "Sign-up failed.")); if (ok) f.reset(); })
+      .catch(() => { msg.textContent = L("Ekki tókst að skrá þig. Reyndu aftur síðar.", "Sign-up failed. Please try again later."); })
+      .finally(() => { btn.disabled = false; });
+  });
+
   function startLivePolling() {
     let last = null;
     const tick = () => fetch("data/live.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).then((j) => {
@@ -318,6 +353,7 @@
       body.innerHTML = `<h2 id="panel-title">${esc(cname(c))}</h2>
         <p class="leaders">${esc(T(c, "leaders"))}</p>
         <div id="live-box">${liveHtml(c)}</div>
+        ${isLive(c) ? subscribeHtml(true) : ""}
         ${result}
         ${votes}
         <p class="summary">${esc(T(c, "summary"))}</p>
@@ -483,6 +519,7 @@
     $("lede").innerHTML = text;
     $("lede").onclick = (e) => { const b = e.target.closest("button[data-iso]"); if (b) openPanel(state.byIso3.get(b.dataset.iso)); };
     const upd = fmt(state.data.updated, { day: "numeric", month: "long", year: "numeric" });
+    if (!document.getElementById("subscribe-main")) $("fineprint").insertAdjacentHTML("beforebegin", `<div id="subscribe-main">${subscribeHtml(false)}</div>`);
     $("fineprint").textContent = L(`Gögn síðast uppfærð ${upd}. Nær til forseta- og þingkosninga á landsvísu. Samantektir um flokka eru skrifaðar með aðstoð gervigreindar upp úr opinberum heimildum sem vísað er í fyrir hvert land og eru uppfærðar vikulega.`,
       `Data last updated ${upd}. Covers national presidential, parliamentary and legislative elections. Party summaries are written with AI assistance from public sources linked in each country, and are refreshed weekly.`);
   }
@@ -506,6 +543,10 @@
     renderMap(world);
     startLivePolling();
     let t; window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => renderMap(world), 200); });
+    if (/[?&]skraning=stadfest/.test(location.search)) {
+      const m = document.querySelector("#subscribe-main .sub-msg");
+      if (m) { m.textContent = L("Takk, netfangið er staðfest. Þú ert á listanum.", "Thanks, your address is confirmed. You are on the list."); document.getElementById("subscribe-main").scrollIntoView(); }
+    }
     const hash = location.hash.slice(1).toUpperCase();
     if (hash && state.byIso3.has(hash)) openPanel(state.byIso3.get(hash));
   }).catch((err) => {

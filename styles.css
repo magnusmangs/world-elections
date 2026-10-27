@@ -226,3 +226,18 @@ button, input { font: inherit; color: inherit; }
 .live-bloc-bar i { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); }
 .live-cap { font-size: .78rem; color: var(--muted); margin: 8px 0 0; }
 .live-cap a { color: var(--muted); }
+
+/* email alerts */
+.subscribe { margin: 32px 0 0; max-width: 34rem; }
+.subscribe.compact { margin: 10px 0 0; padding: 12px 16px; background: var(--surface-2); border-radius: 10px; }
+.subscribe h3 { margin: 0 0 4px; }
+.sub-lead { margin: 0 0 10px; font-size: .92rem; color: var(--muted); }
+.sub-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.sub-row input { flex: 1 1 14rem; min-width: 0; padding: 9px 12px; font: inherit; border: 1px solid var(--land-line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.sub-row button { padding: 9px 16px; font: 600 .95rem var(--text); border: 0; border-radius: 8px; background: var(--s1); color: #fff; cursor: pointer; }
+.sub-row button:disabled { opacity: .6; cursor: default; }
+.sub-row input:focus-visible, .sub-row button:focus-visible, .sub-consent input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.sub-consent { display: flex; gap: 8px; align-items: flex-start; margin-top: 8px; font-size: .8rem; color: var(--muted); }
+.sub-consent input { margin-top: 2px; }
+.sub-msg { margin: 6px 0 0; font-size: .85rem; font-weight: 600; min-height: 1em; }
+.sub-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
