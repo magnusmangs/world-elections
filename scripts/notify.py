@@ -121,7 +121,7 @@ def send(subject, htmlc, list_id, dry):
         print(f"  [dry-run] list {list_id}: {subject}"); return
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     camp = brevo("/emailCampaigns", {"name": f"{subject[:60]} {stamp}", "subject": subject[:150], "htmlContent": htmlc,
-                                    "sender": {"name": os.environ.get("BREVO_SENDER_NAME", "Kosningar í heiminum"), "email": SENDER},
+                                    "sender": {"name": (os.environ.get("BREVO_SENDER_NAME") or "Kosningar í heiminum"), "email": SENDER},
                                     "recipients": {"listIds": [list_id]}})
     brevo(f"/emailCampaigns/{camp['id']}/sendNow", None)
     print(f"  sent campaign {camp['id']} to list {list_id}: {subject}")
