@@ -19,7 +19,7 @@ English in `data-en` attributes; scripts use `window.LANG`. Data carries both la
 
 ## Fjármál (finance)
 
-Removed on 28 October 2026 to focus on elections. Everything (page, SEC pipeline, workflow, data) is kept at the git tag `finance-archive-2026-10-28`. Restore with `git checkout finance-archive-2026-10-28 -- <paths>`.
+Removed on 28 October 2026 to focus on elections. Everything (page, SEC pipeline, workflow, data) is kept on the branch `finance-archive`. Restore with `git checkout origin/finance-archive -- <paths>`.
 
 ## Fréttir (news)
 
