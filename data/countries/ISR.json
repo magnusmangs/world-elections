@@ -411,23 +411,23 @@
   },
   "live": {
     "status": "exit-poll",
-    "updated": "2026-10-27T23:50:00Z",
-    "headline": "Channel 12 exit poll: Likud 24, Yashar 22. Neither bloc reaches 61: the opposition bloc has 52, Netanyahu's bloc 50 and Arab-led parties a record 18.",
-    "headlineIs": "Útgönguspá Channel 12: Likud 24, Yashar 22. Hvorug blokkin nær 61: blokk stjórnarandstöðunnar fær 52, blokk Netanyahus 50 og flokkar undir forystu araba metfjölda, 18.",
+    "updated": "2026-10-28T02:20:00Z",
+    "headline": "Updated Channel 12 exit poll: Netanyahu's bloc rises to 52 and overtakes the opposition bloc on 49, still short of 61. Likud 27, Yashar 21. Netanyahu says he will form a right-wing government.",
+    "headlineIs": "Uppfærð útgönguspá Channel 12: blokk Netanyahus fer upp í 52 og fer fram úr blokk stjórnarandstöðunnar með 49, en nær ekki 61. Likud 27, Yashar 21. Netanyahu segist ætla að mynda hægristjórn.",
     "unit": "seats",
-    "sourceName": "Channel 12 exit poll, 22:00 local time, as reported by Ynet and the Times of Israel",
-    "sourceNameIs": "Útgönguspá Channel 12 kl. 22 að staðartíma, samkvæmt Ynet og Times of Israel",
-    "source": "https://www.ynetnews.com/article/skd97fc2gl",
-    "note": "Otzma Yehudit's 7 seats follow from Channel 12's bloc total of 50. Channel 13: Likud 25, Yashar 23, Together 14; opposition bloc 53, Netanyahu bloc 50, Arab-led parties 17. Kan: Likud 25, Yashar 21, Together 14; Eisenkot bloc 53, Netanyahu bloc 50, Arab-led parties 17. Below the 3.25% threshold: Reservists, Amcha Yisrael and Haredi Public. Turnout was 74.3% at 20:00 local time (5.45 million votes), the Central Elections Committee says. The official count is under way; more than 650,000 double-envelope ballots are counted separately, possibly until Friday.",
-    "noteIs": "7 sæti Otzma Yehudit leiða af heildartölu Channel 12 fyrir blokk Netanyahus (50). Channel 13: Likud 25, Yashar 23, Beyachad 14; blokk stjórnarandstöðunnar 53, blokk Netanyahus 50, flokkar undir forystu araba 17. Kan: Likud 25, Yashar 21, Beyachad 14; blokk Eisenkot 53, blokk Netanyahus 50, flokkar undir forystu araba 17. Undir 3,25% þröskuldi: HaMiluimnikim, Amcha Yisrael og Haredi Public. Kjörsókn var 74,3% kl. 20 að staðartíma (5,45 milljónir atkvæða) samkvæmt yfirkjörstjórn. Opinber talning stendur yfir; yfir 650.000 utankjörfundaratkvæði í tvöföldu umslagi eru talin sér og talning þeirra gæti staðið fram á föstudag.",
+    "sourceName": "Updated Channel 12 exit poll, 02:17 local time, as reported by the Times of Israel",
+    "sourceNameIs": "Uppfærð útgönguspá Channel 12 kl. 2:17 að staðartíma, samkvæmt Times of Israel",
+    "source": "https://www.timesofisrael.com/liveblog_entry/channel-12-updates-exit-poll-pro-netanyahu-bloc-rises-to-52-seats",
+    "note": "United Torah Judaism, Religious Zionism and Otzma Yehudit hold 18 seats together; the split was not published. Channel 13's update also moved Likud up to 27 and its pro-Netanyahu bloc to 51. The official count had reached only 0.27% of votes at 01:00 local time; more than 650,000 double-envelope ballots are counted separately, possibly until Friday. Turnout was 74.3%.",
+    "noteIs": "Yahadut HaTorah, HaTzionut HaDatit og Otzma Yehudit hafa samtals 18 sæti; skiptingin var ekki birt. Uppfærsla Channel 13 færði Likud einnig upp í 27 og blokk Netanyahus í 51. Opinber talning náði aðeins til 0,27% atkvæða kl. 1 að staðartíma; yfir 650.000 utankjörfundaratkvæði í tvöföldu umslagi eru talin sér, mögulega fram á föstudag. Kjörsókn var 74,3%.",
     "results": [
       {
         "abbr": "Likud",
-        "value": 24
+        "value": 27
       },
       {
         "abbr": "Yashar",
-        "value": 22
+        "value": 21
       },
       {
         "abbr": "Together",
@@ -435,7 +435,7 @@
       },
       {
         "abbr": "JL",
-        "value": 11
+        "value": 12
       },
       {
         "abbr": "Dem",
@@ -443,46 +443,34 @@
       },
       {
         "abbr": "YB",
-        "value": 9
-      },
-      {
-        "abbr": "Ra'am",
-        "value": 7
-      },
-      {
-        "abbr": "UTJ",
-        "value": 7
-      },
-      {
-        "abbr": "Otzma",
         "value": 7
       },
       {
         "abbr": "Shas",
-        "value": 6
+        "value": 7
       },
       {
-        "abbr": "RZP",
-        "value": 6
+        "abbr": "Ra'am",
+        "value": 7
       }
     ],
     "blocs": [
       {
-        "name": "Opposition bloc",
-        "nameIs": "Blokk stjórnarandstöðunnar",
-        "value": 52,
-        "color": "#2a9fd6"
-      },
-      {
         "name": "Netanyahu bloc",
         "nameIs": "Blokk Netanyahus",
-        "value": 50,
+        "value": 52,
         "color": "#1f4e9c"
+      },
+      {
+        "name": "Opposition bloc",
+        "nameIs": "Blokk stjórnarandstöðunnar",
+        "value": 49,
+        "color": "#2a9fd6"
       },
       {
         "name": "Arab-led parties",
         "nameIs": "Flokkar undir forystu araba",
-        "value": 18,
+        "value": 19,
         "color": "#2e8b57"
       }
     ]
