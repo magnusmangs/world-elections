@@ -3,7 +3,7 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-10-27",
+  "lastReviewed": "2026-10-28",
   "elections": [
     {
       "date": "2026-11-07",
@@ -31,8 +31,8 @@
       "inGovernment": true,
       "lastResult": "38.1%, 48 seats (2023)",
       "lastResultIs": "38,1%, 48 þingsæti (2023)",
-      "polling": "32% (1News–Verian, Oct 2026)",
-      "pollingIs": "32% (1News–Verian, okt. 2026)",
+      "polling": "29% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "29% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Raise default KiwiSaver contributions from 3% to 6% by 2032",
         "Make KiwiSaver compulsory and auto-enrol newborns",
@@ -63,8 +63,8 @@
       "inGovernment": false,
       "lastResult": "26.9%, 34 seats (2023)",
       "lastResultIs": "26,9%, 34 þingsæti (2023)",
-      "polling": "27% (1News–Verian, Oct 2026)",
-      "pollingIs": "27% (1News–Verian, okt. 2026)",
+      "polling": "27% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "27% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Repeal the Regulatory Standards Act within 100 days",
         "Cap public transport fares at $20 a week in major cities",
@@ -95,8 +95,8 @@
       "inGovernment": false,
       "lastResult": "11.6%, 15 seats (2023)",
       "lastResultIs": "11,6%, 15 þingsæti (2023)",
-      "polling": "16% (1News–Verian, Oct 2026)",
-      "pollingIs": "16% (1News–Verian, okt. 2026)",
+      "polling": "15% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "15% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Wealth tax, inheritance tax and higher corporate tax",
         "Build 40,000 social homes in five years",
@@ -126,8 +126,8 @@
       "inGovernment": true,
       "lastResult": "8.6%, 11 seats (2023)",
       "lastResultIs": "8,6%, 11 þingsæti (2023)",
-      "polling": "11% (1News–Verian, Oct 2026)",
-      "pollingIs": "11% (1News–Verian, okt. 2026)",
+      "polling": "12% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "12% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Cut government spending and merge ministries",
         "Deport serious non-citizen offenders",
@@ -157,8 +157,8 @@
       "inGovernment": true,
       "lastResult": "6.1%, 8 seats (2023)",
       "lastResultIs": "6,1%, 8 þingsæti (2023)",
-      "polling": "8% (1News–Verian, Oct 2026)",
-      "pollingIs": "8% (1News–Verian, okt. 2026)",
+      "polling": "10% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "10% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Break up energy companies to cut power prices",
         "Split Foodstuffs into two nationwide cooperatives to compete with Woolworths",
@@ -188,8 +188,8 @@
       "inGovernment": false,
       "lastResult": "3.1%, 6 seats (2023)",
       "lastResultIs": "3,1%, 6 þingsæti (2023)",
-      "polling": "0.7% (1News–Verian, Oct 2026)",
-      "pollingIs": "0,7% (1News–Verian, okt. 2026)",
+      "polling": "0.1% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "0,1% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Abolish prisons by 2040 in favour of community solutions",
         "Parliamentary Commissioner for Te Tiriti with veto powers",
@@ -215,8 +215,8 @@
       "inGovernment": false,
       "lastResult": "2.2%, 0 seats (2023)",
       "lastResultIs": "2,2%, 0 þingsæti (2023)",
-      "polling": "7% (1News–Verian, Oct 2026)",
-      "pollingIs": "7% (1News–Verian, okt. 2026)",
+      "polling": "6% (1News–Verian, 21–25 Oct 2026)",
+      "pollingIs": "6% (1News–Verian, 21.–25. okt. 2026)",
       "policies": [
         "Replace welfare with a means-tested citizen's income",
         "Land value tax to bring down house prices",
@@ -237,7 +237,7 @@
     "https://www.interest.co.nz/public-policy/140754/national-jumps-32-labour-falls-27-latest-political-poll",
     "https://www.odt.co.nz/news/national/new-poll-puts-opportunity-and-parliament-on-a-knife-edge-uvcd9nv4",
     "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament",
-    "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/"
+    "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-amid-gangs-row/"
   ],
   "chamber": {
     "name": "House of Representatives",
@@ -253,7 +253,7 @@
     "date": "2026-10-25",
     "pollster": "1News Verian (fieldwork 21–25 Oct 2026, 1,000 voters)",
     "pollsterIs": "1News Verian (könnun gerð 21.–25. okt. 2026, 1.000 kjósendur)",
-    "url": "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/",
+    "url": "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-amid-gangs-row/",
     "note": "Undecided or refused (11%) excluded.",
     "noteIs": "Óákveðnir eða þeir sem svöruðu ekki (11%) ekki taldir með."
   }
