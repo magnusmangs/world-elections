@@ -3,7 +3,7 @@
   "isoNumeric": "376",
   "name": "Israel",
   "nameIs": "Ísrael",
-  "lastReviewed": "2026-10-26",
+  "lastReviewed": "2026-10-28",
   "elections": [
     {
       "date": "2026-10-27",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Benjamin Netanyahu (Likud); President Isaac Herzog",
   "leadersIs": "Benjamin Netanyahu forsætisráðherra (Likud); Isaac Herzog forseti",
-  "summary": "The 25th Knesset dissolved in July 2026, and Israelis elect a new one on 27 October. The final polls on 23 October put Gadi Eisenkot's Yashar ahead of Benjamin Netanyahu's Likud, with neither Netanyahu's bloc nor the opposition bloc reaching a 61-seat majority.",
-  "summaryIs": "Knesset, 25. þing Ísraels, var leyst upp í júlí 2026 og Ísraelar kjósa nýtt þing 27. október. Síðustu kannanir 23. október sýna Yashar, flokk Gadi Eisenkot, á undan Likud, flokki Benjamins Netanyahu, en hvorki blokk Netanyahus né blokk stjórnarandstöðunnar nær 61 sætis meirihluta.",
+  "summary": "Israelis voted on 27 October 2026 for a new Knesset, with turnout of 77.7%. With about 85% of ballots counted, Netanyahu's bloc leads with 54 seats, short of the 61 needed for a majority; Likud is the largest party and Eisenkot's Yashar is second.",
+  "summaryIs": "Ísraelar kusu nýtt þing, Knesset, 27. október 2026 og var kjörsókn 77,7%. Þegar um 85% atkvæða hafa verið talin er blokk Netanyahus með forystu, 54 sæti, en það dugar ekki til 61 sætis meirihluta; Likud er stærsti flokkurinn og Yashar, flokkur Eisenkot, næststærstur.",
   "parties": [
     {
       "name": "Yashar",
@@ -386,10 +386,10 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
-    "https://en.wikipedia.org/wiki/Party_lists_for_the_2026_Israeli_legislative_election",
-    "https://www.ynetnews.com/article/s1wppltnme",
-    "https://www.israelnationalnews.com/news/435074",
-    "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race"
+    "https://www.thepetek.com/results",
+    "https://www.timesofisrael.com/liveblog_entry/with-84-of-ballots-counted-pro-netanyahu-bloc-at-54-seats-eisenkot-led-bloc-at-49-arab-parties-at-17/",
+    "https://www.ynetnews.com/article/hjnatbkaml",
+    "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
   ],
   "chamber": {
     "name": "Knesset",
@@ -411,16 +411,61 @@
   },
   "live": {
     "status": "counting",
-    "updated": "2026-10-28T12:25:00Z",
-    "headline": "With 84.5% of ballot boxes counted, Netanyahu's bloc leads on 54 seats, 7 short of a majority. Eisenkot's bloc has 49 and Arab-led parties 17.",
-    "headlineIs": "Þegar 84,5% kjörkassa hafa verið talin er blokk Netanyahus með forystu, 54 sæti, sjö sætum frá meirihluta. Blokk Eisenkot er með 49 og flokkar undir forystu araba 17.",
+    "updated": "2026-10-28T12:30:00Z",
+    "headline": "With 84.5% of ballot boxes counted, Netanyahu's bloc leads on 54 seats, 7 short of a majority. Eisenkot's bloc has 49 and Arab-led parties 17. Likud leads on 27 seats, Yashar has 22.",
+    "headlineIs": "Þegar 84,5% kjörkassa hafa verið talin er blokk Netanyahus með forystu, 54 sæti, sjö sætum frá meirihluta. Blokk Eisenkot er með 49 og flokkar undir forystu araba 17. Likud er efstur með 27 sæti og Yashar með 22.",
     "unit": "seats",
     "sourceName": "Central Elections Committee count, 12:34 local time, as reported by the Times of Israel",
     "sourceNameIs": "Talning yfirkjörstjórnar kl. 12:34 að staðartíma, samkvæmt Times of Israel",
     "source": "https://www.timesofisrael.com/liveblog_entry/with-84-of-ballots-counted-pro-netanyahu-bloc-at-54-seats-eisenkot-led-bloc-at-49-arab-parties-at-17/",
-    "note": "Neither bloc reaches 61 without the Arab-led parties. Seats per party at 51.5% counted (Ynet): Likud 27, Yashar 21, Joint List 12, Together 11, Democrats 9, United Torah Judaism 9, Yisrael Beiteinu 8, Shas 7, Otzma Yehudit 6, Religious Zionism 6, Ra'am 4. Below the 3.25% threshold: Reservists (2.7%), Amcha Yisrael (1.6%) and Haredi Public (0.2%). Double-envelope ballots, including soldiers' votes, are counted last; the final count is expected by Friday and official results on 4 November.",
-    "noteIs": "Hvorug blokkin nær 61 án flokka undir forystu araba. Sæti flokka þegar 51,5% höfðu verið talin (Ynet): Likud 27, Yashar 21, Hadash–Ta'al 12, Beyachad 11, HaDemokratim 9, Yahadut HaTorah 9, Yisrael Beiteinu 8, Shas 7, Otzma Yehudit 6, HaTzionut HaDatit 6, Ra'am 4. Undir 3,25% þröskuldi: HaMiluimnikim (2,7%), Amcha Yisrael (1,6%) og Haredi Public (0,2%). Utankjörfundaratkvæði í tvöföldu umslagi, þar á meðal atkvæði hermanna, eru talin síðast; lokatalning er væntanleg fyrir föstudag og opinber úrslit 4. nóvember.",
-    "results": [],
+    "note": "Neither bloc reaches 61 without the Arab-led parties. Seats per party are a projection from the CEC count at 84.7% by The Petek (thepetek.com/results) and will move until the count is complete. Below the 3.25% threshold: Reservists (2.7%), Amcha Yisrael (1.6%) and Haredi Public (0.2%). Double-envelope ballots, including soldiers' votes, are counted last; the final count is expected by Friday and official results on 4 November. President Herzog then consults party leaders before nominating a candidate to form a government. Turnout was 77.7%, the highest since 1999.",
+    "noteIs": "Hvorug blokkin nær 61 án flokka undir forystu araba. Sæti einstakra flokka eru áætlun The Petek (thepetek.com/results) út frá talningu yfirkjörstjórnar við 84,7% og geta breyst þar til talningu lýkur. Undir 3,25% þröskuldi: HaMiluimnikim (2,7%), Amcha Yisrael (1,6%) og Haredi Public (0,2%). Utankjörfundaratkvæði í tvöföldu umslagi, þar á meðal atkvæði hermanna, eru talin síðast; lokatalning er væntanleg fyrir föstudag og opinber úrslit 4. nóvember. Herzog forseti ræðir síðan við leiðtoga flokkanna áður en hann felur einhverjum stjórnarmyndun. Kjörsókn var 77,7%, sú mesta síðan 1999.",
+    "results": [
+      {
+        "abbr": "Likud",
+        "value": 27
+      },
+      {
+        "abbr": "Yashar",
+        "value": 22
+      },
+      {
+        "abbr": "Together",
+        "value": 12
+      },
+      {
+        "abbr": "JL",
+        "value": 11
+      },
+      {
+        "abbr": "Dem",
+        "value": 8
+      },
+      {
+        "abbr": "UTJ",
+        "value": 7
+      },
+      {
+        "abbr": "YB",
+        "value": 7
+      },
+      {
+        "abbr": "Otzma",
+        "value": 7
+      },
+      {
+        "abbr": "Shas",
+        "value": 7
+      },
+      {
+        "abbr": "RZP",
+        "value": 6
+      },
+      {
+        "abbr": "Ra'am",
+        "value": 6
+      }
+    ],
     "blocs": [
       {
         "name": "Netanyahu bloc",
