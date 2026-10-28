@@ -411,15 +411,15 @@
   },
   "live": {
     "status": "exit-poll",
-    "updated": "2026-10-28T02:20:00Z",
+    "updated": "2026-10-28T04:35:00Z",
     "headline": "Updated Channel 12 exit poll: Netanyahu's bloc rises to 52 and overtakes the opposition bloc on 49, still short of 61. Likud 27, Yashar 21. Netanyahu says he will form a right-wing government.",
     "headlineIs": "Uppfærð útgönguspá Channel 12: blokk Netanyahus fer upp í 52 og fer fram úr blokk stjórnarandstöðunnar með 49, en nær ekki 61. Likud 27, Yashar 21. Netanyahu segist ætla að mynda hægristjórn.",
     "unit": "seats",
     "sourceName": "Updated Channel 12 exit poll, 02:17 local time, as reported by the Times of Israel",
     "sourceNameIs": "Uppfærð útgönguspá Channel 12 kl. 2:17 að staðartíma, samkvæmt Times of Israel",
     "source": "https://www.timesofisrael.com/liveblog_entry/channel-12-updates-exit-poll-pro-netanyahu-bloc-rises-to-52-seats",
-    "note": "United Torah Judaism, Religious Zionism and Otzma Yehudit hold 18 seats together; the split was not published. Channel 13's update also moved Likud up to 27 and its pro-Netanyahu bloc to 51. The official count had reached only 0.27% of votes at 01:00 local time; more than 650,000 double-envelope ballots are counted separately, possibly until Friday. Turnout was 74.3%.",
-    "noteIs": "Yahadut HaTorah, HaTzionut HaDatit og Otzma Yehudit hafa samtals 18 sæti; skiptingin var ekki birt. Uppfærsla Channel 13 færði Likud einnig upp í 27 og blokk Netanyahus í 51. Opinber talning náði aðeins til 0,27% atkvæða kl. 1 að staðartíma; yfir 650.000 utankjörfundaratkvæði í tvöföldu umslagi eru talin sér, mögulega fram á föstudag. Kjörsókn var 74,3%.",
+    "note": "Official count so far: 1,216,002 ballots counted at 05:20 local time (about a fifth of votes cast), with Likud on 23.36% of valid votes, Yashar 15.74% and Together 8.53% (Central Elections Committee, via Middle East Eye). Early counts can shift as larger cities, Arab towns and over 650,000 double-envelope ballots come in. In the exit poll, United Torah Judaism, Religious Zionism and Otzma Yehudit hold 18 seats together; the split was not published. Turnout was 74.3%.",
+    "noteIs": "Opinber talning til þessa: 1.216.002 atkvæði talin kl. 5:20 að staðartíma (um fimmtungur greiddra atkvæða). Likud er með 23,36% gildra atkvæða, Yashar 15,74% og Beyachad 8,53% (yfirkjörstjórn, samkvæmt Middle East Eye). Fyrstu tölur geta breyst þegar stærri borgir, bæir araba og yfir 650.000 utankjörfundaratkvæði í tvöföldu umslagi bætast við. Í útgönguspánni hafa Yahadut HaTorah, HaTzionut HaDatit og Otzma Yehudit samtals 18 sæti; skiptingin var ekki birt. Kjörsókn var 74,3%.",
     "results": [
       {
         "abbr": "Likud",
