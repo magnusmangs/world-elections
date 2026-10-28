@@ -96,7 +96,7 @@ def main():
     for f in glob.glob(os.path.join(ROOT, "data", "finance", "companies", "*.json")):
         c = json.load(open(f)); cos[c["cik"]] = c["ticker"]
     vals = " ".join(f'"{k}"' for k in cos)
-    rows = sparql(f"SELECT ?cik ?item ?logo WHERE {{ VALUES ?cik {{ {vals} }} ?item wdt:P5531 ?cik . OPTIONAL {{ ?item wdt:P154 ?logo . }} }}")
+    rows = [] if not cos else sparql(f"SELECT ?cik ?item ?logo WHERE {{ VALUES ?cik {{ {vals} }} ?item wdt:P5531 ?cik . OPTIONAL {{ ?item wdt:P154 ?logo . }} }}")
     logos = {}
     for r in rows:
         if "logo" in r:

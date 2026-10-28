@@ -176,23 +176,7 @@ def section_elections(now):
     return out, []
 
 
-def section_finance(now):
-    feed = load(os.path.join(ROOT, "data", "finance", "feed.json"), {"items": []})
-    out = []
-    for i in feed["items"]:
-        if (now - datetime.date.fromisoformat(i["filed"])).days > 14 or not i.get("summaryIs"):
-            continue
-        if i["form"] == "8-K" and not (i.get("ai") and i["ai"].get("status") == "verified"):
-            continue
-        out.append({"id": f"fin-{i['accession']}", "section": "fjarmal", "kind": "yfirlit", "date": i["filed"],
-                    "titleIs": i["headlineIs"], "summaryIs": i["summaryIs"],
-                    "titleEn": i.get("headlineEn") or "", "summaryEn": i.get("summaryEn") or "",
-                    "source": {"name": "SEC EDGAR", "url": i.get("ai", {}).get("exhibit") or i["url"]},
-                    "link": f"/fjarmal#{i['ticker'].lower()}", "ai": bool(i.get("ai"))})
-    return out, []
-
-
-SECTIONS = [section_articles, section_elections, section_finance]
+SECTIONS = [section_articles, section_elections]
 
 
 def main():

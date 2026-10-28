@@ -1,7 +1,10 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/frettir/:id", "destination": "/frettir" }
+    {
+      "source": "/frettir/:id",
+      "destination": "/frettir"
+    }
   ],
   "headers": [
     {
@@ -28,5 +31,12 @@
       "includeFiles": "data/**",
       "maxDuration": 30
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/fjarmal",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
 }

@@ -7,7 +7,7 @@
   const M = EN ? ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     : ["jan.", "feb.", "mars", "apr.", "maí", "júní", "júlí", "ágú.", "sep.", "okt.", "nóv.", "des."];
   const dateShort = (s) => { const d = new Date(s + "T00:00:00Z"); return EN ? `${d.getUTCDate()} ${M[d.getUTCMonth()]}` : `${d.getUTCDate()}. ${M[d.getUTCMonth()]}`; };
-  const TAG = EN ? { kosningar: "Elections", fjarmal: "Finance" } : { kosningar: "Kosningar", fjarmal: "Fjármál" };
+  const TAG = EN ? { kosningar: "Elections" } : { kosningar: "Kosningar" };
   const PERSP = L("Sjónarhorn", "Perspectives");
   // One language at a time: pick the reader's language for every text field.
   const title = (i) => (EN ? i.titleEn : i.titleIs) || "";
@@ -18,11 +18,6 @@
   const author = (m) => m.author === "Almenningseign" ? L("Almenningseign", "Public domain") : m.author;
   let items = [], filter = "all", current = null, ELECTIONS = null, MEDIA = { companies: {}, people: {}, flags: {} }, KITS = { companies: {} };
   function pickImage(i) {
-    if (i.section === "fjarmal") {
-      const tk = (i.link || "").split("#")[1]; const T = tk && tk.toUpperCase();
-      const m = T && !(KITS.companies[T] && KITS.companies[T].logoAllowed === false) && MEDIA.companies[T];
-      return m ? { m, cls: "is-logo", kind: L("Merki", "Logo") } : null;
-    }
     if (!i.iso3) return null;
     const text = `${i.titleIs} ${i.summaryIs || ""} ${i.titleEn || ""} ${i.summaryEn || ""}`;
     let best = null;
@@ -168,7 +163,7 @@
     const persp = i.kind === "sjónarhorn" ? `<ul class="persp">${(i.perspectives || []).map((p) => `<li>
           <span class="persp-src"><span class="cc">${esc(nom(p.country))}</span> <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.outlet)}</a>${p.published ? ` <span class="basis">${esc(dateShort(p.published))}</span>` : ""}</span>
           <span>${esc(framing(p))}</span></li>`).join("")}</ul>` : "";
-    const fin = i.section === "fjarmal" && i.link ? `<p><a class="post-btn" href="${esc(i.link)}">${L("Sjá fyrirtækið á fjármálasíðunni", "See the company on the finance page")}</a></p>` : "";
+    const fin = "";
     post.innerHTML = `<p class="post-back"><a href="/frettir" data-home>← ${L("Allar fréttir", "All news")}</a></p>
       <p class="post-meta"><span class="tag tag-${esc(i.section)}">${esc(tag)}</span> <time datetime="${esc(i.date)}">${esc(dateLong(i.date))}</time>${i.iso3 ? ` · ${esc(nom(i.iso3))}` : ""}</p>
       <h1 class="post-title">${esc(title(i))}</h1>
@@ -217,7 +212,7 @@
     fetch("/data/media/media.json").then((r) => r.json()).catch(() => ({ companies: {}, people: {}, flags: {} })),
     fetch("/data/media/presskits.json").then((r) => r.json()).catch(() => ({ companies: {} }))]).then(([d, names, dative, media, kits]) => {
     NOM = names; DAT = EN ? names : dative; MEDIA = media; KITS = kits;
-    // English readers only see items that have English text (all new items do; very old finance items may not).
+    // English readers only see items that have English text.
     items = (d.items || []).filter((i) => title(i));
     $("updated").textContent = L(`Síðast uppfært ${dateLong(d.updated.slice(0, 10))} kl. ${d.updated.slice(11, 16)} (UTC).`, `Last updated ${dateLong(d.updated.slice(0, 10))} at ${d.updated.slice(11, 16)} UTC.`);
     route();

@@ -16,20 +16,15 @@ The site shows one language at a time: Icelandic by default, English with the IS
 English in `data-en` attributes; scripts use `window.LANG`. Data carries both languages:
 - Country files: English fields plus Icelandic twins with the suffix `Is` (checked by `build.py`).
 - News items: `titleIs`/`summaryIs` plus `titleEn`/`summaryEn` (checked by `news.py`).
-- Finance: Icelandic templates in `fundamentals.py`/`press_releases.py`, English templates over the same verified figures in `scripts/finance_en.py`.
 
 ## Fjármál (finance)
 
-- `fjarmal.html`, `fjarmal.css`, `fjarmal.js`: Icelandic page with US company fundamentals.
-- `data/finance/watchlist.json`: tracked companies. Add `{ "ticker": "...", "name": "..." }`.
-- `scripts/fundamentals.py`: pulls SEC EDGAR filings and XBRL figures plus the Seðlabanki USD/ISK rate, writes `data/finance/`. Figures come only from filings; Icelandic text uses fixed templates.
-- `.github/workflows/update-finance.yml`: runs every 30 minutes on weekdays, commits only when data changed, then deploys.
-- `scripts/press_releases.py`: day-one summaries of earnings releases (8-K Exhibit 99.1). Claude extracts figures with exact quotes; code verifies each quote verbatim, the number inside it, the multiplier and plausibility against the last XBRL quarter. Numeric sentences come from templates; AI prose may contain no digits. Failures go to `data/finance/review.json`. Needs the repo secret `ANTHROPIC_API_KEY` (model via `ANTHROPIC_MODEL`, default claude-sonnet-5-5).
+Removed on 28 October 2026 to focus on elections. Everything (page, SEC pipeline, workflow, data) is kept at the git tag `finance-archive-2026-10-28`. Restore with `git checkout finance-archive-2026-10-28 -- <paths>`.
 
 ## Fréttir (news)
 
 - `frettir.html`, `frettir.js`: Icelandic news page, merged from all sections.
-- `scripts/news.py`: builds `data/news.json` at deploy time from SECTIONS (third-party articles, election highlights, finance highlights). Add a function to SECTIONS to plug in a new part of the site.
+- `scripts/news.py`: builds `data/news.json` at deploy time from SECTIONS (third-party articles, election highlights). Add a function to SECTIONS to plug in a new part of the site.
 - `data/news/articles.json`: third-party election news, own-words summaries with outlet and link. Validated against `data/news/sources.json` (allowed outlets), length and quotation limits.
 - `NEWS.md`: daily research procedure used by the scheduled task.
 - `data/news/outlets.json`: top outlets per country (with type: public broadcaster, state media, newspaper...) and RSS feeds.
@@ -39,15 +34,14 @@ English in `data-en` attributes; scripts use `window.LANG`. Data carries both la
 
 ## Myndir (images)
 
-- `scripts/media.py`: freely licensed images from Wikimedia Commons, found through Wikidata. Company logos matched exactly by SEC CIK, candidate photos by exact name plus citizenship, flags by ISO code. Only public domain, CC0, CC BY and CC BY-SA files are kept; every image is shown with author and licence and links to its Commons page. Writes `data/media/media.json`.
+- `scripts/media.py`: freely licensed images from Wikimedia Commons, found through Wikidata. Candidate photos by exact name plus citizenship, flags by ISO code. Only public domain, CC0, CC BY and CC BY-SA files are kept; every image is shown with author and licence and links to its Commons page. Writes `data/media/media.json`.
 - `data/media/presskits.json`: company press rooms (linked). Press-kit images are only embedded after that company's terms for press use are checked and recorded.
 
 ## Spjall (chat)
 
 `api/ask.js` is a Vercel serverless function behind the "Spyrja" button on every page (`chat.js`, `chat.css`).
 It answers only from the site's own data for what the reader has open: a country (`data/countries/ISO3.json` plus
-article-based news for that country), a company (`data/finance/companies/TICKER.json`, verified earnings-release
-records and filings), or the news front page. Context is built in `lib/context.js`. Headline-only items are never used.
+article-based news for that country) or the news front page. Context is built in `lib/context.js`. Headline-only items are never used.
 
 Provider is chosen by environment variables in the Vercel project (Settings, Environment Variables):
 - `GROQ_API_KEY`: free tier (about 1,000 requests a day). Optional `GROQ_MODEL`.
