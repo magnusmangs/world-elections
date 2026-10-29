@@ -3,21 +3,21 @@
  "isoNumeric": "100",
  "name": "Bulgaria",
  "nameIs": "Búlgaría",
- "lastReviewed": "2026-10-27",
+ "lastReviewed": "2026-10-29",
  "elections": [
   {
    "date": "2026-11-01",
    "dateStatus": "confirmed",
    "type": "Presidential run-off",
    "typeIs": "Forsetakosningar, seinni umferð",
-   "note": "Run-off between Iliana Iotova and Andrey Gyurov. First round 25 October 2026 (CIK, 99.94% of ballots): Iotova 34.8%, Gyurov 31.9%.",
-   "noteIs": "Seinni umferð milli Iliönu Iotovu og Andrey Gyurov. Fyrri umferð 25. október 2026 (CIK, 99,94% kjörgagna): Iotova 34,8%, Gyurov 31,9%."
+   "note": "Run-off between Iliana Iotova and Andrey Gyurov. First round 25 October 2026 (CIK final results): Iotova 34.76%, Gyurov 31.95%; turnout 23.2%.",
+   "noteIs": "Seinni umferð milli Iliönu Iotovu og Andrey Gyurov. Fyrri umferð 25. október 2026 (lokatölur CIK): Iotova 34,76%, Gyurov 31,95%; kjörsókn 23,2%."
   }
  ],
  "leaders": "President Iliana Iotova; Prime Minister Rumen Radev (Progressive Bulgaria)",
  "leadersIs": "Iliana Iotova forseti; Rumen Radev forsætisráðherra (Framsækin Búlgaría)",
- "summary": "Iliana Iotova, backed by Prime Minister Rumen Radev, led the first round on 25 October with 34.8% against 31.9% for the pro-EU reformist Andrey Gyurov (CIK, 99.94% of ballots), so the two meet in a run-off on 1 November. Turnout was a record low of 22.5%, according to Alpha Research.",
- "summaryIs": "Iliana Iotova, sem Rumen Radev forsætisráðherra styður, var efst í fyrri umferðinni 25. október með 34,8% en Evrópusinnaði umbótamaðurinn Andrey Gyurov fékk 31,9% (CIK, 99,94% kjörgagna), svo þau mætast í seinni umferð 1. nóvember. Kjörsókn var 22,5% samkvæmt Alpha Research, sú minnsta frá upphafi.",
+ "summary": "Iliana Iotova, backed by Prime Minister Rumen Radev, led the first round on 25 October with 34.76% against 31.95% for the pro-EU reformist Andrey Gyurov (CIK final results), so the two meet in a run-off on 1 November. Turnout was a record low of 23.2% (1,525,034 of 6,584,025 voters), according to the CIK.",
+ "summaryIs": "Iliana Iotova, sem Rumen Radev forsætisráðherra styður, var efst í fyrri umferðinni 25. október með 34,76% en Evrópusinnaði umbótamaðurinn Andrey Gyurov fékk 31,95% (lokatölur CIK), svo þau mætast í seinni umferð 1. nóvember. Kjörsókn var 23,2% (1.525.034 af 6.584.025 kjósendum) samkvæmt CIK, sú minnsta frá upphafi.",
  "parties": [
   {
    "name": "Iliana Iotova",
@@ -28,8 +28,8 @@
    "ideology": "Independent, backed by Progressive Bulgaria, BSP and allies",
    "ideologyIs": "Óháð, studd af Framsækinni Búlgaríu, BSP og bandamönnum",
    "inGovernment": true,
-   "lastResult": "34.59%, first round 2026 (CIK, 95.29% of protocols); incumbent president",
-   "lastResultIs": "34,59%, fyrri umferð 2026 (CIK, 95,29% kjörgagna); sitjandi forseti",
+   "lastResult": "34.76% (528,951 votes), first round 2026 (CIK final results); incumbent president",
+   "lastResultIs": "34,76% (528.951 atkvæði), fyrri umferð 2026 (lokatölur CIK); sitjandi forseti",
    "polling": "No run-off poll published yet",
    "pollingIs": "Engin könnun fyrir seinni umferð hefur birst enn",
    "policies": [
@@ -54,8 +54,8 @@
    "ideology": "Independent, backed by PP–DB (liberal, pro-European)",
    "ideologyIs": "Óháður, studdur af PP–DB (frjálslynt, Evrópusinnað bandalag)",
    "inGovernment": false,
-   "lastResult": "32.03%, first round 2026 (CIK, 95.29% of protocols); former caretaker prime minister",
-   "lastResultIs": "32,03%, fyrri umferð 2026 (CIK, 95,29% kjörgagna); fyrrverandi forsætisráðherra starfsstjórnar",
+   "lastResult": "31.95% (486,232 votes), first round 2026 (CIK final results); former caretaker prime minister",
+   "lastResultIs": "31,95% (486.232 atkvæði), fyrri umferð 2026 (lokatölur CIK); fyrrverandi forsætisráðherra starfsstjórnar",
    "polling": "No run-off poll published yet",
    "pollingIs": "Engin könnun fyrir seinni umferð hefur birst enn",
    "policies": [
@@ -80,8 +80,8 @@
    "ideology": "Bulgarian nationalism, Euroscepticism",
    "ideologyIs": "Búlgörsk þjóðernishyggja, efasemdir um Evrópusambandið",
    "inGovernment": false,
-   "lastResult": "12.6%, first round 2026 (CIK, 95.29% of protocols); eliminated",
-   "lastResultIs": "12,6%, fyrri umferð 2026 (CIK, 95,29% kjörgagna); úr leik",
+   "lastResult": "12.55% (190,910 votes), first round 2026 (CIK final results); eliminated",
+   "lastResultIs": "12,55% (190.910 atkvæði), fyrri umferð 2026 (lokatölur CIK); úr leik",
    "polling": "Not in the run-off",
    "pollingIs": "Ekki í seinni umferð",
    "policies": [
@@ -104,13 +104,15 @@
   "https://www.novinite.com/articles/241250/Low+Turnout+and+Close+Race+Set+Up+Bulgaria%27s+Presidential+Runoff",
   "https://www.trtworld.com/article/883f3f1fdae9",
   "https://news.bg/politics/rezultati-ot-izborite-za-prezident-2026-1.html",
-  "https://balkaninsight.com/2026/10/26/bulgarias-presidential-election-heads-to-runoff-after-record-low-turnout/bi/"
+  "https://balkaninsight.com/2026/10/26/bulgarias-presidential-election-heads-to-runoff-after-record-low-turnout/bi/",
+  "https://www.bta.bg/en/news/bulgaria/1233984-central-election-commission-sets-november-1-run-off-says-1-525-034-voters-cast-",
+  "https://www.novinite.com/articles/241274/Official+Final+Count:+Yotova+Wins+34.76,+Gyurov+31.95+-+Both+Advance+to+Bulgaria's+Presidential+Runoff"
  ],
  "lastElection": {
   "date": "2026-10-25",
   "type": "Presidential (first round)",
   "typeIs": "Forsetakosningar (fyrri umferð)",
-  "outcome": "No candidate won a majority; with 99.94% of ballots processed, CIK figures put Iliana Iotova on 34.8% and Andrey Gyurov on 31.9%, with Kostadin Kostadinov third; Alpha Research put turnout at a record low of 22.5%.",
-  "outcomeIs": "Enginn frambjóðandi fékk meirihluta; þegar 99,94% kjörgagna höfðu verið talin var Iliana Iotova með 34,8% og Andrey Gyurov 31,9% samkvæmt CIK, en Kostadin Kostadinov varð þriðji; Alpha Research áætlaði kjörsókn 22,5%, þá minnstu frá upphafi."
+  "outcome": "No candidate won a majority. CIK final results put Iliana Iotova on 34.76% (528,951 votes) and Andrey Gyurov on 31.95% (486,232), with Kostadin Kostadinov third on 12.55%; turnout was a record low of 23.2%.",
+  "outcomeIs": "Enginn frambjóðandi fékk meirihluta. Samkvæmt lokatölum CIK fékk Iliana Iotova 34,76% (528.951 atkvæði) og Andrey Gyurov 31,95% (486.232), en Kostadin Kostadinov varð þriðji með 12,55%; kjörsókn var 23,2%, sú minnsta frá upphafi."
  }
 }
