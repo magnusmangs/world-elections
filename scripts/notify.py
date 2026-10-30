@@ -6,6 +6,12 @@ Compares data/live.json at <before-sha> with the working tree. For each country 
 (status, results, blocs, counted or headline; a new timestamp alone does not count) it sends one campaign
 per language list. When `live` is removed and `lastElection` holds the result, it sends a final-result email.
 
+Throttle (readers want a few emails per election, not every count update):
+- Always send: a status change (exit poll -> counting -> final) and the final result.
+- Otherwise send only if the leader changed, a party or bloc crossed the majority line, or the count passed 50% or 90%,
+  and only if no alert for that country went out in the last MIN_GAP_HOURS (default 3).
+- Never send two alerts for the same country within 15 minutes, except the final result.
+
 Env: BREVO_API_KEY, BREVO_LIST_IS, BREVO_LIST_EN, BREVO_SENDER_EMAIL, optional BREVO_SENDER_NAME, SITE_URL.
 Without the key or lists it prints what it would send and exits 0, so pushes never fail on it.
 """
@@ -121,7 +127,7 @@ def brevo(path, payload, method="POST"):
         raise RuntimeError(f"{e.code} {e.read().decode()[:300]}")
 
 
-def send(subject, htmlc, list_id, dry):
+def send(subject, htmlc, list_id, dry, iso=""):
     if dry:
         print(f"  [dry-run] list {list_id}: {subject}"); return
     size = brevo(f"/contacts/lists/{list_id}", None, "GET")
@@ -130,9 +136,66 @@ def send(subject, htmlc, list_id, dry):
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     camp = brevo("/emailCampaigns", {"name": f"{subject[:60]} {stamp}", "subject": subject[:150], "htmlContent": htmlc,
                                     "sender": {"name": (os.environ.get("BREVO_SENDER_NAME") or "Kosningar í heiminum"), "email": SENDER},
-                                    "recipients": {"listIds": [list_id]}})
+                                    "recipients": {"listIds": [list_id]}, "tag": f"alert-{iso}"})
     brevo(f"/emailCampaigns/{camp['id']}/sendNow", None)
     print(f"  sent campaign {camp['id']} to list {list_id}: {subject}")
+
+
+MIN_GAP_HOURS = float(os.environ.get("ALERT_MIN_GAP_HOURS") or 3)
+HARD_FLOOR_MIN = 15
+
+
+def leader(lv, kind):
+    rows = lv.get(kind) or []
+    if not rows:
+        return None
+    top = max(rows, key=lambda r: r.get("value", 0))
+    return top.get("abbr") or top.get("name")
+
+
+def over_majority(lv, maj):
+    if not maj:
+        return set()
+    return {(r.get("abbr") or r.get("name")) for r in (lv.get("results") or []) + (lv.get("blocs") or []) if r.get("value", 0) >= maj}
+
+
+def milestone(lv):
+    c = lv.get("counted")
+    return sum(1 for m in (50, 90) if isinstance(c, (int, float)) and c >= m)
+
+
+def why_send(prev, lv, maj):
+    """Return (reason, urgent) or (None, False). urgent=True bypasses the MIN_GAP_HOURS gap."""
+    if lv is None:
+        return "final result", True
+    if not prev or prev.get("status") != lv.get("status"):
+        return f"status {lv.get('status')}", True
+    # Compare like with like: party results with party results, blocs with blocs.
+    if any(prev.get(k) and lv.get(k) and leader(prev, k) != leader(lv, k) for k in ("results", "blocs")):
+        return "leader changed", False
+    if over_majority(prev, maj) != over_majority(lv, maj):
+        return "majority line crossed", False
+    if milestone(prev) != milestone(lv):
+        return f"count passed {(50, 90)[milestone(lv) - 1]}%", False
+    return None, False
+
+
+def last_alert_age_minutes(iso, dry):
+    """Minutes since the last alert campaign tagged for this country, from Brevo. None if unknown or none."""
+    if dry:
+        return None
+    try:
+        data = brevo("/emailCampaigns?status=sent&limit=50&sort=desc", None, "GET")
+    except Exception as e:
+        print(f"  could not read recent campaigns: {e}"); return None
+    now = datetime.datetime.now(datetime.timezone.utc)
+    ages = []
+    for camp in data.get("campaigns", []):
+        if camp.get("tag") != f"alert-{iso}" or not camp.get("sentDate"):
+            continue
+        sent = datetime.datetime.fromisoformat(camp["sentDate"].replace("Z", "+00:00"))
+        ages.append((now - sent).total_seconds() / 60)
+    return min(ages) if ages else None
 
 
 def main():
@@ -152,24 +215,32 @@ def main():
             continue  # no email until there are figures
         if prev and all(prev.get(k) == lv.get(k) for k in KEYS):
             continue
-        jobs.append((iso, lv))
+        jobs.append((iso, lv, prev))
     for iso in old:
         if iso not in new:
-            jobs.append((iso, None))
+            jobs.append((iso, None, old[iso]))
     if not jobs:
         print("No live changes to email."); return
-    for iso, lv in jobs:
+    for iso, lv, prev in jobs:
         c = json.load(open(os.path.join(ROOT, "data", "countries", f"{iso}.json"), encoding="utf-8"))
         if lv is None and not (c.get("lastElection") or {}).get("winner"):
             continue
-        print(iso)
+        reason, urgent = why_send(prev, lv, (c.get("chamber") or {}).get("majority"))
+        if not reason:
+            print(f"{iso}: minor update, no email"); continue
+        age = last_alert_age_minutes(iso, dry)
+        if age is not None and lv is not None and age < HARD_FLOOR_MIN:
+            print(f"{iso}: last alert {age:.0f} min ago, skipped ({reason})"); continue
+        if age is not None and not urgent and age < MIN_GAP_HOURS * 60:
+            print(f"{iso}: last alert {age:.0f} min ago, under {MIN_GAP_HOURS:g} h gap, skipped ({reason})"); continue
+        print(f"{iso}: {reason}")
         for lang, lid in lists.items():
             if not lid and not dry:
                 continue
             en = lang == "en"
             subject, body = live_email(c, lv, en) if lv else final_email(c, en)
             try:
-                send(subject, wrap(body, iso, en), int(lid or 0), dry)
+                send(subject, wrap(body, iso, en), int(lid or 0), dry, iso)
             except Exception as e:  # never block a deploy on email
                 print(f"  failed for list {lid}: {e}")
 
