@@ -27,7 +27,7 @@ async function callClaude(system, messages) {
     headers: { "x-api-key": process.env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
     body: JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 600, system, messages }),
   });
-  if (!r.ok) throw new Error(`claude ${r.status}`);
+  if (!r.ok) throw new Error(`claude ${r.status} ${(await r.text().catch(() => "")).slice(0, 300)}`);
   const d = await r.json();
   return (d.content || []).map((b) => b.text || "").join("").trim();
 }
@@ -92,6 +92,7 @@ module.exports = async (req, res) => {
     answer = answer.replace(/—/g, ",");
     return res.status(200).json({ answer, provider, topic: ctx.label });
   } catch (e) {
+    console.error("ask failed:", e && e.message);
     return res.status(502).json({ answer: L("Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund.", "Could not get an answer right now. Please try again shortly.") });
   }
 };
