@@ -11,7 +11,8 @@ Rules:
 - Name the source for facts that come from news items or filings (outlet name or official body).
 - Be neutral. Give each party or candidate the same treatment. No opinions, or predictions of who will win.
 - Answer in the reader's site language given below, unless the question is clearly written in another language. Correct, plain Icelandic or English. Short: at most about 120 words unless asked for more.
-- No em dashes.`;
+- No em dashes.
+- Plain text only: no markdown, no asterisks or bold. Short lines are fine for lists.`;
 
 const hits = new Map();
 function rateLimited(ip) {
@@ -42,7 +43,7 @@ async function callClaude(system, messages) {
     errs.push(`${Object.keys(auth)[0]} ${r.status} ${(await r.text().catch(() => "")).slice(0, 160)}`);
     if (r.status !== 401) break;
   }
-  throw new Error(`claude [keylen ${key.length} prefix ${key.slice(0, 11)} ws ${/\s/.test(key)}] ${errs.join(" | ")}`);
+  throw new Error(`claude ${errs.join(" | ")}`);
 }
 
 async function callMistral(system, messages) {
@@ -102,10 +103,10 @@ module.exports = async (req, res) => {
     else if (process.env.MISTRAL_API_KEY) { answer = await callMistral(system, messages); provider = "mistral"; }
     else if (process.env.GROQ_API_KEY) { answer = await callGroq(system, messages); provider = "groq"; }
     else return res.status(503).json({ answer: L("Spjallið er ekki virkt enn. Lykil vantar fyrir mállíkanið.", "Chat is not active yet. The language model key is missing.") });
-    answer = answer.replace(/—/g, ",");
+    answer = answer.replace(/—/g, ",").replace(/\*\*(.+?)\*\*/g, "$1").replace(/^#+\s*/gm, "");
     return res.status(200).json({ answer, provider, topic: ctx.label });
   } catch (e) {
     console.error("ask failed:", e && e.message);
-    return res.status(502).json({ debug: String(e && e.message).slice(0, 300), answer: L("Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund.", "Could not get an answer right now. Please try again shortly.") });
+    return res.status(502).json({ answer: L("Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund.", "Could not get an answer right now. Please try again shortly.") });
   }
 };
