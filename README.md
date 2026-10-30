@@ -44,7 +44,8 @@ It answers only from the site's own data for what the reader has open: a country
 article-based news for that country) or the news front page. Context is built in `lib/context.js`. Headline-only items are never used.
 
 Provider is chosen by environment variables in the Vercel project (Settings, Environment Variables):
+- `MISTRAL_API_KEY`: free Experiment plan at console.mistral.ai (rate-limited, EU-based). Optional `MISTRAL_MODEL`, default `mistral-large-latest` with `mistral-small-latest` as fallback.
 - `GROQ_API_KEY`: free tier (about 1,000 requests a day). Optional `GROQ_MODEL`.
-- `ANTHROPIC_API_KEY`: used instead when set (better Icelandic, paid). Optional `ANTHROPIC_MODEL`.
+- `ANTHROPIC_API_KEY`: used first when set (best Icelandic, paid). Order: Anthropic, then Mistral, then Groq. Optional `ANTHROPIC_MODEL`.
 With neither set the widget replies that chat is not active yet. Questions are capped at 500 characters,
 30 per hour per IP (best effort), and nothing is logged or stored.

@@ -1,6 +1,6 @@
 // POST /api/ask  {question, context: {kind: "country"|"general", id}, history?: [{role, content}]}
 // Answers only from the site's own data for the page in view. Provider: Claude if ANTHROPIC_API_KEY is set,
-// otherwise Groq (free tier) if GROQ_API_KEY is set. Nothing is logged or stored.
+// otherwise Mistral (free Experiment plan) if MISTRAL_API_KEY is set, otherwise Groq (free tier) if GROQ_API_KEY is set. Nothing is logged or stored.
 const { buildContext } = require("../lib/context");
 
 const SYSTEM = `You are the question-answering assistant of a neutral Icelandic news site about elections.
@@ -30,6 +30,22 @@ async function callClaude(system, messages) {
   if (!r.ok) throw new Error(`claude ${r.status}`);
   const d = await r.json();
   return (d.content || []).map((b) => b.text || "").join("").trim();
+}
+
+async function callMistral(system, messages) {
+  const models = [process.env.MISTRAL_MODEL, "mistral-large-latest", "mistral-small-latest"].filter(Boolean);
+  let last;
+  for (const model of models) {
+    const r = await fetch("https://api.mistral.ai/v1/chat/completions", {
+      method: "POST",
+      headers: { authorization: `Bearer ${process.env.MISTRAL_API_KEY}`, "content-type": "application/json" },
+      body: JSON.stringify({ model, temperature: 0.1, max_tokens: 600, messages: [{ role: "system", content: system }, ...messages] }),
+    });
+    if (r.ok) { const d = await r.json(); return (d.choices?.[0]?.message?.content || "").trim(); }
+    last = `mistral ${model} ${r.status}`;
+    if (![400, 403, 404, 429].includes(r.status)) break;
+  }
+  throw new Error(last);
 }
 
 async function callGroq(system, messages) {
@@ -70,6 +86,7 @@ module.exports = async (req, res) => {
   try {
     let answer, provider;
     if (process.env.ANTHROPIC_API_KEY) { answer = await callClaude(system, messages); provider = "claude"; }
+    else if (process.env.MISTRAL_API_KEY) { answer = await callMistral(system, messages); provider = "mistral"; }
     else if (process.env.GROQ_API_KEY) { answer = await callGroq(system, messages); provider = "groq"; }
     else return res.status(503).json({ answer: L("Spjallið er ekki virkt enn. Lykil vantar fyrir mállíkanið.", "Chat is not active yet. The language model key is missing.") });
     answer = answer.replace(/—/g, ",");
