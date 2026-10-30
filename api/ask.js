@@ -12,6 +12,7 @@ Rules:
 - Be neutral. Give each party or candidate the same treatment. No opinions, or predictions of who will win.
 - Answer in the reader's site language given below, unless the question is clearly written in another language. Correct, plain Icelandic or English. Short: at most about 120 words unless asked for more.
 - No em dashes.
+- Party, alliance and institution names: use them exactly as in the data (nameIs when answering in Icelandic, name in English) or the abbreviation. Never translate or invent a name.
 - Plain text only: no markdown, no asterisks or bold. Short lines are fine for lists.`;
 
 const hits = new Map();
