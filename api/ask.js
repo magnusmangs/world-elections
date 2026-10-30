@@ -24,7 +24,7 @@ function rateLimited(ip) {
 // Personal and service account keys may need a Bearer header, legacy workspace keys use x-api-key. Try both on 401.
 async function callClaude(system, messages) {
   const key = String(process.env.ANTHROPIC_API_KEY || "").trim();
-  const body = JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 600, system, messages });
+  const body = JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 2000, system, messages });
   const styles = [{ authorization: `Bearer ${key}` }, { "x-api-key": key }];
   if (key.startsWith("sk-ant-api")) styles.reverse();
   const errs = [];
@@ -32,7 +32,13 @@ async function callClaude(system, messages) {
     const r = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST", headers: { ...auth, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body,
     });
-    if (r.ok) { const d = await r.json(); return (d.content || []).map((b) => b.text || "").join("").trim(); }
+    if (r.ok) {
+      const d = await r.json();
+      const text = (d.content || []).map((b) => b.text || "").join("").trim();
+      if (d.stop_reason !== "end_turn") console.error("claude stop_reason", d.stop_reason, (d.content || []).map((b) => b.type).join(","));
+      if (!text) throw new Error(`claude empty ${d.stop_reason} ${(d.content || []).map((b) => b.type).join(",")}`);
+      return text;
+    }
     errs.push(`${Object.keys(auth)[0]} ${r.status} ${(await r.text().catch(() => "")).slice(0, 160)}`);
     if (r.status !== 401) break;
   }
