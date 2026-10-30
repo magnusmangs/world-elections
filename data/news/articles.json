@@ -2,6 +2,20 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "nzl-2026-10-29-1news",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "titleIs": "Sjö flokkar mættust í kappræðum TVNZ um málefni Māori",
+   "summaryIs": "Fulltrúar sjö flokka, þar á meðal Þjóðarflokksins, Verkamannaflokksins, Græningja, NZ First, ACT, Te Pāti Māori og Opportunity, tókust á í klukkustundarlöngum kappræðum á TVNZ 1 að kvöldi 29. október. Rætt var um Waitangi-sáttmálann, framfærslukostnað, umhverfismál, störf og te reo Māori. Luxon hafnaði öðrum leiðtogakappræðum og í staðinn verða kappræður með spurningum kjósenda 5. nóvember.",
+   "titleEn": "Seven parties face off in TVNZ's debate on Māori issues",
+   "summaryEn": "Representatives of seven parties, including National, Labour, the Greens, NZ First, ACT, Te Pāti Māori and Opportunity, met in a one-hour debate on TVNZ 1 on the evening of 29 October. Topics included the Treaty of Waitangi, the cost of living, the environment, jobs and te reo Māori. Luxon declined a second leaders' debate, so a voter-question debate on 5 November takes its place.",
+   "source": "1News",
+   "url": "https://www.1news.co.nz/2026/10/29/no-fluffing-around-voters-invited-to-tvnzs-kaupapa-maori-debate/",
+   "basis": "article"
+  },
+  {
    "id": "isr-2026-10-29-jpost",
    "section": "kosningar",
    "iso3": "ISR",
