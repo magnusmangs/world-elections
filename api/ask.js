@@ -36,7 +36,7 @@ async function callClaude(system, messages) {
     errs.push(`${Object.keys(auth)[0]} ${r.status} ${(await r.text().catch(() => "")).slice(0, 160)}`);
     if (r.status !== 401) break;
   }
-  throw new Error(`claude ${errs.join(" | ")} [keylen ${key.length} prefix ${key.slice(0, 11)}]`);
+  throw new Error(`claude [keylen ${key.length} prefix ${key.slice(0, 11)} ws ${/\s/.test(key)}] ${errs.join(" | ")}`);
 }
 
 async function callMistral(system, messages) {
