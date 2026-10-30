@@ -2,7 +2,7 @@ name: Refresh country headlines
 
 on:
   schedule:
-    - cron: "17 * * * *"   # hourly
+    - cron: "17,47 * * * *"   # every 30 minutes (Vercel Hobby allows 100 deploys a day)
   workflow_dispatch:
 
 concurrency:
