@@ -2,6 +2,34 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "cpv-2026-10-29-expressodasilhas",
+   "section": "kosningar",
+   "iso3": "CPV",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "titleIs": "Kosningabarátta hafin á Grænhöfðaeyjum með sex forsetaframbjóðendum",
+   "summaryIs": "Formleg kosningabarátta fyrir forsetakosningarnar 15. nóvember hófst 29. október og lýkur 13. nóvember. José Maria Neves forseti (PAICV) sækist eftir endurkjöri, Joana Rosa nýtur stuðnings MpD og fjórir aðrir eru í framboði. Á kjörskrá eru um 426.500 manns, þar af tæplega 77.000 erlendis.",
+   "titleEn": "Cabo Verde's presidential campaign opens with six candidates",
+   "summaryEn": "The official campaign for the 15 November presidential election began on 29 October and runs until 13 November. President José Maria Neves (PAICV) seeks re-election, Joana Rosa is backed by the MpD and four others are also standing. About 426,500 people are registered, nearly 77,000 of them abroad.",
+   "source": "Expresso das Ilhas",
+   "url": "https://expressodasilhas.cv/politica/2026/10/29/campanha-para-as-eleicoes-presidenciais-arranca-hoje/105294",
+   "basis": "article"
+  },
+  {
+   "id": "cpv-2026-10-28-rtp",
+   "section": "kosningar",
+   "iso3": "CPV",
+   "published": "2026-10-28",
+   "added": "2026-10-30",
+   "titleIs": "Allir sex forsetaframbjóðendur Grænhöfðaeyja mættust í fyrstu kappræðunum",
+   "summaryIs": "Ríkisútvarpið RTC hélt fyrstu kappræður frambjóðendanna sex, sem stóðu í nær þrjár klukkustundir. Rætt var um réttarkerfið, framfærslukostnað, völd forsetans, endurskoðun stjórnarskrár, þátttöku brottfluttra og brottflutning ungs fólks. Joana Rosa svaraði ummælum José Maria Neves forseta.",
+   "titleEn": "All six Cabo Verde presidential candidates meet in the first debate",
+   "summaryEn": "Public broadcaster RTC hosted the first debate between the six candidates, which lasted almost three hours. Topics included justice, the cost of living, presidential powers, constitutional revision, diaspora participation and youth emigration. Joana Rosa responded to remarks by President José Maria Neves.",
+   "source": "RTP África",
+   "url": "https://africa.rtp.pt/noticias-africa/primeiro-debate-dos-candidatos-presidenciais-em-cabo-verde/",
+   "basis": "article"
+  },
+  {
    "id": "nzl-2026-10-29-1news",
    "section": "kosningar",
    "iso3": "NZL",

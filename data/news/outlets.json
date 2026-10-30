@@ -535,6 +535,15 @@
    "type": "broadcaster",
    "lang": "en",
    "feed": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6311"
+  },
+  {
+   "id": "expressodasilhas",
+   "country": "CPV",
+   "name": "Expresso das Ilhas",
+   "domain": "expressodasilhas.cv",
+   "type": "newspaper",
+   "lang": "pt",
+   "feed": "https://expressodasilhas.cv/rss"
   }
  ]
 }
