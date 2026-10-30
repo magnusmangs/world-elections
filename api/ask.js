@@ -21,21 +21,22 @@ function rateLimited(ip) {
   return arr.length > max;
 }
 
-// Personal and service account keys (sk-ant-usr-, sk-ant-svc-...) use a Bearer header; legacy workspace keys use x-api-key.
-function claudeAuth() {
-  const key = String(process.env.ANTHROPIC_API_KEY || "").trim();
-  return key.startsWith("sk-ant-api") ? { "x-api-key": key } : { authorization: `Bearer ${key}` };
-}
-
+// Personal and service account keys may need a Bearer header, legacy workspace keys use x-api-key. Try both on 401.
 async function callClaude(system, messages) {
-  const r = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: { ...claudeAuth(), "anthropic-version": "2023-06-01", "content-type": "application/json" },
-    body: JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 600, system, messages }),
-  });
-  if (!r.ok) throw new Error(`claude ${r.status} ${(await r.text().catch(() => "")).slice(0, 300)}`);
-  const d = await r.json();
-  return (d.content || []).map((b) => b.text || "").join("").trim();
+  const key = String(process.env.ANTHROPIC_API_KEY || "").trim();
+  const body = JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 600, system, messages });
+  const styles = [{ authorization: `Bearer ${key}` }, { "x-api-key": key }];
+  if (key.startsWith("sk-ant-api")) styles.reverse();
+  const errs = [];
+  for (const auth of styles) {
+    const r = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST", headers: { ...auth, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body,
+    });
+    if (r.ok) { const d = await r.json(); return (d.content || []).map((b) => b.text || "").join("").trim(); }
+    errs.push(`${Object.keys(auth)[0]} ${r.status} ${(await r.text().catch(() => "")).slice(0, 160)}`);
+    if (r.status !== 401) break;
+  }
+  throw new Error(`claude ${errs.join(" | ")} [keylen ${key.length} prefix ${key.slice(0, 11)}]`);
 }
 
 async function callMistral(system, messages) {
