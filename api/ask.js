@@ -99,6 +99,6 @@ module.exports = async (req, res) => {
     return res.status(200).json({ answer, provider, topic: ctx.label });
   } catch (e) {
     console.error("ask failed:", e && e.message);
-    return res.status(502).json({ debug: String(e && e.message).slice(0, 300), answer: L("Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund.", "Could not get an answer right now. Please try again shortly.") });
+    return res.status(502).json({ answer: L("Ekki tókst að ná í svar núna. Reyndu aftur eftir smá stund.", "Could not get an answer right now. Please try again shortly.") });
   }
 };
