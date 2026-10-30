@@ -24,7 +24,7 @@ function rateLimited(ip) {
 async function callClaude(system, messages) {
   const r = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
-    headers: { "x-api-key": process.env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
+    headers: { "x-api-key": String(process.env.ANTHROPIC_API_KEY).trim(), "anthropic-version": "2023-06-01", "content-type": "application/json" },
     body: JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 600, system, messages }),
   });
   if (!r.ok) throw new Error(`claude ${r.status} ${(await r.text().catch(() => "")).slice(0, 300)}`);
