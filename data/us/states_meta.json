@@ -1,0 +1,679 @@
+{
+ "note": "Static facts per state. houseSeats from the 2020 apportionment. outlet: the state's States Newsroom outlet or partner newsroom (nonprofit statehouse news); headlines and links only are collected by scripts/us_news.py. Icelandic names only where established (Kalifornía, Flórída...).",
+ "states": [
+  {
+   "abbr": "AL",
+   "fips": "01",
+   "name": "Alabama",
+   "nameIs": "Alabama",
+   "houseSeats": 7,
+   "outlet": {
+    "name": "Alabama Reflector",
+    "site": "https://alabamareflector.com",
+    "feed": "https://alabamareflector.com/feed/"
+   }
+  },
+  {
+   "abbr": "AK",
+   "fips": "02",
+   "name": "Alaska",
+   "nameIs": "Alaska",
+   "houseSeats": 1,
+   "outlet": {
+    "name": "Alaska Beacon",
+    "site": "https://alaskabeacon.com",
+    "feed": "https://alaskabeacon.com/feed/"
+   }
+  },
+  {
+   "abbr": "AZ",
+   "fips": "04",
+   "name": "Arizona",
+   "nameIs": "Arísóna",
+   "houseSeats": 9,
+   "outlet": {
+    "name": "Arizona Mirror",
+    "site": "https://azmirror.com",
+    "feed": "https://azmirror.com/feed/"
+   }
+  },
+  {
+   "abbr": "AR",
+   "fips": "05",
+   "name": "Arkansas",
+   "nameIs": "Arkansas",
+   "houseSeats": 4,
+   "outlet": {
+    "name": "Arkansas Advocate",
+    "site": "https://arkansasadvocate.com",
+    "feed": "https://arkansasadvocate.com/feed/"
+   }
+  },
+  {
+   "abbr": "CA",
+   "fips": "06",
+   "name": "California",
+   "nameIs": "Kalifornía",
+   "houseSeats": 52,
+   "outlet": {
+    "name": "CalMatters",
+    "site": "https://calmatters.org",
+    "feed": "https://calmatters.org/feed/"
+   }
+  },
+  {
+   "abbr": "CO",
+   "fips": "08",
+   "name": "Colorado",
+   "nameIs": "Kólóradó",
+   "houseSeats": 8,
+   "outlet": {
+    "name": "Colorado Newsline",
+    "site": "https://coloradonewsline.com",
+    "feed": "https://coloradonewsline.com/feed/"
+   }
+  },
+  {
+   "abbr": "CT",
+   "fips": "09",
+   "name": "Connecticut",
+   "nameIs": "Connecticut",
+   "houseSeats": 5,
+   "outlet": {
+    "name": "CT Mirror",
+    "site": "https://ctmirror.org",
+    "feed": "https://ctmirror.org/feed/"
+   }
+  },
+  {
+   "abbr": "DE",
+   "fips": "10",
+   "name": "Delaware",
+   "nameIs": "Delaware",
+   "houseSeats": 1,
+   "outlet": {
+    "name": "Spotlight Delaware",
+    "site": "https://spotlightdelaware.org",
+    "feed": "https://spotlightdelaware.org/feed/"
+   }
+  },
+  {
+   "abbr": "FL",
+   "fips": "12",
+   "name": "Florida",
+   "nameIs": "Flórída",
+   "houseSeats": 28,
+   "outlet": {
+    "name": "Florida Phoenix",
+    "site": "https://floridaphoenix.com",
+    "feed": "https://floridaphoenix.com/feed/"
+   }
+  },
+  {
+   "abbr": "GA",
+   "fips": "13",
+   "name": "Georgia",
+   "nameIs": "Georgía",
+   "houseSeats": 14,
+   "outlet": {
+    "name": "Georgia Recorder",
+    "site": "https://georgiarecorder.com",
+    "feed": "https://georgiarecorder.com/feed/"
+   }
+  },
+  {
+   "abbr": "HI",
+   "fips": "15",
+   "name": "Hawaii",
+   "nameIs": "Havaí",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "Honolulu Civil Beat",
+    "site": "https://www.civilbeat.org",
+    "feed": "https://www.civilbeat.org/feed/"
+   }
+  },
+  {
+   "abbr": "ID",
+   "fips": "16",
+   "name": "Idaho",
+   "nameIs": "Idaho",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "Idaho Capital Sun",
+    "site": "https://idahocapitalsun.com",
+    "feed": "https://idahocapitalsun.com/feed/"
+   }
+  },
+  {
+   "abbr": "IL",
+   "fips": "17",
+   "name": "Illinois",
+   "nameIs": "Illinois",
+   "houseSeats": 17,
+   "outlet": {
+    "name": "Capitol News Illinois",
+    "site": "https://capitolnewsillinois.com",
+    "feed": "https://capitolnewsillinois.com/feed/"
+   }
+  },
+  {
+   "abbr": "IN",
+   "fips": "18",
+   "name": "Indiana",
+   "nameIs": "Indiana",
+   "houseSeats": 9,
+   "outlet": {
+    "name": "Indiana Capital Chronicle",
+    "site": "https://indianacapitalchronicle.com",
+    "feed": "https://indianacapitalchronicle.com/feed/"
+   }
+  },
+  {
+   "abbr": "IA",
+   "fips": "19",
+   "name": "Iowa",
+   "nameIs": "Iowa",
+   "houseSeats": 4,
+   "outlet": {
+    "name": "Iowa Capital Dispatch",
+    "site": "https://iowacapitaldispatch.com",
+    "feed": "https://iowacapitaldispatch.com/feed/"
+   }
+  },
+  {
+   "abbr": "KS",
+   "fips": "20",
+   "name": "Kansas",
+   "nameIs": "Kansas",
+   "houseSeats": 4,
+   "outlet": {
+    "name": "Kansas Reflector",
+    "site": "https://kansasreflector.com",
+    "feed": "https://kansasreflector.com/feed/"
+   }
+  },
+  {
+   "abbr": "KY",
+   "fips": "21",
+   "name": "Kentucky",
+   "nameIs": "Kentucky",
+   "houseSeats": 6,
+   "outlet": {
+    "name": "Kentucky Lantern",
+    "site": "https://kentuckylantern.com",
+    "feed": "https://kentuckylantern.com/feed/"
+   }
+  },
+  {
+   "abbr": "LA",
+   "fips": "22",
+   "name": "Louisiana",
+   "nameIs": "Louisiana",
+   "houseSeats": 6,
+   "outlet": {
+    "name": "Louisiana Illuminator",
+    "site": "https://lailluminator.com",
+    "feed": "https://lailluminator.com/feed/"
+   }
+  },
+  {
+   "abbr": "ME",
+   "fips": "23",
+   "name": "Maine",
+   "nameIs": "Maine",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "Maine Morning Star",
+    "site": "https://mainemorningstar.com",
+    "feed": "https://mainemorningstar.com/feed/"
+   }
+  },
+  {
+   "abbr": "MD",
+   "fips": "24",
+   "name": "Maryland",
+   "nameIs": "Maryland",
+   "houseSeats": 8,
+   "outlet": {
+    "name": "Maryland Matters",
+    "site": "https://www.marylandmatters.org",
+    "feed": "https://www.marylandmatters.org/feed/"
+   }
+  },
+  {
+   "abbr": "MA",
+   "fips": "25",
+   "name": "Massachusetts",
+   "nameIs": "Massachusetts",
+   "houseSeats": 9,
+   "outlet": {
+    "name": "CommonWealth Beacon",
+    "site": "https://commonwealthbeacon.org",
+    "feed": "https://commonwealthbeacon.org/feed/"
+   }
+  },
+  {
+   "abbr": "MI",
+   "fips": "26",
+   "name": "Michigan",
+   "nameIs": "Michigan",
+   "houseSeats": 13,
+   "outlet": {
+    "name": "Michigan Advance",
+    "site": "https://michiganadvance.com",
+    "feed": "https://michiganadvance.com/feed/"
+   }
+  },
+  {
+   "abbr": "MN",
+   "fips": "27",
+   "name": "Minnesota",
+   "nameIs": "Minnesota",
+   "houseSeats": 8,
+   "outlet": {
+    "name": "Minnesota Reformer",
+    "site": "https://minnesotareformer.com",
+    "feed": "https://minnesotareformer.com/feed/"
+   }
+  },
+  {
+   "abbr": "MS",
+   "fips": "28",
+   "name": "Mississippi",
+   "nameIs": "Mississippi",
+   "houseSeats": 4,
+   "outlet": {
+    "name": "Mississippi Today",
+    "site": "https://mississippitoday.org",
+    "feed": "https://mississippitoday.org/feed/"
+   }
+  },
+  {
+   "abbr": "MO",
+   "fips": "29",
+   "name": "Missouri",
+   "nameIs": "Missouri",
+   "houseSeats": 8,
+   "outlet": {
+    "name": "Missouri Independent",
+    "site": "https://missouriindependent.com",
+    "feed": "https://missouriindependent.com/feed/"
+   }
+  },
+  {
+   "abbr": "MT",
+   "fips": "30",
+   "name": "Montana",
+   "nameIs": "Montana",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "Daily Montanan",
+    "site": "https://dailymontanan.com",
+    "feed": "https://dailymontanan.com/feed/"
+   }
+  },
+  {
+   "abbr": "NE",
+   "fips": "31",
+   "name": "Nebraska",
+   "nameIs": "Nebraska",
+   "houseSeats": 3,
+   "outlet": {
+    "name": "Nebraska Examiner",
+    "site": "https://nebraskaexaminer.com",
+    "feed": "https://nebraskaexaminer.com/feed/"
+   }
+  },
+  {
+   "abbr": "NV",
+   "fips": "32",
+   "name": "Nevada",
+   "nameIs": "Nevada",
+   "houseSeats": 4,
+   "outlet": {
+    "name": "Nevada Current",
+    "site": "https://nevadacurrent.com",
+    "feed": "https://nevadacurrent.com/feed/"
+   }
+  },
+  {
+   "abbr": "NH",
+   "fips": "33",
+   "name": "New Hampshire",
+   "nameIs": "New Hampshire",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "New Hampshire Bulletin",
+    "site": "https://newhampshirebulletin.com",
+    "feed": "https://newhampshirebulletin.com/feed/"
+   }
+  },
+  {
+   "abbr": "NJ",
+   "fips": "34",
+   "name": "New Jersey",
+   "nameIs": "New Jersey",
+   "houseSeats": 12,
+   "outlet": {
+    "name": "New Jersey Monitor",
+    "site": "https://newjerseymonitor.com",
+    "feed": "https://newjerseymonitor.com/feed/"
+   }
+  },
+  {
+   "abbr": "NM",
+   "fips": "35",
+   "name": "New Mexico",
+   "nameIs": "Nýja-Mexíkó",
+   "houseSeats": 3,
+   "outlet": {
+    "name": "Source NM",
+    "site": "https://sourcenm.com",
+    "feed": "https://sourcenm.com/feed/"
+   }
+  },
+  {
+   "abbr": "NY",
+   "fips": "36",
+   "name": "New York",
+   "nameIs": "New York",
+   "houseSeats": 26,
+   "outlet": {
+    "name": "New York Focus",
+    "site": "https://nysfocus.com",
+    "feed": "https://nysfocus.com/feed/"
+   }
+  },
+  {
+   "abbr": "NC",
+   "fips": "37",
+   "name": "North Carolina",
+   "nameIs": "Norður-Karólína",
+   "houseSeats": 14,
+   "outlet": {
+    "name": "NC Newsline",
+    "site": "https://ncnewsline.com",
+    "feed": "https://ncnewsline.com/feed/"
+   }
+  },
+  {
+   "abbr": "ND",
+   "fips": "38",
+   "name": "North Dakota",
+   "nameIs": "Norður-Dakóta",
+   "houseSeats": 1,
+   "outlet": {
+    "name": "North Dakota Monitor",
+    "site": "https://www.northdakotamonitor.com",
+    "feed": "https://www.northdakotamonitor.com/feed/"
+   }
+  },
+  {
+   "abbr": "OH",
+   "fips": "39",
+   "name": "Ohio",
+   "nameIs": "Ohio",
+   "houseSeats": 15,
+   "outlet": {
+    "name": "Ohio Capital Journal",
+    "site": "https://ohiocapitaljournal.com",
+    "feed": "https://ohiocapitaljournal.com/feed/"
+   }
+  },
+  {
+   "abbr": "OK",
+   "fips": "40",
+   "name": "Oklahoma",
+   "nameIs": "Oklahoma",
+   "houseSeats": 5,
+   "outlet": {
+    "name": "Oklahoma Voice",
+    "site": "https://oklahomavoice.com",
+    "feed": "https://oklahomavoice.com/feed/"
+   }
+  },
+  {
+   "abbr": "OR",
+   "fips": "41",
+   "name": "Oregon",
+   "nameIs": "Oregon",
+   "houseSeats": 6,
+   "outlet": {
+    "name": "Oregon Capital Chronicle",
+    "site": "https://oregoncapitalchronicle.com",
+    "feed": "https://oregoncapitalchronicle.com/feed/"
+   }
+  },
+  {
+   "abbr": "PA",
+   "fips": "42",
+   "name": "Pennsylvania",
+   "nameIs": "Pennsylvanía",
+   "houseSeats": 17,
+   "outlet": {
+    "name": "Pennsylvania Capital-Star",
+    "site": "https://penncapital-star.com",
+    "feed": "https://penncapital-star.com/feed/"
+   }
+  },
+  {
+   "abbr": "RI",
+   "fips": "44",
+   "name": "Rhode Island",
+   "nameIs": "Rhode Island",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "Rhode Island Current",
+    "site": "https://rhodeislandcurrent.com",
+    "feed": "https://rhodeislandcurrent.com/feed/"
+   }
+  },
+  {
+   "abbr": "SC",
+   "fips": "45",
+   "name": "South Carolina",
+   "nameIs": "Suður-Karólína",
+   "houseSeats": 7,
+   "outlet": {
+    "name": "SC Daily Gazette",
+    "site": "https://scdailygazette.com",
+    "feed": "https://scdailygazette.com/feed/"
+   }
+  },
+  {
+   "abbr": "SD",
+   "fips": "46",
+   "name": "South Dakota",
+   "nameIs": "Suður-Dakóta",
+   "houseSeats": 1,
+   "outlet": {
+    "name": "South Dakota Searchlight",
+    "site": "https://southdakotasearchlight.com",
+    "feed": "https://southdakotasearchlight.com/feed/"
+   }
+  },
+  {
+   "abbr": "TN",
+   "fips": "47",
+   "name": "Tennessee",
+   "nameIs": "Tennessee",
+   "houseSeats": 9,
+   "outlet": {
+    "name": "Tennessee Lookout",
+    "site": "https://tennesseelookout.com",
+    "feed": "https://tennesseelookout.com/feed/"
+   }
+  },
+  {
+   "abbr": "TX",
+   "fips": "48",
+   "name": "Texas",
+   "nameIs": "Texas",
+   "houseSeats": 38,
+   "outlet": {
+    "name": "The Texas Tribune",
+    "site": "https://www.texastribune.org",
+    "feed": "https://www.texastribune.org/feed/"
+   }
+  },
+  {
+   "abbr": "UT",
+   "fips": "49",
+   "name": "Utah",
+   "nameIs": "Utah",
+   "houseSeats": 4,
+   "outlet": {
+    "name": "Utah News Dispatch",
+    "site": "https://utahnewsdispatch.com",
+    "feed": "https://utahnewsdispatch.com/feed/"
+   }
+  },
+  {
+   "abbr": "VT",
+   "fips": "50",
+   "name": "Vermont",
+   "nameIs": "Vermont",
+   "houseSeats": 1,
+   "outlet": {
+    "name": "VTDigger",
+    "site": "https://vtdigger.org",
+    "feed": "https://vtdigger.org/feed/"
+   }
+  },
+  {
+   "abbr": "VA",
+   "fips": "51",
+   "name": "Virginia",
+   "nameIs": "Virginía",
+   "houseSeats": 11,
+   "outlet": {
+    "name": "Virginia Mercury",
+    "site": "https://virginiamercury.com",
+    "feed": "https://virginiamercury.com/feed/"
+   }
+  },
+  {
+   "abbr": "WA",
+   "fips": "53",
+   "name": "Washington",
+   "nameIs": "Washington",
+   "houseSeats": 10,
+   "outlet": {
+    "name": "Washington State Standard",
+    "site": "https://washingtonstatestandard.com",
+    "feed": "https://washingtonstatestandard.com/feed/"
+   }
+  },
+  {
+   "abbr": "WV",
+   "fips": "54",
+   "name": "West Virginia",
+   "nameIs": "Vestur-Virginía",
+   "houseSeats": 2,
+   "outlet": {
+    "name": "West Virginia Watch",
+    "site": "https://westvirginiawatch.com",
+    "feed": "https://westvirginiawatch.com/feed/"
+   }
+  },
+  {
+   "abbr": "WI",
+   "fips": "55",
+   "name": "Wisconsin",
+   "nameIs": "Wisconsin",
+   "houseSeats": 8,
+   "outlet": {
+    "name": "Wisconsin Examiner",
+    "site": "https://wisconsinexaminer.com",
+    "feed": "https://wisconsinexaminer.com/feed/"
+   }
+  },
+  {
+   "abbr": "WY",
+   "fips": "56",
+   "name": "Wyoming",
+   "nameIs": "Wyoming",
+   "houseSeats": 1,
+   "outlet": {
+    "name": "WyoFile",
+    "site": "https://wyofile.com",
+    "feed": "https://wyofile.com/feed/"
+   }
+  }
+ ],
+ "national": [
+  {
+   "name": "NPR",
+   "type": "public broadcaster",
+   "feed": "https://feeds.npr.org/1014/rss.xml",
+   "domain": "npr.org"
+  },
+  {
+   "name": "PBS NewsHour",
+   "type": "public broadcaster",
+   "feed": "https://www.pbs.org/newshour/feeds/rss/politics",
+   "domain": "pbs.org"
+  },
+  {
+   "name": "ABC News",
+   "type": "broadcaster",
+   "feed": "https://abcnews.go.com/abcnews/politicsheadlines",
+   "domain": "abcnews.go.com"
+  },
+  {
+   "name": "CBS News",
+   "type": "broadcaster",
+   "feed": "https://www.cbsnews.com/latest/rss/politics",
+   "domain": "cbsnews.com"
+  },
+  {
+   "name": "NBC News",
+   "type": "broadcaster",
+   "feed": "https://feeds.nbcnews.com/nbcnews/public/politics",
+   "domain": "nbcnews.com"
+  },
+  {
+   "name": "Fox News",
+   "type": "broadcaster",
+   "feed": "https://moxie.foxnews.com/google-publisher/politics.xml",
+   "domain": "foxnews.com"
+  },
+  {
+   "name": "The New York Times",
+   "type": "newspaper",
+   "feed": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+   "domain": "nytimes.com"
+  },
+  {
+   "name": "Politico",
+   "type": "news site",
+   "feed": "https://rss.politico.com/politics-news.xml",
+   "domain": "politico.com"
+  },
+  {
+   "name": "The Hill",
+   "type": "news site",
+   "feed": "https://thehill.com/homenews/campaign/feed/",
+   "domain": "thehill.com"
+  },
+  {
+   "name": "Washington Examiner",
+   "type": "news site",
+   "feed": "https://www.washingtonexaminer.com/tag/elections/feed/",
+   "domain": "washingtonexaminer.com"
+  },
+  {
+   "name": "The Dispatch",
+   "type": "news site",
+   "feed": "https://thedispatch.com/feed/",
+   "domain": "thedispatch.com"
+  },
+  {
+   "name": "Stateline",
+   "type": "nonprofit newsroom",
+   "feed": "https://stateline.org/feed/",
+   "domain": "stateline.org"
+  }
+ ]
+}

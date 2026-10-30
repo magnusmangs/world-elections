@@ -25,6 +25,8 @@ jobs:
         run: python3 scripts/build.py
       - name: Collect headlines from outlet feeds
         run: python3 scripts/headlines.py
+      - name: Collect US state and national headlines
+        run: python3 scripts/us_news.py
       - name: Build news page data
         run: python3 scripts/news.py
       - name: Deploy to Vercel

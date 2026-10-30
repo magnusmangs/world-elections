@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="is">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-en="US midterms 2026">Bandaríkin kjósa 2026</title>
+<meta name="description" content="Kort af öllum fylkjum Bandaríkjanna fyrir þingkosningarnar 3. nóvember 2026: öldungadeild, ríkisstjórar og fulltrúadeild, með fréttum úr hverju fylki." data-en-content="A map of every US state for the 3 November 2026 midterms: Senate, governors and House, with news from each state.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/chat.css">
+<link rel="stylesheet" href="/bandarikin.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23B0124F'/><path d='M9 16.5l4.5 4.5L23 11' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body class="us">
+<a class="skip" href="#races" data-en="Skip to key races">Fara í spennandi kosningar</a>
+<nav class="sitenav" aria-label="Síður" data-en-aria-label="Pages">
+  <a href="/frettir" data-en="News">Fréttir</a>
+  <a href="/" data-en="Elections">Kosningar</a>
+  <a href="/bandarikin" aria-current="page" data-en="United States">Bandaríkin</a>
+</nav>
+
+<main>
+  <header class="us-head">
+    <p class="kicker" id="kicker"></p>
+    <h1 data-en="The US midterms">Bandaríkin kjósa</h1>
+    <p class="lede" id="lede" data-en="Loading the races…">Sæki kosningarnar…</p>
+  </header>
+
+  <section class="us-atlas" aria-labelledby="map-h">
+    <h2 id="map-h" class="visually-hidden" data-en="Map of the states">Kort af fylkjunum</h2>
+    <div class="modes" role="group" aria-label="Sýna á korti" data-en-aria-label="Show on map">
+      <button type="button" class="pill" data-mode="senate" aria-pressed="true" data-en="Senate">Öldungadeild</button>
+      <button type="button" class="pill" data-mode="governor" aria-pressed="false" data-en="Governors">Ríkisstjórar</button>
+      <button type="button" class="pill" data-mode="house" aria-pressed="false" data-en="House">Fulltrúadeild</button>
+    </div>
+    <p class="mode-note" id="mode-note"></p>
+    <div class="us-map" id="us-map"></div>
+    <div class="small-states" id="small-states" aria-label="Lítil fylki" data-en-aria-label="Small states"></div>
+    <div class="legend us-legend" id="us-legend" aria-hidden="true"></div>
+    <div class="tooltip" id="tooltip" role="status" hidden></div>
+  </section>
+
+  <section class="us-block" id="balance" aria-labelledby="bal-h">
+    <h2 id="bal-h" data-en="Balance of power">Valdahlutföllin</h2>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section class="us-block" id="races" aria-labelledby="races-h">
+    <h2 id="races-h" data-en="The closest races">Tvísýnustu kosningarnar</h2>
+    <p class="block-lead" data-en="Senate and governor races that the Cook Political Report rates as toss-up or leaning. Pick one to open the state.">Kosningar til öldungadeildar og um ríkisstjóra sem Cook Political Report metur óráðnar eða hallandi. Veldu eina til að opna fylkið.</p>
+    <div id="race-list"></div>
+  </section>
+
+  <section class="us-block" id="news" aria-labelledby="news-h">
+    <h2 id="news-h" data-en="Latest from national outlets">Nýjast úr bandarískum landsmiðlum</h2>
+    <p class="block-lead" data-en="Election headlines from a spread of national outlets, refreshed every hour. Headlines and links only; open a state for its local newsroom.">Fyrirsagnir um kosningarnar úr ólíkum landsmiðlum, uppfærðar á klukkutíma fresti. Aðeins fyrirsagnir og hlekkir; opnaðu fylki til að sjá fréttir heimamiðils.</p>
+    <ol class="headlines" id="national"></ol>
+  </section>
+
+  <p class="fineprint us-fine" id="fineprint"></p>
+</main>
+
+<aside class="panel" id="panel" aria-labelledby="panel-title" hidden>
+  <button type="button" class="panel-close" id="panel-close" aria-label="Loka upplýsingum um fylki" data-en-aria-label="Close state details" data-en="Close">Loka</button>
+  <div class="panel-body" id="panel-body"></div>
+</aside>
+<div class="scrim" id="scrim" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="/i18n.js"></script>
+<script src="/bandarikin.js"></script>
+<script src="/chat.js"></script>
+</body>
+</html>

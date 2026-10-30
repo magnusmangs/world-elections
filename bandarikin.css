@@ -1,0 +1,111 @@
+/* US midterms page. Builds on styles.css tokens. */
+:root {
+  --dem3: #1d4e9e; --dem2: #4a7fd1; --dem1: #a9c5ef;
+  --rep3: #b5221b; --rep2: #df5d55; --rep1: #f3b1aa;
+  --toss: #8a63c4; --ind: #2f8f6b; --norace: var(--land);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --dem3: #5d8fe6; --dem2: #3c69b3; --dem1: #27406b;
+    --rep3: #ef6a62; --rep2: #b8423b; --rep1: #6b2c28;
+    --toss: #a184d6; --ind: #4cc49a;
+  }
+}
+:root[data-theme="dark"] {
+  --dem3: #5d8fe6; --dem2: #3c69b3; --dem1: #27406b;
+  --rep3: #ef6a62; --rep2: #b8423b; --rep1: #6b2c28;
+  --toss: #a184d6; --ind: #4cc49a;
+}
+
+body.us { background: var(--surface); }
+.us .sitenav { justify-content: flex-end; flex-wrap: wrap; }
+.us main { max-width: 1120px; margin: 0 auto; padding: 0 16px 56px; }
+
+.us-head { padding: 8px 0 4px; max-width: 46rem; }
+.kicker { margin: 0; font: 700 .8rem/1.2 var(--text); letter-spacing: .08em; text-transform: uppercase; color: var(--s1); }
+.us-head h1 { margin: 6px 0 0; font: 800 clamp(2.4rem, 7vw, 4.6rem)/.92 var(--display); letter-spacing: -.035em; font-variation-settings: "opsz" 96; }
+.us-head .lede { margin: .8rem 0 0; font-size: 1.05rem; color: var(--ink); max-width: 44rem; }
+.lede b { font-weight: 600; }
+
+.us-atlas { position: relative; margin-top: 18px; padding: 16px; background: var(--surface-2); border-radius: 14px; }
+.modes { display: flex; gap: 6px; flex-wrap: wrap; }
+.pill { border: 1px solid var(--land-line); background: var(--surface); color: var(--ink); padding: 7px 14px; border-radius: 999px; font: 600 .92rem/1 var(--text); cursor: pointer; }
+.pill[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.pill:hover:not([aria-pressed="true"]) { background: var(--surface-2); }
+.mode-note { margin: 10px 0 0; font-size: .9rem; color: var(--muted); max-width: 60ch; }
+.us-map { margin-top: 6px; }
+.us-map svg { display: block; width: 100%; height: auto; }
+.state { stroke: var(--surface); stroke-width: .9; cursor: pointer; transition: opacity .15s; }
+.state:hover, .state:focus-visible, .state.is-active { stroke: var(--ink); stroke-width: 2; outline: none; }
+.state.called { stroke-width: 1.4; }
+.state-label { font: 600 11px/1 var(--text); fill: var(--ink); pointer-events: none; text-anchor: middle; dominant-baseline: middle; paint-order: stroke; stroke: var(--surface); stroke-width: 2.5px; stroke-linejoin: round; }
+.state-label.on-dark { fill: #fff; stroke: rgba(0,0,0,.35); }
+.small-states { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.small-states button { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 6px; border: 1px solid var(--land-line); border-radius: 999px; background: var(--surface); cursor: pointer; font: 600 .82rem/1 var(--text); color: var(--ink); }
+.small-states button i { width: 14px; height: 14px; border-radius: 4px; background: var(--c); }
+.small-states button:hover { background: var(--surface-2); }
+.us-legend { position: static; margin-top: 12px; max-width: none; }
+.us-legend .legend-scale i { border: 1px solid var(--rule); }
+
+.us-block { margin-top: 44px; }
+.us-block h2 { margin: 0 0 6px; font: 700 1.9rem/1.1 var(--display); letter-spacing: -.02em; }
+.block-lead { margin: 0 0 12px; color: var(--muted); font-size: .95rem; max-width: 64ch; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; margin-top: 12px; }
+.card { padding: 16px 18px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); }
+.card h3 { margin: 0; font: 700 1.2rem/1.2 var(--display); }
+.card .big { margin: 6px 0 0; font: 800 1.7rem/1.1 var(--display); font-variant-numeric: tabular-nums; }
+.card .big .d { color: var(--dem3); } .card .big .r { color: var(--rep3); } .card .big .i { color: var(--ind); }
+.card p { margin: 6px 0 0; font-size: .9rem; color: var(--muted); }
+.card p b { color: var(--ink); font-weight: 600; }
+.bar { position: relative; display: flex; height: 18px; margin-top: 12px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
+.bar span { display: block; height: 100%; }
+.bar .mid { position: absolute; top: -3px; bottom: -3px; left: 50%; width: 2px; background: var(--ink); }
+.bar-key { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 8px 0 0; padding: 0; list-style: none; font-size: .78rem; color: var(--muted); }
+.bar-key i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; background: var(--c); }
+.bar-key b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.race-group h3 { margin: 18px 0 2px; font: 700 1.05rem/1.3 var(--display); color: var(--muted); }
+.race-row { border-top: 1px solid var(--rule); }
+.race-row button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 9rem 1fr auto; gap: 12px; align-items: baseline; padding: 11px 4px; cursor: pointer; }
+.race-row button:hover { background: var(--surface-2); }
+.race-row button:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+.race-state { font-weight: 600; }
+.race-who { min-width: 0; color: var(--ink); font-size: .95rem; }
+.race-who small { color: var(--muted); }
+.chip-r { display: inline-flex; align-items: center; gap: 6px; font-size: .78rem; font-weight: 600; white-space: nowrap; padding: 2px 9px 2px 6px; border-radius: 999px; background: var(--surface-2); }
+.chip-r i { width: 10px; height: 10px; border-radius: 3px; background: var(--c); }
+
+.headlines { list-style: none; margin: 0; padding: 0; }
+.headlines li { padding: 10px 0; border-top: 1px solid var(--rule); }
+.headlines a { color: var(--ink); text-decoration: none; font-weight: 500; }
+.headlines a:hover { text-decoration: underline; }
+.headlines .src { display: block; margin-top: 2px; font-size: .8rem; color: var(--muted); }
+.headlines.compact li { padding: 8px 0; font-size: .92rem; }
+.us-fine { margin: 44px 0 0; }
+
+/* panel */
+.race { margin: 16px 0 0; padding: 14px 16px; background: var(--surface-2); border-radius: 10px; border-left: 5px solid var(--c, var(--rule)); }
+.race-h { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.race-h h3 { margin: 0; font: 700 1.15rem/1.2 var(--display); }
+.race .status-line { margin: 4px 0 0; font-size: .88rem; color: var(--muted); }
+.cands { list-style: none; margin: 10px 0 0; padding: 0; }
+.cands li { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.cands i { width: 12px; height: 12px; border-radius: 50%; background: var(--c); flex: none; }
+.cands .nm { font-weight: 600; }
+.cands .pt { color: var(--muted); font-size: .88rem; }
+.cands .inc { font-size: .72rem; font-weight: 600; color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; padding: 0 7px; }
+.cands .won { font-size: .72rem; font-weight: 700; color: #fff; background: var(--c); border-radius: 999px; padding: 1px 8px; }
+.deleg { margin-top: 10px; }
+.districts { list-style: none; margin: 10px 0 0; padding: 0; font-size: .9rem; }
+.districts li { display: grid; grid-template-columns: 3.4rem 1fr auto; gap: 8px; align-items: baseline; padding: 5px 0; border-top: 1px solid var(--rule); }
+.districts .dn { font-weight: 700; font-variant-numeric: tabular-nums; }
+.panel .sub { margin: 26px 0 4px; font: 700 1.15rem/1.2 var(--display); }
+.panel .muted { color: var(--muted); font-size: .88rem; }
+
+@media (max-width: 720px) {
+  .us-head h1 { font-size: 2.6rem; }
+  .race-row button { grid-template-columns: 1fr auto; }
+  .race-who { grid-column: 1 / -1; grid-row: 2; }
+  .state-label { font-size: 13px; }
+}

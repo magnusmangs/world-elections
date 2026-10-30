@@ -1,0 +1,3230 @@
+{
+ "updated": "2026-10-30T11:56Z",
+ "electionDate": "2026-11-03",
+ "ratingSource": {
+  "name": "Cook Political Report",
+  "url": "https://www.cookpolitical.com/ratings"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+  "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+  "https://en.wikipedia.org/wiki/List_of_current_United_States_representatives"
+ ],
+ "senateBefore": {
+  "Republican": 53,
+  "Democratic": 45,
+  "Independent": 2
+ },
+ "governorsBefore": {
+  "Republican": 26,
+  "Democratic": 24
+ },
+ "houseBefore": {
+  "R": 218,
+  "D": 214,
+  "I": 1,
+  "vacant": 2
+ },
+ "states": {
+  "AL": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Tommy Tuberville",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Barry Moore",
+       "party": "Republican"
+      },
+      {
+       "name": "Everett Wess",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Kay Ivey",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Tommy Tuberville",
+      "party": "Republican"
+     },
+     {
+      "name": "Doug Jones",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 7,
+    "delegation": {
+     "R": 5,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "Shomari Figures",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "AK": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Dan S. Sullivan",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Dan S. Sullivan",
+       "party": "Republican"
+      },
+      {
+       "name": "Mary Peltola",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Mike Dunleavy",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Jonathan Kreiss-Tomkins",
+      "party": "Democratic"
+     },
+     {
+      "name": "Bernadette Wilson",
+      "party": "Republican"
+     },
+     {
+      "name": "Dave Bronson",
+      "party": "Republican"
+     },
+     {
+      "name": "Treg Taylor",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 1,
+    "delegation": {
+     "R": 1,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "AL",
+      "incumbent": "Nick Begich III",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "AZ": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Katie Hobbs",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Katie Hobbs",
+      "party": "Democratic"
+     },
+     {
+      "name": "Andy Biggs",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 9,
+    "delegation": {
+     "R": 6,
+     "D": 3,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "David Schweikert",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "2",
+      "incumbent": "Eli Crane",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "6",
+      "incumbent": "Juan Ciscomani",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "AR": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Tom Cotton",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Tom Cotton",
+       "party": "Republican"
+      },
+      {
+       "name": "Hallie Shoffner",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Sarah Huckabee Sanders",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Sarah Huckabee Sanders",
+      "party": "Republican"
+     },
+     {
+      "name": "Fredrick Love",
+      "party": "Democratic"
+     },
+     {
+      "name": "Colt Shelby",
+      "party": "Libertarian"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 4,
+    "delegation": {
+     "R": 4,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "French Hill",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "CA": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Gavin Newsom",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Xavier Becerra",
+      "party": "Democratic"
+     },
+     {
+      "name": "Steve Hilton",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 52,
+    "delegation": {
+     "R": 8,
+     "D": 43,
+     "I": 1,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "13",
+      "incumbent": "Adam Gray",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "22",
+      "incumbent": "David Valadao",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "45",
+      "incumbent": "Derek Tran",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "48",
+      "incumbent": "Darrell Issa",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "CO": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "John Hickenlooper",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "John Hickenlooper",
+       "party": "Democratic"
+      },
+      {
+       "name": "Mark Baisley",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Jared Polis",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Phil Weiser",
+      "party": "Democratic"
+     },
+     {
+      "name": "Victor Marx",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 8,
+    "delegation": {
+     "R": 4,
+     "D": 4,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "3",
+      "incumbent": "Jeff Hurd",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "4",
+      "incumbent": "Lauren Boebert",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "5",
+      "incumbent": "Jeff Crank",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "8",
+      "incumbent": "Gabe Evans",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "CT": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Ned Lamont",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Ned Lamont",
+      "party": "Democratic"
+     },
+     {
+      "name": "Ryan Fazio",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 5,
+    "delegation": {
+     "R": 0,
+     "D": 5,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "DE": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Chris Coons",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Chris Coons",
+       "party": "Democratic"
+      },
+      {
+       "name": "Michael Katz",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 1,
+    "delegation": {
+     "R": 0,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "FL": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": true,
+     "incumbent": "Ashley Moody",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Ashley Moody",
+       "party": "Republican"
+      },
+      {
+       "name": "Angie Nixon",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Ron DeSantis",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Byron Donalds",
+      "party": "Republican"
+     },
+     {
+      "name": "David Jolly",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 28,
+    "delegation": {
+     "R": 20,
+     "D": 7,
+     "I": 0,
+     "vacant": 1
+    },
+    "competitive": [
+     {
+      "district": "7",
+      "incumbent": "Cory Mills",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "9",
+      "incumbent": "Darren Soto",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "13",
+      "incumbent": "Anna Paulina Luna",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "14",
+      "incumbent": "Kathy Castor",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "16",
+      "incumbent": "Vern Buchanan",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "22",
+      "incumbent": "",
+      "party": "",
+      "open": true,
+      "newSeat": true,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "25",
+      "incumbent": "Jared Moskowitz",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "27",
+      "incumbent": "María Elvira Salazar",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "GA": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Jon Ossoff",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Jon Ossoff",
+       "party": "Democratic"
+      },
+      {
+       "name": "Mike Collins",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Likely",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Brian Kemp",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Rick Jackson",
+      "party": "Republican"
+     },
+     {
+      "name": "Keisha Lance Bottoms",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Tossup",
+     "party": null
+    }
+   },
+   "house": {
+    "seats": 14,
+    "delegation": {
+     "R": 9,
+     "D": 5,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "HI": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Josh Green",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Josh Green",
+      "party": "Democratic"
+     },
+     {
+      "name": "Gary Cordery",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 0,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "ID": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Jim Risch",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Jim Risch",
+       "party": "Republican"
+      },
+      {
+       "name": "Todd Achilles",
+       "party": "Independent"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Brad Little",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Brad Little",
+      "party": "Republican"
+     },
+     {
+      "name": "Terri Pickens",
+      "party": "Democratic"
+     },
+     {
+      "name": "John Stegner",
+      "party": "Independent"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 2,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "IL": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Dick Durbin",
+     "incumbentParty": "Democratic",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Juliana Stratton",
+       "party": "Democratic"
+      },
+      {
+       "name": "Don Tracy",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "JB Pritzker",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "JB Pritzker",
+      "party": "Democratic"
+     },
+     {
+      "name": "Darren Bailey",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 17,
+    "delegation": {
+     "R": 3,
+     "D": 14,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "IN": {
+   "senate": [],
+   "governor": null,
+   "house": {
+    "seats": 9,
+    "delegation": {
+     "R": 7,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Frank J. Mrvan",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "5",
+      "incumbent": "Victoria Spartz",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "IA": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Joni Ernst",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Ashley Hinson",
+       "party": "Republican"
+      },
+      {
+       "name": "Josh Turek",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Kim Reynolds",
+    "incumbentParty": "Republican",
+    "status": "retiring",
+    "candidates": [
+     {
+      "name": "Zach Lahn",
+      "party": "Republican"
+     },
+     {
+      "name": "Rob Sand",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 4,
+    "delegation": {
+     "R": 4,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Mariannette Miller-Meeks",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "2",
+      "incumbent": "Ashley Hinson",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "3",
+      "incumbent": "Zach Nunn",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "KS": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Roger Marshall",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Roger Marshall",
+       "party": "Republican"
+      },
+      {
+       "name": "Adam Hamilton",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Laura Kelly",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Cindy Holscher",
+      "party": "Democratic"
+     },
+     {
+      "name": "Ty Masterson",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Tossup",
+     "party": null
+    }
+   },
+   "house": {
+    "seats": 4,
+    "delegation": {
+     "R": 3,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "Derek Schmidt",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "KY": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Mitch McConnell",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Andy Barr",
+       "party": "Republican"
+      },
+      {
+       "name": "Charles Booker",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 6,
+    "delegation": {
+     "R": 5,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "6",
+      "incumbent": "Andy Barr",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     }
+    ]
+   }
+  },
+  "LA": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Bill Cassidy",
+     "incumbentParty": "Republican",
+     "status": "lost",
+     "candidates": [
+      {
+       "name": "Julia Letlow",
+       "party": "Republican"
+      },
+      {
+       "name": "Jamie Davis",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 6,
+    "delegation": {
+     "R": 4,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "ME": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Susan Collins",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Susan Collins",
+       "party": "Republican"
+      },
+      {
+       "name": "Troy Jackson",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Janet Mills",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Hannah Pingree",
+      "party": "Democratic"
+     },
+     {
+      "name": "Robert B. Charles",
+      "party": "Republican"
+     },
+     {
+      "name": "Rick Bennett",
+      "party": "Independent"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 0,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "Jared Golden",
+      "party": "D",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "MD": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Wes Moore",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Wes Moore",
+      "party": "Democratic"
+     },
+     {
+      "name": "Dan Cox",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 8,
+    "delegation": {
+     "R": 1,
+     "D": 7,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "MA": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Ed Markey",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Ed Markey",
+       "party": "Democratic"
+      },
+      {
+       "name": "John Deaton",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Maura Healey",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Maura Healey",
+      "party": "Democratic"
+     },
+     {
+      "name": "Michael Minogue",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 9,
+    "delegation": {
+     "R": 0,
+     "D": 9,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "MI": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Gary Peters",
+     "incumbentParty": "Democratic",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Abdul El-Sayed",
+       "party": "Democratic"
+      },
+      {
+       "name": "Mike Rogers",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Gretchen Whitmer",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Jocelyn Benson",
+      "party": "Democratic"
+     },
+     {
+      "name": "John James",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 13,
+    "delegation": {
+     "R": 7,
+     "D": 6,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "4",
+      "incumbent": "Bill Huizenga",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "7",
+      "incumbent": "Tom Barrett",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "8",
+      "incumbent": "Kristen McDonald Rivet",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "10",
+      "incumbent": "John James",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     }
+    ]
+   }
+  },
+  "MN": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Tina Smith",
+     "incumbentParty": "Democratic",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Peggy Flanagan",
+       "party": "Democratic"
+      },
+      {
+       "name": "Michele Tafoya",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Lean",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Tim Walz",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Amy Klobuchar",
+      "party": "Democratic"
+     },
+     {
+      "name": "Lisa Demuth",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 8,
+    "delegation": {
+     "R": 4,
+     "D": 4,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Brad Finstad",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "2",
+      "incumbent": "Angie Craig",
+      "party": "D",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "MS": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Cindy Hyde-Smith",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Cindy Hyde-Smith",
+       "party": "Republican"
+      },
+      {
+       "name": "Scott Colom",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Likely",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 4,
+    "delegation": {
+     "R": 3,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "MO": {
+   "senate": [],
+   "governor": null,
+   "house": {
+    "seats": 8,
+    "delegation": {
+     "R": 6,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "Ann Wagner",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "MT": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Steve Daines",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Kurt Alme",
+       "party": "Republican"
+      },
+      {
+       "name": "Alani Bankhead",
+       "party": "Democratic"
+      },
+      {
+       "name": "Seth Bodnar",
+       "party": "Independent"
+      },
+      {
+       "name": "Kyle Austin",
+       "party": "Libertarian"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 2,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Ryan Zinke",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     }
+    ]
+   }
+  },
+  "NE": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Pete Ricketts",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Pete Ricketts",
+       "party": "Republican"
+      },
+      {
+       "name": "Dan Osborn",
+       "party": "Independent"
+      }
+     ],
+     "rating": {
+      "rating": "Likely",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Jim Pillen",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Jim Pillen",
+      "party": "Republican"
+     },
+     {
+      "name": "Lynne Walz",
+      "party": "Democratic"
+     },
+     {
+      "name": "Rick Beard",
+      "party": "Legal Marijuana Now"
+     },
+     {
+      "name": "Brett Lindstrom",
+      "party": "America First"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 3,
+    "delegation": {
+     "R": 3,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Mike Flood",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "2",
+      "incumbent": "Don Bacon",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "NV": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Joe Lombardo",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Joe Lombardo",
+      "party": "Republican"
+     },
+     {
+      "name": "Aaron Ford",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Tossup",
+     "party": null
+    }
+   },
+   "house": {
+    "seats": 4,
+    "delegation": {
+     "R": 1,
+     "D": 3,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Dina Titus",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "2",
+      "incumbent": "Mark Amodei",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "3",
+      "incumbent": "Susie Lee",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "4",
+      "incumbent": "Steven Horsford",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "NH": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Jeanne Shaheen",
+     "incumbentParty": "Democratic",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Chris Pappas",
+       "party": "Democratic"
+      },
+      {
+       "name": "John E. Sununu",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Lean",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Kelly Ayotte",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Kelly Ayotte",
+      "party": "Republican"
+     },
+     {
+      "name": "Cinde Warmington",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Likely",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 0,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Chris Pappas",
+      "party": "D",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "NJ": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Cory Booker",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Cory Booker",
+       "party": "Democratic"
+      },
+      {
+       "name": "Justin Murphy",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 12,
+    "delegation": {
+     "R": 3,
+     "D": 9,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "Jeff Van Drew",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "7",
+      "incumbent": "Thomas Kean Jr.",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "9",
+      "incumbent": "Nellie Pou",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "NM": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Ben Ray Luján",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Ben Ray Luján",
+       "party": "Democratic"
+      },
+      {
+       "name": "Larry Marker",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Michelle Lujan Grisham",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Deb Haaland",
+      "party": "Democratic"
+     },
+     {
+      "name": "Gregg Hull",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 3,
+    "delegation": {
+     "R": 0,
+     "D": 3,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "2",
+      "incumbent": "Gabe Vasquez",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "NY": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Kathy Hochul",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Kathy Hochul",
+      "party": "Democratic"
+     },
+     {
+      "name": "Bruce Blakeman",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 26,
+    "delegation": {
+     "R": 7,
+     "D": 19,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "3",
+      "incumbent": "Tom Suozzi",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "4",
+      "incumbent": "Laura Gillen",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "17",
+      "incumbent": "Mike Lawler",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "19",
+      "incumbent": "Josh Riley",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "21",
+      "incumbent": "Elise Stefanik",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "NC": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Thom Tillis",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Michael Whatley",
+       "party": "Republican"
+      },
+      {
+       "name": "Roy Cooper",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Likely",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 14,
+    "delegation": {
+     "R": 10,
+     "D": 4,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Don Davis",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "3",
+      "incumbent": "Greg Murphy",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "5",
+      "incumbent": "Virginia Foxx",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "9",
+      "incumbent": "Richard Hudson",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "11",
+      "incumbent": "Chuck Edwards",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "13",
+      "incumbent": "Brad Knott",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "ND": {
+   "senate": [],
+   "governor": null,
+   "house": {
+    "seats": 1,
+    "delegation": {
+     "R": 1,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "OH": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": true,
+     "incumbent": "Jon Husted",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Jon Husted",
+       "party": "Republican"
+      },
+      {
+       "name": "Sherrod Brown",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Mike DeWine",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Vivek Ramaswamy",
+      "party": "Republican"
+     },
+     {
+      "name": "Amy Acton",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 15,
+    "delegation": {
+     "R": 10,
+     "D": 5,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Greg Landsman",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "7",
+      "incumbent": "Max Miller",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "9",
+      "incumbent": "Marcy Kaptur",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "10",
+      "incumbent": "Mike Turner",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "13",
+      "incumbent": "Emilia Sykes",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "15",
+      "incumbent": "Mike Carey",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "OK": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Alan Armstrong",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Kevin Hern",
+       "party": "Republican"
+      },
+      {
+       "name": "N'Kiyla Jasmine Thomas",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Kevin Stitt",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Mike Mazzei",
+      "party": "Republican"
+     },
+     {
+      "name": "Cyndi Munson",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Likely",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 5,
+    "delegation": {
+     "R": 5,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "OR": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Jeff Merkley",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Jeff Merkley",
+       "party": "Democratic"
+      },
+      {
+       "name": "David Brock Smith",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Tina Kotek",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Tina Kotek",
+      "party": "Democratic"
+     },
+     {
+      "name": "Christine Drazan",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 6,
+    "delegation": {
+     "R": 1,
+     "D": 5,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "PA": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Josh Shapiro",
+    "incumbentParty": "Democratic",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Josh Shapiro",
+      "party": "Democratic"
+     },
+     {
+      "name": "Stacy Garrity",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 17,
+    "delegation": {
+     "R": 10,
+     "D": 7,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Brian Fitzpatrick",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "7",
+      "incumbent": "Ryan Mackenzie",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "8",
+      "incumbent": "Rob Bresnahan",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "10",
+      "incumbent": "Scott Perry",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "RI": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Jack Reed",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Jack Reed",
+       "party": "Democratic"
+      },
+      {
+       "name": "Raymond McKay",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Dan McKee",
+    "incumbentParty": "Democratic",
+    "status": "lost",
+    "candidates": [
+     {
+      "name": "Helena Foulkes",
+      "party": "Democratic"
+     },
+     {
+      "name": "Aaron Guckian",
+      "party": "Republican"
+     },
+     {
+      "name": "Ken Block",
+      "party": "Independent"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "D"
+    }
+   },
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 0,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "SC": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Darline Graham",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Darline Graham",
+       "party": "Republican"
+      },
+      {
+       "name": "Annie Andrews",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Lean",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Henry McMaster",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Alan Wilson",
+      "party": "Republican"
+     },
+     {
+      "name": "Jermaine Johnson",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 7,
+    "delegation": {
+     "R": 6,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Nancy Mace",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     }
+    ]
+   }
+  },
+  "SD": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Mike Rounds",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Mike Rounds",
+       "party": "Republican"
+      },
+      {
+       "name": "Brian Bengs",
+       "party": "Independent"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Larry Rhoden",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Larry Rhoden",
+      "party": "Republican"
+     },
+     {
+      "name": "Dan Ahlers",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 1,
+    "delegation": {
+     "R": 1,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "TN": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Bill Hagerty",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Bill Hagerty",
+       "party": "Republican"
+      },
+      {
+       "name": "Marquita Bradshaw",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Bill Lee",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Marsha Blackburn",
+      "party": "Republican"
+     },
+     {
+      "name": "Jerri Green",
+      "party": "Democratic"
+     },
+     {
+      "name": "David Hatley",
+      "party": "Independent"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 9,
+    "delegation": {
+     "R": 8,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "TX": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "John Cornyn",
+     "incumbentParty": "Republican",
+     "status": "lost",
+     "candidates": [
+      {
+       "name": "Ken Paxton",
+       "party": "Republican"
+      },
+      {
+       "name": "James Talarico",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Tossup",
+      "party": null
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Greg Abbott",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Greg Abbott",
+      "party": "Republican"
+     },
+     {
+      "name": "Gina Hinojosa",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Lean",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 38,
+    "delegation": {
+     "R": 24,
+     "D": 13,
+     "I": 0,
+     "vacant": 1
+    },
+    "competitive": [
+     {
+      "district": "9",
+      "incumbent": "",
+      "party": "",
+      "open": true,
+      "newSeat": true,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "15",
+      "incumbent": "Monica De La Cruz",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "23",
+      "incumbent": "",
+      "party": "R",
+      "open": true,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "28",
+      "incumbent": "Henry Cuellar",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     },
+     {
+      "district": "34",
+      "incumbent": "Vicente Gonzalez",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "35",
+      "incumbent": "",
+      "party": "",
+      "open": true,
+      "newSeat": true,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     }
+    ]
+   }
+  },
+  "UT": {
+   "senate": [],
+   "governor": null,
+   "house": {
+    "seats": 4,
+    "delegation": {
+     "R": 4,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "VT": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Phil Scott",
+    "incumbentParty": "Republican",
+    "status": "running",
+    "candidates": [
+     {
+      "name": "Phil Scott",
+      "party": "Republican"
+     },
+     {
+      "name": "Amanda Janoo",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Likely",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 1,
+    "delegation": {
+     "R": 0,
+     "D": 1,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "VA": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Mark Warner",
+     "incumbentParty": "Democratic",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Mark Warner",
+       "party": "Democratic"
+      },
+      {
+       "name": "Bert Mizusawa",
+       "party": "Republican"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "D"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 11,
+    "delegation": {
+     "R": 5,
+     "D": 6,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Rob Wittman",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Tossup",
+       "party": null
+      }
+     },
+     {
+      "district": "2",
+      "incumbent": "Jen Kiggans",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "5",
+      "incumbent": "John McGuire",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     },
+     {
+      "district": "7",
+      "incumbent": "Eugene Vindman",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "WA": {
+   "senate": [],
+   "governor": null,
+   "house": {
+    "seats": 10,
+    "delegation": {
+     "R": 2,
+     "D": 8,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "3",
+      "incumbent": "Marie Gluesenkamp Perez",
+      "party": "D",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     },
+     {
+      "district": "5",
+      "incumbent": "Michael Baumgartner",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Likely",
+       "party": "R"
+      }
+     }
+    ]
+   }
+  },
+  "WV": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Shelley Moore Capito",
+     "incumbentParty": "Republican",
+     "status": "running",
+     "candidates": [
+      {
+       "name": "Shelley Moore Capito",
+       "party": "Republican"
+      },
+      {
+       "name": "Rachel Fetty Anderson",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": null,
+   "house": {
+    "seats": 2,
+    "delegation": {
+     "R": 2,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  },
+  "WI": {
+   "senate": [],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Tony Evers",
+    "incumbentParty": "Democratic",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "David Crowley",
+      "party": "Democratic"
+     },
+     {
+      "name": "Tom Tiffany",
+      "party": "Republican"
+     }
+    ],
+    "rating": {
+     "rating": "Tossup",
+     "party": null
+    }
+   },
+   "house": {
+    "seats": 8,
+    "delegation": {
+     "R": 6,
+     "D": 2,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": [
+     {
+      "district": "1",
+      "incumbent": "Bryan Steil",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "R"
+      }
+     },
+     {
+      "district": "3",
+      "incumbent": "Derrick Van Orden",
+      "party": "R",
+      "open": false,
+      "newSeat": false,
+      "rating": {
+       "rating": "Lean",
+       "party": "D"
+      }
+     }
+    ]
+   }
+  },
+  "WY": {
+   "senate": [
+    {
+     "kind": "senate",
+     "special": false,
+     "incumbent": "Cynthia Lummis",
+     "incumbentParty": "Republican",
+     "status": "retiring",
+     "candidates": [
+      {
+       "name": "Harriet Hageman",
+       "party": "Republican"
+      },
+      {
+       "name": "James W. Byrd",
+       "party": "Democratic"
+      }
+     ],
+     "rating": {
+      "rating": "Solid",
+      "party": "R"
+     }
+    }
+   ],
+   "governor": {
+    "kind": "governor",
+    "special": false,
+    "incumbent": "Mark Gordon",
+    "incumbentParty": "Republican",
+    "status": "term",
+    "candidates": [
+     {
+      "name": "Eric Barlow",
+      "party": "Republican"
+     },
+     {
+      "name": "Kenneth Casner",
+      "party": "Democratic"
+     }
+    ],
+    "rating": {
+     "rating": "Solid",
+     "party": "R"
+    }
+   },
+   "house": {
+    "seats": 1,
+    "delegation": {
+     "R": 1,
+     "D": 0,
+     "I": 0,
+     "vacant": 0
+    },
+    "competitive": []
+   }
+  }
+ }
+}

@@ -35,3 +35,17 @@ The scheduled Claude task follows the `world-elections-update` skill. If the ski
     "results": [{"abbr": "<party abbr>", "value": n}], "blocs": [{"name", "nameIs", "value", "color"}]}`.
     Use one named source per update (an exit poll from one channel, then the official count). When the count is final, record the result in `lastElection` and remove `live`.
 13. Email alerts. Readers sign up on the site (`api/subscribe.js`, Brevo lists per language). Every push that changes a country's `live` figures (status, results, blocs, counted or headline; not the timestamp alone) triggers `.github/workflows/notify.yml`, which sends one Brevo campaign per language list via `scripts/notify.py`. Removing `live` after the result is recorded in `lastElection` sends a final-result email. `polls-open` sends nothing. Alerts are throttled in `scripts/notify.py`: a status change and the final result always send; otherwise only a leader change, a majority crossing or the count passing 50% or 90% sends, at most one alert per country every 3 hours (`ALERT_MIN_GAP_HOURS`) and never two within 15 minutes. So update `live` as often as you like. Brevo's free plan allows 300 emails a day across all sends.
+
+14. US midterms page (`/bandarikin`). Race data lives in `data/us/races.json`, built by `python3 scripts/us_races.py`
+    from Wikipedia's 2026 Senate, governor and House rating pages (Cook Political Report ratings) and the list of current
+    representatives. Re-run it before election day and commit the result. `data/us/states_meta.json` holds static facts
+    (names, Icelandic names, House seats, each state's local newsroom feed). Headlines (`data/us/news/`) are generated
+    hourly by `scripts/us_news.py` and not committed.
+    Election night: create `data/us/live.json` and update it as races are called. The page re-fetches it every minute.
+    `{"status": "counting" | "final", "updated": "<ISO UTC>", "headline", "headlineIs", "sourceName", "source",
+      "senate": {"D": n, "R": n, "I": n}, "house": {"D": n, "R": n}, "governors": {"D": n, "R": n},
+      "states": {"AZ": {"senate": [{"special": false, "name": "<winner as in races.json>", "party": "D"}],
+                        "governor": {"name": "...", "party": "R"}, "house": {"D": 4, "R": 5, "called": 9}}}}`
+    Only list a race once a major outlet or AP has called it, and name that source in `sourceName`. Called races are
+    coloured by winner on the map; uncalled races keep their rating colour. Delete the file (or set status "final" and
+    record results in `data/countries/USA.json`) when the count is done.

@@ -37,6 +37,15 @@ Removed on 28 October 2026 to focus on elections. Everything (page, SEC pipeline
 - `scripts/media.py`: freely licensed images from Wikimedia Commons, found through Wikidata. Candidate photos by exact name plus citizenship, flags by ISO code. Only public domain, CC0, CC BY and CC BY-SA files are kept; every image is shown with author and licence and links to its Commons page. Writes `data/media/media.json`.
 - `data/media/presskits.json`: company press rooms (linked). Press-kit images are only embedded after that company's terms for press use are checked and recorded.
 
+## Bandaríkin (US midterms)
+
+- `bandarikin.html`, `bandarikin.css`, `bandarikin.js`: map of every state (Senate, governors, House) with Cook ratings,
+  candidates, current House delegations, competitive districts and local news. Map: `assets/us-states-albers-10m.json`
+  (us-atlas, pre-projected).
+- `scripts/us_races.py` builds `data/us/races.json`; `scripts/us_news.py` collects headlines from each state's
+  States Newsroom outlet or partner and from national outlets across the spectrum (titles and links only).
+- Election night: `data/us/live.json`, see UPDATING.md step 14.
+
 ## Spjall (chat)
 
 `api/ask.js` is a Vercel serverless function behind the "Spyrja" button on every page (`chat.js`, `chat.css`).

@@ -359,6 +359,7 @@
         <p class="summary">${esc(T(c, "summary"))}</p>
         ${chamberHtml(c)}
         ${parties}
+        ${c.iso3 === "USA" ? `<p class="summary"><a class="us-link" href="/bandarikin">${L("Opna kort af öllum fylkjunum: öldungadeild, ríkisstjórar, fulltrúadeild og fréttir úr hverju fylki", "Open the map of every state: Senate, governors, House and news from each state")}</a></p>` : ""}
         <p class="summary"><a href="/frettir#land=${esc(c.iso3.toLowerCase())}">${L("Fréttir frá landinu í innlendum og erlendum miðlum", `News about ${esc(c.name)} in domestic and foreign media`)}</a></p>
         <h3>${L("Heimildir", "Sources")}</h3>
         <ol class="sources">${(c.sources || []).map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, ""))}</a></li>`).join("")}</ol>
