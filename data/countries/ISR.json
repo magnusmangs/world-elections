@@ -3,21 +3,12 @@
   "isoNumeric": "376",
   "name": "Israel",
   "nameIs": "Ísrael",
-  "lastReviewed": "2026-10-28",
-  "elections": [
-    {
-      "date": "2026-10-27",
-      "dateStatus": "confirmed",
-      "type": "Legislative (Knesset)",
-      "typeIs": "Þingkosningar (Knesset)",
-      "note": "120 seats, nationwide proportional representation, 3.25% threshold.",
-      "noteIs": "120 þingsæti, hlutfallskosning á landsvísu, 3,25% þröskuldur."
-    }
-  ],
-  "leaders": "Prime Minister Benjamin Netanyahu (Likud); President Isaac Herzog",
-  "leadersIs": "Benjamin Netanyahu forsætisráðherra (Likud); Isaac Herzog forseti",
-  "summary": "Israelis voted on 27 October 2026 for a new Knesset, with turnout of 77.7%. With about 85% of ballots counted, Netanyahu's bloc leads with 54 seats, short of the 61 needed for a majority; Likud is the largest party and Eisenkot's Yashar is second.",
-  "summaryIs": "Ísraelar kusu nýtt þing, Knesset, 27. október 2026 og var kjörsókn 77,7%. Þegar um 85% atkvæða hafa verið talin er blokk Netanyahus með forystu, 54 sæti, en það dugar ekki til 61 sætis meirihluta; Likud er stærsti flokkurinn og Yashar, flokkur Eisenkot, næststærstur.",
+  "lastReviewed": "2026-10-30",
+  "elections": [],
+  "leaders": "Prime Minister Benjamin Netanyahu (Likud), pending a new government; President Isaac Herzog",
+  "leadersIs": "Benjamin Netanyahu forsætisráðherra (Likud) þar til ný ríkisstjórn tekur við; Isaac Herzog forseti",
+  "summary": "In the 27 October 2026 Knesset election, with turnout of 77.7%, Likud remained the largest party with 27 seats and Gadi Eisenkot's Yashar came second with 21. Netanyahu's bloc won 53 seats and Eisenkot's bloc 48, so coalition talks will decide the next government; official results are due on 4 November.",
+  "summaryIs": "Í kosningum til Knesset 27. október 2026, þar sem kjörsókn var 77,7%, hélt Likud stöðu sinni sem stærsti flokkurinn með 27 sæti og Yashar, flokkur Gadi Eisenkot, varð annar með 21. Blokk Netanyahus fékk 53 sæti og blokk Eisenkot 48, svo stjórnarmyndunarviðræður ráða næstu ríkisstjórn; opinber úrslit verða birt 4. nóvember.",
   "parties": [
     {
       "name": "Yashar",
@@ -28,10 +19,8 @@
       "ideology": "Liberal Zionism, centrism",
       "ideologyIs": "Frjálslyndur zíonismi, miðjustefna",
       "inGovernment": false,
-      "lastResult": "New party (founded Sept 2025)",
-      "lastResultIs": "Nýr flokkur (stofnaður í sept. 2025)",
-      "polling": "22–23 seats, first place (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "22–23 sæti, efstur (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "21 seats (2026)",
+      "lastResultIs": "21 sæti (2026)",
       "policies": [
         "State commission of inquiry into the 7 October attacks",
         "Military or national service for Haredi and Arab citizens",
@@ -45,7 +34,7 @@
         "Efla Ísraelsher og fjölga friðarsamningum á svæðinu"
       ],
       "color": "#2a9fd6",
-      "pollValue": 23
+      "seats": 21
     },
     {
       "name": "Likud (with New Hope)",
@@ -56,10 +45,8 @@
       "ideology": "National liberalism, conservatism",
       "ideologyIs": "Þjóðleg frjálslyndisstefna, íhaldsstefna",
       "inGovernment": true,
-      "lastResult": "32 seats (2022)",
-      "lastResultIs": "32 sæti (2022)",
-      "polling": "19–21 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "19–21 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "27 seats (2026)",
+      "lastResultIs": "27 sæti (2026)",
       "policies": [
         "Netanyahu seeks to remain prime minister",
         "Hard line on security, Iran and Hamas",
@@ -73,8 +60,7 @@
         "Sameinaðist Tikva Hadasha, flokki Gideons Sa'ar"
       ],
       "color": "#1f4e9c",
-      "seats": 36,
-      "pollValue": 21
+      "seats": 27
     },
     {
       "name": "Together (Bennett–Lapid)",
@@ -86,10 +72,8 @@
       "ideology": "Zionism, liberalism",
       "ideologyIs": "Zíonismi, frjálslyndisstefna",
       "inGovernment": false,
-      "lastResult": "Yesh Atid 24 seats (2022)",
-      "lastResultIs": "Yesh Atid 24 sæti (2022)",
-      "polling": "14–15 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "14–15 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "12 seats (2026)",
+      "lastResultIs": "12 sæti (2026)",
       "policies": [
         "Replace the Netanyahu government",
         "Joint list of Bennett and Yair Lapid, led by Bennett",
@@ -103,8 +87,7 @@
         "Rannsóknarnefnd á vegum ríkisins um 7. október"
       ],
       "color": "#47b0e8",
-      "seats": 24,
-      "pollValue": 15
+      "seats": 12
     },
     {
       "name": "The Democrats",
@@ -116,10 +99,8 @@
       "ideology": "Social democracy, Labor–Meretz merger",
       "ideologyIs": "Jafnaðarstefna, sameining Verkamannaflokksins og Meretz",
       "inGovernment": false,
-      "lastResult": "Labor 4 seats (2022); Meretz below threshold",
-      "lastResultIs": "Verkamannaflokkurinn 4 sæti (2022); Meretz undir þröskuldi",
-      "polling": "8–10 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "8–10 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "8 seats (2026)",
+      "lastResultIs": "8 sæti (2026)",
       "policies": [
         "Unify the Zionist left",
         "Replace the Netanyahu government",
@@ -133,8 +114,7 @@
         "Diplómatísk leið í samskiptum við Palestínumenn"
       ],
       "color": "#d6262f",
-      "seats": 4,
-      "pollValue": 10
+      "seats": 8
     },
     {
       "name": "Shas",
@@ -145,10 +125,8 @@
       "ideology": "Haredi, Sephardi religious conservatism",
       "ideologyIs": "Trúarleg íhaldsstefna strangtrúaðra sefardískra gyðinga",
       "inGovernment": true,
-      "lastResult": "11 seats (2022)",
-      "lastResultIs": "11 sæti (2022)",
-      "polling": "7–8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "7–8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "6 seats (2026)",
+      "lastResultIs": "6 sæti (2026)",
       "policies": [
         "Military service exemptions for yeshiva students",
         "Religious character of public life",
@@ -160,8 +138,7 @@
         "Velferð og stuðningur vegna framfærslukostnaðar fyrir tekjulágar fjölskyldur"
       ],
       "color": "#0c1c3a",
-      "seats": 11,
-      "pollValue": 8
+      "seats": 6
     },
     {
       "name": "Yisrael Beiteinu",
@@ -172,10 +149,8 @@
       "ideology": "Secular nationalism",
       "ideologyIs": "Veraldleg þjóðernishyggja",
       "inGovernment": false,
-      "lastResult": "6 seats (2022)",
-      "lastResultIs": "6 sæti (2022)",
-      "polling": "8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "7 seats (2026)",
+      "lastResultIs": "7 sæti (2026)",
       "policies": [
         "Universal military conscription",
         "Separation of religion and state, civil marriage",
@@ -189,8 +164,7 @@
         "Mun ekki sitja í ríkisstjórn undir forystu Netanyahus"
       ],
       "color": "#2d6a4f",
-      "seats": 6,
-      "pollValue": 8
+      "seats": 7
     },
     {
       "name": "Otzma Yehudit",
@@ -201,10 +175,8 @@
       "ideology": "Religious nationalism, Kahanism",
       "ideologyIs": "Trúarleg þjóðernishyggja, kahanismi",
       "inGovernment": true,
-      "lastResult": "6 seats (2022 joint list share)",
-      "lastResultIs": "6 sæti (hlutur af sameiginlegum lista 2022)",
-      "polling": "8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "7 seats (2026)",
+      "lastResultIs": "7 sæti (2026)",
       "policies": [
         "Harsher policing and death penalty for terrorists",
         "Opposed Gaza ceasefire deals",
@@ -216,8 +188,7 @@
         "Rýmri reglur um byssuleyfi"
       ],
       "color": "#ef7d00",
-      "seats": 7,
-      "pollValue": 8
+      "seats": 7
     },
     {
       "name": "United Torah Judaism",
@@ -229,10 +200,8 @@
       "ideology": "Ashkenazi Haredi",
       "ideologyIs": "Strangtrúaðir askenasískir gyðingar",
       "inGovernment": false,
-      "lastResult": "7 seats (2022)",
-      "lastResultIs": "7 sæti (2022)",
-      "polling": "7–8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "7–8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "7 seats (2026)",
+      "lastResultIs": "7 sæti (2026)",
       "policies": [
         "Law exempting Haredi men from military service",
         "Left the coalition in 2025 over conscription",
@@ -244,8 +213,7 @@
         "Fjármögnun trúarlegrar menntunar"
       ],
       "color": "#4b4b4b",
-      "seats": 7,
-      "pollValue": 7
+      "seats": 7
     },
     {
       "name": "Religious Zionism–Zehut",
@@ -257,10 +225,8 @@
       "ideology": "Religious Zionism",
       "ideologyIs": "Trúarlegur zíonismi",
       "inGovernment": true,
-      "lastResult": "7 seats (2022 joint list share)",
-      "lastResultIs": "7 sæti (hlutur af sameiginlegum lista 2022)",
-      "polling": "6–8 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "6–8 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "6 seats (2026)",
+      "lastResultIs": "6 sæti (2026)",
       "policies": [
         "Settlement expansion and sovereignty in the West Bank",
         "Opposes a Palestinian state",
@@ -272,8 +238,7 @@
         "Sameiginlegur listi með Zehut, flokki Moshe Feiglin"
       ],
       "color": "#5b7f1f",
-      "seats": 6,
-      "pollValue": 6
+      "seats": 6
     },
     {
       "name": "Joint List (Hadash–Ta'al)",
@@ -285,10 +250,8 @@
       "ideology": "Arab-Israeli representation, Hadash and Ta'al",
       "ideologyIs": "Fulltrúar arabískra Ísraela, Hadash og Ta'al",
       "inGovernment": false,
-      "lastResult": "Hadash–Ta'al 5 seats (2022)",
-      "lastResultIs": "Hadash–Ta'al 5 sæti (2022)",
-      "polling": "9 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "9 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "11 seats (2026)",
+      "lastResultIs": "11 sæti (2026)",
       "policies": [
         "Equal rights for Arab citizens",
         "End to the occupation and a Palestinian state",
@@ -300,8 +263,7 @@
         "Hæstiréttur heimilaði framboðið"
       ],
       "color": "#2e8b57",
-      "seats": 5,
-      "pollValue": 9
+      "seats": 11
     },
     {
       "name": "United Arab List (Ra'am)",
@@ -312,10 +274,8 @@
       "ideology": "Islamic conservatism, Arab-Israeli interests",
       "ideologyIs": "Íslömsk íhaldsstefna, hagsmunir arabískra Ísraela",
       "inGovernment": false,
-      "lastResult": "5 seats (2022)",
-      "lastResultIs": "5 sæti (2022)",
-      "polling": "5–7 seats (Channel 12, Channel 13 and Kan, 23 Oct 2026)",
-      "pollingIs": "5–7 sæti (Channel 12, Channel 13 og Kan, 23. okt. 2026)",
+      "lastResult": "8 seats (2026)",
+      "lastResultIs": "8 sæti (2026)",
       "policies": [
         "Budgets and crime-fighting for Arab towns",
         "Open to joining a coalition from outside the blocs",
@@ -327,8 +287,7 @@
         "Hæstiréttur heimilaði framboðið"
       ],
       "color": "#1a7a3a",
-      "seats": 5,
-      "pollValue": 5
+      "seats": 8
     },
     {
       "name": "Reservists",
@@ -340,10 +299,8 @@
       "ideology": "Zionism, security-focused",
       "ideologyIs": "Zíonismi, áhersla á öryggismál",
       "inGovernment": false,
-      "lastResult": "New list",
-      "lastResultIs": "Nýr listi",
-      "polling": "Below the 3.25% threshold in Channel 12 (2.4%) and Channel 13 (3.0%), 4 seats in Kan (23 Oct 2026)",
-      "pollingIs": "Undir 3,25% þröskuldi hjá Channel 12 (2,4%) og Channel 13 (3,0%), 4 sæti hjá Kan (23. okt. 2026)",
+      "lastResult": "Below the 3.25% threshold, 2.72% (2026)",
+      "lastResultIs": "Undir 3,25% þröskuldi, 2,72% (2026)",
       "policies": [
         "Joint list with Yaron Zelekha",
         "Burden-sharing in military service",
@@ -366,10 +323,8 @@
       "ideology": "Centrism, security-focused",
       "ideologyIs": "Miðjustefna, áhersla á öryggismál",
       "inGovernment": false,
-      "lastResult": "National Unity 12 seats (2022)",
-      "lastResultIs": "Þjóðareiningarflokkurinn 12 sæti (2022)",
-      "polling": "Withdrew from the race on 19 October 2026 after polling below the 3.25% threshold",
-      "pollingIs": "Dró framboð sitt til baka 19. október 2026 eftir að hafa mælst undir 3,25% þröskuldinum",
+      "lastResult": "Withdrew before the 2026 election",
+      "lastResultIs": "Dró framboð sitt til baka fyrir kosningarnar 2026",
       "policies": [
         "Broad Zionist unity government",
         "Security-first approach",
@@ -380,112 +335,33 @@
         "Öryggismál í fyrirrúmi",
         "Jöfn skipting byrða í herþjónustu"
       ],
-      "color": "#6aa0d8",
-      "seats": 8
+      "color": "#6aa0d8"
     }
   ],
   "sources": [
+    "https://www.israelhayom.com/2026/10/29/israels-2026-election-results-released/",
+    "https://www.jpost.com/israel-election-2026/article-913237",
     "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
     "https://www.thepetek.com/results",
-    "https://www.timesofisrael.com/liveblog_entry/with-84-of-ballots-counted-pro-netanyahu-bloc-at-54-seats-eisenkot-led-bloc-at-49-arab-parties-at-17/",
-    "https://www.ynetnews.com/article/hjnatbkaml",
-    "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+    "https://www.timesofisrael.com/liveblog_entry/with-84-of-ballots-counted-pro-netanyahu-bloc-at-54-seats-eisenkot-led-bloc-at-49-arab-parties-at-17/"
   ],
   "chamber": {
     "name": "Knesset",
     "nameIs": "Knesset",
-    "asOf": "at dissolution, July 2026; Likud includes New Hope",
-    "asOfIs": "við þingrof í júlí 2026; Ný von talin með Likud",
+    "asOf": "as elected on 27 October 2026 (count complete, official results due 4 November)",
+    "asOfIs": "eins og kosið var 27. október 2026 (talningu lokið, opinber úrslit 4. nóvember)",
     "seats": 120,
     "majority": 61,
-    "source": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+    "source": "https://www.jpost.com/israel-election-2026/article-913237"
   },
-  "poll": {
-    "unit": "seats",
-    "date": "2026-10-23",
-    "pollster": "Channel 12 News (final pre-election poll)",
-    "pollsterIs": "Channel 12 (síðasta könnun fyrir kosningar)",
-    "url": "https://www.ynetnews.com/article/s1wppltnme",
-    "note": "Opposition bloc 56, Netanyahu bloc 50, Arab-led parties 14. Reservists–Economic Party (2.4%), Amcha Yisrael (Ofer Winter) and Haredi Public below the 3.25% threshold. Last polls allowed before the vote under Israeli law.",
-    "noteIs": "Blokk stjórnarandstöðunnar 56, blokk Netanyahus 50, flokkar undir forystu araba 14. Listi HaMiluimnikim og Yarons Zelekha (2,4%), Amcha Yisrael (Ofer Winter) og Haredi Public undir 3,25% þröskuldi. Síðustu kannanir sem leyfilegt er að birta fyrir kosningar samkvæmt ísraelskum lögum."
-  },
-  "live": {
-    "status": "counting",
-    "updated": "2026-10-29T19:05:00Z",
-    "headline": "With 97.3% of votes counted, Netanyahu's bloc holds 53 seats, 8 short of a majority. Eisenkot's bloc has 48 and Arab-led parties 19. Likud 27, Yashar 21.",
-    "headlineIs": "Þegar 97,3% atkvæða hafa verið talin heldur blokk Netanyahus 53 sætum, átta sætum frá meirihluta. Blokk Eisenkot er með 48 og flokkar undir forystu araba 19. Likud 27, Yashar 21.",
-    "unit": "seats",
-    "sourceName": "Central Elections Committee count, 14:55 local time on 29 October, as reported by Arutz Sheva",
-    "sourceNameIs": "Talning yfirkjörstjórnar kl. 14:55 að staðartíma 29. október, samkvæmt Arutz Sheva",
-    "source": "https://www.israelnationalnews.com/news/435272",
-    "note": "Since the previous update Likud gained a seat from Shas and Ra'am a seat from the Joint List; the bloc totals did not change. About 29,000 of more than 400,000 double-envelope ballots had been counted at that point, so seats can still move. Below the 3.25% threshold: Reservists (2.67%) and Amcha Yisrael (1.63%). Official results are due on 4 November.",
-    "noteIs": "Frá síðustu uppfærslu hefur Likud fengið eitt sæti frá Shas og Ra'am eitt sæti frá Hadash–Ta'al; heildartölur blokkanna eru óbreyttar. Um 29.000 af yfir 400.000 utankjörfundaratkvæðum í tvöföldu umslagi höfðu þá verið talin, svo sæti geta enn færst til. Undir 3,25% þröskuldi: HaMiluimnikim (2,67%) og Amcha Yisrael (1,63%). Opinber úrslit verða birt 4. nóvember.",
-    "results": [
-      {
-        "abbr": "Likud",
-        "value": 27
-      },
-      {
-        "abbr": "Yashar",
-        "value": 21
-      },
-      {
-        "abbr": "Together",
-        "value": 12
-      },
-      {
-        "abbr": "JL",
-        "value": 11
-      },
-      {
-        "abbr": "Dem",
-        "value": 8
-      },
-      {
-        "abbr": "Ra'am",
-        "value": 8
-      },
-      {
-        "abbr": "YB",
-        "value": 7
-      },
-      {
-        "abbr": "Otzma",
-        "value": 7
-      },
-      {
-        "abbr": "UTJ",
-        "value": 7
-      },
-      {
-        "abbr": "RZP",
-        "value": 6
-      },
-      {
-        "abbr": "Shas",
-        "value": 6
-      }
-    ],
-    "blocs": [
-      {
-        "name": "Netanyahu bloc",
-        "nameIs": "Blokk Netanyahus",
-        "value": 53,
-        "color": "#1f4e9c"
-      },
-      {
-        "name": "Eisenkot bloc",
-        "nameIs": "Blokk Eisenkot",
-        "value": 48,
-        "color": "#2a9fd6"
-      },
-      {
-        "name": "Arab-led parties",
-        "nameIs": "Flokkar undir forystu araba",
-        "value": 19,
-        "color": "#2e8b57"
-      }
-    ],
-    "counted": 97.3
+  "lastElection": {
+    "date": "2026-10-27",
+    "type": "Legislative (Knesset)",
+    "typeIs": "Þingkosningar (Knesset)",
+    "winner": "Likud (Benjamin Netanyahu), largest party",
+    "winnerIs": "Likud (Benjamin Netanyahu), stærsti flokkurinn",
+    "result": "incumbent",
+    "outcome": "Likud won 27 of 120 seats and Yashar 21. Netanyahu's bloc has 53 seats, Eisenkot's bloc 48 and Arab-led parties a record 19, so neither bloc has a majority on its own.",
+    "outcomeIs": "Likud fékk 27 af 120 sætum og Yashar 21. Blokk Netanyahus er með 53 sæti, blokk Eisenkot 48 og flokkar undir forystu araba metfjölda, 19, svo hvorug blokkin hefur meirihluta ein og sér."
   }
 }
