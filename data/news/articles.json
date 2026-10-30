@@ -2,6 +2,97 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "isr-2026-10-29-jpost",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "titleIs": "Talningu lokið í Ísrael: Likud stærstur en hvorug blokkin með meirihluta",
+   "summaryIs": "Yfirkjörstjórn hefur talið öll atkvæði, líka þau í tvöföldum umslögum. Likud fær 27 sæti og blokk Netanyahus 53, blokk Eisenkot 48 og flokkar undir forystu araba 19. Herzog forseti varar við nýjum kosningum og hvetur flokkana til að vera opnir í viðræðum.",
+   "titleEn": "Israel's count is complete: Likud is largest but neither bloc has a majority",
+   "summaryEn": "The election committee has counted all ballots, including double-envelope votes. Likud wins 27 seats and Netanyahu's bloc 53, Eisenkot's bloc 48 and Arab-led parties 19. President Herzog warns against another election and urges parties to keep an open mind in talks.",
+   "source": "The Jerusalem Post",
+   "url": "https://www.jpost.com/israel-election-2026/article-913237",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-10-29-sjonarhorn",
+   "type": "sjonarhorn",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "titleIs": "Sjónarhorn: Pattstaða í Ísrael eftir að talningu lauk",
+   "titleEn": "Perspectives: Deadlock in Israel after the count ends",
+   "summaryIs": "Báðir miðlar segja að hvorug blokkin nái 61 sæti. The Jerusalem Post rekur úrslit hvers flokks og leiðirnar sem eru færar, en Al Jazeera beinir sjónum að vanda Eisenkot án flokka araba og að ásökunum Likud um kosningasvik.",
+   "summaryEn": "Both outlets say neither bloc reaches 61 seats. The Jerusalem Post sets out each party's result and the possible routes to a government, while Al Jazeera focuses on Eisenkot's difficulty without Arab-led parties and on Likud's fraud claims.",
+   "source": "The Jerusalem Post; Al Jazeera",
+   "url": "https://www.jpost.com/israel-election-2026/article-913237",
+   "basis": "article",
+   "perspectives": [
+    {
+     "outlet": "The Jerusalem Post",
+     "country": "ISR",
+     "published": "2026-10-29",
+     "basis": "article",
+     "url": "https://www.jpost.com/israel-election-2026/article-913237",
+     "framingIs": "Ísraelska dagblaðið The Jerusalem Post birtir sætafjölda hvers flokks og ber saman þjóðstjórn, minnihlutastjórn með stuðningi flokka araba og nýjar kosningar. Það nefnir rannsókn Shin Bet á meintum erlendum afskiptum.",
+     "framingEn": "Israeli newspaper The Jerusalem Post gives each party's seats and weighs a unity government, a minority government backed by Arab-led parties and a new election. It notes the Shin Bet probe into alleged foreign interference."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "country": "QAT",
+     "published": "2026-10-29",
+     "basis": "article",
+     "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete",
+     "framingIs": "Ríkisfjármagnaða stöðin Al Jazeera (Katar) leggur áherslu á pattstöðuna og fundi Eisenkot með Bennett og Golan. Hún segir ásakanir Likud um stolnar kosningar órökstuddar og að úrslit verði staðfest 4. nóvember.",
+     "framingEn": "State-funded broadcaster Al Jazeera (Qatar) stresses the deadlock and Eisenkot's meetings with Bennett and Golan. It calls Likud's stolen-election claims unsubstantiated and says results will be certified on 4 November."
+    }
+   ]
+  },
+  {
+   "id": "bgr-2026-10-30-bta",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-10-30",
+   "added": "2026-10-30",
+   "titleIs": "Iotova og Gyurov tókust á um völd forsetans, fjárlög og öryggismál",
+   "summaryIs": "Í kappræðum í BNT sagði Iotova að stjórnarskráin veiti forsetanum næg völd, hét að skrifa undir fjárlög og vill frið með aðild Úkraínu og Rússlands. Gyurov vill virkari forseta, hótar að beita neitunarvaldi á fjárlög sem skerði tekjur og segir að Rússar verði að hætta árásum sínum. Seinni umferðin fer fram 1. nóvember.",
+   "titleEn": "Iotova and Gyurov clash over presidential powers, the budget and security",
+   "summaryEn": "In the BNT debate Iotova said the constitution gives the president enough powers, pledged to sign the budget and called for peace involving both Ukraine and Russia. Gyurov wants a more active president, threatens to veto budgets that cut incomes and says Russia must end its aggression. The run-off is on 1 November.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/bulgaria/1236007-presidential-candidates-iotova-and-gurov-clash-over-powers-budget-and-security",
+   "basis": "article"
+  },
+  {
+   "id": "usa-2026-10-29-aljazeera",
+   "section": "kosningar",
+   "iso3": "USA",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "titleIs": "Demókratar með forskot á landsvísu fimm dögum fyrir kosningar en á brattann að sækja í öldungadeild",
+   "summaryIs": "Meðaltal RealClearPolling sýnir demókrata með 51,4% gegn 43,2% repúblikana. Í Michigan mælist El-Sayed (D) með 51% gegn 44% Rogers (R) í könnun Mitchell Research 26.–27. október. Repúblikanar hafa 53 sæti í öldungadeild og demókratar þurfa að vinna fjögur, en þrjú í fulltrúadeild.",
+   "titleEn": "Democrats lead nationally five days out but face an uphill Senate fight",
+   "summaryEn": "The RealClearPolling average puts Democrats on 51.4% to the Republicans' 43.2%. In Michigan, El-Sayed (D) leads Rogers (R) 51% to 44% in a Mitchell Research poll of 26-27 October. Republicans hold 53 Senate seats, so Democrats need a net gain of four there and three in the House.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/29/us-midterms-five-days-to-go-what-the-polls-say-as-trump-harris-campaign",
+   "basis": "article"
+  },
+  {
+   "id": "esp-2026-10-29-euronews",
+   "section": "kosningar",
+   "iso3": "ESP",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "titleIs": "Mannskætt lestarslys nærri Toledo eykur þrýsting á Sánchez mánuði fyrir kosningar",
+   "summaryIs": "Lestarslys í Urda 28. október er annað mannskæða lestarslysið á Spáni í ár og orsökin er óljós. Lýðflokkurinn gagnrýnir stjórn járnbrautakerfisins, Vox kærir samgönguráðherrann Óscar Puente og Frente Amplio vill að hann svari þinginu. Könnun El Mundo 26. október: Lýðflokkurinn 30,6%, PSOE 26,1%, Vox 19,9%.",
+   "titleEn": "Deadly train crash near Toledo adds pressure on Sánchez a month before the election",
+   "summaryEn": "The crash at Urda on 28 October is Spain's second deadly rail disaster this year, and its cause is unclear. The People's Party criticises rail management, Vox has filed a complaint against Transport Minister Óscar Puente and Frente Amplio wants him before parliament. El Mundo poll of 26 October: PP 30.6%, PSOE 26.1%, Vox 19.9%.",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/10/29/deadly-train-crash-puts-sanchez-on-the-ropes-a-month-before-elections",
+   "basis": "article"
+  },
+  {
    "id": "isr-2026-10-28-ynetnews",
    "section": "kosningar",
    "iso3": "ISR",
