@@ -2,6 +2,20 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "nzl-2026-10-30-1news-splitvote",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-10-30",
+   "added": "2026-10-31",
+   "titleIs": "Þjóðarflokkurinn kærir herferð um klofið atkvæði sem ACT og NZ First lögðu blessun sína yfir",
+   "summaryIs": "Þjóðarflokkurinn hefur kvartað til kjörstjórnar vegna herferðar kaupsýslumannsins Harry Mowbray sem hvatti kjósendur til að kjósa frambjóðanda Þjóðarflokksins í kjördæmi en ACT eða NZ First á landslista. Báðir samstarfsflokkarnir samþykktu auglýsingar um sömu aðferð og kjörstjórn rannsakar hvort herferðin hafi verið rétt merkt. Luxon segir kjósendur ráða atkvæði sínu en Hipkins varar við aðferðinni.",
+   "titleEn": "National complains about a split-vote campaign that ACT and NZ First endorsed",
+   "summaryEn": "National has complained to the Electoral Commission about businessman Harry Mowbray's campaign urging voters to back National in electorates but give their party vote to ACT or NZ First. Both coalition partners approved adverts promoting the same tactic, and the commission is investigating whether the campaign was properly authorised. Luxon says voters decide how to vote, while Hipkins warns against the tactic.",
+   "source": "1News",
+   "url": "https://www.1news.co.nz/2026/10/30/act-nz-first-approved-split-vote-campaign-national-lodges-complaint/",
+   "basis": "article"
+  },
+  {
    "id": "nzl-2026-10-29-1news-redlines",
    "section": "kosningar",
    "iso3": "NZL",
