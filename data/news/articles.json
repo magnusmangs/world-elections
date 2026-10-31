@@ -2,6 +2,20 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "nzl-2026-10-29-1news-redlines",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-10-29",
+   "added": "2026-10-31",
+   "titleIs": "Hver útilokar hvern? Rauðar línur flokkanna fyrir kosningarnar á Nýja-Sjálandi",
+   "summaryIs": "Þjóðarflokkur Luxons útilokar samstarf við Verkamannaflokkinn, Græningja, Te Pāti Māori og Opportunity, en Verkamannaflokkur Hipkins útilokar Þjóðarflokkinn, ACT og NZ First. Græningjar og Te Pāti Māori hafa engan útilokað formlega, NZ First hafnar öllum utan núverandi samstarfsflokka og Opportunity vill ekki stjórn með Winston Peters sem utanríkisráðherra.",
+   "titleEn": "Who has ruled out whom? The parties' coalition red lines before New Zealand votes",
+   "summaryEn": "Luxon's National rules out Labour, the Greens, Te Pāti Māori and Opportunity, while Hipkins's Labour rules out National, ACT and NZ First. The Greens and Te Pāti Māori have formally ruled out no one, NZ First rejects everyone but its current partners, and Opportunity will not back a government with Winston Peters as foreign minister.",
+   "source": "1News",
+   "url": "https://www.1news.co.nz/2026/10/30/your-guide-to-the-elections-coalition-red-lines-whos-ruled-out-who/",
+   "basis": "article"
+  },
+  {
    "id": "usa-2026-10-31-aljazeera",
    "section": "kosningar",
    "iso3": "USA",
