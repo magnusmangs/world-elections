@@ -68,6 +68,7 @@ body.fin { background: var(--surface); }
 .news h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .tag { display: inline-block; margin-top: 4px; font-size: .72rem; font-weight: 600; padding: 1px 8px; border-radius: 999px; }
 .tag-kosningar { background: var(--s4); color: var(--ink); }
+.tag-brennidepill { background: var(--s1); color: #fff; }
 .tag-fjarmal { background: var(--chip-gov-bg); color: var(--chip-gov); }
 .cols { display: grid; grid-template-columns: 1fr 1.4fr; gap: 28px; margin-top: 16px; }
 .cols h3 { margin: 0 0 6px; font: 700 1.1rem/1.2 var(--display); }

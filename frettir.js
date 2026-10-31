@@ -7,7 +7,7 @@
   const M = EN ? ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     : ["jan.", "feb.", "mars", "apr.", "maí", "júní", "júlí", "ágú.", "sep.", "okt.", "nóv.", "des."];
   const dateShort = (s) => { const d = new Date(s + "T00:00:00Z"); return EN ? `${d.getUTCDate()} ${M[d.getUTCMonth()]}` : `${d.getUTCDate()}. ${M[d.getUTCMonth()]}`; };
-  const TAG = EN ? { kosningar: "Elections" } : { kosningar: "Kosningar" };
+  const TAG = EN ? { kosningar: "Elections", brennidepill: "Focus" } : { kosningar: "Kosningar", brennidepill: "Brennidepill" };
   const PERSP = L("Sjónarhorn", "Perspectives");
   // One language at a time: pick the reader's language for every text field.
   const title = (i) => (EN ? i.titleEn : i.titleIs) || "";
@@ -40,7 +40,8 @@
     const list = items.filter((i) => (filter === "all" || i.section === filter) && i !== current);
     $("news").innerHTML = list.length ? list.map((i) => {
       if (i.kind === "sjónarhorn") return perspectiveHtml(i);
-      const src = i.kind === "frétt"
+      const src = i.kind === "brennidepill" ? L("Mál krufið frá öllum hliðum: staðfest, umdeilt og hvernig miðlar segja frá", "A story taken apart from every side: confirmed, disputed and how outlets frame it")
+        : i.kind === "frétt"
         ? `${L("Heimild", "Source")}: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(srcName(i))}</a>${i.paywall ? ` <span class="basis">${L("(krefst áskriftar)", "(subscription)")}</span>` : ""}`
         : i.source ? `${L("Úr gögnum síðunnar. Frumgagn", "From the site's own data. Primary source")}: <a href="${esc(i.source.url)}" target="_blank" rel="noopener">${esc(srcName(i))}</a>${i.ai ? L(". Unnið með gervigreind, tölur sannreyndar", ". Prepared with AI, figures verified") : ""}` : L("Úr gögnum síðunnar", "From the site's own data");
       return `<li>
@@ -111,7 +112,8 @@
 
 
   // ---------- single news post: /frettir/<id> ----------
-  const postUrl = (i) => "/frettir/" + encodeURIComponent(i.id);
+  // Brennidepill items open their own page (/brennidepill/<id>) instead of a news post.
+  const postUrl = (i) => i.kind === "brennidepill" ? i.link : "/frettir/" + encodeURIComponent(i.id);
   const idFromPath = () => { const m = location.pathname.match(/^\/frettir\/([^/]+)\/?$/); return m ? decodeURIComponent(m[1]) : null; };
   const dateLong = (s) => { const d = new Date(s + "T00:00:00Z");
     if (EN) return `${d.getUTCDate()} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][d.getUTCMonth()]} ${d.getUTCFullYear()}`;
@@ -199,6 +201,7 @@
   document.addEventListener("click", (e) => {
     const a = e.target.closest("a[data-post], a[data-home], #home");
     if (!a || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+    if (!a.getAttribute("href").startsWith("/frettir")) return;
     e.preventDefault(); go(a.getAttribute("href"));
   });
   window.addEventListener("popstate", route);

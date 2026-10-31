@@ -216,6 +216,10 @@
 
   // ---------- panel ----------
   let MEDIA = { people: {} };
+  // Brennidepill (focus) topics: a country with an open topic gets a link at the top of its panel.
+  let FOCUS = [];
+  const focusHtml = (c) => FOCUS.filter((t) => t.iso3 === c.iso3 && t.status !== "archived").map((t) =>
+    `<a class="focus-link" href="/brennidepill/${encodeURIComponent(t.id)}"><span>${L("Í brennidepli", "In focus")}</span>${esc(T(t, "title"))}</a>`).join("");
   function personPhoto(iso, p) {
     const name = (p.leader || "").split(" and ")[0].split(";")[0].split("(")[0].trim();
     const m = MEDIA.people[`${iso}|${name}`];
@@ -354,6 +358,7 @@
         <p class="leaders">${esc(T(c, "leaders"))}</p>
         <div id="live-box">${liveHtml(c)}</div>
         ${isLive(c) ? subscribeHtml(true) : ""}
+        ${focusHtml(c)}
         ${result}
         ${votes}
         <p class="summary">${esc(T(c, "summary"))}</p>
@@ -530,8 +535,10 @@
     fetch("data/elections.json", { cache: "no-cache" }).then((r) => r.json()),
     fetch("assets/countries-50m.json").then((r) => r.json()),
     fetch("data/media/media.json").then((r) => r.json()).catch(() => ({ people: {} })),
-  ]).then(([data, world, media]) => {
+    fetch("data/brennidepill/index.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ topics: [] })),
+  ]).then(([data, world, media, focus]) => {
     MEDIA = media;
+    FOCUS = focus.topics || [];
     // Recompute upcoming against the viewer's date so past votes drop off between updates.
     for (const c of data.countries) {
       c.upcoming = (c.elections || []).filter((e) => daysUntil(e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date));

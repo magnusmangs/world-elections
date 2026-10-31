@@ -32,6 +32,16 @@ Removed on 28 October 2026 to focus on elections. Everything (page, SEC pipeline
 - `.github/workflows/update-headlines.yml`: hourly refresh and deploy. Headlines are generated, not committed.
 - Sjónarhorn items (`"type": "sjonarhorn"` in articles.json) compare how outlets in different countries frame the same story; validated to need 2+ outlets from 2+ countries.
 
+## Brennidepill (focus)
+
+Stories emerging from one country with conflicting reports, taken apart objectively: confirmed vs disputed facts, each
+side's case, how outlets in different camps frame it, timeline and what comes next.
+- `brennidepill.html`, `brennidepill.js`, `brennidepill.css`: list at `/brennidepill`, topic at `/brennidepill/<id>`.
+- `data/brennidepill/<id>.json`: one file per topic. `scripts/brennidepill.py` validates them (Icelandic twins, cited
+  sources exist, "confirmed" needs two outlets, two or more camps) and writes `index.json`.
+- Recent topics also show in the Fréttir feed and as an "Í brennidepli" link in the country panel.
+- `BRENNIDEPILL.md`: how to research and write a topic.
+
 ## Myndir (images)
 
 - `scripts/media.py`: freely licensed images from Wikimedia Commons, found through Wikidata. Candidate photos by exact name plus citizenship, flags by ISO code. Only public domain, CC0, CC BY and CC BY-SA files are kept; every image is shown with author and licence and links to its Commons page. Writes `data/media/media.json`.

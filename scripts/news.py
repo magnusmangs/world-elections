@@ -176,7 +176,21 @@ def section_elections(now):
     return out, []
 
 
-SECTIONS = [section_articles, section_elections]
+def section_focus(now):
+    """Brennidepill topics (validated by scripts/brennidepill.py) updated in the last 14 days."""
+    data = load(os.path.join(ROOT, "data", "brennidepill", "index.json"), {"topics": []})
+    out = []
+    for t in data.get("topics", []):
+        d = t["updated"][:10]
+        if t.get("status") == "archived" or (now - datetime.date.fromisoformat(d)).days > 14:
+            continue
+        out.append({"id": f"focus-{t['id']}", "section": "brennidepill", "kind": "brennidepill", "date": d, "sortKey": 2,
+                    "titleIs": t["titleIs"], "summaryIs": t["dekIs"], "titleEn": t["title"], "summaryEn": t["dek"],
+                    "source": None, "link": f"/brennidepill/{t['id']}", "iso3": t["iso3"]})
+    return out, []
+
+
+SECTIONS = [section_articles, section_elections, section_focus]
 
 
 def main():

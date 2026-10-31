@@ -4,6 +4,10 @@
     {
       "source": "/frettir/:id",
       "destination": "/frettir"
+    },
+    {
+      "source": "/brennidepill/:id",
+      "destination": "/brennidepill"
     }
   ],
   "headers": [
