@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:56Z",
+ "updated": "2026-10-31T10:24Z",
  "electionDate": "2026-11-03",
  "ratingSource": {
   "name": "Cook Political Report",
@@ -190,7 +190,7 @@
      }
     ],
     "rating": {
-     "rating": "Lean",
+     "rating": "Likely",
      "party": "D"
     }
    },
@@ -580,7 +580,7 @@
       }
      ],
      "rating": {
-      "rating": "Solid",
+      "rating": "Likely",
       "party": "R"
      }
     }
@@ -1670,7 +1670,7 @@
       }
      ],
      "rating": {
-      "rating": "Likely",
+      "rating": "Lean",
       "party": "R"
      }
     }
@@ -3132,8 +3132,8 @@
      }
     ],
     "rating": {
-     "rating": "Tossup",
-     "party": null
+     "rating": "Lean",
+     "party": "D"
     }
    },
    "house": {
