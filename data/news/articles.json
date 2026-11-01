@@ -2,6 +2,48 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "bgr-2026-11-01-novinite-exitpoll",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-11-01",
+   "added": "2026-11-01",
+   "titleIs": "Útgönguspár: Iotova sigrar í seinni umferð forsetakosninganna í Búlgaríu",
+   "summaryIs": "Samkvæmt útgönguspám Trend og Myara klukkan 20 fékk framboð Iliönu Iotovu og Valchevs 51,4% og 51,0%, en framboð Andrey Gyurovs og Kandevs 43,6% og 44,7%. Um 4 til 5% kusu engan. Kjörsókn var áætluð 26,8 til 27,5%, hærri en 22,2% í fyrri umferð, en opinber úrslit liggja ekki fyrir.",
+   "titleEn": "Exit polls: Iotova wins Bulgaria's presidential run-off",
+   "summaryEn": "Exit polls by Trend and Myara at 20:00 gave the Iliana Iotova and Valchev ticket 51.4% and 51.0%, against 43.6% and 44.7% for Andrey Gyurov and Kandev. Around 4 to 5% backed neither. Turnout was estimated at 26.8 to 27.5%, up from 22.2% in the first round, but official results are still to come.",
+   "source": "Novinite (Trend, Myara)",
+   "url": "https://www.novinite.com/articles/241384/First+Runoff+Results%3A+Yotova+and+Valchev+Become+Bulgaria%E2%80%99s+Seventh+Presidential+Ticket",
+   "basis": "article"
+  },
+  {
+   "id": "usa-2026-11-01-expressodasilhas",
+   "section": "kosningar",
+   "iso3": "USA",
+   "published": "2026-11-01",
+   "added": "2026-11-01",
+   "titleIs": "Demókratar vonast eftir bláu bylgjunni þegar yfir 50 milljónir hafa kosið",
+   "summaryIs": "Meðaltal kannana hjá RealClearPolling sýnir Demókrata 8,4 stigum yfir fyrir þingkosningarnar á þriðjudag og yfir 50 milljónir atkvæða hafa þegar borist. Repúblikanar og sumir greinendur vara við því að spárnar kunni að ofmeta Demókrata. Tvísýnar öldungadeildarkeppnir eru meðal annars í Texas og Michigan.",
+   "titleEn": "Democrats hope for a blue wave as more than 50 million have voted",
+   "summaryEn": "RealClearPolling's average shows Democrats 8.4 points ahead before Tuesday's midterms, and more than 50 million ballots have already been cast. Republicans and some commentators warn the projections may overstate Democratic strength. Close Senate races include Texas and Michigan.",
+   "source": "Expresso das Ilhas (Lusa)",
+   "url": "https://expressodasilhas.cv/mundo/2026/11/01/democratas-esperam-onda-azul-para-reverter-politicas-de-trump/105343",
+   "basis": "article"
+  },
+  {
+   "id": "nzl-2026-11-01-1news",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-11-01",
+   "added": "2026-11-01",
+   "titleIs": "Stjórnarflokkarnir deila um klofin atkvæði sex dögum fyrir kosningar",
+   "summaryIs": "ACT og NZ First staðfestu að hafa samþykkt auglýsingu sem hvetur hægrisinnaða kjósendur til að gefa öðrum en Þjóðarflokknum flokksatkvæði sitt. Seymour segir ACT hafa sett skilyrði um stuðning í Epsom og Tāmaki og Peters segir flokksatkvæði til Þjóðarflokksins sóun. Luxon telur aðferðina geta fært Verkamannaflokknum völdin en Hipkins hvetur fólk til að kjósa Verkamannaflokkinn tvisvar.",
+   "titleEn": "Coalition partners clash over vote-splitting six days before the election",
+   "summaryEn": "ACT and NZ First confirmed they approved an advert urging right-leaning voters to give their party vote to someone other than National. Seymour says ACT required backing in Epsom and Tāmaki, and Peters says a party vote for National is wasted. Luxon warns the tactic could hand Labour power, while Hipkins urges voters to give Labour both ticks.",
+   "source": "1News (RNZ)",
+   "url": "https://www.1news.co.nz/2026/11/01/national-act-and-nz-first-at-odds-over-vote-splitting-campaign/",
+   "basis": "article"
+  },
+  {
    "id": "bgr-2026-11-01-bta-turnout",
    "section": "kosningar",
    "iso3": "BGR",
