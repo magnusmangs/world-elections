@@ -2,6 +2,48 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "bgr-2026-11-01-bta-turnout",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-11-01",
+   "added": "2026-11-01",
+   "titleIs": "Kjörsókn í seinni umferð forsetakosninganna í Búlgaríu var 6,11% klukkan 11",
+   "summaryIs": "Yfirkjörstjórn Búlgaríu greindi frá því að 6,11% kjósenda hefðu kosið klukkan 11 að staðartíma. Mest var þátttakan í Vidin, 8,68%, en minnst í Kardzhali, 3,69%. Iliana Iotova og Andrey Gyurov keppa um forsetaembættið.",
+   "titleEn": "Turnout in Bulgaria's presidential run-off stood at 6.11% at 11:00",
+   "summaryEn": "Bulgaria's Central Election Commission said 6.11% of voters had cast ballots by 11:00 local time. Turnout was highest in Vidin at 8.68% and lowest in Kardzhali at 3.69%. Iliana Iotova and Andrey Gyurov are contesting the presidency.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/bulgaria/1237495-presidential-runoff-turnout-stands-at-6-11-as-of-11-00",
+   "basis": "article"
+  },
+  {
+   "id": "isr-2026-11-01-ynetnews",
+   "section": "kosningar",
+   "iso3": "ISR",
+   "published": "2026-11-01",
+   "added": "2026-11-01",
+   "titleIs": "Herzog hefur viðræður við flokkana 4. nóvember og Eisenkot gæti fengið fleiri meðmæli en Netanyahu",
+   "summaryIs": "Isaac Herzog forseti ætlar að ræða við fulltrúa nýkjörinna flokka frá 4. nóvember og þarf að fela einhverjum stjórnarmyndun fyrir 11. nóvember. Ynet telur að Gadi Eisenkot fái meðmæli 60 þingmanna en Benjamin Netanyahu 46. Yisrael Beiteinu og United Torah Judaism, með sjö sæti hvor, hafa ekki gert upp hug sinn.",
+   "titleEn": "Herzog begins party consultations on 4 November, with Eisenkot set to gain more endorsements than Netanyahu",
+   "summaryEn": "President Isaac Herzog plans to meet the newly elected parties from 4 November and must hand someone the mandate by 11 November. Ynet expects Gadi Eisenkot to be endorsed by 60 MKs and Benjamin Netanyahu by 46. Yisrael Beiteinu and United Torah Judaism, with seven seats each, remain undecided.",
+   "source": "Ynetnews",
+   "url": "https://www.ynetnews.com/article/sk8eaw4pge",
+   "basis": "article"
+  },
+  {
+   "id": "srb-2026-10-30-n1",
+   "section": "kosningar",
+   "iso3": "SRB",
+   "published": "2026-10-30",
+   "added": "2026-11-01",
+   "titleIs": "Brnabić segir að boðað verði til forsetakosninga í Serbíu fyrir 27. desember",
+   "summaryIs": "Ana Brnabić, starfandi forseti, hvatti nýjan þingmeirihluta Studentska lista til að mynda ríkisstjórn fljótt og sagði að boðað yrði til forsetakosninga fyrir 27. desember í samræmi við stjórnarskrána. Hún gagnrýndi einnig árásir á fjölmiðla eftir kosningarnar. Kosið var aftur á 53 kjörstöðum 1. nóvember.",
+   "titleEn": "Brnabić says Serbia's presidential election will be called by 27 December",
+   "summaryEn": "Acting President Ana Brnabić urged the Student List's new parliamentary majority to form a government quickly and said the presidential election would be called by 27 December in line with the Constitution. She also criticised attacks on media outlets since the vote. Re-votes were scheduled at 53 polling stations on 1 November.",
+   "source": "N1",
+   "url": "https://n1info.rs/english/news/brnabic-claims-presidential-election-will-be-called-by-dec-27-in-accordance-with-constitution/",
+   "basis": "article"
+  },
+  {
    "id": "bgr-2026-11-01-bta-runoff",
    "section": "kosningar",
    "iso3": "BGR",
