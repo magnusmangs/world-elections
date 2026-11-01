@@ -2,6 +2,34 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "bgr-2026-11-01-bta-runoff",
+   "section": "kosningar",
+   "iso3": "BGR",
+   "published": "2026-11-01",
+   "added": "2026-11-01",
+   "titleIs": "Búlgarar kjósa sér sjöunda forsetann í seinni umferð milli Iotova og Gyurov",
+   "summaryIs": "Seinni umferð forsetakosninganna fer fram í dag milli Iliönu Iotova og Kiril Valchev annars vegar og Andrey Gyurov og Georgi Kandev hins vegar. Iotova fékk 34,76% í fyrri umferð og Gyurov 31,95%. Kosið er í vélum á 9.373 kjörstöðum og yfirkjörstjórn á að birta lokaúrslit innan þriggja daga.",
+   "titleEn": "Bulgarians choose their seventh president in a run-off between Iotova and Gyurov",
+   "summaryEn": "Sunday's run-off pits Iliana Iotova and Kiril Valchev against Andrey Gyurov and Georgi Kandev. In the first round Iotova took 34.76% and Gyurov 31.95%. Machine voting is available at 9,373 polling stations, and the election commission must announce final results within three days.",
+   "source": "BTA",
+   "url": "https://www.bta.bg/en/news/bulgaria/1236988-bulgaria-elects-its-seventh-president",
+   "basis": "article"
+  },
+  {
+   "id": "usa-2026-10-30-aljazeera-cnnpoll-alaska",
+   "section": "kosningar",
+   "iso3": "USA",
+   "published": "2026-10-30",
+   "added": "2026-11-01",
+   "titleIs": "Könnun CNN sýnir demókrata yfir í Texas og Michigan og deilt er um tvo Dan Sullivan í Alaska",
+   "summaryIs": "Í könnun CNN mælist Talarico (D) með 49% gegn 43% Paxton (R) í Texas og El-Sayed (D) með 49% gegn 42% Rogers (R) í Michigan. Í Alaska er óháður frambjóðandi með sama nafn og Dan Sullivan, öldungadeildarþingmaður repúblikana. Trump sakar demókrata um svik og dómsmálaráðuneytið hefur höfðað mál, en Peltola (D) hafnar ásökunum.",
+   "titleEn": "CNN poll has Democrats ahead in Texas and Michigan as Alaska fights over two Dan Sullivans",
+   "summaryEn": "A CNN poll puts Talarico (D) on 49% to Paxton (R) on 43% in Texas, and El-Sayed (D) on 49% to Rogers (R) on 42% in Michigan. In Alaska an independent shares the name of Republican Senator Dan Sullivan. Trump accuses Democrats of fraud and the Justice Department has gone to court, while Peltola (D) denies the claims.",
+   "source": "Al Jazeera (CNN)",
+   "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies",
+   "basis": "article"
+  },
+  {
    "id": "nzl-2026-10-30-1news-splitvote",
    "section": "kosningar",
    "iso3": "NZL",
