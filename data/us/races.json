@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T10:24Z",
+ "updated": "2026-11-01T10:23Z",
  "electionDate": "2026-11-03",
  "ratingSource": {
   "name": "Cook Political Report",
@@ -1549,6 +1549,10 @@
       {
        "name": "Scott Colom",
        "party": "Democratic"
+      },
+      {
+       "name": "Ty Pinkins",
+       "party": "Independent"
       }
      ],
      "rating": {
