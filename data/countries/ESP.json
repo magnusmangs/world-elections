@@ -3,21 +3,21 @@
   "isoNumeric": "724",
   "name": "Spain",
   "nameIs": "Spánn",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-11-02",
   "elections": [
     {
       "date": "2026-11-29",
       "dateStatus": "confirmed",
       "type": "General election (snap)",
       "typeIs": "Þingkosningar (snemmbúnar)",
-      "note": "Congress of Deputies (350) and Senate.",
-      "noteIs": "Fulltrúadeildin (350) og öldungadeildin."
+      "note": "Congress of Deputies (350) and Senate. Campaign runs 13 to 27 November; polls may be published until 23 November. No party had published a full manifesto by 1 November, so pledges below come from earlier documents, decrees and statements.",
+      "noteIs": "Fulltrúadeildin (350) og öldungadeildin. Kosningabaráttan stendur 13. til 27. nóvember og birta má kannanir til 23. nóvember. Enginn flokkur hafði birt heildarstefnuskrá 1. nóvember og því eru loforðin hér að neðan úr eldri skjölum, tilskipunum og yfirlýsingum."
     }
   ],
   "leaders": "Prime Minister Pedro Sánchez (PSOE); King Felipe VI",
   "leadersIs": "Pedro Sánchez forsætisráðherra (PSOE); Filippus VI. konungur",
-  "summary": "Sánchez dissolved parliament on 6 October 2026 after Junts, PP and Vox defeated his housing relief package. Housing affordability is the central campaign issue.",
-  "summaryIs": "Sánchez rauf þing 6. október 2026 eftir að Junts, PP og Vox felldu aðgerðapakka hans í húsnæðismálum. Húsnæðiskostnaður er helsta mál kosningabaráttunnar.",
+  "summary": "Sánchez dissolved parliament on 6 October 2026 after Junts, PP and Vox defeated his housing relief package, and housing affordability is the central campaign issue. Ada Colau leads the Frente Amplio list and Irene Montero leads Podemos, which runs separately. A Sigma Dos poll of 29–30 October has PP on 31.1%, PSOE on 24.6% and Vox on 19.3%, while other polls vary, with the CIS putting PSOE ahead in early October.",
+  "summaryIs": "Sánchez rauf þing 6. október 2026 eftir að Junts, PP og Vox felldu aðgerðapakka hans í húsnæðismálum og húsnæðiskostnaður er helsta mál kosningabaráttunnar. Ada Colau leiðir lista Frente Amplio og Irene Montero leiðir Podemos, sem býður fram sér. Í könnun Sigma Dos 29.–30. október er PP með 31,1%, PSOE með 24,6% og Vox með 19,3%, en öðrum könnunum ber ekki saman við þetta og CIS mældi PSOE efstan í byrjun október.",
   "parties": [
     {
       "name": "People's Party",
@@ -31,22 +31,24 @@
       "inGovernment": false,
       "lastResult": "33.1%, 137 seats (2023)",
       "lastResultIs": "33,1%, 137 þingsæti (2023)",
-      "polling": "~33% (Oct 2026)",
-      "pollingIs": "~33% (okt. 2026)",
+      "polling": "31.1% (Sigma Dos, 29–30 Oct 2026)",
+      "pollingIs": "31,1% (Sigma Dos, 29.–30. okt. 2026)",
       "policies": [
-        "Tax cuts and fiscal discipline",
-        "Tighter immigration control",
-        "Anti-corruption focus on government scandals",
-        "Reform of postal voting safeguards"
+        "Build at least 1 million homes in four years",
+        "Public guarantees of 95–100% of the mortgage for young buyers",
+        "Cut VAT on new homes from 10% to 4%",
+        "End tense zones and their rent caps; 48-hour eviction of squatters",
+        "Tighter immigration control"
       ],
       "policiesIs": [
-        "Skattalækkanir og aðhald í ríkisfjármálum",
-        "Hert eftirlit með innflytjendum",
-        "Barátta gegn spillingu með áherslu á hneykslismál stjórnarinnar",
-        "Umbætur á öryggisráðstöfunum við póstkosningu"
+        "Byggja að minnsta kosti 1 milljón íbúða á fjórum árum",
+        "Opinberar ábyrgðir fyrir 95–100% af húsnæðisláni ungra kaupenda",
+        "Lækka virðisaukaskatt á nýjar íbúðir úr 10% í 4%",
+        "Afnema skilgreind þenslusvæði og leiguþak þeirra; hústökufólk borið út innan 48 stunda",
+        "Hert eftirlit með innflytjendum"
       ],
       "seats": 137,
-      "pollValue": 31.9,
+      "pollValue": 31.1,
       "color": "#1d84ce"
     },
     {
@@ -61,22 +63,24 @@
       "inGovernment": true,
       "lastResult": "31.7%, 121 seats (2023)",
       "lastResultIs": "31,7%, 121 þingsæti (2023)",
-      "polling": "~26% (Oct 2026)",
-      "pollingIs": "~26% (okt. 2026)",
+      "polling": "24.6% (Sigma Dos, 29–30 Oct 2026)",
+      "pollingIs": "24,6% (Sigma Dos, 29.–30. okt. 2026)",
       "policies": [
-        "Housing relief package and rent controls",
-        "Defends the 2024 amnesty law",
-        "Recognition of Palestine",
-        "Expanded labour and social rights"
+        "Cap rent rises on existing contracts at 2% through 2027",
+        "Two-year lease extensions",
+        "Interest-free ICO loans for first homes, up to 20% of the price and €50,000",
+        "State housing company and a 36-hour week before 2030",
+        "Defends the 2024 amnesty law"
       ],
       "policiesIs": [
-        "Aðgerðapakki í húsnæðismálum og leiguþak",
-        "Ver sakaruppgjafarlögin frá 2024",
-        "Viðurkenning á Palestínu",
-        "Aukin réttindi á vinnumarkaði og félagsleg réttindi"
+        "Þak á leiguhækkanir í gildandi samningum, 2% út árið 2027",
+        "Framlenging leigusamninga um tvö ár",
+        "Vaxtalaus ICO-lán fyrir fyrstu íbúð, allt að 20% af verði og 50.000 evrur",
+        "Húsnæðisfélag ríkisins og 36 stunda vinnuvika fyrir 2030",
+        "Ver sakaruppgjafarlögin frá 2024"
       ],
       "seats": 121,
-      "pollValue": 28.1,
+      "pollValue": 24.6,
       "color": "#e30613"
     },
     {
@@ -90,29 +94,31 @@
       "inGovernment": false,
       "lastResult": "12.4%, 33 seats (2023)",
       "lastResultIs": "12,4%, 33 þingsæti (2023)",
-      "polling": "~18–19% (Oct 2026)",
-      "pollingIs": "~18–19% (okt. 2026)",
+      "polling": "19.3% (Sigma Dos, 29–30 Oct 2026)",
+      "pollingIs": "19,3% (Sigma Dos, 29.–30. okt. 2026)",
       "policies": [
-        "Strict immigration and 'national priority' rules",
-        "Oppose amnesty and Catalan independence",
-        "Recentralise powers from the regions",
-        "Oppose the 'Grandchildren Law' on nationality"
+        "Mass social housing allocated by 'national priority'",
+        "0% VAT on first-home purchases",
+        "Repeal the 2023 Housing Law",
+        "Police eviction of squatters within 24 hours",
+        "Oppose amnesty and Catalan independence"
       ],
       "policiesIs": [
-        "Ströng innflytjendastefna og reglur um „forgang landsmanna“",
-        "Andstaða við sakaruppgjöf og sjálfstæði Katalóníu",
-        "Völd færð frá héruðunum aftur til ríkisins",
-        "Andstaða við „barnabarnalögin“ um ríkisborgararétt"
+        "Umfangsmikið félagslegt húsnæði sem er úthlutað eftir „forgangi landsmanna“",
+        "0% virðisaukaskattur á fyrstu íbúðarkaup",
+        "Fella húsnæðislögin frá 2023 úr gildi",
+        "Lögregla beri hústökufólk út innan 24 stunda",
+        "Andstaða við sakaruppgjöf og sjálfstæði Katalóníu"
       ],
       "seats": 33,
-      "pollValue": 18.9,
+      "pollValue": 19.3,
       "color": "#5ac035"
     },
     {
       "name": "Broad Front (ex-Sumar)",
       "nameIs": "Frente Amplio (áður Sumar)",
       "abbr": "FA",
-      "leader": "To be confirmed",
+      "leader": "Ada Colau",
       "position": "Left",
       "positionIs": "Vinstri",
       "ideology": "Progressivism, green politics",
@@ -120,22 +126,25 @@
       "inGovernment": true,
       "lastResult": "Sumar 12.3%, 31 seats (2023)",
       "lastResultIs": "Sumar 12,3%, 31 þingsæti (2023)",
-      "polling": "~6% (Oct 2026)",
-      "pollingIs": "~6% (okt. 2026)",
+      "polling": "7.1% (Sigma Dos, 29–30 Oct 2026)",
+      "pollingIs": "7,1% (Sigma Dos, 29.–30. okt. 2026)",
       "policies": [
-        "Housing as a public right",
-        "Stronger labour protections",
-        "Climate action",
-        "Unite parties to the left of PSOE"
+        "10% tax on each property's value for companies, and for individuals from the fourth home above €800,000 in total",
+        "Up to 1% of GDP for public housing",
+        "Indefinite rental contracts",
+        "Ban companies and funds from buying homes, with non-profit exceptions",
+        "Climate action"
       ],
       "policiesIs": [
-        "Húsnæði sem almannaréttur",
-        "Aukin vernd launafólks",
-        "Aðgerðir í loftslagsmálum",
-        "Sameining flokka vinstra megin við PSOE"
+        "10% skattur á verðmæti hverrar eignar hjá fyrirtækjum og hjá einstaklingum frá fjórðu íbúð ef heildarverðmæti er yfir 800.000 evrum",
+        "Allt að 1% af landsframleiðslu til almenns íbúðarhúsnæðis",
+        "Ótímabundnir leigusamningar",
+        "Banna fyrirtækjum og sjóðum að kaupa íbúðir, nema félögum sem ekki eru rekin í hagnaðarskyni",
+        "Aðgerðir í loftslagsmálum"
       ],
       "seats": 31,
-      "color": "#e51c55"
+      "color": "#e51c55",
+      "pollValue": 7.1
     },
     {
       "name": "Podemos",
@@ -148,18 +157,24 @@
       "inGovernment": false,
       "lastResult": "Within Sumar (2023)",
       "lastResultIs": "Bauð fram innan Sumar (2023)",
-      "polling": "",
+      "polling": "1.9% (Sigma Dos, 29–30 Oct 2026)",
       "policies": [
-        "Left alternative to PSOE",
-        "Expanded welfare and public housing",
+        "Cut rents by law",
+        "Expropriate homes from investment funds for social rent",
+        "Ban evictions without alternative housing",
+        "35-hour week and a €1,800 monthly minimum wage",
         "Oppose higher defence spending"
       ],
       "policiesIs": [
-        "Vinstri valkostur við PSOE",
-        "Aukin velferð og félagslegt húsnæði",
+        "Lækka leigu með lögum",
+        "Taka eignarnámi íbúðir fjárfestingarsjóða til félagslegrar leigu",
+        "Banna útburð nema annað húsnæði sé í boði",
+        "35 stunda vinnuvika og 1.800 evra lágmarkslaun á mánuði",
         "Andstaða við aukin útgjöld til varnarmála"
       ],
-      "color": "#6b2e68"
+      "color": "#6b2e68",
+      "pollValue": 1.9,
+      "pollingIs": "1,9% (Sigma Dos, 29.–30. okt. 2026)"
     },
     {
       "name": "Together for Catalonia",
@@ -174,21 +189,30 @@
       "lastResultIs": "1,6%, 7 þingsæti (2023)",
       "polling": "",
       "policies": [
-        "Catalan self-determination",
-        "Greater fiscal autonomy for Catalonia",
-        "Opposed the housing relief package"
+        "Lease extensions of up to two years only by landlord-tenant agreement",
+        "State, not small landlords, covers unpaid rent for vulnerable tenants",
+        "0% VAT on first-home purchases; abolish inheritance and gift tax",
+        "Transfer Sareb homes in Catalonia to the Generalitat",
+        "Catalan self-determination"
       ],
       "policiesIs": [
-        "Sjálfsákvörðunarréttur Katalóníu",
-        "Aukið fjárhagslegt sjálfræði Katalóníu",
-        "Lagðist gegn aðgerðapakkanum í húsnæðismálum"
+        "Framlenging leigusamninga um allt að tvö ár aðeins með samkomulagi leigusala og leigjanda",
+        "Ríkið, ekki smærri leigusalar, greiði ógreidda leigu viðkvæmra leigjenda",
+        "0% virðisaukaskattur á fyrstu íbúðarkaup; afnema erfðafjár- og gjafaskatt",
+        "Færa íbúðir Sareb í Katalóníu til Generalitat",
+        "Sjálfsákvörðunarréttur Katalóníu"
       ],
       "seats": 7,
       "color": "#00c3b2"
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Spanish_general_election"
+    "https://en.wikipedia.org/wiki/2026_Spanish_general_election",
+    "https://www.democrata.es/encuestas/elecciones-generales/encuesta-sigma-dos-urda-psoe-99-escanos-pp-vox/",
+    "https://www.infobae.com/espana/agencias/2026/10/28/el-boe-publica-las-listas-presentadas-al-congreso-y-senado-para-las-elecciones-del-29n/",
+    "https://www.democrata.es/elecciones-generales-espana/calendario-elecciones-generales-2026-fechas-29-noviembre/",
+    "https://www.datosclaros.es/comparador-de-programas-29n/",
+    "https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/"
   ],
   "chamber": {
     "name": "Congress of Deputies",
@@ -201,11 +225,11 @@
   },
   "poll": {
     "unit": "percent",
-    "date": "2026-10-09",
-    "pollster": "40dB for El País and Cadena SER",
-    "pollsterIs": "40dB fyrir El País og Cadena SER",
-    "url": "https://www.esdiario.com/nacional/261009/199828/tres-encuestas-dan-mayoria-pp-vox-ivan-redondo-agarra-clavo-ardiendo-sanchez.html",
-    "note": "Smaller parties not reported.",
-    "noteIs": "Fylgi minni flokka ekki birt."
+    "date": "2026-10-30",
+    "pollster": "Sigma Dos for El Mundo (fieldwork 29–30 Oct 2026, 2,505 voters)",
+    "pollsterIs": "Sigma Dos fyrir El Mundo (könnun gerð 29.–30. okt. 2026, 2.505 kjósendur)",
+    "url": "https://www.democrata.es/encuestas/elecciones-generales/encuesta-sigma-dos-urda-psoe-99-escanos-pp-vox/",
+    "note": "Junts share not published. Seat estimate: PP 138, PSOE 99, Vox 65, Frente Amplio 9–11, ERC 9–11, EH Bildu 7–8, Junts 6, PNV 5–6, Podemos 0–1.",
+    "noteIs": "Fylgi Junts var ekki birt. Áætluð þingsæti: PP 138, PSOE 99, Vox 65, Frente Amplio 9–11, ERC 9–11, EH Bildu 7–8, Junts 6, PNV 5–6, Podemos 0–1."
   }
 }

@@ -6,11 +6,15 @@
   {"name": "Dominica", "iso3": "DMA", "isoNumeric": "212", "why": "General election due by early 2028, may be called in 2027"},
   {"name": "Republic of the Congo", "iso3": "COG", "isoNumeric": "178", "why": "Legislative election due by July 2027; no date set as of Oct 2026"},
   {"name": "Libya", "iso3": "LBY", "isoNumeric": "434", "why": "June 2026 roadmap by rival institutions calls for simultaneous presidential and parliamentary elections by 17 Feb 2027; no electoral commission date yet"},
-  {"name": "Madagascar", "iso3": "MDG", "isoNumeric": "450", "why": "Transition plan: first vote (referendum or constitutional election) announced for July 2027, presidential election before Dec 2027"},
+  {"name": "Madagascar", "iso3": "MDG", "isoNumeric": "450", "why": "Transition plan: referendum May to July 2027, presidential election before end of 2027 (allAfrica, Oct 2026); dates may be revised"},
   {"name": "Slovenia", "iso3": "SVN", "isoNumeric": "705", "why": "Presidential election due autumn 2027 (term ends Dec 2027); incumbent Pirc Musar undeclared"},
   {"name": "Tajikistan", "iso3": "TJK", "isoNumeric": "762", "why": "Presidential election due by about October 2027 (seven-year term from Oct 2020)"},
   {"name": "Equatorial Guinea", "iso3": "GNQ", "isoNumeric": "226", "why": "Parliamentary election due about November 2027 (last held Nov 2022)"},
-  {"name": "Tunisia", "iso3": "TUN", "isoNumeric": "788", "why": "Assembly of the Representatives of the People election due late 2027 or early 2028 (last held Dec 2022 to Jan 2023)"},
-  {"name": "Malaysia", "iso3": "MYS", "isoNumeric": "458", "why": "General election due by Feb 2028 (parliament dissolves automatically Dec 2027); may be called earlier in 2027"}
+  {"name": "Tunisia", "iso3": "TUN", "isoNumeric": "788", "why": "ISIE spokesman said on 23 Oct 2026 that the legislative election should be in November or December 2027 (indicative, no date set; last held Dec 2022 to Jan 2023)"},
+  {"name": "Malaysia", "iso3": "MYS", "isoNumeric": "458", "why": "General election due by Feb 2028 (parliament dissolves automatically Dec 2027); may be called earlier in 2027"},
+  {"name": "Senegal", "iso3": "SEN", "isoNumeric": "686", "why": "One report: a minister said the National Assembly is dissolved on 2 Dec 2026, with early legislative elections in 2027; unconfirmed"},
+  {"name": "Nicaragua", "iso3": "NIC", "isoNumeric": "558", "why": "General election moved from Nov 2026 by constitutional change; sources conflict on Nov 2027 or 2028; second vote on a further reform due from 18 Jan 2027"},
+  {"name": "Oman", "iso3": "OMN", "isoNumeric": "512", "why": "Shura Council election expected about Oct 2027 (last held 29 Oct 2023)"},
+  {"name": "Tuvalu", "iso3": "TUV", "isoNumeric": "798", "why": "General election expected about Jan 2028 (IPU expected date 31 Jan 2028); no parties. Not in the 50m map file (no country shape), so it may not colour on the map"}
  ]
 }

@@ -3,21 +3,21 @@
  "isoNumeric": "332",
  "name": "Haiti",
  "nameIs": "Haítí",
- "lastReviewed": "2026-10-26",
+ "lastReviewed": "2026-11-02",
  "elections": [
   {
-   "date": "2026-12-13",
+   "date": "2027-07-18",
    "dateStatus": "tentative",
    "type": "General (presidential and legislative)",
    "typeIs": "Forseta- og þingkosningar",
-   "note": "First elections since 2016. On 6 October 2026 the electoral council suspended the campaign and extended candidate registration to 31 October; a new calendar is pending and the 13 December date is in doubt.",
-   "noteIs": "Fyrstu kosningarnar frá 2016. Hinn 6. október 2026 frestaði kjörráðið kosningabaráttunni og framlengdi skráningu frambjóðenda til 31. október; nýrrar tímaáætlunar er beðið og óvíst er hvort kosið verður 13. desember."
+   "note": "First elections since 2016. The electoral council's calendar of 28 October 2026 moved the first round from 13 December 2026 to 18 July 2027, with a possible second round reported for 4 October 2027.",
+   "noteIs": "Fyrstu kosningarnar frá 2016. Í tímaáætlun kjörráðsins frá 28. október 2026 var fyrri umferðin færð frá 13. desember 2026 til 18. júlí 2027 og sagt er að seinni umferð geti farið fram 4. október 2027."
   }
  ],
  "leaders": "Presidency vacant; acting Prime Minister Alix Didier Fils-Aimé",
  "leadersIs": "Forsetaembættið er autt; Alix Didier Fils-Aimé er starfandi forsætisráðherra",
- "summary": "Elections have been postponed repeatedly since 2019 as gangs control much of Port-au-Prince. The Transitional Presidential Council's mandate expired in February 2026, leaving the prime minister as sole executive.",
- "summaryIs": "Kosningum hefur ítrekað verið frestað frá 2019 enda ráða glæpagengi stórum hluta Port-au-Prince. Umboð bráðabirgðaforsetaráðsins rann út í febrúar 2026 og forsætisráðherrann fer nú einn með framkvæmdavaldið.",
+ "summary": "Elections have been postponed repeatedly since 2019 as gangs control much of Port-au-Prince. The Transitional Presidential Council's mandate expired in February 2026, leaving the prime minister as sole executive. The electoral council has now moved the first round to 18 July 2027.",
+ "summaryIs": "Kosningum hefur ítrekað verið frestað frá 2019 enda ráða glæpagengi stórum hluta Port-au-Prince. Umboð bráðabirgðaforsetaráðsins rann út í febrúar 2026 og forsætisráðherrann fer nú einn með framkvæmdavaldið. Kjörráðið hefur nú fært fyrri umferðina til 18. júlí 2027.",
  "parties": [
   {
    "name": "Fanmi Lavalas",
@@ -107,6 +107,8 @@
  "sources": [
   "https://en.wikipedia.org/wiki/2026_Haitian_general_election",
   "https://www.riotimesonline.com/haiti-december-election-left-without-date-2026",
-  "https://www.caribbeannationalweekly.com/posts/haiti-government-pledges-neutrality-ahead-of-december-elections"
+  "https://www.caribbeannationalweekly.com/posts/haiti-government-pledges-neutrality-ahead-of-december-elections",
+  "https://www.bloomberglinea.com/mundo/haiti-aplaza-sus-elecciones-presidenciales-y-legislativas-para-julio-de-2027/",
+  "https://www.democrata.es/en/international/haiti-postpones-the-first-round-of-the-elections-to-july-18-2027-due-to-the-security-crisis/"
  ]
 }

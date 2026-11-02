@@ -3,15 +3,15 @@
  "isoNumeric": "624",
  "name": "Guinea-Bissau",
  "nameIs": "Gínea-Bissá",
- "lastReviewed": "2026-10-26",
+ "lastReviewed": "2026-11-02",
  "elections": [
   {
    "date": "2026-12-06",
    "dateStatus": "tentative",
    "type": "Presidential and parliamentary",
    "typeIs": "Forseta- og þingkosningar",
-   "note": "102-seat National People's Assembly. Set by junta decree. On 8 October 2026 the electoral commission and the prime minister said conditions for a vote on 6 December are not met; no new date announced.",
-   "noteIs": "102 sæti á þjóðþinginu. Dagsetningin var ákveðin með tilskipun herforingjastjórnarinnar. Hinn 8. október 2026 sögðu kjörstjórnin og forsætisráðherrann að skilyrði fyrir kosningum 6. desember væru ekki uppfyllt; ný dagsetning hefur ekki verið tilkynnt."
+   "note": "102-seat National People's Assembly. Set by junta decree. On 8 October 2026 the electoral commission and the prime minister said conditions for a vote on 6 December are not met; no new date announced. An ECOWAS mediator visited about 25 October to discuss a new date.",
+   "noteIs": "102 sæti á þjóðþinginu. Dagsetningin var ákveðin með tilskipun herforingjastjórnarinnar. Hinn 8. október 2026 sögðu kjörstjórnin og forsætisráðherrann að skilyrði fyrir kosningum 6. desember væru ekki uppfyllt; ný dagsetning hefur ekki verið tilkynnt. Sáttasemjari ECOWAS kom í heimsókn um 25. október til að ræða nýja dagsetningu."
   }
  ],
  "leaders": "Transitional President Gen. Horta Inta-A Na Man (military)",
@@ -65,6 +65,7 @@
  "sources": [
   "https://en.wikipedia.org/wiki/2026_Guinea-Bissau_general_election",
   "https://www.enca.com/news/gbissau-moves-towards-postponement-december-general-election",
-  "https://allafrica.com/stories/202610090140.html"
+  "https://allafrica.com/stories/202610090140.html",
+  "https://www.rtp.pt/noticias/mundo/mediador-da-cedeao-avalia-na-guine-bissau-adiamento-das-eleicoes_n1774367"
  ]
 }

@@ -49,7 +49,6 @@
         "Áætlun um innviði og vegagerð",
         "Segist styðja stjórnarskrárumbætur á eigin forsendum"
       ],
-      "pollValue": 32,
       "color": "#7b2d8e"
     },
     {
@@ -75,7 +74,6 @@
         "Sakar Barrow um að hindra takmörkun á valdi forseta",
         "Barátta gegn spillingu"
       ],
-      "pollValue": 25,
       "color": "#f2c200"
     },
     {
@@ -101,7 +99,6 @@
         "Byggir baráttuna á árangri í sveitarstjórn og störfum fyrir ungt fólk",
         "Umbætur á stjórnarháttum"
       ],
-      "pollValue": 19,
       "color": "#1565c0"
     },
     {
@@ -126,14 +123,5 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election"
-  ],
-  "poll": {
-    "unit": "percent",
-    "date": "2026-08-24",
-    "pollster": "Gambia Participates",
-    "pollsterIs": "Gambia Participates",
-    "url": "https://thepoint.gm/africa/gambia/headlines/parties-dispute-polls-finding-that-puts-barrow-ahead-of-dec-election",
-    "note": "Undecided 17%. Opposition parties disputed the findings.",
-    "noteIs": "Óákveðnir 17%. Stjórnarandstöðuflokkar véfengdu niðurstöðurnar."
-  }
+  ]
 }

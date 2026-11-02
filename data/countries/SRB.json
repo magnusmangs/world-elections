@@ -3,21 +3,21 @@
   "isoNumeric": "688",
   "name": "Serbia",
   "nameIs": "Serbía",
-  "lastReviewed": "2026-10-27",
+  "lastReviewed": "2026-11-02",
   "elections": [
     {
       "date": "2026-12-20",
       "dateStatus": "expected",
       "type": "Presidential (early)",
       "typeIs": "Forsetakosningar (snemmbúnar)",
-      "note": "Must be held within three months of Aleksandar Vučić's resignation on 27 September 2026; the Speaker of the National Assembly calls it. Date not yet set.",
-      "noteIs": "Kjósa þarf innan þriggja mánaða frá afsögn Aleksandars Vučić 27. september 2026; forseti þjóðþingsins boðar kosningarnar. Dagsetning hefur ekki verið ákveðin."
+      "note": "Must be held within three months of Aleksandar Vučić's resignation on 27 September 2026; the Speaker of the National Assembly calls it. No date set and no candidates declared as of 2 November. Reports conflict on whether the last day to call it is 27 November or 27 December.",
+      "noteIs": "Kjósa þarf innan þriggja mánaða frá afsögn Aleksandars Vučić 27. september 2026; forseti þjóðþingsins boðar kosningarnar. Dagsetning og frambjóðendur lágu ekki fyrir 2. nóvember. Heimildum ber ekki saman um hvort síðasti dagur til að boða kosningarnar sé 27. nóvember eða 27. desember."
     }
   ],
   "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut (outgoing; Student List won a majority on 25 Oct 2026)",
   "leadersIs": "Ana Brnabić, starfandi forseti (frá september 2026); Đuro Macut forsætisráðherra (fráfarandi; Studentska lista vann meirihluta 25. okt. 2026)",
-  "summary": "The Student List won the 25 October snap election with 52.54% of the vote (preliminary RIK count) and a projected absolute majority of 140 seats, which would end 14 years of SNS-led government; Aleksandar Vučić conceded. An early presidential election must be held by late December 2026 to replace Vučić, who resigned as president to run for prime minister.",
-  "summaryIs": "Studentska lista sigraði í snemmbúnu kosningunum 25. október með 52,54% atkvæða (bráðabirgðatölur RIK) og er spáð hreinum meirihluta, 140 þingsætum, sem myndi binda enda á 14 ára stjórnartíð undir forystu SNS; Aleksandar Vučić viðurkenndi ósigur. Halda þarf snemmbúnar forsetakosningar fyrir lok desember 2026 í stað Vučić, sem sagði af sér sem forseti til að bjóða sig fram til forsætisráðherra.",
+  "summary": "The Student List won the 25 October snap election with 53.01% of the vote (RIK count after the repeat vote on 1 November, not yet proclaimed) and a projected absolute majority of 140 seats, which would end 14 years of SNS-led government; Aleksandar Vučić conceded. An early presidential election must be held by late December 2026 to replace Vučić, who resigned as president to run for prime minister.",
+  "summaryIs": "Studentska lista sigraði í snemmbúnu kosningunum 25. október með 53,01% atkvæða (tölur RIK eftir endurtekna kosningu 1. nóvember, sem hafa ekki verið staðfestar) og er spáð hreinum meirihluta, 140 þingsætum, sem myndi binda enda á 14 ára stjórnartíð undir forystu SNS; Aleksandar Vučić viðurkenndi ósigur. Halda þarf snemmbúnar forsetakosningar fyrir lok desember 2026 í stað Vučić, sem sagði af sér sem forseti til að bjóða sig fram til forsætisráðherra.",
   "parties": [
     {
       "name": "United Serbia (SNS-led)",
@@ -28,8 +28,8 @@
       "ideology": "Populism, national conservatism",
       "ideologyIs": "Popúlismi, þjóðleg íhaldsstefna",
       "inGovernment": true,
-      "lastResult": "39.52%, about 103 seats (2026, preliminary)",
-      "lastResultIs": "39,52%, um 103 þingsæti (2026, bráðabirgðatölur)",
+      "lastResult": "38.98%, about 103 seats (2026, RIK count not yet proclaimed)",
+      "lastResultIs": "38,98%, um 103 þingsæti (2026, tölur RIK, ekki staðfestar)",
       "polling": "",
       "policies": [
         "Vučić is the list's candidate for prime minister",
@@ -56,8 +56,8 @@
       "ideology": "Anti-corruption, rule of law",
       "ideologyIs": "Barátta gegn spillingu, réttarríkið",
       "inGovernment": false,
-      "lastResult": "52.19%, about 140 seats (2026, preliminary)",
-      "lastResultIs": "52,19%, um 140 þingsæti (2026, bráðabirgðatölur)",
+      "lastResult": "53.01%, about 140 seats (2026, RIK count not yet proclaimed)",
+      "lastResultIs": "53,01%, um 140 þingsæti (2026, tölur RIK, ekki staðfestar)",
       "polling": "",
       "policies": [
         "Fulfil the demands of the anti-corruption protests",
@@ -112,8 +112,8 @@
       "ideology": "Social democracy, populism",
       "ideologyIs": "Jafnaðarstefna, popúlismi",
       "inGovernment": true,
-      "lastResult": "Factor of Stability list: 2.21%, below threshold, no seats (2026, preliminary)",
-      "lastResultIs": "Listinn Faktor stabilnosti: 2,21%, undir þröskuldi, engin þingsæti (2026, bráðabirgðatölur)",
+      "lastResult": "Factor of Stability list: 2.13%, below threshold, no seats (2026, RIK count not yet proclaimed)",
+      "lastResultIs": "Listinn Faktor stabilnosti: 2,13%, undir þröskuldi, engin þingsæti (2026, tölur RIK, ekki staðfestar)",
       "polling": "",
       "policies": [
         "Junior partner of the governing SNS",
@@ -160,27 +160,29 @@
   ],
   "sources": [
     "https://www.k1info.rs/vesti/izbori-2026/140782/zvanicni-rezultati-izbora-u-srbiji/vest",
-    "https://politika.telegraf.rs/izbori-2026/4421093-cesid-objavio-ovo-je-konacna-projekcija-raspodele-mandata-na-osnovu-96-odsto-obradjenog-uzorka",
     "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
     "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election",
     "https://www.danas.rs/vesti/politika/izbori26/izbori-za-predsednika-vucic-zakon/",
-    "https://www.aljazeera.com/news/2026/10/26/serbia-after-vucic-who-will-be-pm-and-when-will-a-government-be-formed"
+    "https://www.aljazeera.com/news/2026/10/26/serbia-after-vucic-who-will-be-pm-and-when-will-a-government-be-formed",
+    "https://www.republika.rs/vesti/politika/781236/rik-rezultati-izbora-studentska-lista-5301-odsto",
+    "https://www.sd.rs/vesti/info/ponovljeni-izbori-promenili-raspodelu-mandata-u-skupstini-srbije-studentska-lista-izgubila-jedan-mandat-evo-ko-ulazi-u-parlament-2026-11-02",
+    "https://www.b92.net/info/politika/280757/brnabic-predsednicki-izbori-ce-biti-raspisani-do-27-novembra/vest"
   ],
   "chamber": {
     "name": "National Assembly",
     "nameIs": "þjóðþingið",
     "seats": 250,
     "majority": 126,
-    "asOf": "projected seats (CeSID/Ipsos, 96% sample), preliminary result, 25 Oct 2026 election; minority lists hold 7 (SVM 3, Albanian Coalition 2, Ljajić list 1, SDA Sandžak 1)",
-    "asOfIs": "áætluð þingsæti (CeSID/Ipsos, 96% úrtaks), bráðabirgðaúrslit kosninganna 25. okt. 2026; listar minnihlutahópa fá 7 (SVM 3, Albanska koalicija 2, listi Ljajić 1, SDA Sandžak 1)",
-    "source": "https://politika.telegraf.rs/izbori-2026/4421093-cesid-objavio-ovo-je-konacna-projekcija-raspodele-mandata-na-osnovu-96-odsto-obradjenog-uzorka"
+    "asOf": "projected seats (CRTA), after the 1 November repeat vote; RIK has not published the official allocation; minority lists hold 7 (SVM 2, Albanian Coalition 2, Zukorlić 1, Ljajić 1, SDA Sandžak 1)",
+    "asOfIs": "áætluð þingsæti (CRTA) eftir endurtekna kosningu 1. nóvember; RIK hefur ekki birt opinbera skiptingu; listar minnihlutahópa fá 7 (SVM 2, Albanska koalicija 2, Zukorlić 1, Ljajić 1, SDA Sandžak 1)",
+    "source": "https://www.sd.rs/vesti/info/ponovljeni-izbori-promenili-raspodelu-mandata-u-skupstini-srbije-studentska-lista-izgubila-jedan-mandat-evo-ko-ulazi-u-parlament-2026-11-02"
   },
   "lastElection": {
     "date": "2026-10-25",
     "type": "Parliamentary (snap)",
     "typeIs": "Þingkosningar (snemmbúnar)",
-    "outcome": "The Student List won with 52.54% against 39.29% for United Serbia (preliminary RIK count, 8,077 of 8,392 polling stations), on a turnout of 68.78%; the Student List is projected to win 140 of 250 seats and United Serbia about 103, and Aleksandar Vučić conceded.",
-    "outcomeIs": "Studentska lista sigraði með 52,54% en Ujedinjena Srbija fékk 39,29% (bráðabirgðatölur RIK frá 8.077 af 8.392 kjörstöðum) og kjörsókn var 68,78%; Studentska lista er spáð 140 af 250 þingsætum og Ujedinjena Srbija um 103, og Aleksandar Vučić viðurkenndi ósigur.",
+    "outcome": "The Student List won with 53.01% against 38.98% for United Serbia (RIK count of all 8,392 polling stations after the repeat vote at 53 stations on 1 November, not yet proclaimed), on a turnout of 68.89%; the Student List is projected to win 140 of 250 seats and United Serbia 103, and Aleksandar Vučić conceded.",
+    "outcomeIs": "Studentska lista sigraði með 53,01% en Ujedinjena Srbija fékk 38,98% (tölur RIK frá öllum 8.392 kjörstöðum eftir endurtekna kosningu á 53 kjörstöðum 1. nóvember, sem hafa ekki verið staðfestar) og kjörsókn var 68,89%; Studentska lista er spáð 140 af 250 þingsætum og Ujedinjena Srbija 103, og Aleksandar Vučić viðurkenndi ósigur.",
     "winner": "Student List (largest list, projected majority)",
     "winnerIs": "Studentska lista (stærsti listinn, spáð meirihluta)",
     "result": "new"

@@ -7,11 +7,11 @@
  "elections": [
   {
    "date": "2027-04-18",
-   "dateStatus": "tentative",
+   "dateStatus": "confirmed",
    "type": "Presidential (first round)",
    "typeIs": "Forsetakosningar (fyrri umferð)",
-   "note": "Run-off two weeks later if no majority.",
-   "noteIs": "Seinni umferð tveimur vikum síðar ef enginn fær meirihluta."
+   "note": "Dates set by the government: 18 April, with a run-off on 2 May if no majority. Overseas voting on 17 April and 1 May.",
+   "noteIs": "Ríkisstjórnin hefur ákveðið dagsetningarnar: 18. apríl og seinni umferð 2. maí ef enginn fær meirihluta. Kosið er í frönskum svæðum handan hafsins 17. apríl og 1. maí."
   }
  ],
  "leaders": "President Emmanuel Macron (term-limited)",
@@ -172,6 +172,7 @@
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/2027_French_presidential_election",
-  "https://brusselssignal.eu/2026/08/french-poll-puts-melenchon-in-2027-runoff-as-le-pen-leads/"
+  "https://brusselssignal.eu/2026/08/french-poll-puts-melenchon-in-2027-runoff-as-le-pen-leads/",
+  "https://www.service-public.gouv.fr/particuliers/actualites/A15053?lang=fr"
  ]
 }

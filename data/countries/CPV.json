@@ -3,21 +3,21 @@
  "isoNumeric": "132",
  "name": "Cabo Verde",
  "nameIs": "Grænhöfðaeyjar",
- "lastReviewed": "2026-10-26",
+ "lastReviewed": "2026-11-02",
  "elections": [
   {
    "date": "2026-11-15",
    "dateStatus": "confirmed",
    "type": "Presidential",
    "typeIs": "Forsetakosningar",
-   "note": "Two-round system; a run-off follows if no candidate wins a majority. The Constitutional Court admitted six candidacies (five on 21 September, Loisito Tavares de Sousa on appeal): Antero Tavares, Casimiro de Pina, José Maria Neves, Gilson Alves, Joana Rosa and Loisito Tavares de Sousa. The official campaign starts on 29 October.",
-   "noteIs": "Kosið í tveimur umferðum og kosið aftur milli tveggja efstu ef enginn fær meirihluta. Stjórnlagadómstóllinn samþykkti sex framboð (fimm 21. september og framboð Loisito Tavares de Sousa eftir kæru): Antero Tavares, Casimiro de Pina, José Maria Neves, Gilson Alves, Joana Rosa og Loisito Tavares de Sousa. Formleg kosningabarátta hefst 29. október."
+   "note": "Two-round system; a run-off on 29 November follows if no candidate wins a majority. The Constitutional Court admitted six candidacies. The campaign runs from 29 October to 13 November, with 426,531 registered voters.",
+   "noteIs": "Kosið í tveimur umferðum og kosið aftur 29. nóvember ef enginn fær meirihluta. Stjórnlagadómstóllinn samþykkti sex framboð. Kosningabaráttan stendur frá 29. október til 13. nóvember og 426.531 er á kjörskrá."
   }
  ],
  "leaders": "President José Maria Neves (PAICV); Prime Minister Francisco Carvalho (PAICV) since June 2026",
  "leadersIs": "José Maria Neves forseti (PAICV); Francisco Carvalho forsætisráðherra (PAICV) frá júní 2026",
- "summary": "Incumbent José Maria Neves (PAICV) seeks a second term against five challengers, including former justice minister Joana Rosa, backed by the MpD and the first woman to run for the office. The vote follows the PAICV's win in the May 2026 legislative election, and no published opinion poll was found.",
- "summaryIs": "José Maria Neves forseti (PAICV) sækist eftir öðru kjörtímabili gegn fimm mótframbjóðendum, þar á meðal Joönu Rosa fyrrverandi dómsmálaráðherra, sem nýtur stuðnings MpD og er fyrsta konan sem býður sig fram til embættisins. Kosningarnar fylgja í kjölfar sigurs PAICV í þingkosningunum í maí 2026 og engin birt skoðanakönnun fannst.",
+ "summary": "Incumbent José Maria Neves (PAICV) seeks a second term against five challengers, including former justice minister Joana Rosa, backed by the MpD and the first woman to run for the office. The vote follows the PAICV's win in the May 2026 legislative election, and no opinion poll from a named institute has been published.",
+ "summaryIs": "José Maria Neves forseti (PAICV) sækist eftir öðru kjörtímabili gegn fimm mótframbjóðendum, þar á meðal Joönu Rosa fyrrverandi dómsmálaráðherra, sem nýtur stuðnings MpD og er fyrsta konan sem býður sig fram til embættisins. Kosningarnar fylgja í kjölfar sigurs PAICV í þingkosningunum í maí 2026 og engin könnun frá nafngreindri stofnun hefur verið birt.",
  "parties": [
   {
    "name": "José Maria Neves (PAICV)",
@@ -35,13 +35,13 @@
     "National youth convention bringing together young people from the islands and the diaspora",
     "National dialogues on territorial and social cohesion with municipalities, firms and communities",
     "Make the ocean a national and international cause, continuing the Ocean Decade conference",
-    "Annual Cabo Verde 2050 National Forum and wider engagement of the diaspora"
+    "Resolve inter-island mobility as the first priority"
    ],
    "policiesIs": [
     "Landsþing ungs fólks frá eyjunum og úr röðum brottfluttra",
     "Samráð á landsvísu um samheldni milli eyja og í samfélaginu með sveitarfélögum, fyrirtækjum og samfélögum",
     "Gera hafið að málefni þjóðarinnar og á alþjóðavettvangi og halda áfram ráðstefnunni um áratug hafsins",
-    "Árlegt landsþing um Cabo Verde 2050 og aukin þátttaka brottfluttra"
+    "Leysa samgöngur milli eyja sem helsta forgangsmál"
    ]
   },
   {
@@ -68,6 +68,96 @@
     "Jafnt aðgengi að heilbrigðisþjónustu, samgöngum og störfum óháð búsetueyju",
     "Verðleikar, heilindi og sjálfstæði við skipanir forseta"
    ]
+  },
+  {
+   "name": "Antero Tavares",
+   "abbr": "Tavares",
+   "leader": "Antero Tavares",
+   "position": "",
+   "ideology": "Independent, no party ties",
+   "ideologyIs": "Óháður, án flokkstengsla",
+   "inGovernment": false,
+   "lastResult": "First candidacy; judge for about 20 years",
+   "lastResultIs": "Fyrsta framboð; dómari í um 20 ár",
+   "polling": "",
+   "policies": [
+    "A 'Pact for Justice' among the main parties and a national pact against corruption",
+    "Unblock stalled appointments, including the Attorney General and Constitutional Court judges",
+    "Put education at the centre of national debate",
+    "Opposes the death penalty"
+   ],
+   "policiesIs": [
+    "„Sáttmáli um réttlæti“ milli helstu flokka og þjóðarsáttmáli gegn spillingu",
+    "Ljúka töfðum skipunum í embætti, meðal annars ríkissaksóknara og dómara við stjórnlagadómstólinn",
+    "Setja menntun í öndvegi í þjóðmálaumræðunni",
+    "Andvígur dauðarefsingu"
+   ]
+  },
+  {
+   "name": "Casimiro de Pina",
+   "abbr": "Pina",
+   "leader": "Casimiro de Pina",
+   "position": "",
+   "ideology": "Independent; jurist and academic",
+   "ideologyIs": "Óháður; lögfræðingur og fræðimaður",
+   "inGovernment": false,
+   "lastResult": "1.8% (3,254 votes), third in 2021",
+   "lastResultIs": "1,8% (3.254 atkvæði), þriðji árið 2021",
+   "polling": "",
+   "policies": [
+    "Check that public acts conform to the Constitution",
+    "Education for citizenship and the Constitution",
+    "A presidency of influence and arbitration, not governing"
+   ],
+   "policiesIs": [
+    "Ganga úr skugga um að opinberar athafnir samræmist stjórnarskránni",
+    "Fræðsla um borgaravitund og stjórnarskrána",
+    "Forsetaembætti sem hefur áhrif og miðlar málum en stjórnar ekki"
+   ]
+  },
+  {
+   "name": "Gilson Alves",
+   "abbr": "Alves",
+   "leader": "Gilson Alves",
+   "position": "",
+   "ideology": "Independent; surgeon by training and businessman",
+   "ideologyIs": "Óháður; skurðlæknir að mennt og kaupsýslumaður",
+   "inGovernment": false,
+   "lastResult": "0.8% (2021); led PTS from 2018 to 2021",
+   "lastResultIs": "0,8% (2021); leiddi PTS frá 2018 til 2021",
+   "polling": "",
+   "policies": [
+    "Presidential system through constitutional revision",
+    "Fast-track justice for corruption, with the death penalty for corrupt state officials",
+    "Pardon for prisoners in return for an anti-crime pact"
+   ],
+   "policiesIs": [
+    "Forsetaræði með endurskoðun stjórnarskrárinnar",
+    "Flýtimeðferð í spillingarmálum og dauðarefsing fyrir spillta embættismenn",
+    "Náðun fanga gegn sáttmála um að brjóta ekki af sér aftur"
+   ]
+  },
+  {
+   "name": "Loisito Tavares de Sousa",
+   "abbr": "Sousa",
+   "leader": "Loisito Tavares de Sousa",
+   "position": "",
+   "ideology": "Independent; teacher, candidacy based on citizen signatures",
+   "ideologyIs": "Óháður; kennari, framboð byggt á undirskriftum borgara",
+   "inGovernment": false,
+   "lastResult": "First candidacy; co-founded the Movimento Independente do Tarrafal",
+   "lastResultIs": "Fyrsta framboð; einn stofnenda Movimento Independente do Tarrafal",
+   "polling": "",
+   "policies": [
+    "Free the presidency from party ties and open the palace to the public",
+    "Decent housing, quality healthcare and opportunities so young people can stay",
+    "End partisan ambassador appointments and review agreements such as the Fisheries Agreement"
+   ],
+   "policiesIs": [
+    "Losa forsetaembættið undan flokkstengslum og opna forsetahöllina almenningi",
+    "Mannsæmandi húsnæði, góð heilbrigðisþjónusta og tækifæri svo að ungt fólk geti verið um kyrrt",
+    "Hætta flokkspólitískum skipunum sendiherra og endurskoða samninga á borð við fiskveiðisamninginn"
+   ]
   }
  ],
  "sources": [
@@ -75,6 +165,8 @@
   "https://www.balai.cv/noticias/atualidade/presidenciais-2026-tribunal-constitucional-admite-definitivamente-seis-candidaturas/",
   "https://expressodasilhas.cv/politica/2026/10/12/presidenciais-2026-jose-maria-neves-apresenta-cinco-compromissos-para-mandato/105054",
   "https://www.balai.cv/noticias/atualidade/presidenciais-2026-joana-rosa-apresenta-dez-compromissos-centrados-na-democracia-juventude-e-coesao-nacional/",
-  "https://observador.pt/2026/10/01/joana-rosa-quer-ser-avaliada-pela-competencia-e-nao-so-por-ser-a-primeira-mulher-candidata-a-presidencia-em-cabo-verde/"
+  "https://observador.pt/2026/10/01/joana-rosa-quer-ser-avaliada-pela-competencia-e-nao-so-por-ser-a-primeira-mulher-candidata-a-presidencia-em-cabo-verde/",
+  "https://www.balai.cv/noticias/eleicoes-presidenciais-seis-candidatos-seis-visoes-para-cabo-verde/",
+  "https://expressodasilhas.cv/politica/2026/10/29/campanha-para-as-eleicoes-presidenciais-arranca-hoje/105294"
  ]
 }

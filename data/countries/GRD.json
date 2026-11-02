@@ -3,21 +3,21 @@
   "isoNumeric": "308",
   "name": "Grenada",
   "nameIs": "Grenada",
-  "lastReviewed": "2026-10-26",
+  "lastReviewed": "2026-11-02",
   "elections": [
     {
       "date": "2026-11-05",
       "dateStatus": "confirmed",
       "type": "General election (snap)",
       "typeIs": "Þingkosningar (snemmbúnar)",
-      "note": "15 seats, first-past-the-post. 46 candidates were nominated on 15 October; special voting for police is on 2 November.",
-      "noteIs": "15 þingsæti, meirihlutakosning í einmenningskjördæmum. 46 frambjóðendur voru tilnefndir 15. október og lögregla kýs sérstaklega 2. nóvember."
+      "note": "15 seats, first-past-the-post. 46 candidates: NDC 15, NNP 15, DPM 9, smaller groups 7. Polls open 6 am to 5 pm; the final count starts on 6 November. OAS and Commonwealth observers are present.",
+      "noteIs": "15 þingsæti, meirihlutakosning í einmenningskjördæmum. 46 frambjóðendur: NDC 15, NNP 15, DPM 9, smærri hópar 7. Kjörstaðir eru opnir frá 6 til 17 og lokatalning hefst 6. nóvember. Eftirlitsmenn frá OAS og Samveldinu fylgjast með."
     }
   ],
   "leaders": "Prime Minister Dickon Mitchell (NDC)",
   "leadersIs": "Dickon Mitchell forsætisráðherra (NDC)",
-  "summary": "Prime Minister Dickon Mitchell called the vote almost a year early, and 46 candidates were nominated for the 15 seats, with the NDC and NNP contesting every constituency. Peter David's Democratic People's Movement is reported to be running in nine seats, and no named public opinion poll has been published.",
-  "summaryIs": "Dickon Mitchell forsætisráðherra boðaði til kosninga nærri ári fyrr en þurfti og 46 frambjóðendur voru tilnefndir um þingsætin 15, en NDC og NNP bjóða fram í öllum kjördæmum. Democratic People's Movement, flokkur Peters David, býður að sögn fram í níu kjördæmum og engin nafngreind skoðanakönnun hefur verið birt.",
+  "summary": "Prime Minister Dickon Mitchell called the vote almost a year early, and 46 candidates are standing for the 15 seats, with the NDC and NNP contesting every constituency and Peter David's Democratic People's Movement running in nine. No representative opinion poll from a named institute has been published.",
+  "summaryIs": "Dickon Mitchell forsætisráðherra boðaði til kosninga nærri ári fyrr en þurfti og 46 frambjóðendur bjóða sig fram um þingsætin 15, en NDC og NNP bjóða fram í öllum kjördæmum og Democratic People's Movement, flokkur Peters David, í níu. Engin marktæk könnun frá nafngreindri stofnun hefur verið birt.",
   "parties": [
     {
       "name": "National Democratic Congress",
@@ -32,16 +32,16 @@
       "lastResultIs": "51,8%, 9 þingsæti (2022)",
       "polling": "",
       "policies": [
-        "Second-term \"People's Manifesto\" with an online tracker of each constituency's commitments",
+        "Reopen the Maruba Farm School in January with 60 secondary students",
         "Develop Grenada as a financial hub for investment banking, wealth management and trust services",
-        "Grow non-tax revenue beyond the citizenship-by-investment programme",
-        "Education reform, including a marine school to train skilled workers"
+        "New licensing framework with international bids for offshore blocks",
+        "Baseline studies for National Health Insurance, aligned with the hospital opening"
       ],
       "policiesIs": [
-        "Stefnuskrá fyrir annað kjörtímabil (\"People's Manifesto\") með netrakningu á loforðum í hverju kjördæmi",
+        "Opna Maruba-búnaðarskólann aftur í janúar með 60 framhaldsskólanemendum",
         "Byggja Grenada upp sem fjármálamiðstöð fyrir fjárfestingarbankastarfsemi, eignastýringu og fjárvörslu",
-        "Auka tekjur ríkisins utan skatta umfram ríkisborgararétt gegn fjárfestingu",
-        "Umbætur í menntamálum, meðal annars sjómannaskóli til að þjálfa faglært starfsfólk"
+        "Nýtt leyfiskerfi með alþjóðlegum útboðum á svæðum á hafi úti",
+        "Grunnrannsóknir fyrir sjúkratryggingakerfi, samhliða opnun sjúkrahússins"
       ],
       "seats": 9,
       "color": "#f2c200"
@@ -60,15 +60,15 @@
       "polling": "",
       "policies": [
         "Cut corporate tax from 28% to 25%",
-        "Free transport for students who need help",
-        "Expand night and weekend bus services",
-        "First general election under Emmalin Pierre, the party's first woman leader"
+        "Raise the monthly income tax threshold from EC$3,000 to EC$6,000",
+        "Remove VAT on electricity and sugar and abolish the water levy within 90 days",
+        "Medical card for free doctor visits and basic prescription medication"
       ],
       "policiesIs": [
         "Lækka fyrirtækjaskatt úr 28% í 25%",
-        "Gjaldfrjálsar samgöngur fyrir nemendur sem þurfa aðstoð",
-        "Fjölga strætóferðum á kvöldin og um helgar",
-        "Fyrstu þingkosningar undir forystu Emmalin Pierre, fyrstu konunnar sem leiðir flokkinn"
+        "Hækka skattleysismörk tekjuskatts á mánuði úr 3.000 í 6.000 austurkarabíska dali",
+        "Afnema virðisaukaskatt á rafmagn og sykur og leggja niður vatnsgjaldið innan 90 daga",
+        "Sjúkrakort fyrir gjaldfrjálsar læknisheimsóknir og grunnlyf"
       ],
       "seats": 6,
       "color": "#2e8b57"
@@ -84,27 +84,27 @@
       "lastResultIs": "Nýr flokkur (stofnaður í nóvember 2025)",
       "polling": "",
       "policies": [
-        "First-home grant for under-35s: $35,000 for a single buyer, $50,000 for a married couple",
-        "Guaranteed market prices for local staple crops and subsidised irrigation",
-        "Simpler business registration and better access to capital for small firms",
-        "More investment in health workers, facilities and equipment"
+        "First-home grant for under-35s: $35,000 for a single buyer, $50,000 for a couple",
+        "Re-establish the Marketing and National Importing Board",
+        "Solar panels for residential homes",
+        "Community polyclinics and mobile medical units"
       ],
       "policiesIs": [
-        "Styrkur til fyrstu íbúðarkaupa fyrir fólk undir 35 ára: 35.000 dalir fyrir einstakling, 50.000 dalir fyrir hjón",
-        "Tryggt markaðsverð fyrir helstu innlendu nytjajurtir og niðurgreidd áveita",
-        "Einfaldari skráning fyrirtækja og betra aðgengi smáfyrirtækja að fjármagni",
-        "Aukin fjárfesting í heilbrigðisstarfsfólki, aðstöðu og búnaði"
+        "Styrkur til fyrstu íbúðarkaupa fyrir fólk undir 35 ára: 35.000 dalir fyrir einstakling, 50.000 dalir fyrir par",
+        "Endurreisa markaðs- og innflutningsstofnun ríkisins (Marketing and National Importing Board)",
+        "Sólarsellur á íbúðarhús",
+        "Heilsugæslustöðvar í nærsamfélaginu og færanlegar læknastöðvar"
       ],
       "seats": 0,
       "color": "#8a2be2"
     }
   ],
   "sources": [
-    "https://jamaica-gleaner.com/index%2Ephp/article/world-news/20261006/mitchell-calls-early-election",
-    "https://www.riotimesonline.com/grenada-fields-46-candidates-november-5",
-    "https://www.riotimesonline.com/grenada-election-final-two-weeks-campaign",
-    "https://www.caribbeantoday.com/sections/politics/grenada-s-prime-minister-mitchell-continues-quest-for-re-election",
-    "https://caribbeantoday.com/sections/politics/new-political-party-launched-in-grenada"
+    "https://www.riotimesonline.com/grenada-votes-thursday-46-candidates/",
+    "https://www.riotimesonline.com/grenada-elections-nomination-day-key-dates-2026/",
+    "https://www.stvincenttimes.com/grenada-leaders-clash-on-healthcare-economy-energy-in-national-debate/",
+    "https://www.thenewtodaygrenada.com/local-news/nnp-launches-better-grenada-campaign/",
+    "https://www.caribbeannationalweekly.com/posts/oas-to-observe-grenadas-november-5-general-elections"
   ],
   "chamber": {
     "name": "House of Representatives",
