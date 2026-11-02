@@ -34,7 +34,8 @@
   "ZAF": "Suður-Afríka",
   "AUS": "Ástralía",
   "CAN": "Kanada",
-  "SGP": "Singapúr"
+  "SGP": "Singapúr",
+  "GRD": "Grenada"
  },
  "outlets": [
   {
@@ -544,6 +545,16 @@
    "type": "newspaper",
    "lang": "pt",
    "feed": "https://expressodasilhas.cv/rss"
+  },
+  {
+   "id": "nowgrenada",
+   "country": "GRD",
+   "name": "NOW Grenada",
+   "domain": "nowgrenada.com",
+   "type": "news site",
+   "lang": "en",
+   "feed": "https://nowgrenada.com/feed/",
+   "readable": false
   }
  ]
 }
