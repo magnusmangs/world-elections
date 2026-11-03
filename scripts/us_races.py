@@ -23,6 +23,11 @@ PAGES = {
     "houseRatings": "2026_United_States_House_of_Representatives_election_ratings",
     "reps": "List_of_current_United_States_representatives",
 }
+# Candidates on the ballot whom the summary pages' infoboxes leave out. Added back if missing.
+EXTRA_CANDIDATES = {
+    ("Tennessee", "governor"): [{"name": "David Hatley", "party": "Independent"}],
+    ("Montana", "senate"): [{"name": "Kyle Austin", "party": "Libertarian"}],
+}
 
 
 def fetch(title, cache_dir=None):
@@ -199,6 +204,9 @@ def races(wiki, names, kind, summary_regex, kind_word):
             nm = box.get(f"nominee{k}") or box.get(f"candidate{k}")
             if nm:
                 noms.append({"name": plain(nm), "party": party_short(box.get(f"party{k}", ""))})
+        for extra in EXTRA_CANDIDATES.get((name, kind), []):
+            if not any(n["name"] == extra["name"] for n in noms):
+                noms.append(extra)
         inc = plain(box.get("before_election", ""))
         inc_party = party_short(box.get("before_party", ""))
         if not inc and noms:  # some infoboxes leave the incumbent out when they are running
