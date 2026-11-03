@@ -3,12 +3,12 @@
  "isoNumeric": "100",
  "name": "Bulgaria",
  "nameIs": "Búlgaría",
- "lastReviewed": "2026-11-02",
+ "lastReviewed": "2026-11-03",
  "elections": [],
  "leaders": "President Iliana Iotova (re-elected; new term from 22 January 2027); Prime Minister Rumen Radev (Progressive Bulgaria)",
  "leadersIs": "Iliana Iotova forseti (endurkjörin; nýtt kjörtímabil hefst 22. janúar 2027); Rumen Radev forsætisráðherra (Framsækin Búlgaría)",
- "summary": "Iliana Iotova, backed by Prime Minister Rumen Radev, won the 1 November run-off with 57.57% against 39.48% for Andrey Gyurov in the CIK's count of all tally sheets, and Gyurov accepted the result. The CIK's formal declaration is due by 4 November, and her five-year term starts on 22 January 2027.",
- "summaryIs": "Iliana Iotova, sem Rumen Radev forsætisráðherra styður, sigraði í seinni umferðinni 1. nóvember með 57,57% en Andrey Gyurov fékk 39,48% þegar CIK hafði talið öll kjörgögn, og Gyurov viðurkenndi úrslitin. Formleg yfirlýsing CIK á að liggja fyrir í síðasta lagi 4. nóvember og fimm ára kjörtímabil hennar hefst 22. janúar 2027.",
+ "summary": "Iliana Iotova, backed by Prime Minister Rumen Radev, won the 1 November run-off with 57.57% against 39.48% for Andrey Gyurov in the CIK's count of all tally sheets, and Gyurov accepted the result. The CIK formally declared her elected on 3 November, and her five-year term starts on 22 January 2027.",
+ "summaryIs": "Iliana Iotova, sem Rumen Radev forsætisráðherra styður, sigraði í seinni umferðinni 1. nóvember með 57,57% en Andrey Gyurov fékk 39,48% þegar CIK hafði talið öll kjörgögn, og Gyurov viðurkenndi úrslitin. CIK lýsti hana formlega kjörna 3. nóvember og fimm ára kjörtímabil hennar hefst 22. janúar 2027.",
  "parties": [
   {
    "name": "Iliana Iotova",
@@ -87,7 +87,7 @@
   }
  ],
  "sources": [
-  "https://www.bta.bg/en/news/bulgaria/1237861-with-99-95-of-tally-sheets-processed-iotova-valchev-win-presidential-election-",
+  "https://www.bta.bg/en/news/bulgaria/1238951-central-election-commission-declares-iotova-and-valchev-elected-president-and-vi",
   "https://www.bta.bg/en/news/bulgaria/1237809-politicians-react-as-iotova-wins-bulgaria-s-presidential-runoff",
   "https://www.novinite.com/articles/241393/Final+Results+Confirm+Yotova's+57.5+Victory+Over+Gyurov",
   "https://fakti.bg/bulgaria/1096321-iotova-vstapva-v-novia-si-mandat-na-22-anuari-2027-g",
@@ -100,7 +100,7 @@
   "winner": "Iliana Iotova (independent, backed by Progressive Bulgaria), re-elected",
   "winnerIs": "Iliana Iotova (óháð, studd af Framsækinni Búlgaríu), endurkjörin",
   "result": "incumbent",
-  "outcome": "Iliana Iotova won with 57.57% (1,093,852 votes) against 39.48% (750,251) for Andrey Gyurov, and 2.95% (56,080) chose none of the above, in the CIK's count of all tally sheets; the CIK's formal declaration and official turnout are due by 4 November, and estimates put turnout at about 27 to 29%.",
-  "outcomeIs": "Iliana Iotova sigraði með 57,57% (1.093.852 atkvæði) en Andrey Gyurov fékk 39,48% (750.251) og 2,95% (56.080) völdu engan frambjóðanda, þegar CIK hafði talið öll kjörgögn; formleg yfirlýsing CIK og opinberar tölur um kjörsókn eiga að liggja fyrir í síðasta lagi 4. nóvember, en áætlanir benda til um 27 til 29% kjörsóknar."
+  "outcome": "Iliana Iotova won with 57.57% (1,093,852 votes) against 39.48% (750,251) for Andrey Gyurov, and 2.95% (56,080) chose none of the above, in the CIK's count of all tally sheets; the CIK declared her elected on 3 November in a 15-0 decision, and estimates put turnout at about 27 to 29%.",
+  "outcomeIs": "Iliana Iotova sigraði með 57,57% (1.093.852 atkvæði) en Andrey Gyurov fékk 39,48% (750.251) og 2,95% (56.080) völdu engan frambjóðanda, þegar CIK hafði talið öll kjörgögn; CIK lýsti hana kjörna 3. nóvember með 15 atkvæðum gegn engu og áætlanir benda til um 27 til 29% kjörsóknar."
  }
 }

@@ -3,15 +3,15 @@
   "isoNumeric": "270",
   "name": "The Gambia",
   "nameIs": "Gambía",
-  "lastReviewed": "2026-10-19",
+  "lastReviewed": "2026-11-03",
   "elections": [
     {
       "date": "2026-12-05",
       "dateStatus": "confirmed",
       "type": "Presidential",
       "typeIs": "Forsetakosningar",
-      "note": "Single round, first-past-the-post.",
-      "noteIs": "Ein umferð, sá sem fær flest atkvæði sigrar."
+      "note": "Single round, first-past-the-post. Nominations 3 to 14 November.",
+      "noteIs": "Ein umferð, sá sem fær flest atkvæði sigrar. Tilnefningar 3. til 14. nóvember."
     },
     {
       "date": "2027-04-10",
@@ -23,8 +23,8 @@
   ],
   "leaders": "President Adama Barrow (NPP)",
   "leadersIs": "Adama Barrow forseti (NPP)",
-  "summary": "Adama Barrow is seeking a third term; the current constitution has no presidential term limit. The stalled 2020 draft constitution, which would introduce one, is a central issue.",
-  "summaryIs": "Adama Barrow sækist eftir þriðja kjörtímabilinu, en í núgildandi stjórnarskrá eru engin takmörk á fjölda kjörtímabila forseta. Stjórnarskrárdrögin frá 2020, sem myndu setja slík takmörk en hafa strandað, eru eitt helsta kosningamálið.",
+  "summary": "Adama Barrow is seeking a third term; the current constitution has no presidential term limit. The stalled 2020 draft constitution, which would introduce one, is a central issue. Nominations run from 3 to 14 November. A government white paper issued in late October ordered a criminal investigation of Talib Bensouda, whose party says his candidacy stands.",
+  "summaryIs": "Adama Barrow sækist eftir þriðja kjörtímabilinu, en í núgildandi stjórnarskrá eru engin takmörk á fjölda kjörtímabila forseta. Stjórnarskrárdrögin frá 2020, sem myndu setja slík takmörk en hafa strandað, eru eitt helsta kosningamálið. Tilnefningar standa frá 3. til 14. nóvember. Hvítbók stjórnvalda frá því í lok október fyrirskipaði sakamálarannsókn á Talib Bensouda, en flokkur hans segir framboðið standa.",
   "parties": [
     {
       "name": "Adama Barrow (National People's Party)",
@@ -122,6 +122,7 @@
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election"
+    "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election",
+  "https://thepoint.gm/africa/gambia/headlines/govt-orders-bensouda-probe-unite-insists-candidacy-stands"
   ]
 }
