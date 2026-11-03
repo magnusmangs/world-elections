@@ -1,0 +1,23 @@
+{
+  "status": "counting",
+  "updated": "2026-11-03T23:15:52Z",
+  "headline": "No race has been called yet. The first polls closed at 23:00 UTC in parts of Indiana and Kentucky.",
+  "headlineIs": "Úrslit eru hvergi ljós enn. Fyrstu kjörstaðir lokuðu kl. 23:00 að íslenskum tíma í hlutum Indiana og Kentucky.",
+  "sourceName": "Fox News Decision Desk",
+  "source": "https://www.foxnews.com/live-news/election-day-results-11-3-2026",
+  "conventions": "senate = seats not up (D 32, R 31, I 2) plus called races, i.e. seats in the new chamber. house and governors = called races only.",
+  "senate": {
+    "D": 32,
+    "R": 31,
+    "I": 2
+  },
+  "house": {
+    "D": 0,
+    "R": 0
+  },
+  "governors": {
+    "D": 0,
+    "R": 0
+  },
+  "states": {}
+}

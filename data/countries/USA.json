@@ -109,5 +109,31 @@
     "url": "https://politicalwire.com/2026/11/01/democrats-hold-lead-on-generic-ballot/",
     "note": "Generic congressional ballot, registered voters, margin of error 3.1 points, published 1 November. Silver Bulletin average on 30 October: Democrats +8.9.",
     "noteIs": "Almenn þingkönnun meðal skráðra kjósenda, skekkjumörk 3,1 stig, birt 1. nóvember. Meðaltal Silver Bulletin 30. október: Demókratar +8,9."
+  },
+  "live": {
+    "status": "counting",
+    "updated": "2026-11-03T23:15:52Z",
+    "headline": "No race has been called yet. The first polls closed at 23:00 UTC in parts of Indiana and Kentucky.",
+    "headlineIs": "Úrslit eru hvergi ljós enn. Fyrstu kjörstaðir lokuðu kl. 23:00 að íslenskum tíma í hlutum Indiana og Kentucky.",
+    "unit": "seats",
+    "sourceName": "Fox News Decision Desk",
+    "sourceNameIs": "Fox News Decision Desk",
+    "source": "https://www.foxnews.com/live-news/election-day-results-11-3-2026",
+    "note": "House seats won so far. Only races called by a major decision desk are counted.",
+    "noteIs": "Sæti unnin í fulltrúadeildinni til þessa. Aðeins eru talin sæti sem helstu fréttastofur hafa lýst unnin.",
+    "blocs": [
+      {
+        "name": "Democrats",
+        "nameIs": "Demókratar",
+        "value": 0,
+        "color": "#2a5fb0"
+      },
+      {
+        "name": "Republicans",
+        "nameIs": "Repúblikanar",
+        "value": 0,
+        "color": "#d22532"
+      }
+    ]
   }
 }
