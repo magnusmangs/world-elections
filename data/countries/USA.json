@@ -16,8 +16,8 @@
   ],
   "leaders": "President Donald Trump (Republican)",
   "leadersIs": "Donald Trump forseti (Repúblikanaflokkurinn)",
-  "summary": "Democrats won control of the House and the Senate in the 3 November midterms, ending Republican control of Congress. The AP called both chambers for them, and the latest unofficial results reported on 4 November give them at least 224 House seats and 53 Senate seats, with some close races still uncalled. They took six Senate seats from Republicans, including North Carolina, South Carolina, Texas, Ohio and Kansas. The new Congress is sworn in on 3 January.",
-  "summaryIs": "Demókratar unnu meirihluta í báðum deildum þingsins í kosningunum 3. nóvember og repúblikanar missa þar með stjórn á þinginu. AP lýsti þá sigurvegara í báðum deildum og nýjustu óstaðfestu tölur frá 4. nóvember gefa þeim að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni, en enn er beðið úrslita í nokkrum tvísýnum kjördæmum. Þeir unnu sex sæti af repúblikönum í öldungadeildinni, meðal annars í Norður-Karólínu, Suður-Karólínu, Texas, Ohio og Kansas. Nýtt þing tekur við 3. janúar.",
+  "summary": "Democrats won control of the House and the Senate in the 3 November midterms, ending Republican control of Congress. The AP called both chambers for them, and the latest unofficial results reported on 4 November give them at least 224 House seats and 53 Senate seats, with some close races still uncalled, including the Mississippi and Alaska Senate seats. They took six Senate seats from Republicans, including North Carolina, South Carolina, Texas, Ohio and Kansas. The new Congress is sworn in on 3 January.",
+  "summaryIs": "Demókratar unnu meirihluta í báðum deildum þingsins í kosningunum 3. nóvember og repúblikanar missa þar með stjórn á þinginu. AP lýsti þá sigurvegara í báðum deildum og nýjustu óstaðfestu tölur frá 4. nóvember gefa þeim að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni, en enn er beðið úrslita í nokkrum tvísýnum kjördæmum, meðal annars um sæti Mississippi og Alaska í öldungadeildinni. Þeir unnu sex sæti af repúblikönum í öldungadeildinni, meðal annars í Norður-Karólínu, Suður-Karólínu, Texas, Ohio og Kansas. Nýtt þing tekur við 3. janúar.",
   "parties": [
     {
       "name": "Republican Party",
@@ -94,7 +94,8 @@
     "https://www.abc.net.au/news/2026-11-04/democrats-claim-victory-over-republicans-2026-midterm-elections/107338138",
     "https://www.abc.net.au/news/2026-11-04/us-midterms-democrats-win-majority-what-happens-next/107335330",
     "https://www.rte.ie/news/2026/1104/1597908-democrat-takeover/",
-    "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/"
+    "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/",
+    "https://www.abc.net.au/news/2026-11-04/us-midterm-elections-2026-live-updates/107335560"
   ],
   "chamber": {
     "name": "House of Representatives",

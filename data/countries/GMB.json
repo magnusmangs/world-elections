@@ -3,15 +3,15 @@
   "isoNumeric": "270",
   "name": "The Gambia",
   "nameIs": "Gambía",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-04",
   "elections": [
     {
       "date": "2026-12-05",
       "dateStatus": "confirmed",
       "type": "Presidential",
       "typeIs": "Forsetakosningar",
-      "note": "Single round, first-past-the-post. Nominations 3 to 14 November.",
-      "noteIs": "Ein umferð, sá sem fær flest atkvæði sigrar. Tilnefningar 3. til 14. nóvember."
+      "note": "Single round, first-past-the-post. Nominations 3 to 14 November. The commission gives 1,146,474 registered voters.",
+      "noteIs": "Ein umferð, sá sem fær flest atkvæði sigrar. Tilnefningar 3. til 14. nóvember. Kjörstjórnin segir 1.146.474 á kjörskrá."
     },
     {
       "date": "2027-04-10",
@@ -123,6 +123,7 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election",
-  "https://thepoint.gm/africa/gambia/headlines/govt-orders-bensouda-probe-unite-insists-candidacy-stands"
+    "https://thepoint.gm/africa/gambia/headlines/govt-orders-bensouda-probe-unite-insists-candidacy-stands",
+    "https://thepoint.gm/africa/gambia/headlines/over-1-1m-gambians-set-to-vote-in-dec-presidential-election"
   ]
 }
