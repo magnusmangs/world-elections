@@ -3,7 +3,7 @@
   "isoNumeric": "840",
   "name": "United States",
   "nameIs": "Bandaríkin",
-  "lastReviewed": "2026-11-02",
+  "lastReviewed": "2026-11-04",
   "elections": [
     {
       "date": "2026-11-03",
@@ -16,8 +16,8 @@
   ],
   "leaders": "President Donald Trump (Republican)",
   "leadersIs": "Donald Trump forseti (Repúblikanaflokkurinn)",
-  "summary": "Republicans control the White House and both chambers of Congress going into the 3 November midterms. Democrats lead the generic congressional ballot by about 9 points in the Silver Bulletin average of 30 October, and the Cook Political Report's latest outlook expects Democrats to gain 12 to 25 House seats, while the Senate is rated close, with seven Toss Up races and Democrats needing a net gain of four. Early votes passed 48.5 million by 30 October, a midterm record.",
-  "summaryIs": "Repúblikanar ráða Hvíta húsinu og báðum deildum þingsins fyrir kosningarnar 3. nóvember. Demókratar eru með um 9 stiga forskot í almennum þingkönnunum samkvæmt meðaltali Silver Bulletin 30. október og í nýjustu spá Cook Political Report er gert ráð fyrir að Demókratar bæti við sig 12 til 25 sætum í fulltrúadeildinni, en öldungadeildin er talin tvísýn: sjö kjördæmi eru metin jöfn og Demókratar þurfa að bæta við sig fjórum sætum. Yfir 48,5 milljónir atkvæða höfðu verið greiddar utan kjörfundar 30. október, sem er met í kosningum á miðju kjörtímabili.",
+  "summary": "Democrats won control of the House and the Senate in the 3 November midterms, ending Republican control of Congress. The AP called both chambers for them, and the latest unofficial results reported on 4 November give them at least 224 House seats and 53 Senate seats, with some close races still uncalled. They took six Senate seats from Republicans, including North Carolina, South Carolina, Texas, Ohio and Kansas. The new Congress is sworn in on 3 January.",
+  "summaryIs": "Demókratar unnu meirihluta í báðum deildum þingsins í kosningunum 3. nóvember og repúblikanar missa þar með stjórn á þinginu. AP lýsti þá sigurvegara í báðum deildum og nýjustu óstaðfestu tölur frá 4. nóvember gefa þeim að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni, en enn er beðið úrslita í nokkrum tvísýnum kjördæmum. Þeir unnu sex sæti af repúblikönum í öldungadeildinni, meðal annars í Norður-Karólínu, Suður-Karólínu, Texas, Ohio og Kansas. Nýtt þing tekur við 3. janúar.",
   "parties": [
     {
       "name": "Republican Party",
@@ -90,7 +90,11 @@
     "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
     "https://news.kalshi.com/p/balance-of-power-congress",
     "https://voz.us/en/politics/261030/1000205/early-voting-midterms-2026-breaks-the-record.html",
-    "https://ballotpedia.org/United_States_Congress_elections,_2026"
+    "https://ballotpedia.org/United_States_Congress_elections,_2026",
+    "https://www.abc.net.au/news/2026-11-04/democrats-claim-victory-over-republicans-2026-midterm-elections/107338138",
+    "https://www.abc.net.au/news/2026-11-04/us-midterms-democrats-win-majority-what-happens-next/107335330",
+    "https://www.rte.ie/news/2026/1104/1597908-democrat-takeover/",
+    "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/"
   ],
   "chamber": {
     "name": "House of Representatives",
@@ -112,27 +116,27 @@
   },
   "live": {
     "status": "counting",
-    "updated": "2026-11-03T23:15:52Z",
-    "headline": "No race has been called yet. The first polls closed at 23:00 UTC in parts of Indiana and Kentucky.",
-    "headlineIs": "Úrslit eru hvergi ljós enn. Fyrstu kjörstaðir lokuðu kl. 23:00 að íslenskum tíma í hlutum Indiana og Kentucky.",
+    "updated": "2026-11-04T07:30:51Z",
+    "headline": "Democrats won both chambers of Congress. The AP called the Senate and the House for them, with at least 224 House seats and at least 53 Senate seats. Some close races are still uncalled.",
+    "headlineIs": "Demókratar unnu báðar deildir þingsins. AP lýsti þá sigurvegara í öldungadeildinni og fulltrúadeildinni, með að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni. Enn er beðið úrslita í nokkrum tvísýnum kjördæmum.",
     "unit": "seats",
-    "sourceName": "Fox News Decision Desk",
-    "sourceNameIs": "Fox News Decision Desk",
-    "source": "https://www.foxnews.com/live-news/election-day-results-11-3-2026",
-    "note": "House seats won so far. Only races called by a major decision desk are counted.",
-    "noteIs": "Sæti unnin í fulltrúadeildinni til þessa. Aðeins eru talin sæti sem helstu fréttastofur hafa lýst unnin.",
+    "sourceName": "AP projections via News From The States",
+    "sourceNameIs": "Spár AP í gegnum News From The States",
+    "source": "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/",
+    "note": "House seats. Democrats are on track for at least 224. The grey bar is every other seat, won by Republicans or still uncalled, because no current Republican total was confirmed.",
+    "noteIs": "Sæti í fulltrúadeildinni. Demókratar stefna í að minnsta kosti 224. Grái hlutinn eru öll önnur sæti, unnin af repúblikönum eða enn óráðin, því núverandi tala repúblikana fékkst ekki staðfest.",
     "blocs": [
       {
         "name": "Democrats",
         "nameIs": "Demókratar",
-        "value": 0,
+        "value": 224,
         "color": "#2a5fb0"
       },
       {
-        "name": "Republicans",
-        "nameIs": "Repúblikanar",
-        "value": 0,
-        "color": "#d22532"
+        "name": "Republicans and uncalled",
+        "nameIs": "Repúblikanar og óráðin sæti",
+        "value": 211,
+        "color": "#9aa3ad"
       }
     ]
   }

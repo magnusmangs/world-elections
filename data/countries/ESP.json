@@ -3,7 +3,7 @@
   "isoNumeric": "724",
   "name": "Spain",
   "nameIs": "Spánn",
-  "lastReviewed": "2026-11-02",
+  "lastReviewed": "2026-11-04",
   "elections": [
     {
       "date": "2026-11-29",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Pedro Sánchez (PSOE); King Felipe VI",
   "leadersIs": "Pedro Sánchez forsætisráðherra (PSOE); Filippus VI. konungur",
-  "summary": "Sánchez dissolved parliament on 6 October 2026 after Junts, PP and Vox defeated his housing relief package, and housing affordability is the central campaign issue. Ada Colau leads the Frente Amplio list and Irene Montero leads Podemos, which runs separately. A Sigma Dos poll of 29–30 October has PP on 31.1%, PSOE on 24.6% and Vox on 19.3%, while other polls vary, with the CIS putting PSOE ahead in early October.",
-  "summaryIs": "Sánchez rauf þing 6. október 2026 eftir að Junts, PP og Vox felldu aðgerðapakka hans í húsnæðismálum og húsnæðiskostnaður er helsta mál kosningabaráttunnar. Ada Colau leiðir lista Frente Amplio og Irene Montero leiðir Podemos, sem býður fram sér. Í könnun Sigma Dos 29.–30. október er PP með 31,1%, PSOE með 24,6% og Vox með 19,3%, en öðrum könnunum ber ekki saman við þetta og CIS mældi PSOE efstan í byrjun október.",
+  "summary": "Sánchez dissolved parliament on 6 October 2026 after Junts, PP and Vox defeated his housing relief package, and housing affordability is the central campaign issue. Ada Colau leads the Frente Amplio list and Irene Montero leads Podemos, which runs separately. A Sigma Dos poll of 29–30 October has PP on 31.1%, PSOE on 24.6% and Vox on 19.3%, while other polls vary, with the CIS putting PSOE ahead in early October. Transport Minister Óscar Puente resigned on 3 November after the Urda train crash, which killed 69.",
+  "summaryIs": "Sánchez rauf þing 6. október 2026 eftir að Junts, PP og Vox felldu aðgerðapakka hans í húsnæðismálum og húsnæðiskostnaður er helsta mál kosningabaráttunnar. Ada Colau leiðir lista Frente Amplio og Irene Montero leiðir Podemos, sem býður fram sér. Í könnun Sigma Dos 29.–30. október er PP með 31,1%, PSOE með 24,6% og Vox með 19,3%, en öðrum könnunum ber ekki saman við þetta og CIS mældi PSOE efstan í byrjun október. Óscar Puente samgönguráðherra sagði af sér 3. nóvember eftir lestarslysið í Urda, þar sem 69 létust.",
   "parties": [
     {
       "name": "People's Party",
@@ -212,7 +212,8 @@
     "https://www.infobae.com/espana/agencias/2026/10/28/el-boe-publica-las-listas-presentadas-al-congreso-y-senado-para-las-elecciones-del-29n/",
     "https://www.democrata.es/elecciones-generales-espana/calendario-elecciones-generales-2026-fechas-29-noviembre/",
     "https://www.datosclaros.es/comparador-de-programas-29n/",
-    "https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/"
+    "https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/",
+    "https://www.eldiario.es/castilla-la-mancha/ultima-hora-accidente-tren-urda-investigacion-judicial-avanza-identificacion-69-fallecidos_133_13632761.html"
   ],
   "chamber": {
     "name": "Congress of Deputies",

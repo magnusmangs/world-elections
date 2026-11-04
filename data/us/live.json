@@ -1,23 +1,74 @@
 {
   "status": "counting",
-  "updated": "2026-11-03T23:15:52Z",
-  "headline": "No race has been called yet. The first polls closed at 23:00 UTC in parts of Indiana and Kentucky.",
-  "headlineIs": "Úrslit eru hvergi ljós enn. Fyrstu kjörstaðir lokuðu kl. 23:00 að íslenskum tíma í hlutum Indiana og Kentucky.",
-  "sourceName": "Fox News Decision Desk",
-  "source": "https://www.foxnews.com/live-news/election-day-results-11-3-2026",
-  "conventions": "senate = seats not up (D 32, R 31, I 2) plus called races, i.e. seats in the new chamber. house and governors = called races only.",
+  "updated": "2026-11-04T07:30:51Z",
+  "headline": "Democrats won both chambers of Congress. The AP called the Senate and the House for them, with at least 224 House seats and at least 53 Senate seats. Some close races are still uncalled. Republican counts here are the last AP tallies seen, from 11:30 pm ET, so they lag behind.",
+  "headlineIs": "Demókratar unnu báðar deildir þingsins. AP lýsti þá sigurvegara í öldungadeildinni og fulltrúadeildinni, með að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni. Enn er beðið úrslita í nokkrum tvísýnum kjördæmum. Tölur repúblikana hér eru síðustu tölur AP sem fengust, frá 23:30 að austurstrandartíma, og eru því of lágar.",
+  "sourceName": "AP projections via News From The States and NJ.com",
+  "source": "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/",
+  "conventions": "Senate: D 51 plus I 2 equal the minimum of 53 reported on 4 November; R 38 is the AP tally at 11:30 pm ET on 3 November, including seats not up. House: D 224 is the reported minimum; R 95 is the AP tally late on 3 November. Governors omitted until confirmed. Senate races listed by state were reported as called by ABC Australia.",
   "senate": {
-    "D": 32,
-    "R": 31,
+    "D": 51,
+    "R": 38,
     "I": 2
   },
   "house": {
-    "D": 0,
-    "R": 0
+    "D": 224,
+    "R": 95
   },
-  "governors": {
-    "D": 0,
-    "R": 0
-  },
-  "states": {}
+  "states": {
+    "NC": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Roy Cooper",
+          "party": "D"
+        }
+      ]
+    },
+    "SC": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Annie Andrews",
+          "party": "D"
+        }
+      ]
+    },
+    "TX": {
+      "senate": [
+        {
+          "special": false,
+          "name": "James Talarico",
+          "party": "D"
+        }
+      ]
+    },
+    "OH": {
+      "senate": [
+        {
+          "special": true,
+          "name": "Sherrod Brown",
+          "party": "D"
+        }
+      ]
+    },
+    "KS": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Adam Hamilton",
+          "party": "D"
+        }
+      ]
+    },
+    "GA": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Jon Ossoff",
+          "party": "D"
+        }
+      ]
+    }
+  }
 }
