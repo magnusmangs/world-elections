@@ -3,7 +3,7 @@
   "isoNumeric": "308",
   "name": "Grenada",
   "nameIs": "Grenada",
-  "lastReviewed": "2026-11-02",
+  "lastReviewed": "2026-11-04",
   "elections": [
     {
       "date": "2026-11-05",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Dickon Mitchell (NDC)",
   "leadersIs": "Dickon Mitchell forsætisráðherra (NDC)",
-  "summary": "Prime Minister Dickon Mitchell called the vote almost a year early, and 46 candidates are standing for the 15 seats, with the NDC and NNP contesting every constituency and Peter David's Democratic People's Movement running in nine. No representative opinion poll from a named institute has been published.",
-  "summaryIs": "Dickon Mitchell forsætisráðherra boðaði til kosninga nærri ári fyrr en þurfti og 46 frambjóðendur bjóða sig fram um þingsætin 15, en NDC og NNP bjóða fram í öllum kjördæmum og Democratic People's Movement, flokkur Peters David, í níu. Engin marktæk könnun frá nafngreindri stofnun hefur verið birt.",
+  "summary": "Prime Minister Dickon Mitchell called the vote almost a year early, and 46 candidates are standing for the 15 seats, with the NDC and NNP contesting every constituency and Peter David's Democratic People's Movement running in nine. No representative opinion poll from a named institute has been published. On 4 November the High Court rejected a claim challenging the dissolution of parliament, so the vote goes ahead as scheduled.",
+  "summaryIs": "Dickon Mitchell forsætisráðherra boðaði til kosninga nærri ári fyrr en þurfti og 46 frambjóðendur bjóða sig fram um þingsætin 15, en NDC og NNP bjóða fram í öllum kjördæmum og Democratic People's Movement, flokkur Peters David, í níu. Engin marktæk könnun frá nafngreindri stofnun hefur verið birt. High Court hafnaði 4. nóvember kröfu vegna þingrofsins og kosningarnar fara því fram eins og til stóð.",
   "parties": [
     {
       "name": "National Democratic Congress",
@@ -104,7 +104,8 @@
     "https://www.riotimesonline.com/grenada-elections-nomination-day-key-dates-2026/",
     "https://www.stvincenttimes.com/grenada-leaders-clash-on-healthcare-economy-energy-in-national-debate/",
     "https://www.thenewtodaygrenada.com/local-news/nnp-launches-better-grenada-campaign/",
-    "https://www.caribbeannationalweekly.com/posts/oas-to-observe-grenadas-november-5-general-elections"
+    "https://www.caribbeannationalweekly.com/posts/oas-to-observe-grenadas-november-5-general-elections",
+    "https://www.thenewtodaygrenada.com/local-news/high-court-clears-the-way-for-general-election/"
   ],
   "chamber": {
     "name": "House of Representatives",
