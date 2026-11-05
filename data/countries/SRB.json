@@ -10,8 +10,8 @@
       "dateStatus": "expected",
       "type": "Presidential (early)",
       "typeIs": "Forsetakosningar (snemmbúnar)",
-      "note": "Must be held within three months of Aleksandar Vučić's resignation on 27 September 2026; the Speaker of the National Assembly calls it. No date set and no candidates declared as of 2 November. Reports conflict on whether the last day to call it is 27 November or 27 December.",
-      "noteIs": "Kjósa þarf innan þriggja mánaða frá afsögn Aleksandars Vučić 27. september 2026; forseti þjóðþingsins boðar kosningarnar. Dagsetning og frambjóðendur lágu ekki fyrir 2. nóvember. Heimildum ber ekki saman um hvort síðasti dagur til að boða kosningarnar sé 27. nóvember eða 27. desember."
+      "note": "Must be held within three months of Aleksandar Vučić's resignation on 27 September 2026; the Speaker of the National Assembly calls it. No date set and no candidates declared as of 5 November. Ana Brnabić said she will call it by 27 November; the law sets 30 to 60 days between the call and polling day. An RIK member said a vote on 27 December would have to be called by 26 November.",
+      "noteIs": "Kjósa þarf innan þriggja mánaða frá afsögn Aleksandars Vučić 27. september 2026; forseti þjóðþingsins boðar kosningarnar. Dagsetning og frambjóðendur lágu ekki fyrir 5. nóvember. Ana Brnabić segist munu boða kosningarnar fyrir 27. nóvember; lög kveða á um 30 til 60 daga frá boðun til kjördags. Fulltrúi í RIK sagði að boða þyrfti kosningar 27. desember fyrir 26. nóvember."
     }
   ],
   "leaders": "Acting President Ana Brnabić (since Sept 2026); Prime Minister Đuro Macut (outgoing; Student List won a majority on 25 Oct 2026)",
@@ -166,7 +166,8 @@
     "https://www.aljazeera.com/news/2026/10/26/serbia-after-vucic-who-will-be-pm-and-when-will-a-government-be-formed",
     "https://www.republika.rs/vesti/politika/781236/rik-rezultati-izbora-studentska-lista-5301-odsto",
     "https://www.sd.rs/vesti/info/ponovljeni-izbori-promenili-raspodelu-mandata-u-skupstini-srbije-studentska-lista-izgubila-jedan-mandat-evo-ko-ulazi-u-parlament-2026-11-02",
-    "https://www.b92.net/info/politika/280757/brnabic-predsednicki-izbori-ce-biti-raspisani-do-27-novembra/vest"
+    "https://www.b92.net/info/politika/280757/brnabic-predsednicki-izbori-ce-biti-raspisani-do-27-novembra/vest",
+    "https://n1info.rs/english/news/brnabic-constitutive-session-of-parliament-after-final-election-results"
   ],
   "chamber": {
     "name": "National Assembly",
