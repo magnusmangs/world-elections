@@ -15,6 +15,8 @@
   {"name": "Senegal", "iso3": "SEN", "isoNumeric": "686", "why": "One report: a minister said the National Assembly is dissolved on 2 Dec 2026, with early legislative elections in 2027; unconfirmed"},
   {"name": "Nicaragua", "iso3": "NIC", "isoNumeric": "558", "why": "General election moved from Nov 2026 by constitutional change; sources conflict on Nov 2027 or 2028; second vote on a further reform due from 18 Jan 2027"},
   {"name": "Oman", "iso3": "OMN", "isoNumeric": "512", "why": "Shura Council election expected about Oct 2027 (last held 29 Oct 2023)"},
-  {"name": "Tuvalu", "iso3": "TUV", "isoNumeric": "798", "why": "General election expected about Jan 2028 (IPU expected date 31 Jan 2028); no parties. Not in the 50m map file (no country shape), so it may not colour on the map"}
+  {"name": "Tuvalu", "iso3": "TUV", "isoNumeric": "798", "why": "General election expected about Jan 2028 (IPU expected date 31 Jan 2028); no parties. Not in the 50m map file (no country shape), so it may not colour on the map"},
+  {"name": "Belgium", "iso3": "BEL", "isoNumeric": "056", "why": "Prime Minister De Wever offered his resignation on 2 Nov 2026 over the budget; the King holds it in abeyance and decides on 6 Nov. If the Chamber is dissolved, a vote follows within 40 days"},
+  {"name": "India", "iso3": "IND", "isoNumeric": "356", "why": "Indirect presidential election due about July 2027; no date set"}
  ]
 }

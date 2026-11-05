@@ -3,7 +3,7 @@
  "isoNumeric": "132",
  "name": "Cabo Verde",
  "nameIs": "Grænhöfðaeyjar",
- "lastReviewed": "2026-11-04",
+ "lastReviewed": "2026-11-05",
  "elections": [
   {
    "date": "2026-11-15",
@@ -16,8 +16,8 @@
  ],
  "leaders": "President José Maria Neves (PAICV); Prime Minister Francisco Carvalho (PAICV) since June 2026",
  "leadersIs": "José Maria Neves forseti (PAICV); Francisco Carvalho forsætisráðherra (PAICV) frá júní 2026",
- "summary": "Incumbent José Maria Neves (PAICV) seeks a second term against five challengers, including former justice minister Joana Rosa, backed by the MpD and the first woman to run for the office. The vote follows the PAICV's win in the May 2026 legislative election, and no opinion poll from a named institute has been published. Neves will skip the second TV debate on 6 November in protest at remarks made in the first.",
- "summaryIs": "José Maria Neves forseti (PAICV) sækist eftir öðru kjörtímabili gegn fimm mótframbjóðendum, þar á meðal Joönu Rosa fyrrverandi dómsmálaráðherra, sem nýtur stuðnings MpD og er fyrsta konan sem býður sig fram til embættisins. Kosningarnar fylgja í kjölfar sigurs PAICV í þingkosningunum í maí 2026 og engin könnun frá nafngreindri stofnun hefur verið birt. Neves mætir ekki í seinni sjónvarpskappræðurnar 6. nóvember til að mótmæla ummælum í þeim fyrri.",
+ "summary": "Incumbent José Maria Neves (PAICV) seeks a second term against five challengers, including former justice minister Joana Rosa, backed by the MpD and the first woman to run for the office. The vote follows the PAICV's win in the May 2026 legislative election, and no opinion poll from a named institute has been published. Neves will skip the second TV debate on 6 November in protest at remarks made in the first. The UCID said on 3 November that it backs no candidate.",
+ "summaryIs": "José Maria Neves forseti (PAICV) sækist eftir öðru kjörtímabili gegn fimm mótframbjóðendum, þar á meðal Joönu Rosa fyrrverandi dómsmálaráðherra, sem nýtur stuðnings MpD og er fyrsta konan sem býður sig fram til embættisins. Kosningarnar fylgja í kjölfar sigurs PAICV í þingkosningunum í maí 2026 og engin könnun frá nafngreindri stofnun hefur verið birt. Neves mætir ekki í seinni sjónvarpskappræðurnar 6. nóvember til að mótmæla ummælum í þeim fyrri. UCID sagði 3. nóvember að flokkurinn styddi engan frambjóðanda.",
  "parties": [
   {
    "name": "José Maria Neves (PAICV)",
@@ -168,6 +168,7 @@
   "https://observador.pt/2026/10/01/joana-rosa-quer-ser-avaliada-pela-competencia-e-nao-so-por-ser-a-primeira-mulher-candidata-a-presidencia-em-cabo-verde/",
   "https://www.balai.cv/noticias/eleicoes-presidenciais-seis-candidatos-seis-visoes-para-cabo-verde/",
   "https://expressodasilhas.cv/politica/2026/10/29/campanha-para-as-eleicoes-presidenciais-arranca-hoje/105294",
-  "https://expressodasilhas.cv/politica/2026/11/04/jose-maria-neves-nao-vai-participar-no-segundo-debate-presidencial-devido-a-declaracoes-proferidas-no-primeiro/105387"
+  "https://expressodasilhas.cv/politica/2026/11/04/jose-maria-neves-nao-vai-participar-no-segundo-debate-presidencial-devido-a-declaracoes-proferidas-no-primeiro/105387",
+  "https://expressodasilhas.cv/politica/2026/11/03/presidenciais2026-ucid-afasta-apoio-a-qualquer-candidato-e-respeita-liberdade-de-escolha-dos-militantes/105363"
  ]
 }

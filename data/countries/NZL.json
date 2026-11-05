@@ -3,7 +3,7 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-05",
   "elections": [
     {
       "date": "2026-11-07",
@@ -48,7 +48,7 @@
         "100 daga áætlun: launað fæðingarorlof lengt í 27 vikur frá júlí 2027 og afborganir námslána lækkaðar úr 12 í 10 sent"
       ],
       "seats": 48,
-      "pollValue": 24.8,
+      "pollValue": 29.5,
       "color": "#00529f"
     },
     {
@@ -80,7 +80,7 @@
         "Fjármagnstekjuskattur á fasteignir, þar á meðal hjá leigusölum, til að fjármagna ódýrari heimilislæknaþjónustu"
       ],
       "seats": 34,
-      "pollValue": 30.6,
+      "pollValue": 28.8,
       "color": "#d82a20"
     },
     {
@@ -112,7 +112,7 @@
         "Afnema sérstök lægri laun fyrir starfsnema og fjármagna þjálfun á vegum Maóra og Kyrrahafseyjabúa"
       ],
       "seats": 15,
-      "pollValue": 14.5,
+      "pollValue": 16.4,
       "color": "#098137"
     },
     {
@@ -143,7 +143,7 @@
         "400 milljónir dala á fjórum árum til að halda í heimilislækna og laða að erlenda lækna"
       ],
       "seats": 11,
-      "pollValue": 10.1,
+      "pollValue": 10.0,
       "color": "#fdd600"
     },
     {
@@ -174,7 +174,7 @@
         "Banna almenna sölu og einkanotkun flugelda"
       ],
       "seats": 8,
-      "pollValue": 9.9,
+      "pollValue": 8.4,
       "color": "#000000"
     },
     {
@@ -201,7 +201,7 @@
         "Bjóða fram bæði í almennum kjördæmum og kjördæmum Maóra"
       ],
       "seats": 4,
-      "pollValue": 1.9,
+      "pollValue": 0.4,
       "color": "#b2001a"
     },
     {
@@ -227,7 +227,7 @@
         "Skattur á landverð til að lækka húsnæðisverð",
         "Borgaraþing um stór málefni"
       ],
-      "pollValue": 7.2,
+      "pollValue": 6.2,
       "color": "#32dac3"
     }
   ],

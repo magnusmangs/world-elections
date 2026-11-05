@@ -3,21 +3,12 @@
  "isoNumeric": "624",
  "name": "Guinea-Bissau",
  "nameIs": "Gínea-Bissá",
- "lastReviewed": "2026-11-02",
- "elections": [
-  {
-   "date": "2026-12-06",
-   "dateStatus": "tentative",
-   "type": "Presidential and parliamentary",
-   "typeIs": "Forseta- og þingkosningar",
-   "note": "102-seat National People's Assembly. Set by junta decree. On 8 October 2026 the electoral commission and the prime minister said conditions for a vote on 6 December are not met; no new date announced. An ECOWAS mediator visited about 25 October to discuss a new date.",
-   "noteIs": "102 sæti á þjóðþinginu. Dagsetningin var ákveðin með tilskipun herforingjastjórnarinnar. Hinn 8. október 2026 sögðu kjörstjórnin og forsætisráðherrann að skilyrði fyrir kosningum 6. desember væru ekki uppfyllt; ný dagsetning hefur ekki verið tilkynnt. Sáttasemjari ECOWAS kom í heimsókn um 25. október til að ræða nýja dagsetningu."
-  }
- ],
+ "lastReviewed": "2026-11-05",
+ "elections": [],
  "leaders": "Transitional President Gen. Horta Inta-A Na Man (military)",
  "leadersIs": "Horta Inta-A Na Man hershöfðingi, forseti til bráðabirgða (herinn)",
- "summary": "The November 2025 elections were annulled after a military coup ousted President Umaro Sissoco Embaló. The junta set a one-year transition ending in these polls. Publishing opinion polls is banned.",
- "summaryIs": "Kosningarnar í nóvember 2025 voru ógiltar eftir að herinn rændi völdum og steypti Umaro Sissoco Embaló forseta af stóli. Herforingjastjórnin ákvað eins árs aðlögunartímabil sem lýkur með þessum kosningum. Bannað er að birta skoðanakannanir.",
+ "summary": "The November 2025 elections were annulled after a military coup ousted President Umaro Sissoco Embaló. The junta set a one-year transition ending in polls on 6 December 2026, but on 24 October 2026 it was reported that the transitional government had postponed them indefinitely, citing a lack of organisational and political conditions; no new date has been set, and the candidacy deadline had passed with no applications. Publishing opinion polls is banned.",
+ "summaryIs": "Kosningarnar í nóvember 2025 voru ógiltar eftir að herinn steypti Umaro Sissoco Embaló forseta af stóli. Herforingjastjórnin ákvað eins árs umskiptatímabil sem átti að ljúka með kosningum 6. desember 2026, en 24. október 2026 var greint frá því að bráðabirgðastjórnin hefði frestað þeim um óákveðinn tíma vegna skorts á skipulagslegum og pólitískum skilyrðum; ný dagsetning hefur ekki verið ákveðin og framboðsfrestur rann út án umsókna. Bannað er að birta skoðanakannanir.",
  "parties": [
   {
    "name": "PAIGC",
@@ -66,6 +57,7 @@
   "https://en.wikipedia.org/wiki/2026_Guinea-Bissau_general_election",
   "https://www.enca.com/news/gbissau-moves-towards-postponement-december-general-election",
   "https://allafrica.com/stories/202610090140.html",
-  "https://www.rtp.pt/noticias/mundo/mediador-da-cedeao-avalia-na-guine-bissau-adiamento-das-eleicoes_n1774367"
+  "https://www.rtp.pt/noticias/mundo/mediador-da-cedeao-avalia-na-guine-bissau-adiamento-das-eleicoes_n1774367",
+  "https://ua.news/en/dovkolo-svitu/gvineia-bisau-bezstrokovo-vidklala-vibori-deutsche-welle"
  ]
 }

@@ -1,0 +1,73 @@
+{
+  "iso3": "DEU",
+  "isoNumeric": "276",
+  "name": "Germany",
+  "nameIs": "Þýskaland",
+  "lastReviewed": "2026-11-05",
+  "elections": [
+    {
+      "date": "2027-01-30",
+      "dateStatus": "confirmed",
+      "type": "Presidential (indirect, by the Federal Convention)",
+      "typeIs": "Forsetakjör (óbeint, á sambandsþinginu)",
+      "note": "The Federal Convention has 1,260 members: the 630 members of the Bundestag and 630 state delegates. A candidate needs an absolute majority (631) in the first two rounds and a plurality in a third.",
+      "noteIs": "Á sambandsþinginu sitja 1.260 fulltrúar: 630 þingmenn Bundestag og 630 fulltrúar sambandslandanna. Frambjóðandi þarf hreinan meirihluta (631) í fyrstu tveimur umferðunum en flest atkvæði í þeirri þriðju."
+    }
+  ],
+  "leaders": "President Frank-Walter Steinmeier; Chancellor Friedrich Merz (CDU)",
+  "leadersIs": "Frank-Walter Steinmeier forseti; Friedrich Merz kanslari (CDU)",
+  "summary": "The Federal Convention elects a successor to President Frank-Walter Steinmeier, who cannot run again. The CDU and CSU agreed to nominate Bavarian Landtag president Ilse Aigner, reported on 5 November, with a formal decision due on 9 November, and ZDF reported support for her from within the SPD and the Greens. The AfD says it will field its own candidate, and the Left has not settled its position.",
+  "summaryIs": "Sambandsþingið kýs eftirmann Franks-Walters Steinmeier forseta, sem getur ekki boðið sig fram aftur. Greint var frá því 5. nóvember að CDU og CSU hefðu komið sér saman um að tilnefna Ilse Aigner, forseta Landtag í Bæjaralandi, og formleg ákvörðun á að liggja fyrir 9. nóvember, en ZDF greindi frá stuðningi við hana innan SPD og Græningja. AfD segist ætla að bjóða fram eigin frambjóðanda og Die Linke hefur ekki gert upp hug sinn.",
+  "parties": [
+    {
+      "name": "Ilse Aigner (CDU/CSU)",
+      "nameIs": "Ilse Aigner (CDU/CSU)",
+      "abbr": "CDU/CSU",
+      "leader": "Ilse Aigner",
+      "position": "Centre-right",
+      "positionIs": "Mið-hægri",
+      "ideology": "Christian democracy, conservatism",
+      "ideologyIs": "Kristilegt lýðræði, íhaldsstefna",
+      "inGovernment": true,
+      "lastResult": "",
+      "lastResultIs": "",
+      "polling": "",
+      "pollingIs": "",
+      "policies": [
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "color": "#1f2a36"
+    },
+    {
+      "name": "AfD candidate (not yet named)",
+      "nameIs": "Frambjóðandi AfD (ekki enn nefndur)",
+      "abbr": "AfD",
+      "leader": "Not yet named",
+      "leaderIs": "Ekki enn nefndur",
+      "position": "Far-right",
+      "positionIs": "Lengst til hægri",
+      "ideology": "German nationalism, right-wing populism",
+      "ideologyIs": "Þýsk þjóðernishyggja, hægri lýðhyggja",
+      "inGovernment": false,
+      "lastResult": "",
+      "lastResultIs": "",
+      "polling": "",
+      "pollingIs": "",
+      "policies": [
+        "Platform details limited in English-language sources"
+      ],
+      "policiesIs": [
+        "Takmarkaðar upplýsingar um stefnumál í enskum heimildum"
+      ],
+      "color": "#009ee0"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2027_German_presidential_election",
+    "https://www.zdfheute.de/politik/koalition-merz-cdu-bundespraesident-aigner-csu-100.html",
+    "https://de.headtopics.com/news/union-einigt-sich-auf-aigner-als-kandidatin-fur-89561256"
+  ]
+}

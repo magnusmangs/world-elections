@@ -3,15 +3,15 @@
  "isoNumeric": "417",
  "name": "Kyrgyzstan",
  "nameIs": "Kirgistan",
- "lastReviewed": "2026-10-26",
+ "lastReviewed": "2026-11-05",
  "elections": [
   {
    "date": "2027-01-27",
    "dateStatus": "confirmed",
    "type": "Presidential",
    "typeIs": "Forsetakosningar",
-   "note": "Date set by parliamentary resolution in September 2026. Five-year term, two-term limit under the 2021 constitution.",
-   "noteIs": "Dagsetningin var ákveðin með þingsályktun í september 2026. Fimm ára kjörtímabil og hámark tvö kjörtímabil samkvæmt stjórnarskránni frá 2021."
+   "note": "Date set by parliamentary resolution in September 2026. Five-year term, two-term limit under the 2021 constitution. Nominations close on 13 November and registration ends on 23 December. By 3 November Kasenov, Esenbekov and Zhapykeev had filed; Japarov had said he intends to run but had not filed.",
+   "noteIs": "Dagsetningin var ákveðin með þingsályktun í september 2026. Fimm ára kjörtímabil og hámark tvö kjörtímabil samkvæmt stjórnarskránni frá 2021. Framboðsfrestur rennur út 13. nóvember og skráningu lýkur 23. desember. Hinn 3. nóvember höfðu Kasenov, Esenbekov og Zhapykeev skilað framboðum; Japarov hafði sagst ætla að bjóða sig fram en ekki skilað framboði."
   }
  ],
  "leaders": "President Sadyr Japarov",
@@ -46,6 +46,7 @@
  "noPartiesIs": "Frambjóðendur stjórnarandstöðunnar hafa ekki verið staðfestir.",
  "sources": [
   "https://en.wikipedia.org/wiki/2027_Kyrgyz_presidential_election",
-  "https://24.kg/en/article/390494"
+  "https://24.kg/en/article/390494",
+  "https://economist.kg/vlast/2026/11/03/vybory-2027-pretendenty/"
  ]
 }

@@ -1,19 +1,19 @@
 {
   "status": "counting",
-  "updated": "2026-11-04T07:30:51Z",
-  "headline": "Democrats won both chambers of Congress. The AP called the Senate and the House for them, with at least 224 House seats and at least 53 Senate seats. Some close races are still uncalled. Republican counts here are the last AP tallies seen, from 11:30 pm ET, so they lag behind.",
-  "headlineIs": "Demókratar unnu báðar deildir þingsins. AP lýsti þá sigurvegara í öldungadeildinni og fulltrúadeildinni, með að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni. Enn er beðið úrslita í nokkrum tvísýnum kjördæmum. Tölur repúblikana hér eru síðustu tölur AP sem fengust, frá 23:30 að austurstrandartíma, og eru því of lágar.",
-  "sourceName": "AP projections via News From The States and NJ.com",
-  "source": "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/",
-  "conventions": "Senate: D 51 plus I 2 equal the minimum of 53 reported on 4 November; R 38 is the AP tally at 11:30 pm ET on 3 November, including seats not up. House: D 224 is the reported minimum; R 95 is the AP tally late on 3 November. Governors omitted until confirmed. Senate races listed by state were reported as called by ABC Australia.",
+  "updated": "2026-11-05T07:30:00Z",
+  "headline": "Democrats won both chambers of Congress. NBC News puts the Senate at 54 to 44 with Alaska and Mississippi uncalled, and projects a House of 258 Democrats and 177 Republicans. ABC News counts at least 28 Democratic governors and 20 Republican, with Alaska and Kansas uncalled.",
+  "headlineIs": "Demókratar unnu báðar deildir þingsins. NBC News segir stöðuna í öldungadeildinni 54 gegn 44, en Alaska og Mississippi eru óráðin, og spáir 258 demókrötum og 177 repúblikönum í fulltrúadeildinni. ABC News telur að minnsta kosti 28 ríkisstjóra demókrata og 20 repúblikana, en Alaska og Kansas eru óráðin.",
+  "sourceName": "NBC News, CBS News and ABC News, 4 November",
+  "source": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/",
+  "conventions": "Senate: NBC News, 54 D including 2 independents, 44 R, Alaska and Mississippi uncalled. House: NBC News projection of 258 D and 177 R, which includes estimates for uncalled races. Governors: ABC News, at least 28 D and 20 R, Alaska and Kansas uncalled. States list only races reported as called by CBS, NBC or ABC.",
   "senate": {
-    "D": 51,
-    "R": 38,
+    "D": 52,
+    "R": 44,
     "I": 2
   },
   "house": {
-    "D": 224,
-    "R": 95
+    "D": 258,
+    "R": 177
   },
   "states": {
     "NC": {
@@ -41,7 +41,11 @@
           "name": "James Talarico",
           "party": "D"
         }
-      ]
+      ],
+      "governor": {
+        "name": "Gina Hinojosa",
+        "party": "D"
+      }
     },
     "OH": {
       "senate": [
@@ -50,7 +54,11 @@
           "name": "Sherrod Brown",
           "party": "D"
         }
-      ]
+      ],
+      "governor": {
+        "name": "Amy Acton",
+        "party": "D"
+      }
     },
     "KS": {
       "senate": [
@@ -68,7 +76,175 @@
           "name": "Jon Ossoff",
           "party": "D"
         }
+      ],
+      "governor": {
+        "name": "Keisha Lance Bottoms",
+        "party": "D"
+      }
+    },
+    "IA": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Josh Turek",
+          "party": "D"
+        }
+      ],
+      "governor": {
+        "name": "Rob Sand",
+        "party": "D"
+      }
+    },
+    "ME": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Troy Jackson",
+          "party": "D"
+        }
       ]
+    },
+    "MI": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Abdul El-Sayed",
+          "party": "D"
+        }
+      ]
+    },
+    "MN": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Peggy Flanagan",
+          "party": "D"
+        }
+      ]
+    },
+    "NH": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Chris Pappas",
+          "party": "D"
+        }
+      ]
+    },
+    "NE": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Pete Ricketts",
+          "party": "R"
+        }
+      ]
+    },
+    "ID": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Jim Risch",
+          "party": "R"
+        }
+      ]
+    },
+    "SD": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Mike Rounds",
+          "party": "R"
+        }
+      ]
+    },
+    "TN": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Bill Hagerty",
+          "party": "R"
+        }
+      ]
+    },
+    "AL": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Barry Moore",
+          "party": "R"
+        }
+      ]
+    },
+    "LA": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Julia Letlow",
+          "party": "R"
+        }
+      ]
+    },
+    "MT": {
+      "senate": [
+        {
+          "special": false,
+          "name": "Kurt Alme",
+          "party": "R"
+        }
+      ]
+    },
+    "WI": {
+      "governor": {
+        "name": "David Crowley",
+        "party": "D"
+      }
+    },
+    "FL": {
+      "governor": {
+        "name": "Byron Donalds",
+        "party": "R"
+      }
+    },
+    "OR": {
+      "governor": {
+        "name": "Tina Kotek",
+        "party": "D"
+      }
+    },
+    "IL": {
+      "governor": {
+        "name": "JB Pritzker",
+        "party": "D"
+      }
+    },
+    "PA": {
+      "governor": {
+        "name": "Josh Shapiro",
+        "party": "D"
+      }
+    },
+    "MD": {
+      "governor": {
+        "name": "Wes Moore",
+        "party": "D"
+      }
+    },
+    "MA": {
+      "governor": {
+        "name": "Maura Healey",
+        "party": "D"
+      }
+    },
+    "NY": {
+      "governor": {
+        "name": "Kathy Hochul",
+        "party": "D"
+      }
     }
+  },
+  "governors": {
+    "D": 28,
+    "R": 20
   }
 }

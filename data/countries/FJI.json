@@ -3,15 +3,15 @@
   "isoNumeric": "242",
   "name": "Fiji",
   "nameIs": "Fídjíeyjar",
-  "lastReviewed": "2026-11-02",
+  "lastReviewed": "2026-11-05",
   "elections": [
     {
-      "date": "2026-12-24",
+      "date": "2027-02-06",
       "dateStatus": "expected",
       "type": "General election",
       "typeIs": "Þingkosningar",
-      "note": "No polling date announced; must be held by 6 February 2027. On 17 October Prime Minister Rabuka said the vote would be this year or by 6 February at the latest, and 24 December is the opening of the window. A national referendum is set for 9 December 2026.",
-      "noteIs": "Kjördagur hefur ekki verið ákveðinn; kosningar skulu fara fram í síðasta lagi 6. febrúar 2027. Rabuka forsætisráðherra sagði 17. október að kosið yrði á þessu ári eða í síðasta lagi 6. febrúar, en 24. desember er fyrsti mögulegi kjördagur. Þjóðaratkvæðagreiðsla er fyrirhuguð 9. desember 2026."
+      "note": "No polling date announced. The date shown is the legal deadline, and 24 December is the last day to issue the writ. On 17 October Prime Minister Rabuka said the vote would be this year or by 6 February at the latest. A referendum on constitutional reform was announced for 9 December but depends on parliament's third reading, now due on 1 to 4 December after the committee report slipped to 30 November.",
+      "noteIs": "Kjördagur hefur ekki verið ákveðinn. Dagsetningin hér er lokafrestur samkvæmt lögum og 24. desember er síðasti dagur til að gefa út kosningatilskipun. Rabuka forsætisráðherra sagði 17. október að kosið yrði á þessu ári eða í síðasta lagi 6. febrúar. Þjóðaratkvæðagreiðsla um stjórnarskrárbreytingar var boðuð 9. desember en er háð þriðju umræðu á þingi, sem nú á að fara fram 1. til 4. desember eftir að skýrslu nefndar var frestað til 30. nóvember."
     }
   ],
   "leaders": "Prime Minister Sitiveni Rabuka (People's Alliance)",
@@ -101,7 +101,10 @@
     "https://asiapacificreport.nz/2026/09/24/not-set-a-date-rabuka-says-fiji-election-timing-depends-on-constitutional-reform/",
     "https://pina.com.fj/2026/10/14/fiji-rights-coalition-questions-legal-authority-for-referendum-date/",
     "https://fijisun.com.fj/news/politics/no-poll-delay-pm-assures",
-    "https://www.fiji.gov.fj/national-referendum-set-for-9-december-2026/"
+    "https://www.fiji.gov.fj/national-referendum-set-for-9-december-2026/",
+    "https://fijisun.com.fj/news/nation/constitution-bill-report-delayed-vote-set-for-december",
+    "https://asiapacificreport.nz/2026/11/02/fiji-pm-rabuka-under-pressure-ahead-of-crucial-vote-on-constitutional-reform/",
+    "https://www.fijitimes.com.fj/?p=920398"
   ],
   "chamber": {
     "name": "Parliament",

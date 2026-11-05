@@ -3,15 +3,15 @@
   "isoNumeric": "120",
   "name": "Cameroon",
   "nameIs": "Kamerún",
-  "lastReviewed": "2026-10-26",
+  "lastReviewed": "2026-11-05",
   "elections": [
     {
-      "date": "2027-02-01",
+      "date": "2027-02-07",
       "dateStatus": "expected",
       "type": "Parliamentary (National Assembly) and municipal",
       "typeIs": "Þingkosningar (þjóðþingið) og sveitarstjórnarkosningar",
-      "note": "180 seats. Postponed from 2025 and early 2026. Deputies' mandate extended to 20 December 2026; the constitution then requires a vote within 40 to 120 days, between about 30 January and 19 April 2027. Voters had not been convened as of late October 2026.",
-      "noteIs": "180 þingsæti. Frestað frá 2025 og byrjun árs 2026. Umboð þingmanna var framlengt til 20. desember 2026; samkvæmt stjórnarskránni skal þá kjósa innan 40 til 120 daga, á tímabilinu frá um 30. janúar til 19. apríl 2027. Ekki hafði verið boðað til kosninga í lok október 2026."
+      "note": "180 seats. Postponed from 2025 and early 2026. Deputies' mandate extended to 20 December 2026; the constitution then requires a vote within 40 to 120 days, between about 30 January and 19 April 2027. Voters must be convened at least 90 days before the vote, and they had not been as of 4 November 2026, when an RDPC official wrote that the decree could come on 6 November. The date shown is the first Sunday this would allow; no date is set.",
+      "noteIs": "180 þingsæti. Frestað frá 2025 og byrjun árs 2026. Umboð þingmanna var framlengt til 20. desember 2026; samkvæmt stjórnarskránni skal þá kjósa innan 40 til 120 daga, á tímabilinu frá um 30. janúar til 19. apríl 2027. Boða þarf til kosninga minnst 90 dögum fyrir kjördag og það hafði ekki verið gert 4. nóvember 2026, þegar embættismaður RDPC skrifaði að tilskipunin gæti komið 6. nóvember. Dagsetningin hér er fyrsti sunnudagur sem þetta leyfir; kjördagur hefur ekki verið ákveðinn."
     }
   ],
   "leaders": "President Paul Biya (RDPC), in office since 1982; Prime Minister Joseph Dion Ngute (RDPC)",
@@ -154,6 +154,7 @@
     "https://www.camer.be/index.php/actualites/politique/le-calendrier-electoral-est-devenu-un-secret-detat-au-cameroun",
     "https://www.riotimesonline.com/cameroon-politics-key-players-2026/",
     "https://ecooutlooknews.com/2026/01/19/issa-tchiroma-denies-talks-with-govt-announces-boycott-of-legislative-elections/",
-    "https://www.africanews.com/2026/02/11/cameroon-president-biya-delays-elections-once-again/"
+    "https://www.africanews.com/2026/02/11/cameroon-president-biya-delays-elections-once-again/",
+    "https://www.stopblablacam.com/politique/0411-16983-legislatives-et-municipales-2027-paul-biya-pourrait-convoquer-le-corps-electoral-le-6-novembre-selon-mien-zok"
   ]
 }

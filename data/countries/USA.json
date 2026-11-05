@@ -3,21 +3,12 @@
   "isoNumeric": "840",
   "name": "United States",
   "nameIs": "Bandaríkin",
-  "lastReviewed": "2026-11-04",
-  "elections": [
-    {
-      "date": "2026-11-03",
-      "dateStatus": "confirmed",
-      "type": "Congressional midterms",
-      "typeIs": "Þingkosningar á miðju kjörtímabili",
-      "note": "All 435 House seats and 35 Senate seats, plus 36 governorships.",
-      "noteIs": "Kosið um öll 435 sæti fulltrúadeildarinnar og 35 sæti í öldungadeildinni, auk 36 ríkisstjóraembætta."
-    }
-  ],
+  "lastReviewed": "2026-11-05",
+  "elections": [],
   "leaders": "President Donald Trump (Republican)",
   "leadersIs": "Donald Trump forseti (Repúblikanaflokkurinn)",
-  "summary": "Democrats won control of the House and the Senate in the 3 November midterms, ending Republican control of Congress. The AP called both chambers for them, and the latest unofficial results reported on 4 November give them at least 224 House seats and 53 Senate seats, with some close races still uncalled, including the Mississippi and Alaska Senate seats. They took six Senate seats from Republicans, including North Carolina, South Carolina, Texas, Ohio and Kansas. The new Congress is sworn in on 3 January.",
-  "summaryIs": "Demókratar unnu meirihluta í báðum deildum þingsins í kosningunum 3. nóvember og repúblikanar missa þar með stjórn á þinginu. AP lýsti þá sigurvegara í báðum deildum og nýjustu óstaðfestu tölur frá 4. nóvember gefa þeim að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni, en enn er beðið úrslita í nokkrum tvísýnum kjördæmum, meðal annars um sæti Mississippi og Alaska í öldungadeildinni. Þeir unnu sex sæti af repúblikönum í öldungadeildinni, meðal annars í Norður-Karólínu, Suður-Karólínu, Texas, Ohio og Kansas. Nýtt þing tekur við 3. janúar.",
+  "summary": "Democrats won control of the House and the Senate in the 3 November midterms, ending Republican control of Congress. On 4 November NBC News put the Senate at 54 seats for Democrats and the independents who caucus with them against 44 for Republicans, with Alaska and Mississippi uncalled, and projected a House of 258 Democrats and 177 Republicans, with a number of House races still uncalled. Democrats flipped seven Senate seats (Iowa, Kansas, Maine, North Carolina, Ohio, South Carolina and Texas) and five governorships (Georgia, Iowa, Nevada, Ohio and Texas), and ABC News counts at least 28 Democratic governors against 20 Republicans, with Alaska and Kansas uncalled. The new Congress is sworn in on 3 January.",
+  "summaryIs": "Demókratar unnu meirihluta í fulltrúadeildinni og öldungadeildinni í kosningunum 3. nóvember og þar með lýkur yfirráðum repúblikana á þinginu. NBC News sagði 4. nóvember að demókratar og óháðir þingmenn sem starfa með þeim hefðu 54 sæti í öldungadeildinni en repúblikanar 44, en Alaska og Mississippi væru enn óráðin, og spáði 258 demókrötum og 177 repúblikönum í fulltrúadeildinni, þar sem nokkur kjördæmi eru enn óráðin. Demókratar unnu sjö sæti í öldungadeildinni af repúblikönum (Iowa, Kansas, Maine, Norður-Karólínu, Ohio, Suður-Karólínu og Texas) og fimm ríkisstjóraembætti (Georgíu, Iowa, Nevada, Ohio og Texas), og ABC News telur að minnsta kosti 28 ríkisstjóra demókrata gegn 20 repúblikönum, en Alaska og Kansas eru óráðin. Nýtt þing tekur við 3. janúar.",
   "parties": [
     {
       "name": "Republican Party",
@@ -29,10 +20,10 @@
       "ideology": "Conservatism, right-wing populism",
       "ideologyIs": "Íhaldsstefna, hægripopúlismi",
       "inGovernment": true,
-      "lastResult": "Won House and Senate majorities (2024)",
-      "lastResultIs": "Vann meirihluta í fulltrúadeild og öldungadeild (2024)",
-      "polling": "~45% (NBC News, Nov 2026)",
-      "pollingIs": "~45% (NBC News, nóv. 2026)",
+      "lastResult": "Lost House and Senate majorities (2026, count not final)",
+      "lastResultIs": "Missti meirihluta í fulltrúadeild og öldungadeild (2026, talningu ekki lokið)",
+      "polling": "",
+      "pollingIs": "",
       "policies": [
         "Broad tariffs to re-industrialise the US",
         "Large-scale immigration enforcement and deportations",
@@ -47,8 +38,7 @@
         "Krafa um sönnun á ríkisborgararétti við skráningu á kjörskrá (SAVE-lögin)",
         "Framlengdar skattalækkanir samkvæmt One Big Beautiful Bill-lögunum"
       ],
-      "seats": 218,
-      "pollValue": 45,
+      "seats": 177,
       "color": "#d22532"
     },
     {
@@ -61,10 +51,10 @@
       "ideology": "Liberalism, progressivism",
       "ideologyIs": "Frjálslyndisstefna, framfarastefna",
       "inGovernment": false,
-      "lastResult": "Minority in House and Senate (2024)",
-      "lastResultIs": "Í minnihluta í fulltrúadeild og öldungadeild (2024)",
-      "polling": "~52% (NBC News, Nov 2026)",
-      "pollingIs": "~52% (NBC News, nóv. 2026)",
+      "lastResult": "Won House and Senate majorities (2026, count not final)",
+      "lastResultIs": "Vann meirihluta í fulltrúadeild og öldungadeild (2026, talningu ekki lokið)",
+      "polling": "",
+      "pollingIs": "",
       "policies": [
         "Focus on affordability and cost of living",
         "Oppose tariffs as inflationary",
@@ -79,66 +69,60 @@
         "Vernda aðgengi að kosningum og persónuvernd á kjörskrám",
         "Verja niðurgreiðslur í heilbrigðiskerfinu og Medicaid"
       ],
-      "seats": 214,
-      "pollValue": 52,
+      "seats": 258,
       "color": "#2a5fb0"
     }
   ],
   "sources": [
-    "https://politicalwire.com/2026/11/01/democrats-hold-lead-on-generic-ballot/",
-    "https://www.newsweek.com/forecast-shifts-14-races-towards-democrats-in-final-days-before-midterms-12640820",
-    "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-    "https://news.kalshi.com/p/balance-of-power-congress",
-    "https://voz.us/en/politics/261030/1000205/early-voting-midterms-2026-breaks-the-record.html",
-    "https://ballotpedia.org/United_States_Congress_elections,_2026",
-    "https://www.abc.net.au/news/2026-11-04/democrats-claim-victory-over-republicans-2026-midterm-elections/107338138",
-    "https://www.abc.net.au/news/2026-11-04/us-midterms-democrats-win-majority-what-happens-next/107335330",
-    "https://www.rte.ie/news/2026/1104/1597908-democrat-takeover/",
-    "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/",
-    "https://www.abc.net.au/news/2026-11-04/us-midterm-elections-2026-live-updates/107335560"
+    "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/",
+    "https://www.270towin.com/news/2026/11/04/the-morning-after-uncalled-house-races_1847.html",
+    "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+    "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+    "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
   ],
   "chamber": {
     "name": "House of Representatives",
     "nameIs": "fulltrúadeildin",
     "seats": 435,
     "majority": 218,
-    "asOf": "October 2026; one independent, two seats vacant",
-    "asOfIs": "október 2026; einn óháður, tvö sæti laus",
-    "source": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"
-  },
-  "poll": {
-    "unit": "percent",
-    "date": "2026-11-01",
-    "pollster": "NBC News",
-    "pollsterIs": "NBC News",
-    "url": "https://politicalwire.com/2026/11/01/democrats-hold-lead-on-generic-ballot/",
-    "note": "Generic congressional ballot, registered voters, margin of error 3.1 points, published 1 November. Silver Bulletin average on 30 October: Democrats +8.9.",
-    "noteIs": "Almenn þingkönnun meðal skráðra kjósenda, skekkjumörk 3,1 stig, birt 1. nóvember. Meðaltal Silver Bulletin 30. október: Demókratar +8,9."
+    "asOf": "NBC News projection for the new House, 4 November 2026; count not final",
+    "asOfIs": "spá NBC News um nýja fulltrúadeild, 4. nóvember 2026; talningu ekki lokið",
+    "source": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/"
   },
   "live": {
     "status": "counting",
-    "updated": "2026-11-04T07:30:51Z",
-    "headline": "Democrats won both chambers of Congress. The AP called the Senate and the House for them, with at least 224 House seats and at least 53 Senate seats. Some close races are still uncalled.",
-    "headlineIs": "Demókratar unnu báðar deildir þingsins. AP lýsti þá sigurvegara í öldungadeildinni og fulltrúadeildinni, með að minnsta kosti 224 sæti í fulltrúadeildinni og 53 í öldungadeildinni. Enn er beðið úrslita í nokkrum tvísýnum kjördæmum.",
+    "updated": "2026-11-05T07:30:00Z",
+    "headline": "Democrats won both chambers of Congress. NBC News puts the Senate at 54 to 44 with Alaska and Mississippi uncalled, and projects a House of 258 Democrats and 177 Republicans, with some races uncalled.",
+    "headlineIs": "Demókratar unnu báðar deildir þingsins. NBC News segir stöðuna í öldungadeildinni 54 gegn 44, en Alaska og Mississippi eru óráðin, og spáir 258 demókrötum og 177 repúblikönum í fulltrúadeildinni, þar sem nokkur kjördæmi eru óráðin.",
     "unit": "seats",
-    "sourceName": "AP projections via News From The States",
-    "sourceNameIs": "Spár AP í gegnum News From The States",
-    "source": "https://njtoday.news/2026/11/04/democrats-win-sizable-us-house-majority-amid-sweep-of-close-races/",
-    "note": "House seats. Democrats are on track for at least 224. The grey bar is every other seat, won by Republicans or still uncalled, because no current Republican total was confirmed.",
-    "noteIs": "Sæti í fulltrúadeildinni. Demókratar stefna í að minnsta kosti 224. Grái hlutinn eru öll önnur sæti, unnin af repúblikönum eða enn óráðin, því núverandi tala repúblikana fékkst ekki staðfest.",
+    "sourceName": "NBC News, 4 November",
+    "sourceNameIs": "NBC News, 4. nóvember",
+    "source": "https://www.nbcchicago.com/news/local/election-2026-which-races-still-havent-been-called-and-what-states-flipped-seats-mississippi-alaska-election-results/4012174/",
+    "note": "House seats, NBC News projection. The figures include estimates for races not yet called.",
+    "noteIs": "Sæti í fulltrúadeildinni samkvæmt spá NBC News. Tölurnar ná einnig yfir áætlun um kjördæmi sem eru enn óráðin.",
     "blocs": [
       {
         "name": "Democrats",
         "nameIs": "Demókratar",
-        "value": 224,
+        "value": 258,
         "color": "#2a5fb0"
       },
       {
-        "name": "Republicans and uncalled",
-        "nameIs": "Repúblikanar og óráðin sæti",
-        "value": 211,
-        "color": "#9aa3ad"
+        "name": "Republicans",
+        "nameIs": "Repúblikanar",
+        "value": 177,
+        "color": "#d22532"
       }
     ]
+  },
+  "lastElection": {
+    "date": "2026-11-03",
+    "type": "Congressional midterms",
+    "typeIs": "Þingkosningar á miðju kjörtímabili",
+    "winner": "Democratic Party (won control of the House and Senate)",
+    "winnerIs": "Demókrataflokkurinn (vann meirihluta í fulltrúadeild og öldungadeild)",
+    "result": "new",
+    "outcome": "Democrats won control of both chambers: NBC News on 4 November had the Senate at 54 to 44 with Alaska and Mississippi uncalled and projected the House at 258 to 177, with some races uncalled and the count not final.",
+    "outcomeIs": "Demókratar unnu meirihluta í báðum deildum: NBC News sagði 4. nóvember að staðan í öldungadeildinni væri 54 gegn 44, en Alaska og Mississippi væru óráðin, og spáði 258 gegn 177 í fulltrúadeildinni, þar sem nokkur kjördæmi eru óráðin og talningu er ekki lokið."
   }
 }
