@@ -3,7 +3,7 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-11-05",
+  "lastReviewed": "2026-11-06",
   "elections": [
     {
       "date": "2026-11-07",
@@ -16,8 +16,8 @@
   ],
   "leaders": "Prime Minister Christopher Luxon (National)",
   "leadersIs": "Christopher Luxon forsætisráðherra (Þjóðarflokkurinn)",
-  "summary": "The National, ACT and NZ First coalition seeks a second term against a Labour-led opposition, with The Opportunity Party polling above the 5% threshold. The final 1News Verian poll (29 October–2 November) has National on 29.5% and Labour on 28.8%, with the coalition three seats short of a majority and Opportunity holding the balance, while RNZ-Reid Research (20–26 October) had Labour on 30.6% and National on 24.8%. More than a million people have already voted.",
-  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First sækist eftir öðru kjörtímabili gegn stjórnarandstöðu undir forystu Verkamannaflokksins og The Opportunity Party mælist yfir 5% þröskuldinum. Í síðustu könnun 1News Verian (29. október–2. nóvember) er Þjóðarflokkurinn með 29,5% og Verkamannaflokkurinn 28,8%, stjórnina vantar þrjú sæti í meirihluta og Opportunity ræður úrslitum, en hjá RNZ-Reid Research (20.–26. október) var Verkamannaflokkurinn með 30,6% og Þjóðarflokkurinn 24,8%. Yfir milljón manns hefur þegar kosið.",
+  "summary": "The National, ACT and NZ First coalition seeks a second term against a Labour-led opposition, with The Opportunity Party polling above the 5% threshold. The final 1News Verian poll (29 October–2 November) has National on 29.5% and Labour on 28.8%, with the coalition three seats short of a majority and Opportunity holding the balance, while The Post/Freshwater Strategy (29 October–3 November) has Labour on 30.7%, National on 26.4% and Opportunity on 5.1%, and RNZ-Reid Research (20–26 October) had Labour on 30.6% and National on 24.8%. More than a million people have already voted.",
+  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First sækist eftir öðru kjörtímabili gegn stjórnarandstöðu undir forystu Verkamannaflokksins og The Opportunity Party mælist yfir 5% þröskuldinum. Í síðustu könnun 1News Verian (29. október–2. nóvember) er Þjóðarflokkurinn með 29,5% og Verkamannaflokkurinn 28,8%, stjórnina vantar þrjú sæti í meirihluta og Opportunity ræður úrslitum, en hjá The Post/Freshwater Strategy (29. október–3. nóvember) er Verkamannaflokkurinn með 30,7%, Þjóðarflokkurinn 26,4% og Opportunity 5,1%, og hjá RNZ-Reid Research (20.–26. október) var Verkamannaflokkurinn með 30,6% og Þjóðarflokkurinn 24,8%. Yfir milljón manns hefur þegar kosið.",
   "parties": [
     {
       "name": "National Party",
@@ -238,7 +238,8 @@
     "https://www.odt.co.nz/news/national/labour-pledges-crackdown-on-unfair-household-bills-bvhrlusq",
     "https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/new-zealand-early-voting-surges-ahead-of-november-7-election",
     "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/",
-    "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/"
+    "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/",
+    "https://thespinoff.co.nz/politics/06-11-2026/four-final-polls-and-the-tiny-margins-that-could-decide-the-result"
   ],
   "chamber": {
     "name": "House of Representatives",

@@ -3,21 +3,12 @@
   "isoNumeric": "308",
   "name": "Grenada",
   "nameIs": "Grenada",
-  "lastReviewed": "2026-11-05",
-  "elections": [
-    {
-      "date": "2026-11-05",
-      "dateStatus": "confirmed",
-      "type": "General election (snap)",
-      "typeIs": "Þingkosningar (snemmbúnar)",
-      "note": "15 seats, first-past-the-post. 46 candidates: NDC 15, NNP 15, DPM 9, smaller groups 7. Polls open 6 am to 5 pm; the final count starts on 6 November. OAS and Commonwealth observers are present.",
-      "noteIs": "15 þingsæti, meirihlutakosning í einmenningskjördæmum. 46 frambjóðendur: NDC 15, NNP 15, DPM 9, smærri hópar 7. Kjörstaðir eru opnir frá 6 til 17 og lokatalning hefst 6. nóvember. Eftirlitsmenn frá OAS og Samveldinu fylgjast með."
-    }
-  ],
+  "lastReviewed": "2026-11-06",
+  "elections": [],
   "leaders": "Prime Minister Dickon Mitchell (NDC)",
   "leadersIs": "Dickon Mitchell forsætisráðherra (NDC)",
-  "summary": "Prime Minister Dickon Mitchell called the vote almost a year early, and 46 candidates are standing for the 15 seats, with the NDC and NNP contesting every constituency and Peter David's Democratic People's Movement running in nine. No representative opinion poll from a named institute has been published. On 4 November the High Court rejected a claim challenging the dissolution of parliament, so the vote goes ahead as scheduled.",
-  "summaryIs": "Dickon Mitchell forsætisráðherra boðaði til kosninga nærri ári fyrr en þurfti og 46 frambjóðendur bjóða sig fram um þingsætin 15, en NDC og NNP bjóða fram í öllum kjördæmum og Democratic People's Movement, flokkur Peters David, í níu. Engin marktæk könnun frá nafngreindri stofnun hefur verið birt. High Court hafnaði 4. nóvember kröfu vegna þingrofsins og kosningarnar fara því fram eins og til stóð.",
+  "summary": "Prime Minister Dickon Mitchell's NDC won a second consecutive term on 5 November, the party's first back-to-back general election win, taking 14 of 15 seats with 61% of the vote in provisional results. The NNP kept one seat, St George North West, won by Adrian Joseph. An official recount by the Parliamentary Elections Office is still to come.",
+  "summaryIs": "NDC, flokkur Dickons Mitchell forsætisráðherra, vann annað kjörtímabilið í röð 5. nóvember og er það í fyrsta sinn sem flokkurinn vinnur tvennar þingkosningar í röð. Samkvæmt bráðabirgðatölum fékk hann 14 af 15 þingsætum og 61% atkvæða. NNP hélt einu sæti, St George North West, sem Adrian Joseph vann. Opinber endurtalning kjörstjórnar er eftir.",
   "parties": [
     {
       "name": "National Democratic Congress",
@@ -28,8 +19,8 @@
       "ideology": "Social democracy",
       "ideologyIs": "Jafnaðarstefna",
       "inGovernment": true,
-      "lastResult": "51.8%, 9 seats (2022)",
-      "lastResultIs": "51,8%, 9 þingsæti (2022)",
+      "lastResult": "61%, 14 seats (2026, provisional)",
+      "lastResultIs": "61%, 14 þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "Reopen the Maruba Farm School in January with 60 secondary students",
@@ -43,7 +34,7 @@
         "Nýtt leyfiskerfi með alþjóðlegum útboðum á svæðum á hafi úti",
         "Grunnrannsóknir fyrir sjúkratryggingakerfi, samhliða opnun sjúkrahússins"
       ],
-      "seats": 9,
+      "seats": 14,
       "color": "#f2c200"
     },
     {
@@ -55,8 +46,8 @@
       "ideology": "Conservatism",
       "ideologyIs": "Íhaldsstefna",
       "inGovernment": false,
-      "lastResult": "47.1%, 6 seats (2022)",
-      "lastResultIs": "47,1%, 6 þingsæti (2022)",
+      "lastResult": "36.84%, 1 seat (2026, provisional)",
+      "lastResultIs": "36,84%, 1 þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "Cut corporate tax from 28% to 25%",
@@ -70,7 +61,7 @@
         "Afnema virðisaukaskatt á rafmagn og sykur og leggja niður vatnsgjaldið innan 90 daga",
         "Sjúkrakort fyrir gjaldfrjálsar læknisheimsóknir og grunnlyf"
       ],
-      "seats": 6,
+      "seats": 1,
       "color": "#2e8b57"
     },
     {
@@ -80,8 +71,8 @@
       "position": "",
       "ideology": "",
       "inGovernment": false,
-      "lastResult": "New party (founded November 2025)",
-      "lastResultIs": "Nýr flokkur (stofnaður í nóvember 2025)",
+      "lastResult": "1.94%, no seats (2026, provisional)",
+      "lastResultIs": "1,94%, ekkert þingsæti (2026, bráðabirgðatölur)",
       "polling": "",
       "policies": [
         "First-home grant for under-35s: $35,000 for a single buyer, $50,000 for a couple",
@@ -105,15 +96,27 @@
     "https://www.stvincenttimes.com/grenada-leaders-clash-on-healthcare-economy-energy-in-national-debate/",
     "https://www.thenewtodaygrenada.com/local-news/nnp-launches-better-grenada-campaign/",
     "https://www.caribbeannationalweekly.com/posts/oas-to-observe-grenadas-november-5-general-elections",
-    "https://www.thenewtodaygrenada.com/local-news/high-court-clears-the-way-for-general-election/"
+    "https://www.thenewtodaygrenada.com/local-news/high-court-clears-the-way-for-general-election/",
+    "https://www.caribbeannationalweekly.com/posts/grenadas-ndc-wins-historic-second-consecutive-term-with-14-seats",
+    "https://www.stvincenttimes.com/mitchells-ndc-wins-14-of-15-seats-in-grenada-election/"
   ],
   "chamber": {
     "name": "House of Representatives",
     "nameIs": "fulltrúadeildin",
     "seats": 15,
     "majority": 8,
-    "asOf": "as elected in June 2022",
-    "asOfIs": "samkvæmt úrslitum kosninganna í júní 2022",
-    "source": "https://en.wikipedia.org/wiki/2022_Grenadian_general_election"
+    "asOf": "provisional results of 5 November 2026",
+    "asOfIs": "samkvæmt bráðabirgðatölum kosninganna 5. nóvember 2026",
+    "source": "https://www.caribbeannationalweekly.com/posts/grenadas-ndc-wins-historic-second-consecutive-term-with-14-seats"
+  },
+  "lastElection": {
+    "date": "2026-11-05",
+    "type": "General election (snap)",
+    "typeIs": "Þingkosningar (snemmbúnar)",
+    "outcome": "The NDC of Prime Minister Dickon Mitchell won 14 of 15 seats with 61% of valid votes (37,369), against one seat and 36.84% (22,567) for the NNP, and the Democratic People's Movement took 1.94% (1,189). Turnout was 63.3%. The figures are provisional, with all 282 polling divisions reporting, pending an official recount.",
+    "outcomeIs": "NDC, flokkur Dickons Mitchell forsætisráðherra, fékk 14 af 15 þingsætum með 61% gildra atkvæða (37.369) en NNP eitt sæti og 36,84% (22.567) og Democratic People's Movement 1,94% (1.189). Kjörsókn var 63,3%. Tölurnar eru bráðabirgðatölur úr öllum 282 kjördeildum og opinber endurtalning er eftir.",
+    "winner": "National Democratic Congress (Dickon Mitchell)",
+    "winnerIs": "National Democratic Congress (Dickon Mitchell)",
+    "result": "incumbent"
   }
 }
