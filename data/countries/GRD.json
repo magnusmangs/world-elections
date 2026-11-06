@@ -7,8 +7,8 @@
   "elections": [],
   "leaders": "Prime Minister Dickon Mitchell (NDC)",
   "leadersIs": "Dickon Mitchell forsætisráðherra (NDC)",
-  "summary": "Prime Minister Dickon Mitchell's NDC won a second consecutive term on 5 November, the party's first back-to-back general election win, taking 14 of 15 seats with 61% of the vote in provisional results. The NNP kept one seat, St George North West, won by Adrian Joseph. An official recount by the Parliamentary Elections Office is still to come.",
-  "summaryIs": "NDC, flokkur Dickons Mitchell forsætisráðherra, vann annað kjörtímabilið í röð 5. nóvember og er það í fyrsta sinn sem flokkurinn vinnur tvennar þingkosningar í röð. Samkvæmt bráðabirgðatölum fékk hann 14 af 15 þingsætum og 61% atkvæða. NNP hélt einu sæti, St George North West, sem Adrian Joseph vann. Opinber endurtalning kjörstjórnar er eftir.",
+  "summary": "Prime Minister Dickon Mitchell's NDC won a second consecutive term on 5 November, the party's first back-to-back general election win, taking 14 of 15 seats with 61% of the vote in provisional results. The NNP kept one seat, St George North West, won by Adrian Joseph. An official recount by the Parliamentary Elections Office is still to come. NNP leader Emmalin Pierre lost St Andrew South East to David Andrew, and Peter David lost St George's Town, on preliminary results.",
+  "summaryIs": "NDC, flokkur Dickons Mitchell forsætisráðherra, vann annað kjörtímabilið í röð 5. nóvember og er það í fyrsta sinn sem flokkurinn vinnur tvennar þingkosningar í röð. Samkvæmt bráðabirgðatölum fékk hann 14 af 15 þingsætum og 61% atkvæða. NNP hélt einu sæti, St George North West, sem Adrian Joseph vann. Opinber endurtalning kjörstjórnar er eftir. Emmalin Pierre, leiðtogi NNP, tapaði St Andrew South East fyrir David Andrew og Peter David tapaði St George's Town samkvæmt bráðabirgðatölum.",
   "parties": [
     {
       "name": "National Democratic Congress",
@@ -98,7 +98,8 @@
     "https://www.caribbeannationalweekly.com/posts/oas-to-observe-grenadas-november-5-general-elections",
     "https://www.thenewtodaygrenada.com/local-news/high-court-clears-the-way-for-general-election/",
     "https://www.caribbeannationalweekly.com/posts/grenadas-ndc-wins-historic-second-consecutive-term-with-14-seats",
-    "https://www.stvincenttimes.com/mitchells-ndc-wins-14-of-15-seats-in-grenada-election/"
+    "https://www.stvincenttimes.com/mitchells-ndc-wins-14-of-15-seats-in-grenada-election/",
+    "https://jamaica-gleaner.com/article/world-news/20261106/pm-mitchell-leads-ndc-historic-victory-grenada"
   ],
   "chamber": {
     "name": "House of Representatives",
