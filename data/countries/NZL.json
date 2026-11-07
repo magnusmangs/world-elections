@@ -3,21 +3,12 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-11-06",
-  "elections": [
-    {
-      "date": "2026-11-07",
-      "dateStatus": "confirmed",
-      "type": "General election",
-      "typeIs": "Þingkosningar",
-      "note": "120 seats, mixed-member proportional (MMP).",
-      "noteIs": "120 þingsæti, blandað hlutfallskosningakerfi (MMP)."
-    }
-  ],
+  "lastReviewed": "2026-11-07",
+  "elections": [],
   "leaders": "Prime Minister Christopher Luxon (National)",
   "leadersIs": "Christopher Luxon forsætisráðherra (Þjóðarflokkurinn)",
-  "summary": "The National, ACT and NZ First coalition seeks a second term against a Labour-led opposition, with The Opportunity Party polling above the 5% threshold. The final 1News Verian poll (29 October–2 November) has National on 29.5% and Labour on 28.8%, with the coalition three seats short of a majority and Opportunity holding the balance, while The Post/Freshwater Strategy (29 October–3 November) has Labour on 30.7%, National on 26.4% and Opportunity on 5.1%, and RNZ-Reid Research (20–26 October) had Labour on 30.6% and National on 24.8%. More than a million people have already voted.",
-  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First sækist eftir öðru kjörtímabili gegn stjórnarandstöðu undir forystu Verkamannaflokksins og The Opportunity Party mælist yfir 5% þröskuldinum. Í síðustu könnun 1News Verian (29. október–2. nóvember) er Þjóðarflokkurinn með 29,5% og Verkamannaflokkurinn 28,8%, stjórnina vantar þrjú sæti í meirihluta og Opportunity ræður úrslitum, en hjá The Post/Freshwater Strategy (29. október–3. nóvember) er Verkamannaflokkurinn með 30,7%, Þjóðarflokkurinn 26,4% og Opportunity 5,1%, og hjá RNZ-Reid Research (20.–26. október) var Verkamannaflokkurinn með 30,6% og Þjóðarflokkurinn 24,8%. Yfir milljón manns hefur þegar kosið.",
+  "summary": "The National, ACT and NZ First coalition led the election-night count on 7 November with 66 of 129 seats, one above a majority, according to AP with more than 80% counted. Luxon said National was again the largest party but the race was too close to call, and Hipkins did not concede. The Opportunity Party entered parliament with 7 seats; Luxon has ruled out working with it. Special votes could still shift the outcome before official results on 27 November.",
+  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First var með 66 af 129 þingsætum, einu sæti yfir meirihluta, á kosninganótt 7. nóvember samkvæmt AP þegar yfir 80% atkvæða höfðu verið talin. Luxon sagði Þjóðarflokkinn aftur stærstan en of mjótt á munum til að skera úr, og Hipkins viðurkenndi ekki ósigur. The Opportunity Party náði 7 þingsætum; Luxon hefur útilokað samstarf við flokkinn. Sérstök atkvæði gætu enn breytt niðurstöðunni áður en opinber úrslit liggja fyrir 27. nóvember.",
   "parties": [
     {
       "name": "National Party",
@@ -29,10 +20,8 @@
       "ideology": "Conservatism, liberal conservatism",
       "ideologyIs": "Íhaldsstefna, frjálslynd íhaldsstefna",
       "inGovernment": true,
-      "lastResult": "38.1%, 48 seats (2023)",
-      "lastResultIs": "38,1%, 48 þingsæti (2023)",
-      "polling": "29.5% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "29,5% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "41 seats (2026, election-night count)",
+      "lastResultIs": "41 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Raise default KiwiSaver contributions from 3% to 6% by 2032",
         "Make KiwiSaver compulsory and auto-enrol newborns",
@@ -47,8 +36,7 @@
         "Afnema refsimildun vegna góðrar fyrri hegðunar í kynferðisbrotamálum",
         "100 daga áætlun: launað fæðingarorlof lengt í 27 vikur frá júlí 2027 og afborganir námslána lækkaðar úr 12 í 10 sent"
       ],
-      "seats": 48,
-      "pollValue": 29.5,
+      "seats": 41,
       "color": "#00529f"
     },
     {
@@ -61,10 +49,8 @@
       "ideology": "Social democracy",
       "ideologyIs": "Jafnaðarstefna",
       "inGovernment": false,
-      "lastResult": "26.9%, 34 seats (2023)",
-      "lastResultIs": "26,9%, 34 þingsæti (2023)",
-      "polling": "28.8% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "28,8% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "35 seats (2026, election-night count)",
+      "lastResultIs": "35 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Repeal the Regulatory Standards Act within 100 days",
         "Cap public transport fares at $20 a week in major cities",
@@ -79,8 +65,7 @@
         "Banna sýndarafslætti og banna síma-, net- og tryggingafélögum að rukka langtímaviðskiptavini meira en nýja",
         "Fjármagnstekjuskattur á fasteignir, þar á meðal hjá leigusölum, til að fjármagna ódýrari heimilislæknaþjónustu"
       ],
-      "seats": 34,
-      "pollValue": 28.8,
+      "seats": 35,
       "color": "#d82a20"
     },
     {
@@ -93,10 +78,8 @@
       "ideology": "Green politics",
       "ideologyIs": "Græn stjórnmál",
       "inGovernment": false,
-      "lastResult": "11.6%, 15 seats (2023)",
-      "lastResultIs": "11,6%, 15 þingsæti (2023)",
-      "polling": "16.4% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "16,4% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "16 seats (2026, election-night count)",
+      "lastResultIs": "16 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Wealth tax, inheritance tax and higher corporate tax",
         "Build 40,000 social homes in five years",
@@ -111,8 +94,7 @@
         "Víðtæk rafvæðing og endurnýjanleg orka",
         "Afnema sérstök lægri laun fyrir starfsnema og fjármagna þjálfun á vegum Maóra og Kyrrahafseyjabúa"
       ],
-      "seats": 15,
-      "pollValue": 16.4,
+      "seats": 16,
       "color": "#098137"
     },
     {
@@ -124,10 +106,8 @@
       "ideology": "Classical liberalism, libertarianism",
       "ideologyIs": "Klassísk frjálslyndisstefna, frjálshyggja",
       "inGovernment": true,
-      "lastResult": "8.6%, 11 seats (2023)",
-      "lastResultIs": "8,6%, 11 þingsæti (2023)",
-      "polling": "10.0% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "10,0% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "13 seats (2026, election-night count)",
+      "lastResultIs": "13 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Cut government spending and merge ministries",
         "Deport serious non-citizen offenders",
@@ -142,8 +122,7 @@
         "Aðskilin losunarmarkmið fyrir metan og aðrar gróðurhúsalofttegundir",
         "400 milljónir dala á fjórum árum til að halda í heimilislækna og laða að erlenda lækna"
       ],
-      "seats": 11,
-      "pollValue": 10.0,
+      "seats": 13,
       "color": "#fdd600"
     },
     {
@@ -155,10 +134,8 @@
       "ideology": "Nationalism, populism",
       "ideologyIs": "Þjóðernishyggja, popúlismi",
       "inGovernment": true,
-      "lastResult": "6.1%, 8 seats (2023)",
-      "lastResultIs": "6,1%, 8 þingsæti (2023)",
-      "polling": "8.4% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "8,4% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "12 seats (2026, election-night count)",
+      "lastResultIs": "12 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Break up energy companies to cut power prices",
         "Split Foodstuffs into two nationwide cooperatives to compete with Woolworths",
@@ -173,8 +150,7 @@
         "Þjóðaratkvæðagreiðsla um sérstök kjördæmi Maóra",
         "Banna almenna sölu og einkanotkun flugelda"
       ],
-      "seats": 8,
-      "pollValue": 8.4,
+      "seats": 12,
       "color": "#000000"
     },
     {
@@ -186,10 +162,8 @@
       "ideology": "Māori rights, tino rangatiratanga",
       "ideologyIs": "Réttindi Maóra, tino rangatiratanga (sjálfsákvörðunarréttur)",
       "inGovernment": false,
-      "lastResult": "3.1%, 6 seats (2023)",
-      "lastResultIs": "3,1%, 6 þingsæti (2023)",
-      "polling": "0.4% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "0,4% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "5 seats (2026, election-night count)",
+      "lastResultIs": "5 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Abolish prisons by 2040 in favour of community solutions",
         "Parliamentary Commissioner for Te Tiriti with veto powers",
@@ -200,8 +174,7 @@
         "Sérstakur umboðsmaður þingsins fyrir Te Tiriti (Waitangi-sáttmálann) með neitunarvald",
         "Bjóða fram bæði í almennum kjördæmum og kjördæmum Maóra"
       ],
-      "seats": 4,
-      "pollValue": 0.4,
+      "seats": 5,
       "color": "#b2001a"
     },
     {
@@ -213,10 +186,8 @@
       "ideology": "Radical centrism",
       "ideologyIs": "Róttæk miðjustefna",
       "inGovernment": false,
-      "lastResult": "2.2%, 0 seats (2023)",
-      "lastResultIs": "2,2%, 0 þingsæti (2023)",
-      "polling": "6.2% (1News Verian, 29 Oct–2 Nov 2026)",
-      "pollingIs": "6,2% (1News Verian, 29. okt.–2. nóv. 2026)",
+      "lastResult": "7 seats (2026, election-night count)",
+      "lastResultIs": "7 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Replace welfare with a means-tested citizen's income",
         "Land value tax to bring down house prices",
@@ -227,8 +198,8 @@
         "Skattur á landverð til að lækka húsnæðisverð",
         "Borgaraþing um stór málefni"
       ],
-      "pollValue": 6.2,
-      "color": "#32dac3"
+      "color": "#32dac3",
+      "seats": 7
     }
   ],
   "sources": [
@@ -239,24 +210,26 @@
     "https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/new-zealand-early-voting-surges-ahead-of-november-7-election",
     "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/",
     "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/",
-    "https://thespinoff.co.nz/politics/06-11-2026/four-final-polls-and-the-tiny-margins-that-could-decide-the-result"
+    "https://thespinoff.co.nz/politics/06-11-2026/four-final-polls-and-the-tiny-margins-that-could-decide-the-result",
+    "https://www.irishnews.com/news/world/conservative-bloc-takes-slim-lead-in-too-close-to-call-new-zealand-election-HWMZ4LED4JIOTHRUNMG6FOY3SA/"
   ],
   "chamber": {
     "name": "House of Representatives",
     "nameIs": "þingið",
-    "seats": 123,
-    "majority": 62,
-    "source": "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament",
-    "asOf": "at dissolution, October 2026 (Papakura vacant, two others outside the listed parties)",
-    "asOfIs": "við þingrof í október 2026 (Papakura autt, tveir þingmenn utan flokkanna sem taldir eru upp)"
+    "seats": 129,
+    "majority": 65,
+    "source": "https://www.irishnews.com/news/world/conservative-bloc-takes-slim-lead-in-too-close-to-call-new-zealand-election-HWMZ4LED4JIOTHRUNMG6FOY3SA/",
+    "asOf": "election-night count, 7 November 2026 (AP, over 80% counted; special votes pending)",
+    "asOfIs": "talning á kosninganótt 7. nóvember 2026 (AP, yfir 80% talin; sérstök atkvæði eftir)"
   },
-  "poll": {
-    "unit": "percent",
-    "date": "2026-11-02",
-    "pollster": "1News Verian (fieldwork 29 Oct–2 Nov 2026, 1,006 voters)",
-    "pollsterIs": "1News Verian (könnun gerð 29. okt.–2. nóv. 2026, 1.006 kjósendur)",
-    "url": "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/",
-    "note": "Undecided 9%. Seat estimate in a 121-seat parliament: coalition 58, Labour, Greens and Te Pāti Māori 56 or 60 depending on the Māori seats, Opportunity 7.",
-    "noteIs": "Óákveðnir 9%. Áætluð þingsæti á 121 sætis þingi: stjórnarflokkarnir 58, Verkamannaflokkurinn, Græningjar og Te Pāti Māori 56 eða 60 eftir Māori-sætum, Opportunity 7."
+  "lastElection": {
+    "date": "2026-11-07",
+    "type": "General election",
+    "typeIs": "Þingkosningar",
+    "winner": "National Party (Christopher Luxon), largest party",
+    "winnerIs": "Þjóðarflokkurinn (Christopher Luxon), stærsti flokkurinn",
+    "result": "incumbent",
+    "outcome": "Election-night count with over 80% counted (AP): National 41 seats, Labour 35, Greens 16, ACT 13, NZ First 12, Opportunity 7 and Te Pāti Māori 5 in a 129-seat parliament with overhang. The National, ACT and NZ First coalition has 66 seats, one more than the 65 needed, against 56 for Labour, the Greens and Te Pāti Māori. Special votes, which have tended to favour the left, are still to be counted, and official results are due on 27 November.",
+    "outcomeIs": "Á kosninganótt, þegar yfir 80% atkvæða höfðu verið talin (AP), var Þjóðarflokkurinn með 41 þingsæti, Verkamannaflokkurinn 35, Græningjar 16, ACT 13, NZ First 12, Opportunity 7 og Te Pāti Māori 5 á 129 sæta þingi með uppbótarsætum (overhang). Stjórnarflokkarnir Þjóðarflokkurinn, ACT og NZ First eru með 66 sæti, einu meira en þau 65 sem þarf, gegn 56 hjá Verkamannaflokknum, Græningjum og Te Pāti Māori. Eftir er að telja sérstök atkvæði, sem hafa oft hallað til vinstri, og opinber úrslit eiga að liggja fyrir 27. nóvember."
   }
 }

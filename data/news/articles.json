@@ -2,6 +2,34 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "nzl-2026-11-07-irishnews-ap-coalition-lead",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-11-07",
+   "added": "2026-11-07",
+   "titleIs": "Stjórnarflokkarnir á Nýja-Sjálandi með eins sætis meirihluta á kosninganótt",
+   "summaryIs": "Þegar yfir 80% atkvæða höfðu verið talin var stjórn Þjóðarflokksins, ACT og NZ First með 66 af 129 sætum, en 65 þarf í meirihluta. Verkamannaflokkurinn, Græningjar og Te Pāti Māori voru með 56 og Opportunity 7. Luxon sagði of mjótt á munum til að skera úr, Hipkins viðurkenndi ekki ósigur og opinber úrslit með sérstökum atkvæðum koma 27. nóvember.",
+   "titleEn": "New Zealand's governing coalition holds a one-seat majority on election night",
+   "summaryEn": "With more than 80% counted, the National, ACT and NZ First coalition had 66 of 129 seats, with 65 needed for a majority. Labour, the Greens and Te Pāti Māori had 56 and Opportunity 7. Luxon said the race was too close to call, Hipkins did not concede, and official results including special votes are due on 27 November.",
+   "source": "The Irish News (AP)",
+   "url": "https://www.irishnews.com/news/world/conservative-bloc-takes-slim-lead-in-too-close-to-call-new-zealand-election-HWMZ4LED4JIOTHRUNMG6FOY3SA/",
+   "basis": "article"
+  },
+  {
+   "id": "nzl-2026-11-07-abc-opportunity-wong",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-11-07",
+   "added": "2026-11-07",
+   "titleIs": "Opportunity á leið inn á þing og Wong segir stuðning háðan skilyrðum flokksins",
+   "summaryIs": "Opportunity mældist með um 5,4% í talningunni og stefnir á þing í fyrsta sinn, þó leiðtoginn Qiulae Wong sé fjórða í kjördæmi sínu, Mount Albert. Wong sagði að stuðningur við Luxon færi alfarið eftir því hvort skilyrði flokksins yrðu uppfyllt. Luxon hefur útilokað samstarf við flokkinn en Hipkins er opinn fyrir því, án þess að styðja nýjan skatt hans.",
+   "titleEn": "Opportunity heads into parliament, and Wong says support depends on its bottom lines",
+   "summaryEn": "Opportunity was on about 5.4% in the count and set to enter parliament for the first time, even though leader Qiulae Wong was fourth in her Mount Albert electorate. Wong said backing Luxon would depend entirely on whether the party's bottom lines were met. Luxon has ruled out working with the party, while Hipkins is open to it but would not back its new tax.",
+   "source": "ABC Australia",
+   "url": "https://www.abc.net.au/news/2026-11-07/nz-election-2026-live-blog/107355448",
+   "basis": "article"
+  },
+  {
    "id": "nzl-2026-11-07-spinoff-first-results",
    "section": "kosningar",
    "iso3": "NZL",
