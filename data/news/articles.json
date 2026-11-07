@@ -2,6 +2,48 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "nzl-2026-11-07-spinoff-first-results",
+   "section": "kosningar",
+   "iso3": "NZL",
+   "published": "2026-11-07",
+   "added": "2026-11-07",
+   "titleIs": "Fyrstu tölur á Nýja-Sjálandi: Þjóðarflokkurinn naumlega á undan og Opportunity yfir 5%",
+   "summaryIs": "Kjörstöðum var lokað klukkan 19 og þegar 1,1% atkvæða hafði verið talið var Þjóðarflokkurinn með 30,8%, Verkamannaflokkurinn 29,9%, Græningjar 12,3%, ACT 11,1%, NZ First 9,3% og Opportunity 5,7%. Opportunity hefur aldrei áður farið yfir 5% þröskuldinn. Tölurnar eru mjög snemmbúnar og opinber úrslit eru væntanleg 27. nóvember.",
+   "titleEn": "First New Zealand results: National narrowly ahead and Opportunity above 5%",
+   "summaryEn": "Polls closed at 7pm, and with 1.1% of votes counted National had 30.8%, Labour 29.9%, the Greens 12.3%, ACT 11.1%, NZ First 9.3% and Opportunity 5.7%. Opportunity has never before cleared the 5% threshold. The figures are very early, and official results are due on 27 November.",
+   "source": "The Spinoff",
+   "url": "https://thespinoff.co.nz/politics/07-11-2026/election-2026-live-updates-all-the-action-as-it-happens",
+   "basis": "article"
+  },
+  {
+   "id": "cpv-2026-11-06-balai-loisito-uniao",
+   "section": "kosningar",
+   "iso3": "CPV",
+   "published": "2026-11-06",
+   "added": "2026-11-07",
+   "titleIs": "Loisito Sousa kallar eftir samstöðu og segir framboð sitt hreint",
+   "summaryIs": "Loisito Sousa hitti kjósendur í Praia á fimmtudag og hvatti Grænhöfðeyinga til að sameinast og leggja deilur til hliðar. Hann sagði framboð sitt hreint og besta kostinn fyrir landið. Forseti ætti að hans mati að vera nálægt borgurunum og beita áhrifum sínum til að efla samtal stofnana.",
+   "titleEn": "Loisito Sousa calls for unity and describes his candidacy as clean",
+   "summaryEn": "Loisito Sousa met voters in Praia on Thursday and urged Cabo Verdeans to unite and set divisions aside. He called his candidacy clean and the best option for the country. In his view a president should stay close to citizens and use influence to foster dialogue between institutions.",
+   "source": "Balai (Inforpress)",
+   "url": "https://www.balai.cv/noticias/atualidade/presidenciais-2026-loisito-sousa-pede-uniao-dos-cabo-verdianos-e-confianca-no-seu-projecto-presidencial/",
+   "basis": "article"
+  },
+  {
+   "id": "cpv-2026-11-04-balai-joana-rosa-unir",
+   "section": "kosningar",
+   "iso3": "CPV",
+   "published": "2026-11-04",
+   "added": "2026-11-07",
+   "titleIs": "Joana Rosa vill sameina landið og virða stjórnarskrárbundin mörk forsetans",
+   "summaryIs": "Eftir kosningaferð til Boa Vista sagðist Joana Rosa vilja verða forseti sem sameinar þjóðina. Hún kvaðst myndu vinna með ríkisstjórninni en fylgjast vel með áhyggjum almennings. Forsetinn eigi ekki að setja sig í dómarasæti heldur virða mörk stjórnarskrárinnar og eiga samtal við flokka og borgaralegt samfélag.",
+   "titleEn": "Joana Rosa wants to unite the country and respect the president's constitutional limits",
+   "summaryEn": "After a campaign visit to Boa Vista, Joana Rosa said she wants to be a president who brings the nation together. She would cooperate with the government while staying alert to public concerns. A president should not act as a judge, she said, but respect constitutional limits and hold dialogue with parties and civil society.",
+   "source": "Balai (Inforpress)",
+   "url": "https://www.balai.cv/noticias/atualidade/presidenciais-2026-joana-rosa-quer-ser-uma-presidente-que-faz-diferente-e-une-o-pais/",
+   "basis": "article"
+  },
+  {
    "id": "usa-2026-11-06-mfp-colom-2010",
    "section": "kosningar",
    "iso3": "USA",
