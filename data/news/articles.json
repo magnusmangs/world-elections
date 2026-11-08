@@ -2,6 +2,34 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "esp-2026-11-07-infobae-abascal-guadalajara",
+   "iso3": "ESP",
+   "published": "2026-11-07",
+   "titleIs": "Abascal hvetur stuðningsmenn Vox í Guadalajara til að fjölmenna á kjörstað og varar við sjálfsánægju",
+   "summaryIs": "Santiago Abascal, leiðtogi Vox, bauð upp á djúpstæða en rólega breytingu á fundi í Guadalajara sem lögregla taldi um 2.500 manns sækja. Hann hafnaði því að Vox vilji skerða eftirlaun og lofaði ungu fólki betri launum og húsnæði. Hann bað stuðningsmenn að treysta ekki könnunum og gagnrýndi stjórn Sánchez fyrir spillingu, biðlista og innflytjendastefnu.",
+   "titleEn": "Abascal urges Vox supporters in Guadalajara to turn out in force and warns against complacency",
+   "summaryEn": "Vox leader Santiago Abascal offered a deep but calm change at a rally in Guadalajara that local police put at about 2,500 people. He denied that Vox wants to cut pensions and promised young people better wages and housing. He told supporters not to trust the polls and attacked the Sánchez government over corruption, waiting lists and migration policy.",
+   "source": "Infobae (Europa Press)",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/07/abascal-apela-a-la-movilizacion-masiva-ofrece-un-cambio-profundo-y-tranquilo-y-pide-a-los-suyos-no-confiarse/",
+   "section": "kosningar",
+   "added": "2026-11-08",
+   "basis": "article"
+  },
+  {
+   "id": "cpv-2026-11-04-balai-rosa-sal",
+   "iso3": "CPV",
+   "published": "2026-11-04",
+   "titleIs": "Joana Rosa biður kjósendur á Sal að gefa sitjandi forseta rauða spjaldið 15. nóvember",
+   "summaryIs": "Á kosningafundi í Espargos á eyjunni Sal sagði Joana Rosa að frammistaða José Maria Neves síðustu fimm ár verðskuldaði falleinkunn. Hún gagnrýndi hann fyrir veikt eftirlit með stofnunum og nefndi kjörstjórnina, persónuverndarnefndina og umboðsmann sem dæmi um stofnanir með útrunnið umboð. Hún vill óháðan forseta sem stuðlar að samstöðu milli flokka.",
+   "titleEn": "Joana Rosa asks voters on Sal to show the incumbent president a red card on 15 November",
+   "summaryEn": "At a rally in Espargos on Sal island, Joana Rosa said José Maria Neves's record over the past five years deserved a failing mark. She criticised him for weak oversight of institutions, citing the election commission, the data protection commission and the ombudsman as bodies with expired mandates. She wants an independent president who builds consensus between parties.",
+   "source": "Balai (Inforpress)",
+   "url": "https://www.balai.cv/noticias/atualidade/presidenciais-2026-joana-rosa-chega-a-ilha-do-sal-a-pedir-cartao-vermelho-para-presidente-cessante/",
+   "section": "kosningar",
+   "added": "2026-11-08",
+   "basis": "article"
+  },
+  {
    "id": "nzl-2026-11-08-rte-afp-mandate",
    "iso3": "NZL",
    "published": "2026-11-08",
