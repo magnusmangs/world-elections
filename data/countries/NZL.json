@@ -3,12 +3,12 @@
   "isoNumeric": "554",
   "name": "New Zealand",
   "nameIs": "Nýja-Sjáland",
-  "lastReviewed": "2026-11-07",
+  "lastReviewed": "2026-11-09",
   "elections": [],
   "leaders": "Prime Minister Christopher Luxon (National)",
   "leadersIs": "Christopher Luxon forsætisráðherra (Þjóðarflokkurinn)",
-  "summary": "The National, ACT and NZ First coalition led the election-night count on 7 November with 66 of 129 seats, one above a majority, according to AP with more than 80% counted. Luxon said National was again the largest party but the race was too close to call, and Hipkins did not concede. The Opportunity Party entered parliament with 7 seats; Luxon has ruled out working with it. Special votes could still shift the outcome before official results on 27 November.",
-  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First var með 66 af 129 þingsætum, einu sæti yfir meirihluta, á kosninganótt 7. nóvember samkvæmt AP þegar yfir 80% atkvæða höfðu verið talin. Luxon sagði Þjóðarflokkinn aftur stærstan en of mjótt á munum til að skera úr, og Hipkins viðurkenndi ekki ósigur. The Opportunity Party náði 7 þingsætum; Luxon hefur útilokað samstarf við flokkinn. Sérstök atkvæði gætu enn breytt niðurstöðunni áður en opinber úrslit liggja fyrir 27. nóvember.",
+  "summary": "The National, ACT and NZ First coalition led the election-night count on 7 November with 67 of 130 seats, one above a majority, once nearly all votes were counted, including a 10-seat overhang (1News, interest.co.nz). Luxon said National was again the largest party but the race was too close to call, and Hipkins did not concede. The Opportunity Party entered parliament with 7 seats; Luxon has ruled out working with it. Special votes could still shift the outcome before official results on 27 November.",
+  "summaryIs": "Samsteypustjórn Þjóðarflokksins, ACT og NZ First var með 67 af 130 þingsætum, einu sæti yfir meirihluta, á kosninganótt 7. nóvember þegar nær öll atkvæði höfðu verið talin, að meðtöldum 10 uppbótarsætum (overhang) (1News, interest.co.nz). Luxon sagði Þjóðarflokkinn aftur stærstan en of mjótt á munum til að skera úr, og Hipkins viðurkenndi ekki ósigur. The Opportunity Party náði 7 þingsætum; Luxon hefur útilokað samstarf við flokkinn. Sérstök atkvæði gætu enn breytt niðurstöðunni áður en opinber úrslit liggja fyrir 27. nóvember.",
   "parties": [
     {
       "name": "National Party",
@@ -20,8 +20,8 @@
       "ideology": "Conservatism, liberal conservatism",
       "ideologyIs": "Íhaldsstefna, frjálslynd íhaldsstefna",
       "inGovernment": true,
-      "lastResult": "41 seats (2026, election-night count)",
-      "lastResultIs": "41 þingsæti (2026, talning á kosninganótt)",
+      "lastResult": "42 seats (2026, election-night count)",
+      "lastResultIs": "42 þingsæti (2026, talning á kosninganótt)",
       "policies": [
         "Raise default KiwiSaver contributions from 3% to 6% by 2032",
         "Make KiwiSaver compulsory and auto-enrol newborns",
@@ -36,7 +36,7 @@
         "Afnema refsimildun vegna góðrar fyrri hegðunar í kynferðisbrotamálum",
         "100 daga áætlun: launað fæðingarorlof lengt í 27 vikur frá júlí 2027 og afborganir námslána lækkaðar úr 12 í 10 sent"
       ],
-      "seats": 41,
+      "seats": 42,
       "color": "#00529f"
     },
     {
@@ -211,16 +211,18 @@
     "https://www.1news.co.nz/2026/10/27/poll-coalition-has-path-to-power-but-labour-steady-after-gangs-row/",
     "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/",
     "https://thespinoff.co.nz/politics/06-11-2026/four-final-polls-and-the-tiny-margins-that-could-decide-the-result",
-    "https://www.irishnews.com/news/world/conservative-bloc-takes-slim-lead-in-too-close-to-call-new-zealand-election-HWMZ4LED4JIOTHRUNMG6FOY3SA/"
+    "https://www.irishnews.com/news/world/conservative-bloc-takes-slim-lead-in-too-close-to-call-new-zealand-election-HWMZ4LED4JIOTHRUNMG6FOY3SA/",
+    "https://www.1news.co.nz/2026/11/08/coalition-talks-kiwis-warned-of-fairly-frustrating-time-ahead/",
+    "https://www.interest.co.nz/public-policy/140986/nz-election-2026-live-results-commentary-and-updates-campaign-events-around"
   ],
   "chamber": {
     "name": "House of Representatives",
     "nameIs": "þingið",
-    "seats": 129,
-    "majority": 65,
-    "source": "https://www.irishnews.com/news/world/conservative-bloc-takes-slim-lead-in-too-close-to-call-new-zealand-election-HWMZ4LED4JIOTHRUNMG6FOY3SA/",
-    "asOf": "election-night count, 7 November 2026 (AP, over 80% counted; special votes pending)",
-    "asOfIs": "talning á kosninganótt 7. nóvember 2026 (AP, yfir 80% talin; sérstök atkvæði eftir)"
+    "seats": 130,
+    "majority": 66,
+    "source": "https://www.1news.co.nz/2026/11/08/coalition-talks-kiwis-warned-of-fairly-frustrating-time-ahead/",
+    "asOf": "election-night count, 7 November 2026 (nearly all votes counted; 10-seat overhang; special votes pending)",
+    "asOfIs": "talning á kosninganótt 7. nóvember 2026 (nær öll atkvæði talin; 10 uppbótarsæti; sérstök atkvæði eftir)"
   },
   "lastElection": {
     "date": "2026-11-07",
@@ -229,7 +231,7 @@
     "winner": "National Party (Christopher Luxon), largest party",
     "winnerIs": "Þjóðarflokkurinn (Christopher Luxon), stærsti flokkurinn",
     "result": "incumbent",
-    "outcome": "Election-night count with over 80% counted (AP): National 41 seats, Labour 35, Greens 16, ACT 13, NZ First 12, Opportunity 7 and Te Pāti Māori 5 in a 129-seat parliament with overhang. The National, ACT and NZ First coalition has 66 seats, one more than the 65 needed, against 56 for Labour, the Greens and Te Pāti Māori. Special votes, which have tended to favour the left, are still to be counted, and official results are due on 27 November.",
-    "outcomeIs": "Á kosninganótt, þegar yfir 80% atkvæða höfðu verið talin (AP), var Þjóðarflokkurinn með 41 þingsæti, Verkamannaflokkurinn 35, Græningjar 16, ACT 13, NZ First 12, Opportunity 7 og Te Pāti Māori 5 á 129 sæta þingi með uppbótarsætum (overhang). Stjórnarflokkarnir Þjóðarflokkurinn, ACT og NZ First eru með 66 sæti, einu meira en þau 65 sem þarf, gegn 56 hjá Verkamannaflokknum, Græningjum og Te Pāti Māori. Eftir er að telja sérstök atkvæði, sem hafa oft hallað til vinstri, og opinber úrslit eiga að liggja fyrir 27. nóvember."
+    "outcome": "Election-night count with nearly all votes counted (1News, interest.co.nz): National 42 seats, Labour 35, Greens 16, ACT 13, NZ First 12, Opportunity 7 and Te Pāti Māori 5 in a 130-seat parliament with a 10-seat overhang. The National, ACT and NZ First coalition has 67 seats, one more than the 66 needed, against 63 for Labour, the Greens, Opportunity and Te Pāti Māori. Special votes, which have tended to favour the left, are still to be counted, and official results are due on 27 November.",
+    "outcomeIs": "Á kosninganótt, þegar nær öll atkvæði höfðu verið talin (1News, interest.co.nz), var Þjóðarflokkurinn með 42 þingsæti, Verkamannaflokkurinn 35, Græningjar 16, ACT 13, NZ First 12, Opportunity 7 og Te Pāti Māori 5 á 130 sæta þingi með 10 uppbótarsætum (overhang). Stjórnarflokkarnir Þjóðarflokkurinn, ACT og NZ First eru með 67 sæti, einu meira en þau 66 sem þarf, gegn 63 hjá Verkamannaflokknum, Græningjum, Opportunity og Te Pāti Māori. Eftir er að telja sérstök atkvæði, sem hafa oft hallað til vinstri, og opinber úrslit eiga að liggja fyrir 27. nóvember."
   }
 }
