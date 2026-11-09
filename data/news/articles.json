@@ -2,6 +2,34 @@
  "note": "Third-party news. Every item must rest on an article we opened and read (basis: article). Summaries are in our own Icelandic words with the outlet named and linked. Mark paywall: true when the article needs a subscription. Headline-only items are not allowed.",
  "items": [
   {
+   "id": "esp-2026-11-09-eldiario-frente-amplio-slogan",
+   "section": "kosningar",
+   "iso3": "ESP",
+   "published": "2026-11-09",
+   "added": "2026-11-09",
+   "titleIs": "Frente Amplio gengur til kosninga undir slagorðinu „Un voto como una casa“ og stefnir á 10% fylgi",
+   "summaryIs": "Kosningabandalagið Frente Amplio hefur valið slagorðið „Un voto como una casa“ (atkvæði eins og hús). Talsmaður þess, Pablo Bustinduy, segir kosningarnar 29. nóvember snúast um ójöfnuð og húsnæðismál og að kannanir vanmeti vinstrið. Fyrsti stóri fundurinn verður í Sevilla 14. nóvember og Ada Colau fer meðal annars til Zaragoza, València og Barcelona.",
+   "titleEn": "Frente Amplio campaigns under 'Un voto como una casa' and aims for 10% of the vote",
+   "summaryEn": "The Frente Amplio alliance has chosen the slogan 'Un voto como una casa' (a vote like a house). Spokesman Pablo Bustinduy says the 29 November election is about inequality and housing and that polls underestimate the left. Its first big rally is in Seville on 14 November, and Ada Colau will visit Zaragoza, València and Barcelona among other stops.",
+   "source": "elDiario.es",
+   "url": "https://www.eldiario.es/politica/voto-casa-sera-lema-campana-frente-amplio_1_13649510.html",
+   "basis": "article"
+  },
+  {
+   "id": "esp-2026-11-05-infobae-montero-podemos",
+   "section": "kosningar",
+   "iso3": "ESP",
+   "published": "2026-11-05",
+   "added": "2026-11-09",
+   "titleIs": "Irene Montero kynnir framboð Podemos og hafnar málflutningi PSOE um „nytsamlegt atkvæði“",
+   "summaryIs": "Irene Montero, forsætisráðherraefni Podemos, kynnti framboðið 5. nóvember og hvatti kjósendur til að kjósa það sem þeir trúa á frekar en taktískt. Hún lofaði lægri leigu, opinberri matvöruverslun, verðþaki á matvæli og hærri sköttum á auðmenn. Hún gagnrýndi fyrirhugaða 5,3% hækkun lágmarkslauna og slagorð flokksins er „Paz, casa, trabajo“.",
+   "titleEn": "Irene Montero launches the Podemos campaign and rejects PSOE's tactical-vote pitch",
+   "summaryEn": "Irene Montero, Podemos's candidate for prime minister, launched its campaign on 5 November and urged voters to back what they believe in rather than vote tactically. She promised lower rents, a public supermarket, a cap on food prices and higher taxes on the rich. She criticised the planned 5.3% minimum wage rise, and the party's slogan is 'Paz, casa, trabajo'.",
+   "source": "Infobae (EFE)",
+   "url": "https://www.infobae.com/espana/agencias/2026/11/05/irene-montero-reivindica-a-podemos-como-opcion-que-resuelve-problemas-frente-al-voto-util/",
+   "basis": "article"
+  },
+  {
    "id": "esp-2026-11-09-reuters-polls",
    "iso3": "ESP",
    "published": "2026-11-09",
